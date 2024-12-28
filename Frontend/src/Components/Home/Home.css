@@ -1,0 +1,39 @@
+.home-container {
+  width: 100%;
+}
+
+.home-header {
+  width: 70%;
+  background-image: linear-gradient(#dee2ff, #f9faff);
+  border-radius: 15px;
+  margin: 48px auto;
+  padding: 48px;
+}
+
+.home-header h1 {
+  font-size: 80px;
+  font-weight: 400;
+  margin-bottom: 32px;
+}
+
+.home-inner-div {
+  display: flex;
+  justify-content: space-between;
+  margin: 32px 0;
+}
+
+.home-inner-div h2 {
+  font-size: 32px;
+  font-weight: 100;
+}
+
+.home-inner-div button {
+  font-size: 20px;
+  padding: 16px;
+  border-radius: 50px;
+  background-color: white;
+}
+
+.home-inner-div button:hover {
+  background-color: #dee2ff;
+}
