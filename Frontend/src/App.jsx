@@ -5,6 +5,8 @@ import Navbar from "./Components/Navbar/Navbar";
 import Home from "./Components/Home/Home";
 import Footer from "./Components/Footer/Footer";
 import Registrationform from "./Components/RegistrationForm/RegistrationForm";
+import PrivacyPolicy from "./Components/PrivacyPolicy/PrivacyPolicy";
+import TermsOfService from "./Components/TermsOfService/TermsOfService";
 
 function App() {
   return (
@@ -13,7 +15,9 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/form" element={<Registrationform />} />
+          <Route path="/registration-form" element={<Registrationform />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+          <Route path="/terms-of-Service" element={<TermsOfService />} />
         </Routes>
         <Footer />
       </BrowserRouter>

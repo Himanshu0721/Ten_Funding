@@ -6,7 +6,7 @@ function Home() {
   const navigate = useNavigate();
 
   const handleButtonClick = () => {
-    navigate("/form");
+    navigate("/registration-form");
   };
 
   return (

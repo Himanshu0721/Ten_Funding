@@ -66,10 +66,10 @@ function Footer() {
           <h4>Legal</h4>
           <ul>
             <li>
-              <NavLink to="/">Privacy Policy</NavLink>
+              <NavLink to="/privacy-policy">Privacy Policy</NavLink>
             </li>
             <li>
-              <NavLink to="/">Terms of Service</NavLink>
+              <NavLink to="/terms-of-Service">Terms of Service</NavLink>
             </li>
           </ul>
         </div>
