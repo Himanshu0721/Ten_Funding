@@ -1,0 +1,51 @@
+.container{
+  text-align: left;
+  margin: 5% 20% 20%;}
+.header-logo img{
+  width: 10%;
+}
+.header-content h1{
+  font-size: 40px;
+}
+.header-content h3{
+  font-weight: 400;
+  font-size: 19px;
+}
+.header-content h4{
+  color: rgb(66, 66, 169);
+}
+.registration-form-content input{
+  border-radius: 5px;
+  padding: 8px;
+  width: 50%;
+  
+}
+.registration-form-content select{
+  border-radius: 5px;
+  padding: 10px;
+  width: 50%;
+  
+}
+.registration-form-content textarea{
+  border-radius: 5px;
+  padding: 0px 40px 40px 0px;
+  width: 100%;
+  
+}
+.registration-form-content button{
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  padding: 10px ;
+  
+  
+}
+.registration-form-content h2{
+  color: rgb(66, 66, 169);
+  font-size: 18px;
+}
+
+.table{
+  border: 1px solid black;
+  width: 100%;
+}
