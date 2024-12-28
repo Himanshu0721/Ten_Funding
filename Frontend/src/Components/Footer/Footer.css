@@ -35,6 +35,11 @@
   display: flex;
 }
 
+.footer-details a {
+  text-decoration: none;
+  color: black;
+}
+
 .last-div {
   width: 100%;
 }

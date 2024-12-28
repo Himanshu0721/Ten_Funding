@@ -1,5 +1,6 @@
 import React from "react";
 import "./Footer.css";
+import { NavLink } from "react-router-dom";
 
 function Footer() {
   return (
@@ -9,39 +10,73 @@ function Footer() {
         <div className="footer-details">
           <h4>For Startups</h4>
           <ul>
-            <li>Raise</li>
-            <li>Fundraising OS</li>
-            <li>Next Play</li>
-            <li>Spotlight</li>
+            <li>
+              <NavLink to="/">Raise</NavLink>
+            </li>
+            <li>
+              <NavLink to="/">Fundraising OS</NavLink>
+            </li>
+            <li>
+              <NavLink to="/">Next Play</NavLink>
+            </li>
+            <li>
+              <NavLink to="/">Spotlight</NavLink>
+            </li>
           </ul>
         </div>
         <div className="footer-details">
           <h4>For VCs</h4>
           <ul>
-            <li>VC Stack</li>
-            <li>Venture OS</li>
-            <li>Launchpad</li>
+            <li>
+              <NavLink to="/">VC Stack</NavLink>
+            </li>
+            <li>
+              <NavLink to="/">Venture OS</NavLink>
+            </li>
+            <li>
+              <NavLink to="/">Launchpad</NavLink>
+            </li>
           </ul>
         </div>
         <div className="footer-details">
           <h4>Company</h4>
           <ul>
-            <li>About IndianVC</li>
-            <li>Careers</li>
-            <li>Sitemap</li>
+            <li>
+              <NavLink
+                to="https://www.linkedin.com/company/the-entrepreneurship-network/posts/?feedView=all"
+                target="_blanck"
+              >
+                About IndianVC
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to="https://www.linkedin.com/company/the-entrepreneurship-network/posts/?feedView=all"
+                target="_blanck"
+              >
+                Careers
+              </NavLink>
+            </li>
+            <li>
+              <NavLink to="/">Sitemap</NavLink>
+            </li>
           </ul>
         </div>
         <div className="footer-details">
           <h4>Legal</h4>
           <ul>
-            <li>Privacy Policy</li>
-            <li>Terms of Service</li>
+            <li>
+              <NavLink to="/">Privacy Policy</NavLink>
+            </li>
+            <li>
+              <NavLink to="/">Terms of Service</NavLink>
+            </li>
           </ul>
         </div>
       </div>
       <div className="last-div">
         <hr />
-        <h6>Copyright 2024 Ten Funding Website</h6>
+        <h6>© 2024 Ten Funding Website</h6>
       </div>
     </div>
   );
