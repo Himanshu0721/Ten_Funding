@@ -46,7 +46,7 @@ function Footer() {
                 to="https://www.linkedin.com/company/the-entrepreneurship-network/posts/?feedView=all"
                 target="_blanck"
               >
-                About IndianVC
+                About TEN Funding
               </NavLink>
             </li>
             <li>
