@@ -25,26 +25,52 @@ const Navbar = () => {
   const startupMouseEnter = () => {
     setIssUpArrow(true);
     setIsStartupsOpen(true);
+    setIsvUpArrow(false);
+    setIsVCOpen(false);
+    setIsCompanyOpen(false);
   };
-  const startupMouseLeave = () => {
-    setIssUpArrow(false);
-    setIsStartupsOpen(false);
-  };
+  // const startupMouseLeave = () => {
+  //   setIssUpArrow(false);
+  //   setIsStartupsOpen(false);
+  // };
 
   const vchandleMouseEnter = () => {
+    setIsStartupsOpen(false);
+    setIsCompanyOpen(false);
+    setIssUpArrow(false);
     setIsvUpArrow(true);
     setIsVCOpen(true);
   };
-  const vchandleMouseLeave = () => {
-    setIsvUpArrow(false);
-    setIsVCOpen(false);
-  };
+ 
   const companyMouseEnter = () => {
+    setIsVCOpen(false);
+    setIsStartupsOpen(false);
+    setIssUpArrow(false);
+    setIsvUpArrow(false);
     setIscUpArrow(true);
     setIsCompanyOpen(true);
   };
 
-  const companyMouseLeave = () => {
+  const alldropdown = () => {
+    setIscUpArrow(false);
+    setIsCompanyOpen(false);
+    setIsvUpArrow(false);
+   setIsVCOpen(false);
+   setIssUpArrow(false);
+   setIsStartupsOpen(false);
+
+
+  };
+   const vcClick = () => {
+
+    setIsvUpArrow(false);
+    setIsVCOpen(false);
+  };
+  const startupClick = ()=>{
+    setIsStartupsOpen(false);
+    setIssUpArrow(false);
+  };
+  const companyClick = () => {
     setIscUpArrow(false);
     setIsCompanyOpen(false);
   };
@@ -55,7 +81,7 @@ const Navbar = () => {
           src="https://cdn.prod.website-files.com/66230c5ee8288ee065356a3e/66373de2f26ab797c8bc42b5_IndianVCs%20Full%20Logo.svg"
           alt="Logo"
         />
-        <span>MyApp</span>
+      
       </div>
       <button
         className="menu-toggle"
@@ -66,13 +92,14 @@ const Navbar = () => {
       </button>
       <ul className={`navbar-links ${isMenuOpen ? "open" : ""}`}>
         <li>
-          <a href="#raise">Raise</a>
+          <a href="#raise"
+          onMouseEnter={alldropdown}>Raise</a>
         </li>
         <li>
           <a
             href="#startup"
             onMouseEnter={startupMouseEnter}
-            onMouseLeave={startupMouseLeave}
+             onClick={startupClick}
             style={{
               cursor: "pointer",
               fontsize: "20px",
@@ -114,7 +141,7 @@ const Navbar = () => {
           <a
             href="#vchandle"
             onMouseEnter={vchandleMouseEnter}
-            onMouseLeave={vchandleMouseLeave}
+            onClick={vcClick}
             style={{
               cursor: "pointer",
               fontsize: "20px",
@@ -155,7 +182,7 @@ const Navbar = () => {
           <a
             href="#company"
             onMouseEnter={companyMouseEnter}
-            onMouseLeave={companyMouseLeave}
+            onClick={companyClick}
             style={{
               cursor: "pointer",
               fontsize: "20px",

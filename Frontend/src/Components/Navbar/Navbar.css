@@ -3,7 +3,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 40px;
+  padding: 10px 30px;
   background-color: #ffffff;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   width: 100%;
@@ -34,7 +34,7 @@
   text-decoration: none;
   color: #120202;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 16px;
 }
 .navbar-links li {
   padding: 20px 20px;
@@ -50,10 +50,11 @@
   display: none;
   background: none;
   border: none;
-  font-size: 24px;
+  font-size: 16px;
   cursor: pointer;
   color: black;
   padding-right: 50px;
+  
 }
 /* .menu-toggle::before,
   .menu-toggle::after,
@@ -80,6 +81,7 @@
   padding: 1rem;
   width: 700px;
   z-index: 1000;
+  cursor: pointer;
 }
 
 .dropdown-item {
@@ -104,15 +106,15 @@
   background-color: hsl(0, 0%, 94%);
 }
 
-.dropdown-item h3 {
+.dropdown-item h3,.dropdown-item2 h3 {
   margin: 0;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
-.dropdown-item p {
+.dropdown-item p, .dropdown-item2 p {
   margin: 5px 0 0;
   color: #666;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
 }
 .dropdown-icon {
   font-size: 50px;
@@ -141,7 +143,7 @@
   }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 958px) {
   .navbar-links {
     display: none;
     flex-direction: column;
@@ -163,31 +165,37 @@
   }
   .dropdown {
     position: relative;
+    width: 80VW;
+    min-height: 150PX;
+    background-color: #ffffff;
+    left:5%;
+    box-shadow: none;
+    flex-wrap: wrap;
   }
-  .dropdown-menu {
+  /* .dropdown-item {
     display: none;
     position: absolute;
     top: 100%;
     left: 0;
     background-color: #ffffff;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
-    padding: 2px;
+    
     z-index: 1000;
     width: 350px;
-  }
+  } */
   .dropdown-item {
     background-color: #eae7e7;
-    min-width: 100px;
+    width: 40%;
+    height: 150px;
     margin-bottom: 10px;
     padding: 10px;
     border-radius: 5px;
     transition: background-color 0.3s ease;
+    flex-wrap: wrap;
   }
   .dropdown-item2 {
     background-color: #eae7e7;
-    min-width: 100px;
-    height: fit-content;
+    width: 40%;
+    height: 150px;
     margin-bottom: 10px;
     padding: 10px;
     border-radius: 5px;
@@ -205,7 +213,20 @@
   }
   .dropdown-icon {
     font-size: 20px;
-    padding-top: 1rem;
+    padding-top: 3rem;
+  }
+  .dropdown-item:hover {
+    background-color: #ffffff;
+  }
+  .navbar-links li {
+    border-radius:0px;
+  }
+
+  .navbar-links li:hover {
+    background-color: #ffffff;
+  }
+  .navbar-links.open {
+    box-shadow:none;
   }
 }
 
