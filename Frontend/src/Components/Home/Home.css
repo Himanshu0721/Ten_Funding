@@ -1,5 +1,6 @@
 .home-container {
   width: 100%;
+  margin-top: 100px;
 }
 
 .home-header {
@@ -56,29 +57,22 @@
   margin: 48px auto;
   display: flex;
   flex-direction: column;
-
-
 }
 
 .home-sec-header {
   display: flex;
   justify-content: space-between;
-
-
 }
 
 .home-sec-header .lst {
   margin-right: 3rem;
-
 }
 
 .home-sec-header h6 {
-
   margin-left: 7rem;
 
   font-size: 15px;
   font-weight: 400;
-
 }
 
 .home-card img {
@@ -122,4 +116,60 @@
   height: 35px;
   width: fit-content;
   cursor: pointer;
+}
+
+@media (max-width: 998px) {
+  .home-header {
+    width: 80%;
+  }
+
+  .home-header h1 {
+    font-size: 60px;
+  }
+
+  .home-inner-div h2 {
+    font-size: 24px;
+  }
+
+  .home-inner-div button {
+    font-size: 18px;
+    padding: 12px;
+  }
+}
+
+@media (max-width: 698px) {
+  .home-header {
+    width: 85%;
+  }
+
+  .home-header h1 {
+    font-size: 50px;
+  }
+
+  .home-inner-div h2 {
+    font-size: 20px;
+  }
+
+  .home-inner-div button {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .home-header {
+    width: 90%;
+    padding: 30px;
+  }
+
+  .home-header h1 {
+    font-size: 30px;
+  }
+
+  .home-inner-div h2 {
+    font-size: 16px;
+  }
+
+  .home-inner-div button {
+    font-size: 12px;
+  }
 }
