@@ -16,20 +16,11 @@ function Footer() {
             <li>
               <NavLink to="/">Fundraising OS</NavLink>
             </li>
-            <li>
-              <NavLink to="/">Next Play</NavLink>
-            </li>
-            <li>
-              <NavLink to="/">Spotlight</NavLink>
-            </li>
           </ul>
         </div>
         <div className="footer-details">
           <h4>For VCs</h4>
           <ul>
-            <li>
-              <NavLink to="/">VC Stack</NavLink>
-            </li>
             <li>
               <NavLink to="/">Venture OS</NavLink>
             </li>
@@ -46,7 +37,7 @@ function Footer() {
                 to="https://www.linkedin.com/company/the-entrepreneurship-network/posts/?feedView=all"
                 target="_blanck"
               >
-                About TEN Funding
+                About Us
               </NavLink>
             </li>
             <li>
@@ -56,9 +47,6 @@ function Footer() {
               >
                 Careers
               </NavLink>
-            </li>
-            <li>
-              <NavLink to="/">Sitemap</NavLink>
             </li>
           </ul>
         </div>
