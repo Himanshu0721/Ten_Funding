@@ -1,0 +1,6 @@
+<h2>Form Submission History</h2>
+<ul>
+    {% for record in history %}
+        <li>{{ record.submitted_at }} - {{ record.name }} - {{ record.email }} - {{ record.message }}</li>
+    {% endfor %}
+</ul>
