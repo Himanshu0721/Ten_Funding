@@ -36,4 +36,90 @@
 
 .home-inner-div button:hover {
   background-color: #dee2ff;
+  transition: 1.5s;
+}
+
+.home-card {
+  padding: 48px 0;
+  display: flex;
+  margin: 0;
+  justify-content: space-around;
+}
+
+.home-img {
+  display: flex;
+  flex-direction: row;
+}
+
+.home-sec {
+  width: 70%;
+  margin: 48px auto;
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+.home-sec-header {
+  display: flex;
+  justify-content: space-between;
+
+
+}
+
+.home-sec-header .lst {
+  margin-right: 3rem;
+
+}
+
+.home-sec-header h6 {
+
+  margin-left: 7rem;
+
+  font-size: 15px;
+  font-weight: 400;
+
+}
+
+.home-card img {
+  width: 50px;
+  vertical-align: middle;
+  margin: 0px 5px;
+}
+
+.db-img {
+  margin: 20px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+#button-1 {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 20px;
+  margin: 5px 5px;
+  color: #000;
+  background: #d3d3fa;
+  border: 1px white;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 400;
+  height: 35px;
+  width: fit-content;
+  cursor: pointer;
+}
+
+#button-2 {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 20px;
+  margin: 5px 5px;
+  color: #000;
+  background: #abdeeb;
+  border: 1px white;
+  border-radius: 10px;
+  font-size: 14px;
+  height: 35px;
+  width: fit-content;
+  cursor: pointer;
 }
