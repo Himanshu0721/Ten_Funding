@@ -17,36 +17,37 @@ export default function RegistrationForm() {
         
                   <div className='registration-form-content'>
                     <form action="">
-                        <label htmlFor="name" ><h3>Name </h3> </label>
+                    <label htmlFor="name" required ><h3>Name <sub >*</sub></h3></label>
+                        
                         <input type="text" className='form-control' required/>
         
-                        <label htmlFor="FirmName" ><h3>Firm Name </h3> </label>
+                        <label htmlFor="FirmName" ><h3>Firm Name <sub >*</sub> </h3> </label>
                         <input type="text" className='form-control' required/>
         
-                        <label htmlFor="email" ><h3>Mail </h3> </label>
+                        <label htmlFor="email" ><h3>Mail  <sub >*</sub></h3> </label>
                         <input type="email" className='form-control' placeholder='Your Official Mail' required/>
         
-                        <label htmlFor="FoundedYear" ><h3>Founded Year </h3> </label>
+                        <label htmlFor="FoundedYear" ><h3>Founded Year <sub >*</sub></h3> </label>
                         <input type="text" className='form-control' required/>
         
-                        <label htmlFor="TicketSize" ><h3>Ticket Size </h3> </label>
+                        <label htmlFor="TicketSize" ><h3>Ticket Size <sub >*</sub></h3> </label>
                         <input type="text" className='form-control' placeholder='For Example:$ 200k - $ 5M' required/>
         
-                        <label htmlFor="CurrentFundSize" ><h3>Current Fund Size </h3> </label>
+                        <label htmlFor="CurrentFundSize" ><h3>Current Fund Size <sub >*</sub></h3> </label>
                         <input type="text" className='form-control' placeholder='For Example:$ 100M' required/>
         
         
-                        <label htmlFor="aum" ><h3>AUM </h3> </label>
+                        <label htmlFor="aum" ><h3>AUM <sub >*</sub></h3> </label>
                         <input type="text" className='form-control' placeholder='For Example:$ 250M' required/>
         
         
-                        <label htmlFor="PortfolioCount" ><h3>Portfolio Count </h3> </label>
+                        <label htmlFor="PortfolioCount" ><h3>Portfolio Count<sub >*</sub> </h3> </label>
                         <input type="text" className='form-control' required/>
         
-                        <label htmlFor="TopPortfolioCompanies" ><h3>Top Portfolio Companies </h3> </label>
+                        <label htmlFor="TopPortfolioCompanies" ><h3>Top Portfolio Companies <sub >*</sub></h3> </label>
                         <input type="text" className='form-control' placeholder='For Example: Flipkart, Atomberg, Paytm' required/>
                         
-                        <label htmlFor="leadrounds" ><h3>Do you prefer to lead rounds? </h3> </label>
+                        <label htmlFor="leadrounds" ><h3>Do you prefer to lead rounds? <sub >*</sub></h3> </label>
                           <select className="form-slect">
                               <option value="">YES</option>
                               <option value="">NO</option> 
@@ -59,8 +60,8 @@ export default function RegistrationForm() {
                           </h2>
                           <h2>
                           Also if you're filling this in mobile please scroll to the right to find "Doesn't look at" option)
-                          </h2>
-        
+                          <sub >*</sub></h2>
+                            
                           <div id='scroll-prop'>
                           <table className='table'>
                             <thead>
@@ -108,11 +109,14 @@ export default function RegistrationForm() {
                                 <td> <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" /></td>
                                 <td> <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" /></td>
                               </tr>
+        
                             </tbody>
                           </table>
                           </div>
+                          
         
-                          <h2> Sector Focus (Please only select three top sectors in the first column)</h2>
+        
+                          <h2> Sector Focus (Please only select three top sectors in the first column) <sub >*</sub></h2>
                           
                           <div id='scroll-prop'>
                           <table className='table' >
@@ -127,8 +131,7 @@ export default function RegistrationForm() {
                             
                               <tbody >
                               <tr>
-                                <td>bAI/ML
-                                </td>
+                                <td >bAI/ML</td>
                                 <td> <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" /></td>
                                 <td> <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" /></td>
                                 <td> <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" /></td>
@@ -143,8 +146,7 @@ export default function RegistrationForm() {
                               </tr>
         
                               <tr>
-                                <td>Agritech/Food
-                                </td>
+                                <td>Agritech/Food </td>
                                 <td> <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" /></td>
                                 <td> <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" /></td>
                                 <td> <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" /></td>
@@ -159,8 +161,7 @@ export default function RegistrationForm() {
                               </tr>
         
                               <tr>
-                                <td>Climate/Sustainability
-                                </td>
+                                <td>Climate/Sustainability</td>
                                 <td> <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" /></td>
                                 <td> <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" /></td>
                                 <td> <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" /></td>
@@ -317,7 +318,7 @@ export default function RegistrationForm() {
                           </table>
                           </div>
                           
-                         <h3>Founder Outreach Preference </h3>
+                         <h3>Founder Outreach Preference <sub >*</sub></h3>
                          <div id='scroll-prop'>
                          <table className='table'>
                             <thead>
@@ -391,18 +392,18 @@ export default function RegistrationForm() {
                          </div>
                          
         
-                          <label htmlFor="PortfolioCount" ><h3>Fund Application Form Link to Pitch </h3> </label>
+                          <label htmlFor="PortfolioCount" ><h3>Fund Application Form Link to Pitch <sub >*</sub></h3> </label>
                           <p>(This can be your application form link or Team ID mail where you want cold outreach to come in)
                           </p>
                         <input type="text" className='form-control' required/>
         
         
-                        <label htmlFor="PortfolioCount" ><h3>PoC Mail</h3> </label>
+                        <label htmlFor="PortfolioCount" ><h3>PoC Mail <sub >*</sub></h3> </label>
                         <p><i>(This can be you or anyone in your team who looks after cold mails)</i> </p>
                         <input type="text" className='form-control' required/>
         
         
-                        <label htmlFor="PortfolioCount" ><h3>Fund Overview </h3> </label>
+                        <label htmlFor="PortfolioCount" ><h3>Fund Overview <sub >*</sub></h3> </label>
                         <textarea name="text" id="" required></textarea>
         
                           <button> Submit <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor" className="bi bi-arrow-right" viewBox="0 0 16 16">
@@ -410,7 +411,10 @@ export default function RegistrationForm() {
                                 </svg></button>
                     </form>
                 </div>
+
+                
           </div>
+            {/* <a href=""><button className='made-with-tally'>Made With Tally</button></a> */}
     </>
   )
 }
