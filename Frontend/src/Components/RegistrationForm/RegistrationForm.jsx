@@ -73,47 +73,44 @@ export default function RegistrationForm() {
                             </thead>
                             <tbody>
                               <tr>
-                                <td><b>Pre-Seed</b></td>
+                                <td>Pre-Seed</td>
                                 <td> <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" /></td>
                                 <td> <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" /></td>
                                 <td> <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" /></td>
                               </tr>
                               <tr>
-                                <td><b>Seed</b></td>
+                                <td>Seed</td>
                                 <td> <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" /></td>
                                 <td> <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" /></td>
                                 <td> <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" /></td>
                               </tr>
                               <tr>
-                                <td><b>Series A</b></td>
+                                <td>Series A</td>
                                 <td> <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" /></td>
                                 <td> <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" /></td>
                                 <td> <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" /></td>
                               </tr>
                               <tr>
-                                <td><b>Series B</b></td>
+                                <td>Series B</td>
                                 <td> <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" /></td>
                                 <td> <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" /></td>
                                 <td> <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" /></td>
                               </tr>
                               <tr>
-                                <td><b>Series C and beyond</b></td>
+                                <td>Series C and beyond</td>
                                 <td> <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" /></td>
                                 <td> <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" /></td>
                                 <td> <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" /></td>
                               </tr>
                               <tr>
-                                <td><b>Debt</b></td>
+                                <td>Debt</td>
                                 <td> <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" /></td>
                                 <td> <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" /></td>
                                 <td> <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" /></td>
                               </tr>
-        
                             </tbody>
                           </table>
                           </div>
-                          
-        
         
                           <h2> Sector Focus (Please only select three top sectors in the first column)</h2>
                           
@@ -130,7 +127,7 @@ export default function RegistrationForm() {
                             
                               <tbody >
                               <tr>
-                                <td>AI/ML
+                                <td>bAI/ML
                                 </td>
                                 <td> <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" /></td>
                                 <td> <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" /></td>
