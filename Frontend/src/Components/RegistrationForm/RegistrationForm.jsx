@@ -61,7 +61,7 @@ export default function RegistrationForm() {
                           Also if you're filling this in mobile please scroll to the right to find "Doesn't look at" option)
                           </h2>
         
-        
+                          <div id='scroll-prop'>
                           <table className='table'>
                             <thead>
                             <tr>
@@ -111,19 +111,24 @@ export default function RegistrationForm() {
         
                             </tbody>
                           </table>
+                          </div>
+                          
         
         
                           <h2> Sector Focus (Please only select three top sectors in the first column)</h2>
-                          <table className='table'>
+                          
+                          <div id='scroll-prop'>
+                          <table className='table' >
                             <thead>
                             <tr>
-                                <th></th>
+                                <th> </th>
                                 <th> Top Three Sector - Most often invests in:</th>
                                 <th>Also invests in:</th>
                                 <th>Doesn't look at:</th>
                               </tr>
                             </thead>
-                              <tbody>
+                            
+                              <tbody >
                               <tr>
                                 <td>AI/ML
                                 </td>
@@ -280,7 +285,6 @@ export default function RegistrationForm() {
         
                               <tr>
                                 <td>Prop Tech/Real Estate
-        
                                 </td>
                                 <td> <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" /></td>
                                 <td> <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" /></td>
@@ -312,8 +316,12 @@ export default function RegistrationForm() {
                               </tr>
         
                             </tbody>
+                            
                           </table>
+                          </div>
+                          
                          <h3>Founder Outreach Preference </h3>
+                         <div id='scroll-prop'>
                          <table className='table'>
                             <thead>
                             <tr>
@@ -383,6 +391,8 @@ export default function RegistrationForm() {
         
                             </tbody>
                           </table>
+                         </div>
+                         
         
                           <label htmlFor="PortfolioCount" ><h3>Fund Application Form Link to Pitch </h3> </label>
                           <p>(This can be your application form link or Team ID mail where you want cold outreach to come in)
@@ -398,7 +408,7 @@ export default function RegistrationForm() {
                         <label htmlFor="PortfolioCount" ><h3>Fund Overview </h3> </label>
                         <textarea name="text" id="" required></textarea>
         
-                          <button> Next <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor" className="bi bi-arrow-right" viewBox="0 0 16 16">
+                          <button> Submit <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor" className="bi bi-arrow-right" viewBox="0 0 16 16">
                               <path d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
                                 </svg></button>
                     </form>
