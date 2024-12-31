@@ -7,6 +7,7 @@ import Footer from "./Components/Footer/Footer";
 import Registrationform from "./Components/RegistrationForm/RegistrationForm";
 import PrivacyPolicy from "./Components/PrivacyPolicy/PrivacyPolicy";
 import TermsOfService from "./Components/TermsOfService/TermsOfService";
+import Card from "./Components/Card/Cardframe";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/registration-form" element={<Registrationform />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           <Route path="/terms-of-Service" element={<TermsOfService />} />
+          <Route path="/Card" element={<Card/>}/>
         </Routes>
         <Footer />
       </BrowserRouter>
