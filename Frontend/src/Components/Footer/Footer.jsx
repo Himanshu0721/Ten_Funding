@@ -16,11 +16,20 @@ function Footer() {
             <li>
               <NavLink to="/">Fundraising OS</NavLink>
             </li>
+            <li>
+              <NavLink to="/">Next Play</NavLink>
+            </li>
+            <li>
+              <NavLink to="/">Spotlight</NavLink>
+            </li>
           </ul>
         </div>
         <div className="footer-details">
           <h4>For VCs</h4>
           <ul>
+            <li>
+              <NavLink to="/">VC Stack</NavLink>
+            </li>
             <li>
               <NavLink to="/">Venture OS</NavLink>
             </li>
@@ -48,6 +57,9 @@ function Footer() {
                 Careers
               </NavLink>
             </li>
+            <li>
+              <NavLink to="/#">Sitemap</NavLink>
+            </li>
           </ul>
         </div>
         <div className="footer-details">
@@ -63,7 +75,6 @@ function Footer() {
         </div>
       </div>
       <div className="last-div">
-        <hr />
         <h6>© 2024 Ten Funding Website</h6>
       </div>
     </div>
