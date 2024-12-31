@@ -42,12 +42,7 @@ function Footer() {
           <h4>Company</h4>
           <ul>
             <li>
-              <NavLink
-                to="https://www.linkedin.com/company/the-entrepreneurship-network/posts/?feedView=all"
-                target="_blanck"
-              >
-                About Us
-              </NavLink>
+              <NavLink to="/about">About Us</NavLink>
             </li>
             <li>
               <NavLink
