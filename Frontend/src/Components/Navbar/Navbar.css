@@ -70,17 +70,18 @@
 .dropdown {
   display: flex;
   gap: 5px;
-  justify-content: center;
-  align-items: center;
+
+  /* align-items: center; */
   position: absolute;
   top: 100%;
   right: 2%;
   background-color: #ffffff;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
-  padding: 1rem;
+  padding-top:0.9rem !important;
+  padding: 0.2rem;
   width: 700px;
-  z-index: 1000;
+  z-index: 2000;
   cursor: pointer;
 }
 
@@ -103,6 +104,9 @@
 }
 
 .dropdown-item:hover {
+  background-color: hsl(0, 0%, 94%);
+}
+.dropdown-item2:hover {
   background-color: hsl(0, 0%, 94%);
 }
 
@@ -147,12 +151,13 @@
     min-height: 100PX;
     background-color: #ffffff;
     left:0%;
+    padding:0.2rem;
     box-shadow: none;
   
   }
   .dropdown-item {
-    background-color: #eae7e7;
-    max-width:50px;
+    background-color: #EEEEEE;
+    min-width:40%;
     height: 50px;
     margin-bottom: 2px;
     padding: 2px;
@@ -161,7 +166,7 @@
     
   }
   .dropdown-item2 {
-    background-color: #eae7e7;
+    background-color: #EEEEEE;
     width: 20%;
     height: 50px;
     margin-bottom: 2px;
@@ -171,7 +176,7 @@
   }
 }
 
-@media (max-width: 958px) {
+@media (max-width: 958px) and (min-width:320px) {
   .navbar-links {
     display: none;
     flex-direction: column;
@@ -196,7 +201,7 @@
     width: 90VW;
     min-height: 150PX;
     background-color: #ffffff;
-    left:5%;
+    left:2%;
     box-shadow: none;
     flex-wrap: wrap;
   }
@@ -246,6 +251,9 @@
   .dropdown-item:hover {
     background-color: #ffffff;
   }
+  .dropdown-item2:hover {
+    background-color: #ffffff;
+  }
   .navbar-links li {
     border-radius:0px;
   }
@@ -258,17 +266,9 @@
   }
 }
 
-/* .navbar {
-    display: flex;
-     justify-content: space-between; 
-     flex-direction: column;
-     align-items: center; 
-    padding: 10px 20px;
-    background-color: #ffffff;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+@media (max-width:2560px) and (min-width:957px){
+  .menu-toggle{
+    display: none;
   }
-  .navbar-logo{
-    display: flex;
-    flex-direction: column;
-  } */
+}
 
