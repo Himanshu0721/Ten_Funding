@@ -4,7 +4,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./Components/Navbar/Navbar";
 import Home from "./Components/Home/Home";
 import Footer from "./Components/Footer/Footer";
-import Registrationform from "./Components/RegistrationForm/RegistrationForm";
+import Registrationform from "./Components/RegistrationForm/Registration.jsx";
+import RegistrationFormNext from "./Components/RegistrationForm/RegistrationFormNext.jsx"
 import PrivacyPolicy from "./Components/PrivacyPolicy/PrivacyPolicy";
 import TermsOfService from "./Components/TermsOfService/TermsOfService";
 import Card from "./Components/Card/Cardframe";
@@ -22,6 +23,7 @@ function App() {
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           <Route path="/terms-of-Service" element={<TermsOfService />} />
           <Route path="/Card" element={<Card />} />
+          <Route path="/registrationformnext" element={<RegistrationFormNext />} /> 
         </Routes>
         <Footer />
       </BrowserRouter>
