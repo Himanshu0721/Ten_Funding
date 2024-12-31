@@ -40,51 +40,105 @@
   transition: 1.5s;
 }
 
+.hr-1 {
+  width: 70%;
+  margin-left: 15%;
+  margin-bottom: 50px;
+  
+}
+
+/* .hr-2 {
+  margin: 0px 0px 30px 30px;
+  padding-top: 0.5px;
+  background-color: #e81010;
+  border-bottom: 1px solid;
+  width: 30px;
+  display: flex;
+  } 
+  */
+
+.Search {
+  border-bottom: 1px solid;
+  width: 300px;
+  margin: 0px 0px 0px 160px;
+  display: flex;
+
+}
+
+.Search input {
+  border: none;
+  width: 80%;
+  font-size: 30px;
+}
+
+.Search input:focus {
+  outline: none;
+  border-color: #abdeeb;
+  border-radius: 0;
+}
+
+.serch-icon {
+  margin: 20px 0 0 0px;
+  height: 30px;
+  width: 60px;
+}
+
 .filter-section {
   display: flex;
-  justify-content: space-around;
-  margin: 5px 0;
+  margin: 30px 165px 0px;
 }
 
-.dropdown {
+.filter-section select {
   position: relative;
+  height: fit-content;
   width: 200px;
-  min-height: 50PX;
-  background-color: #ffffff;
-  left: 5%;
-  box-shadow: none;
-  flex-wrap: wrap;
-  border: 1px solid;
+  text-wrap: wrap;
+  text-align: left;
+  background-color: #d3e3fa;
+  left: 4%;
+  font-size: 18px;
+  font-weight: 400;
+  margin-left: 20px;
+  border: 1px solid white;
   border-radius: 50px;
+  white-space: normal;
 }
 
-.select {
-  text-rendering: auto;
-  color: fieldtext;
-  text-align: start;
-  white-space: pre;
-  border-width: 1px;
-  border-style: solid;
-
+.filter-section select:hover {
+  background: #b6ceff;
 }
 
 .home-card {
   padding: 48px 0;
   display: flex;
   margin: 0;
-  justify-content: space-around;
+
 }
 
 .home-img {
   display: flex;
-  flex-direction: row;
+  align-items: center;
+  width: 20%;
+
+}
+
+
+.home-img div p {
+  display: inline-flex;
+  justify-content: start;
+  margin-left: 15px;
+  width: 120px;
 }
 
 .home-sec {
   width: 70%;
-  margin: 48px auto;
+  margin: 48px 15% 0;
   display: flex;
   flex-direction: column;
+}
+
+.home-sec:hover {
+  /* background-color: #e097ff; */
 }
 
 .home-sec-header {
@@ -124,23 +178,40 @@
   background: #d3d3fa;
   border: 1px white;
   border-radius: 10px;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 400;
   height: 35px;
   width: fit-content;
   cursor: pointer;
 }
 
+.btn-1 {
+  width: 25%;
+  margin-right: 0px;
+}
+
+.btn-2 {
+  display: flex;
+  justify-content: end;
+  width: 25%;
+}
+
+.home-card p {
+  width: 27%;
+  display: flex;
+  justify-content: end;
+}
+
 #button-2 {
   padding-left: 15px;
   padding-right: 15px;
   margin-top: 20px;
-  margin: 5px 5px;
+  margin: 5px 0px;
   color: #000;
   background: #abdeeb;
   border: 1px white;
   border-radius: 10px;
-  font-size: 14px;
+  font-size: 13px;
   height: 35px;
   width: fit-content;
   cursor: pointer;
