@@ -97,7 +97,7 @@
 }
 .dropdown-nav-item2 {
   background-color: #eae7e7;
-  min-width: 320px;
+  min-width: 400px;
   height: fit-content;
   margin-bottom: 10px;
   padding: 10px;
@@ -124,7 +124,7 @@
 }
 .dropdown-nav-icon {
   font-size: 50px;
-  padding-top: 2rem;
+  padding-top: 0.5rem !important;
 }
 .navbar-links.open {
   display: flex;
