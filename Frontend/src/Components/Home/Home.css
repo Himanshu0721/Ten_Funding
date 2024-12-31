@@ -1,5 +1,6 @@
 .home-container {
   width: 100%;
+  margin-top: 100px;
 }
 
 .home-header {
@@ -39,6 +40,34 @@
   transition: 1.5s;
 }
 
+.filter-section {
+  display: flex;
+  justify-content: space-around;
+  margin: 5px 0;
+}
+
+.dropdown {
+  position: relative;
+  width: 200px;
+  min-height: 50PX;
+  background-color: #ffffff;
+  left: 5%;
+  box-shadow: none;
+  flex-wrap: wrap;
+  border: 1px solid;
+  border-radius: 50px;
+}
+
+.select {
+  text-rendering: auto;
+  color: fieldtext;
+  text-align: start;
+  white-space: pre;
+  border-width: 1px;
+  border-style: solid;
+
+}
+
 .home-card {
   padding: 48px 0;
   display: flex;
@@ -56,29 +85,22 @@
   margin: 48px auto;
   display: flex;
   flex-direction: column;
-
-
 }
 
 .home-sec-header {
   display: flex;
   justify-content: space-between;
-
-
 }
 
 .home-sec-header .lst {
   margin-right: 3rem;
-
 }
 
 .home-sec-header h6 {
-
   margin-left: 7rem;
 
   font-size: 15px;
   font-weight: 400;
-
 }
 
 .home-card img {
@@ -122,4 +144,76 @@
   height: 35px;
   width: fit-content;
   cursor: pointer;
+}
+
+.load-more-btn {
+  margin: 20px auto;
+  display: block;
+  padding: 15px 30px;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 50px;
+  border: 1px solid;
+  background-color: #FFF;
+}
+
+.load-more-btn:hover {
+  background-color: #f5c9f2;
+}
+
+
+@media (max-width: 998px) {
+  .home-header {
+    width: 80%;
+  }
+
+  .home-header h1 {
+    font-size: 60px;
+  }
+
+  .home-inner-div h2 {
+    font-size: 24px;
+  }
+
+  .home-inner-div button {
+    font-size: 18px;
+    padding: 12px;
+  }
+}
+
+@media (max-width: 698px) {
+  .home-header {
+    width: 85%;
+  }
+
+  .home-header h1 {
+    font-size: 50px;
+  }
+
+  .home-inner-div h2 {
+    font-size: 20px;
+  }
+
+  .home-inner-div button {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .home-header {
+    width: 90%;
+    padding: 30px;
+  }
+
+  .home-header h1 {
+    font-size: 30px;
+  }
+
+  .home-inner-div h2 {
+    font-size: 16px;
+  }
+
+  .home-inner-div button {
+    font-size: 12px;
+  }
 }
