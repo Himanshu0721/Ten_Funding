@@ -1,6 +1,11 @@
 import './Form.css'
+import { useNavigate } from 'react-router-dom';
 
-export default function RegistrationForm() {
+export default function Registration() {
+    const navigate = useNavigate();
+    let goToNextPage = () => {
+      navigate('/registrationformnext'); 
+    };
 
   return (
     <>
@@ -406,7 +411,7 @@ export default function RegistrationForm() {
                         <label htmlFor="PortfolioCount" ><h3>Fund Overview <sub >*</sub></h3> </label>
                         <textarea name="text" id="" required></textarea>
         
-                          <button> Submit <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor" className="bi bi-arrow-right" viewBox="0 0 16 16">
+                          <button onClick={goToNextPage}> Next <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor" className="bi bi-arrow-right" viewBox="0 0 16 16">
                               <path d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
                                 </svg></button>
                     </form>
