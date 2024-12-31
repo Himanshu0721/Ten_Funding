@@ -1,0 +1,247 @@
+.investor-card {
+  font-family: Arial, sans-serif;
+  background-color: #dee2ff;
+  padding: 30px 70px 50px 70px;
+  border-radius: 30px;
+  max-width: 1100px;
+  margin: 60px auto;
+  box-shadow: 0 4px 8px #adafbe;
+
+}
+
+.header {
+  text-align: center;
+  
+}
+.header h1 {
+  font-size: 50px;
+  color: #4e5374;
+}
+
+.logo {
+  border-radius: 60%;
+  display: inline;
+  max-width: 60px;
+}
+
+.description {
+  font-size: 18px;
+  color: #333;
+  margin: 20px 0;
+  text-align: center;
+  padding: 5px 0 15px 0;
+}
+
+.details {
+  background: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.row:last-child {
+  border-bottom: none;
+}
+
+.actions {
+  text-align: center;
+}
+
+.pitch-button,
+.fundraising-button {
+  display: inline-table;
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.pitch-button {
+  background-color: #8ea5f5;
+}
+
+.fundraising-button {
+  background-color: #8ea5f5;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #d6d4d4;
+}
+
+.row:last-child {
+  border-bottom: none;
+}
+
+.row div:first-child {
+  text-align: left;
+  flex: 1;
+}
+
+.row div:last-child {
+  text-align: right;
+  flex: 1;
+  color: #454242;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.social-links a img {
+  max-width: 30px;
+  height: auto; 
+}
+
+.back-button {
+  background-color: #f7f9fc; 
+  border: 2px solid #313550;
+  color: #a8aed7; 
+  font-size: 16px;
+  cursor: pointer;
+  margin: 30px 0 30px 0;
+  
+  border-radius: 8px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.back-button:hover {
+  background-color: #aeb4db;
+  color: #fff;
+}
+
+@media (max-width: 1048px) {
+  .investor-card {
+    padding: 20px;
+    max-width: 85%;
+  }
+
+  .header h1 {
+    font-size: 36px;
+  }
+
+  .logo {
+    max-width: 45px;
+  }
+
+  .description {
+    font-size: 15px;
+  }
+
+  .pitch-button,
+  .fundraising-button {
+    padding: 8px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .investor-card {
+    padding: 15px;
+    border-radius: 20px;
+    width: 80%;
+  }
+
+  .header h1 {
+    font-size: 32px;
+  }
+
+  .logo {
+    max-width: 40px;
+  }
+
+  .description {
+    font-size: 14px;
+  }
+
+  .social-links {
+    gap: 8px;
+  }
+
+  .social-links a img {
+    max-width: 20px;
+  }
+
+  .row div:first-child,
+  .row div:last-child {
+    font-size: 12px;
+  }
+
+  .pitch-button,
+  .fundraising-button {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .investor-card {
+    padding: 10px;
+    border-radius: 15px;
+    width: 80%;
+  }
+
+  .header h1 {
+    font-size: 28px;
+  }
+
+  .logo {
+    max-width: 35px;
+  }
+
+  .description {
+    font-size: 13px;
+  }
+
+  .pitch-button,
+  .fundraising-button {
+    font-size: 12px;
+    padding: 8px;
+  }
+}
+
+@media (max-width: 320px) {
+  .investor-card {
+    padding: 5px;
+    border-radius: 10px;
+    width: 80%;
+  }
+
+  .header h1 {
+    font-size: 24px;
+  }
+
+  .logo {
+    max-width: 30px;
+  }
+
+  .description {
+    font-size: 12px;
+  }
+
+  .pitch-button,
+  .fundraising-button {
+    font-size: 10px;
+    padding: 5px;
+  }
+
+  .social-links a img {
+    max-width: 15px;
+  }
+}

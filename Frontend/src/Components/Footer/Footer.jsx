@@ -14,13 +14,22 @@ function Footer() {
               <NavLink to="/">Raise</NavLink>
             </li>
             <li>
-              <NavLink to="/">Fundraising OS</NavLink>
+              <NavLink to="/fundraising">Fundraising OS</NavLink>
+            </li>
+            <li>
+              <NavLink to="/">Next Play</NavLink>
+            </li>
+            <li>
+              <NavLink to="/">Spotlight</NavLink>
             </li>
           </ul>
         </div>
         <div className="footer-details">
           <h4>For VCs</h4>
           <ul>
+            <li>
+              <NavLink to="/">VC Stack</NavLink>
+            </li>
             <li>
               <NavLink to="/">Venture OS</NavLink>
             </li>
@@ -33,12 +42,7 @@ function Footer() {
           <h4>Company</h4>
           <ul>
             <li>
-              <NavLink
-                to="https://www.linkedin.com/company/the-entrepreneurship-network/posts/?feedView=all"
-                target="_blanck"
-              >
-                About Us
-              </NavLink>
+              <NavLink to="/about">About Us</NavLink>
             </li>
             <li>
               <NavLink
@@ -47,6 +51,9 @@ function Footer() {
               >
                 Careers
               </NavLink>
+            </li>
+            <li>
+              <NavLink to="/#">Sitemap</NavLink>
             </li>
           </ul>
         </div>
@@ -63,7 +70,6 @@ function Footer() {
         </div>
       </div>
       <div className="last-div">
-        <hr />
         <h6>© 2024 Ten Funding Website</h6>
       </div>
     </div>
