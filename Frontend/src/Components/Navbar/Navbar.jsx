@@ -38,6 +38,14 @@ const Navbar = () => {
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
+  const alldropdown = () => {
+    setIsvUpArrow(false);
+    setIsVCOpen(false);
+    setIscUpArrow(false);
+   setIsCompanyOpen(false);
+   setIssUpArrow(false);
+   setIsStartupsOpen(false);
+  }
     const startupMouseEnter = () => {
       setIssUpArrow(true);
       setIsStartupsOpen(true);
@@ -86,7 +94,7 @@ const companyMouseLeave = () => {
     <IoMenu />
     </button>
     <ul className={`navbar-links ${isMenuOpen ? "open" : ""}`}>
-      <li><a href="#raise"
+      <li><a href="#raise" onMouseEnter={alldropdown}
       
       >Raise</a></li>
       <li><a href="#startup"  onMouseEnter={startupMouseEnter}
@@ -99,21 +107,21 @@ const companyMouseLeave = () => {
       >For Startups {issUpArrow ? <MdKeyboardArrowUp /> : <MdKeyboardArrowDown/>}</a>
      
      {isStartupsOpen && (
-      <div className="dropdown" onMouseLeave={startupMouseLeave}>
-        <div className="dropdown-item">
+      <div className="dropdown-nav" onMouseLeave={startupMouseLeave}>
+        <div className="dropdown-nav-item">
           <h3>Fundraising OS</h3>
           <p>Helps you easily manage your fundraising process</p>
-          <div className="dropdown-icon"><FaDatabase /></div>
+          <div className="dropdown-nav-icon"><FaDatabase /></div>
         </div>
-         <div className="dropdown-item">
+         <div className="dropdown-nav-item">
           <h3>Next Play</h3>
           <p>Exclusive community for top-notch founders and operators</p>
-          <div className="dropdown-icon">< FaPlay/></div>
+          <div className="dropdown-nav-icon">< FaPlay/></div>
         </div>
-        <div className="dropdown-item">
+        <div className="dropdown-nav-item">
           <h3>Spotlight</h3>
           <p>For top talents to meet the best founders</p>
-          <div className="dropdown-icon"><IoPeople/></div>
+          <div className="dropdown-nav-icon"><IoPeople/></div>
         </div> 
       </div>
     )}
@@ -129,21 +137,21 @@ const companyMouseLeave = () => {
         aria-label="Toggle Arrow"
       >For VCs {isvUpArrow ? <MdKeyboardArrowUp /> : <MdKeyboardArrowDown/>}</a>
         {isVCOpen && (
-      <div className="dropdown"  onMouseLeave={vchandleMouseLeave}>
-        <div className="dropdown-item">
+      <div className="dropdown-nav"  onMouseLeave={vchandleMouseLeave}>
+        <div className="dropdown-nav-item">
           <h3>LaunchPad</h3>
           <p>Find VC jobs</p>
-          <div className="dropdown-icon"><RiGraduationCapFill /></div>
+          <div className="dropdown-nav-icon"><RiGraduationCapFill /></div>
         </div>
-         <div className="dropdown-item">
+         <div className="dropdown-nav-item">
           <h3>Venture OS</h3>
           <p>Manage a VC fund in one place</p>
-          <div className="dropdown-icon">< FaPlay/></div>
+          <div className="dropdown-nav-icon">< FaPlay/></div>
         </div>
-        <div className="dropdown-item">
+        <div className="dropdown-nav-item">
           <h3>VC Stack</h3>
           <p>Find your VC software stack</p>
-          <div className="dropdown-icon"><MdStackedBarChart/></div>
+          <div className="dropdown-nav-icon"><MdStackedBarChart/></div>
         </div> 
       </div>
     )}
@@ -158,16 +166,16 @@ const companyMouseLeave = () => {
         aria-label="Toggle Arrow"
       >Company {iscUpArrow ? <MdKeyboardArrowUp /> : <MdKeyboardArrowDown/>}</a>
         {isCompanyOpen && (
-      <div className="dropdown" onMouseLeave={companyMouseLeave}>
-        <div className="dropdown-item2">
+      <div className="dropdown-nav" onMouseLeave={companyMouseLeave}>
+        <div className="dropdown-nav-item2">
           <h3>About IndianVCs</h3>
           <p>Learn about our people</p>
-          <div className="dropdown-icon"><IoMdHome/></div>
+          <div className="dropdown-nav-icon"><IoMdHome/></div>
         </div>
-         <div className="dropdown-item2">
+         <div className="dropdown-nav-item2">
           <h3>Community</h3>
           <p>Join our Community</p>
-          <div className="dropdown-icon"><RiUserCommunityLine/></div>
+          <div className="dropdown-nav-icon"><RiUserCommunityLine/></div>
         </div>
         
       </div>
