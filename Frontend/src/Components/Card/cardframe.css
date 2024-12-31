@@ -9,18 +9,8 @@
 
 }
 
-.back-button {
-  background: none;
-  border: none;
-  color: #555;
-  font-size: 20px;
-  cursor: pointer;
-  margin: 55px 0 55px 35px;
-}
-
 .header {
   text-align: center;
-  /* font-size: 50px; */
   
 }
 .header h1 {
@@ -28,30 +18,18 @@
   color: #4e5374;
 }
 
-.social-links {
-  display: flex;
-  max-width: 10%;
-  
-}
 .logo {
   border-radius: 60%;
   display: inline;
   max-width: 60px;
 }
 
-.social-links {
-  margin-top: 10px;
-}
-
-.social-links a {
-  margin: 0 5px;
-}
-
 .description {
-  font-size: 14px;
+  font-size: 18px;
   color: #333;
   margin: 20px 0;
   text-align: center;
+  padding: 5px 0 15px 0;
 }
 
 .details {
@@ -90,9 +68,61 @@
 }
 
 .pitch-button {
-  background-color: #6366f1;
+  background-color: #8ea5f5;
 }
 
 .fundraising-button {
   background-color: #8ea5f5;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #d6d4d4;
+}
+
+.row:last-child {
+  border-bottom: none;
+}
+
+.row div:first-child {
+  text-align: left;
+  flex: 1;
+}
+
+.row div:last-child {
+  text-align: right;
+  flex: 1;
+  color: #454242;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.social-links a img {
+  max-width: 30px;
+  height: auto; 
+}
+
+.back-button {
+  background-color: #f7f9fc; 
+  border: 2px solid #313550;
+  color: #a8aed7; 
+  font-size: 16px;
+  cursor: pointer;
+  margin: 30px 0 30px 0;
+  
+  border-radius: 8px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.back-button:hover {
+  background-color: #aeb4db;
+  color: #fff;
 }
