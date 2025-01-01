@@ -14,7 +14,7 @@ function Footer() {
               <NavLink to="/">Raise</NavLink>
             </li>
             <li>
-              <NavLink to="/">Fundraising OS</NavLink>
+              <NavLink to="/fundraising">Fundraising OS</NavLink>
             </li>
             <li>
               <NavLink to="/">Next Play</NavLink>

@@ -1,0 +1,216 @@
+/* Resetting some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.5; /* Fixed line-height for readability */
+}
+
+/* Header Styling */
+header {
+  background-color: #0073e6;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+/* Hero Section */
+.hero {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  flex-direction: column;
+}
+
+.hero-content {
+  text-align: center;
+  font-size: 50px;
+}
+
+.hero h1 {
+  margin-top: 20px;
+}
+
+.cta-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cta-button:hover {
+  background-color: #0056b3;
+}
+
+/* About Section */
+#about {
+  margin-top: 50px;
+}
+
+#about .content-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+}
+
+#about img {
+  width: 700px;
+  height: auto;
+}
+
+.text-content {
+  max-width: 500px;
+  font-size: 20px;
+}
+
+.bullet-points {
+  list-style-type: disc;
+  margin-left: 20px;
+  padding-left: 20px;
+}
+
+.bullet-points li {
+  margin-bottom: 15px;
+}
+
+/* Pipeline Tracker Section */
+#image2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+#image2 img {
+  width: 700px;
+  height: auto;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+#image2 .text-content {
+  max-width: 500px;
+  font-size: 20px;
+}
+
+#image2 .bullet-points li {
+  margin-bottom: 15px;
+}
+
+/* Meeting Management Section */
+#image3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+#image3 img {
+  width: 700px;
+  height: auto;
+}
+
+#image3 .text-content {
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+#image3 .bullet-points li {
+  margin-bottom: 15px;
+}
+
+/* Centralized Data Room Section */
+#image4 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+#image4 img {
+  width: 700px;
+  height: auto;
+  order: 2;
+}
+
+#image4 .text-content {
+  margin-right: 20px;
+  max-width: 500px;
+  order: 1;
+  font-size: 20px;
+}
+
+/* General Styling for Buttons */
+.cta-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cta-button:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+  }
+
+  .cta-button {
+    padding: 12px 25px;
+  }
+
+  #image2,
+  #image3,
+  #image4 {
+    flex-direction: column;
+    margin: 0;
+  }
+
+  #image2 img,
+  #image3 img,
+  #image4 img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .content-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .text-content {
+    text-align: center;
+    margin-left: 0;
+  }
+}

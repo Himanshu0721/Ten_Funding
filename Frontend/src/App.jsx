@@ -5,11 +5,12 @@ import Navbar from "./Components/Navbar/Navbar";
 import Home from "./Components/Home/Home";
 import Footer from "./Components/Footer/Footer";
 import Registrationform from "./Components/RegistrationForm/Registration.jsx";
-import RegistrationFormNext from "./Components/RegistrationForm/RegistrationFormNext.jsx"
+import RegistrationFormNext from "./Components/RegistrationForm/RegistrationFormNext.jsx";
 import PrivacyPolicy from "./Components/PrivacyPolicy/PrivacyPolicy";
 import TermsOfService from "./Components/TermsOfService/TermsOfService";
 import Card from "./Components/Card/Cardframe";
 import About from "./Components/About/About";
+import FundraisingPage from "./Components/Fundraising/FundraisingPage.jsx";
 
 function App() {
   return (
@@ -23,7 +24,11 @@ function App() {
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           <Route path="/terms-of-Service" element={<TermsOfService />} />
           <Route path="/Card" element={<Card />} />
-          <Route path="/registrationformnext" element={<RegistrationFormNext />} /> 
+          <Route
+            path="/registrationformnext"
+            element={<RegistrationFormNext />}
+          />
+          <Route path="/fundraising" element={<FundraisingPage />} />
         </Routes>
         <Footer />
       </BrowserRouter>

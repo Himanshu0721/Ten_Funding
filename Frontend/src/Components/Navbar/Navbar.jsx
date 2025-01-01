@@ -1,4 +1,4 @@
-import {useEffect, useState} from 'react';
+import {useEffect, useRef, useState} from 'react';
 import { MdKeyboardArrowUp } from "react-icons/md";
 import { MdKeyboardArrowDown } from "react-icons/md";
 import { FaDatabase } from "react-icons/fa";
@@ -19,6 +19,7 @@ const Navbar = () => {
   const [isStartupsOpen, setIsStartupsOpen] = useState(false);
   const [isVCOpen, setIsVCOpen] = useState(false);
   const [isCompanyOpen, setIsCompanyOpen] = useState(false);
+  const dropdownRef = useRef(null);
 
   const handleResize = () => {
     if (window.innerWidth >= 900) {
@@ -33,6 +34,44 @@ const Navbar = () => {
       window.removeEventListener("resize", handleResize);
     };
   }, []);
+
+  // useEffect(() => {
+  //   const handleClickOutside = (event) => {
+  //     if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+  //       setIsvUpArrow(false);
+  //       setIsVCOpen(false);
+  //       setIscUpArrow(false);
+  //       setIsCompanyOpen(false);
+  //       setIssUpArrow(false);
+  //       setIsStartupsOpen(false);
+  //       setIsMenuOpen(false);
+  //        // Close the dropdown
+  //     }
+  //   };
+
+  //   document.addEventListener("click", handleClickOutside);
+
+  //   return () => {
+  //     document.removeEventListener("click", handleClickOutside);
+  //   };
+  // }, []);
+
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      // Check if the click target is not inside the dropdown
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+        setIsMenuOpen(false); // Close the menu
+      }
+    };
+  
+    document.addEventListener("click", handleClickOutside);
+  
+    // Cleanup to avoid memory leaks
+    return () => {
+      document.removeEventListener("click", handleClickOutside);
+    };
+  }, []);
+  
 
 
   const toggleMenu = () => {
@@ -90,15 +129,15 @@ const companyMouseLeave = () => {
       <img src="https://cdn.prod.website-files.com/66230c5ee8288ee065356a3e/66373de2f26ab797c8bc42b5_IndianVCs%20Full%20Logo.svg" alt="Logo" />
       
     </div>
-    <button className="menu-toggle" onClick={toggleMenu} aria-label="Toggle menu">
+    <button  ref={dropdownRef} className="menu-toggle" onClick={toggleMenu} aria-label="Toggle menu">
     <IoMenu />
     </button>
     <ul className={`navbar-links ${isMenuOpen ? "open" : ""}`}>
       <li><a href="#raise" onMouseEnter={alldropdown}
-      
+        onClick={(e) => e.stopPropagation()}
       >Raise</a></li>
       <li><a href="#startup"  onMouseEnter={startupMouseEnter}
-        
+        onClick={(e) => e.stopPropagation()}
         style={{ 
           cursor: "pointer",  
            fontsize: "20px",
@@ -107,7 +146,7 @@ const companyMouseLeave = () => {
       >For Startups {issUpArrow ? <MdKeyboardArrowUp /> : <MdKeyboardArrowDown/>}</a>
      
      {isStartupsOpen && (
-      <div className="dropdown-nav" onMouseLeave={startupMouseLeave}>
+      <div   className="dropdown-nav" onMouseLeave={startupMouseLeave}  onClick={(e) => e.stopPropagation()}>
         <div className="dropdown-nav-item">
           <h3>Fundraising OS</h3>
           <p>Helps you easily manage your fundraising process</p>
@@ -129,7 +168,7 @@ const companyMouseLeave = () => {
 
 
       <li><a href="#vchandle"   onMouseEnter={vchandleMouseEnter} 
-        
+         onClick={(e) => e.stopPropagation()}
         style={{ 
           cursor: "pointer", 
           fontsize:"20px",
@@ -137,7 +176,8 @@ const companyMouseLeave = () => {
         aria-label="Toggle Arrow"
       >For VCs {isvUpArrow ? <MdKeyboardArrowUp /> : <MdKeyboardArrowDown/>}</a>
         {isVCOpen && (
-      <div className="dropdown-nav"  onMouseLeave={vchandleMouseLeave}>
+      <div   className="dropdown-nav"  onMouseLeave={vchandleMouseLeave}
+      onClick={(e) => e.stopPropagation()}>
         <div className="dropdown-nav-item">
           <h3>LaunchPad</h3>
           <p>Find VC jobs</p>
@@ -158,7 +198,7 @@ const companyMouseLeave = () => {
       </li>
 
       <li><a href="#company"  onMouseEnter={companyMouseEnter} 
-         
+         onClick={(e) => e.stopPropagation()}
         style={{ 
           cursor: "pointer", 
           fontsize:"20px",
@@ -166,7 +206,8 @@ const companyMouseLeave = () => {
         aria-label="Toggle Arrow"
       >Company {iscUpArrow ? <MdKeyboardArrowUp /> : <MdKeyboardArrowDown/>}</a>
         {isCompanyOpen && (
-      <div className="dropdown-nav" onMouseLeave={companyMouseLeave}>
+      <div   className="dropdown-nav" onMouseLeave={companyMouseLeave}
+      onClick={(e) => e.stopPropagation()}>
         <div className="dropdown-nav-item2">
           <h3>About IndianVCs</h3>
           <p>Learn about our people</p>
