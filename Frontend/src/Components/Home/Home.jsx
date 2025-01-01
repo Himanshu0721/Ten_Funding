@@ -287,9 +287,6 @@ function Home() {
               </a>
             </div>
             <p>{investor.ticketSize}</p>
-            <div className="hr-2">
-              <hr />
-            </div>
           </div>
         ))}
         {visibleCount < filteredInvestors.length && (
