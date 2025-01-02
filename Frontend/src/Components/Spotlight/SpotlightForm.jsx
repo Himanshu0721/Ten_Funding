@@ -15,7 +15,7 @@ export default function SpotlightForm() {
             and hiring, including investor lists, templates, job boards, and
             networking events.
           </h3>
-          <p>This form may take roughly up to 5 to 10 minutes to complete. TIA!</p>
+          
           <hr />
           <h4>
             <u>Your personal information will remain confidential and will not be
