@@ -16,6 +16,7 @@ import SpotlightForm from "./Components/Spotlight/SpotlightForm.jsx";
 import VCStack from "./Components/VC Stack/VC Stack.jsx";
 import VCStackForm from "./Components/VC Stack/VC StackForm.jsx";
 import NextPlay from "./Components/NextPlay/NextPlay.jsx";
+import Pitch from "./Components/Card/Pitch.jsx";
 function App() {
   return (
     <>
@@ -28,6 +29,7 @@ function App() {
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           <Route path="/terms-of-Service" element={<TermsOfService />} />
           <Route path="/Card" element={<Card />} />
+          <Route path="/Pitch" element={<Pitch/>}/>
           <Route
             path="/registrationformnext"
             element={<RegistrationFormNext />}
