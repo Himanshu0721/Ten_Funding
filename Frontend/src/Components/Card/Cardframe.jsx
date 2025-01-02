@@ -6,7 +6,9 @@ const Cardframe = () => {
   return (
     <>
     <div className="investor-card">
-      <button className="back-button">← Back to Investors</button>
+      <a href="/Home"className="back-button">← Back to Investors
+        <button ></button>
+      </a>
       <div className="header-div">
         <img
           src="https://cdn.prod.website-files.com/66231acb2160c0962a6c50d4/67065f076f6590d0317c92f0_2_a_m_ventures_logo.jpeg"
