@@ -1,0 +1,43 @@
+
+.tweet-container {
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+justify-content: center;
+padding: 20px;
+}
+
+.tweet-card {
+border: 1px solid #ddd;
+border-radius: 8px;
+padding: 15px;
+background-color: #fff;
+max-width: 400px;
+flex: 1 1 300px;
+}
+
+.tweet-header {
+font-size: 14px;
+color: #555;
+margin-bottom: 10px;
+}
+
+.tweet-header .handle {
+color: #888;
+}
+
+.tweet-header .time {
+color: #aaa;
+}
+
+.tweet-text {
+font-size: 16px;
+margin-bottom: 15px;
+}
+
+.tweet-actions {
+display: flex;
+justify-content: space-between;
+font-size: 14px;
+color: #555;
+}

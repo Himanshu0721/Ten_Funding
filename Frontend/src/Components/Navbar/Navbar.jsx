@@ -28,9 +28,9 @@ const Navbar = () => {
     navigate("/fundraising");
   };
 
-  // const handleNextPlay = () => {
-  //   navigate("/");
-  // };
+   const handleNextPlay = () => {
+    navigate("/nextplay");
+   };
 
   const handleSpotlight = () => {
     navigate("/spotlight");
@@ -210,7 +210,7 @@ const Navbar = () => {
                   <FaDatabase />
                 </div>
               </div>
-              <div className="dropdown-nav-item">
+              <div className="dropdown-nav-item" onClick={handleNextPlay}>
                 <h3>Next Play</h3>
                 <p>Exclusive community for top-notch founders and operators</p>
                 <div className="dropdown-nav-icon">
@@ -248,21 +248,21 @@ const Navbar = () => {
               onMouseLeave={vchandleMouseLeave}
               onClick={(e) => e.stopPropagation()}
             >
-              <div className="dropdown-nav-item">
+              <div className="dropdown-nav-item3">
                 <h3>LaunchPad</h3>
                 <p>Find VC jobs</p>
                 <div className="dropdown-nav-icon">
                   <RiGraduationCapFill />
                 </div>
               </div>
-              <div className="dropdown-nav-item">
+              <div className="dropdown-nav-item3">
                 <h3>Venture OS</h3>
                 <p>Manage a VC fund in one place</p>
                 <div className="dropdown-nav-icon">
                   <FaPlay />
                 </div>
               </div>
-              <div className="dropdown-nav-item" onCanPlay={handleVcStack}>
+              <div className="dropdown-nav-item3" onClick={handleVcStack}>
                 <h3>VC Stack</h3>
                 <p>Find your VC software stack</p>
                 <div className="dropdown-nav-icon">
