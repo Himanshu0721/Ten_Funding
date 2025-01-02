@@ -1,15 +1,17 @@
 import React from "react";
 import "./cardframe.css";
+// import Pitch from "./Pitch.jsx";
 
 const Cardframe = () => {
   return (
+    <>
     <div className="investor-card">
       <button className="back-button">← Back to Investors</button>
-      <div className="header">
+      <div className="header-div">
         <img
           src="https://cdn.prod.website-files.com/66231acb2160c0962a6c50d4/67065f076f6590d0317c92f0_2_a_m_ventures_logo.jpeg"
           alt="2am VC"
-          className="logo"
+          className="logo-div"
         />
         <h1>Ten Funding</h1>
         
@@ -54,10 +56,13 @@ const Cardframe = () => {
         </div>
       </div>
       <div className="actions">
-        <button className="pitch-button">Pitch Now!</button>
+      <a href="/Pitch" className="pitch-button">Pitch Now!
+        <button ></button>
+      </a>
         <button className="fundraising-button">Checkout Fundraising OS</button>
       </div>
     </div>
+    </>
   );
 };
 

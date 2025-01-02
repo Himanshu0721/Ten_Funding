@@ -1,3 +1,6 @@
+.body {
+  padding-top: 70px;
+}
 .investor-card {
   font-family: Arial, sans-serif;
   background-color: #dee2ff;
@@ -9,7 +12,7 @@
 
 }
 
-.header {
+.header-div {
   text-align: center;
   
 }
@@ -18,7 +21,7 @@
   color: #4e5374;
 }
 
-.logo {
+.logo-div {
   border-radius: 60%;
   display: inline;
   max-width: 60px;
@@ -61,7 +64,7 @@
   padding: 10px;
   margin: 5px 0;
   border: none;
-  border-radius: 4px;
+  border-radius: 10px;
   color: white;
   font-weight: bold;
   cursor: pointer;
@@ -111,15 +114,16 @@
 }
 
 .back-button {
-  background-color: #f7f9fc; 
+  background-color: #eff3ff; 
   border: 2px solid #313550;
-  color: #a8aed7; 
+  color: #8ea5f5; 
   font-size: 16px;
   cursor: pointer;
   margin: 30px 0 30px 0;
   
-  border-radius: 8px;
+  border-radius: 10px;
   transition: background-color 0.3s, color 0.3s;
+  padding: 5px 10px 5px 10px;
 }
 
 .back-button:hover {
@@ -137,7 +141,7 @@
     font-size: 36px;
   }
 
-  .logo {
+  .logo-div {
     max-width: 45px;
   }
 
@@ -163,7 +167,7 @@
     font-size: 32px;
   }
 
-  .logo {
+  .logo-div {
     max-width: 40px;
   }
 
@@ -201,7 +205,7 @@
     font-size: 28px;
   }
 
-  .logo {
+  .logo-div {
     max-width: 35px;
   }
 
@@ -227,7 +231,7 @@
     font-size: 24px;
   }
 
-  .logo {
+  .logo-div {
     max-width: 30px;
   }
 
@@ -243,5 +247,9 @@
 
   .social-links a img {
     max-width: 15px;
+  }
+
+  .back-button {
+    font-size: 10px;
   }
 }
