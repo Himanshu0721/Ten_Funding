@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./About.css";
 import MainImage from "../../assets/images/about-main-image.png";
 import { useNavigate } from "react-router-dom";
@@ -26,6 +26,34 @@ function About() {
     ],
     loop: {},
   });
+
+  const testimonialRef = React.useRef(null);
+
+  const handlePrev = () => {
+    if (testimonialRef.current) {
+      const cardWidth =
+        testimonialRef.current.querySelector(".testimonial-card").offsetWidth;
+      const gap = 30; // Adjust the gap if needed
+      const scrollAmount = cardWidth + gap;
+      testimonialRef.current.scrollBy({
+        left: -scrollAmount,
+        behavior: "smooth",
+      });
+    }
+  };
+
+  const handleNext = () => {
+    if (testimonialRef.current) {
+      const cardWidth =
+        testimonialRef.current.querySelector(".testimonial-card").offsetWidth;
+      const gap = 30; // Adjust the gap if needed
+      const scrollAmount = cardWidth + gap;
+      testimonialRef.current.scrollBy({
+        left: scrollAmount,
+        behavior: "smooth",
+      });
+    }
+  };
 
   return (
     <div className="about-container">
@@ -125,17 +153,21 @@ function About() {
       <div className="testimonial">
         <div className="testimonial-header">
           <h1>Hear from Our Community</h1>
-          <button>&lt;</button>
-          <button>&gt;</button>
+          <button onClick={handlePrev}>&lt;</button>
+          <button onClick={handleNext}>&gt;</button>
         </div>
 
-        <div className="testimonial-cards">
+        <div className="testimonial-cards" ref={testimonialRef}>
           {TestimonialData.map((data, index) => (
             <div key={index} className="testimonial-card">
               <div className="testimonial-info">
-                <img src={data.image} alt="" />
-                <h2>{data.name}</h2>
-                <h3>{data.role}</h3>
+                <div className="info-image-div">
+                  <img src={data.image} alt={data.name} />
+                </div>
+                <div className="info-name-div">
+                  <h3>{data.name}</h3>
+                  <h4>{data.role}</h4>
+                </div>
               </div>
               <p>{data.desc}</p>
             </div>
