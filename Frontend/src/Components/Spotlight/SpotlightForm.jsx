@@ -1,4 +1,4 @@
-import './Spotlight.css';
+import './SpotlightForm.css';
 
 export default function SpotlightForm() {
   return (
