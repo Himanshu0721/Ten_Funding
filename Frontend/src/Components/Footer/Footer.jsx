@@ -20,7 +20,7 @@ function Footer() {
               <NavLink to="/">Next Play</NavLink>
             </li>
             <li>
-              <NavLink to="/">Spotlight</NavLink>
+              <NavLink to="/spotlight">Spotlight</NavLink>
             </li>
           </ul>
         </div>
@@ -28,7 +28,7 @@ function Footer() {
           <h4>For VCs</h4>
           <ul>
             <li>
-              <NavLink to="/">VC Stack</NavLink>
+              <NavLink to="/vc-stack">VC Stack</NavLink>
             </li>
             <li>
               <NavLink to="/">Venture OS</NavLink>

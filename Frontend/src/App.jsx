@@ -11,7 +11,11 @@ import TermsOfService from "./Components/TermsOfService/TermsOfService";
 import Card from "./Components/Card/Cardframe";
 import About from "./Components/About/About";
 import FundraisingPage from "./Components/Fundraising/FundraisingPage.jsx";
-
+import Spotlight from "./Components/Spotlight/Spotlight.jsx";
+import SpotlightForm from "./Components/Spotlight/SpotlightForm.jsx";
+import VCStack from "./Components/VC Stack/VC Stack.jsx";
+import VCStackForm from "./Components/VC Stack/VC StackForm.jsx";
+import NextPlay from "./Components/NextPlay/NextPlay.jsx";
 function App() {
   return (
     <>
@@ -29,6 +33,11 @@ function App() {
             element={<RegistrationFormNext />}
           />
           <Route path="/fundraising" element={<FundraisingPage />} />
+          <Route path="/nextplay" element={<NextPlay/>} />
+          <Route path="/spotlight" element={<Spotlight />} />
+          <Route path="/spotlight-form" element={<SpotlightForm />} />
+          <Route path="/vc-stack" element={<VCStack />} />
+          <Route path="/vc-Stack-form" element={<VCStackForm />} />
         </Routes>
         <Footer />
       </BrowserRouter>
