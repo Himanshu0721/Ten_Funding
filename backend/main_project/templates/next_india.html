@@ -11,10 +11,12 @@
   <div class="container">
     <h1>IndianVCs VC Next India</h1>
     <form method="post" action="/next_india">
-        {% if success_msg %}
-                          <div id="alerts" class="alert alert-success" role="alert">{{success_msg}}
-                          </div>
-                      {% endif %}
+      {% if err_msg %}
+          <div id="alerts" class="alert alert-danger" role="alert">{{err_msg}}</div>
+      {% endif %}
+      {% if success_msg %}
+          <div id="alerts" class="alert alert-success" role="alert">{{success_msg}}</div>
+      {% endif %}
         {% csrf_token %}
        <input type="hidden" name="inserted_id" value="{{inserted_id}}">
       <label for="investment_process">Investment Process:</label>

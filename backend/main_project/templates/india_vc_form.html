@@ -11,10 +11,12 @@
   <div class="container">
     <h1>India VC Form</h1>
     <form method="post" action="/">
-        {% if success_msg %}
-                          <div id="alerts" class="alert alert-success" role="alert">{{success_msg}}
-                          </div>
-                      {% endif %}
+      {% if err_msg %}
+          <div id="alerts" class="alert alert-danger" role="alert">{{err_msg}}</div>
+      {% endif %}
+      {% if success_msg %}
+          <div id="alerts" class="alert alert-success" role="alert">{{success_msg}}</div>
+      {% endif %}
         {% csrf_token %}
       <label for="name">Name:</label>
       <input class="form-control" type="text" id="name" name="uname" placeholder="Enter your name" required>
@@ -29,19 +31,19 @@
       <input class="form-control" type="number" id="founded-year" name="founder_year" placeholder="Enter founded year" required>
 
       <label for="ticket_size">Ticket Size:</label>
-      <input class="form-control" type="text" id="ticket_size" name="ticket_size" placeholder="Enter ticket size">
+      <input class="form-control" type="text" id="ticket_size" name="ticket_size" placeholder="Enter ticket size" required>
 
       <label for="current_fund_size">Current Fund Size:</label>
-      <input class="form-control" type="text" id="current_fund_size" name="current_fund_size" placeholder="Enter ticket size">
+      <input class="form-control" type="text" id="current_fund_size" name="current_fund_size" placeholder="Enter ticket size" required>
 
       <label for="aum">AUM:</label>
-      <input class="form-control" type="text" id="aum" name="aum" placeholder="Enter ticket size">
+      <input class="form-control" type="text" id="aum" name="aum" placeholder="Enter ticket size" required>
 
       <label for="portfolio_count">Portfolio Count:</label>
-      <input class="form-control" type="text" id="portfolio_count" name="portfolio_count" placeholder="Enter ticket size">
+      <input class="form-control" type="text" id="portfolio_count" name="portfolio_count" placeholder="Enter ticket size" required>
 
       <label for="portfolio_companies">Top Portfolio Companies:</label>
-      <input class="form-control" id="portfolio_companies" name="portfolio_companies" placeholder="List top portfolio companies">
+      <input class="form-control" id="portfolio_companies" name="portfolio_companies" placeholder="List top portfolio companies" required>
       
       <label for="prefer_lead_rounds">Do you prefer to lead rounds?</label>
       <select class="form-control" id="prefer_lead_rounds" name="prefer_lead_rounds">
@@ -536,16 +538,16 @@
       <br>
 
       <label for="founder_preference_other_name">Other Name:</label>
-      <input class="form-control" type="text" id="founder_preference_other_name" name="founder_preference_other_name" placeholder="Enter your name">
+      <input class="form-control" type="text" id="founder_preference_other_name" name="founder_preference_other_name" placeholder="Enter your name" >
 
       <label for="fund_application_form">Fund Application Form Link to Pitch*</label>
-      <input class="form-control" type="text" id="fund_application_form" name="fund_application_form" placeholder="Enter your name">
+      <input class="form-control" type="text" id="fund_application_form" name="fund_application_form" placeholder="Enter your name" required>
 
       <label for="poc_mail">PoC Mail</label>
-      <input class="form-control" type="text" id="poc_mail" name="poc_mail" placeholder="Enter your name">
+      <input class="form-control" type="text" id="poc_mail" name="poc_mail" placeholder="Enter your name" required>
 
       <label for="fund_overview">Fund Overview</label>
-      <textarea class="form-control" id="fund_overview" name="fund_overview" placeholder="Enter your name" size="4"></textarea>
+      <textarea class="form-control" id="fund_overview" name="fund_overview" placeholder="Enter your name" size="4" required></textarea>
 
       
       <br>

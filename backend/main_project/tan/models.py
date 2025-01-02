@@ -119,3 +119,13 @@ class tech_stack_waitlist(models.Model):
     email = models.EmailField(null=True, blank=True)
     firm_name = models.TextField(null=True, blank=True)
     interested_newsletter_story = models.TextField(null=True, blank=True)
+
+class vc_application(models.Model):
+    mail_address = models.EmailField(null=True, blank=True)
+    start_up_name = models.TextField(null=True, blank=True)
+    business_description = models.TextField(null=True, blank=True)
+    founders_linkedin_profiles  = models.TextField(null=True, blank=True)
+    product_website = models.TextField(null=True, blank=True)
+    funding_amount = models.TextField(null=True, blank=True)
+    pitch_deck = models.TextField(null=True, blank=True)
+

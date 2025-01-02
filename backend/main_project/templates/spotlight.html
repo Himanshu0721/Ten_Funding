@@ -11,10 +11,12 @@
   <div class="container">
     <h1>IndianVCs Spotlight Waitlist</h1>
     <form method="post" action="/spotlight">
-        {% if success_msg %}
-                          <div id="alerts" class="alert alert-success" role="alert">{{success_msg}}
-                          </div>
-                      {% endif %}
+      {% if err_msg %}
+          <div id="alerts" class="alert alert-danger" role="alert">{{err_msg}}</div>
+      {% endif %}
+      {% if success_msg %}
+          <div id="alerts" class="alert alert-success" role="alert">{{success_msg}}</div>
+      {% endif %}
         {% csrf_token %}
       <label for="name">Name:</label>
       <input class="form-control" type="text" id="name" name="uname" placeholder="Enter your name" required>
