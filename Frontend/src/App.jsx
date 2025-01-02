@@ -11,6 +11,8 @@ import TermsOfService from "./Components/TermsOfService/TermsOfService";
 import Card from "./Components/Card/Cardframe";
 import About from "./Components/About/About";
 import FundraisingPage from "./Components/Fundraising/FundraisingPage.jsx";
+import Spotlight from "./Components/Spotlight/Spotlight.jsx";
+import SpotlightForm from "./Components/Spotlight/SpotlightForm.jsx";
 
 function App() {
   return (
@@ -29,6 +31,8 @@ function App() {
             element={<RegistrationFormNext />}
           />
           <Route path="/fundraising" element={<FundraisingPage />} />
+          <Route path="/spotlight" element={<Spotlight />} />
+          <Route path="/spotlight-form" element={<SpotlightForm />} />
         </Routes>
         <Footer />
       </BrowserRouter>
