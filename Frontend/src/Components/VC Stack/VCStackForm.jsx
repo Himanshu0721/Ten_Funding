@@ -3,30 +3,25 @@ import "./VCStackForm.css";
 export default function VCStackForm() {
   return (
     <>
-      <div className="vcstack-form--container">
-        <div className="vcstack-form--header-logo">
+      <div className="vcstackform-container">
+        <div className="vcstackform-header-logo">
           <img src="jpgconverter.png" alt="IndianVCs logo" />
         </div>
-        <div className="vcstack-form--header-content">
-          <h1>IndianVCs Spotlight Waitlist</h1>
-          <h3>
+        <div className="vcstackform-header-content">
+          <h1>IndianVCs VC Tech Stack Waitlist</h1>
+          <h2>
             IndianVCs is a decentralized venture community by VCs for founders,
             guiding startups from "-1 to 0". We offer resources for fundraising
             and hiring, including investor lists, templates, job boards, and
             networking events.
-          </h3>
-          <p>
-            This form may take roughly up to 5 to 10 minutes to complete. TIA!
-          </p>
+          </h2>
           <hr />
-          <h4>
-            <u>
-              Your personal information will remain confidential and will not be
-              shared outside.
-            </u>
-          </h4>
+          <p>
+            Your personal information will remain confidential and will not be
+            shared outside.
+          </p>
         </div>
-        <div className="vcstack-form--registration-form-content">
+        <div className="vcstackform-registration-form-content">
           <form action="">
             <div className="form-group">
               <label htmlFor="name">
