@@ -28,9 +28,9 @@ const Navbar = () => {
     navigate("/fundraising");
   };
 
-   const handleNextPlay = () => {
+  const handleNextPlay = () => {
     navigate("/nextplay");
-   };
+  };
 
   const handleSpotlight = () => {
     navigate("/spotlight");
@@ -52,9 +52,12 @@ const Navbar = () => {
     navigate("/about");
   };
 
-  // const handleCommunity = () => {
-  //   navigate("/");
-  // };
+  const handleCommunity = () => {
+    window.open(
+      "https://www.linkedin.com/company/the-entrepreneurship-network/posts/?feedView=all",
+      "_blank"
+    );
+  };
 
   const handleResize = () => {
     if (window.innerWidth >= 900) {
@@ -300,7 +303,7 @@ const Navbar = () => {
                   <IoMdHome />
                 </div>
               </div>
-              <div className="dropdown-nav-item2">
+              <div className="dropdown-nav-item2" onClick={handleCommunity}>
                 <h3>Community</h3>
                 <p>Join our Community</p>
                 <div className="dropdown-nav-icon">
