@@ -1,65 +1,172 @@
+/* Base Container Styling */
 .spotlight-form-container {
-  text-align: left;
-  margin: 10%;
-  padding: 3%;
-  max-width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  
+  
 }
 
-.spotlight-form-header-content h1 {
-  font-size: 50px;
-  margin: 16px 0;
+/* Header Logo */
+.spotlight-form-header-logo {
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 .spotlight-form-header-logo img {
-  width: 10%;
-  margin-top: -55px;
+  max-width: 138px;
+  margin-left: -536px;
+  margin-top: 93px;
+}
+
+/* Header Content */
+.spotlight-form-header-content {
+  text-align: center;
+}
+
+.spotlight-form-header-content h1 {
+  font-size: 40px;
+  margin-bottom: 25px;
+  font-weight: 800;
+  line-height: 1.1;
+}
+
+.spotlight-form-header-content h3 {
+  min-height: 37px;
+  padding-top: 3px;
+  padding-bottom: calc(8px);
+  font-size: 17px;
+  color: #555;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.spotlight-form-header-content h4 {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: #ddd;
+  margin: 20px 0;
+}
+
+/* Registration Form Content */
+.spotlight-form-registration-form-content {
+  margin-top: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label h3 {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.form-control {
+  width: 75%;
+  height: 37px;
+  padding: 0px 10px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 1px 0px, rgba(61, 59, 53, 0.16) 0px 0px 0px 1px, rgba(61, 59, 53, 0.08) 0px 2px 5px 0px;
+  border: 0px;
+  border-radius: 5px;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+textarea.form-control {
+  padding: 14px;
+  width: 100%;
   margin-bottom: 15px;
 }
 
-.spotlight-form-registration-form-content select {
+select.form-control {
   border-radius: 5px;
   padding: 10px;
   width: 50%;
   margin-bottom: 16px;
 }
 
-.spotlight-form-registration-form-content textarea {
-  border-radius: 5px;
-  padding: 14px;
-  width: 100%;
-  margin-bottom: 15px;
+.submit-button {
+  display: inline-flex;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #000000; /* Black background */
+  color: #ffffff; /* White text */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: left;
+  line-height: 18px;
 }
 
-.spotlight-form-registration-form-content button {
-  border-radius: 5px;
-  background-color: black;
-  color: white;
-  padding: 10px;
-  margin-top: 15px;
+.submit-button svg {
+  margin-left: 10px;
+  
 }
 
-.spotlight-form-registration-form-content h2 {
-  color: rgb(66, 66, 169);
-  font-size: 18px;
-  margin-top: 15px;
-  margin-bottom: 15px;
+/* Responsive Styles */
+@media (max-width: 600px) {
+  .spotlight-form-container {
+    padding: 10px;
+  }
+  .spotlight-form-header-logo img {
+    max-width: 30%;
+    height: auto;
+    margin: 10px auto;
+    margin-left: -275px;
+  }
+
+  .spotlight-form-header-content h1 {
+    font-size: 20px;
+  }
+
+  .spotlight-form-header-content h3 {
+    font-size: 14px;
+  }
+
+  .spotlight-form-header-content h4 {
+    font-size: 12px;
+  }
+
+  .form-group label h3 {
+    font-size: 14px;
+  }
+
+  .form-control {
+    font-size: 12px;
+    width: 100%;
+  }
+
+  .submit-button {
+    font-size: 14px;
+  }
 }
 
-.spotlight-form-registration-form-content p {
-  margin-top: 15px;
-}
-
+/* Additional Styles for Form Container */
 @media (max-width: 480px) {
   .spotlight-form-container {
-    margin: 100px 0px 0px 0px;
+    margin: 100px 0 0 0;
     padding-bottom: 20px;
     max-width: 100%;
   }
+
   .spotlight-form-header-content h1 {
     font-size: 30px;
   }
 
-  .spotlight-form-registration-form-content textarea {
+  .registration-form-content textarea {
     max-width: 90%;
+  }
+
+  .form-control {
+    width: 100%;
   }
 }
