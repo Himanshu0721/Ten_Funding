@@ -3,11 +3,11 @@ import "./SpotlightForm.css";
 export default function SpotlightForm() {
   return (
     <>
-      <div className="spotlight-container">
-        <div className="spotlight-header-logo">
+      <div className="spotlight-form-container">
+        <div className="spotlight-form-header-logo">
           <img src="jpgconverter.png" alt="IndianVCs logo" />
         </div>
-        <div className="spotlight-header-content">
+        <div className="spotlight-form-header-content">
           <h1>IndianVCs Spotlight Waitlist</h1>
           <h3>
             IndianVCs is a decentralized venture community by VCs for founders,
@@ -24,7 +24,7 @@ export default function SpotlightForm() {
             </u>
           </h4>
         </div>
-        <div className="spotlight-registration-form-content">
+        <div className="spotlight-form-registration-form-content">
           <form action="">
             <div className="form-group">
               <label htmlFor="name">
