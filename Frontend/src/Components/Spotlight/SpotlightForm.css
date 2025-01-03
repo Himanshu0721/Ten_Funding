@@ -58,6 +58,7 @@
   }
 }
 
+/* Additional Styles for Form Container */
 @media (max-width: 480px) {
   .spotlightform-container {
     margin: 28% 10%;
@@ -69,6 +70,10 @@
     font-size: 15px;
   }
   .spotlightform-registration-form-content input {
+    width: 100%;
+  }
+
+  .form-control {
     width: 100%;
   }
 }
