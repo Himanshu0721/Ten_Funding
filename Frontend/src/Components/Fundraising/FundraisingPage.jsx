@@ -5,21 +5,21 @@ import Image2 from "../../assets/images/2.png";
 import Image3 from "../../assets/images/3.png";
 import Image4 from "../../assets/images/4.png";
 
-const FundraisingPage = () => {
+function FundraisingPage() {
   return (
     <div>
       {/* Hero Section */}
       <section className="hero">
         <div className="hero-content">
           <h1>Making Fundraising</h1>
-          <img src="1.png" alt="FundraisingImage" width="800" height="600" />
+          <img src={Image1} alt="FundraisingImage" width="800" height="600" />
           <button className="cta-button" id="ctaButtonHero">Download Now</button>
         </div>
       </section>
       {/* About Section */}
       <section id="about">
         <div className="content-container">
-          <img src="2.png" alt="Investor Database" width="200" height="100" />
+          <img src={Image2} alt="Investor Database" width="200" height="100" />
           <div className="text-content">
             <h1>Investor Database</h1>
             <ul className="bullet-points">
@@ -35,7 +35,7 @@ const FundraisingPage = () => {
       {/* Pipeline Tracker Section */}
       <section id="image2">
         <div className="content-container">
-          <img src="3.png" alt="Investor Database" width="100" height="500" />
+          <img src={Image3} alt="Investor Database" width="100" height="500" />
           <div className="text-content">
             <h1>Pipeline Tracker</h1>
             <ul className="bullet-points">
@@ -51,7 +51,7 @@ const FundraisingPage = () => {
       {/* Meeting Management Section */}
       <section id="image3">
         <div className="content-container">
-          <img src="4.png" alt="Meeting Management" width="500" height="200" />
+          <img src={Image4} alt="Meeting Management" width="500" height="200" />
           <div className="text-content">
             <h1>Meeting Management</h1>
             <ul className="bullet-points">
@@ -67,7 +67,7 @@ const FundraisingPage = () => {
       <section id="image4">
   <div className="content-container">
     <img 
-      src="1.png" 
+      src={Image1} 
       alt="Meeting Management" 
       style={{ width: "700px", height: "500px" }} 
     />
@@ -83,6 +83,6 @@ const FundraisingPage = () => {
 </section>
     </div>
   );
-};
+}
 
 export default FundraisingPage;
