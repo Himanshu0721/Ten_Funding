@@ -135,7 +135,7 @@
 }
 
 .testimonial-card {
-  width: 23%;
+  width: 330px;
   border: 1px solid gray;
   border-radius: 10px;
   flex: 0 0 auto;
@@ -169,7 +169,7 @@
 }
 
 .testimonial-card p {
-  padding: 1rem;
+  padding: 0 1rem 1rem 1rem;
   text-align: start;
 }
 
