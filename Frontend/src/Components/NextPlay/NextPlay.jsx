@@ -1,54 +1,34 @@
-// src/components/ResponsivePage.jsx
-import React from 'react';
+
+import {useState} from 'react';
+import { HiOutlinePlusSmall } from "react-icons/hi2";
+import { HiOutlineMinusSmall } from "react-icons/hi2";
+
 import './NextPlay.css';
-import Tweet from './Tweet';
 
 const NextPlay = () => {
-    const tweets = [
-        {
-          name: "Ryan Hoover",
-          handle: "rrhoover",
-          time: "4:25 PM · Jun 5, 2024",
-          text: "I admire what @benln and @jrdngonen are doing with Next Play. If you’re considering a career pivot or just curious how others have done it, take a look: nextplay.so",
-          likes: 101,
-          replies: 7,
-          retweets: 19,
-        },
-        {
-          name: "Camille Ricketts",
-          handle: "camillericketts",
-          time: "12:49 AM · Jun 21, 2024",
-          text: "Love what @benln & @jrdngonen are doing with Next Play. As someone who’s been through that dreamy, thrilling, terrifying, nerve-rattling process of figuring out what’s next - it’s the best resource ✨",
-          likes: 28,
-          replies: 1,
-          retweets: 5,
-        },
-        {
-            name: "Camille Ricketts",
-            handle: "camillericketts",
-            time: "12:49 AM · Jun 21, 2024",
-            text: "Love what @benln & @jrdngonen are doing with Next Play. As someone who’s been through that dreamy, thrilling, terrifying, nerve-rattling process of figuring out what’s next - it’s the best resource ✨",
-            likes: 28,
-            replies: 1,
-            retweets: 5,
-          },
-          {
-            name: "Camille Ricketts",
-            handle: "camillericketts",
-            time: "12:49 AM · Jun 21, 2024",
-            text: "Love what @benln & @jrdngonen are doing with Next Play. As someone who’s been through that dreamy, thrilling, terrifying, nerve-rattling process of figuring out what’s next - it’s the best resource ✨",
-            likes: 28,
-            replies: 1,
-            retweets: 5,
-          },
-      ];
+  const [openIndex, setOpenIndex] = useState(null);
+   const data = [
+    { Name: "Abbe Smith", City: "Seattle", Linkedin: "linkedin.com/in/abbesmith" },
+    { Name: "Adrian Calderon", City: "Miami", Linkedin: "linkedin.com/in/abcalderon3" },
+    { Name: "Amu Fowler", City: "DC", Linkedin: "www.linkedin.com" },
+    { Name: "Andy Apple", City: "Los Angeles", Linkedin: "linkedin.com/in/aapple" },
+    { Name: "Ben Lang", City: "Tel Aviv", Linkedin: "linkedin.com/in/benlang" },
+    { Name: "Bremner Morris", City: "Denver", Linkedin: "linkedin.com/in/bremnermorris" },
+    
+  ];
+  
+
+  const toggleDropdown = (index) => { 
+       // If the clicked question is already open, close it */}
+       if (openIndex === index) {
+         setOpenIndex(null); 
+       } else {
+         // Otherwise, open the clicked question
+         setOpenIndex(index);
+       }
+     };
   return (
     <div className="responsive-page">
-      {/* Header */}
-      {/* <header className="header">
-        <h1 className="logo">next play</h1>
-        <button className="apply-button">apply</button>
-      </header> */}
 
       {/* Main Content */}
       <main className="main-content">
@@ -120,35 +100,184 @@ const NextPlay = () => {
         <button className="cta-button">✨ Apply here to join (takes less than 5 minutes)</button>
       </div>
     </div>
-    <div className="faq-container">
-      <h1>Questions for us</h1>
-      <div className="faq-section">
-        <div className="faq-column">
-          <div className="faq-item">+ who's behind this?</div>
-          <div className="faq-item">+ who's hosting next play gatherings?</div>
-          <div className="faq-item">+ want to host a gathering with us in your city?</div>
-          <div className="faq-item">+ will my info be shared anywhere?</div>
-          <div className="faq-item">+ other questions?</div>
+
+
+<div className="faq-container">
+<h1>Questions for us</h1>
+<div className="faq-section">
+  <div className="faq-column">
+    {/* FAQ Items */}
+    <div
+      className="faq-item"
+      onClick={() => toggleDropdown(0)} // Pass the index
+    >
+      {openIndex === 0 ? <HiOutlineMinusSmall /> : <HiOutlinePlusSmall />} Who's behind this?
+      {openIndex === 0 && (
+        <div className='qu-1'>
+          <a href="#">Ben Lang</a>
+          <br />
+          <a href="#">Jorden Gonen</a>
         </div>
-        <div className="faq-column">
-        <div className="faq-item">+ how do I sign up for the newsletter? can VCs get involved?</div> 
-          {/* <div className="faq-item expanded">
-            - how do I sign up for the newsletter?
-            <button className="subscribe-button">Subscribe here</button>
-          </div> */}
-          <div className="faq-item">+ how do I share roles with the community?</div>
-          <div className="faq-item">+ how can VCs get involved?</div>
+      )}
+    </div>
+
+    <div
+      className="faq-item"
+      onClick={() => toggleDropdown(1)} // Pass the index
+    >
+      {openIndex === 1 ? <HiOutlineMinusSmall /> : <HiOutlinePlusSmall />} Who's hosting next play gatherings?
+      {openIndex === 1 && (
+        <div className='table-container'>
+        <table className="qu-table" style={{ borderCollapse: "collapse", background: " #f9f9f9"}}>
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>City</th>
+              <th>Linkedin</th>
+            </tr>
+          </thead>
+          <tbody>
+            {data.map((row, index) => (
+              <tr key={index}>
+                <td>{row.Name}</td>
+                <td>{row.City}</td>
+                <td>
+                  <a href={`https://${row.Linkedin}`} target="_blank" rel="noopener noreferrer">
+                    {row.Linkedin}
+                  </a>
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
         </div>
-      </div>
+      )}
     </div>
-    <div className="tweet-container">
-      {tweets.map((tweet, index) => (
-        <Tweet key={index} {...tweet} />
-      ))}
+
+    <div
+      className="faq-item"
+      onClick={() => toggleDropdown(2)} // Pass the index
+    >
+      {openIndex === 2 ? <HiOutlineMinusSmall /> : <HiOutlinePlusSmall />} Want to host a gathering with us in your city?
+      {openIndex === 2 && (
+        <div>
+          Email us at <a href="mailto:info@entrepreneurshipnetwork">info@entrepreneurshipnetwork</a>
+        </div>
+      )}
     </div>
-      </main>
+
+    <div
+      className="faq-item"
+      onClick={() => toggleDropdown(3)} // Pass the index
+    >
+      {openIndex === 3 ? <HiOutlineMinusSmall /> : <HiOutlinePlusSmall />} Will my info be shared anywhere?
+      {openIndex === 3 && (
+        <p>Everything is off the record and confidential. For matching, intros, etc., you will need to opt in.</p>
+      )}
+    </div>
+
+    <div
+      className="faq-item"
+      onClick={() => toggleDropdown(4)} // Pass the index
+    >
+      {openIndex === 4 ? <HiOutlineMinusSmall /> : <HiOutlinePlusSmall />} Other questions?
+      {openIndex === 4 && (
+        <div>
+          Email us at <a href="mailto:info@entrepreneurshipnetwork">info@entrepreneurshipnetwork</a>
+        </div>
+      )}
+    </div>
+  </div>
+
+  <div className="faq-column">
+    <div
+      className="faq-item"
+      onClick={() => toggleDropdown(5)} // Pass the index
+    >
+      {openIndex === 5 ? <HiOutlineMinusSmall /> : <HiOutlinePlusSmall />} How do I sign up for the newsletter?
+      {openIndex === 5 && (
+        
+        <button className="subscribe-button">Subscribe here</button>
+      )}
+    </div>
+
+    <div
+      className="faq-item"
+      onClick={() => toggleDropdown(6)} // Pass the index
+    >
+      {openIndex === 6 ? <HiOutlineMinusSmall /> : <HiOutlinePlusSmall />} How do I share roles with the community?
+      {openIndex === 6 && (
+        <div>
+          Email us at <a href="mailto:info@entrepreneurshipnetwork">info@entrepreneurshipnetwork</a>
+        </div>
+      )}
+    </div>
+
+    <div
+      className="faq-item"
+      onClick={() => toggleDropdown(7)} // Pass the index
+    >
+      {openIndex === 7 ? <HiOutlineMinusSmall /> : <HiOutlinePlusSmall />} How can VCs get involved?
+      {openIndex === 7 && (
+        <div>
+          Email us at <a href="mailto:info@entrepreneurshipnetwork">info@entrepreneurshipnetwork</a> and we’ll share more.
+        </div>
+      )}
+    </div>
+    </div>
+    </div>
+    </div>
+    </main>
     </div>
   );
 };
 
 export default NextPlay;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
