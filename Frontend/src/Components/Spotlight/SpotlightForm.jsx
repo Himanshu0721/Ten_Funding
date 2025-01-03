@@ -1,13 +1,13 @@
-import './SpotlightForm.css';
+import "./SpotlightForm.css";
 
 export default function SpotlightForm() {
   return (
     <>
-      <div className="container">
-        <div className="header-logo">
+      <div className="spotlight-container">
+        <div className="spotlight-header-logo">
           <img src="jpgconverter.png" alt="IndianVCs logo" />
         </div>
-        <div className="header-content">
+        <div className="spotlight-header-content">
           <h1>IndianVCs Spotlight Waitlist</h1>
           <h3>
             IndianVCs is a decentralized venture community by VCs for founders,
@@ -15,32 +15,45 @@ export default function SpotlightForm() {
             and hiring, including investor lists, templates, job boards, and
             networking events.
           </h3>
-          
+
           <hr />
           <h4>
-            <u>Your personal information will remain confidential and will not be
-            shared outside.</u>
+            <u>
+              Your personal information will remain confidential and will not be
+              shared outside.
+            </u>
           </h4>
         </div>
-        <div className="registration-form-content">
+        <div className="spotlight-registration-form-content">
           <form action="">
             <div className="form-group">
               <label htmlFor="name">
-                <h3>Name <sub>*</sub></h3>
+                <h3>
+                  Name <sub>*</sub>
+                </h3>
               </label>
               <input type="text" id="name" className="form-control" required />
             </div>
 
             <div className="form-group">
               <label htmlFor="firmName">
-                <h3>Company Name <sub>*</sub></h3>
+                <h3>
+                  Company Name <sub>*</sub>
+                </h3>
               </label>
-              <input type="text" id="firmName" className="form-control" required />
+              <input
+                type="text"
+                id="firmName"
+                className="form-control"
+                required
+              />
             </div>
 
             <div className="form-group">
               <label htmlFor="email">
-                <h3>Email <sub>*</sub></h3>
+                <h3>
+                  Email <sub>*</sub>
+                </h3>
               </label>
               <input
                 type="email"

@@ -1,13 +1,13 @@
-import "./VC Stack.css";
+import "./VCStackForm.css";
 
 export default function VCStackForm() {
   return (
     <>
-      <div className="container">
-        <div className="header-logo">
+      <div className="vcstack-container">
+        <div className="vcstack-header-logo">
           <img src="jpgconverter.png" alt="IndianVCs logo" />
         </div>
-        <div className="header-content">
+        <div className="vcstack-header-content">
           <h1>IndianVCs Spotlight Waitlist</h1>
           <h3>
             IndianVCs is a decentralized venture community by VCs for founders,
@@ -26,7 +26,7 @@ export default function VCStackForm() {
             </u>
           </h4>
         </div>
-        <div className="registration-form-content">
+        <div className="vcstack-registration-form-content">
           <form action="">
             <div className="form-group">
               <label htmlFor="name">
