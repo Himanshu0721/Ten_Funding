@@ -1,36 +1,38 @@
-.spotlight-form-container {
+.spotlightform-container {
   text-align: left;
-  margin: 10%;
-  padding: 3%;
+  margin: 10% 25%;
   max-width: 100%;
 }
 
-.spotlight-form-header-content h1 {
-  font-size: 50px;
+.spotlightform-header-logo img {
+  width: 12%;
+}
+
+.spotlightform-header-content h1 {
+  font-size: 45px;
   margin: 16px 0;
 }
 
-.spotlight-form-header-logo img {
-  width: 10%;
-  margin-top: -55px;
-  margin-bottom: 15px;
+.spotlightform-header-content h2 {
+  font-size: 18px;
+  font-weight: 100;
+  margin-bottom: 1rem;
 }
 
-.spotlight-form-registration-form-content select {
+.spotlightform-header-content p {
+  text-decoration: underline;
+  margin: 1rem 0;
+  color: blue;
+}
+
+.spotlightform-registration-form-content input {
   border-radius: 5px;
-  padding: 10px;
+  padding: 8px;
   width: 50%;
-  margin-bottom: 16px;
+  margin-bottom: 25px;
 }
 
-.spotlight-form-registration-form-content textarea {
-  border-radius: 5px;
-  padding: 14px;
-  width: 100%;
-  margin-bottom: 15px;
-}
-
-.spotlight-form-registration-form-content button {
+.spotlightform-registration-form-content button {
   border-radius: 5px;
   background-color: black;
   color: white;
@@ -38,28 +40,35 @@
   margin-top: 15px;
 }
 
-.spotlight-form-registration-form-content h2 {
-  color: rgb(66, 66, 169);
-  font-size: 18px;
-  margin-top: 15px;
-  margin-bottom: 15px;
+@media (max-width: 1024px) {
+  .spotlightform-container {
+    margin: 10% 20%;
+  }
 }
 
-.spotlight-form-registration-form-content p {
-  margin-top: 15px;
+@media (max-width: 768px) {
+  .spotlightform-container {
+    margin: 13% 15%;
+  }
+  .spotlightform-header-content h1 {
+    font-size: 35px;
+  }
+  .spotlightform-header-content h2 {
+    font-size: 16px;
+  }
 }
 
 @media (max-width: 480px) {
-  .spotlight-form-container {
-    margin: 100px 0px 0px 0px;
-    padding-bottom: 20px;
-    max-width: 100%;
+  .spotlightform-container {
+    margin: 28% 10%;
   }
-  .spotlight-form-header-content h1 {
-    font-size: 30px;
+  .spotlightform-header-content h1 {
+    font-size: 25px;
   }
-
-  .spotlight-form-registration-form-content textarea {
-    max-width: 90%;
+  .spotlightform-header-content h2 {
+    font-size: 15px;
+  }
+  .spotlightform-registration-form-content input {
+    width: 100%;
   }
 }
