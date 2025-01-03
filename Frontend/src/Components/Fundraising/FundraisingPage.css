@@ -3,15 +3,45 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 20px;
+  margin-top:100px;
   padding-left: 40px; /* Adds left border margin */
   padding-right: 40px; /* Adds right border margin */
   box-sizing: border-box; /* Ensures padding doesn't affect width */
 }
-h1 {
+.content-container h1 {
   font-size: 3rem; /* Change this to your desired font size */
 }
+.hero-content{
+  margin-top:100px;
+  font-size :40px;
+}
+.hero-content img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 20px; /* Adjust spacing between elements */
+}
+.cta-button#ctaButtonHero {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
 
+.cta-button#ctaButtonHero:hover {
+  background-color: #0056b3;
+}
 
 /* About Section */
 #about {
@@ -31,6 +61,7 @@ h1 {
 }
 
 .text-content h1 {
+  font-size:40px;
   margin-bottom: 20px; /* Adds space below the header */
 }
 
@@ -46,6 +77,19 @@ h1 {
 
 .bullet-points li {
   margin-bottom: 15px;
+}
+.cta-button#ctaButtonInvestor {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.cta-button#ctaButtonInvestor:hover {
+  background-color: #0056b3;
 }
 
 /* Pipeline Tracker Section */
@@ -69,6 +113,7 @@ h1 {
 }
 
 .text-content h1 {
+  font-size:40px;
   margin-bottom: 20px; /* Adds space below the header */
 }
 
@@ -84,6 +129,19 @@ h1 {
 
 .bullet-points li {
   margin-bottom: 15px;
+}
+.cta-button#ctaButtonPipeline {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.cta-button#ctaButtonPipeline:hover {
+  background-color: #0056b3;
 }
 
 /* Centralized Data Room Section */
@@ -104,6 +162,7 @@ h1 {
 }
 
 .text-content h1 {
+  font-size:40px;
   margin-bottom: 20px; /* Adds space below the header */
 }
 
@@ -120,6 +179,20 @@ h1 {
 .bullet-points li {
   margin-bottom: 15px;
 }
+.cta-button#ctaButtonMeeting {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.cta-button#ctaButtonMeeting:hover {
+  background-color: #0056b3;
+}
+
 
 /* Centralized Data Room Section */
 #image4 {
@@ -142,6 +215,7 @@ h1 {
 }
 
 .text-content h1 {
+  font-size:40px;
   margin-bottom: 20px; /* Adds space below the header */
 }
 
@@ -158,20 +232,20 @@ h1 {
 .bullet-points li {
   margin-bottom: 15px;
 }
-.cta-button {
-  margin-top: 20px;
+.cta-button#ctaButtonDataRoom {
   padding: 10px 20px;
-  font-size: 1rem;
+  font-size: 16px;
   background-color: #007bff;
-  color: white;
+  color: #fff;
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  transition: background-color 0.3s ease;
 }
-
-.cta-button:hover {
+.cta-button#ctaButtonDataRoom:hover {
   background-color: #0056b3;
 }
+
 
 /* Responsive Design */
 @media (max-width: 768px) {
