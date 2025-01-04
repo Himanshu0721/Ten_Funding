@@ -22,9 +22,7 @@ function VentureOS() {
       </h1>
       <div className="venture-main-div">
         <img src={MainImage} alt="main image" />
-        <div className="venture-main-button">
-          <button>Request Demo</button>
-        </div>
+        <button>Request Demo</button>
       </div>
 
       <div className="venture-lastdiv">

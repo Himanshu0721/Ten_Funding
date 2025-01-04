@@ -86,8 +86,8 @@ function About() {
       </p>
 
       {/* Scroll Section */}
-      <div className="scrolling">
-        <div className="scrolling-content scroll">
+      <div className="about-scrolling">
+        <div className="about-scrolling-content scroll">
           <img
             src="https://cdn.prod.website-files.com/66230c5ee8288ee065356a3e/666f5c9c8122c14cd7eb4571_unscrript.webp"
             height="40"
@@ -119,7 +119,7 @@ function About() {
             alt=""
           />
         </div>
-        <div className="scrolling-content scroll">
+        <div className="about-scrolling-content scroll">
           <img
             src="https://cdn.prod.website-files.com/66230c5ee8288ee065356a3e/666f5c9c8122c14cd7eb4571_unscrript.webp"
             height="40"

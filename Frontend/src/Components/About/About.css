@@ -17,6 +17,7 @@
 .about-container p {
   text-align: center;
   font-size: 18px;
+  margin: 0 1rem;
 }
 
 .about-main-div {
@@ -64,12 +65,12 @@
 
 /* ------------------------------ Scroll Section */
 
-.scrolling {
+.about-scrolling {
   display: flex;
   overflow: hidden;
 }
 
-.scrolling-content {
+.about-scrolling-content {
   grid-column-gap: 80px;
   grid-row-gap: 80px;
   flex: none;
@@ -78,7 +79,11 @@
   align-items: center;
   min-width: 100%;
   display: flex;
-  margin: 2rem;
+  margin: 1rem;
+}
+
+.about-scrolling-content img {
+  width: 120px;
 }
 
 .scroll {

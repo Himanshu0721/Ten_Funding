@@ -4,7 +4,7 @@
 }
 
 .footer-main-div hr {
-  margin: 1rem 0;
+  margin-bottom: 1rem;
 }
 
 .footer {
@@ -20,14 +20,14 @@
 }
 
 .footer-details h4 {
-  font-size: 24px;
+  font-size: 1.25rem;
   color: blue;
   margin-bottom: 8px;
 }
 
 .footer-details ul {
   font-weight: 400px;
-  font-size: 20px;
+  font-size: 1rem;
 }
 
 .footer-details ul li {
@@ -48,7 +48,7 @@
   width: 100%;
   text-align: center;
   margin: 1rem auto;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
 }
 
