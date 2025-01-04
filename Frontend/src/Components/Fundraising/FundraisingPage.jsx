@@ -21,7 +21,7 @@ function FundraisingPage() {
       {/* About Section */}
       <section id="about">
         <div className="content-container">
-          <img src={Image1} alt="Investor Database" width="600" height="400" />
+          <img src={Image2} alt="Investor Database" width="600" height="400" />
           <div className="text-content">
             <h1>Investor Database</h1>
             <ul className="bullet-points">
@@ -37,7 +37,7 @@ function FundraisingPage() {
       {/* Pipeline Tracker Section */}
       <section id="image2">
         <div className="content-container">
-          <img src={Image2} alt="Investor Database" width="600" height="400" />
+          <img src={Image3} alt="Investor Database" width="600" height="400" />
           <div className="text-content">
             <h1>Pipeline Tracker</h1>
             <ul className="bullet-points">
@@ -53,7 +53,7 @@ function FundraisingPage() {
       {/* Meeting Management Section */}
       <section id="image3">
         <div className="content-container">
-          <img src={Image3} alt="Meeting Management" width="600" height="400" />
+          <img src={Image4} alt="Meeting Management" width="600" height="400" />
           <div className="text-content">
             <h1>Meeting Management</h1>
             <ul className="bullet-points">
@@ -68,7 +68,7 @@ function FundraisingPage() {
       {/* Centralized Data Room Section */}
       <section id="image4">
         <div className="content-container">
-          <img src={Image4} alt="Meeting Management" width="600" height="400" />
+          <img src={Image1} alt="Meeting Management" width="600" height="400" />
           <div className="text-content">
             <h1>Centralized Data Room</h1>
             <ul className="bullet-points">
