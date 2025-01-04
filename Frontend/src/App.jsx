@@ -10,7 +10,7 @@ import PrivacyPolicy from "./Components/PrivacyPolicy/PrivacyPolicy";
 import TermsOfService from "./Components/TermsOfService/TermsOfService";
 import Card from "./Components/Card/Cardframe";
 import About from "./Components/About/About";
-import FundraisingPage from "./Components/Fundraising/FundraisingPage.jsx";
+import FundraisingPage from "Frontend\src\Components\Fundraising\FundraisingPage.jsx";
 import Spotlight from "./Components/Spotlight/Spotlight.jsx";
 import SpotlightForm from "./Components/Spotlight/SpotlightForm.jsx";
 import VCStack from "./Components/VC Stack/VC Stack.jsx";
