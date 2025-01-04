@@ -6,7 +6,7 @@ const Cardframe = () => {
   return (
     <>
     <div className="investor-card">
-      <a href="/Home"className="back-button">← Back to Investors
+      <a href="/"className="back-button">← Back to Investors
         <button ></button>
       </a>
       <div className="header-div">
@@ -58,7 +58,7 @@ const Cardframe = () => {
         </div>
       </div>
       <div className="actions">
-      <a href="/Pitch" className="pitch-button">Pitch Now!
+      <a href="/Pitch" className="pitch-button">Pitch Now
         <button ></button>
       </a>
         <button className="fundraising-button">Checkout Fundraising OS</button>
