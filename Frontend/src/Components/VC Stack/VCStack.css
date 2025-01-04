@@ -1,9 +1,9 @@
-.spotlight-container {
+.vcstack-container {
   width: 100%;
   margin-top: 100px;
 }
 
-.spotlight-header {
+.vcstack-header {
   width: 70%;
   background-image: linear-gradient(#dee2ff, #f9faff);
   border-radius: 15px;
@@ -11,87 +11,87 @@
   padding: 48px;
 }
 
-.spotlight-header h1 {
+.vcstack-header h1 {
   font-size: 80px;
   font-weight: 400;
   margin-bottom: 32px;
 }
 
-.spotlight-inner-div {
+.vcstack-inner-div {
   display: flex;
   justify-content: space-between;
   margin: 32px 0;
 }
 
-.spotlight-inner-div h2 {
+.vcstack-inner-div h2 {
   font-size: 32px;
   font-weight: 100;
 }
 
-.spotlight-inner-div button {
+.vcstack-inner-div button {
   font-size: 20px;
   padding: 16px;
   border-radius: 50px;
   background-color: transparent;
 }
 
-.spotlight-inner-div button:hover {
+.vcstack-inner-div button:hover {
   background-color: #dee2ff;
   transition: 1.5s;
 }
 
 @media (max-width: 998px) {
-  .spotlight-header {
+  .vcstack-header {
     width: 80%;
   }
 
-  .spotlight-header h1 {
+  .vcstack-header h1 {
     font-size: 60px;
   }
 
-  .spotlight-inner-div h2 {
+  .vcstack-inner-div h2 {
     font-size: 24px;
   }
 
-  .spotlight-inner-div button {
+  .vcstack-inner-div button {
     font-size: 18px;
     padding: 12px;
   }
 }
 
 @media (max-width: 698px) {
-  .spotlight-header {
+  .vcstack-header {
     width: 85%;
   }
 
-  .spotlight-header h1 {
+  .vcstack-header h1 {
     font-size: 50px;
   }
 
-  .spotlight-inner-div h2 {
+  .vcstack-inner-div h2 {
     font-size: 20px;
   }
 
-  .spotlight-inner-div button {
+  .vcstack-inner-div button {
     font-size: 16px;
   }
 }
 
 @media (max-width: 480px) {
-  .spotlight-header {
+  .vcstack-header {
     width: 90%;
     padding: 30px;
   }
 
-  .spotlight-header h1 {
+  .vcstack-header h1 {
     font-size: 30px;
   }
 
-  .spotlight-inner-div h2 {
+  .vcstack-inner-div h2 {
     font-size: 16px;
   }
 
-  .spotlight-inner-div button {
+  .vcstack-inner-div button {
     font-size: 12px;
   }
 }

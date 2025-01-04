@@ -13,10 +13,12 @@ import About from "./Components/About/About";
 import FundraisingPage from "Frontend\src\Components\Fundraising\FundraisingPage.jsx";
 import Spotlight from "./Components/Spotlight/Spotlight.jsx";
 import SpotlightForm from "./Components/Spotlight/SpotlightForm.jsx";
-import VCStack from "./Components/VC Stack/VC Stack.jsx";
-import VCStackForm from "./Components/VC Stack/VC StackForm.jsx";
+import VCStack from "./Components/VC Stack/VCStack.jsx";
+import VCStackForm from "./Components/VC Stack/VCStackForm.jsx";
 import NextPlay from "./Components/NextPlay/NextPlay.jsx";
 import Pitch from "./Components/Card/Pitch.jsx";
+import VentureOS from "./Components/Venture OS/VentureOS.jsx";
+
 function App() {
   return (
     <>
@@ -29,17 +31,18 @@ function App() {
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           <Route path="/terms-of-Service" element={<TermsOfService />} />
           <Route path="/Card" element={<Card />} />
-          <Route path="/Pitch" element={<Pitch/>}/>
+          <Route path="/Pitch" element={<Pitch />} />
           <Route
             path="/registrationformnext"
             element={<RegistrationFormNext />}
           />
-          <Route path="/fundraising" element={<FundraisingPage />} />
-          <Route path="/nextplay" element={<NextPlay/>} />
+          <Route path="/fundraising-os" element={<FundraisingPage />} />
+          <Route path="/nextplay" element={<NextPlay />} />
           <Route path="/spotlight" element={<Spotlight />} />
           <Route path="/spotlight-form" element={<SpotlightForm />} />
           <Route path="/vc-stack" element={<VCStack />} />
           <Route path="/vc-Stack-form" element={<VCStackForm />} />
+          <Route path="/venture-os" element={<VentureOS />} />
         </Routes>
         <Footer />
       </BrowserRouter>

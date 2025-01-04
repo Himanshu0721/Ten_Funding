@@ -1,38 +1,45 @@
-.spotlightform-container {
+.vcstackform-container {
   text-align: left;
   margin: 10% 25%;
   max-width: 100%;
 }
 
-.spotlightform-header-logo img {
+.vcstackform-header-logo img {
   width: 12%;
 }
 
-.spotlightform-header-content h1 {
+.vcstackform-header-content h1 {
   font-size: 45px;
   margin: 16px 0;
 }
 
-.spotlightform-header-content h2 {
+.vcstackform-header-content h2 {
   font-size: 18px;
   font-weight: 100;
   margin-bottom: 1rem;
 }
 
-.spotlightform-header-content p {
+.vcstackform-header-content p {
   text-decoration: underline;
   margin: 1rem 0;
   color: blue;
 }
 
-.spotlightform-registration-form-content input {
+.vcstackform-registration-form-content input {
   border-radius: 5px;
   padding: 8px;
   width: 50%;
   margin-bottom: 25px;
 }
 
-.spotlightform-registration-form-content button {
+.vcstackform-registration-form-content select {
+  border-radius: 5px;
+  padding: 10px;
+  width: 50%;
+  margin-bottom: 16px;
+}
+
+.vcstackform-registration-form-content button {
   border-radius: 5px;
   background-color: black;
   color: white;
@@ -41,39 +48,34 @@
 }
 
 @media (max-width: 1024px) {
-  .spotlightform-container {
+  .vcstackform-container {
     margin: 10% 20%;
   }
 }
 
 @media (max-width: 768px) {
-  .spotlightform-container {
+  .vcstackform-container {
     margin: 13% 15%;
   }
-  .spotlightform-header-content h1 {
+  .vcstackform-header-content h1 {
     font-size: 35px;
   }
-  .spotlightform-header-content h2 {
+  .vcstackform-header-content h2 {
     font-size: 16px;
   }
 }
 
-/* Additional Styles for Form Container */
 @media (max-width: 480px) {
-  .spotlightform-container {
+  .vcstackform-container {
     margin: 28% 10%;
   }
-  .spotlightform-header-content h1 {
+  .vcstackform-header-content h1 {
     font-size: 25px;
   }
-  .spotlightform-header-content h2 {
+  .vcstackform-header-content h2 {
     font-size: 15px;
   }
-  .spotlightform-registration-form-content input {
-    width: 100%;
-  }
-
-  .form-control {
+  .vcstackform-registration-form-content input {
     width: 100%;
   }
 }

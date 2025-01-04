@@ -56,7 +56,6 @@
   cursor: pointer;
   color: black;
   padding-right: 50px;
-  
 }
 /* .menu-toggle::before,
   .menu-toggle::after,
@@ -72,16 +71,14 @@
 .dropdown-nav {
   display: flex;
   gap: 5px;
-
-  /* align-items: center; */
   position: absolute;
   top: 100%;
   right: 2%;
   background-color: #ffffff;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
-  padding-top:0.9rem !important;
-  padding: 0.2rem;
+  padding-top: 0.9rem !important;
+  padding: 0.5rem 1rem;
   width: 700px;
   z-index: 2000;
   cursor: pointer;
@@ -106,7 +103,7 @@
 
 .dropdown-nav-item2 {
   background-color: #eae7e7;
-  min-width: 342px;
+  min-width: 330px;
   height: fit-content;
   margin-bottom: 10px;
   padding: 10px;
@@ -123,16 +120,16 @@
 .dropdown-nav-item3:hover {
   background-color: hsl(0, 0%, 94%);
 }
-.dropdown-nav-item h3, 
-.dropdown-nav-item2 h3, 
-.dropdown-nav-item3 h3{
+.dropdown-nav-item h3,
+.dropdown-nav-item2 h3,
+.dropdown-nav-item3 h3 {
   margin: 0;
   font-size: 1rem;
 }
 
-.dropdown-nav-item p, 
-.dropdown-nav-item2 p, 
-.dropdown-nav-item3 p{
+.dropdown-nav-item p,
+.dropdown-nav-item2 p,
+.dropdown-nav-item3 p {
   margin: 5px 0 0;
   color: #666;
   font-size: 0.8rem;
@@ -194,7 +191,7 @@
   }
 } */
 
-@media (max-width: 958px) and (min-width:320px) {
+@media (max-width: 958px) and (min-width: 320px) {
   .navbar-links {
     display: none;
     flex-direction: column;
@@ -216,10 +213,10 @@
   }
   .dropdown-nav {
     position: relative;
-    width: 90VW;
-    min-height: 150PX;
+    width: 90vw;
+    min-height: 150px;
     background-color: #ffffff;
-    left:2%;
+    left: 2%;
     box-shadow: none;
     flex-wrap: wrap;
   }
@@ -241,7 +238,6 @@
     padding: 10px;
     border-radius: 5px;
     transition: background-color 0.3s ease;
-    
   }
   .dropdown-nav-item2 {
     background-color: #eae7e7;
@@ -273,20 +269,19 @@
     background-color: #ffffff;
   }
   .navbar-links li {
-    border-radius:0px;
+    border-radius: 0px;
   }
 
   .navbar-links li:hover {
     background-color: #ffffff;
   }
   .navbar-links.open {
-    box-shadow:none;
+    box-shadow: none;
   }
 }
 
-@media (max-width:2560px) and (min-width:957px){
-  .menu-toggle{
+@media (max-width: 2560px) and (min-width: 957px) {
+  .menu-toggle {
     display: none;
   }
 }
-

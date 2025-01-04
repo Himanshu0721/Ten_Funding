@@ -9,75 +9,22 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 100px;
-  padding: 20px;
-  box-sizing: border-box;
-  flex-wrap: wrap; /* Allows wrapping on smaller screens */
+  height: 100vh;
+  text-align: center;
+  flex-direction: column;
+}
+
+.hero-content {
+  text-align: center;
+  font-size: 50px;
+}
+
+.hero h1 {
+  margin-top: 20px;
 }
 
 .cta-button {
-  padding: 10px 20px;
-  font-size: 16px;
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.cta-button:hover {
-  background-color: #0056b3;
-}
-
-@media (max-width: 768px) {
-  .content-container {
-      padding: 10px;
-  }
-
-  .text-content {
-      text-align: center;
-      margin-left: 0;
-      margin-right: 0;
-  }
-
-  .bullet-points {
-      text-align: left;
-  }
-
-  img {
-      width: 100%;
-      height: auto;
-      margin-bottom: 20px;
-  }
-
-  .cta-button {
-      font-size: 14px;
-      padding: 8px 16px;
-  }
-}
-.hero-content {
-  margin-top: 100px;
-  font-size: 1.5rem;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
-}
-
-#hero img {
-  max-width: 100%;
-  height: auto;
-}
-
-.hero-content {
-  text-align: center;
-  font-size: 1.5rem;
-}
-
-.cta-button#ctaButtonHero {
+  margin-top: 20px;
   padding: 10px 20px;
   font-size: 16px;
   background-color: #007bff;
@@ -91,60 +38,27 @@ body {
   background-color: #0056b3;
 }
 
-/* Responsive Design */
-@media (max-width: 1024px) {
-  #hero {
-      padding: 15px;
-  }
-  
-  .cta-button#ctaButtonHero {
-      font-size: 14px;
-      padding: 8px 16px;
-  }
-}
-
-@media (max-width: 768px) {
-  #hero {
-      padding: 10px;
-  }
-
-  .cta-button#ctaButtonHero {
-      font-size: 14px;
-      padding: 8px 16px;
-  }
-}
-
-
+/* About Section */
 #about {
-  margin-top: 0px;
+  margin-top: 50px;
+}
+
+#about .content-container {
   display: flex;
-  flex-wrap: wrap;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  padding: 20px;
-  gap: 15px; /* Reduced space between items */
+  margin: 20px;
 }
 
 #about img {
-  width: 35%;
-  max-width: 500px;
+  width: 700px;
   height: auto;
   margin-right: 20px;
 }
 
 .text-content {
   max-width: 500px;
-  font-size: 1rem;
-  text-align: left;
-}
-
-.text-content h1 {
-  font-size: 2rem;
-  margin-bottom: 15px;
-}
-
-.text-content p {
-  margin-top: 10px;
+  font-size: 20px;
 }
 
 .bullet-points {
@@ -154,283 +68,82 @@ body {
 }
 
 .bullet-points li {
-  margin-bottom: 10px; /* Reduced spacing */
+  margin-bottom: 15px;
 }
 
-.cta-button#ctaButtonInvestor {
-  padding: 10px 20px;
-  font-size: 16px;
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.cta-button#ctaButtonInvestor:hover {
-  background-color: #0056b3;
-}
-
-/* Responsive Design */
-@media (max-width: 1024px) {
-  #about img {
-      width: 30%;
-  }
-
-  .text-content {
-      max-width: 60%;
-  }
-
-  .cta-button#ctaButtonInvestor {
-      font-size: 14px;
-      padding: 8px 16px;
-  }
-}
-
-@media (max-width: 768px) {
-  #about {
-      flex-direction: column;
-      padding: 10px;
-  }
-
-  #about img {
-      width: 100%;
-      margin-right: 0;
-      margin-bottom: 20px;
-  }
-
-  .text-content {
-      text-align: center;
-      margin-left: 0;
-  }
-
-  .cta-button#ctaButtonInvestor {
-      font-size: 14px;
-      padding: 8px 16px;
-  }
-}
-
-
+/* Pipeline Tracker Section */
 #image2 {
-  margin-top: 0px;
-  margin-bottom:0px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
-  padding: 20px;
-  gap: 15px; /* Reduced space between items */
+  justify-content: space-between;
+  margin-top: 30px;
 }
 
 #image2 img {
-  order: 2;
-  width: 40%;
-  max-width: 500px;
+  width: 700px;
   height: auto;
-  margin-left: 20px;
+  margin-right: 100px;
+  margin-left: 100px;
 }
 
-.text-content {
-  order: 1;
+#image2 .text-content {
   max-width: 500px;
-  font-size: 1rem;
-  text-align: left;
+  font-size: 20px;
 }
 
-.text-content h1 {
-  font-size: 2rem;
+#image2 .bullet-points li {
   margin-bottom: 15px;
 }
 
-.text-content p {
-  margin-top: 10px;
-}
-
-.bullet-points {
-  list-style-type: disc;
-  margin-left: 20px;
-  padding-left: 20px;
-}
-
-.bullet-points li {
-  margin-bottom: 10px; /* Reduced spacing */
-}
-
-.cta-button#ctaButtonPipeline {
-  padding: 10px 20px;
-  font-size: 16px;
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.cta-button#ctaButtonPipeline:hover {
-  background-color: #0056b3;
-}
-
-/* Responsive Design */
-@media (max-width: 1024px) {
-  #image2 img {
-      width: 35%;
-  }
-
-  .text-content {
-      max-width: 60%;
-  }
-
-  .cta-button#ctaButtonPipeline {
-      font-size: 14px;
-      padding: 8px 16px;
-  }
-}
-
-@media (max-width: 768px) {
-  #image2 {
-      flex-direction: column;
-      padding: 10px;
-  }
-
-  #image2 img {
-      width: 100%;
-      margin-left: 0;
-      margin-bottom: 20px;
-  }
-
-  .text-content {
-      text-align: center;
-  }
-
-  .cta-button#ctaButtonPipeline {
-      font-size: 14px;
-      padding: 8px 16px;
-  }
-}
-
+/* Meeting Management Section */
 #image3 {
-  margin-top: 00px;
-  margin-bottom:0px;
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
-  padding: 20px;
-  gap: 15px; /* Reduced space between items */
+  justify-content: space-between;
+  margin-top: 30px;
 }
 
 #image3 img {
-  max-width: 100%;
+  width: 700px;
   height: auto;
 }
 
-.text-content {
-  max-width: 500px;
-  font-size: 1rem;
-  text-align: left;
+#image3 .text-content {
+  margin-left: 10px;
+  font-size: 20px;
 }
 
-.text-content h1 {
-  font-size: 2rem;
+#image3 .bullet-points li {
   margin-bottom: 15px;
 }
 
-.text-content p {
-  margin-top: 10px;
-}
-
-.bullet-points {
-  list-style-type: disc;
-  margin-left: 20px;
-  padding-left: 20px;
-}
-
-.bullet-points li {
-  margin-bottom: 10px; /* Reduced spacing */
-}
-
-.cta-button#ctaButtonMeeting {
-  padding: 10px 20px;
-  font-size: 16px;
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.cta-button#ctaButtonMeeting:hover {
-  background-color: #0056b3;
-}
-
-/* Responsive Design */
-@media (max-width: 1024px) {
-  .cta-button#ctaButtonMeeting {
-      font-size: 14px;
-      padding: 8px 16px;
-  }
-}
-
-@media (max-width: 768px) {
-  #image3 {
-      padding: 10px;
-  }
-
-  .cta-button#ctaButtonMeeting {
-      font-size: 14px;
-      padding: 8px 16px;
-  }
-}
-
+/* Centralized Data Room Section */
 #image4 {
-  margin-top: 0px;
-  margin-bottom: 0px; 
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
-  padding: 20px;
-  gap: 5px; /* Reduced space between items */
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-right: 40px;
+  margin-left: 40px;
 }
 
 #image4 img {
-  order: 2;
-  width: 40%;
-  max-width: 500px;
+  width: 700px;
   height: auto;
-  margin-left: 20px;
+  order: 2;
 }
 
-.text-content {
-  order: 1;
+#image4 .text-content {
+  margin-right: 20px;
   max-width: 500px;
-  font-size: 1rem;
-  text-align: left;
+  order: 1;
+  font-size: 20px;
 }
 
-.text-content h1 {
-  font-size: 2rem;
-  margin-bottom: 15px;
-}
-
-.text-content p {
-  margin-top: 10px;
-}
-
-.bullet-points {
-  list-style-type: disc;
-  margin-left: 20px;
-  padding-left: 20px;
-}
-
-.bullet-points li {
-  margin-bottom: 10px; /* Reduced spacing */
-}
-
-.cta-button#ctaButtonDataRoom {
+/* General Styling for Buttons */
+.cta-button {
+  margin-top: 20px;
   padding: 10px 20px;
   font-size: 16px;
   background-color: #007bff;
@@ -446,46 +159,38 @@ body {
 }
 
 /* Responsive Design */
-@media (max-width: 1024px) {
-  #image4 {
-      flex-direction: column;
-      padding: 10px;
-      margin-bottom: 20px; 
-  }
-  #image4 img {
-      width: 35%;
-  }
-  
-
-  .text-content {
-      max-width: 60%;
-  }
-
-  .cta-button#ctaButtonDataRoom {
-      font-size: 14px;
-      padding: 8px 16px;
-  }
-}
-
 @media (max-width: 768px) {
-  #image4 {
-      flex-direction: column;
-      padding: 10px;
-      margin-bottom: 20px; 
+  .hero {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
   }
 
+  .cta-button {
+    padding: 12px 25px;
+  }
+
+  #image2,
+  #image3,
+  #image4 {
+    flex-direction: column;
+    margin: 0;
+  }
+
+  #image2 img,
+  #image3 img,
   #image4 img {
-      width: 100%;
-      margin-left: 0;
-      margin-bottom: 20px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .content-container {
+    flex-direction: column;
+    align-items: center;
   }
 
   .text-content {
-      text-align: center;
-  }
-
-  .cta-button#ctaButtonDataRoom {
-      font-size: 14px;
-      padding: 8px 16px;
+    text-align: center;
+    margin-left: 0;
   }
 }

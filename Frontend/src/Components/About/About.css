@@ -2,9 +2,12 @@
   width: 100%;
 }
 
+/* ------------------------------ About Header Section */
+
 .about-container h1 {
   margin: 10rem 0 5rem 0;
   text-align: center;
+  font-size: 2.5rem;
 }
 
 .about-container span {
@@ -59,6 +62,8 @@
   color: white;
 }
 
+/* ------------------------------ Scroll Section */
+
 .scrolling {
   display: flex;
   overflow: hidden;
@@ -90,8 +95,11 @@
   }
 }
 
+/* ------------------------------ Testimonial Section */
+
 .testimonial {
   width: 100%;
+  margin-bottom: 5rem;
 }
 
 .testimonial-header {
@@ -135,7 +143,7 @@
 }
 
 .testimonial-card {
-  width: 23%;
+  width: 330px;
   border: 1px solid gray;
   border-radius: 10px;
   flex: 0 0 auto;
@@ -169,8 +177,67 @@
 }
 
 .testimonial-card p {
-  padding: 1rem;
+  padding: 0 1rem 1rem 1rem;
   text-align: start;
+}
+
+/* ------------------------------ About Last Section */
+.about-lastdiv {
+  width: 100%;
+  background-color: #f7f9fd;
+  padding: 4rem 0;
+}
+
+.about-lastdiv-cards {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.about-lastdiv-card {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.about-odd-div,
+.about-even-div {
+  width: 100%;
+  display: flex;
+}
+
+.about-lastdiv-card-image {
+  width: 50%;
+}
+
+.about-lastdiv-card-image img {
+  width: 100%;
+}
+
+.about-lastdiv-card-content {
+  width: 50%;
+  padding: 1rem 4rem;
+}
+
+.about-lastdiv-card-content h2 {
+  font-size: 2rem;
+}
+
+.about-lastdiv-card-content li {
+  font-size: 18px;
+}
+
+.about-lastdiv-card-content button {
+  padding: 12px 24px;
+  margin: 1rem 0;
+  font-size: 1rem;
+  border-radius: 12px;
+  background-color: #4a3aff;
+  color: white;
+  border: 1px solid #4a3aff;
+}
+
+.about-lastdiv-card-content button:hover {
+  background-color: white;
+  color: #4a3aff;
 }
 
 @media (max-width: 1024px) {
@@ -185,6 +252,13 @@
   .testimonial-header h1 {
     font-size: 30px;
     margin: 1rem 0;
+  }
+
+  .about-lastdiv-cards {
+    width: 85%;
+  }
+  .about-lastdiv-card-content {
+    padding: 0 2rem 0 4rem;
   }
 }
 
@@ -205,6 +279,17 @@
   .testimonial-header button {
     width: 40px;
     height: 40px;
+  }
+
+  .about-lastdiv-card-content,
+  .about-lastdiv-card-image {
+    width: 100%;
+  }
+  .about-odd-div {
+    flex-wrap: wrap;
+  }
+  .about-even-div {
+    flex-wrap: wrap-reverse;
   }
 }
 
@@ -229,5 +314,21 @@
   .testimonial-header button {
     width: 25px;
     height: 25px;
+  }
+
+  .about-lastdiv {
+    padding-bottom: 1rem;
+  }
+  .about-lastdiv-cards {
+    width: 95%;
+  }
+  .about-lastdiv-card-content {
+    padding: 2rem 0 2rem 2rem;
+  }
+  .about-lastdiv-card-content h2 {
+    font-size: 1.5rem;
+  }
+  .about-lastdiv-card-content li {
+    font-size: 1rem;
   }
 }

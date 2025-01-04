@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./VC Stack.css";
+import "./VCStack.css";
 import { useNavigate } from "react-router-dom";
 
 function VCStack() {
@@ -12,12 +12,12 @@ function VCStack() {
   // Sample data for investors
 
   return (
-    <div className="home-container">
-      <div className="home-header">
+    <div className="vcstack-container">
+      <div className="vcstack-header">
         <h1>Coming soon...</h1>
         <hr />
-        <div className="home-inner-div">
-          <h2>Where top talents meet top founders</h2>
+        <div className="vcstack-inner-div">
+          <h2>Go-to place to find your venture capital tool stack</h2>
           <button onClick={handleButtonClick}>Join the waitlist</button>
         </div>
       </div>

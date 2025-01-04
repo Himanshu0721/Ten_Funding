@@ -25,24 +25,24 @@ const Navbar = () => {
   const navigate = useNavigate();
 
   const handleFundraisingOS = () => {
-    navigate("/fundraising");
+    navigate("/fundraising-os");
   };
 
-   const handleNextPlay = () => {
+  const handleNextPlay = () => {
     navigate("/nextplay");
-   };
+  };
 
   const handleSpotlight = () => {
     navigate("/spotlight");
   };
 
-  // const handleLaunchPad = () => {
-  //   navigate("/");
-  // };
+  const handleLaunchPad = () => {
+    navigate("/launchpad");
+  };
 
-  // const handleVentureOS = () => {
-  //   navigate("/");
-  // };
+  const handleVentureOS = () => {
+    navigate("/venture-os");
+  };
 
   const handleVcStack = () => {
     navigate("/vc-stack");
@@ -52,9 +52,12 @@ const Navbar = () => {
     navigate("/about");
   };
 
-  // const handleCommunity = () => {
-  //   navigate("/");
-  // };
+  const handleCommunity = () => {
+    window.open(
+      "https://www.linkedin.com/company/the-entrepreneurship-network/posts/?feedView=all",
+      "_blank"
+    );
+  };
 
   const handleResize = () => {
     if (window.innerWidth >= 900) {
@@ -248,14 +251,14 @@ const Navbar = () => {
               onMouseLeave={vchandleMouseLeave}
               onClick={(e) => e.stopPropagation()}
             >
-              <div className="dropdown-nav-item3">
+              <div className="dropdown-nav-item3" onClick={handleLaunchPad}>
                 <h3>LaunchPad</h3>
                 <p>Find VC jobs</p>
                 <div className="dropdown-nav-icon">
                   <RiGraduationCapFill />
                 </div>
               </div>
-              <div className="dropdown-nav-item3">
+              <div className="dropdown-nav-item3" onClick={handleVentureOS}>
                 <h3>Venture OS</h3>
                 <p>Manage a VC fund in one place</p>
                 <div className="dropdown-nav-icon">
@@ -300,7 +303,7 @@ const Navbar = () => {
                   <IoMdHome />
                 </div>
               </div>
-              <div className="dropdown-nav-item2">
+              <div className="dropdown-nav-item2" onClick={handleCommunity}>
                 <h3>Community</h3>
                 <p>Join our Community</p>
                 <div className="dropdown-nav-icon">
