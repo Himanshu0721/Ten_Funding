@@ -83,6 +83,7 @@ hr-2:focus {
 .filter-section {
   display: flex;
   margin: 30px 165px 0px;
+
 }
 
 .filter-section select {
@@ -98,6 +99,7 @@ hr-2:focus {
   border: 1px solid white;
   border-radius: 50px;
   white-space: normal;
+  padding: 20px 20px;
 }
 
 .filter-section select:hover {
@@ -255,34 +257,126 @@ hr-2:focus {
   }
 
   .hr-1 {
-    width: 70%;
-    margin-left: 15%;
-    margin-bottom: 50px;
-
+    width: 80%;
+    margin-left: 10%;
   }
 
-  hr-2:focus {
-    outline: none;
-    border-radius: 0;
-    border-color: #e81010;
+  .Search {
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 88%;
+    margin: 16px 20px;
   }
 
-
-@media (max-width: 698px) {
-  .home-header {
+  .Search input {
+    font-size: 24px;
     width: 85%;
+    margin-bottom: 8px;
   }
 
-  .home-header h1 {
-    font-size: 50px;
+  .serch-icon {
+    margin: 0 auto;
+    height: 24px;
+    width: 48px;
   }
 
-  .home-inner-div h2 {
-    font-size: 20px;
+  .filter-section {
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: start;
+    margin: 0px 20px;
+    padding: 0 25px;
   }
 
-  .home-inner-div button {
-    font-size: 16px;
+  .filter-section select {
+    width: 88%;
+    margin: 8px 0px;
+  }
+
+  .home-card {
+    flex-wrap: wrap;
+    padding: 20px 0;
+    align-items: center;
+  }
+
+  .home-card img {
+    width: 40px;
+    margin: 5px 0;
+  }
+
+  .home-card p {
+    width: 100%;
+    text-align: center;
+  }
+
+  .home-sec {
+    width: 85%;
+    margin: 32px auto;
+    display: flex;
+  }
+
+  .home-sec-header {
+    justify-content: space-evenly;
+    justify-items: center;
+  }
+
+  .home-sec-header .lst {
+    margin-bottom: 16px;
+  }
+
+  .home-sec-header h6 {
+    font-size: 14px;
+    margin: 0 20px;
+    text-align: center;
+    display: flex;
+  }
+
+  #button-1 {
+    /* padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 20px;
+    /* margin: 5px 5px; */
+    /* color: #000;
+    background: #d3d3fa;
+    border: 1px white;
+    border-radius: 10px;
+    font-size: 13px; */ 
+    /* font-weight: 400;
+    height: 35px; */
+    /* width: fit-content; */
+    /* cursor: pointer;
+    grid-column-gap: 28px;
+    grid-row-gap: 28px;
+    border-bottom: 1px solid #d3d6e966;
+    grid-template-rows: auto;
+    grid-template-columns: 2fr 2fr 2fr 1.5fr;
+    grid-auto-columns: 1fr;
+    place-content: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    display: grid; */
+    
+  }
+
+
+  #button-2 {
+    width: fit-content;
+    margin: 10px auto;
+    font-size: 12px;
+    height: 30px;
+    padding: 5px 8px;
+  }
+
+  .btn-1,
+  .btn-2 {
+    justify-content: center;
+    width: 100%;
+    margin: 8px 0;
+  }
+
+  .load-more-btn {
+    font-size: 18px;
+    padding: 12px 24px;
   }
 }
 
@@ -302,5 +396,93 @@ hr-2:focus {
 
   .home-inner-div button {
     font-size: 12px;
+  }
+
+  /* Responsive Styles for 480px or smaller */
+
+
+  .hr-1 {
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .Search {
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    width: 100%;
+  }
+
+  .Search input {
+    font-size: 18px;
+    width: 90%;
+    margin-bottom: 10px;
+  }
+
+  .serch-icon {
+    margin: 10px 0 0 0;
+    height: 24px;
+    width: 48px;
+  }
+
+  .filter-section {
+    flex-direction: column;
+    margin: 20px 5%;
+    width: 90%;
+  }
+
+  .filter-section select {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .home-card {
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 0;
+  }
+
+  .home-card img {
+    width: 40px;
+    margin: 5px 0;
+  }
+
+  .home-card p {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .home-sec {
+    width: 90%;
+    margin: 24px 5% 0;
+  }
+
+  .home-sec-header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .home-sec-header .lst {
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+
+  .home-sec-header h6 {
+    margin-left: 0;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  #button-1,
+  #button-2 {
+    margin: 10px auto;
+    width: 90%;
+    height: 40px;
+    font-size: 14px;
+  }
+
+  .load-more-btn {
+    padding: 10px 20px;
+    font-size: 16px;
   }
 }
