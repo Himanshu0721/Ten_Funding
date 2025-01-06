@@ -1,518 +1,158 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: Arial, sans-serif;
-  box-sizing: border-box;
+.fundraising-container {
+  width: 100%;
 }
 
-.content-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 100px;
-  padding: 20px;
-  box-sizing: border-box;
-  flex-wrap: wrap; /* Allows wrapping on smaller screens */
-}
-
-.cta-button {
-  padding: 10px 20px;
-  font-size: 16px;
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.cta-button:hover {
-  background-color: #0056b3;
-}
-
-@media (max-width: 768px) {
-  .content-container {
-      padding: 10px;
-  }
-
-  .text-content {
-      text-align: center;
-      margin-left: 0;
-      margin-right: 0;
-  }
-
-  .bullet-points {
-      text-align: left;
-  }
-
-  img {
-      width: 100%;
-      height: auto;
-      margin-bottom: 20px;
-  }
-
-  .cta-button {
-      font-size: 14px;
-      padding: 8px 16px;
-  }
-}
-.hero-content {
-  margin-top: 100px;
-  font-size: 1.5rem;
+.fundraising-container h1 {
+  margin: 10rem 0 5rem 0;
   text-align: center;
+  font-size: 2.5rem;
+}
+
+.fundraising-container span {
+  color: rgb(105, 39, 218);
+}
+
+.fundraising-main-div {
+  width: 60%;
+  margin: 2.5rem auto;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  gap: 20px;
 }
 
-#hero img {
-  max-width: 100%;
-  height: auto;
+.fundraising-main-div img {
+  width: 100%;
 }
 
-.hero-content {
-  text-align: center;
-  font-size: 1.5rem;
-}
-
-.cta-button#ctaButtonHero {
-  padding: 10px 20px;
-  font-size: 16px;
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-.cta-button#ctaButtonHero:hover {
-  background-color: #0056b3;
-}
-
-/* Responsive Design */
-@media (max-width: 1024px) {
-  #hero {
-      padding: 15px;
-  }
-  
-  .cta-button#ctaButtonHero {
-      font-size: 14px;
-      padding: 8px 16px;
-  }
-}
-
-@media (max-width: 768px) {
-  #hero {
-      padding: 10px;
-  }
-
-  .cta-button#ctaButtonHero {
-      font-size: 14px;
-      padding: 8px 16px;
-  }
-}
-
-
-#about {
-  margin-top: 0px;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  padding: 20px;
-  gap: 15px; /* Reduced space between items */
-}
-
-#about img {
-  width: 35%;
-  max-width: 600px;
-  height: auto;
-  margin-right: 20px;
-}
-
-.text-content {
-  max-width: 500px;
+.fundraising-main-div button {
+  width: 180px;
+  padding: 12px 24px;
   font-size: 1rem;
-  text-align: left;
+  border-radius: 12px;
+  background-color: #4a3aff;
+  color: white;
+  border: 1px solid #4a3aff;
 }
 
-.text-content h1 {
-  font-size: 2rem;
-  margin-bottom: 15px;
+.fundraising-main-div button:hover {
+  background-color: white;
+  color: #4a3aff;
 }
 
-.text-content p {
-  margin-top: 10px;
+.fundraising-lastdiv {
+  width: 100%;
+  background-color: #f7f9fd;
+  padding: 4rem 0;
 }
 
-.bullet-points {
-  list-style-type: disc;
-  margin-left: 20px;
-  padding-left: 20px;
+.fundraising-lastdiv-cards {
+  width: 75%;
+  margin: 0 auto;
 }
 
-.bullet-points li {
-  margin-bottom: 10px; /* Reduced spacing */
+.fundraising-lastdiv-card {
+  width: 100%;
+  margin-bottom: 2rem;
 }
 
-.cta-button#ctaButtonInvestor {
-  padding: 10px 20px;
-  font-size: 16px;
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.cta-button#ctaButtonInvestor:hover {
-  background-color: #0056b3;
-}
-
-/* Responsive Design */
-@media (max-width: 1024px) {
-  #about img {
-      width: 30%;
-  }
-
-  .text-content {
-      max-width: 60%;
-  }
-
-  .cta-button#ctaButtonInvestor {
-      font-size: 14px;
-      padding: 8px 16px;
-  }
-}
-
-@media (max-width: 768px) {
-  #about {
-      flex-direction: column;
-      padding: 10px;
-  }
-
-  #about img {
-      width: 100%;
-      margin-right: 0;
-      margin-bottom: 20px;
-  }
-
-  .text-content {
-      text-align: center;
-      margin-left: 0;
-  }
-
-  .cta-button#ctaButtonInvestor {
-      font-size: 14px;
-      padding: 8px 16px;
-  }
-}
-
-
-#image2 {
-  margin-top: 0px;
-  margin-bottom:0px;
+.fundraising-odd-div,
+.fundraising-even-div {
+  width: 100%;
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  padding: 20px;
-  gap: 15px; /* Reduced space between items */
 }
 
-#image2 img {
-  order: 2;
-  width: 40%;
-  max-width: 500px;
-  height: auto;
-  margin-left: 20px;
-}
-
-.text-content {
-  order: 1;
-  max-width: 600px;
-  font-size: 1rem;
-  text-align: left;
-}
-
-.text-content h1 {
-  font-size: 2rem;
-  margin-bottom: 15px;
-}
-
-.text-content p {
-  margin-top: 10px;
-}
-
-.bullet-points {
-  list-style-type: disc;
-  margin-left: 20px;
-  padding-left: 20px;
-}
-
-.bullet-points li {
-  margin-bottom: 10px; /* Reduced spacing */
-}
-
-.cta-button#ctaButtonPipeline {
-  padding: 10px 20px;
-  font-size: 16px;
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.cta-button#ctaButtonPipeline:hover {
-  background-color: #0056b3;
-}
-
-/* Responsive Design */
-@media (max-width: 1024px) {
-  #image2 img {
-      width: 35%;
-  }
-
-  .text-content {
-      max-width: 60%;
-  }
-
-  .cta-button#ctaButtonPipeline {
-      font-size: 14px;
-      padding: 8px 16px;
-  }
-}
-
-@media (max-width: 768px) {
-  #image2 {
-      flex-direction: column;
-      padding: 10px;
-  }
-
-  #image2 img {
-      width: 100%;
-      margin-left: 0;
-      margin-bottom: 20px;
-  }
-
-  .text-content {
-      text-align: center;
-  }
-
-  .cta-button#ctaButtonPipeline {
-      font-size: 14px;
-      padding: 8px 16px;
-  }
-}
-
-#image3 {
-  margin-top: 00px;
-  margin-bottom:0px;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  padding: 20px;
-  gap: 15px; /* Reduced space between items */
-}
-
-#image3 img {
-  max-width: 500px;
-  height: auto;
-}
-
-.text-content {
-  max-width: 500px;
-  font-size: 1rem;
-  text-align: left;
-}
-
-.text-content h1 {
-  font-size: 2rem;
-  margin-bottom: 15px;
-}
-
-.text-content p {
-  margin-top: 10px;
-}
-
-.bullet-points {
-  list-style-type: disc;
-  margin-left: 20px;
-  padding-left: 20px;
-}
-
-.bullet-points li {
-  margin-bottom: 10px; /* Reduced spacing */
-}
-
-.cta-button#ctaButtonMeeting {
-  padding: 10px 20px;
-  font-size: 16px;
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.cta-button#ctaButtonMeeting:hover {
-  background-color: #0056b3;
-}
-
-/* Responsive Design */
-@media (max-width: 1024px) {
-  #image4 {
-      flex-direction: column;
-      padding: 10px;
-      margin-bottom: 20px; 
-  }
-  #image4 img {
-      width: 35%;
-  }
-  
-
-  .text-content {
-      max-width: 60%;
-  }
-
-  .cta-button#ctaButtonDataRoom {
-      font-size: 14px;
-      padding: 8px 16px;
-  }
-}
-
-@media (max-width: 768px) {
-  #image4 {
-      flex-direction: column;
-      padding: 10px;
-      margin-bottom: 20px; 
-  }
-
-  #image4 img {
-      width: 100%;
-      margin-left: 0;
-      margin-bottom: 20px;
-  }
-
-  .text-content {
-      text-align: center;
-  }
-
-  .cta-button#ctaButtonDataRoom {
-      font-size: 14px;
-      padding: 8px 16px;
-  }
-}
-
-
-#image4 {
-  margin-top: 0px;
-  margin-bottom: 0px; 
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  padding: 20px;
-  gap: 5px; /* Reduced space between items */
-}
-
-#image4 img {
-  order: 2;
+.fundraising-lastdiv-card-image {
   width: 50%;
-  max-width: 600px;
-  height: auto;
-  margin-left: 20px;
 }
 
-.text-content {
-  order: 1;
-  max-width: 500px;
-  font-size: 1rem;
-  text-align: left;
+.fundraising-lastdiv-card-image img {
+  width: 100%;
 }
 
-.text-content h1 {
+.fundraising-lastdiv-card-content {
+  width: 50%;
+  padding: 1rem 4rem;
+}
+
+.fundraising-lastdiv-card-content h2 {
   font-size: 2rem;
-  margin-bottom: 15px;
 }
 
-.text-content p {
-  margin-top: 10px;
+.fundraising-lastdiv-card-content li {
+  font-size: 18px;
 }
 
-.bullet-points {
-  list-style-type: disc;
-  margin-left: 20px;
-  padding-left: 20px;
+.fundraising-lastdiv-card-content button {
+  padding: 12px 24px;
+  margin: 1rem 0;
+  font-size: 1rem;
+  border-radius: 12px;
+  background-color: #4a3aff;
+  color: white;
+  border: 1px solid #4a3aff;
 }
 
-.bullet-points li {
-  margin-bottom: 10px; /* Reduced spacing */
+.fundraising-lastdiv-card-content button:hover {
+  background-color: white;
+  color: #4a3aff;
 }
 
-.cta-button#ctaButtonDataRoom {
-  padding: 10px 20px;
-  font-size: 16px;
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.cta-button#ctaButtonDataRoom:hover {
-  background-color: #0056b3;
-}
-
-/* Responsive Design */
 @media (max-width: 1024px) {
-  #image4 {
-      flex-direction: column;
-      padding: 10px;
-      margin-bottom: 20px; 
-  }
-  #image4 img {
-      width: 35%;
-  }
-  
-
-  .text-content {
-      max-width: 60%;
+  .fundraising-main-div {
+    width: 75%;
   }
 
-  .cta-button#ctaButtonDataRoom {
-      font-size: 14px;
-      padding: 8px 16px;
+  .fundraising-lastdiv-cards {
+    width: 85%;
+  }
+  .fundraising-lastdiv-card-content {
+    padding: 0 2rem 0 4rem;
   }
 }
 
 @media (max-width: 768px) {
-  #image4 {
-      flex-direction: column;
-      padding: 10px;
-      margin-bottom: 20px; 
+  .fundraising-main-div {
+    width: 90%;
   }
 
-  #image4 img {
-      width: 100%;
-      margin-left: 0;
-      margin-bottom: 20px;
+  .fundraising-lastdiv-card-content,
+  .fundraising-lastdiv-card-image {
+    width: 100%;
+  }
+  .fundraising-odd-div {
+    flex-wrap: wrap;
+  }
+  .fundraising-even-div {
+    flex-wrap: wrap-reverse;
+  }
+}
+
+@media (max-width: 480px) {
+  .fundraising-container h1 {
+    font-size: 2rem;
   }
 
-  .text-content {
-      text-align: center;
+  .fundraising-main-buttons {
+    width: 300px;
+  }
+  .fundraising-main-buttons button {
+    padding: 10px 20px;
+    font-size: 14px;
   }
 
-  .cta-button#ctaButtonDataRoom {
-      font-size: 14px;
-      padding: 8px 16px;
+  .fundraising-lastdiv {
+    padding-bottom: 1rem;
+  }
+  .fundraising-lastdiv-cards {
+    width: 95%;
+  }
+  .fundraising-lastdiv-card-content {
+    padding: 2rem 0 2rem 2rem;
+  }
+  .fundraising-lastdiv-card-content h2 {
+    font-size: 1.5rem;
+  }
+  .fundraising-lastdiv-card-content li {
+    font-size: 1rem;
   }
 }

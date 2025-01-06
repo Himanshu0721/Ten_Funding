@@ -195,9 +195,7 @@ function About() {
                           <li key={idx}>{point}</li>
                         ))}
                       </ul>
-                      <div>
-                        <button>Get Started</button>
-                      </div>
+                      <button>Get Started</button>
                     </div>
                     <div className="about-lastdiv-card-image">
                       <img src={data.image} alt={data.tag} />
@@ -218,9 +216,7 @@ function About() {
                           <li key={idx}>{point}</li>
                         ))}
                       </ul>
-                      {/* <div> */}
                       <button>Get Started</button>
-                      {/* </div> */}
                     </div>
                   </div>
                 </>
