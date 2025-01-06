@@ -4,7 +4,7 @@
 }
 
 .vcstack-header {
-  width: 70%;
+  width: 80%;
   background-image: linear-gradient(#dee2ff, #f9faff);
   border-radius: 15px;
   margin: 48px auto;
@@ -15,6 +15,7 @@
   font-size: 80px;
   font-weight: 400;
   margin-bottom: 32px;
+  line-height: 60px;
 }
 
 .vcstack-inner-div {
@@ -29,9 +30,10 @@
 }
 
 .vcstack-inner-div button {
+  width: 200px;
   font-size: 20px;
   padding: 16px;
-  border-radius: 50px;
+  border-radius: 25px;
   background-color: transparent;
 }
 
@@ -40,51 +42,34 @@
   transition: 1.5s;
 }
 
-@media (max-width: 998px) {
+@media (max-width: 1200px) {
   .vcstack-header {
-    width: 80%;
+    width: 90%;
   }
+}
 
+@media (max-width: 1024px) {
+  .vcstack-inner-div {
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 24px;
+  }
   .vcstack-header h1 {
     font-size: 60px;
   }
-
-  .vcstack-inner-div h2 {
-    font-size: 24px;
-  }
-
   .vcstack-inner-div button {
     font-size: 18px;
     padding: 12px;
   }
 }
 
-@media (max-width: 698px) {
-  .vcstack-header {
-    width: 85%;
-  }
-
-  .vcstack-header h1 {
-    font-size: 50px;
-  }
-
-  .vcstack-inner-div h2 {
-    font-size: 20px;
-  }
-
-  .vcstack-inner-div button {
-    font-size: 16px;
-  }
-}
-
 @media (max-width: 480px) {
-  .vcstack-header {
-    width: 90%;
-    padding: 30px;
+  .vcstack-header h1 {
+    font-size: 45px;
   }
 
-  .vcstack-header h1 {
-    font-size: 30px;
+  .vcstack-inner-div {
+    margin-bottom: 1rem;
   }
 
   .vcstack-inner-div h2 {
@@ -92,6 +77,7 @@
   }
 
   .vcstack-inner-div button {
+    width: 160px;
     font-size: 12px;
   }
 }
