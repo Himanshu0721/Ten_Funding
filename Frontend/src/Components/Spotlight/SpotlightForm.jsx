@@ -3,28 +3,25 @@ import "./SpotlightForm.css";
 export default function SpotlightForm() {
   return (
     <>
-      <div className="spotlight-form-container">
-        <div className="spotlight-form-header-logo">
+      <div className="spotlightform-container">
+        <div className="spotlightform-header-logo">
           <img src="jpgconverter.png" alt="IndianVCs logo" />
         </div>
-        <div className="spotlight-form-header-content">
+        <div className="spotlightform-header-content">
           <h1>IndianVCs Spotlight Waitlist</h1>
-          <h3>
+          <h2>
             IndianVCs is a decentralized venture community by VCs for founders,
             guiding startups from "-1 to 0". We offer resources for fundraising
             and hiring, including investor lists, templates, job boards, and
             networking events.
-          </h3>
-
+          </h2>
           <hr />
-          <h4>
-            <u>
-              Your personal information will remain confidential and will not be
-              shared outside.
-            </u>
-          </h4>
+          <p>
+            Your personal information will remain confidential and will not be
+            shared outside.
+          </p>
         </div>
-        <div className="spotlight-form-registration-form-content">
+        <div className="spotlightform-registration-form-content">
           <form action="">
             <div className="form-group">
               <label htmlFor="name">
@@ -52,7 +49,7 @@ export default function SpotlightForm() {
             <div className="form-group">
               <label htmlFor="email">
                 <h3>
-                  Email <sub>*</sub>
+                  Mail <sub>*</sub>
                 </h3>
               </label>
               <input

@@ -17,7 +17,12 @@ import VCStack from "./Components/VC Stack/VCStack.jsx";
 import VCStackForm from "./Components/VC Stack/VCStackForm.jsx";
 import NextPlay from "./Components/NextPlay/NextPlay.jsx";
 import Pitch from "./Components/Card/Pitch.jsx";
+<<<<<<< HEAD
 import LaunchPad from "./Components/LaunchPad/LaunchPad.jsx";
+=======
+import VentureOS from "./Components/Venture OS/VentureOS.jsx";
+
+>>>>>>> f9b877a317ba8b807bf2b424a2e315e614780cad
 function App() {
   return (
     <>
@@ -41,7 +46,11 @@ function App() {
           <Route path="/spotlight-form" element={<SpotlightForm />} />
           <Route path="/vc-stack" element={<VCStack />} />
           <Route path="/vc-Stack-form" element={<VCStackForm />} />
+<<<<<<< HEAD
           <Route path="/launchpad" element={<LaunchPad/>} />
+=======
+          <Route path="/venture-os" element={<VentureOS />} />
+>>>>>>> f9b877a317ba8b807bf2b424a2e315e614780cad
         </Routes>
         <Footer />
       </BrowserRouter>

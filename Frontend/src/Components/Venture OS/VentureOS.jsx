@@ -1,39 +1,39 @@
 import React from "react";
-import "./FundraisingPage.css";
-import MainImage from "../../assets/images/1.png";
+import "./VentureOS.css";
+import MainImage from "../../assets/images/about-main-image.png";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
-import fundraisingInfo from "../../assets/data/fundraisingInfo";
+import ventureInfo from "../../assets/data/ventureInfo";
 
-function FundraisingPage() {
+function VentureOS() {
   const [text] = useTypewriter({
-    words: ["quicker", "simpler", "funner"],
+    words: ["powerfull", "simple", "efficient"],
     loop: {},
   });
 
   return (
-    <div className="fundraising-container">
+    <div className="venture-container">
       {/* Main Section */}
       <h1>
-        Making fundraising{" "}
+        Pipeline management made{" "}
         <span>
           {text}
           <Cursor />
         </span>
       </h1>
-      <div className="fundraising-main-div">
+      <div className="venture-main-div">
         <img src={MainImage} alt="main image" />
-        <button>Download Now</button>
+        <button>Request Demo</button>
       </div>
 
-      <div className="fundraising-lastdiv">
-        <div className="fundraising-lastdiv-cards">
-          {fundraisingInfo.map((data) => (
-            <div key={data.id} className="fundraising-lastdiv-card">
+      <div className="venture-lastdiv">
+        <div className="venture-lastdiv-cards">
+          {ventureInfo.map((data) => (
+            <div key={data.id} className="venture-lastdiv-card">
               {data.id % 2 === 0 ? (
                 <>
                   {/* Content First for Even IDs */}
-                  <div className="fundraising-even-div">
-                    <div className="fundraising-lastdiv-card-content">
+                  <div className="venture-even-div">
+                    <div className="venture-lastdiv-card-content">
                       <h2>{data.tag}</h2>
                       <ul>
                         {data.points.map((point, idx) => (
@@ -44,7 +44,7 @@ function FundraisingPage() {
                         <button>Get Started</button>
                       </div>
                     </div>
-                    <div className="fundraising-lastdiv-card-image">
+                    <div className="venture-lastdiv-card-image">
                       <img src={data.image} alt={data.tag} />
                     </div>
                   </div>
@@ -52,11 +52,11 @@ function FundraisingPage() {
               ) : (
                 <>
                   {/* Image First for Odd IDs */}
-                  <div className="fundraising-odd-div">
-                    <div className="fundraising-lastdiv-card-image">
+                  <div className="venture-odd-div">
+                    <div className="venture-lastdiv-card-image">
                       <img src={data.image} alt={data.tag} />
                     </div>
-                    <div className="fundraising-lastdiv-card-content">
+                    <div className="venture-lastdiv-card-content">
                       <h2>{data.tag}</h2>
                       <ul>
                         {data.points.map((point, idx) => (
@@ -78,4 +78,4 @@ function FundraisingPage() {
   );
 }
 
-export default FundraisingPage;
+export default VentureOS;

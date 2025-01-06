@@ -25,7 +25,7 @@ const Navbar = () => {
   const navigate = useNavigate();
 
   const handleFundraisingOS = () => {
-    navigate("/fundraising");
+    navigate("/fundraising-os");
   };
 
   const handleNextPlay = () => {
@@ -40,9 +40,9 @@ const Navbar = () => {
    navigate("/launchpad");
   };
 
-  // const handleVentureOS = () => {
-  //   navigate("/");
-  // };
+  const handleVentureOS = () => {
+    navigate("/venture-os");
+  };
 
   const handleVcStack = () => {
     navigate("/vc-stack");
@@ -258,7 +258,7 @@ const Navbar = () => {
                   <RiGraduationCapFill />
                 </div>
               </div>
-              <div className="dropdown-nav-item3">
+              <div className="dropdown-nav-item3" onClick={handleVentureOS}>
                 <h3>Venture OS</h3>
                 <p>Manage a VC fund in one place</p>
                 <div className="dropdown-nav-icon">

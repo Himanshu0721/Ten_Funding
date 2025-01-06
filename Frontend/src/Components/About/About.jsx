@@ -4,6 +4,7 @@ import MainImage from "../../assets/images/about-main-image.png";
 import { useNavigate } from "react-router-dom";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import TestimonialData from "../../assets/data/testimonial";
+import aboutInfo from "../../assets/data/aboutInfo";
 
 function About() {
   const navigate = useNavigate();
@@ -57,6 +58,7 @@ function About() {
 
   return (
     <div className="about-container">
+      {/* Main Section */}
       <h1>
         One platform to{" "}
         <span>
@@ -83,8 +85,9 @@ function About() {
         And they love us for it.
       </p>
 
-      <div className="scrolling">
-        <div className="scrolling-content scroll">
+      {/* Scroll Section */}
+      <div className="about-scrolling">
+        <div className="about-scrolling-content scroll">
           <img
             src="https://cdn.prod.website-files.com/66230c5ee8288ee065356a3e/666f5c9c8122c14cd7eb4571_unscrript.webp"
             height="40"
@@ -116,7 +119,7 @@ function About() {
             alt=""
           />
         </div>
-        <div className="scrolling-content scroll">
+        <div className="about-scrolling-content scroll">
           <img
             src="https://cdn.prod.website-files.com/66230c5ee8288ee065356a3e/666f5c9c8122c14cd7eb4571_unscrript.webp"
             height="40"
@@ -150,6 +153,7 @@ function About() {
         </div>
       </div>
 
+      {/* Testimonial Section */}
       <div className="testimonial">
         <div className="testimonial-header">
           <h1>Hear from Our Community</h1>
@@ -170,6 +174,53 @@ function About() {
                 </div>
               </div>
               <p>{data.desc}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      {/* Last Section */}
+      <div className="about-lastdiv">
+        <div className="about-lastdiv-cards">
+          {aboutInfo.map((data) => (
+            <div key={data.id} className="about-lastdiv-card">
+              {data.id % 2 === 0 ? (
+                <>
+                  {/* Content First for Even IDs */}
+                  <div className="about-even-div">
+                    <div className="about-lastdiv-card-content">
+                      <h2>{data.tag}</h2>
+                      <ul>
+                        {data.points.map((point, idx) => (
+                          <li key={idx}>{point}</li>
+                        ))}
+                      </ul>
+                      <button>Get Started</button>
+                    </div>
+                    <div className="about-lastdiv-card-image">
+                      <img src={data.image} alt={data.tag} />
+                    </div>
+                  </div>
+                </>
+              ) : (
+                <>
+                  {/* Image First for Odd IDs */}
+                  <div className="about-odd-div">
+                    <div className="about-lastdiv-card-image">
+                      <img src={data.image} alt={data.tag} />
+                    </div>
+                    <div className="about-lastdiv-card-content">
+                      <h2>{data.tag}</h2>
+                      <ul>
+                        {data.points.map((point, idx) => (
+                          <li key={idx}>{point}</li>
+                        ))}
+                      </ul>
+                      <button>Get Started</button>
+                    </div>
+                  </div>
+                </>
+              )}
             </div>
           ))}
         </div>
