@@ -3,6 +3,7 @@ import  { useEffect, useState, useRef } from "react";
 import { MdOutlineKeyboardArrowDown } from "react-icons/md";
 import { RxCross2 } from "react-icons/rx";
 import "./LaunchPad.css";
+import RegistrationForm from "../RegistrationForm/RegistrationFormNext";
 
 const LaunchPad = () => {
   const [jobs] = useState([
@@ -177,7 +178,6 @@ const LaunchPad = () => {
   const [visibleJobsCount, setVisibleJobsCount] = useState(4);
   const locationDropdownRef = useRef(null);
   const roleDropdownRef = useRef(null);
-
   
  
   //load more jobs
@@ -263,13 +263,15 @@ selectedFilters.includes(job.roleType));
       </div>
       
       <div className="button-container">
-        <button className="cta-button">
+        <button className="cta-button" >
           Post a job <span className="arrow">→</span>
         </button>
+      
         </div>
         </div>
         </div>
       </div>
+      <div className="mid-section"></div>
     </div>
  
       
