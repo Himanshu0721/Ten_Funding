@@ -115,7 +115,10 @@
     width: 90%;
   }
 
-  .fundraising-lastdiv-card-content,
+  .fundraising-lastdiv-card-content {
+    width: 100%;
+    padding: 1rem 2rem;
+  }
   .fundraising-lastdiv-card-image {
     width: 100%;
   }

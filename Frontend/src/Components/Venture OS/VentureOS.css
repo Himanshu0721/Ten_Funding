@@ -115,7 +115,10 @@
     width: 90%;
   }
 
-  .venture-lastdiv-card-content,
+  .venture-lastdiv-card-content {
+    width: 100%;
+    padding: 1rem 2rem;
+  }
   .venture-lastdiv-card-image {
     width: 100%;
   }
