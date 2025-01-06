@@ -1,0 +1,308 @@
+/* General Styles */
+
+.launchpad-container {
+    
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    max-width: 1200px;
+    margin: auto;
+    margin-top:20px !important;
+  }
+  .hero-section{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+  }
+  .upper-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+   
+  }
+  .card {
+    text-align: center;
+    background: linear-gradient(180deg, #cecef8, #ffffff);
+    padding: 80px;
+    border:none;
+    border-radius: 16px;
+    max-width: 1200px;
+    width: 100%;
+  }
+  .heading{
+    color: #2f3246;
+    letter-spacing: -.02em;
+    max-width: 650px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 1.1;
+    text-align: left;
+  }
+  .lower-section{
+    display: flex;
+    justify-content: space-between;
+    margin-top:6.5rem;
+    border-top:  1px solid #b5a1cf;
+    flex-wrap:wrap;
+  }
+  .card-para{
+    
+    padding-top: 20px;
+  }
+  .heading  {
+    font-size: 5rem;
+    font-weight:400;
+    margin-bottom: 1rem;
+  
+  }
+  
+ .card-para p {
+    color: #4e5374;
+    letter-spacing: -.02em;
+    margin-bottom: 0;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 1.2;
+    text-align: left;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .cta-button {
+    background-color: #ffffff;
+    border: 1px solid #cbd5e0;
+    border-radius: 24px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out; 
+    color: #2f3246;
+    border: 1px solid #2f3246;
+    border-radius: 48px;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 24px;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .cta-button:hover {
+    background-color: #efeffe;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .arrow {
+    margin-left: 0.5rem;
+    font-size: 1.2rem;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    
+    .heading  {
+      font-size: 2.5rem !important;
+    }
+    .card{
+      padding:50px;
+      margin:50px;
+      /* padding-left:5px;
+      padding-right:8px; */
+    }
+     .card-para p {
+      font-size: 0.9rem;
+    }
+  
+    .cta-button {
+      font-size: 0.9rem;
+      padding: 0.6rem 1.3rem;
+    }
+  }
+  
+  /* Filters */
+  .filters {
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .dropdown-container {
+    position: relative;
+  }
+   label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 20px;
+    padding-left: 15px;
+  } 
+  
+  .dropdown-button {
+    display: block;
+    padding: 10px 25px;
+    margin: auto;
+    background-color: #e0e0ff;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #333;
+  }
+  
+  .dropdown-button:hover {
+    background-color: #c8c8ff;
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    background-color: #e0e0ff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    list-style: none;
+    padding: 0;
+    margin: 5px 0 0 0;
+    min-width: 150px;
+  }
+  
+  /* .dropdown-menu label {
+    padding: 10px 15px;
+    cursor: pointer;
+  } */
+  
+  .dropdown-menu label:hover {
+    background-color: #c8c8ff;
+  }
+  
+  /* Job Table */
+  .job-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    border:none;
+    border-bottom: 0.5px solid rgb(250, 224, 250);
+  }
+  
+  .job-table th,
+  .job-table td {
+    text-align: left;
+    padding: 15px;
+    border-bottom: 1px solid #eaeaea;
+    font-size: 14px;
+    border:none;
+    border-bottom: 0.5px solid rgb(250, 224, 250);
+  }
+  
+  .job-table th {
+    font-weight: bold;
+  }
+  
+  .job-table tr:hover {
+    background-color: #f9f9ff;
+  }
+  
+  .firm-logo {
+    width: 58px;
+    height: 58px;
+    margin-right: 10px;
+    vertical-align: middle;
+    border-radius: 8px;
+    object-fit:cover;
+  }
+  
+  /* Load More Button */
+  .load-more {
+    display: block;
+    padding: 10px 25px;
+    margin: auto;
+    background-color: #e0e0ff;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #333;
+  }
+  
+  .load-more:hover {
+    background-color: #c8c8ff;
+  }
+  /* .selected-filters{
+    display: flex;
+    flex-direction: row;
+  } */
+  .selected-filters h5{
+    /* display: block; */
+    padding: 10px 25px;
+    /* margin:; */
+    background-color: #e0e0ff;
+    border: none;
+    border-radius: 20px;
+    font-size: 14px;
+    cursor: pointer;
+    color: #333;
+    display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 4px;
+
+  }
+  .selected-filters h5:hover {
+    background-color: #c8c8ff;
+  }
+  .selected-items{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 20px;
+  }
+  .firm-container {
+    display: flex;
+    align-items: center; /* Aligns logo and firm name vertically */
+  }
+  
+  .firm-container span {
+    margin-left: 10px; /* Adds space between the logo and firm name */
+  }
+  @media(max-width:375px){
+    .dropdown-button{
+      font-size: 14px;
+    }
+  }
+  @media (max-width: 760px) {
+    /* Hide all elements in the job table except the firm logo */
+    .job-table td, 
+    .job-table th {
+      display: none;
+    }
+  
+    /* Show the firm logo inside the table */
+    .job-table td .firm-logo,
+    .job-table td:nth-child(2) {
+      display: block;
+    }
+  
+    /* Optional: Adjust the size of the firm logo for smaller screens */
+    .firm-logo {
+      width: 40px;
+      height: 40px;
+    }
+  }
+  
+  
+  
+  

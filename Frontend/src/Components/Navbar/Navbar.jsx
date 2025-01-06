@@ -36,9 +36,9 @@ const Navbar = () => {
     navigate("/spotlight");
   };
 
-  // const handleLaunchPad = () => {
-  //   navigate("/");
-  // };
+ const handleLaunchPad = () => {
+   navigate("/launchpad");
+  };
 
   // const handleVentureOS = () => {
   //   navigate("/");
@@ -251,7 +251,7 @@ const Navbar = () => {
               onMouseLeave={vchandleMouseLeave}
               onClick={(e) => e.stopPropagation()}
             >
-              <div className="dropdown-nav-item3">
+              <div className="dropdown-nav-item3" onClick={handleLaunchPad}>
                 <h3>LaunchPad</h3>
                 <p>Find VC jobs</p>
                 <div className="dropdown-nav-icon">
