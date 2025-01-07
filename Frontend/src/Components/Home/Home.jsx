@@ -214,7 +214,7 @@ function Home() {
         <select
           value={stageFocus}
           onChange={(e) => setStageFocus(e.target.value)}
-          className="dropdown"
+          className="dropdown dropdown2"
         >
           <option value="">Stage Focus</option>
           <option value="Pre-Seed">Pre-Seed</option>
@@ -226,7 +226,7 @@ function Home() {
         <select
           value={sectorFocus}
           onChange={(e) => setSectorFocus(e.target.value)}
-          className="dropdown"
+          className="dropdown dropdown2"
         >
           <option value="">Sector Focus</option>
           <option value="Sector Agnostic">Sector Agnostic</option>
@@ -238,7 +238,7 @@ function Home() {
         <select
           value={ticketSize}
           onChange={(e) => setTicketSize(e.target.value)}
-          className="dropdown"
+          className="dropdown dropdown2"
         >
           <option value="">Ticket Size</option>
           <option value="$50K - $300K">$50K - $300K</option>
@@ -300,5 +300,4 @@ function Home() {
 }
 
 export default Home;
-
 
