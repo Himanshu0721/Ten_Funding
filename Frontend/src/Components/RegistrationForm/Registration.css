@@ -1,15 +1,15 @@
-.container {
-  text-align: left;
-  margin: 10%  ;
-  padding: 3%;
-  max-width: 100%;
+.registration-form-container {
+  width: 60%;
+  margin: 120px auto;
 }
+
 .header-logo img {
   width: 10%;
 }
 .header-content h1 {
   font-size: 50px;
   margin: 16px 0;
+  line-height: 50px;
 }
 .header-content h3 {
   font-weight: 400;
@@ -24,6 +24,10 @@
   color: blue;
   margin: 16px 0;
 }
+.registration-form-content label {
+  font-size: 16px;
+  padding-bottom: 6px;
+}
 .registration-form-content input {
   border-radius: 5px;
   padding: 8px;
@@ -33,6 +37,11 @@
 
 .registration-form-content h3 {
   margin-bottom: 10px;
+}
+
+.registration-form-content h2 {
+  font-weight: 100;
+  margin-bottom: 12px;
 }
 
 .registration-form-content select {
@@ -59,13 +68,14 @@
 
 .table {
   border: 1px solid rgb(156, 156, 156);
-  border-Collapse: collapse;
+  border-collapse: collapse;
   width: 100%;
   margin-top: 16px;
   margin-bottom: 16px;
 }
 
-th, td{
+th,
+td {
   border: 1px solid rgb(158, 157, 157);
   text-align: center;
   font-weight: 600;
@@ -74,55 +84,54 @@ th, td{
   white-space: wrap;
   background-color: white;
 }
-#scroll-prop{
+#scroll-prop {
   overflow: scroll;
   overflow-y: hidden;
   overflow-x: hidden;
-
-}
-/* .made-with-tally{
-  position: fixed;
-  bottom:0%;
-  right: 10px;
-  margin:10px;
-  padding: 10px;
-  background-color: white;
-  color: black;
-  border-radius: 5px;
-  font-weight: 600;
-  border: 1px solid rgb(90, 88, 88);
-}
-.made-with-tally img{
-    width: 25px; 
-} */
-@media (max-width:768px){
-  .header-content h1 {
-    font-size: 40px;
-  }  
 }
 
-@media (max-width:480px){
-  .container {
-    margin: 100px 0px 0px 0px;
-    padding: 3px;
-    max-width: 100%;
+@media (max-width: 1024px) {
+  .registration-form-container {
+    width: 70%;
   }
+}
+
+@media (max-width: 768px) {
+  .registration-form-container {
+    width: 80%;
+  }
+
+  .header-logo img {
+    width: 20%;
+  }
+
   .header-content h1 {
-    font-size: 30px;
+    font-size: 35px;
+    line-height: 40px;
   }
-  .registration-form-content input {
+}
+
+@media (max-width: 480px) {
+  .registration-form-container {
     width: 90%;
   }
+  .header-content h1 {
+    font-size: 25px;
+  }
+  .header-content h3 {
+    font-size: 16px;
+  }
+  .registration-form-content input {
+    width: 100%;
+  }
   .table {
-    /* display: block; */
     overflow-x: auto;
     white-space: nowrap;
-    
   }
-  #scroll-prop{
-    overflow: scroll;  
-  } 
-  .registration-form-content textarea {  
+  #scroll-prop {
+    overflow: scroll;
+  }
+  .registration-form-content textarea {
     max-width: 90%;
   }
 }

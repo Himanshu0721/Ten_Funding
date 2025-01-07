@@ -1,0 +1,94 @@
+.next-form-container {
+  width: 60%;
+  margin: 120px auto;
+}
+
+.previous-page-btn {
+  border: none;
+  background: transparent;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.header-logo img {
+  width: 10%;
+  margin: 1rem 0;
+}
+
+.next-form-content h2 {
+  font-size: 1.5rem;
+}
+
+.next-form-content label {
+  font-size: 16px;
+  padding-bottom: 6px;
+}
+
+.next-form-content select {
+  border-radius: 5px;
+  padding: 10px;
+  width: 50%;
+  margin-bottom: 16px;
+}
+.next-form-content textarea {
+  border-radius: 5px;
+  padding: 14px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.next-form-content button {
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  margin-top: 15px;
+}
+.next-form-content h2 {
+  color: rgb(66, 66, 169);
+  font-size: 18px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.next-form-content p {
+  margin-top: 15px;
+}
+
+@media (max-width: 1024px) {
+  .next-form-container {
+    width: 70%;
+  }
+}
+
+@media (max-width: 768px) {
+  .next-form-container {
+    width: 80%;
+  }
+
+  .header-logo img {
+    width: 20%;
+  }
+}
+
+@media (max-width: 480px) {
+  .next-form-container {
+    width: 90%;
+  }
+
+  .next-form-content h2 {
+    font-size: 1rem;
+  }
+
+  .next-form-content input {
+    width: 100%;
+  }
+  .table {
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  #scroll-prop {
+    overflow: scroll;
+  }
+  .next-form-content textarea {
+    width: 100%;
+  }
+}
