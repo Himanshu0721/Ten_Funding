@@ -286,7 +286,10 @@
     height: 40px;
   }
 
-  .about-lastdiv-card-content,
+  .about-lastdiv-card-content {
+    width: 100%;
+    padding: 1rem 2rem;
+  }
   .about-lastdiv-card-image {
     width: 100%;
   }

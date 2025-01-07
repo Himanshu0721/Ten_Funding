@@ -22,6 +22,7 @@
 
 .venture-main-div img {
   width: 100%;
+  margin-bottom: 2rem;
 }
 
 .venture-main-div button {
@@ -115,7 +116,10 @@
     width: 90%;
   }
 
-  .venture-lastdiv-card-content,
+  .venture-lastdiv-card-content {
+    width: 100%;
+    padding: 1rem 2rem;
+  }
   .venture-lastdiv-card-image {
     width: 100%;
   }

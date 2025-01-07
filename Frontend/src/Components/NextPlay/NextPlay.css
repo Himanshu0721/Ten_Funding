@@ -1,15 +1,14 @@
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
   line-height: 1.6;
-  /* color: #333; */
 }
 
 .responsive-page {
   padding: 1rem;
-  max-width: 800px;
+  max-width: 850px;
   margin: 0 auto;
 }
+
 .main-content {
   margin-top: 20px;
 }
@@ -178,43 +177,25 @@ body {
 .cta-button:hover {
   background-color: #ffd799;
 }
-
-/* Responsive Design */
-@media (max-width: 600px) {
-  .page-title {
-    font-size: 1.8rem;
-  }
-
-  .card {
-    padding: 15px;
-    margin-right: 3rem;
-  }
-
-  .cta-button {
-    width: 100%;
-  }
-}
+/* /////////////////////////////////////////////////////////////////////// */
 .faq-container {
-  font-family: Arial, sans-serif;
-  margin: 20px;
-  padding: 20px;
+  width: 100%;
+  margin: 20px 0;
 }
 
 .faq-container h1 {
-  text-align: center;
-  margin-bottom: 20px;
+  font-size: 2rem;
 }
 
 .faq-section {
   display: flex;
   flex-wrap: wrap;
-
   justify-content: center;
 }
 
 .faq-column {
   flex: 1 1 300px;
-  max-width: 300px;
+  width: 100%;
   border-radius: 8px;
   padding: 10px;
 }
@@ -222,7 +203,6 @@ body {
 .faq-item {
   margin: 10px 0;
   padding: 10px;
-
   cursor: pointer;
   border: 1px solid rgb(185, 183, 183);
   border-radius: 5px;
@@ -269,11 +249,29 @@ body {
   border-radius: 5px;
 }
 
-@media (max-width: 752px) {
+/* ------------------------------ Responsive Design ------------------------- */
+@media (max-width: 768px) {
   .table-container {
     max-width: 400px;
   }
   .qu-table {
     width: 100%;
+  }
+
+  .page-title {
+    font-size: 1.8rem;
+  }
+
+  .card {
+    padding: 15px;
+    margin-right: 3rem;
+  }
+
+  .cta-button {
+    width: 100%;
+  }
+
+  .faq-column {
+    flex: 1 1 100%;
   }
 }

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./About.css";
-import MainImage from "../../assets/images/about-main-image.png";
+import MainImage from "../../assets/images/about-main-image.webp";
 import { useNavigate } from "react-router-dom";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import TestimonialData from "../../assets/data/testimonial";
@@ -195,9 +195,7 @@ function About() {
                           <li key={idx}>{point}</li>
                         ))}
                       </ul>
-                      <div>
-                        <button>Get Started</button>
-                      </div>
+                      <button>Get Started</button>
                     </div>
                     <div className="about-lastdiv-card-image">
                       <img src={data.image} alt={data.tag} />
@@ -218,9 +216,7 @@ function About() {
                           <li key={idx}>{point}</li>
                         ))}
                       </ul>
-                      {/* <div> */}
                       <button>Get Started</button>
-                      {/* </div> */}
                     </div>
                   </div>
                 </>
