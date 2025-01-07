@@ -1,6 +1,6 @@
 import React from "react";
 import "./VentureOS.css";
-import MainImage from "../../assets/images/about-main-image.png";
+import MainImage from "../../assets/images/venture_main.webp";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import ventureInfo from "../../assets/data/ventureInfo";
 

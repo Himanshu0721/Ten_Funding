@@ -1,7 +1,7 @@
-import Image1 from "../images/1.png";
-import Image2 from "../images/2.png";
-import Image3 from "../images/3.png";
-import Image4 from "../images/4.png";
+import Image1 from "../images/fundraising1.jpg";
+import Image2 from "../images/fundraising2.png";
+import Image3 from "../images/fundraising3.jpg";
+import Image4 from "../images/fundraising4.png";
 
 const fundraisingInfo = [
   {

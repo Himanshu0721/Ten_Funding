@@ -1,6 +1,6 @@
 import React from "react";
 import "./FundraisingPage.css";
-import MainImage from "../../assets/images/1.png";
+import MainImage from "../../assets/images/fundraising_main.png";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import fundraisingInfo from "../../assets/data/fundraisingInfo";
 

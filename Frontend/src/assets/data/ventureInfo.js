@@ -1,5 +1,5 @@
-import Image1 from "../images/about1.png";
-import Image2 from "../images/about2.png";
+import Image1 from "../images/venture1.jpg";
+import Image2 from "../images/venture2.png";
 
 const ventureInfo = [
   {
