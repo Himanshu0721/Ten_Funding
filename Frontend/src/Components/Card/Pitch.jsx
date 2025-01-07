@@ -4,14 +4,7 @@ import "./pitch.css";
 const Pitch = () => {
   return (
     <div className="application-form-container">
-      <header className="form-header">
-        <div className="logo">
-          <span className="logo-icon">F</span>
-          <span className="logo-text">NoteForms</span>
-        </div>
-      </header>
       <main className="form-content">
-        <h1 className="form-title">2am Application</h1>
         <form className="form">
           <label>
             Mail Address
@@ -41,7 +34,9 @@ const Pitch = () => {
             Pitch Deck (URL)
             <input type="url" placeholder="Enter pitch deck URL" />
           </label>
-          <button type="submit" className="submit-button">Submit</button>
+          <button type="submit" className="submit-button">
+            Submit
+          </button>
         </form>
       </main>
     </div>
