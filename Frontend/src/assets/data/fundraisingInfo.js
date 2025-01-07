@@ -9,9 +9,9 @@ const fundraisingInfo = [
     image: Image1,
     tag: "Investor Database",
     points: [
-      "Discover hundreds of institutional investors across India",
-      "Filter the right investors by stage, sector, ticket size, and other mandates",
-      "Enjoy one-click direct application to investor portals",
+      "Find hundreds of Indian institutional investors.",
+      "Sort the appropriate investors based on criteria such as ticket size, industry, stage, and others.",
+      "Take advantage of one-click direct access to investor portals.",
     ],
   },
   {
@@ -19,9 +19,9 @@ const fundraisingInfo = [
     image: Image2,
     tag: "Pipeline Tracker",
     points: [
-      "Access comprehensive dashboard for all shortlisted investors",
-      "Manage investor pipeline throughout every stage of the fundraising process",
-      "Track all DD commitments and overall progress",
+      "View a thorough dashboard for each investor on the shortlist.",
+      "Oversee the investor pipeline at each step of the fundraising procedure.",
+      "Monitor your overall progress and all of your DD obligations.",
     ],
   },
   {
@@ -29,8 +29,8 @@ const fundraisingInfo = [
     image: Image3,
     tag: "Meeting Management",
     points: [
-      "Assemble all your meeting notes in one place",
-      "One click template for efficient note-taking",
+      "Put all of your meeting notes in one location.",
+      "A one-click template for taking notes effectively.",
     ],
   },
   {
@@ -38,8 +38,8 @@ const fundraisingInfo = [
     image: Image4,
     tag: "Centralized Data Room",
     points: [
-      "Maintain version control over data shared",
-      "Share timebound access to your data room",
+      "Keep the shared data under version control.",
+      "Provide time-bound access to your data room with others.",
     ],
   },
 ];
