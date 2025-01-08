@@ -12,5 +12,5 @@ urlpatterns = [
     path('tech_stack_waitlist', views.tech_stack_waitlists),
     path('next_india', views.next_india),
     path('vc_application', views.vc_applications),
-
+    path('csrf-token/', views.csrf_token),
 ]
