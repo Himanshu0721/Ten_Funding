@@ -44,10 +44,11 @@ const Cardframe = () => {
           </a>
         </div>
         <p className="description">
-          Founded in 2021, XYZ Capital is a global investment firm. The firm
-          focuses on funding companies in various sectors such as Technology,
-          Healthcare, and E-commerce. XYZ Capital has supported over 50
-          early-stage ventures, with a notable portfolio including AlphaTech,
+          XYZ Capital is a multinational investing firm that was founded in
+          2021. The company specializes in investing in businesses across a
+          range of industries, including technology, healthcare, and e-commerce.
+          More than 50 early-stage businesses have received funding from XYZ
+          Capital, which has a noteworthy portfolio that includes AlphaTech,
           BetaMart, GammaSolutions, and DeltaCorp.
         </p>
         <div className="details">

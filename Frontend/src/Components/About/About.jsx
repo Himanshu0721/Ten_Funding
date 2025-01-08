@@ -13,6 +13,14 @@ function About() {
     navigate("/");
   };
 
+  // const handleButtonFundraisingOS = () => {
+  //   navigate("/fundraising-os");
+  // };
+
+  // const handleButtonVentureOS = () => {
+  //   navigate("/venture-os");
+  // };
+
   const handleButtonFindJobs = () => {
     navigate("/launchpad");
   };
@@ -81,8 +89,8 @@ function About() {
         </div>
       </div>
       <p>
-        Startups, VCs, and folks in between - we have something for everyone.
-        And they love us for it.
+        We offer something for everyone, whether they are VCs, startups, or
+        anybody in between. And for that, they adore us.
       </p>
 
       {/* Scroll Section */}

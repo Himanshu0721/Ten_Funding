@@ -10,9 +10,9 @@ export default function SpotlightForm() {
         <div className="spotlightform-header-content">
           <h1>IndianVCs Spotlight Waitlist</h1>
           <h2>
-            IndianVCs is a decentralized venture community by VCs for founders,
-            guiding startups from "-1 to 0". We offer resources for fundraising
-            and hiring, including investor lists, templates, job boards, and
+            Leading startups from "-1 to 0" is IndianVCs, a decentralized
+            venture network run by VCs for founders. We provide tools for hiring
+            and fundraising, such as job boards, templates, investor lists, and
             networking events.
           </h2>
           <hr />

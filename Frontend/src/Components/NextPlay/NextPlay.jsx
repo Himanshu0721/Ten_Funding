@@ -46,28 +46,22 @@ const NextPlay = () => {
       <main className="main-content">
         <section className="intro">
           <h1>next play</h1>
-          <h2>our goal is to help you figure out what’s next ✨</h2>
-          <p>
-            <a href="#" className="link">
-              Join the next play network
-            </a>{" "}
-            to get access to:
-          </p>
+          <h2>
+            We want to assist you in determining your next course of action. ✨
+          </h2>
           <ul className="features-list">
-            <li>under-the-radar job opportunities</li>
-            <li>introductions to like-minded collaborators</li>
+            <li>hidden employment prospects.</li>
+            <li>introductions to partners who share similar interests.</li>
+            <li>invitations to private events (20+ cities and counting!).</li>
+            <li>carefully selected lists of innovative startups to join.</li>
             <li>
-              invitations to off-the-record gatherings (20+ cities and growing!)
-            </li>
-            <li>curated lists of breakout startups to join</li>
-            <li>
-              podcast with exclusive interviews from operators & founders who
-              share their career learnings
+              podcast featuring unique interviews with founders and operators
+              who discuss their professional insights.
             </li>
           </ul>
-          <button className="cta-button">
+          {/* <button className="cta-button">
             ✨ Apply here to join (takes less than 5 minutes)
-          </button>
+          </button> */}
         </section>
 
         {/* Examples Section */}
@@ -75,21 +69,21 @@ const NextPlay = () => {
           <h3>Examples of people in next play</h3>
           <ul className="examples-list">
             <li>
-              second-time founder who sold their previous company and exploring
-              starting a new company
+              second-time founder who is considering launching a new business
+              after selling their first one.
             </li>
             <li>
-              engineering leader from Series C company looking to join a new
-              company or potentially start a company
+              An technical leader from a Series C company is seeking to
+              establish a new business or join an existing one.
             </li>
             <li>
-              VP growth at FAANG company thinking about joining an early-stage
-              startup
+              VP of growth at FAANG is considering joining a startup in its
+              early stages.
             </li>
             <li>
-              + many others from places like Stripe, OpenAI, Notion, Retool, Y
-              Combinator, Rippling, Silver Lake, Sequoia, SpaceX, Figma, Replit,
-              Nasa, Coinbase, Airbnb, Instacart, and more.
+              + numerous others from companies such as Coinbase, Airbnb,
+              Instacart, SpaceX, Figma, Replit, Nasa, Stripe, OpenAI, Notion,
+              Retool, Y Combinator, Rippling, Silver Lake, Sequoia, and more.
             </li>
           </ul>
         </section>
@@ -102,24 +96,25 @@ const NextPlay = () => {
             <div className="card">
               <h2>gatherings</h2>
               <p>
-                🚀 Curated gatherings of top-notch founders and operators who
-                are openly or secretly exploring what comes next. You may be
-                considering starting a company, joining your next thing, both,
-                or unsure.
+                🚀 curated events featuring exceptional founders and operators
+                who are either publicly or privately investigating future
+                developments. You can be thinking about launching your own
+                business, joining your next venture, doing both, or not sure.
               </p>
               <p>
-                Taking place in NYC, SF, Tel Aviv, Austin, Boston, Bangalore,
-                London, Seattle, Paris, Berlin, LA, Denver, Toronto, Philly,
-                Chicago, Sydney.
+                New York City, San Francisco, Tel Aviv, Austin, Boston,
+                Bangalore, London, Seattle, Paris, Berlin, Los Angeles, Denver,
+                Toronto, Philadelphia, Chicago, and Sydney are among the
+                locations.
               </p>
             </div>
 
             <div className="card">
               <h2>podcast</h2>
               <p>
-                🎙️ Hear directly from world-class founders, investors, and
-                operators, who recently found their next play, as they dive deep
-                and share their journey and learnings. <a href="#">Spotify</a> /{" "}
+                🎙️ Hear firsthand from top-tier operators, investors, and
+                founders who have just discovered their next big thing as they
+                share their experiences and insights. <a href="#">Spotify</a> /{" "}
                 <a href="#">Apple Podcasts</a>
               </p>
             </div>
@@ -127,15 +122,15 @@ const NextPlay = () => {
             <div className="card">
               <h2>newsletter</h2>
               <p>
-                📧 Get under-the-radar opportunities from early stage companies,
-                co-founders looking for partners, and more.
+                📧 Discover unnoticed possibilities from co-founders seeking
+                partners, early-stage startups, and more.
               </p>
             </div>
 
             <div className="card">
               <h2>lists</h2>
               <p>
-                📋 We’re curating lists of great companies to join.{" "}
+                📋 We're compiling lists of fantastic businesses to work with.{" "}
                 <a href="#">See here</a>.
               </p>
             </div>
@@ -145,18 +140,19 @@ const NextPlay = () => {
           <div className="matching-section">
             <h2>matching</h2>
             <p>
-              🌱 We’re introducing good people who are thinking about what comes
-              next, anywhere in the world, as a way to spark ideas, build
-              momentum, and chat about what may come next.
+              🌱 In order to generate ideas, create momentum, and have
+              conversations about potential future developments, we are
+              introducing decent people who are considering what might happen
+              next, wherever they may be in the world.
             </p>
           </div>
 
           {/* Call to Action */}
-          <div className="cta">
+          {/* <div className="cta">
             <button className="cta-button">
               ✨ Apply here to join (takes less than 5 minutes)
             </button>
-          </div>
+          </div> */}
         </div>
 
         <div className="faq-container">

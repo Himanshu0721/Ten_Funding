@@ -10,9 +10,9 @@ export default function VCStackForm() {
         <div className="vcstackform-header-content">
           <h1>IndianVCs VC Tech Stack Waitlist</h1>
           <h2>
-            IndianVCs is a decentralized venture community by VCs for founders,
-            guiding startups from "-1 to 0". We offer resources for fundraising
-            and hiring, including investor lists, templates, job boards, and
+            Leading startups from "-1 to 0" is IndianVCs, a decentralized
+            venture network run by VCs for founders. We provide tools for hiring
+            and fundraising, such as job boards, templates, investor lists, and
             networking events.
           </h2>
           <hr />
@@ -64,9 +64,9 @@ export default function VCStackForm() {
             <div className="form-group">
               <label htmlFor="leadrounds">
                 <h3>
-                  Would your fund be interested in being featured in the
-                  IndianVCs newsletter, highlighting the story and journey of
-                  your fund? <sub>*</sub>
+                  Would you be interested in having your fund highlighted in the
+                  IndianVCs newsletter, which would tell its journey and story?{" "}
+                  <sub>*</sub>
                 </h3>
               </label>
               <select className="form-slect">
