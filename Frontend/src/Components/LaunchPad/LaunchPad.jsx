@@ -1,206 +1,563 @@
-
-import  { useEffect, useState, useRef } from "react";
+import { useEffect, useState, useRef } from "react";
 import { MdOutlineKeyboardArrowDown } from "react-icons/md";
 import { RxCross2 } from "react-icons/rx";
 import "./LaunchPad.css";
-import RegistrationForm from "../RegistrationForm/RegistrationFormNext";
+
 
 const LaunchPad = () => {
   const [jobs] = useState([
     {
-      name: "Investment Team",
-      firm: "Dexter Ventures",
-      logo: "https://cdn.prod.website-files.com/66231acb2160c0962a6c50d4/66694f5d54aa0e6febd94cea_dexter_angels_logo.jpg",
-      location: "Bangalore",
-      roleType: "Full Time",
-      postedOn: "October 9, 2024",
+      title: "Frontend Developer Internship",
+      skills: ["React", "Tailwind CSS", "HTML", "CSS", "JavaScript", "Git"],
+      responsibilities: "Assist in designing and developing...",
+      description: "View Job Description",
     },
     {
-      name: "Chief of Staff",
-      firm: "Stellaris Venture Partners",
-      logo: "https://cdn.prod.website-files.com/66231acb2160c0962a6c50d4/6672946615f1350a6172c38b_stellaris_venture_partners_logo.jpg",
-      location: "Bangalore",
-      roleType: "Full Time",
-      postedOn: "September 9, 2024",
+      title: "Backend Developer Internship",
+      skills: [
+        "Node.js",
+        "Express.js",
+        "RESTful APIs",
+        "SQL/NoSQL databases",
+        "Git",
+        "Docker",
+      ],
+      responsibilities: "Assist in designing and developing...",
+      description: "View Job Description",
     },
     {
-            name: "Analyst",
-            firm: "Golden Sparrow",
-            logo: "https://cdn.prod.website-files.com/66231acb2160c0962a6c50d4/666acfc240a460a98a37feb9_golden%20sparrow.jpg",
-            location: "Bangalore",
-            roleType: "Full Time",
-            postedOn: "August 15, 2024",
-          },
-          {
-            name: "Vice President - Investments",
-            firm: "IvyCap Ventures",
-            logo: "https://cdn.prod.website-files.com/66231acb2160c0962a6c50d4/6673d951bb72e693636a8e23_IVYCAP.jpg",
-            location: "Mumbai",
-            roleType: "Full Time",
-            postedOn: "August 12, 2024",
-          },
-          {
-            name: "Vice President - Investments",
-            firm: "IvyCap Ventures",
-            logo: "/logos/ivycap.png",
-            location: "Bangalore",
-            roleType: "Full Time",
-            postedOn: "August 2, 2024",
-          },
-          {
-              name: "Analyst",
-              firm: "Speciale Invest",
-              logo: "https://cdn.prod.website-files.com/66231acb2160c0962a6c50d4/666bf35cc95407021bd52bd6_speciale.jpg",
-              location: "Bangalore",
-              roleType: "Full Time",
-              postedOn: "July 22, 2024",
-            },
-            {
-              name: "Associate",
-              firm: "Panthera Growth Partners",
-              logo: "/logos/ivycap.png",
-              location: "Mumbai",
-              roleType: "Full Time",
-              postedOn: "July 22, 2024",
-            },
-            {
-              name: "Analyst/Associate",
-              firm: "Incubate Fund Asia",
-              logo: "https://cdn.prod.website-files.com/66231acb2160c0962a6c50d4/6683b25c14982cd99e9a2cb9_gradcapital_logo.jpg",
-              location: "Bangalore",
-              roleType: "Full Time",
-              postedOn: "July 22, 2024",
-            },
-            {
-              name: "Associate",
-              firm: "Chiratae Ventures",
-              logo: "https://cdn.prod.website-files.com/66231acb2160c0962a6c50d4/666b061b4c4cbf630d043ebc_panthera.jpg",
-              location: "Bangalore",
-              roleType: "Full Time",
-              postedOn: "July 27, 2024",
-            },
-           {
-            name: "Analyst",
-            firm: "Antler India",
-            logo: "https://cdn.prod.website-files.com/66231acb2160c0962a6c50d4/666ae7d63dd8dcf8ff5b021b_incubate_fund_india_logo.jpg",
-            location: "Bangalore",
-            roleType: "Full Time",
-            postedOn: "June 24, 2024",
-          },
-          {
-            name: "Analyst",
-            firm: "Panthera Growth Partners",
-            logo: "/logos/panthera.png",
-            location: "Mumbai",
-            roleType: "Full Time",
-            postedOn: "June 10, 2024",
-          },
-          {
-            name: "Associate",
-            firm: "Blume Ventures",
-            logo: "https://cdn.prod.website-files.com/66231acb2160c0962a6c50d4/666a955840272fd1fee40926_chiratae_ventures_logo.jpg",
-            location: "Bangalore",
-            roleType: "Full Time",
-            postedOn: "June 10, 2024",
-          },
-          {
-            name: "Analyst",
-            firm: "Prath Ventures",
-            logo: "https://cdn.prod.website-files.com/66231acb2160c0962a6c50d4/664bbcb70f1cde5ff0ce7647_AntlerGlobal%20logo.jpeg",
-            location: "Mumbai",
-            roleType: "Full Time",
-            postedOn: "May 26, 2024",
-          },
-          {
-            name: "Associate",
-            firm: "All In Capital",
-            logo: "https://cdn.prod.website-files.com/66231acb2160c0962a6c50d4/6673057f3527ec16102f703d_blume_venture_advisors_logo.jpg",
-            location: "Bangalore",
-            roleType: "Full Time",
-            postedOn: "May 20, 2024",
-          },
-          {
-            name: "Analyst/Associate",
-            firm: "pi Ventures",
-            logo: "https://cdn.prod.website-files.com/66231acb2160c0962a6c50d4/66792d531755763b04015082_prathventures_logo.jpg",
-            location: "Bangalore",
-            roleType: "Full Time",
-            postedOn: "May 15, 2024",
-          },
-          {
-            name: "Investment Manager",
-            firm: "Beyond Next Ventures",
-            logo: "https://cdn.prod.website-files.com/66231acb2160c0962a6c50d4/66694f5d54aa0e6febd94cea_dexter_angels_logo.jpg",
-            location: "Bangalore",
-            roleType: "Full Time",
-            postedOn: "May 10, 2024",
-          },
-          {
-            name: "Legal Analyst",
-            firm: "3one4 Capital",
-            logo: "https://cdn.prod.website-files.com/66231acb2160c0962a6c50d4/664bbcc6ab177f2f66efb1c3_3one4%20Capital%20logo.jpeg",
-            location: "Bangalore",
-            roleType: "Full Time",
-            postedOn: "May 5, 2024",
-          },
-          {
-            name: "Analyst",
-            firm: "Panthera Growth Partners",
-            logo: "https://cdn.prod.website-files.com/66231acb2160c0962a6c50d4/666b061b4c4cbf630d043ebc_panthera.jpg",
-            location: "Mumbai",
-            roleType: "Part Time",
-            postedOn: "April 20, 2024",
-          },
-          {
-            name: "Analyst/Associate",
-            firm: "Advantedge Founders",
-            logo: "https://cdn.prod.website-files.com/66231acb2160c0962a6c50d4/6669705e52d89c68e300a81b_advantedge_founders_logo.jpg",
-            location: "Delhi",
-            roleType: "Full Time",
-            postedOn: "April 10, 2024",
-          },
-          {
-            name: "Analyst",
-            firm: "Chiratae Ventures",
-            logo: "https://cdn.prod.website-files.com/66231acb2160c0962a6c50d4/666a955840272fd1fee40926_chiratae_ventures_logo.jpg",
-            location: "Bangalore",
-            roleType: "Internship",
-            postedOn: "April 5, 2024",
-          },
-      
-    
-    
+      title: "React js Developer Internship",
+      skills: ["React.js", "JavaScript", "Redux", "HTML", "CSS", "Git"],
+      responsibilities: "Assist in developing front-end applications...",
+      description: "View Job Description",
+    },
+    {
+      title: "Python Development Internship",
+      skills: [
+        "Python",
+        "Django/Flask",
+        "REST APIs",
+        "SQL/NoSQL databases",
+        "Git",
+        "Docker",
+      ],
+      responsibilities: "Assist in developing and maintaining...",
+      description: "View Job Description",
+    },
+    {
+      title: "MERN Stack Developer Internship",
+      skills: [
+        "MongoDB",
+        "Express.js",
+        "React.js",
+        "Node.js",
+        "JavaScript",
+        "REST APIs",
+        "Git",
+        "Docker",
+      ],
+      responsibilities: "Assist in designing and developing...",
+      description: "View Job Description",
+    },
+    {
+      title: "Spring Boot Development Internship",
+      skills: [
+        "Java",
+        "Spring Boot",
+        "REST APIs",
+        "SQL/NoSQL databases",
+        "Git",
+        "Maven",
+        "Docker",
+      ],
+      responsibilities: "Assist in designing and developing...",
+      description: "View Job Description",
+    },
+    {
+      title: "Software Testing Internship",
+      skills: [
+        "Manual Testing",
+        "Automated Testing",
+        "Selenium",
+        "JUnit",
+        "TestNG",
+        "Bug Tracking Tools",
+        "Git",
+      ],
+      responsibilities: "Assist in the design and...",
+      description: "View Job Description",
+    },
+    {
+      title: "WIX Web Development Internship",
+      skills: [
+        "Wix",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "SEO",
+        "Graphic Design",
+        "UX/UI Design",
+      ],
+      responsibilities: "Develop and design websites using...",
+      description: "View Job Description",
+    },
+    {
+      title: "Frontend Developer Internship",
+      skills: ["React", "Tailwind CSS", "HTML", "CSS", "JavaScript", "Git"],
+      responsibilities: "Assist in designing and developing...",
+      description: "View Job Description",
+    },
+    {
+      title: "Backend Developer Internship",
+      skills: [
+        "Node.js",
+        "Express.js",
+        "RESTful APIs",
+        "SQL/NoSQL databases",
+        "Git",
+        "Docker",
+      ],
+      responsibilities: "Assist in designing and developing...",
+      description: "View Job Description",
+    },
+    {
+      title: "React js Developer Internship",
+      skills: ["React.js", "JavaScript", "Redux", "HTML", "CSS", "Git"],
+      responsibilities: "Assist in developing front-end applications...",
+      description: "View Job Description",
+    },
+    {
+      title: "Python Development Internship",
+      skills: [
+        "Python",
+        "Django/Flask",
+        "REST APIs",
+        "SQL/NoSQL databases",
+        "Git",
+        "Docker",
+      ],
+      responsibilities: "Assist in developing and maintaining...",
+      description: "View Job Description",
+    },
+    {
+      title: "MERN Stack Developer Internship",
+      skills: [
+        "MongoDB",
+        "Express.js",
+        "React.js",
+        "Node.js",
+        "JavaScript",
+        "REST APIs",
+        "Git",
+        "Docker",
+      ],
+      responsibilities: "Assist in designing and developing...",
+      description: "View Job Description",
+    },
+    {
+      title: "Spring Boot Development Internship",
+      skills: [
+        "Java",
+        "Spring Boot",
+        "REST APIs",
+        "SQL/NoSQL databases",
+        "Git",
+        "Maven",
+        "Docker",
+      ],
+      responsibilities: "Assist in designing and developing...",
+      description: "View Job Description",
+    },
+    {
+      title: "Software Testing Internship",
+      skills: [
+        "Manual Testing",
+        "Automated Testing",
+        "Selenium",
+        "JUnit",
+        "TestNG",
+        "Bug Tracking Tools",
+        "Git",
+      ],
+      responsibilities: "Assist in the design and...",
+      description: "View Job Description",
+    },
+    {
+      title: "WIX Web Development Internship",
+      skills: [
+        "Wix",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "SEO",
+        "Graphic Design",
+        "UX/UI Design",
+      ],
+      responsibilities: "Develop and design websites using...",
+      description: "View Job Description",
+    },
+    {
+      title: "MEAN Stack Developer Internship",
+      skills: [
+        "MongoDB",
+        "Express.js",
+        "Angular",
+        "Node.js",
+        "JavaScript",
+        "REST APIs",
+        "Git",
+        "Docker",
+      ],
+      responsibilities: "Develop and maintain web applications...",
+      description: "View Job Description",
+    },
+    {
+      title: "JAVA Developer Internship",
+      skills: [
+        "Java",
+        "Spring Framework",
+        "REST APIs",
+        "SQL/NoSQL databases",
+        "Git",
+        "Maven",
+        "Docker",
+      ],
+      responsibilities: "Collaborate with our team in...",
+      description: "View Job Description",
+    },
+    {
+      title: "NODE.js Developer Internship",
+      skills: [
+        "Node.js",
+        "Express.js",
+        "JavaScript",
+        "REST APIs",
+        "SQL/NoSQL databases",
+        "Git",
+        "Docker",
+      ],
+      responsibilities: "Assist in designing and developing...",
+      description: "View Job Description",
+    },
+    {
+      title: "Android Developer Internship",
+      skills: [
+        "Java/Kotlin",
+        "Android Studio",
+        "XML",
+        "REST APIs",
+        "Git",
+        "Firebase",
+        "SQLite",
+      ],
+      responsibilities: "Collaborate with our team to...",
+      description: "View Job Description",
+    },
+    {
+      title: "WordPress Development Internship",
+      skills: [
+        "WordPress",
+        "PHP",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "MySQL",
+        "SEO",
+        "Git",
+      ],
+      responsibilities: "Develop and customize WordPress themes...",
+      description: "View Job Description",
+    },
+    {
+      title: "Angular Development Internship",
+      skills: [
+        "Angular",
+        "TypeScript",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "REST APIs",
+        "Git",
+        "Webpack",
+      ],
+      responsibilities: "Develop and maintain Angular-based web...",
+      description: "View Job Description",
+    },
+    {
+      title: "Data Structure Internship",
+      skills: [
+        "Data Structures",
+        "Algorithms",
+        "Java/Python/C++",
+        "Problem Solving",
+        "Git",
+      ],
+      responsibilities: "Design and implement efficient data...",
+      description: "View Job Description",
+    },
+    {
+      title: "C/C++ Development Internship",
+      skills: [
+        "C/C++",
+        "Data Structures",
+        "Algorithms",
+        "Problem Solving",
+        "Git",
+        "Debugging Tools",
+      ],
+      responsibilities: "Develop and maintain applications using...",
+      description: "View Job Description",
+    },
+    {
+      title: "Frontend Developer Internship",
+      skills: ["React", "Tailwind CSS", "HTML", "CSS", "JavaScript", "Git"],
+      responsibilities: "Assist in designing and developing...",
+      description: "View Job Description",
+    },
+    {
+      title: "Backend Developer Internship",
+      skills: [
+        "Node.js",
+        "Express.js",
+        "RESTful APIs",
+        "SQL/NoSQL databases",
+        "Git",
+        "Docker",
+      ],
+      responsibilities: "Assist in designing and developing...",
+      description: "View Job Description",
+    },
+    {
+      title: "React js Developer Internship",
+      skills: ["React.js", "JavaScript", "Redux", "HTML", "CSS", "Git"],
+      responsibilities: "Assist in developing front-end applications...",
+      description: "View Job Description",
+    },
+    {
+      title: "Python Development Internship",
+      skills: [
+        "Python",
+        "Django/Flask",
+        "REST APIs",
+        "SQL/NoSQL databases",
+        "Git",
+        "Docker",
+      ],
+      responsibilities: "Assist in developing and maintaining...",
+      description: "View Job Description",
+    },
+    {
+      title: "MERN Stack Developer Internship",
+      skills: [
+        "MongoDB",
+        "Express.js",
+        "React.js",
+        "Node.js",
+        "JavaScript",
+        "REST APIs",
+        "Git",
+        "Docker",
+      ],
+      responsibilities: "Assist in designing and developing...",
+      description: "View Job Description",
+    },
+    {
+      title: "Spring Boot Development Internship",
+      skills: [
+        "Java",
+        "Spring Boot",
+        "REST APIs",
+        "SQL/NoSQL databases",
+        "Git",
+        "Maven",
+        "Docker",
+      ],
+      responsibilities: "Assist in designing and developing...",
+      description: "View Job Description",
+    },
+    {
+      title: "Artificial Intelligence Internship",
+      skills: [
+        "Machine Learning",
+        "Python",
+        "TensorFlow/PyTorch",
+        "Data Analysis",
+        "Git",
+      ],
+      responsibilities: "Assist in developing and implementing...",
+      description: "View Job Description",
+    },
+    {
+      title: "Data Science and Machine Learning Internship",
+      skills: [
+        "Python/R",
+        "Data Analysis",
+        "Machine Learning",
+        "SQL",
+        "Pandas",
+        "Scikit-learn",
+        "Git",
+      ],
+      responsibilities: "Analyze and interpret complex data...",
+      description: "View Job Description",
+    },
+    {
+      title: "Big Data Internship",
+      skills: [
+        "Hadoop",
+        "Spark",
+        "Python/Java",
+        "SQL",
+        "Data Analysis",
+        "ETL",
+        "Git",
+      ],
+      responsibilities: "Assist in collecting, processing, and...",
+      description: "View Job Description",
+    },
+    {
+      title: "Cloud Computing Internship",
+      skills: [
+        "AWS/Azure/GCP",
+        "Cloud Architecture",
+        "Docker",
+        "Kubernetes",
+        "DevOps",
+        "Git",
+      ],
+      responsibilities: "Assist in deploying and managing...",
+      description: "View Job Description",
+    },
+    {
+      title: "Software Development Internship",
+      skills: [
+        "Java/Python/C++",
+        "Software Development",
+        "SQL/NoSQL",
+        "Git",
+        "Agile Methodologies",
+      ],
+      responsibilities: "Assist in the design, development,...",
+      description: "View Job Description",
+    },
+    {
+      title: "Technical Program Management Internship",
+      skills: [
+        "Project Management",
+        "Agile Methodologies",
+        "Communication",
+        "Jira",
+        "Confluence",
+      ],
+      responsibilities: "Assist in project planning, scheduling,...",
+      description: "View Job Description",
+    },
+    {
+      title: "DevOps Engineering Internship",
+      skills: [
+        "Linux",
+        "Docker",
+        "Kubernetes",
+        "Jenkins",
+        "AWS/Azure/GCP",
+        "Scripting",
+        "Git",
+      ],
+      responsibilities: "Assist in building and maintaining...",
+      description: "View Job Description",
+    },
+    {
+      title: "Data Analysis Internship",
+      skills: [
+        "Python",
+        "R",
+        "Pandas",
+        "NumPy",
+        "Matplotlib",
+        "Tableau",
+        "Data Analysis",
+        "Data Visualization",
+      ],
+      responsibilities: "Assist in collecting, cleaning, and...",
+      description: "View Job Description",
+    },
+    {
+      title: "Angular Development Internship",
+      skills: [
+        "Angular",
+        "TypeScript",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "REST APIs",
+        "Git",
+        "Webpack",
+      ],
+      responsibilities: "Develop and maintain Angular-based web...",
+      description: "View Job Description",
+    },
+    {
+      title: "Data Structure Internship",
+      skills: [
+        "Data Structures",
+        "Algorithms",
+        "Java/Python/C++",
+        "Problem Solving",
+        "Git",
+      ],
+      responsibilities: "Design and implement efficient data...",
+      description: "View Job Description",
+    },
+    {
+      title: "C/C++ Development Internship",
+      skills: [
+        "C/C++",
+        "Data Structures",
+        "Algorithms",
+        "Problem Solving",
+        "Git",
+        "Debugging Tools",
+      ],
+      responsibilities: "Develop and maintain applications using...",
+      description: "View Job Description",
+    },
   ]);
 
+ 
+
+  // const [jobs, setJobs] = useState([]);
   const [selectedFilters, setSelectedFilters] = useState([]);
   const [locationDropdownOpen, setLocationDropdownOpen] = useState(false);
   const [roleDropdownOpen, setRoleDropdownOpen] = useState(false);
   const [visibleJobsCount, setVisibleJobsCount] = useState(4);
   const locationDropdownRef = useRef(null);
   const roleDropdownRef = useRef(null);
-  
- 
+
   //load more jobs
   const handleLoadMore = () => {
-    setVisibleJobsCount((prevCount)=> prevCount + 4);
+    setVisibleJobsCount((prevCount) => prevCount + 4);
   };
 
-  const filteredJobs = jobs.filter((job)=>
-  selectedFilters.length === 0 || selectedFilters.includes(job.location)||
-selectedFilters.includes(job.roleType));
-  
-  useEffect(()=>{
-    if(selectedFilters.length > 0 && filteredJobs.length > visibleJobsCount){
+  const filteredJobs = jobs.filter(
+    (job) =>
+      selectedFilters.length === 0 ||
+      selectedFilters.includes(job.title) ||
+      selectedFilters.includes(job.roleType)
+  );
+
+  useEffect(() => {
+    if (selectedFilters.length > 0 && filteredJobs.length > visibleJobsCount) {
       setVisibleJobsCount(filteredJobs.length);
     }
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  },[filteredJobs,selectedFilters,visibleJobsCount])
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [filteredJobs, selectedFilters, visibleJobsCount]);
 
-  const visibleJobs = filteredJobs.slice(0,visibleJobsCount);
-  
+  const visibleJobs = filteredJobs.slice(0, visibleJobsCount);
+
   // Toggle dropdown visibility
   const toggleLocationDropdown = () => {
-    setLocationDropdownOpen(!locationDropdownOpen);
+  console.log(jobs.title)
+    setLocationDropdownOpen((prev)=>!prev);
     setRoleDropdownOpen(false);
   };
 
@@ -211,34 +568,40 @@ selectedFilters.includes(job.roleType));
 
   // Handle checkbox selection
   const handleCheckboxChange = (filter) => {
-    setSelectedFilters((prevFilters) =>{
+    setSelectedFilters((prevFilters) => {
       const updatedFilters = prevFilters.includes(filter)
         ? prevFilters.filter((item) => item !== filter)
         : [...prevFilters, filter];
-        if(updatedFilters.length === 0){
-          setVisibleJobsCount(4);
-        }
-        return updatedFilters;
-  });
+      if (updatedFilters.length === 0) {
+        setVisibleJobsCount(4);
+      }
+      return updatedFilters;
+    });
   };
 
-  // close selected items 
+  // close selected items
   const handleSelectedItemClose = (filter) => {
-    setSelectedFilters((prevFilters)=>{
-      const updatedFilters = prevFilters.filter((item)=> item !== filter);
-      if (updatedFilters.length ===0){
+    setSelectedFilters((prevFilters) => {
+      const updatedFilters = prevFilters.filter((item) => item !== filter);
+      if (updatedFilters.length === 0) {
         setVisibleJobsCount(4);
         return updatedFilters;
       }
-   } );
+    });
   };
 
   // Close dropdown when clicking outside
   const handleClickOutside = (event) => {
-    if (locationDropdownRef.current && !locationDropdownRef.current.contains(event.target)) {
+    if (
+      locationDropdownRef.current &&
+      !locationDropdownRef.current.contains(event.target)
+    ) {
       setLocationDropdownOpen(false);
     }
-    if (roleDropdownRef.current && !roleDropdownRef.current.contains(event.target)) {
+    if (
+      roleDropdownRef.current &&
+      !roleDropdownRef.current.contains(event.target)
+    ) {
       setRoleDropdownOpen(false);
     }
   };
@@ -251,68 +614,54 @@ selectedFilters.includes(job.roleType));
   }, []);
 
   return (
-   
     <div className="launchpad-container">
       <div className="hero-section">
-      <div className="upper-section">
-    <div className="card">
-      <h1 className="heading">Looking for an upgrade?</h1>
-      <div className="lower-section">
-      <div className="card-para">
-      <p>Check out our database of active VC jobs.</p>
+        <div className="upper-section">
+          <div className="card">
+            <h1 className="heading">Looking for an upgrade?</h1>
+            <div className="lower-section">
+              <div className="card-para">
+                <p>Check out our database of active VC jobs.</p>
+              </div>
+
+              <div className="button-container">
+                <button className="cta-button">
+                  Post a job <span className="arrow">→</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="mid-section"></div>
       </div>
-      
-      <div className="button-container">
-        <button className="cta-button" >
-          Post a job <span className="arrow">→</span>
-        </button>
-      
-        </div>
-        </div>
-        </div>
-      </div>
-      <div className="mid-section"></div>
-    </div>
- 
-      
+
       {/* Filters */}
       <div className="filters">
         <div className="dropdown-container" ref={locationDropdownRef}>
           <button className="dropdown-button" onClick={toggleLocationDropdown}>
-            Location <MdOutlineKeyboardArrowDown />
+            Title <MdOutlineKeyboardArrowDown />
           </button>
           {locationDropdownOpen && (
             <ul className="dropdown-menu">
-              <label>
+                {jobs.map((job, index) => {
+                return(
+                <li key={{index}}>
+                <label>
                 <input
                   type="checkbox"
-                  name="Bangalore"
-                  checked={selectedFilters.includes("Bangalore")}
-                  onChange={() => handleCheckboxChange("Bangalore")}
+                  checked={selectedFilters.includes(job.title)}
+                  onChange={() => handleCheckboxChange(job.title)}
                 />{" "}
-                Bangalore
-              </label>
-              <label>
-                <input
-                  type="checkbox"
-                  name="Mumbai"
-                  checked={selectedFilters.includes("Mumbai")}
-                  onChange={() => handleCheckboxChange("Mumbai")}
-                />{" "}
-                Mumbai
-              </label>
-              <label>
-                <input
-                  type="checkbox"
-                  name="Delhi"
-                  checked={selectedFilters.includes("Delhi")}
-                  onChange={() => handleCheckboxChange("Delhi")}
-                />{" "}
-                Delhi
-              </label>
-            </ul>
+                {job.title}
+                </label>
+              </li>
+              )
+              })
+              }
+              </ul>
           )}
-        </div>
+  
+          </div>
 
         <div className="dropdown-container" ref={roleDropdownRef}>
           <button className="dropdown-button" onClick={toggleRoleDropdown}>
@@ -354,56 +703,49 @@ selectedFilters.includes(job.roleType));
 
       {/* Selected Filters */}
       <div className="selected-filters">
-      
         {selectedFilters.length > 0 ? (
           <div className="selected-items">
             {selectedFilters.map((filter, index) => (
-              <h5 key={index}>{filter} <RxCross2  onClick={ ()=>handleSelectedItemClose(filter)}/> </h5>
-             
+              <h5 key={index}>
+                {filter}{" "}
+                <RxCross2 onClick={() => handleSelectedItemClose(filter)} />{" "}
+              </h5>
             ))}
           </div>
-        ) : null 
-          }
+        ) : null}
       </div>
 
       {/* Job Table */}
       <table className="job-table">
         <thead>
           <tr>
-            <th>NAME</th>
-            <th>FIRM</th>
-            <th>LOCATION</th>
-            <th>ROLE TYPE</th>
-            <th>POSTED ON</th>
+            <th>Title</th>
+            <th>Skills</th>
+            <th>Responsibility</th>
+            <th>Description</th>
           </tr>
         </thead>
         <tbody>
           {visibleJobs.map((job, index) => (
             <tr key={index}>
-              <td>{job.name}</td>
-              {/* <td>
-                <img src={job.logo} alt={job.firm} className="firm-logo" />
-                {job.firm}
-              </td> */}
-                <td>
-          <div className="firm-container">
-            <img src={job.logo} alt={job.firm} className="firm-logo" />
-            <span>{job.firm}</span>
-          </div>
-        </td>
-              <td>{job.location}</td>
-              <td>{job.roleType}</td>
-              <td>{job.postedOn}</td>
+              <td>{job.title}</td>
+
+              <td>{job.skills.join(", ")}</td>
+              <td>{job.responsibilities}</td>
+              <td>
+                <button className="description">{job.description}</button></td>
             </tr>
           ))}
         </tbody>
       </table>
 
       {/* Load More Button */}
-      { selectedFilters.length === 0 &&  visibleJobsCount < filteredJobs.length &&(
-          <button className="load-more" onClick={handleLoadMore}>Load More</button>
-      )}
-     
+      {selectedFilters.length === 0 &&
+        visibleJobsCount < filteredJobs.length && (
+          <button className="load-more" onClick={handleLoadMore}>
+            Load More
+          </button>
+        )}
     </div>
   );
 };
