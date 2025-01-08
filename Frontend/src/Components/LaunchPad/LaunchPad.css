@@ -13,8 +13,8 @@
     margin: 0;
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 90vh;
+    /* align-items: center; */
+    height: 80vh;
     
   }
   .upper-section {
@@ -121,6 +121,7 @@
       padding:1rem;
     }
     .heading  {
+      padding-top:40px;
       font-size: 2.5rem !important;
     }
     .card{
@@ -227,6 +228,21 @@
   .job-table tr:hover {
     background-color: #f9f9ff;
   }
+  .description {
+    display: block;
+    padding: 10px 25px;
+    margin: auto;
+    background-color: #e0e0ff;
+    border: none;
+    border-radius: 20px;
+     font-size: 14px; 
+    cursor: pointer;
+    
+  }
+  
+  .description:hover {
+    background-color: #c8c8ff;
+  }
   
   .firm-logo {
     width: 58px;
@@ -296,23 +312,19 @@
     }
   }
   @media (max-width: 760px) {
-    /* Hide all elements in the job table except the firm logo */
-    .job-table td, 
-    .job-table th {
-      display: none;
-    }
   
-    /* Show the firm logo inside the table */
-    .job-table td .firm-logo,
-    .job-table td:nth-child(2) {
-      display: block;
-    }
-  
-    /* Optional: Adjust the size of the firm logo for smaller screens */
-    .firm-logo {
-      width: 40px;
-      height: 40px;
-    }
+    /* Ensure only the first and fourth columns are visible */
+.job-table th:nth-child(1),
+.job-table th:nth-child(4),
+.job-table td:nth-child(1),
+.job-table td:nth-child(4) {
+  display: table-cell; /* Ensure these columns are visible */
+}
+
+.job-table th:nth-child(n+2):not(:nth-child(4)),
+.job-table td:nth-child(n+2):not(:nth-child(4)) {
+  display: none; 
+}
   }
   
   
