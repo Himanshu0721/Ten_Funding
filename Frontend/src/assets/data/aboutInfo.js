@@ -8,9 +8,9 @@ const aboutInfo = [
     image: Image1,
     tag: "Fundraising OS",
     points: [
-      "Access investor database with one-click direct application to investor portals",
-      "Manage investor pipeline throughout every stage of the fundraising process",
-      "Leverage powerful meeting and data room management tools and templates ",
+      "One-click direct application to investor portals allows access to investor databases.",
+      "Oversee the investor pipeline at each step of the fundraising procedure.",
+      "Use effective templates and tools for managing meetings and data rooms.",
     ],
   },
   {
@@ -18,8 +18,8 @@ const aboutInfo = [
     image: Image2,
     tag: "Ventures OS",
     points: [
-      "Simplify and streamline your entire deal flow process from sourcing to funding so nothing falls off the cracks",
-      "Efficiently manage your VC, LP and founder network so you never lose touch again",
+      "From sourcing to finance, simplify and expedite the whole deal flow process to ensure nothing is overlooked.",
+      "Manage your network of VCs, LPs, and founders effectively to ensure you never lose contact.",
     ],
   },
   {
@@ -27,8 +27,8 @@ const aboutInfo = [
     image: Image3,
     tag: "LaunchPad",
     points: [
-      "Level up your VC career with top tier domestic and global VCs",
-      "Access database with exciting VC opportunities, updated every single week",
+      "Boost your VC career with elite domestic and international VCs.",
+      "Gain access to a database of fascinating VC prospects that is updated weekly.",
     ],
   },
 ];

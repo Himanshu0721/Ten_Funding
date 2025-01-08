@@ -7,9 +7,9 @@ const ventureInfo = [
     image: Image1,
     tag: "Deal Flow Manager",
     points: [
-      "Share unique application links with founders to centralize deal flow details entering the pipeline",
-      "Manage pipeline better with custom templates that suit your workflow preferences",
-      "Enhance evaluation process by tracking 20+ parameters for startups",
+      "Provide founders with special application linkages so that deal flow information can be centralized as it enters the pipeline.",
+      "Use personalized templates that fit your workflow preferences to better manage your pipeline.",
+      "Improve the starting evaluation process by monitoring more than 20 parameters.",
     ],
   },
   {
@@ -17,8 +17,8 @@ const ventureInfo = [
     image: Image2,
     tag: "Network CRM",
     points: [
-      "Organize VC, LP and founder network seamlessly",
-      "Manage network efficiently by categorizing contacts across quality of leads, last interacted date, meeting notes, and more",
+      "Easily arrange the founder, LP, and VC networks.",
+      "Organize your network effectively by classifying contacts based on meeting notes, last interaction date, lead quality, and more.",
     ],
   },
 ];
