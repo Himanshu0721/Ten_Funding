@@ -25,6 +25,10 @@ function About() {
     navigate("/launchpad");
   };
 
+  const handleNavigation = (path) => {
+    navigate(path);
+  };
+
   const [text] = useTypewriter({
     words: [
       "find investors",
@@ -94,7 +98,7 @@ function About() {
       </p>
 
       {/* Scroll Section */}
-      <div className="about-scrolling">
+      {/* <div className="about-scrolling">
         <div className="about-scrolling-content scroll">
           <img
             src="https://cdn.prod.website-files.com/66230c5ee8288ee065356a3e/666f5c9c8122c14cd7eb4571_unscrript.webp"
@@ -159,7 +163,7 @@ function About() {
             alt=""
           />
         </div>
-      </div>
+      </div> */}
 
       {/* Testimonial Section */}
       <div className="testimonial">
@@ -203,7 +207,19 @@ function About() {
                           <li key={idx}>{point}</li>
                         ))}
                       </ul>
-                      <button>Get Started</button>
+                      <button
+                        onClick={() => {
+                          if (data.tag === "Fundraising OS") {
+                            handleNavigation("/fundraising-os");
+                          } else if (data.tag === "Ventures OS") {
+                            handleNavigation("/venture-os");
+                          } else if (data.tag === "LaunchPad") {
+                            handleNavigation("/launchpad");
+                          }
+                        }}
+                      >
+                        Get Started
+                      </button>
                     </div>
                     <div className="about-lastdiv-card-image">
                       <img src={data.image} alt={data.tag} />
@@ -224,7 +240,19 @@ function About() {
                           <li key={idx}>{point}</li>
                         ))}
                       </ul>
-                      <button>Get Started</button>
+                      <button
+                        onClick={() => {
+                          if (data.tag === "Fundraising OS") {
+                            handleNavigation("/fundraising-os");
+                          } else if (data.tag === "Ventures OS") {
+                            handleNavigation("/venture-os");
+                          } else if (data.tag === "LaunchPad") {
+                            handleNavigation("/launchpad");
+                          }
+                        }}
+                      >
+                        Get Started
+                      </button>
                     </div>
                   </div>
                 </>

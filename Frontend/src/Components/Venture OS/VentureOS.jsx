@@ -5,6 +5,10 @@ import { useTypewriter, Cursor } from "react-simple-typewriter";
 import ventureInfo from "../../assets/data/ventureInfo";
 
 function VentureOS() {
+  const handleNavigation = () => {
+    window.open("https://calendly.com/techten/book-a-demo-session", "_blank");
+  };
+
   const [text] = useTypewriter({
     words: ["powerfull", "simple", "efficient"],
     loop: {},
@@ -22,7 +26,7 @@ function VentureOS() {
       </h1>
       <div className="venture-main-div">
         <img src={MainImage} alt="main image" />
-        <button>Request Demo</button>
+        <button onClick={handleNavigation}>Request Demo</button>
       </div>
 
       <div className="venture-lastdiv">
@@ -41,7 +45,7 @@ function VentureOS() {
                         ))}
                       </ul>
                       <div>
-                        <button>Get Started</button>
+                        <button onClick={handleNavigation}>Get Started</button>
                       </div>
                     </div>
                     <div className="venture-lastdiv-card-image">
@@ -63,9 +67,7 @@ function VentureOS() {
                           <li key={idx}>{point}</li>
                         ))}
                       </ul>
-                      {/* <div> */}
-                      <button>Get Started</button>
-                      {/* </div> */}
+                      <button onClick={handleNavigation}>Get Started</button>
                     </div>
                   </div>
                 </>

@@ -5,6 +5,10 @@ import { useTypewriter, Cursor } from "react-simple-typewriter";
 import fundraisingInfo from "../../assets/data/fundraisingInfo";
 
 function FundraisingPage() {
+  const handleNavigation = () => {
+    window.open("https://calendly.com/techten/book-a-demo-session", "_blank");
+  };
+
   const [text] = useTypewriter({
     words: ["quicker", "simpler", "funner"],
     loop: {},
@@ -41,7 +45,7 @@ function FundraisingPage() {
                         ))}
                       </ul>
                       <div>
-                        <button>Get Started</button>
+                        <button onClick={handleNavigation}>Get Started</button>
                       </div>
                     </div>
                     <div className="fundraising-lastdiv-card-image">
@@ -63,9 +67,7 @@ function FundraisingPage() {
                           <li key={idx}>{point}</li>
                         ))}
                       </ul>
-                      {/* <div> */}
-                      <button>Get Started</button>
-                      {/* </div> */}
+                      <button onClick={handleNavigation}>Get Started</button>
                     </div>
                   </div>
                 </>
