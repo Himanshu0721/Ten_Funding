@@ -62,6 +62,11 @@ def contact_form(request):
 from django.shortcuts import render,redirect
 from .models import funding,india_vc,launchpad,spotlight,tech_stack_waitlist,vc_application
 from django.http import HttpResponseRedirect
+from django.http import JsonResponse
+from django.middleware.csrf import get_token
+
+def csrf_token(request):
+    return JsonResponse({'csrfToken': get_token(request)})
 
 def form_view(request):
     if request.method == "POST":
