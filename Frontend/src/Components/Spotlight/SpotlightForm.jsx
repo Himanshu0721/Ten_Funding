@@ -35,12 +35,12 @@ export default function SpotlightForm() {
 
   return (
     <>
-      <div className="vcstackform-container">
-        <div className="vcstackform-header-logo">
+      <div className="spotlightform-container">
+        <div className="spotlightform-header-logo">
           <img src="jpgconverter.png" alt="IndianVCs logo" />
         </div>
-        <div className="vcstackform-header-content">
-          <h1>IndianVCs VC Tech Stack Waitlist</h1>
+        <div className="spotlightform-header-content">
+          <h1>IndianVCs Spotlight Waitlist</h1>
           <h2>
             Leading startups from "-1 to 0" is IndianVCs, a decentralized
             venture network run by VCs for founders. We provide tools for hiring
@@ -53,7 +53,7 @@ export default function SpotlightForm() {
             shared outside.
           </p>
         </div>
-        <div className="vcstackform-registration-form-content">
+        <div className="spotlightform-registration-form-content">
           <form onSubmit={handleSubmit}>
             <div className="form-group">
               <label htmlFor="name">
