@@ -152,90 +152,90 @@ def history_view(request):
     history = funding.objects.all().order_by('-submitted_at')  # Latest first
     return render(request, 'history_template.html', {'history': history})
 
-def india_vc_form(request):
-    context = {}
-    if request.method == "POST":
-        uname = request.POST['uname']
-        firm_name = request.POST['firm_name']
-        uemail = request.POST['email']
-        founder_year = request.POST['founder_year']
-        ticket_size = request.POST['ticket_size']
-        current_fund_size = request.POST['current_fund_size']
-        aum = request.POST['aum']
-        portfolio_count = request.POST['portfolio_count']
-        portfolio_companies = request.POST['portfolio_companies']
-        prefer_lead_rounds = request.POST['prefer_lead_rounds']
+# def india_vc_form(request):
+#     context = {}
+#     if request.method == "POST":
+#         uname = request.POST['uname']
+#         firm_name = request.POST['firm_name']
+#         uemail = request.POST['email']
+#         founder_year = request.POST['founder_year']
+#         ticket_size = request.POST['ticket_size']
+#         current_fund_size = request.POST['current_fund_size']
+#         aum = request.POST['aum']
+#         portfolio_count = request.POST['portfolio_count']
+#         portfolio_companies = request.POST['portfolio_companies']
+#         prefer_lead_rounds = request.POST['prefer_lead_rounds']
         
-        stage_focus_pre_seed = request.POST['stage_focus_pre_seed']
-        stage_focus_seed = request.POST['stage_focus_seed']
-        stage_focus_series_a = request.POST['stage_focus_series_a']
-        stage_focus_series_b = request.POST['stage_focus_series_b']
-        stage_focus_series_c = request.POST['stage_focus_series_c']
-        stage_focus_debt = request.POST['stage_focus_debt']
-        sector_focus_ai_ml = request.POST['sector_focus_ai_ml']
-        sector_focus_ar_vr = request.POST['sector_focus_ar_vr']
-        sector_focus_agritech_food = request.POST['sector_focus_agritech_food']
-        sector_focus_biotech_life_sciences = request.POST['sector_focus_biotech_life_sciences']
-        sector_focus_climate_sustainability = request.POST['sector_focus_climate_sustainability']
-        sector_focus_consumer = request.POST['sector_focus_consumer']
-        sector_focus_crypto_blockchain = request.POST['sector_focus_crypto_blockchain']
-        sector_focus_deep_tech = request.POST['sector_focus_deep_tech']
-        sector_focus_education = request.POST['sector_focus_education']
-        sector_focus_enterprise = request.POST['sector_focus_enterprise']
-        sector_focus_media_entertainment = request.POST['sector_focus_media_entertainment']
-        sector_focus_fintech = request.POST['sector_focus_fintech']
-        sector_focus_gaming = request.POST['sector_focus_gaming']
-        sector_focus_government_defence = request.POST['sector_focus_government_defence']
-        sector_focus_health_wellness = request.POST['sector_focus_health_wellness']
-        sector_focus_healthcare_medtech = request.POST['sector_focus_healthcare_medtech']
-        sector_focus_industrial_iot_robotics = request.POST['sector_focus_industrial_iot_robotics']
-        sector_focus_prop_tech_real_estate = request.POST['sector_focus_prop_tech_real_estate']
-        sector_focus_saas_devops_marketplace = request.POST['sector_focus_saas_devops_marketplace']
-        sector_focus_supply_chain_logistics = request.POST['sector_focus_supply_chain_logistics']
-        sector_focus_travel_hospitality = request.POST['sector_focus_travel_hospitality']
-        founder_preference_warm_intro = request.POST['founder_preference_warm_intro']
-        founder_preference_twitter_dm = request.POST['founder_preference_twitter_dm']
-        founder_preference_linkedin = request.POST['founder_preference_linkedin']
-        founder_preference_investment_bankers = request.POST['founder_preference_investment_bankers']
-        founder_preference_fund_application_form = request.POST['founder_preference_fund_application_form']
-        founder_preference_cold_mail = request.POST['founder_preference_cold_mail']
-        founder_preference_other = request.POST['founder_preference_other']
-        founder_preference_other_name = request.POST['founder_preference_other_name']
-        fund_application_form = request.POST['fund_application_form']
-        poc_mail = request.POST['poc_mail']
-        fund_overview = request.POST['fund_overview']
+#         stage_focus_pre_seed = request.POST['stage_focus_pre_seed']
+#         stage_focus_seed = request.POST['stage_focus_seed']
+#         stage_focus_series_a = request.POST['stage_focus_series_a']
+#         stage_focus_series_b = request.POST['stage_focus_series_b']
+#         stage_focus_series_c = request.POST['stage_focus_series_c']
+#         stage_focus_debt = request.POST['stage_focus_debt']
+#         sector_focus_ai_ml = request.POST['sector_focus_ai_ml']
+#         sector_focus_ar_vr = request.POST['sector_focus_ar_vr']
+#         sector_focus_agritech_food = request.POST['sector_focus_agritech_food']
+#         sector_focus_biotech_life_sciences = request.POST['sector_focus_biotech_life_sciences']
+#         sector_focus_climate_sustainability = request.POST['sector_focus_climate_sustainability']
+#         sector_focus_consumer = request.POST['sector_focus_consumer']
+#         sector_focus_crypto_blockchain = request.POST['sector_focus_crypto_blockchain']
+#         sector_focus_deep_tech = request.POST['sector_focus_deep_tech']
+#         sector_focus_education = request.POST['sector_focus_education']
+#         sector_focus_enterprise = request.POST['sector_focus_enterprise']
+#         sector_focus_media_entertainment = request.POST['sector_focus_media_entertainment']
+#         sector_focus_fintech = request.POST['sector_focus_fintech']
+#         sector_focus_gaming = request.POST['sector_focus_gaming']
+#         sector_focus_government_defence = request.POST['sector_focus_government_defence']
+#         sector_focus_health_wellness = request.POST['sector_focus_health_wellness']
+#         sector_focus_healthcare_medtech = request.POST['sector_focus_healthcare_medtech']
+#         sector_focus_industrial_iot_robotics = request.POST['sector_focus_industrial_iot_robotics']
+#         sector_focus_prop_tech_real_estate = request.POST['sector_focus_prop_tech_real_estate']
+#         sector_focus_saas_devops_marketplace = request.POST['sector_focus_saas_devops_marketplace']
+#         sector_focus_supply_chain_logistics = request.POST['sector_focus_supply_chain_logistics']
+#         sector_focus_travel_hospitality = request.POST['sector_focus_travel_hospitality']
+#         founder_preference_warm_intro = request.POST['founder_preference_warm_intro']
+#         founder_preference_twitter_dm = request.POST['founder_preference_twitter_dm']
+#         founder_preference_linkedin = request.POST['founder_preference_linkedin']
+#         founder_preference_investment_bankers = request.POST['founder_preference_investment_bankers']
+#         founder_preference_fund_application_form = request.POST['founder_preference_fund_application_form']
+#         founder_preference_cold_mail = request.POST['founder_preference_cold_mail']
+#         founder_preference_other = request.POST['founder_preference_other']
+#         founder_preference_other_name = request.POST['founder_preference_other_name']
+#         fund_application_form = request.POST['fund_application_form']
+#         poc_mail = request.POST['poc_mail']
+#         fund_overview = request.POST['fund_overview']
 
-        if stage_focus_pre_seed=="" or stage_focus_seed=="" or stage_focus_series_a=="" or stage_focus_series_b=="" or stage_focus_series_c=="" or stage_focus_debt=="" or sector_focus_ai_ml=="" or sector_focus_ar_vr=="" or sector_focus_agritech_food=="" or sector_focus_biotech_life_sciences=="" or sector_focus_climate_sustainability=="" or sector_focus_consumer=="" or sector_focus_crypto_blockchain=="" or sector_focus_deep_tech=="" or sector_focus_education=="" or sector_focus_enterprise=="" or sector_focus_media_entertainment=="" or sector_focus_fintech=="" or sector_focus_gaming=="" or sector_focus_government_defence=="" or sector_focus_health_wellness=="" or sector_focus_healthcare_medtech=="" or sector_focus_industrial_iot_robotics=="" or sector_focus_prop_tech_real_estate=="" or sector_focus_saas_devops_marketplace=="" or sector_focus_supply_chain_logistics=="" or sector_focus_travel_hospitality=="" or founder_preference_warm_intro=="" or founder_preference_twitter_dm=="" or founder_preference_linkedin=="" or founder_preference_investment_bankers=="" or founder_preference_fund_application_form=="" or founder_preference_cold_mail=="" or founder_preference_other=="" :
-            context['err_msg'] = "Fields cannot be empty"
+#         if stage_focus_pre_seed=="" or stage_focus_seed=="" or stage_focus_series_a=="" or stage_focus_series_b=="" or stage_focus_series_c=="" or stage_focus_debt=="" or sector_focus_ai_ml=="" or sector_focus_ar_vr=="" or sector_focus_agritech_food=="" or sector_focus_biotech_life_sciences=="" or sector_focus_climate_sustainability=="" or sector_focus_consumer=="" or sector_focus_crypto_blockchain=="" or sector_focus_deep_tech=="" or sector_focus_education=="" or sector_focus_enterprise=="" or sector_focus_media_entertainment=="" or sector_focus_fintech=="" or sector_focus_gaming=="" or sector_focus_government_defence=="" or sector_focus_health_wellness=="" or sector_focus_healthcare_medtech=="" or sector_focus_industrial_iot_robotics=="" or sector_focus_prop_tech_real_estate=="" or sector_focus_saas_devops_marketplace=="" or sector_focus_supply_chain_logistics=="" or sector_focus_travel_hospitality=="" or founder_preference_warm_intro=="" or founder_preference_twitter_dm=="" or founder_preference_linkedin=="" or founder_preference_investment_bankers=="" or founder_preference_fund_application_form=="" or founder_preference_cold_mail=="" or founder_preference_other=="" :
+#             context['err_msg'] = "Fields cannot be empty"
 
-        else:
+#         else:
         
-            u=india_vc.objects.create(name=uname,firm_name=firm_name,email=uemail,founder_year=founder_year,ticket_size=ticket_size,current_fund_size=current_fund_size,aum=aum,
-                                    portfolio_count=portfolio_count,portfolio_companies=portfolio_companies,prefer_lead_rounds=prefer_lead_rounds,
-                                    stage_focus_pre_seed=stage_focus_pre_seed,stage_focus_seed=stage_focus_seed,stage_focus_series_a=stage_focus_series_a,
-                                    stage_focus_series_b=stage_focus_series_b,stage_focus_series_c=stage_focus_series_c,stage_focus_debt=stage_focus_debt,
-                                    sector_focus_ai_ml=sector_focus_ai_ml,sector_focus_ar_vr=sector_focus_ar_vr,sector_focus_agritech_food=sector_focus_agritech_food,
-                                    sector_focus_biotech_life_sciences=sector_focus_biotech_life_sciences,sector_focus_climate_sustainability=sector_focus_climate_sustainability,
-                                    sector_focus_consumer=sector_focus_consumer,sector_focus_crypto_blockchain=sector_focus_crypto_blockchain,sector_focus_deep_tech=sector_focus_deep_tech,
-                                    sector_focus_education=sector_focus_education,sector_focus_enterprise=sector_focus_enterprise,  
-                                    sector_focus_media_entertainment=sector_focus_media_entertainment,sector_focus_fintech=sector_focus_fintech,
-                                    sector_focus_gaming=sector_focus_gaming,sector_focus_government_defence=sector_focus_government_defence,sector_focus_health_wellness=sector_focus_health_wellness,
-                                    sector_focus_healthcare_medtech=sector_focus_healthcare_medtech,sector_focus_industrial_iot_robotics=sector_focus_industrial_iot_robotics,
-                                    sector_focus_prop_tech_real_estate=sector_focus_prop_tech_real_estate,sector_focus_saas_devops_marketplace=sector_focus_saas_devops_marketplace,
-                                    sector_focus_supply_chain_logistics=sector_focus_supply_chain_logistics,sector_focus_travel_hospitality=sector_focus_travel_hospitality,
-                                    founder_preference_warm_intro=founder_preference_warm_intro,founder_preference_twitter_dm=founder_preference_twitter_dm,
-                                    founder_preference_linkedin=founder_preference_linkedin,founder_preference_investment_bankers=founder_preference_investment_bankers,
-                                    founder_preference_fund_application_form=founder_preference_fund_application_form,founder_preference_cold_mail=founder_preference_cold_mail,
-                                    founder_preference_other=founder_preference_other,founder_preference_other_name=founder_preference_other_name,
-                                    fund_application_form=fund_application_form,poc_mail=poc_mail,fund_overview=fund_overview
-                                    )        
-            u.save()
-            inserted_id = u.id
-            context['inserted_id'] = inserted_id
-        return render(request, 'next_india.html',context)
+#             u=india_vc.objects.create(name=uname,firm_name=firm_name,email=uemail,founder_year=founder_year,ticket_size=ticket_size,current_fund_size=current_fund_size,aum=aum,
+#                                     portfolio_count=portfolio_count,portfolio_companies=portfolio_companies,prefer_lead_rounds=prefer_lead_rounds,
+#                                     stage_focus_pre_seed=stage_focus_pre_seed,stage_focus_seed=stage_focus_seed,stage_focus_series_a=stage_focus_series_a,
+#                                     stage_focus_series_b=stage_focus_series_b,stage_focus_series_c=stage_focus_series_c,stage_focus_debt=stage_focus_debt,
+#                                     sector_focus_ai_ml=sector_focus_ai_ml,sector_focus_ar_vr=sector_focus_ar_vr,sector_focus_agritech_food=sector_focus_agritech_food,
+#                                     sector_focus_biotech_life_sciences=sector_focus_biotech_life_sciences,sector_focus_climate_sustainability=sector_focus_climate_sustainability,
+#                                     sector_focus_consumer=sector_focus_consumer,sector_focus_crypto_blockchain=sector_focus_crypto_blockchain,sector_focus_deep_tech=sector_focus_deep_tech,
+#                                     sector_focus_education=sector_focus_education,sector_focus_enterprise=sector_focus_enterprise,  
+#                                     sector_focus_media_entertainment=sector_focus_media_entertainment,sector_focus_fintech=sector_focus_fintech,
+#                                     sector_focus_gaming=sector_focus_gaming,sector_focus_government_defence=sector_focus_government_defence,sector_focus_health_wellness=sector_focus_health_wellness,
+#                                     sector_focus_healthcare_medtech=sector_focus_healthcare_medtech,sector_focus_industrial_iot_robotics=sector_focus_industrial_iot_robotics,
+#                                     sector_focus_prop_tech_real_estate=sector_focus_prop_tech_real_estate,sector_focus_saas_devops_marketplace=sector_focus_saas_devops_marketplace,
+#                                     sector_focus_supply_chain_logistics=sector_focus_supply_chain_logistics,sector_focus_travel_hospitality=sector_focus_travel_hospitality,
+#                                     founder_preference_warm_intro=founder_preference_warm_intro,founder_preference_twitter_dm=founder_preference_twitter_dm,
+#                                     founder_preference_linkedin=founder_preference_linkedin,founder_preference_investment_bankers=founder_preference_investment_bankers,
+#                                     founder_preference_fund_application_form=founder_preference_fund_application_form,founder_preference_cold_mail=founder_preference_cold_mail,
+#                                     founder_preference_other=founder_preference_other,founder_preference_other_name=founder_preference_other_name,
+#                                     fund_application_form=fund_application_form,poc_mail=poc_mail,fund_overview=fund_overview
+#                                     )        
+#             u.save()
+#             inserted_id = u.id
+#             context['inserted_id'] = inserted_id
+#         return render(request, 'next_india.html',context)
 
-    else:
-        return render(request, 'india_vc_form.html')
+#     else:
+#         return render(request, 'india_vc_form.html')
 
 # def spotlights(request):
 #     context = {}
@@ -256,32 +256,32 @@ def india_vc_form(request):
 #     else:
 #         return render(request, 'spotlight.html')
     
-def launchpads(request):
-    context = {}
-    if request.method == "POST":
-        uname = request.POST['uname']
-        firm_name = request.POST['firm_name']
-        mail = request.POST['email']
-        role_name = request.POST['role_name']
-        role_type = request.POST['role_type']
-        role_location = request.POST['role_location']
-        about_job = request.POST['about_job']
-        job_application_link = request.POST['job_application_link']
-        interested_newsletter_story = request.POST['interested_newsletter_story']
+# def launchpads(request):
+#     context = {}
+#     if request.method == "POST":
+#         uname = request.POST['uname']
+#         firm_name = request.POST['firm_name']
+#         mail = request.POST['email']
+#         role_name = request.POST['role_name']
+#         role_type = request.POST['role_type']
+#         role_location = request.POST['role_location']
+#         about_job = request.POST['about_job']
+#         job_application_link = request.POST['job_application_link']
+#         interested_newsletter_story = request.POST['interested_newsletter_story']
 
-        if uname=="" or firm_name=="" or mail=="" or role_name=="" or role_type=="" or role_location=="" or about_job=="" or job_application_link=="" or interested_newsletter_story=="":
-            context['err_msg'] = "Fields cannot be empty"
+#         if uname=="" or firm_name=="" or mail=="" or role_name=="" or role_type=="" or role_location=="" or about_job=="" or job_application_link=="" or interested_newsletter_story=="":
+#             context['err_msg'] = "Fields cannot be empty"
 
-        else:
-            launch=launchpad.objects.create(name=uname,firm_name=firm_name,mail=mail,role_name=role_name,role_type=role_type,role_location=role_location,about_job=about_job,
-                                            job_application_link=job_application_link,interested_newsletter_story=interested_newsletter_story
-                                            )
-            launch.save()
+#         else:
+#             launch=launchpad.objects.create(name=uname,firm_name=firm_name,mail=mail,role_name=role_name,role_type=role_type,role_location=role_location,about_job=about_job,
+#                                             job_application_link=job_application_link,interested_newsletter_story=interested_newsletter_story
+#                                             )
+#             launch.save()
 
-            context['success_msg']='Your Form is successfully submitted.'
-        return render(request, 'launchpad.html',context)
-    else:
-        return render(request, 'launchpad.html')
+#             context['success_msg']='Your Form is successfully submitted.'
+#         return render(request, 'launchpad.html',context)
+#     else:
+#         return render(request, 'launchpad.html')
     
 # def tech_stack_waitlists(request):
 #     context = {}
@@ -303,30 +303,30 @@ def launchpads(request):
 #     else:
 #         return render(request, 'tech_stack_waitlist.html')
 
-def next_india(request):
-    context = {}
-    if request.method == "POST":
-        inserted_id=request.POST['inserted_id']
-        investment_process = request.POST['investment_process']
-        turn_around_time = request.POST['turn_around_time']
-        fund_preferences = request.POST['fund_preferences']
-        other_remarks = request.POST['other_remarks']
-        interested_newsletter = request.POST['interested_newsletter']
+# def next_india(request):
+#     context = {}
+#     if request.method == "POST":
+#         inserted_id=request.POST['inserted_id']
+#         investment_process = request.POST['investment_process']
+#         turn_around_time = request.POST['turn_around_time']
+#         fund_preferences = request.POST['fund_preferences']
+#         other_remarks = request.POST['other_remarks']
+#         interested_newsletter = request.POST['interested_newsletter']
 
-        if investment_process=="" or turn_around_time=="" or fund_preferences=="" or other_remarks=="" or interested_newsletter=="":
-            context['err_msg'] = "Fields cannot be empty"
+#         if investment_process=="" or turn_around_time=="" or fund_preferences=="" or other_remarks=="" or interested_newsletter=="":
+#             context['err_msg'] = "Fields cannot be empty"
 
-        else:
-            ind=india_vc.objects.filter(id=inserted_id).update(investment_process=investment_process,turn_around_time=turn_around_time,fund_preferences=fund_preferences,
-                                                            other_remarks=other_remarks,interested_newsletter=interested_newsletter
-                                                            )
+#         else:
+#             ind=india_vc.objects.filter(id=inserted_id).update(investment_process=investment_process,turn_around_time=turn_around_time,fund_preferences=fund_preferences,
+#                                                             other_remarks=other_remarks,interested_newsletter=interested_newsletter
+#                                                             )
 
 
 
-            context['success_msg']='Your Form is successfully submitted.'
-        return render(request, 'india_vc_form.html',context)
-    else:
-        return render(request, 'next_india.html')
+#             context['success_msg']='Your Form is successfully submitted.'
+#         return render(request, 'india_vc_form.html',context)
+#     else:
+#         return render(request, 'next_india.html')
 
 # def vc_applications(request):
 #     context = {}
