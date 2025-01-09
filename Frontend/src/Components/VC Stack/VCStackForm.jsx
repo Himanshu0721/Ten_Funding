@@ -1,6 +1,43 @@
+import React, { useState } from "react";
+import axios from "axios";
 import "./VCStackForm.css";
 
 export default function VCStackForm() {
+  const [formData, setFormData] = useState({
+    name: "",
+    firm_name: "",
+    email: "",
+    interested_newsletter_story: "",
+  });
+
+  const [responseMessage, setResponseMessage] = useState("");
+
+  const handleChange = (e) => {
+    const { id, value } = e.target;
+    setFormData({ ...formData, [id]: value });
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    try {
+      const response = await axios.post("http://127.0.0.1:8000/api/tech-stack-waitlist/", formData, {
+        headers: {
+          "Content-Type": "application/json",
+        },
+      });
+      setResponseMessage(response.data.message || "Submission successful!");
+      setFormData({ name: "", firm_name: "", email: "", interested_newsletter_story: "" });
+    } catch (error) {
+      if (error.response) {
+        // Server-side error
+        setResponseMessage(`Error: ${JSON.stringify(error.response.data)}`);
+      } else {
+        // Client-side error or network error
+        setResponseMessage(`Error: ${error.message}`);
+      }
+    }
+  };
+
   return (
     <>
       <div className="vcstackform-container">
@@ -22,26 +59,35 @@ export default function VCStackForm() {
           </p>
         </div>
         <div className="vcstackform-registration-form-content">
-          <form action="">
+          <form onSubmit={handleSubmit}>
             <div className="form-group">
               <label htmlFor="name">
                 <h3>
                   Name <sub>*</sub>
                 </h3>
               </label>
-              <input type="text" id="name" className="form-control" required />
+              <input
+                type="text"
+                id="name"
+                className="form-control"
+                value={formData.name}
+                onChange={handleChange}
+                required
+              />
             </div>
 
             <div className="form-group">
-              <label htmlFor="firmName">
+              <label htmlFor="firm_name">
                 <h3>
                   Firm Name <sub>*</sub>
                 </h3>
               </label>
               <input
                 type="text"
-                id="firmName"
+                id="firm_name"
                 className="form-control"
+                value={formData.firm_name}
+                onChange={handleChange}
                 required
               />
             </div>
@@ -57,21 +103,30 @@ export default function VCStackForm() {
                 id="email"
                 className="form-control"
                 placeholder="Your Official Mail"
+                value={formData.email}
+                onChange={handleChange}
                 required
               />
             </div>
 
             <div className="form-group">
-              <label htmlFor="leadrounds">
+              <label htmlFor="interested_newsletter_story">
                 <h3>
                   Would you be interested in having your fund highlighted in the
                   IndianVCs newsletter, which would tell its journey and story?{" "}
                   <sub>*</sub>
                 </h3>
               </label>
-              <select className="form-slect">
-                <option value="">YES</option>
-                <option value="">NO</option>
+              <select
+                id="interested_newsletter_story"
+                className="form-slect"
+                value={formData.interested_newsletter_story}
+                onChange={handleChange}
+                required
+              >
+                <option value="">Select</option>
+                <option value="YES">YES</option>
+                <option value="NO">NO</option>
               </select>
             </div>
 
@@ -89,6 +144,7 @@ export default function VCStackForm() {
               </svg>
             </button>
           </form>
+          {responseMessage && <p>{responseMessage}</p>}
         </div>
       </div>
     </>
