@@ -1,14 +1,46 @@
+import React, { useState } from "react";
+import axios from "axios";
 import "./SpotlightForm.css";
 
 export default function SpotlightForm() {
+  const [formData, setFormData] = useState({
+    name: "",
+    company_name: "",
+    email: "",
+  });
+
+  const [responseMessage, setResponseMessage] = useState("");
+
+  const handleChange = (e) => {
+    const { id, value } = e.target;
+    setFormData({ ...formData, [id]: value });
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    try {
+      const response = await axios.post("http://127.0.0.1:8000/api/spotlight/", formData, {
+
+        headers: {
+          "Content-Type": "application/json",
+        },
+      });
+      setResponseMessage(response.data.message || "Submission successful!");
+      setFormData({ name: "", company_name: "", email: "" });
+    } catch (error) {
+      setResponseMessage(`Error: ${error.response?.data || error.message}`);
+    }
+  };
+   
+
   return (
     <>
-      <div className="spotlightform-container">
-        <div className="spotlightform-header-logo">
+      <div className="vcstackform-container">
+        <div className="vcstackform-header-logo">
           <img src="jpgconverter.png" alt="IndianVCs logo" />
         </div>
-        <div className="spotlightform-header-content">
-          <h1>IndianVCs Spotlight Waitlist</h1>
+        <div className="vcstackform-header-content">
+          <h1>IndianVCs VC Tech Stack Waitlist</h1>
           <h2>
             Leading startups from "-1 to 0" is IndianVCs, a decentralized
             venture network run by VCs for founders. We provide tools for hiring
@@ -21,27 +53,36 @@ export default function SpotlightForm() {
             shared outside.
           </p>
         </div>
-        <div className="spotlightform-registration-form-content">
-          <form action="">
+        <div className="vcstackform-registration-form-content">
+          <form onSubmit={handleSubmit}>
             <div className="form-group">
               <label htmlFor="name">
                 <h3>
                   Name <sub>*</sub>
                 </h3>
               </label>
-              <input type="text" id="name" className="form-control" required />
+              <input
+                type="text"
+                id="name"
+                className="form-control"
+                value={formData.name}
+                onChange={handleChange}
+                required
+              />
             </div>
 
             <div className="form-group">
-              <label htmlFor="firmName">
+              <label htmlFor="company_name">
                 <h3>
-                  Company Name <sub>*</sub>
+                  Firm Name <sub>*</sub>
                 </h3>
               </label>
               <input
                 type="text"
-                id="firmName"
+                id="company_name"
                 className="form-control"
+                value={formData.company_name}
+                onChange={handleChange}
                 required
               />
             </div>
@@ -57,6 +98,8 @@ export default function SpotlightForm() {
                 id="email"
                 className="form-control"
                 placeholder="Your Official Mail"
+                value={formData.email}
+                onChange={handleChange}
                 required
               />
             </div>
@@ -75,6 +118,7 @@ export default function SpotlightForm() {
               </svg>
             </button>
           </form>
+          {responseMessage && <p>{responseMessage}</p>}
         </div>
       </div>
     </>

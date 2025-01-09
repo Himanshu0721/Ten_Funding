@@ -96,7 +96,7 @@ class IndiaVCListView(APIView):
     
 class SpotlightListView(APIView):
     def post(self, request, *args, **kwargs):
-        serializer = SpotlightSerializer(data=request.data)
+        serializer = SpotlightSerializer(data=request.data)  
         if serializer.is_valid():
             serializer.save()
             return Response({"message": "Successfully submitted!"}, status=status.HTTP_201_CREATED)
