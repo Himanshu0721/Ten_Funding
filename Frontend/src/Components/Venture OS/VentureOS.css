@@ -33,6 +33,7 @@
   background-color: #4a3aff;
   color: white;
   border: 1px solid #4a3aff;
+  cursor: pointer;
 }
 
 .venture-main-div button:hover {
@@ -91,6 +92,7 @@
   background-color: #4a3aff;
   color: white;
   border: 1px solid #4a3aff;
+  cursor: pointer;
 }
 
 .venture-lastdiv-card-content button:hover {

@@ -33,6 +33,7 @@
   background-color: #4a3aff;
   color: white;
   border: 1px solid #4a3aff;
+  cursor: pointer;
 }
 
 .fundraising-main-div button:hover {
@@ -91,6 +92,7 @@
   background-color: #4a3aff;
   color: white;
   border: 1px solid #4a3aff;
+  cursor: pointer;
 }
 
 .fundraising-lastdiv-card-content button:hover {
