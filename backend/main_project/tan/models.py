@@ -1,8 +1,6 @@
 from django.db import models
 
 # Create your models here.
-from django.db import models
-
 class funding(models.Model):
     # name = models.CharField(max_length=100)  # Replace with your actual form fields
     # email = models.EmailField()

@@ -65,6 +65,70 @@ from django.http import HttpResponseRedirect
 from django.http import JsonResponse
 from django.middleware.csrf import get_token
 
+from rest_framework.views import APIView
+from rest_framework.response import Response
+from rest_framework import status
+# from .models import funding, india_vc, spotlight, launchpad, tech_stack_waitlist, vc_application
+from .serializers import (
+    FundingSerializer,
+    IndiaVCSerializer,
+    SpotlightSerializer,
+    LaunchpadSerializer,
+    TechStackWaitlistSerializer,
+    VCApplicationSerializer,
+)
+
+class FundingListView(APIView):
+    def post(self, request, *args, **kwargs):
+        serializer = FundingSerializer(data=request.data)
+        if serializer.is_valid():
+            serializer.save()
+            return Response({"message": "Successfully submitted!"}, status=status.HTTP_201_CREATED)
+        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
+class IndiaVCListView(APIView):
+    def post(self, request, *args, **kwargs):
+        serializer = IndiaVCSerializer(data=request.data)
+        if serializer.is_valid():
+            serializer.save()
+            return Response({"message": "Successfully submitted!"}, status=status.HTTP_201_CREATED)
+        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+    
+class SpotlightListView(APIView):
+    def post(self, request, *args, **kwargs):
+        serializer = SpotlightSerializer(data=request.data)
+        if serializer.is_valid():
+            serializer.save()
+            return Response({"message": "Successfully submitted!"}, status=status.HTTP_201_CREATED)
+        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+    
+class LaunchpadListView(APIView):
+    def post(self, request, *args, **kwargs):
+        serializer = LaunchpadSerializer(data=request.data)
+        if serializer.is_valid():
+            serializer.save()
+            return Response({"message": "Successfully submitted!"}, status=status.HTTP_201_CREATED)
+        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
+class TechStackWaitlistListView(APIView):
+    def post(self, request, *args, **kwargs):
+        serializer = TechStackWaitlistSerializer(data=request.data)
+        if serializer.is_valid():
+            serializer.save()
+            return Response({"message": "Successfully submitted!"}, status=status.HTTP_201_CREATED)
+        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
+class VCApplicationListView(APIView):
+    def post(self, request, *args, **kwargs):
+        serializer = VCApplicationSerializer(data=request.data)
+        if serializer.is_valid():
+            serializer.save()
+            return Response({"message": "Successfully submitted!"}, status=status.HTTP_201_CREATED)
+        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
+# Repeat similar views for other models
+
+
 def csrf_token(request):
     return JsonResponse({'csrfToken': get_token(request)})
 
@@ -173,24 +237,24 @@ def india_vc_form(request):
     else:
         return render(request, 'india_vc_form.html')
 
-def spotlights(request):
-    context = {}
-    if request.method == "POST":
-        uname = request.POST['uname']
-        email = request.POST['email']
-        company_name = request.POST['company_name']
+# def spotlights(request):
+#     context = {}
+#     if request.method == "POST":
+#         uname = request.POST['uname']
+#         email = request.POST['email']
+#         company_name = request.POST['company_name']
 
-        if uname=="" or email=="" or company_name=="" :
-            context['err_msg'] = "Fields cannot be empty"
+#         if uname=="" or email=="" or company_name=="" :
+#             context['err_msg'] = "Fields cannot be empty"
 
-        else:
-            spot=spotlight.objects.create(name=uname,email=email,company_name=company_name)
-            spot.save()
+#         else:
+#             spot=spotlight.objects.create(name=uname,email=email,company_name=company_name)
+#             spot.save()
 
-            context['success_msg']='Your Form is successfully submitted.'
-        return render(request, 'spotlight.html',context)
-    else:
-        return render(request, 'spotlight.html')
+#             context['success_msg']='Your Form is successfully submitted.'
+#         return render(request, 'spotlight.html',context)
+#     else:
+#         return render(request, 'spotlight.html')
     
 def launchpads(request):
     context = {}
@@ -219,25 +283,25 @@ def launchpads(request):
     else:
         return render(request, 'launchpad.html')
     
-def tech_stack_waitlists(request):
-    context = {}
-    if request.method == "POST":
-        uname = request.POST['uname']
-        email = request.POST['email']
-        firm_name = request.POST['firm_name']
-        interested_newsletter_story = request.POST['interested_newsletter_story']
+# def tech_stack_waitlists(request):
+#     context = {}
+#     if request.method == "POST":
+#         uname = request.POST['uname']
+#         email = request.POST['email']
+#         firm_name = request.POST['firm_name']
+#         interested_newsletter_story = request.POST['interested_newsletter_story']
 
-        if uname=="" or email=="" or firm_name=="" or interested_newsletter_story=="":
-            context['err_msg'] = "Fields cannot be empty"
+#         if uname=="" or email=="" or firm_name=="" or interested_newsletter_story=="":
+#             context['err_msg'] = "Fields cannot be empty"
 
-        else:
-            tech_stack=tech_stack_waitlist.objects.create(name=uname,email=email,firm_name=firm_name,interested_newsletter_story=interested_newsletter_story)
-            tech_stack.save()
+#         else:
+#             tech_stack=tech_stack_waitlist.objects.create(name=uname,email=email,firm_name=firm_name,interested_newsletter_story=interested_newsletter_story)
+#             tech_stack.save()
 
-            context['success_msg']='Your Form is successfully submitted.'
-        return render(request, 'tech_stack_waitlist.html',context)
-    else:
-        return render(request, 'tech_stack_waitlist.html')
+#             context['success_msg']='Your Form is successfully submitted.'
+#         return render(request, 'tech_stack_waitlist.html',context)
+#     else:
+#         return render(request, 'tech_stack_waitlist.html')
 
 def next_india(request):
     context = {}
@@ -264,30 +328,30 @@ def next_india(request):
     else:
         return render(request, 'next_india.html')
 
-def vc_applications(request):
-    context = {}
-    if request.method == "POST":
-        mail_address = request.POST['mail_address']
-        start_up_name = request.POST['start_up_name']
-        business_description = request.POST['business_description']
-        founders_linkedin_profiles = request.POST['founders_linkedin_profiles']
-        product_website = request.POST['product_website']
-        funding_amount = request.POST['funding_amount']
-        pitch_deck = request.POST['pitch_deck']
+# def vc_applications(request):
+#     context = {}
+#     if request.method == "POST":
+#         mail_address = request.POST['mail_address']
+#         start_up_name = request.POST['start_up_name']
+#         business_description = request.POST['business_description']
+#         founders_linkedin_profiles = request.POST['founders_linkedin_profiles']
+#         product_website = request.POST['product_website']
+#         funding_amount = request.POST['funding_amount']
+#         pitch_deck = request.POST['pitch_deck']
 
-        if mail_address=="" or start_up_name=="" or business_description=="" or founders_linkedin_profiles=="" or product_website=="" or funding_amount=="" or pitch_deck=="":
-            context['err_msg'] = "Fields cannot be empty"
+#         if mail_address=="" or start_up_name=="" or business_description=="" or founders_linkedin_profiles=="" or product_website=="" or funding_amount=="" or pitch_deck=="":
+#             context['err_msg'] = "Fields cannot be empty"
 
-        else:
-            vc=vc_application.objects.create(mail_address=mail_address,start_up_name=start_up_name,business_description=business_description,
-                                                 founders_linkedin_profiles=founders_linkedin_profiles,product_website=product_website,
-                                                 funding_amount=funding_amount,pitch_deck=pitch_deck)
-            vc.save()
+#         else:
+#             vc=vc_application.objects.create(mail_address=mail_address,start_up_name=start_up_name,business_description=business_description,
+#                                                  founders_linkedin_profiles=founders_linkedin_profiles,product_website=product_website,
+#                                                  funding_amount=funding_amount,pitch_deck=pitch_deck)
+#             vc.save()
 
-            context['success_msg']='Your Form is successfully submitted.'
-        return render(request, 'vc_application.html',context)
-    else:
-        return render(request, 'vc_application.html')
+#             context['success_msg']='Your Form is successfully submitted.'
+#         return render(request, 'vc_application.html',context)
+#     else:
+#         return render(request, 'vc_application.html')
 
 
 
