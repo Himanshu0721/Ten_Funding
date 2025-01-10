@@ -3,33 +3,10 @@ import { MdOutlineKeyboardArrowDown } from "react-icons/md";
 import { RxCross2 } from "react-icons/rx";
 import "./LaunchPad.css";
 import jobsinfo from "../../assets/data/jobsInfo";
-import { NavLink } from "react-router-dom";
+
 
 const LaunchPad = () => {
-  const jobTitle = [
-    "Frontend Developer Internship",
-    "Backend Developer Internship",
-    "React js Developer Internship",
-    "Python Development Internship",
-    "MERN Stack Developer Internship",
-    "Spring Boot Development Internship",
-    "Software Testing Internship",
-    "WIX Web Development Internship",
-    "JAVA Developer Internship",
-    "NODE.js Developer Internship",
-    "Android Developer Internship",
-    "WordPress Development Internship",
-    "Angular Development Internship",
-    "Data Structure Internship",
-    "C/C++ Development Internship",
-    "Artificial Intelligence Internship",
-    "Data Science and Machine Learning Internship",
-    "Big Data Internship",
-    "Cloud Computing Internship",
-    "Technical Program Management Internship",
-    "DevOps Engineering Internship",
-    "Data Analysis Internship",
-  ];
+ 
 
   // const [jobs, setJobs] = useState([]);
   const [selectedFilters, setSelectedFilters] = useState([]);
@@ -60,7 +37,6 @@ const LaunchPad = () => {
 
   // Toggle dropdown visibility
   const toggleTitleDropdown = () => {
-    console.log(jobTitle);
     settitleDropdownOpen((prev) => !prev);
   };
 
@@ -118,13 +94,13 @@ const LaunchPad = () => {
                 <p>Check out our database of active VC jobs.</p>
               </div>
 
-              <div className="button-container">
+              {/* <div className="button-container">
                  
                   <NavLink className="post-button" to="/registration-form">
                     Post a job <span className="arrow">→</span>
                   </NavLink>
         
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -139,16 +115,16 @@ const LaunchPad = () => {
           </button>
           {titleDropdownOpen && (
             <ul className="dropdown-menu">
-              {jobTitle.map((Titles, index) => {
+              {jobsinfo.map((job, index) => {
                 return (
                   <li key={index}>
                     <label>
                       <input
                         type="checkbox"
-                        checked={selectedFilters.includes(Titles)}
-                        onChange={() => handleCheckboxChange(Titles)}
+                        checked={selectedFilters.includes(job.title)}
+                        onChange={() => handleCheckboxChange(job.title)}
                       />{" "}
-                      {Titles}
+                      {job.title}
                     </label>
                   </li>
                 );
