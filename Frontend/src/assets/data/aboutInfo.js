@@ -1,6 +1,6 @@
 import Image1 from "../images/fundraising_main.png";
 import Image2 from "../images/venture_main.webp";
-import Image3 from "../images/launchpad_main.png";
+import Image3 from "../images/launchpad_main.jpeg";
 
 const aboutInfo = [
   {
@@ -20,6 +20,7 @@ const aboutInfo = [
     points: [
       "From sourcing to finance, simplify and expedite the whole deal flow process to ensure nothing is overlooked.",
       "Manage your network of VCs, LPs, and founders effectively to ensure you never lose contact.",
+      "Gain deep insights into your portfolio's performance and track key metrics to make data-driven investment decisions effortlessly.",
     ],
   },
   {
@@ -29,6 +30,7 @@ const aboutInfo = [
     points: [
       "Boost your VC career with elite domestic and international VCs.",
       "Gain access to a database of fascinating VC prospects that is updated weekly.",
+      "Build valuable connections with top-tier venture capitalists through exclusive networking opportunities.",
     ],
   },
 ];

@@ -1,16 +1,15 @@
 .vcstackform-container {
   text-align: left;
-  margin: 10% 25%;
+  margin: 4% 25%;
   max-width: 100%;
 }
 
-.vcstackform-header-logo img {
-  width: 12%;
+.vcstackform-header-logo svg {
+  width: 18%;
 }
 
 .vcstackform-header-content h1 {
   font-size: 45px;
-  margin: 16px 0;
 }
 
 .vcstackform-header-content h2 {
@@ -47,15 +46,9 @@
   margin-top: 15px;
 }
 
-@media (max-width: 1024px) {
-  .vcstackform-container {
-    margin: 10% 20%;
-  }
-}
-
 @media (max-width: 768px) {
   .vcstackform-container {
-    margin: 13% 15%;
+    margin: 8% 15%;
   }
   .vcstackform-header-content h1 {
     font-size: 35px;
@@ -67,7 +60,7 @@
 
 @media (max-width: 480px) {
   .vcstackform-container {
-    margin: 28% 10%;
+    margin: 0 10% 10% 10%;
   }
   .vcstackform-header-content h1 {
     font-size: 25px;

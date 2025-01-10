@@ -128,17 +128,6 @@ const LaunchPad = () => {
               <div className="card-para">
                 <p>Check out our database of active VC jobs.</p>
               </div>
-
-              <div className="button-container">
-                {/* <button>
-                  <NavLink className="post-button" to="/registration-form">
-                    Post a job <span className="arrow">→</span>
-                  </NavLink>
-                </button> */}
-                <button className="post-button">
-                  Post a job <span className="arrow">→</span>
-                </button>
-              </div>
             </div>
           </div>
         </div>
