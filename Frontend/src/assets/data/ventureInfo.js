@@ -17,8 +17,9 @@ const ventureInfo = [
     image: Image2,
     tag: "Network CRM",
     points: [
-      "Easily arrange the founder, LP, and VC networks.",
+      "Streamline communication: Track response times, engagement frequency, and shared interests to prioritize follow-ups with founders, LPs, and VCs.",
       "Organize your network effectively by classifying contacts based on meeting notes, last interaction date, lead quality, and more.",
+      "Enhance collaboration: Categorize connections by industry focus, investment stage, or mutual introductions to facilitate targeted discussions and joint ventures.",
     ],
   },
 ];

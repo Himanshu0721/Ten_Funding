@@ -123,10 +123,7 @@ const LaunchPad = () => {
                   <NavLink className="post-button" to="/registration-form">
                     Post a job <span className="arrow">→</span>
                   </NavLink>
-              
-                {/* <button className="post-button">
-                  Post a job <span className="arrow">→</span>
-                </button> */}
+        
               </div>
             </div>
           </div>
