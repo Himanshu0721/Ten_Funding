@@ -5,6 +5,17 @@
   line-height: 1.5rem;
 }
 
+.terms-of-service-container h2 {
+  font-size: 2rem;
+  color: blue;
+  margin-bottom: 8px;
+}
+
+.terms-of-service-container h4 {
+  font-size: 1.25rem;
+  padding: 1rem 0;
+}
+
 @media (max-width: 480px) {
   .terms-of-service-container {
     width: 90%;

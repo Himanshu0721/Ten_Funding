@@ -1,4 +1,4 @@
-const angelsIndia = [
+const vcIndia = [
   {
     id: 1,
     firstName: "Aakanksha",
@@ -1676,4 +1676,4 @@ const angelsIndia = [
   },
 ];
 
-export default angelsIndia;
+export default vcIndia;

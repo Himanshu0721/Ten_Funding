@@ -19,11 +19,13 @@ import NextPlay from "./Components/NextPlay/NextPlay.jsx";
 import Pitch from "./Components/Card/Pitch.jsx";
 import LaunchPad from "./Components/LaunchPad/LaunchPad.jsx";
 import VentureOS from "./Components/Venture OS/VentureOS.jsx";
+import ScrollToTop from "./Components/ScrollToTop.jsx";
 
 function App() {
   return (
     <>
       <BrowserRouter>
+        <ScrollToTop />
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -43,7 +45,7 @@ function App() {
           <Route path="/spotlight-form" element={<SpotlightForm />} />
           <Route path="/vc-stack" element={<VCStack />} />
           <Route path="/vc-Stack-form" element={<VCStackForm />} />
-          <Route path="/launchpad" element={<LaunchPad/>} />
+          <Route path="/launchpad" element={<LaunchPad />} />
           <Route path="/venture-os" element={<VentureOS />} />
         </Routes>
         <Footer />
