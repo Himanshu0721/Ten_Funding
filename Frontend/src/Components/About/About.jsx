@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useRef } from "react";
 import "./About.css";
 import MainImage from "../../assets/images/about-main-image.webp";
 import { useNavigate } from "react-router-dom";
@@ -12,14 +12,6 @@ function About() {
   const handleButtonFindInvestors = () => {
     navigate("/");
   };
-
-  // const handleButtonFundraisingOS = () => {
-  //   navigate("/fundraising-os");
-  // };
-
-  // const handleButtonVentureOS = () => {
-  //   navigate("/venture-os");
-  // };
 
   const handleButtonFindJobs = () => {
     navigate("/launchpad");
@@ -40,33 +32,36 @@ function About() {
     loop: {},
   });
 
-  const testimonialRef = React.useRef(null);
+  const testimonialListRef = useRef(null);
 
-  const handlePrev = () => {
-    if (testimonialRef.current) {
-      const cardWidth =
-        testimonialRef.current.querySelector(".testimonial-card").offsetWidth;
-      const gap = 30; // Adjust the gap if needed
-      const scrollAmount = cardWidth + gap;
-      testimonialRef.current.scrollBy({
-        left: -scrollAmount,
-        behavior: "smooth",
-      });
-    }
-  };
+  useEffect(() => {
+    let scrollInterval;
 
-  const handleNext = () => {
-    if (testimonialRef.current) {
-      const cardWidth =
-        testimonialRef.current.querySelector(".testimonial-card").offsetWidth;
-      const gap = 30; // Adjust the gap if needed
-      const scrollAmount = cardWidth + gap;
-      testimonialRef.current.scrollBy({
-        left: scrollAmount,
-        behavior: "smooth",
-      });
-    }
-  };
+    // Function to apply auto-scroll effect
+    const applyScrollEffect = () => {
+      scrollInterval = setInterval(() => {
+        if (testimonialListRef.current) {
+          const { scrollLeft, scrollWidth, clientWidth } =
+            testimonialListRef.current;
+
+          // Scroll the container horizontally
+          testimonialListRef.current.scrollLeft += 1;
+
+          // Check if the scroll has reached the end
+          if (scrollLeft + clientWidth >= scrollWidth - 1) {
+            // Reset to the beginning
+            testimonialListRef.current.scrollLeft = 0;
+          }
+        }
+      }, 20);
+    };
+
+    // Start the scroll effect
+    applyScrollEffect();
+
+    // Cleanup the interval on component unmount
+    return () => clearInterval(scrollInterval);
+  }, []);
 
   return (
     <div className="about-container">
@@ -97,95 +92,15 @@ function About() {
         anybody in between. And for that, they adore us.
       </p>
 
-      {/* Scroll Section */}
-      {/* <div className="about-scrolling">
-        <div className="about-scrolling-content scroll">
-          <img
-            src="https://cdn.prod.website-files.com/66230c5ee8288ee065356a3e/666f5c9c8122c14cd7eb4571_unscrript.webp"
-            height="40"
-            alt=""
-          />
-          <img
-            src="https://cdn.prod.website-files.com/66230c5ee8288ee065356a3e/666f5c0969076f9ff8db3304_ayna.webp"
-            height="40"
-            alt=""
-          />
-          <img
-            src="https://cdn.prod.website-files.com/66230c5ee8288ee065356a3e/666f5c1f5063aad4d71de3a3_Economize%20Logo.webp"
-            height="40"
-            alt=""
-          />
-          <img
-            src="https://cdn.prod.website-files.com/66230c5ee8288ee065356a3e/66564152364eee0d69082ecd_Floworks%20Image.png"
-            height="40"
-            alt=""
-          />
-          <img
-            src="https://cdn.prod.website-files.com/66230c5ee8288ee065356a3e/66725611cf30b1c92276d0b9_Hello%20Tomorrow%20APAC.png"
-            height="40"
-            alt=""
-          />
-          <img
-            src="https://cdn.prod.website-files.com/66230c5ee8288ee065356a3e/6672560710743628cc754ae3_Clarity%20Logo%20from%20Inbox%20Pirates.jpg"
-            height="40"
-            alt=""
-          />
-        </div>
-        <div className="about-scrolling-content scroll">
-          <img
-            src="https://cdn.prod.website-files.com/66230c5ee8288ee065356a3e/666f5c9c8122c14cd7eb4571_unscrript.webp"
-            height="40"
-            alt=""
-          />
-          <img
-            src="https://cdn.prod.website-files.com/66230c5ee8288ee065356a3e/666f5c0969076f9ff8db3304_ayna.webp"
-            height="40"
-            alt=""
-          />
-          <img
-            src="https://cdn.prod.website-files.com/66230c5ee8288ee065356a3e/666f5c1f5063aad4d71de3a3_Economize%20Logo.webp"
-            height="40"
-            alt=""
-          />
-          <img
-            src="https://cdn.prod.website-files.com/66230c5ee8288ee065356a3e/66564152364eee0d69082ecd_Floworks%20Image.png"
-            height="40"
-            alt=""
-          />
-          <img
-            src="https://cdn.prod.website-files.com/66230c5ee8288ee065356a3e/66725611cf30b1c92276d0b9_Hello%20Tomorrow%20APAC.png"
-            height="40"
-            alt=""
-          />
-          <img
-            src="https://cdn.prod.website-files.com/66230c5ee8288ee065356a3e/6672560710743628cc754ae3_Clarity%20Logo%20from%20Inbox%20Pirates.jpg"
-            height="40"
-            alt=""
-          />
-        </div>
-      </div> */}
-
       {/* Testimonial Section */}
       <div className="testimonial">
-        <div className="testimonial-header">
-          <h1>Hear from Our Community</h1>
-          <button onClick={handlePrev}>&lt;</button>
-          <button onClick={handleNext}>&gt;</button>
-        </div>
-
-        <div className="testimonial-cards" ref={testimonialRef}>
-          {TestimonialData.map((data, index) => (
-            <div key={index} className="testimonial-card">
-              <div className="testimonial-info">
-                <div className="info-image-div">
-                  <img src={data.image} alt={data.name} />
-                </div>
-                <div className="info-name-div">
-                  <h3>{data.name}</h3>
-                  <h4>{data.role}</h4>
-                </div>
-              </div>
-              <p>{data.desc}</p>
+        <h1>Hear from Our Community</h1>
+        <div className="testimonial-cards" ref={testimonialListRef}>
+          {TestimonialData.map((data) => (
+            <div key={data.id} className="testimonial-card">
+              <img src={data.image} alt={data.alt} />
+              <h3>{data.name}</h3>
+              <h5>{data.prof}</h5>
             </div>
           ))}
         </div>
