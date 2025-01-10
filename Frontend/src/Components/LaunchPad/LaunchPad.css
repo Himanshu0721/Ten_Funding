@@ -117,7 +117,7 @@
   }
   .heading {
     padding-top: 40px;
-    font-size: 2.5rem !important;
+    font-size: 2.8rem !important;
   }
   .card {
     padding: 20px;
@@ -177,7 +177,7 @@
   position: absolute;
   top: 100%;
   left: 0;
-  z-index: 1000;
+  z-index: 999;
   background-color: #e0e0ff;
   border: 1px solid #ccc;
   border-radius: 5px;
@@ -188,6 +188,8 @@
   min-width: 150px;
   max-height: 210px;
   overflow: overlay;
+  overflow-x: hidden;
+  
 }
 
 /* .dropdown-menu label {
@@ -227,7 +229,8 @@
 }
 .description {
   display: block;
-  padding: 10px 25px;
+  min-width:100px;
+  padding: 10px 10px;
   margin: auto;
   background-color: #e0e0ff;
   border: none;
