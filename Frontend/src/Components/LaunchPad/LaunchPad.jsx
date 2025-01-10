@@ -3,6 +3,7 @@ import { MdOutlineKeyboardArrowDown } from "react-icons/md";
 import { RxCross2 } from "react-icons/rx";
 import "./LaunchPad.css";
 import jobsinfo from "../../assets/data/jobsInfo";
+import { NavLink } from "react-router-dom";
 
 const LaunchPad = () => {
   const jobTitle = [
@@ -32,11 +33,9 @@ const LaunchPad = () => {
 
   // const [jobs, setJobs] = useState([]);
   const [selectedFilters, setSelectedFilters] = useState([]);
-  const [locationDropdownOpen, setLocationDropdownOpen] = useState(false);
-  const [roleDropdownOpen, setRoleDropdownOpen] = useState(false);
+  const [titleDropdownOpen, settitleDropdownOpen] = useState(false);
   const [visibleJobsCount, setVisibleJobsCount] = useState(4);
-  const locationDropdownRef = useRef(null);
-  const roleDropdownRef = useRef(null);
+  const titleDropdownRef = useRef(null);
 
   //load more jobs
   const handleLoadMore = () => {
@@ -46,8 +45,8 @@ const LaunchPad = () => {
   const filteredJobs = jobsinfo.filter(
     (job) =>
       selectedFilters.length === 0 ||
-      selectedFilters.includes(job.title) ||
-      selectedFilters.includes(job.roleType)
+      selectedFilters.includes(job.title)
+    
   );
 
   useEffect(() => {
@@ -60,16 +59,11 @@ const LaunchPad = () => {
   const visibleJobs = filteredJobs.slice(0, visibleJobsCount);
 
   // Toggle dropdown visibility
-  const toggleLocationDropdown = () => {
+  const toggleTitleDropdown = () => {
     console.log(jobTitle);
-    setLocationDropdownOpen((prev) => !prev);
-    setRoleDropdownOpen(false);
+    settitleDropdownOpen((prev) => !prev);
   };
 
-  const toggleRoleDropdown = () => {
-    setRoleDropdownOpen(!roleDropdownOpen);
-    setLocationDropdownOpen(false);
-  };
 
   // Handle checkbox selection
   const handleCheckboxChange = (filter) => {
@@ -98,17 +92,12 @@ const LaunchPad = () => {
   // Close dropdown when clicking outside
   const handleClickOutside = (event) => {
     if (
-      locationDropdownRef.current &&
-      !locationDropdownRef.current.contains(event.target)
+      titleDropdownRef.current &&
+      !titleDropdownRef.current.contains(event.target)
     ) {
-      setLocationDropdownOpen(false);
+      settitleDropdownOpen(false);
     }
-    if (
-      roleDropdownRef.current &&
-      !roleDropdownRef.current.contains(event.target)
-    ) {
-      setRoleDropdownOpen(false);
-    }
+  
   };
 
   useEffect(() => {
@@ -130,14 +119,14 @@ const LaunchPad = () => {
               </div>
 
               <div className="button-container">
-                {/* <button>
+                 
                   <NavLink className="post-button" to="/registration-form">
                     Post a job <span className="arrow">→</span>
                   </NavLink>
-                </button> */}
-                <button className="post-button">
+              
+                {/* <button className="post-button">
                   Post a job <span className="arrow">→</span>
-                </button>
+                </button> */}
               </div>
             </div>
           </div>
@@ -147,11 +136,11 @@ const LaunchPad = () => {
 
       {/* Filters */}
       <div className="filters">
-        <div className="dropdown-container" ref={locationDropdownRef}>
-          <button className="dropdown-button" onClick={toggleLocationDropdown}>
+        <div className="dropdown-container" ref={titleDropdownRef}>
+          <button className="dropdown-button" onClick={toggleTitleDropdown}>
             Title <MdOutlineKeyboardArrowDown />
           </button>
-          {locationDropdownOpen && (
+          {titleDropdownOpen && (
             <ul className="dropdown-menu">
               {jobTitle.map((Titles, index) => {
                 return (
@@ -167,43 +156,6 @@ const LaunchPad = () => {
                   </li>
                 );
               })}
-            </ul>
-          )}
-        </div>
-
-        <div className="dropdown-container" ref={roleDropdownRef}>
-          <button className="dropdown-button" onClick={toggleRoleDropdown}>
-            Role Type <MdOutlineKeyboardArrowDown />
-          </button>
-          {roleDropdownOpen && (
-            <ul className="dropdown-menu">
-              <label>
-                <input
-                  type="checkbox"
-                  name="Full Time"
-                  checked={selectedFilters.includes("Full Time")}
-                  onChange={() => handleCheckboxChange("Full Time")}
-                />{" "}
-                Full Time
-              </label>
-              <label>
-                <input
-                  type="checkbox"
-                  name="Part Time"
-                  checked={selectedFilters.includes("Part Time")}
-                  onChange={() => handleCheckboxChange("Part Time")}
-                />{" "}
-                Part Time
-              </label>
-              <label>
-                <input
-                  type="checkbox"
-                  name="Internship"
-                  checked={selectedFilters.includes("Internship")}
-                  onChange={() => handleCheckboxChange("Internship")}
-                />{" "}
-                Internship
-              </label>
             </ul>
           )}
         </div>
@@ -241,7 +193,12 @@ const LaunchPad = () => {
               <td>{job.skills.join(", ")}</td>
               <td>{job.responsibilities}</td>
               <td>
-                <button className="description">{job.description}</button>
+                <button className="description"  onClick={() => {
+        window.open(
+          "https://docs.google.com/forms/d/e/1FAIpQLScMY6Dos28JVDpYmgXB9FK4QpepWxsn_rEH-mQ1AYiql4d_qA/viewform",
+          "_blank"
+        );
+      }}>{job.description}</button>
               </td>
             </tr>
           ))}

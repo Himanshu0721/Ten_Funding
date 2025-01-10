@@ -77,13 +77,11 @@
 }
 
 .post-button {
-  background-color: #ffffff;
-  border: 1px solid #cbd5e0;
-  border-radius: 24px;
-  font-size: 1rem;
+  
+
   cursor: pointer;
   transition: all 0.2s ease-in-out;
-  color: #2f3246 !important;
+  color:  #2f3246;
   border: 1px solid #2f3246;
   border-radius: 48px;
   justify-content: center;
@@ -94,13 +92,15 @@
   text-decoration: none;
   display: flex;
   position: relative;
-  overflow: hidden;
+  overflow: hidden; 
 }
 
 .post-button:hover {
   background-color: #efeffe;
   transition: all 0.2s ease-in-out;
-}
+  text-decoration: none;
+
+} 
 
 .arrow {
   margin-left: 0.5rem;

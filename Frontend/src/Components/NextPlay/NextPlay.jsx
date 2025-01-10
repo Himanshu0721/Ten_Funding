@@ -114,8 +114,8 @@ const NextPlay = () => {
               <p>
                 🎙️ Hear firsthand from top-tier operators, investors, and
                 founders who have just discovered their next big thing as they
-                share their experiences and insights. <a href="#">Spotify</a> /{" "}
-                <a href="#">Apple Podcasts</a>
+                share their experiences and insights. <a  className="podcast" href="#">Spotify</a> /{" "}
+                <a className="podcast" href="#">Apple Podcasts</a>
               </p>
             </div>
 
@@ -131,7 +131,7 @@ const NextPlay = () => {
               <h2>lists</h2>
               <p>
                 📋 We're compiling lists of fantastic businesses to work with.{" "}
-                <a href="#">See here</a>.
+                <a className="link" href="#">See here</a>.
               </p>
             </div>
           </div>
@@ -172,9 +172,9 @@ const NextPlay = () => {
                 Who's behind this?
                 {openIndex === 0 && (
                   <div className="qu-1" style={{ margin: "10px" }}>
-                    <a href="#">Ben Lang</a>
+                    <a className="link" href="#">Ben Lang</a>
                     <br />
-                    <a href="#">Jorden Gonen</a>
+                    <a  className="link" href="#">Jorden Gonen</a>
                   </div>
                 )}
               </div>
@@ -211,7 +211,7 @@ const NextPlay = () => {
                             <td>{row.Name}</td>
                             <td>{row.City}</td>
                             <td>
-                              <a
+                              <a className="link"
                                 href={`https://${row.Linkedin}`}
                                 target="_blank"
                                 rel="noopener noreferrer"
@@ -240,7 +240,7 @@ const NextPlay = () => {
                 {openIndex === 2 && (
                   <div style={{ margin: "10px" }}>
                     Email us at{" "}
-                    <a href="mailto:info@entrepreneurshipnetwork">
+                    <a className="link" href="mailto:info@entrepreneurshipnetwork">
                       info@entrepreneurshipnetwork
                     </a>
                   </div>
@@ -278,7 +278,7 @@ const NextPlay = () => {
                 {openIndex === 4 && (
                   <div style={{ margin: "10px" }}>
                     Email us at{" "}
-                    <a href="mailto:info@entrepreneurshipnetwork">
+                    <a  className="link" href="mailto:info@entrepreneurshipnetwork">
                       info@entrepreneurshipnetwork
                     </a>
                   </div>
@@ -320,7 +320,7 @@ const NextPlay = () => {
                 {openIndex === 6 && (
                   <div style={{ margin: "10px" }}>
                     Email us at{" "}
-                    <a href="mailto:info@entrepreneurshipnetwork">
+                    <a className="link" href="mailto:info@entrepreneurshipnetwork">
                       info@entrepreneurshipnetwork
                     </a>
                   </div>
@@ -340,7 +340,7 @@ const NextPlay = () => {
                 {openIndex === 7 && (
                   <div style={{ margin: "10px" }}>
                     Email us at{" "}
-                    <a href="mailto:info@entrepreneurshipnetwork">
+                    <a  className="link" href="mailto:info@entrepreneurshipnetwork">
                       info@entrepreneurshipnetwork
                     </a>{" "}
                     and we’ll share more.
