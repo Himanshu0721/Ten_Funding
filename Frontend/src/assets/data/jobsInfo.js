@@ -3,7 +3,7 @@ const jobsinfo = [
     title: "Frontend Developer Internship",
     skills: ["React", "Tailwind CSS", "HTML", "CSS", "JavaScript", "Git"],
     responsibilities: "Assist in designing and developing...",
-    description: "View Job Description",
+    description: "Apply Now",
   },
   {
     title: "Backend Developer Internship",
@@ -16,13 +16,13 @@ const jobsinfo = [
       "Docker",
     ],
     responsibilities: "Assist in designing and developing...",
-    description: "View Job Description",
+    description: "Apply Now",
   },
   {
     title: "React js Developer Internship",
     skills: ["React.js", "JavaScript", "Redux", "HTML", "CSS", "Git"],
     responsibilities: "Assist in developing front-end applications...",
-    description: "View Job Description",
+    description:"Apply Now",
   },
   {
     title: "Python Development Internship",
@@ -35,7 +35,7 @@ const jobsinfo = [
       "Docker",
     ],
     responsibilities: "Assist in developing and maintaining...",
-    description: "View Job Description",
+    description: "Apply Now",
   },
   {
     title: "MERN Stack Developer Internship",
@@ -50,7 +50,7 @@ const jobsinfo = [
       "Docker",
     ],
     responsibilities: "Assist in designing and developing...",
-    description: "View Job Description",
+    description: "Apply Now",
   },
   {
     title: "Spring Boot Development Internship",
@@ -64,7 +64,7 @@ const jobsinfo = [
       "Docker",
     ],
     responsibilities: "Assist in designing and developing...",
-    description: "View Job Description",
+    description: "Apply Now",
   },
   {
     title: "Software Testing Internship",
@@ -78,7 +78,7 @@ const jobsinfo = [
       "Git",
     ],
     responsibilities: "Assist in the design and...",
-    description: "View Job Description",
+    description: "Apply Now",
   },
   {
     title: "WIX Web Development Internship",
@@ -92,13 +92,13 @@ const jobsinfo = [
       "UX/UI Design",
     ],
     responsibilities: "Develop and design websites using...",
-    description: "View Job Description",
+    description: "Apply Now",
   },
   {
     title: "Frontend Developer Internship",
     skills: ["React", "Tailwind CSS", "HTML", "CSS", "JavaScript", "Git"],
     responsibilities: "Assist in designing and developing...",
-    description: "View Job Description",
+    description: "Apply Now",
   },
   {
     title: "Backend Developer Internship",
@@ -111,13 +111,13 @@ const jobsinfo = [
       "Docker",
     ],
     responsibilities: "Assist in designing and developing...",
-    description: "View Job Description",
+    description: "Apply Now",
   },
   {
     title: "React js Developer Internship",
     skills: ["React.js", "JavaScript", "Redux", "HTML", "CSS", "Git"],
     responsibilities: "Assist in developing front-end applications...",
-    description: "View Job Description",
+    description: "Apply Now",
   },
   {
     title: "Python Development Internship",
@@ -130,7 +130,7 @@ const jobsinfo = [
       "Docker",
     ],
     responsibilities: "Assist in developing and maintaining...",
-    description: "View Job Description",
+    description: "Apply Now",
   },
   {
     title: "MERN Stack Developer Internship",
@@ -145,7 +145,7 @@ const jobsinfo = [
       "Docker",
     ],
     responsibilities: "Assist in designing and developing...",
-    description: "View Job Description",
+    description: "Apply Now",
   },
   {
     title: "Spring Boot Development Internship",
@@ -159,7 +159,7 @@ const jobsinfo = [
       "Docker",
     ],
     responsibilities: "Assist in designing and developing...",
-    description: "View Job Description",
+    description: "Apply Now",
   },
   {
     title: "Software Testing Internship",
@@ -173,7 +173,7 @@ const jobsinfo = [
       "Git",
     ],
     responsibilities: "Assist in the design and...",
-    description: "View Job Description",
+    description: "Apply Now",
   },
   {
     title: "WIX Web Development Internship",
@@ -187,7 +187,7 @@ const jobsinfo = [
       "UX/UI Design",
     ],
     responsibilities: "Develop and design websites using...",
-    description: "View Job Description",
+    description: "Apply Now",
   },
   {
     title: "MEAN Stack Developer Internship",
@@ -202,7 +202,7 @@ const jobsinfo = [
       "Docker",
     ],
     responsibilities: "Develop and maintain web applications...",
-    description: "View Job Description",
+    description: "Apply Now",
   },
   {
     title: "JAVA Developer Internship",
@@ -216,7 +216,7 @@ const jobsinfo = [
       "Docker",
     ],
     responsibilities: "Collaborate with our team in...",
-    description: "View Job Description",
+    description: "Apply Now",
   },
   {
     title: "NODE.js Developer Internship",
@@ -230,7 +230,7 @@ const jobsinfo = [
       "Docker",
     ],
     responsibilities: "Assist in designing and developing...",
-    description: "View Job Description",
+    description: "Apply Now",
   },
   {
     title: "Android Developer Internship",
@@ -244,7 +244,7 @@ const jobsinfo = [
       "SQLite",
     ],
     responsibilities: "Collaborate with our team to...",
-    description: "View Job Description",
+    description: "Apply Now",
   },
   {
     title: "WordPress Development Internship",
@@ -259,7 +259,7 @@ const jobsinfo = [
       "Git",
     ],
     responsibilities: "Develop and customize WordPress themes...",
-    description: "View Job Description",
+    description: "Apply Now",
   },
   {
     title: "Angular Development Internship",
@@ -274,7 +274,7 @@ const jobsinfo = [
       "Webpack",
     ],
     responsibilities: "Develop and maintain Angular-based web...",
-    description: "View Job Description",
+    description: "Apply Now",
   },
   {
     title: "Data Structure Internship",
@@ -286,7 +286,7 @@ const jobsinfo = [
       "Git",
     ],
     responsibilities: "Design and implement efficient data...",
-    description: "View Job Description",
+    description:"Apply Now",
   },
   {
     title: "C/C++ Development Internship",
@@ -299,13 +299,13 @@ const jobsinfo = [
       "Debugging Tools",
     ],
     responsibilities: "Develop and maintain applications using...",
-    description: "View Job Description",
+    description: "Apply Now",
   },
   {
     title: "Frontend Developer Internship",
     skills: ["React", "Tailwind CSS", "HTML", "CSS", "JavaScript", "Git"],
     responsibilities: "Assist in designing and developing...",
-    description: "View Job Description",
+    description: "Apply Now",
   },
   {
     title: "Backend Developer Internship",
@@ -318,13 +318,13 @@ const jobsinfo = [
       "Docker",
     ],
     responsibilities: "Assist in designing and developing...",
-    description: "View Job Description",
+    description:"Apply Now",
   },
   {
     title: "React js Developer Internship",
     skills: ["React.js", "JavaScript", "Redux", "HTML", "CSS", "Git"],
     responsibilities: "Assist in developing front-end applications...",
-    description: "View Job Description",
+    description: "Apply Now",
   },
   {
     title: "Python Development Internship",
@@ -337,7 +337,7 @@ const jobsinfo = [
       "Docker",
     ],
     responsibilities: "Assist in developing and maintaining...",
-    description: "View Job Description",
+    description:"Apply Now",
   },
   {
     title: "MERN Stack Developer Internship",
@@ -352,7 +352,7 @@ const jobsinfo = [
       "Docker",
     ],
     responsibilities: "Assist in designing and developing...",
-    description: "View Job Description",
+    description: "Apply Now",
   },
   {
     title: "Spring Boot Development Internship",
@@ -366,7 +366,7 @@ const jobsinfo = [
       "Docker",
     ],
     responsibilities: "Assist in designing and developing...",
-    description: "View Job Description",
+    description: "Apply Now",
   },
   {
     title: "Artificial Intelligence Internship",
@@ -378,7 +378,7 @@ const jobsinfo = [
       "Git",
     ],
     responsibilities: "Assist in developing and implementing...",
-    description: "View Job Description",
+    description: "Apply Now",
   },
   {
     title: "Data Science and Machine Learning Internship",
@@ -392,7 +392,7 @@ const jobsinfo = [
       "Git",
     ],
     responsibilities: "Analyze and interpret complex data...",
-    description: "View Job Description",
+    description: "Apply Now",
   },
   {
     title: "Big Data Internship",
@@ -406,7 +406,7 @@ const jobsinfo = [
       "Git",
     ],
     responsibilities: "Assist in collecting, processing, and...",
-    description: "View Job Description",
+    description: "Apply Now",
   },
   {
     title: "Cloud Computing Internship",
@@ -419,7 +419,7 @@ const jobsinfo = [
       "Git",
     ],
     responsibilities: "Assist in deploying and managing...",
-    description: "View Job Description",
+    description: "Apply Now",
   },
   {
     title: "Software Development Internship",
@@ -431,7 +431,7 @@ const jobsinfo = [
       "Agile Methodologies",
     ],
     responsibilities: "Assist in the design, development,...",
-    description: "View Job Description",
+    description: "Apply Now",
   },
   {
     title: "Technical Program Management Internship",
@@ -443,7 +443,7 @@ const jobsinfo = [
       "Confluence",
     ],
     responsibilities: "Assist in project planning, scheduling,...",
-    description: "View Job Description",
+    description: "Apply Now",
   },
   {
     title: "DevOps Engineering Internship",
@@ -457,7 +457,7 @@ const jobsinfo = [
       "Git",
     ],
     responsibilities: "Assist in building and maintaining...",
-    description: "View Job Description",
+    description: "Apply Now",
   },
   {
     title: "Data Analysis Internship",
@@ -472,7 +472,7 @@ const jobsinfo = [
       "Data Visualization",
     ],
     responsibilities: "Assist in collecting, cleaning, and...",
-    description: "View Job Description",
+    description: "Apply Now",
   },
   {
     title: "Angular Development Internship",
@@ -487,7 +487,7 @@ const jobsinfo = [
       "Webpack",
     ],
     responsibilities: "Develop and maintain Angular-based web...",
-    description: "View Job Description",
+    description: "Apply Now",
   },
   {
     title: "Data Structure Internship",
@@ -499,7 +499,7 @@ const jobsinfo = [
       "Git",
     ],
     responsibilities: "Design and implement efficient data...",
-    description: "View Job Description",
+    description: "Apply Now",
   },
   {
     title: "C/C++ Development Internship",
@@ -512,7 +512,7 @@ const jobsinfo = [
       "Debugging Tools",
     ],
     responsibilities: "Develop and maintain applications using...",
-    description: "View Job Description",
+    description: "Apply Now",
   },
 ];
 
