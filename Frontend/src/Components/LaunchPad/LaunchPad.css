@@ -258,7 +258,7 @@
   padding: 10px 25px;
   margin: auto;
   background-color: #e0e0ff;
-  border: none;
+  border: 1px solid black;
   border-radius: 20px;
   font-size: 20px;
   cursor: pointer;
