@@ -483,7 +483,7 @@ const vcIndia1 = [{
         stageFocus: "",
         sectorFocus: "sector agnostic",
         ticketSize: "50k-250k",
-        currentFundCorpus: "26",
+        currentFundCorpus: "",
         totalFundCorpus: "-",
         companyOverview: "-"
       },
@@ -547,7 +547,7 @@ const vcIndia1 = [{
           stageFocus: "",
           sectorFocus: "sector agnostic",
           ticketSize: "50k-250k",
-          currentFundCorpus: "-",
+          currentFundCorpus: "",
           totalFundCorpus: "-",
           companyOverview: "-"
         },
