@@ -1,4 +1,4 @@
-const vcIndia = [
+export const vcIndia = [
   {
     id: 1,
   
@@ -10,7 +10,7 @@ const vcIndia = [
     companyLinkedinUrl: "http://www.linkedin.com/company/includedvc",
    
     twitterUrl: "https://twitter.com/INCLUDED_VC",
-  
+    seoDescription: "",
     country: "India",
 Stagefocus: "",
   SectorFocus: "",
@@ -1337,7 +1337,7 @@ Stagefocus: "",
     companyState: "State of São Paulo",
     companyCountry: "Brazil",
     companyPhone: "+55 11 3034-3703",
-    seoDescription: "",
+    seoDescription: "hello",
     annualRevenue: "5400000",
     totalFunding: "",
     latestFunding: "",
