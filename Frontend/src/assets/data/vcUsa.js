@@ -7,7 +7,7 @@ export const vcUsa = [
 {
         id: 1,    
         title: "Venture Capital",     
-        industry: "IFC - International Finance Corporation",    
+        company: "IFC - International Finance Corporation",    
         website: "http://www.ifc.org",
         companyLinkedinUrl: "http://www.linkedin.com/company/ifclinkedin",        
         twitterUrl: "https://twitter.com/IFC_org",
@@ -23,7 +23,7 @@ export const vcUsa = [
 {
         id: 2,
         title: "Venture Partner",
-        industry: "Social Impact Capital",
+        company: "Social Impact Capital",
         website: "http://www.social-impact-capital.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/social-impact-capital",
         twitterUrl: "https://twitter.com/socialimpactvc",
@@ -41,7 +41,7 @@ export const vcUsa = [
     {
         id: 3,
         title: "Venture Capital",
-        industry: "Eurazeo",
+        company: "Eurazeo",
         website: "http://www.eurazeo.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/eurazeo",
         twitterUrl: "https://twitter.com/eurazeo",
@@ -59,7 +59,7 @@ export const vcUsa = [
     {
         id: 4,
         title: "Venture Analyst",
-        industry: "RevTech Labs Capital",
+        company: "RevTech Labs Capital",
         website: "http://www.rtl.capital",
         companyLinkedinUrl: "http://www.linkedin.com/company/rtl-c",
         twitterUrl: "",
@@ -77,7 +77,7 @@ export const vcUsa = [
     {
         id: 5,
         title: "Venture Capital",
-        industry: "Hermès",
+        company: "Hermès",
         website: "http://www.hermesemployeur.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/hermes-group",
         twitterUrl: "",
@@ -95,7 +95,7 @@ export const vcUsa = [
     {
         id: 6,
         title: "Venture Partner",
-        industry: "CRG Capital Partners",
+        company: "CRG Capital Partners",
         website: "http://www.crgcapitalpartners.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/crg-capital-partners",
         twitterUrl: "",
@@ -113,7 +113,7 @@ export const vcUsa = [
     {
         id: 7,
         title: "Venture Capital",
-        industry: "DST Global",
+        company: "DST Global",
         website: "http://www.dst-global.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/dstglobal",
         twitterUrl: "",
@@ -131,7 +131,7 @@ export const vcUsa = [
     {
         id: 8,
         title: "Venture Capital",
-        industry: "StepStone Group",
+        company: "StepStone Group",
         website: "http://www.stepstonegroup.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/stepstone-group",
         twitterUrl: "https://twitter.com/GreenspringVC",
@@ -149,7 +149,7 @@ export const vcUsa = [
     {
         id: 9,
         title: "Venture Associate",
-        industry: "Lux Capital",
+        company: "Lux Capital",
         website: "http://www.luxcapital.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/lux-capital",
         twitterUrl: "http://www.twitter.com/Lux_Capital",
@@ -167,7 +167,7 @@ export const vcUsa = [
     {
         id: 10,
         title: "Venture Capital",
-        industry: "Avid Ventures",
+        company: "Avid Ventures",
         website: "http://www.avidventures.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/avid-ventures",
         twitterUrl: "https://twitter.com/avidvc",
@@ -185,7 +185,7 @@ export const vcUsa = [
     {
         id: 11,
         title: "Venture Fellow",
-        industry: "Healthspan Capital",
+        company: "Healthspan Capital",
         website: "http://www.healthspancapital.vc",
         companyLinkedinUrl: "http://www.linkedin.com/company/healthspan-capital",
         twitterUrl: "",
@@ -203,7 +203,7 @@ export const vcUsa = [
     {
         id: 12,
         title: "Venture Capital",
-        industry: "Glasswing Ventures",
+        company: "Glasswing Ventures",
         website: "http://www.glasswing.vc",
         companyLinkedinUrl: "http://www.linkedin.com/company/glasswing-ventures",
         twitterUrl: "https://twitter.com/glasswingvc",
@@ -221,7 +221,7 @@ export const vcUsa = [
     {
         id: 13,
         title: "Venture Analyst",
-        industry: "Chisos Capital",
+        company: "Chisos Capital",
         website: "http://www.chisos.io",
         companyLinkedinUrl: "http://www.linkedin.com/company/chisos-llc",
         twitterUrl: "https://twitter.com/ChisosCapital",
@@ -239,7 +239,7 @@ export const vcUsa = [
     {
         id: 14,
         title: "Venture Capital",
-        industry: "Cambrian Bio",
+        company: "Cambrian Bio",
         website: "http://www.cambrianbio.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/cambrianbio",
         twitterUrl: "https://mobile.twitter.com/cambrianbio",
@@ -257,7 +257,7 @@ export const vcUsa = [
     {
         id: 15,
         title: "Venture Capital",
-        industry: "Battery Ventures",
+        company: "Battery Ventures",
         website: "http://www.battery.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/battery-ventures",
         twitterUrl: "https://twitter.com/batteryventures",
@@ -275,7 +275,7 @@ export const vcUsa = [
     {
         id: 16,
         title: "Venture Fellow",
-        industry: "Akuna Capital",
+        company: "Akuna Capital",
         website: "http://www.akunacapital.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/akuna-capital",
         twitterUrl: "http://twitter.com/akunacapital",
@@ -293,7 +293,7 @@ export const vcUsa = [
     {
         id: 17,
         title: "Venture Partner",
-        industry: "Gutter Capital",
+        company: "Gutter Capital",
         website: "http://www.gutter.cc",
         companyLinkedinUrl: "http://www.linkedin.com/company/gutter-capital",
         twitterUrl: "",
@@ -311,7 +311,7 @@ export const vcUsa = [
     {
         id: 18,
         title: "Venture Fellow",
-        industry: "Rubicon Venture Capital",
+        company: "Rubicon Venture Capital",
         website: "http://www.rubicon.vc",
         companyLinkedinUrl: "http://www.linkedin.com/company/rubicon-venture-capital",
         twitterUrl: "https://twitter.com/earlybirdvc",
@@ -329,7 +329,7 @@ export const vcUsa = [
     {
         id: 19,
         title: "Venture Partner",
-        industry: "RAIVEN CAPITAL",
+        company: "RAIVEN CAPITAL",
         website: "http://www.raivencapital.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/raivencapital",
         twitterUrl: "https://twitter.com/raivencapital",
@@ -347,7 +347,7 @@ export const vcUsa = [
     {
         id: 20,
         title: "Venture Capital",
-        industry: "Crescera Capital",
+        company: "Crescera Capital",
         website: "http://www.crescera.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/crescera-capital",
         twitterUrl: "",
@@ -365,7 +365,7 @@ export const vcUsa = [
     {
         id: 21,
         title: "Venture Partner",
-        industry: "Valley Capital Partners",
+        company: "Valley Capital Partners",
         website: "http://www.valleycapital.vc",
         companyLinkedinUrl: "http://www.linkedin.com/company/valley-capital-partners",
         twitterUrl: "",
@@ -383,7 +383,7 @@ export const vcUsa = [
     {
         id: 22,
         title: "Venture Partner",
-        industry: "Nina Capital",
+        company: "Nina Capital",
         website: "http://www.nina.capital",
         companyLinkedinUrl: "http://www.linkedin.com/company/ninacapital",
         twitterUrl: "https://twitter.com/NinaCapital",
@@ -401,7 +401,7 @@ export const vcUsa = [
     {
         id: 23,
         title: "Venture Partner",
-        industry: "Shine Capital",
+        company: "Shine Capital",
         website: "http://www.shine.vc",
         companyLinkedinUrl: "http://www.linkedin.com/company/shinecapital",
         twitterUrl: "",
@@ -419,7 +419,7 @@ export const vcUsa = [
     {
         id: 24,
         title: "Venture Capital",
-        industry: "Dream Ventures",
+        company: "Dream Ventures",
         website: "http://www.dreamventures.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/dream-venturesvc",
         twitterUrl: "",
@@ -437,7 +437,7 @@ export const vcUsa = [
     {
         id: 25,
         title: "Venture Partner",
-        industry: "Sanctor Capital",
+        company: "Sanctor Capital",
         website: "http://www.sanctor.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/sanctor-capital",
         twitterUrl: "https://twitter.com/sanctorcapital",
@@ -455,7 +455,7 @@ export const vcUsa = [
     {
         id: 26,
         title: "Venture Partner",
-        industry: "Otium Capital",
+        company: "Otium Capital",
         website: "http://www.otiumcapital.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/otium-capital",
         twitterUrl: "https://twitter.com/otiumcapital",
@@ -473,7 +473,7 @@ export const vcUsa = [
     {
         id: 27,
         title: "Venture Capitalist",
-        industry: "Singularity Capital",
+        company: "Singularity Capital",
         website: "http://www.singularitycapital.us",
         companyLinkedinUrl: "http://www.linkedin.com/company/singularity-capital-management-llc",
         twitterUrl: "https://twitter.com/Singularity_VC",
@@ -491,7 +491,7 @@ export const vcUsa = [
     {
         id: 28,
         title: "Venture Principal",
-        industry: "Elevate Capital Fund",
+        company: "Elevate Capital Fund",
         website: "http://www.elevate.vc",
         companyLinkedinUrl: "http://www.linkedin.com/company/elevate-capital-fund",
         twitterUrl: "https://twitter.com/pdxelevatevc",
@@ -509,7 +509,7 @@ export const vcUsa = [
     {
         id: 29,
         title: "Venture Capital",
-        industry: "Carta",
+        company: "Carta",
         website: "http://www.carta.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/carta--",
         twitterUrl: "https://twitter.com/cartainc",
@@ -527,7 +527,7 @@ export const vcUsa = [
     {
         id: 30,
         title: "Venture Partner",
-        industry: "Pappas Capital",
+        company: "Pappas Capital",
         website: "http://www.pappas-capital.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/pappas-capital",
         twitterUrl: "http://www.twitter.com/pappasventures",
@@ -545,7 +545,7 @@ export const vcUsa = [
     {
         id: 31,
         title: "Venture Partner",
-        industry: "Aphelion Capital",
+        company: "Aphelion Capital",
         website: "http://www.aphelioncapital.net",
         companyLinkedinUrl: "http://www.linkedin.com/company/aphelion-capital",
         twitterUrl: "",
@@ -563,7 +563,7 @@ export const vcUsa = [
     {
         id: 32,
         title: "Venture Partner",
-        industry: "Climate Capital",
+        company: "Climate Capital",
         website: "http://www.climatecapital.co",
         companyLinkedinUrl: "http://www.linkedin.com/company/climatecap",
         twitterUrl: "https://twitter.com/climatecap",
@@ -581,7 +581,7 @@ export const vcUsa = [
     {
         id: 33,
         title: "Venture Capital",
-        industry: "State of Illinois",
+        company: "State of Illinois",
         website: "http://www.illinois.gov",
         companyLinkedinUrl: "http://www.linkedin.com/company/state-of-illinois",
         twitterUrl: "https://twitter.com/dqStateFair",
@@ -599,7 +599,7 @@ export const vcUsa = [
     {
         id: 34,
         title: "Venture Partner",
-        industry: "Top Corner Capital",
+        company: "Top Corner Capital",
         website: "http://www.topcornercapital.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/topcornercapital",
         twitterUrl: "https://twitter.com/capital_corner",
@@ -617,7 +617,7 @@ export const vcUsa = [
     {
         id: 35,
         title: "Venture Partner",
-        industry: "Nosara Capital",
+        company: "Nosara Capital",
         website: "http://www.nosaracapital.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/nosara-capital",
         twitterUrl: "",
@@ -635,7 +635,7 @@ export const vcUsa = [
     {
         id: 36,
         title: "Venture Partner",
-        industry: "Columbia Capital",
+        company: "Columbia Capital",
         website: "http://www.colcap.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/columbia-capital",
         twitterUrl: "",
@@ -653,7 +653,7 @@ export const vcUsa = [
     {
         id: 37,
         title: "Venture Partner",
-        industry: "Decent Capital",
+        company: "Decent Capital",
         website: "http://www.decentcapital.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/decent-capital",
         twitterUrl: "",
@@ -671,7 +671,7 @@ export const vcUsa = [
     {
         id: 38,
         title: "Venture Partner",
-        industry: "Ludis Capital",
+        company: "Ludis Capital",
         website: "http://www.ludis.capital",
         companyLinkedinUrl: "http://www.linkedin.com/company/ludiscapital",
         twitterUrl: "",
@@ -689,7 +689,7 @@ export const vcUsa = [
     {
         id: 39,
         title: "Venture Capital",
-        industry: "Galaxy",
+        company: "Galaxy",
         website: "http://www.galaxy.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/galaxyhq",
         twitterUrl: "",
@@ -707,7 +707,7 @@ export const vcUsa = [
     {
         id: 40,
         title: "Venture Investor",
-        industry: "Counterview Capital",
+        company: "Counterview Capital",
         website: "http://www.counterview.vc",
         companyLinkedinUrl: "http://www.linkedin.com/company/counterview-capital",
         twitterUrl: "",
@@ -725,7 +725,7 @@ export const vcUsa = [
     {
         id: 41,
         title: "Venture Partner",
-        industry: "Atento Capital",
+        company: "Atento Capital",
         website: "http://www.tulsaremote.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/atento-capital",
         twitterUrl: "",
@@ -743,7 +743,7 @@ export const vcUsa = [
     {
         id: 42,
         title: "Venture Partner",
-        industry: "Decheng Capital",
+        company: "Decheng Capital",
         website: "http://www.decheng.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/decheng-capital-",
         twitterUrl: "",
@@ -761,7 +761,7 @@ export const vcUsa = [
     {
         id: 43,
         title: "Venture Partner",
-        industry: "Erez Capital",
+        company: "Erez Capital",
         website: "http://www.erezcapital.io",
         companyLinkedinUrl: "http://www.linkedin.com/company/erez-capital",
         twitterUrl: "https://twitter.com/ErezCapital",
@@ -779,7 +779,7 @@ export const vcUsa = [
     {
         id: 44,
         title: "Venture Capital",
-        industry: "Morningside Technology Advisory LLC",
+        company: "Morningside Technology Advisory LLC",
         website: "http://www.morningside.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/morningside-technology-advisory-llc",
         twitterUrl: "",
@@ -797,7 +797,7 @@ export const vcUsa = [
     {
         id: 45,
         title: "Venture",
-        industry: "Morrison Seger Venture Capital Partners",
+        company: "Morrison Seger Venture Capital Partners",
         website: "http://www.morrisonseger.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/morrison-seger",
         twitterUrl: "",
@@ -815,7 +815,7 @@ export const vcUsa = [
     {
         id: 46,
         title: "Venture Fellow",
-        industry: "Groove Capital",
+        company: "Groove Capital",
         website: "http://www.groovecap.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/groove-capital",
         twitterUrl: "https://twitter.com/groovecap",
@@ -833,7 +833,7 @@ export const vcUsa = [
     {
         id: 47,
         title: "Venture Capitalist",
-        industry: "Revo Capital",
+        company: "Revo Capital",
         website: "http://www.revo.vc",
         companyLinkedinUrl: "http://www.linkedin.com/company/revo-capital",
         twitterUrl: "https://twitter.com/revovc",
@@ -851,7 +851,7 @@ export const vcUsa = [
     {
         id: 48,
         title: "Venture Partner",
-        industry: "ff Venture Capital",
+        company: "ff Venture Capital",
         website: "http://www.ffvc.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/ff-venture-capital",
         twitterUrl: "http://twitter.com/ffvc",
@@ -869,7 +869,7 @@ export const vcUsa = [
     {
         id: 49,
         title: "Venture Partner",
-        industry: "Transform Capital",
+        company: "Transform Capital",
         website: "http://www.tccommunity.org",
         companyLinkedinUrl: "http://www.linkedin.com/company/transform-capital-nfp",
         twitterUrl: "",
@@ -887,7 +887,7 @@ export const vcUsa = [
     {
         id: 50,
         title: "Venture Capital",
-        industry: "New Legacy",
+        company: "New Legacy",
         website: "http://www.newlegacy.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/new-legacy",
         twitterUrl: "",
@@ -905,7 +905,7 @@ export const vcUsa = [
     {
         id: 51,
         title: "Venture Partner",
-        industry: "Baird Capital",
+        company: "Baird Capital",
         website: "http://www.bairdcapital.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/baird-capital",
         twitterUrl: "http://www.twitter.com/rwbaird",
@@ -923,7 +923,7 @@ export const vcUsa = [
     {
         id: 52,
         title: "Venture Partner",
-        industry: "Translink Capital",
+        company: "Translink Capital",
         website: "http://www.translinkcapital.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/translink-capital",
         twitterUrl: "",
@@ -941,7 +941,7 @@ export const vcUsa = [
     {
         id: 53,
         title: "Venture Capital",
-        industry: "SmartHealth Catalyzer, Inc.",
+        company: "SmartHealth Catalyzer, Inc.",
         website: "http://www.smarthealthcatalyzer.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/smarthealthcatalyzer",
         twitterUrl: "https://twitter.com/smarthealthv",
@@ -959,7 +959,7 @@ export const vcUsa = [
     {
         id: 54,
         title: "Venture Capital",
-        industry: "Hewlett Packard Enterprise",
+        company: "Hewlett Packard Enterprise",
         website: "http://www.hpe.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/hewlett-packard-enterprise",
         twitterUrl: "https://twitter.com/hpe",
@@ -977,7 +977,7 @@ export const vcUsa = [
     {
         id: 55,
         title: "Venture Partner",
-        industry: "Walden Venture Capital",
+        company: "Walden Venture Capital",
         website: "http://www.waldenvc.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/walden-venture-capital",
         twitterUrl: "",
@@ -995,7 +995,7 @@ export const vcUsa = [
     {
         id: 56,
         title: "Venture Partner",
-        industry: "Emergence Capital",
+        company: "Emergence Capital",
         website: "http://www.emcap.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/emergence-capital-partners",
         twitterUrl: "http://www.twitter.com/emergencecap",
@@ -1013,7 +1013,7 @@ export const vcUsa = [
     {
         id: 57,
         title: "Venture Partner",
-        industry: "Mighty Capital",
+        company: "Mighty Capital",
         website: "http://www.mighty.capital",
         companyLinkedinUrl: "http://www.linkedin.com/company/mighty-capital",
         twitterUrl: "https://twitter.com/mighty_capital",
@@ -1031,7 +1031,7 @@ export const vcUsa = [
     {
         id: 58,
         title: "Venture Capital",
-        industry: "CoinFund",
+        company: "CoinFund",
         website: "http://www.coinfund.io",
         companyLinkedinUrl: "http://www.linkedin.com/company/coinfund",
         twitterUrl: "https://twitter.com/coinfund_io",
@@ -1049,7 +1049,7 @@ export const vcUsa = [
     {
         id: 59,
         title: "Venture Advisor",
-        industry: "Acero Capital",
+        company: "Acero Capital",
         website: "http://www.acerovc.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/acero-capital",
         twitterUrl: "http://www.twitter.com/AceroCapital",
@@ -1067,7 +1067,7 @@ export const vcUsa = [
     {
         id: 60,
         title: "Venture Partner",
-        industry: "Trailhead Capital",
+        company: "Trailhead Capital",
         website: "http://www.trailheadcap.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/trailheadcapitalllc",
         twitterUrl: "",
@@ -1085,7 +1085,7 @@ export const vcUsa = [
     {
         id: 61,
         title: "Venture Partner",
-        industry: "Capacity Capital",
+        company: "Capacity Capital",
         website: "http://www.costarters.co",
         companyLinkedinUrl: "http://www.linkedin.com/company/capacitycapital",
         twitterUrl: "",
@@ -1103,7 +1103,7 @@ export const vcUsa = [
     {
         id: 62,
         title: "Venture Capital",
-        industry: "Healthworx",
+        company: "Healthworx",
         website: "http://www.healthworx.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/hwx",
         twitterUrl: "",
@@ -1121,7 +1121,7 @@ export const vcUsa = [
     {
         id: 63,
         title: "Venture Fellow",
-        industry: "Recast Capital",
+        company: "Recast Capital",
         website: "http://www.recastcapital.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/recast-capital",
         twitterUrl: "https://twitter.com/RecastCapital",
@@ -1139,7 +1139,7 @@ export const vcUsa = [
     {
         id: 64,
         title: "Venture Capital",
-        industry: "OCA Ventures",
+        company: "OCA Ventures",
         website: "http://www.ocaventures.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/oca-ventures",
         twitterUrl: "http://www.twitter.com/OCAVentures",
@@ -1157,7 +1157,7 @@ export const vcUsa = [
     {
         id: 65,
         title: "Venture Partner",
-        industry: "Bullnet Capital",
+        company: "Bullnet Capital",
         website: "http://www.bullnetcapital.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/bullnet-capital",
         twitterUrl: "https://twitter.com/bullnetcapital",
@@ -1175,7 +1175,7 @@ export const vcUsa = [
     {
         id: 66,
         title: "Venture Capitalist",
-        industry: "Venture Capital",
+        company: "Venture Capital",
         website: "http://www.abbygroup.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/venture-capital",
         twitterUrl: "",
@@ -1193,7 +1193,7 @@ export const vcUsa = [
     {
         id: 67,
         title: "Venture Capital",
-        industry: "USC Marshall Venture Fund",
+        company: "USC Marshall Venture Fund",
         website: "http://www.usc.edu",
         companyLinkedinUrl: "http://www.linkedin.com/company/uscmvf",
         twitterUrl: "",
@@ -1211,7 +1211,7 @@ export const vcUsa = [
     {
         id: 68,
         title: "Venture Capitalist",
-        industry: "Neu Venture Capital",
+        company: "Neu Venture Capital",
         website: "http://www.neuvc.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/neu-venture-capital",
         twitterUrl: "",
@@ -1229,7 +1229,7 @@ export const vcUsa = [
     {
         id: 69,
         title: "Venture Capital",
-        industry: "Tiger Global Management",
+        company: "Tiger Global Management",
         website: "http://www.tigerglobal.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/tiger-global-management",
         twitterUrl: "",
@@ -1247,7 +1247,7 @@ export const vcUsa = [
     {
         id: 70,
         title: "Venture Partner",
-        industry: "Advantage Capital",
+        company: "Advantage Capital",
         website: "http://www.advantagecap.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/advantagecapital",
         twitterUrl: "http://www.twitter.com/ACPImpact",
@@ -1265,7 +1265,7 @@ export const vcUsa = [
     {
         id: 71,
         title: "Venture Capital",
-        industry: "Medtronic",
+        company: "Medtronic",
         website: "http://www.medtronic.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/medtronic",
         twitterUrl: "https://twitter.com/livongo",
@@ -1283,7 +1283,7 @@ export const vcUsa = [
     {
         id: 72,
         title: "Venture Partner",
-        industry: "Bow Capital",
+        company: "Bow Capital",
         website: "http://www.bowcapital.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/bow-capital",
         twitterUrl: "https://twitter.com/bowcapital",
@@ -1301,7 +1301,7 @@ export const vcUsa = [
     {
         id: 73,
         title: "Venture Partner",
-        industry: "ICONIQ Capital",
+        company: "ICONIQ Capital",
         website: "http://www.iconiqcapital.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/iconiq-capital-llc",
         twitterUrl: "https://twitter.com/ICONIQGrowth",
@@ -1319,7 +1319,7 @@ export const vcUsa = [
     {
         id: 74,
         title: "Venture Partner",
-        industry: "6 Dimensions Capital",
+        company: "6 Dimensions Capital",
         website: "http://www.6dimensionscapital.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/6dimensionscapital",
         twitterUrl: "",
@@ -1337,7 +1337,7 @@ export const vcUsa = [
     {
         id: 75,
         title: "Venture Fellow",
-        industry: "Gigascale Capital",
+        company: "Gigascale Capital",
         website: "http://www.gigascale.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/gigascale",
         twitterUrl: "https://twitter.com/gigascale",
@@ -1355,7 +1355,7 @@ export const vcUsa = [
     {
         id: 76,
         title: "Venture Capital",
-        industry: "Gold House",
+        company: "Gold House",
         website: "http://www.goldhouse.org",
         companyLinkedinUrl: "http://www.linkedin.com/company/goldhouseco",
         twitterUrl: "http://twitter.com/goldhouseco",
@@ -1373,7 +1373,7 @@ export const vcUsa = [
     {
         id: 77,
         title: "Venture Partner",
-        industry: "Hom-E Capital",
+        company: "Hom-E Capital",
         website: "http://www.hom-e.io",
         companyLinkedinUrl: "http://www.linkedin.com/company/hom-e-capital",
         twitterUrl: "",
@@ -1391,7 +1391,7 @@ export const vcUsa = [
     {
         id: 78,
         title: "Venture Partner",
-        industry: "DRADS Capital",
+        company: "DRADS Capital",
         website: "http://www.dradscapital.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/dradscapital",
         twitterUrl: "",
@@ -1409,7 +1409,7 @@ export const vcUsa = [
     {
         id: 79,
         title: "Venture Capital",
-        industry: "Andreessen Horowitz",
+        company: "Andreessen Horowitz",
         website: "http://www.a16z.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/a16z",
         twitterUrl: "https://twitter.com/a16z",
@@ -1427,7 +1427,7 @@ export const vcUsa = [
     {
         id: 80,
         title: "Venture Partner",
-        industry: "Symphonic Capital",
+        company: "Symphonic Capital",
         website: "http://www.symphonic.vc",
         companyLinkedinUrl: "http://www.linkedin.com/company/symphonic-capital",
         twitterUrl: "",
@@ -1445,7 +1445,7 @@ export const vcUsa = [
     {
         id: 81,
         title: "Venture Capital",
-        industry: "Bee Partners",
+        company: "Bee Partners",
         website: "http://www.beepartners.vc",
         companyLinkedinUrl: "http://www.linkedin.com/company/beepartnersvc",
         twitterUrl: "http://twitter.com/beepartners",
@@ -1463,7 +1463,7 @@ export const vcUsa = [
     {
         id: 82,
         title: "Venture Partner",
-        industry: "Volition Capital",
+        company: "Volition Capital",
         website: "http://www.volitioncapital.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/volition-capital",
         twitterUrl: "http://www.twitter.com/volitioncapital",
@@ -1481,7 +1481,7 @@ export const vcUsa = [
     {
         id: 83,
         title: "Venture Partner",
-        industry: "Reach Capital",
+        company: "Reach Capital",
         website: "http://www.reachcapital.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/reach-capital",
         twitterUrl: "https://twitter.com/reachfund",
@@ -1499,7 +1499,7 @@ export const vcUsa = [
     {
         id: 84,
         title: "Venture Capital",
-        industry: "Boost VC",
+        company: "Boost VC",
         website: "http://www.boost.vc",
         companyLinkedinUrl: "http://www.linkedin.com/company/boost-vc",
         twitterUrl: "https://twitter.com/BoostVC",
@@ -1517,7 +1517,7 @@ export const vcUsa = [
     {
         id: 85,
         title: "Venture Partner",
-        industry: "LUCY CAPITAL",
+        company: "LUCY CAPITAL",
         website: "http://www.lucycapital.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/lucycapital",
         twitterUrl: "",
@@ -1535,7 +1535,7 @@ export const vcUsa = [
     {
         id: 86,
         title: "Venture Partner",
-        industry: "Crosslink Capital",
+        company: "Crosslink Capital",
         website: "http://www.crosslinkcapital.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/crosslink-capital",
         twitterUrl: "http://www.twitter.com/CrosslinkCap",
@@ -1553,7 +1553,7 @@ export const vcUsa = [
     {
         id: 87,
         title: "Venture Capitalist",
-        industry: "Arena Capital",
+        company: "Arena Capital",
         website: "http://www.arenarei.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/arenacapital",
         twitterUrl: "",
@@ -1571,7 +1571,7 @@ export const vcUsa = [
     {
         id: 88,
         title: "Venture Partner",
-        industry: "Powerhouse Capital",
+        company: "Powerhouse Capital",
         website: "http://www.powerhouse.vc",
         companyLinkedinUrl: "http://www.linkedin.com/company/powerhousecapital",
         twitterUrl: "",
@@ -1589,7 +1589,7 @@ export const vcUsa = [
     {
         id: 89,
         title: "Venture Partner",
-        industry: "Empactful Capital",
+        company: "Empactful Capital",
         website: "http://www.empactfulcapital.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/empactfulcapital",
         twitterUrl: "https://twitter.com/EmpactfulCap",
@@ -1607,7 +1607,7 @@ export const vcUsa = [
     {
         id: 90,
         title: "Venture Partner",
-        industry: "Paladin Capital Group",
+        company: "Paladin Capital Group",
         website: "http://www.paladincapgroup.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/paladin-capital-group",
         twitterUrl: "http://www.twitter.com/paladincap",
@@ -1625,7 +1625,7 @@ export const vcUsa = [
     {
         id: 91,
         title: "Venture Partner",
-        industry: "Two Bear Capital",
+        company: "Two Bear Capital",
         website: "http://www.twobearcapital.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/twobearcapital",
         twitterUrl: "",
@@ -1643,7 +1643,7 @@ export const vcUsa = [
     {
         id: 92,
         title: "Venture Partner",
-        industry: "Acrew Capital",
+        company: "Acrew Capital",
         website: "http://www.acrewcapital.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/acrew-capital",
         twitterUrl: "https://twitter.com/aCrewCapital",
@@ -1661,7 +1661,7 @@ export const vcUsa = [
     {
         id: 93,
         title: "Venture Partner",
-        industry: "Shield Capital",
+        company: "Shield Capital",
         website: "http://www.shieldcap.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/shieldcap",
         twitterUrl: "https://twitter.com/ShieldCapVC",
@@ -1679,7 +1679,7 @@ export const vcUsa = [
     {
         id: 94,
         title: "Podcaster",
-        industry: "Venture Capital",
+        company: "Venture Capital",
         website: "http://www.venturecapital.fm",
         companyLinkedinUrl: "http://www.linkedin.com/company/venturecapitalfm",
         twitterUrl: "https://twitter.com/vcpodcastfm",
@@ -1697,7 +1697,7 @@ export const vcUsa = [
     {
         id: 95,
         title: "Venture Partner",
-        industry: "Covenant Venture Capital",
+        company: "Covenant Venture Capital",
         website: "http://www.covenantventurecapital.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/covenantventurecapital",
         twitterUrl: "https://twitter.com/covenant_vc",
@@ -1715,7 +1715,7 @@ export const vcUsa = [
     {
         id: 96,
         title: "Venture Partner",
-        industry: "XSeed Capital",
+        company: "XSeed Capital",
         website: "http://www.xseedcap.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/xseed-capital",
         twitterUrl: "http://twitter.com/xseedcapital",
@@ -1733,7 +1733,7 @@ export const vcUsa = [
     {
         id: 97,
         title: "Venture Partner",
-        industry: "Sandalphon Capital",
+        company: "Sandalphon Capital",
         website: "http://www.sandalphoncapital.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/sandalphon-capital",
         twitterUrl: "http://www.twitter.com/sandalphoncap",
@@ -1751,7 +1751,7 @@ export const vcUsa = [
     {
         id: 98,
         title: "Venture Investor",
-        industry: "Initialized Capital",
+        company: "Initialized Capital",
         website: "http://www.initialized.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/initialized-capital",
         twitterUrl: "https://twitter.com/Initialized",
@@ -1769,7 +1769,7 @@ export const vcUsa = [
     {
         id: 99,
         title: "Venture Partner",
-        industry: "Chrome Capital",
+        company: "Chrome Capital",
         website: "http://www.chromecap.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/chrome-capital",
         twitterUrl: "",
@@ -1787,7 +1787,7 @@ export const vcUsa = [
     {
         id: 100,
         title: "Venture Scout",
-        industry: "Beyond Capital",
+        company: "Beyond Capital",
         website: "http://www.joinbeyond.co",
         companyLinkedinUrl: "http://www.linkedin.com/company/joinbeyondcap",
         twitterUrl: "",
@@ -1805,7 +1805,7 @@ export const vcUsa = [
     {
         id: 101,
         title: "Venture Capital",
-        industry: "Columbia Venture Community",
+        company: "Columbia Venture Community",
         website: "http://www.columbia.vc",
         companyLinkedinUrl: "http://www.linkedin.com/company/columbia-venture-community",
         twitterUrl: "",
@@ -1823,7 +1823,7 @@ export const vcUsa = [
     {
         id: 102,
         title: "Venture Capital",
-        industry: "Palm Drive Capital",
+        company: "Palm Drive Capital",
         website: "http://www.palmdrive.vc",
         companyLinkedinUrl: "http://www.linkedin.com/company/palm-drive-ventures",
         twitterUrl: "https://twitter.com/PalmDriveVC",
@@ -1841,7 +1841,7 @@ export const vcUsa = [
     { 
         id: 103,
         title: "Venture Partner",
-        industry: "Youbi Capital",
+        company: "Youbi Capital",
         website: "http://www.youbicapital.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/youbi-capital",
         twitterUrl: "https://twitter.com/youbicapital",
@@ -1859,7 +1859,7 @@ export const vcUsa = [
     { 
         id: 104,
         title: "Venture Partner",
-        industry: "Adjuvant Capital",
+        company: "Adjuvant Capital",
         website: "http://www.adjuvantcapital.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/adjuvant-capital",
         twitterUrl: "https://twitter.com/adjcap",
@@ -1877,7 +1877,7 @@ export const vcUsa = [
     { 
         id: 105,
         title: "Venture Partner",
-        industry: "Alante Capital",
+        company: "Alante Capital",
         website: "http://www.alantecapital.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/alantecapital",
         twitterUrl: "https://twitter.com/AlanteCapital",
@@ -1895,7 +1895,7 @@ export const vcUsa = [
     { 
         id: 106,
         title: "Venture Capital",
-        industry: "New Enterprise Associates (NEA)",
+        company: "New Enterprise Associates (NEA)",
         website: "http://www.nea.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/new-enterprise-associates",
         twitterUrl: "http://www.twitter.com/nea",
@@ -1913,7 +1913,7 @@ export const vcUsa = [
     { 
         id: 107,
         title: "Venture Partner",
-        industry: "Brandon Capital",
+        company: "Brandon Capital",
         website: "http://www.brandoncapital.vc",
         companyLinkedinUrl: "http://www.linkedin.com/company/brandon-capital",
         twitterUrl: "",
@@ -1931,7 +1931,7 @@ export const vcUsa = [
     { 
         id: 108,
         title: "Venture Capital",
-        industry: "Druid Ventures",
+        company: "Druid Ventures",
         website: "http://www.druidventures.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/druid-ventures",
         twitterUrl: "",
@@ -1949,7 +1949,7 @@ export const vcUsa = [
     { 
         id: 109,
         title: "Venture Partner",
-        industry: "RA Capital Management",
+        company: "RA Capital Management",
         website: "http://www.racap.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/ra-capital-management-llc",
         twitterUrl: "",
@@ -1967,7 +1967,7 @@ export const vcUsa = [
     { 
         id: 110,
         title: "Venture Capital",
-        industry: "FJ Labs",
+        company: "FJ Labs",
         website: "http://www.fjlabs.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/fj-labs",
         twitterUrl: "https://twitter.com/fjlabs",
@@ -1985,7 +1985,7 @@ export const vcUsa = [
     { 
         id: 111,
         title: "Venture Capital",
-        industry: "Republic Capital",
+        company: "Republic Capital",
         website: "http://www.republiccapital.co",
         companyLinkedinUrl: "http://www.linkedin.com/company/republic-capital",
         twitterUrl: "",
@@ -2003,7 +2003,7 @@ export const vcUsa = [
     { 
         id: 112,
         title: "Venture Capital",
-        industry: "Stellantis Ventures",
+        company: "Stellantis Ventures",
         website: "http://www.stellantis.ventures",
         companyLinkedinUrl: "http://www.linkedin.com/company/stellantis-ventures",
         twitterUrl: "https://twitter.com/Stellantis",
@@ -2021,7 +2021,7 @@ export const vcUsa = [
     { 
         id: 113,
         title: "Venture Advisor",
-        industry: "MBX Capital",
+        company: "MBX Capital",
         website: "http://www.mbxcapital.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/mbx-capital",
         twitterUrl: "",
@@ -2039,7 +2039,7 @@ export const vcUsa = [
     { 
         id: 114,
         title: "Venture Analyst",
-        industry: "1809 Capital",
+        company: "1809 Capital",
         website: "http://www.1809capital.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/1809-capital",
         twitterUrl: "",
@@ -2057,7 +2057,7 @@ export const vcUsa = [
     { 
         id: 115,
         title: "Venture Capital",
-        industry: "FINTOP Capital",
+        company: "FINTOP Capital",
         website: "http://www.fintopcapital.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/fintop-capital",
         twitterUrl: "",
@@ -2075,7 +2075,7 @@ export const vcUsa = [
     { 
         id: 116,
         title: "Venture Analyst",
-        industry: "Audaz Capital",
+        company: "Audaz Capital",
         website: "http://www.audaz.capital",
         companyLinkedinUrl: "http://www.linkedin.com/company/audazcapital",
         twitterUrl: "",
@@ -2093,7 +2093,7 @@ export const vcUsa = [
     { 
         id: 117,
         title: "Venture Analyst",
-        industry: "Bain Capital",
+        company: "Bain Capital",
         website: "http://www.baincapital.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/bain-capital",
         twitterUrl: "https://twitter.com/baincapital",
@@ -2111,7 +2111,7 @@ export const vcUsa = [
     { 
         id: 118,
         title: "Venture Scout",
-        industry: "Anthos Capital",
+        company: "Anthos Capital",
         website: "http://www.anthoscapital.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/anthos-capital",
         twitterUrl: "https://twitter.com/anthoscapital",
@@ -2129,7 +2129,7 @@ export const vcUsa = [
     { 
         id: 119,
         title: "Venture Associate",
-        industry: "Capital Innovators",
+        company: "Capital Innovators",
         website: "http://www.capitalinnovators.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/capital-innovators",
         twitterUrl: "http://twitter.com/@CapInnovators",
@@ -2147,7 +2147,7 @@ export const vcUsa = [
     { 
         id: 120,
         title: "Venture Partner",
-        industry: "Graudenz Capital",
+        company: "Graudenz Capital",
         website: "http://www.graudenzcapital.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/graudenz-capital",
         twitterUrl: "",
@@ -2165,7 +2165,7 @@ export const vcUsa = [
     { 
         id: 121,
         title: "Venture Partner",
-        industry: "Navitas Capital",
+        company: "Navitas Capital",
         website: "http://www.navitascap.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/navitas-capital-llc",
         twitterUrl: "https://twitter.com/navitascapital",
@@ -2183,7 +2183,7 @@ export const vcUsa = [
     { 
         id: 122,
         title: "Venture Fellow",
-        industry: "Soma Capital",
+        company: "Soma Capital",
         website: "http://www.somacap.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/somacapital",
         twitterUrl: "",
@@ -2201,7 +2201,7 @@ export const vcUsa = [
     { 
         id: 123,
         title: "Venture Capital",
-        industry: "Asset Management Company",
+        company: "Asset Management Company",
         website: "http://www.amcfamilyoffice.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/asset-management-company",
         twitterUrl: "",
@@ -2219,7 +2219,7 @@ export const vcUsa = [
     { 
         id: 124,
         title: "Venture Partner",
-        industry: "Vensana Capital",
+        company: "Vensana Capital",
         website: "http://www.vensanacap.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/vensana-capital",
         twitterUrl: "https://twitter.com/vensanacapital",
@@ -2237,7 +2237,7 @@ export const vcUsa = [
     { 
         id: 125,
         title: "Venture Partner",
-        industry: "Sands Capital",
+        company: "Sands Capital",
         website: "http://www.sandscapital.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/sands-capital-management",
         twitterUrl: "",
