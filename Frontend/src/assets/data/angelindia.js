@@ -2253,6 +2253,7 @@ export const  angelindia= [
         currentFundCorpus: "50000000",
         TotalFundCorpus: "50000000"
     },
+    
 ];
 
 export default angelindia;
