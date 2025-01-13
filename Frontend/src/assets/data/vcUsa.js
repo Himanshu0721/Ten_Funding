@@ -13,9 +13,9 @@ export const vcUsa = [
         twitterUrl: "https://twitter.com/IFC_org",
         companyoverview: "A strong and engaged private sector is indispensible to ending extreme poverty and boosting shared prosperity. That's where IFC comes in - we have more than 60 years experience in unlocking private investment, creating markets and opportunities where they are needed most.",
         country: "United States",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "50k-250k",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "50k-250k",
         currentFundCorpus: "125000",
         TotalFundCorpus: "500000",
         logo: InternationalFinanceCorporation, 
@@ -33,9 +33,9 @@ export const vcUsa = [
         TotalFundCorpus: "42000000",
          
         currentFundCorpus: "42000000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "50k-250k",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "50k-250k",
         logo: "Venture Partner",
 },
     {
@@ -50,9 +50,9 @@ export const vcUsa = [
         companyoverview: "Eurazeo investment group, asset management in private markets, asset management, equity investment, private investment fund, private equity. Eurazeo helps businesses develop.",
         TotalFundCorpus: "4850315000",         
         currentFundCorpus: "449540000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "50k-250k",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "50k-250k",
         logo: "https://www.eurazeo.com/themes/custom/eurazeo/logo.svg",
     },
     {
@@ -67,9 +67,9 @@ export const vcUsa = [
         companyoverview: "RevTech Labs Capital is a venture fund based in Charlotte, NC. Our investment thesis focuses on post-revenue, Fintech/Insurtech startups from around the globe. Average investment size is $200-$400k. RTL Capital has a strategic investment partnership with the RTL Foundation & Accelerator Program.",
         TotalFundCorpus: "5700000",         
         currentFundCorpus: "2100000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "50k-250k",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "50k-250k",
         logo: "https://static.wixstatic.com/media/776fbd_ae2d2c5723dc4e4eafe24181ee45b473~mv2.png/v1/crop/x_0,y_133,w_500,h_221/fill/w_206,h_91,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Copy%20of%20RevTech%20Labs%20Logos-2.png",
     },
     {
@@ -84,9 +84,9 @@ export const vcUsa = [
         companyoverview: "Want to be part of the Hermès adventure? Hermès is an independent house founded in 1837. It has always nurtured a family spirit while keeping an open mind.",
         TotalFundCorpus: "6000000",         
         currentFundCorpus: "420000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "50k-250k",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "50k-250k",
         logo: "Venture Capital",
     },
     {
@@ -101,9 +101,9 @@ export const vcUsa = [
         companyoverview: "CRG Capital Partners is a team-oriented private equity firm with a vision of assisting entrepreneurs in the identification and execution of successful long-term value creation strategies.",
         TotalFundCorpus: "600000",         
         currentFundCorpus: "420000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "50k-250k",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "50k-250k",
         logo: "Nosara Capital",
     },
     {
@@ -119,9 +119,9 @@ export const vcUsa = [
         TotalFundCorpus: "600000",
          
         currentFundCorpus: "420000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "50k-250k",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "50k-250k",
         logo: "https://dst-global.com/i/logo.svg",
     },
     {
@@ -137,9 +137,9 @@ export const vcUsa = [
         TotalFundCorpus: "4796540000",
          
         currentFundCorpus: "96540000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "50k-250k",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "50k-250k",
         logo: "https://www.stepstonegroup.com/wp-content/uploads/2023/06/stepstone-logo.svg",
     },
     {
@@ -155,9 +155,9 @@ export const vcUsa = [
         TotalFundCorpus: "4375000000",
          
         currentFundCorpus: "1150000000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "50k-250k",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "50k-250k",
         logo: "Venture Associate",
     },
     {
@@ -173,9 +173,9 @@ export const vcUsa = [
         TotalFundCorpus: "68000000",
          
         currentFundCorpus: "68000000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "50k-250k",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "50k-250k",
         logo: "https://cdn.prod.website-files.com/5ffade5e63870fa2c0e7dc87/5ffd98a3d46bbe6dbbbfed90_Logo.svg",
     },
     {
@@ -191,9 +191,9 @@ export const vcUsa = [
         TotalFundCorpus: "600000",
          
         currentFundCorpus: "960000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "250k-500k",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "250k-500k",
         logo: "https://cdn.prod.website-files.com/625b40f0881bd61039bf2c2a/6264d2ce58a08c04ebe08d5e_Healthspan%20Capital%20logo%20%2B%20wordmark%20(3)-p-500.png",
     },
     {
@@ -209,9 +209,9 @@ export const vcUsa = [
         TotalFundCorpus: "271964646",
          
         currentFundCorpus: "158000000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "250k-500k",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "250k-500k",
         logo: "https://glasswing.vc/wp-content/themes/glasswing/img/logo-home-dark.svg",
     },
     {
@@ -227,9 +227,9 @@ export const vcUsa = [
         TotalFundCorpus: "400000",
          
         currentFundCorpus: "960000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "250k-500k",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "250k-500k",
         logo: "https://cdn.prod.website-files.com/6230f33814a11df2d262cc18/6259dba38956fdcc47d853b9_Chisos_Capital_horizontal-p-500.png",
     },
     {
@@ -244,9 +244,9 @@ export const vcUsa = [
         companyoverview: "Cambrian is developing a raft of new companies and therapies to extend healthy lifespan, bringing proven scientific and organizational expertise to exceptional research teams worldwide.",
         TotalFundCorpus: "193184938",
         currentFundCorpus: "100000000",
-        Stagefocus: "Series C",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "250k-500k",
+        stageFocus: "Series C",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "250k-500k",
         logo: "Venture Capital",
     },
     {
@@ -262,9 +262,9 @@ export const vcUsa = [
         TotalFundCorpus: "12400000000",
          
         currentFundCorpus: "3800000000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "250k-500k",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "250k-500k",
         logo: "https://www.battery.com/wp-content/uploads/2021/02/Battery-Logo-White.svg",
     },
     {
@@ -280,9 +280,9 @@ export const vcUsa = [
         TotalFundCorpus: "400000",
          
         currentFundCorpus: "960000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "250k-500k",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "250k-500k",
         logo: "https://akunacapital.com/wp-content/uploads/2019/01/logo_registered_sm.png",
     },
     {
@@ -298,9 +298,9 @@ export const vcUsa = [
         TotalFundCorpus: "25000000",
          
         currentFundCorpus: "25000000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "250k-500k",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "250k-500k",
         logo: "Venture Partner",
     },
     {
@@ -315,9 +315,9 @@ export const vcUsa = [
         companyoverview: "Rubicon Venture Capital is a bi-coastal San Francisco – New York fund focused on backing software and internet technology companies at the Late Seed, Series A and B stages.We are backed by a diverse set of value added LP investors including high-net worth individuals, family offices, corporates and institutional LPs located worldwide. We enable our LPs to co-invest with our fund all the way to exit via our sidecar vehicles. This provides our LPs with access to select late stage investment opportunities and continued financial support for our portfolio companies.",
         TotalFundCorpus: "20992502",
         currentFundCorpus: "20992502",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "250k-500k",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "250k-500k",
         logo: "https://static.wixstatic.com/media/82c368_cea62d4ac74940b68f2c152cf1847200~mv2.jpeg/v1/fill/w_138,h_43,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Rubicon-Logo1.jpeg",
     },
     {
@@ -333,9 +333,9 @@ export const vcUsa = [
         TotalFundCorpus: "25000000",
          
         currentFundCorpus: "25000000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "250k-500k",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "250k-500k",
         logo: "https://irp.cdn-website.com/674f322b/dms3rep/multi/raiven-logo-35ba90a4.svg",
     },
     {
@@ -351,9 +351,9 @@ export const vcUsa = [
         TotalFundCorpus: "400000",
          
         currentFundCorpus: "960000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "250k-500k",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "250k-500k",
         logo: "https://crescera.com/wp-content/themes/crescerainvest/images/crescera-logo-2.png",
     },
     {
@@ -369,9 +369,9 @@ export const vcUsa = [
         TotalFundCorpus: "500000",
          
         currentFundCorpus: "230000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "250k-500k",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "250k-500k",
         logo: "https://valleycapital.vc/wp-content/uploads/2024/06/VCP-01-scaled-160x71.webp",
     },
     {
@@ -387,9 +387,9 @@ export const vcUsa = [
         TotalFundCorpus: "92756800",
          
         currentFundCorpus: "45356800",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "100K - 500K",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "100K - 500K",
         logo: "Nina.Capital",
     },
     {
@@ -405,9 +405,9 @@ export const vcUsa = [
         TotalFundCorpus: "500000",
          
         currentFundCorpus: "230000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "100K - 500K",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "100K - 500K",
         logo: "https://www.shine.vc/sc-standard-black-crop-l.png",
     },
     {
@@ -423,9 +423,9 @@ export const vcUsa = [
         TotalFundCorpus: "500000",
          
         currentFundCorpus: "230000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "100K - 500K",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "100K - 500K",
         logo: "https://cdn.prod.website-files.com/673f6ad24c753ca59de60d7a/673f6ad24c753ca59de60da8_Header%20Logo%20(1).svg",
     },
     {
@@ -441,9 +441,9 @@ export const vcUsa = [
         TotalFundCorpus: "20000000",
          
         currentFundCorpus: "20000000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "100K - 500K",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "100K - 500K",
         logo: "https://images.squarespace-cdn.com/content/v1/6052246735384022a22f22f7/1615996803815-ITIDKQ5N16HI3AK5B3H3/SANCTOR_CAPITAL_MAIN_LOGO_TRANSPARENT.png?format=1500w",
     },
     {
@@ -459,9 +459,9 @@ export const vcUsa = [
         TotalFundCorpus: "500000",
          
         currentFundCorpus: "230000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "100K - 500K",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "100K - 500K",
         logo: "https://www.otiumcapital.com/wp-content/uploads/2024/05/otium-logo-light.svg",
     },
     {
@@ -477,9 +477,9 @@ export const vcUsa = [
         TotalFundCorpus: "800000",
          
         currentFundCorpus: "250000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "100K - 500K",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "100K - 500K",
         logo: "https://singularitycapital.us/wp-content/uploads/2023/04/Singularity_Logo.png",
     },
     {
@@ -495,9 +495,9 @@ export const vcUsa = [
         TotalFundCorpus: "80000000",
          
         currentFundCorpus: "250000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "100K - 500K",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "100K - 500K",
         logo: "https://elevate.vc/wp-content/uploads/2019/08/Elevate_Logo_White-1-e1565746717886.png.webp",
     },
     {
@@ -512,9 +512,9 @@ export const vcUsa = [
         companyoverview: "We see an opportunity to expand the global ownership graph so that everyone has the opportunity to own a portion of what they build. That’s why we built the infrastructure to make it as cheap and easy to issue equity as it is to run payroll. It’s why we’re lowering the barriers to start investing through software. And it’s why we will always provide the education and tools necessary for owners everywhere. We believe that by providing the infrastructure that fuels innovation, we lower the barriers to entry and move the world forward into an era of ownership.",
         TotalFundCorpus: "1335999538",
         currentFundCorpus: "500000000",
-        Stagefocus: "Series G",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "100K - 500K",
+        stageFocus: "Series G",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "100K - 500K",
         logo: "Carta",
     },
     {
@@ -530,9 +530,9 @@ export const vcUsa = [
         TotalFundCorpus: "285754025",
          
         currentFundCorpus: "200000000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "100K - 500K",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "100K - 500K",
         logo: "https://www.pappas-capital.com/wp-content/uploads/2019/12/pappas_logo_web.jpg",
     },
     {
@@ -548,9 +548,9 @@ export const vcUsa = [
         TotalFundCorpus: "800000",
          
         currentFundCorpus: "250000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "100K - 500K",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "100K - 500K",
         logo: "https://static.wixstatic.com/media/102361_a9a3e097368a465b965215aec5cec77b~mv2.png/v1/fill/w_375,h_126,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Aphelion-Edited_d400_PNG.png",
     },
     {
@@ -566,9 +566,9 @@ export const vcUsa = [
         TotalFundCorpus: "800000",
          
         currentFundCorpus: "250000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "100K - 500K",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "100K - 500K",
         logo: "https://images.squarespace-cdn.com/content/v1/62b5eda255f9940094bf5de2/b3c81f34-7419-479a-ac53-5b89c18d5571/No+background.png?format=1500w",
     },
     {
@@ -584,9 +584,9 @@ export const vcUsa = [
         TotalFundCorpus: "800000",
          
         currentFundCorpus: "250000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "100K - 500K",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "100K - 500K",
         logo: illinois,
     },
     {
@@ -602,9 +602,9 @@ export const vcUsa = [
         TotalFundCorpus: "800000",
          
         currentFundCorpus: "270000",
-        Stagefocus: "Seed , Series A",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "100K - 500K",
+        stageFocus: "Seed , Series A",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "100K - 500K",
         logo: "https://images.squarespace-cdn.com/content/v1/632eeb517d54275becc94546/e8f4ead6-19e0-442f-85fa-dda8c041b0ca/tc-logo.png?format=1500w",
     },
     {
@@ -620,9 +620,9 @@ export const vcUsa = [
         TotalFundCorpus: "700000",
          
         currentFundCorpus: "270000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "200K - 5M",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "200K - 5M",
         logo: "Venture Partner",
     },
     {
@@ -638,9 +638,9 @@ export const vcUsa = [
         TotalFundCorpus: "937390000",
          
         currentFundCorpus: "500000000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "200K - 5M",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "200K - 5M",
         logo: "https://colcap.com/wp-content/themes/colcap/static/img/logo-white.svg",
     },
     {
@@ -656,9 +656,9 @@ export const vcUsa = [
         TotalFundCorpus: "700000",
          
         currentFundCorpus: "270000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "200K - 5M",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "200K - 5M",
         logo: "https://www.decentcapital.com/image/nav-logo-gray.png",
     },
     {
@@ -674,9 +674,9 @@ export const vcUsa = [
         TotalFundCorpus: "700000",
          
         currentFundCorpus: "270000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "200K - 5M",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "200K - 5M",
         logo: "Ludis Capital",
     },
     {
@@ -692,9 +692,9 @@ export const vcUsa = [
         TotalFundCorpus: "625000000",
          
         currentFundCorpus: "325000000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "200K - 5M",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "200K - 5M",
         logo: "Galaxy",
     },
     {
@@ -710,9 +710,9 @@ export const vcUsa = [
         TotalFundCorpus: "700000",
          
         currentFundCorpus: "270000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "200K - 5M",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "200K - 5M",
         logo: "https://images.squarespace-cdn.com/content/v1/57ed9839ebbd1ad3d613fb5c/1531840075337-XHUY13AWLQNWV3ZBDUN9/Counterview+Capital+Logo.png?format=750w",
     },
     {
@@ -728,9 +728,9 @@ export const vcUsa = [
         TotalFundCorpus: "700000",
          
         currentFundCorpus: "270000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "200K - 5M",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "200K - 5M",
         logo: "https://cdn.prod.website-files.com/6581b43884b98b6628f7bf55/6581b43884b98b6628f7bf5e_logo-white.svg.webp",
     },
     {
@@ -746,9 +746,9 @@ export const vcUsa = [
         TotalFundCorpus: "700000",
          
         currentFundCorpus: "290000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "200K - 5M",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "200K - 5M",
         logo: "Decheng Capital",
     },
     {
@@ -764,9 +764,9 @@ export const vcUsa = [
         TotalFundCorpus: "900000",
          
         currentFundCorpus: "290000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "200K - 5M",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "200K - 5M",
         logo: "https://static.wixstatic.com/media/d0ab5a_929f1f93cc4340b2ad3f0911f4f8a431~mv2.png/v1/fill/w_375,h_85,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/White%20logo%20-%20no%20background.png",
     },
     {
@@ -782,9 +782,9 @@ export const vcUsa = [
         TotalFundCorpus: "900000",
          
         currentFundCorpus: "290000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "200K - 5M",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "200K - 5M",
         logo: "https://morningside.com/Logo.png",
     },
     {
@@ -800,9 +800,9 @@ export const vcUsa = [
         TotalFundCorpus: "900000",
          
         currentFundCorpus: "290000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "200K - 5M",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "200K - 5M",
         logo: "https://static.wixstatic.com/media/2c2823_387cdc9cbdd1444f959f4f84fe65e7fb~mv2.png/v1/fill/w_1213,h_276,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/all%20logos_MorrisonSeger-03.png",
     },
     {
@@ -818,9 +818,9 @@ export const vcUsa = [
         TotalFundCorpus: "900000",
          
         currentFundCorpus: "290000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "200K - 5M",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "200K - 5M",
         logo: "https://www.groovecap.com/hs-fs/hubfs/Logos/groovecap_logo_white-topspace.png?width=1500&height=747&name=groovecap_logo_white-topspace.png",
     },
     {
@@ -836,9 +836,9 @@ export const vcUsa = [
         TotalFundCorpus: "148673000",
          
         currentFundCorpus: "105348000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "200K - 5M",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "200K - 5M",
         logo: "https://revo.vc/wp-content/uploads/2022/08/Revo-Logo-White.svg",
     },
     {
@@ -854,9 +854,9 @@ export const vcUsa = [
         TotalFundCorpus: "137971601",
          
         currentFundCorpus: "34186880",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "200K - 5M",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "200K - 5M",
         logo: "https://ffvc.com/wp-content/uploads/2020/11/cropped-ffVCLogoFullNameWhiteTextGreenBox-1-2.png",
     },
     {
@@ -872,9 +872,9 @@ export const vcUsa = [
         TotalFundCorpus: "900000",
          
         currentFundCorpus: "290000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "200K - 5M",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "200K - 5M",
         logo: "https://tccommunity.org/wp-content/uploads/2021/01/Investors-in-Human-Flourishing-Black-Logo101113.png",
     },
     {
@@ -890,9 +890,9 @@ export const vcUsa = [
         TotalFundCorpus: "26449723",
          
         currentFundCorpus: "26449723",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "500K - 1M",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "500K - 1M",
         logo: "https://cdn.prod.website-files.com/61bb50c5244ca2aa1cc32249/61ce12ad8d36f16ed9b968be_NewLegacy_2020Logo-01.svg",
     },
     {
@@ -908,9 +908,9 @@ export const vcUsa = [
         TotalFundCorpus: "835000000",
          
         currentFundCorpus: "340000000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "500K - 1M",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "500K - 1M",
         logo: "https://www.bairdcapital.com/globalassets/baird-logo-2022.svg",
     },
     {
@@ -926,9 +926,9 @@ export const vcUsa = [
         TotalFundCorpus: "274800000",
          
         currentFundCorpus: "137400000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "500K - 1M",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "500K - 1M",
         logo: "Translink Capital",
     },
     {
@@ -944,9 +944,9 @@ export const vcUsa = [
         TotalFundCorpus: "900000",
          
         currentFundCorpus: "290000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "500K - 1M",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "500K - 1M",
         logo: "https://www.smarthealthcatalyzer.com/uploads/5/1/4/6/51460615/published/shc-logo.png?1658078319",
     },
     {
@@ -961,9 +961,9 @@ export const vcUsa = [
         companyoverview: "Hewlett Packard Pathfinder",
         TotalFundCorpus: "35000000",
         currentFundCorpus: "20000000",
-        Stagefocus: "Series C",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "500K - 1M",
+        stageFocus: "Series C",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "500K - 1M",
         logo: "Hewlett Packard Enterprise",
     },
     {
@@ -979,9 +979,9 @@ export const vcUsa = [
         TotalFundCorpus: "148700000",
          
         currentFundCorpus: "107000000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "500K - 1M",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "500K - 1M",
         logo: "https://images.squarespace-cdn.com/content/v1/56c2b40e40261d0fad427da3/1457323946894-VBC1MEQTV7HP6VSF7XIB/Walden-VC-Sprout-Stage-logo300.png?format=1500w",
     },
     {
@@ -997,9 +997,9 @@ export const vcUsa = [
         TotalFundCorpus: "1730766055",
          
         currentFundCorpus: "950000000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "500K - 1M",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "500K - 1M",
         logo: "Emergence",
     },
     {
@@ -1015,9 +1015,9 @@ export const vcUsa = [
         TotalFundCorpus: "2600000",
          
         currentFundCorpus: "2600000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "500K - 1M",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "500K - 1M",
         logo: "https://mighty.capital/wp-content/uploads/2024/10/logo.svg",
     },
     {
@@ -1033,9 +1033,9 @@ export const vcUsa = [
         TotalFundCorpus: "595117809",
          
         currentFundCorpus: "158000000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "500K - 1M",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "500K - 1M",
         logo: "https://coinfund.io/wp-content/uploads/2023/07/CoinFund.svg",
     },
     {
@@ -1051,9 +1051,9 @@ export const vcUsa = [
         TotalFundCorpus: "5000000",
          
         currentFundCorpus: "5000000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "500K - 1M",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "500K - 1M",
         logo: "Acero Capital",
     },
     {
@@ -1069,9 +1069,9 @@ export const vcUsa = [
         TotalFundCorpus: "600000",
          
         currentFundCorpus: "130000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "500K - 1M",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "500K - 1M",
         logo: "https://images.squarespace-cdn.com/content/v1/5fe4dfa71cadc734f7f4ade8/1608835963098-7E3XYT3LKWYKDZ008GN3/Trailhead+Capital+Logo.png?format=1500w",
     },
     {
@@ -1087,9 +1087,9 @@ export const vcUsa = [
         TotalFundCorpus: "600000",
          
         currentFundCorpus: "130000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "500K - 1M",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "500K - 1M",
         logo: "FINCYNC",
     },
     {
@@ -1105,9 +1105,9 @@ export const vcUsa = [
         TotalFundCorpus: "600000",
          
         currentFundCorpus: "130000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "500K - 1M",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "500K - 1M",
         logo: "Healthworx",
     },
     {
@@ -1122,9 +1122,9 @@ export const vcUsa = [
         companyoverview: "Our founders experienced first-hand the shift that was taking place in venture and came together with a clear view of what was needed in the industry: an institutional-grade intermediary to help investors access the opportunity presented by emerging managers, and create a way to support those managers in the process.",
         TotalFundCorpus: "3600000",
         currentFundCorpus: "3600000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "500K - 1M",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "500K - 1M",
         logo: "https://recastcap.wpenginepowered.com/wp-content/themes/recast-sightbox/assets/images/recast-logo-1.svg",
     },
     {
@@ -1140,9 +1140,9 @@ export const vcUsa = [
         TotalFundCorpus: "47041667",
          
         currentFundCorpus: "47041667",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "300K - 500K",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "300K - 500K",
         logo: "https://morphic-images.s3.us-east-2.amazonaws.com/99/G_W_OCA_Logo_cb5cdae803.svg",
     },
     {
@@ -1158,9 +1158,9 @@ export const vcUsa = [
         TotalFundCorpus: "600000",
          
         currentFundCorpus: "130000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "300K - 500K",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "300K - 500K",
         logo: "https://bullnetcapital.com/wp-content/uploads/2017/07/logo-bullnet-200.png",
     },
     {
@@ -1176,9 +1176,9 @@ export const vcUsa = [
         TotalFundCorpus: "600000",
          
         currentFundCorpus: "130000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "300K - 500K",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "300K - 500K",
         logo: "https://abernathygroupfamilyoffice.com/wp-content/uploads/2024/02/Abernathy-Small-Logo-4.png",
     },
     {
@@ -1194,9 +1194,9 @@ export const vcUsa = [
         TotalFundCorpus: "600000",
          
         currentFundCorpus: "145000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "300K - 500K",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "300K - 500K",
         logo: "Wildfires",
     },
     {
@@ -1212,9 +1212,9 @@ export const vcUsa = [
         TotalFundCorpus: "400000",
          
         currentFundCorpus: "145000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "300K - 500K",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "300K - 500K",
         logo: "Neu venture Capital",
     },
     {
@@ -1230,9 +1230,9 @@ export const vcUsa = [
         TotalFundCorpus: "23953900381",
          
         currentFundCorpus: "2700000000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "300K - 500K",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "300K - 500K",
         logo: "https://www.tigerglobal.com/Templates/TigerGlobal/media/logo.png",
     },
     {
@@ -1248,9 +1248,9 @@ export const vcUsa = [
         TotalFundCorpus: "231500000",
          
         currentFundCorpus: "154500000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "300K - 500K",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "300K - 500K",
         logo: "https://cdn.prod.website-files.com/5e85156df6f6ed17353cd77a/65b838dda3ccbafa020d1418_Advantage%20Capital%20Header%20Logo-08-08-p-500.png",
     },
     {
@@ -1265,9 +1265,9 @@ export const vcUsa = [
         companyoverview: "The EleVision™ IR platform — including the VS3 Iridium system with microscope and endoscopes — enables real-time assessment of tissue perfusion in open and laparoscopic procedures.",
         TotalFundCorpus: "3488524500",
         currentFundCorpus: "3444024500",
-        Stagefocus: "Debt",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "300K - 500K",
+        stageFocus: "Debt",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "300K - 500K",
         logo: "https://www.medtronic.com/content/dam/medtronic-com/medtronic75.svg",
     },
     {
@@ -1283,9 +1283,9 @@ export const vcUsa = [
         TotalFundCorpus: "400000",
          
         currentFundCorpus: "145000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "300K - 500K",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "300K - 500K",
         logo: "https://bowcapital.com/wp-content/uploads/2021/12/logo-156px@1x.png",
     },
     {
@@ -1301,9 +1301,9 @@ export const vcUsa = [
         TotalFundCorpus: "3764107050",
          
         currentFundCorpus: "3750000000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "300K - 500K",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "300K - 500K",
         logo: "ICONIQ",
     },
     {
@@ -1319,9 +1319,9 @@ export const vcUsa = [
         TotalFundCorpus: "400000",
          
         currentFundCorpus: "145000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "300K - 500K",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "300K - 500K",
         logo: "http://www.6dimensionscapital.com/assets/img/logo/logo02.svg",
     },
     {
@@ -1337,9 +1337,9 @@ export const vcUsa = [
         TotalFundCorpus: "400000",
          
         currentFundCorpus: "145000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "300K - 500K",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "300K - 500K",
         logo: "https://gigascale.com/wp-content/uploads/2022/09/Gigascale-Logo-r2.svg",
     },
     {
@@ -1355,9 +1355,9 @@ export const vcUsa = [
         TotalFundCorpus: "30000000",
          
         currentFundCorpus: "30000000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "250K - 500K",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "250K - 500K",
         logo: "https://goldhouse.org/wp-content/uploads/2023/05/GH_Logo_F_HORIZONTAL-WORDMARK-450x76.png",
     },
     {
@@ -1373,9 +1373,9 @@ export const vcUsa = [
         TotalFundCorpus: "400000",
          
         currentFundCorpus: "145000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "250K - 500K",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "250K - 500K",
         logo: "https://www.hom-e.io/images/home_btn.png",
     },
     {
@@ -1391,9 +1391,9 @@ export const vcUsa = [
         TotalFundCorpus: "890000",
          
         currentFundCorpus: "156000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "250K - 500K",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "250K - 500K",
         logo: "https://dradscapital.com/wp-content/uploads/2023/01/DRADS-CAPITAL.svg",
     },
     {
@@ -1409,9 +1409,9 @@ export const vcUsa = [
         TotalFundCorpus: "21850000000",
          
         currentFundCorpus: "4500000000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "250K - 500K",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "250K - 500K",
         logo: "andreessen horowitz",
     },
     {
@@ -1427,9 +1427,9 @@ export const vcUsa = [
         TotalFundCorpus: "890000",
          
         currentFundCorpus: "156000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "250K - 500K",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "250K - 500K",
         logo: "https://cdn.prod.website-files.com/64492538d8b32b7d8608ac81/64492b573cf82314219f8a04_Frame%2020.svg",
     },
     {
@@ -1445,9 +1445,9 @@ export const vcUsa = [
         TotalFundCorpus: "99336793",
          
         currentFundCorpus: "40431793",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "250K - 500K",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "250K - 500K",
         logo: "Bee.",
     },
     {
@@ -1463,9 +1463,9 @@ export const vcUsa = [
         TotalFundCorpus: "1525000000",
          
         currentFundCorpus: "675000000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "250K - 500K",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "250K - 500K",
         logo: "VOLITION CAPITAL",
     },
     {
@@ -1481,9 +1481,9 @@ export const vcUsa = [
         TotalFundCorpus: "380000000",
          
         currentFundCorpus: "215000000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "250K - 500K",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "250K - 500K",
         logo: "https://www.reachcapital.com/wp-content/themes/reach-capital-theme/images/logo-reach-capital.svg",
     },
     {
@@ -1499,9 +1499,9 @@ export const vcUsa = [
         TotalFundCorpus: "75628000",
          
         currentFundCorpus: "40000000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "250K - 500K",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "250K - 500K",
         logo: "https://cdn.prod.website-files.com/6645316fe16d922afe4494f3/66e0d6085c9fdee3c455f345_boostwhitelogo-p-500.png",
     },
     {
@@ -1517,9 +1517,9 @@ export const vcUsa = [
         TotalFundCorpus: "890000",
          
         currentFundCorpus: "156000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "250K - 500K",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "250K - 500K",
         logo: "https://images.squarespace-cdn.com/content/v1/611e7300d2635b6cb9de5142/e941fb6e-0986-4e0b-b4d8-0647946ace4c/LUCY+CAPITAL+%281%29-1.png?format=1500w",
     },
     {
@@ -1535,9 +1535,9 @@ export const vcUsa = [
         TotalFundCorpus: "1010901784",
          
         currentFundCorpus: "35000000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "250K - 500K",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "250K - 500K",
         logo: "https://www.crosslinkcapital.com/wp-content/themes/crosslinkcapitalwptheme/images/logo.svg",
     },
     {
@@ -1553,9 +1553,9 @@ export const vcUsa = [
         TotalFundCorpus: "890000",
          
         currentFundCorpus: "156000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "250K - 500K",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "250K - 500K",
         logo: "https://arenarei.com/wp-content/uploads/2023/02/arena-logo-1.webp",
     },
     {
@@ -1571,9 +1571,9 @@ export const vcUsa = [
         TotalFundCorpus: "75000000",
          
         currentFundCorpus: "75000000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "250K - 500K",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "250K - 500K",
         logo: "https://powerhouse.vc/wp-content/uploads/2022/04/Powerhouse-logo-icon.png",
     },
     {
@@ -1589,9 +1589,9 @@ export const vcUsa = [
         TotalFundCorpus: "520000",
          
         currentFundCorpus: "156000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "50K - 250K",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "50K - 250K",
         logo: "https://static.wixstatic.com/media/ca9ca7_770ce08b19d84998847352abcde5be76~mv2.png/v1/crop/x_36,y_0,w_828,h_300/fill/w_273,h_100,al_c,q_85,usm_4.00_1.00_0.00,enc_avif,quality_auto/Empactful%20Captial%20Graphics%20%26%20Logos%20(3).png",
     },
     {
@@ -1607,9 +1607,9 @@ export const vcUsa = [
         TotalFundCorpus: "372000000",
          
         currentFundCorpus: "372000000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "50K - 250K",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "50K - 250K",
         logo: "https://www.paladincapgroup.com/wp-content/uploads/2015/12/PCG-logo.png",
     },
     {
@@ -1625,9 +1625,9 @@ export const vcUsa = [
         TotalFundCorpus: "520000",
          
         currentFundCorpus: "156000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "50K - 250K",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "50K - 250K",
         logo: "https://cdn.prod.website-files.com/64f8e710e00c54b933c5a072/65148dc87ffbb5610eadedcc_Two%20Bear%20Capital%20Logo%20-p-500.png",
     },
     {
@@ -1643,9 +1643,9 @@ export const vcUsa = [
         TotalFundCorpus: "930000000",
          
         currentFundCorpus: "680000000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "50K - 250K",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "50K - 250K",
         logo: "Crew",
     },
     {
@@ -1661,9 +1661,9 @@ export const vcUsa = [
         TotalFundCorpus: "125000000",
          
         currentFundCorpus: "125000000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "50K - 250K",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "50K - 250K",
         logo: "https://images.squarespace-cdn.com/content/v1/60a80ca49bd6bb2e50bb53a9/4be05ed7-1f8e-40fd-8470-0c870c621854/graphic-shield-circle.png?format=1500w",
     },
     {
@@ -1679,9 +1679,9 @@ export const vcUsa = [
         TotalFundCorpus: "520000",
          
         currentFundCorpus: "156000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "50K - 250K",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "50K - 250K",
         logo: "VENTURE CAPITAL",
     },
     {
@@ -1697,9 +1697,9 @@ export const vcUsa = [
         TotalFundCorpus: "520000",
          
         currentFundCorpus: "178000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "50K - 250K",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "50K - 250K",
         logo: "https://www.covenantventurecapital.com/hs-fs/hubfs/Covenant_Logo%20Dark%20Backgrounds.png?width=2551&height=660&name=Covenant_Logo%20Dark%20Backgrounds.png",
     },
     {
@@ -1715,9 +1715,9 @@ export const vcUsa = [
         TotalFundCorpus: "320000",
          
         currentFundCorpus: "178000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "50K - 250K",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "50K - 250K",
         logo: "https://xseedcap.com/wp-content/themes/xseed/library/images/xseed-logo.png",
     },
     {
@@ -1733,9 +1733,9 @@ export const vcUsa = [
         TotalFundCorpus: "320000",
          
         currentFundCorpus: "178000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "50K - 250K",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "50K - 250K",
         logo: "https://sandalphoncapital.com/wp-content/uploads/2018/06/Sandalphon_Google.png",
     },
     {
@@ -1751,9 +1751,9 @@ export const vcUsa = [
         TotalFundCorpus: "700000000",
          
         currentFundCorpus: "230000000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "50K - 250K",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "50K - 250K",
         logo: "initialized",
     },
     {
@@ -1769,9 +1769,9 @@ export const vcUsa = [
         TotalFundCorpus: "320000",
          
         currentFundCorpus: "178000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "50K - 250K",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "50K - 250K",
         logo: "https://chromecap.com/wp-content/uploads/2024/03/chrome-capital-logo.svg",
     },
     {
@@ -1787,9 +1787,9 @@ export const vcUsa = [
         TotalFundCorpus: "320000",
          
         currentFundCorpus: "178000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "50K - 250K",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "50K - 250K",
         logo: "https://cdn.prod.website-files.com/635a7c6ac66f9dcf064554ec/6368eb6b77c48f5ec41d5d64_Beyond%20brand%20logo-p-500.png",
     },
     {
@@ -1805,9 +1805,9 @@ export const vcUsa = [
         TotalFundCorpus: "320000",
          
         currentFundCorpus: "178000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "50K - 250K",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "50K - 250K",
         logo: "https://images.squarespace-cdn.com/content/v1/57523e2e7c65e467138edc24/1504123373903-LL2Q1X6HHD91QR1O7H58/Logo-Horizontal-White-1600x600.png?format=1500w",
     },
     {
@@ -1823,9 +1823,9 @@ export const vcUsa = [
         TotalFundCorpus: "44350000",
          
         currentFundCorpus: "44350000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "50K - 250K",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "50K - 250K",
         logo: "https://www.palmdrive.vc/Content/images/logo.svg",
     },
     { 
@@ -1841,9 +1841,9 @@ export const vcUsa = [
         TotalFundCorpus: "620000",
          
         currentFundCorpus: "189000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "100K - 150K",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "100K - 150K",
         logo: "https://i0.wp.com/youbicapital.com/wp-content/uploads/2022/02/cropped-logo_black.png?fit=1000%2C278&ssl=1",
     },
     { 
@@ -1859,9 +1859,9 @@ export const vcUsa = [
         TotalFundCorpus: "300000000",
          
         currentFundCorpus: "300000000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "100K - 150K",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "100K - 150K",
         logo: "https://adjuvantcapital.com/wp-content/uploads/2019/08/adjuvant-dark-rgb-svg.svg",
     },
     { 
@@ -1877,9 +1877,9 @@ export const vcUsa = [
         TotalFundCorpus: "620000",
          
         currentFundCorpus: "189000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "100K - 150K",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "100K - 150K",
         logo: "https://images.squarespace-cdn.com/content/v1/66aa8a5f39df5132e6a24f45/f97b2166-e2c0-4349-abcd-fbed19d1a978/Alante_favicon-1.png?format=1500w",
     },
     { 
@@ -1895,9 +1895,9 @@ export const vcUsa = [
         TotalFundCorpus: "16500000000",
          
         currentFundCorpus: "6200000000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "100K - 150K",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "100K - 150K",
         logo: "https://www.nea.com/_next/image?url=https%3A%2F%2Fcms.nea.com%2Fassets%2Flogo-vector.png&w=1920&q=75",
     },
     { 
@@ -1913,9 +1913,9 @@ export const vcUsa = [
         TotalFundCorpus: "365416000",
          
         currentFundCorpus: "210000000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "100K - 150K",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "100K - 150K",
         logo: "https://brandoncapital.vc/wp-content/uploads/2021/12/brandon-capital-logo-reverse-rgb-864px@72ppi.png",
     },
     { 
@@ -1931,9 +1931,9 @@ export const vcUsa = [
         TotalFundCorpus: "620000",
          
         currentFundCorpus: "189000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "100K - 150K",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "100K - 150K",
         logo: "https://cdn.prod.website-files.com/66ba878556301278f45923c6/66ba8b9a277bb97f54d53ffc_Group%20134-p-800.png",
     },
     { 
@@ -1949,9 +1949,9 @@ export const vcUsa = [
         TotalFundCorpus: "1991000000",
          
         currentFundCorpus: "880000000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "100K - 150K",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "100K - 150K",
         logo: "RACAPITAL",
     },
     { 
@@ -1967,9 +1967,9 @@ export const vcUsa = [
         TotalFundCorpus: "266636652",
          
         currentFundCorpus: "260000000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "100K - 150K",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "100K - 150K",
         logo: "https://cdn.prod.website-files.com/636e6f3b7d1f0294385c3d18/636e856918cd9c40017b1d20_logo.svg",
     },
     { 
@@ -1985,9 +1985,9 @@ export const vcUsa = [
         TotalFundCorpus: "620000",
          
         currentFundCorpus: "189000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "100K - 150K",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "100K - 150K",
         logo: "REPUBLIC CAPITAL",
     },
     { 
@@ -2003,9 +2003,9 @@ export const vcUsa = [
         TotalFundCorpus: "620000",
          
         currentFundCorpus: "189000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "100K - 150K",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "100K - 150K",
         logo: stellantis,
     },
     { 
@@ -2021,9 +2021,9 @@ export const vcUsa = [
         TotalFundCorpus: "620000",
          
         currentFundCorpus: "189000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "100K - 150K",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "100K - 150K",
         logo: "MBX Capital",
     },
     { 
@@ -2039,9 +2039,9 @@ export const vcUsa = [
         TotalFundCorpus: "620000",
          
         currentFundCorpus: "193000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "100K - 150K",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "100K - 150K",
         logo: "https://static.wixstatic.com/media/f5faa1_1079a8252f2f4ddba9462cff4b4a0a6d~mv2.png/v1/fill/w_100,h_100,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/1809.png",
     },
     { 
@@ -2057,9 +2057,9 @@ export const vcUsa = [
         TotalFundCorpus: "346000000",
          
         currentFundCorpus: "220000000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "100K - 150K",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "100K - 150K",
         logo: "https://www.fintopcapital.com/dist/img/logo-white.png",
     },
     { 
@@ -2075,9 +2075,9 @@ export const vcUsa = [
         TotalFundCorpus: "420000",
          
         currentFundCorpus: "193000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "100K - 150K",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "100K - 150K",
         logo: "https://audaz.capital/media/3e709319c081c2858d8f4b8af94773f0.png",
     },
     { 
@@ -2093,9 +2093,9 @@ export const vcUsa = [
         TotalFundCorpus: "23710000000",
          
         currentFundCorpus: "2000000000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "50k-250k",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "50k-250k",
         logo: "https://www.baincapital.com/themes/custom/baincapital/images/bain-capital-logo.svg",
     },
     { 
@@ -2111,9 +2111,9 @@ export const vcUsa = [
         TotalFundCorpus: "420000",
          
         currentFundCorpus: "193000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "50k-250k",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "50k-250k",
         logo: "ANTHOS Cpaital",
     },
     { 
@@ -2129,9 +2129,9 @@ export const vcUsa = [
         TotalFundCorpus: "420000",
          
         currentFundCorpus: "193000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "50k-250k",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "50k-250k",
         logo: "https://images.squarespace-cdn.com/content/v1/5920bc42579fb390c0074e43/78fb3d34-8de8-4ccd-8754-cf1282184f20/Full%2B-%2BColor.jpg?format=500w",
     },
     { 
@@ -2147,9 +2147,9 @@ export const vcUsa = [
         TotalFundCorpus: "420000",
          
         currentFundCorpus: "193000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "50k-250k",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "50k-250k",
         logo: "Graüdenz Capital",
     },
     { 
@@ -2164,9 +2164,9 @@ export const vcUsa = [
         companyoverview: "Over more than a decade, we've honed a platform built to drive innovation in legacy industries. Financial relationships are just the beginning. We collaborate with industry leaders and experts to understand demand while partnering with a select group of founders and technologists to support innovations with value for those end markets.",
         TotalFundCorpus: "220000000",
         currentFundCorpus: "160000000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "50k-250k",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "50k-250k",
         logo: "https://cdn.prod.website-files.com/642dd893a8d12f754a1df2d3/642dd943bde01b3d2588ff6b_Full%20color.svg",
     },
     { 
@@ -2181,9 +2181,9 @@ export const vcUsa = [
         companyoverview: "Soma Capital was founded by Aneel Ranadive, who has over 20 years of experience building and investing in startups. Soma invests globally across multiple sectors in brilliant entrepreneurs who use technology to improve humanity on the largest scales possible. Since inception in early 2015, Soma has invested early in hundreds of startups including over +20 unicorns, for over $50b combined total value including the likes of Deel, Rippling, Ramp, Ironclad, Razorpay, Rappi, and Cruise, among others.",
         TotalFundCorpus: "420000",         
         currentFundCorpus: "193000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "50k-250k",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "50k-250k",
         logo: "SOMACAP",
     },
     { 
@@ -2199,9 +2199,9 @@ export const vcUsa = [
         TotalFundCorpus: "420000",
          
         currentFundCorpus: "193000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "50k-250k",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "50k-250k",
         logo: "https://amcfamilyoffice.com/wp-content/uploads/masthead-logo.png",
     },
     { 
@@ -2217,9 +2217,9 @@ export const vcUsa = [
         TotalFundCorpus: "550000000",
          
         currentFundCorpus: "325000000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "50k-250k",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "50k-250k",
         logo: "https://www.vensanacap.com/wp-content/uploads/2022/12/Vensana_hor_filled_white-3.png",
     },
     { 
@@ -2235,11 +2235,11 @@ export const vcUsa = [
         TotalFundCorpus: "958965000",
          
         currentFundCorpus: "200000000",
-        Stagefocus: "pre seeds",
-        SectorFocus: "Sector Agnostic",
-        TicketSize: "50k-250k",
+        stageFocus: "pre seeds",
+        sectorFocus: "Sector Agnostic",
+        ticketSize: "50k-250k",
         logo: "https://www.sandscapital.com/uploads/2021/11/5b9519683fe69733e50afcd9422a3dc7/sands-logo-1.svg",
-        }
+    }
 
 ]
 export default vcUsa;
