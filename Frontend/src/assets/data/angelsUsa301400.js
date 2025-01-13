@@ -1,4 +1,4 @@
-export const vcUsa = [
+export const angelsUsa301400 = [
 { 
         id: 301,
         title: "Angel Investor",
