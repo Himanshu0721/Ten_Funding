@@ -8,7 +8,7 @@ const angleus= [
         twitterUrl: '',
         city: 'San Jose',
         country: 'United States',
-        companyoverview: '',
+        companyoverview: "Decoder Ventures is a new or emerging company, I recommend checking business information platforms like LinkedIn, Crunchbase, or the companys official website for the most accurate and up-to-date details. You can also look for news articles or press releases that might provide a company overview",
         TotalFundCorpus: "125000",
        
         currentFundCorpus: "10000000",
@@ -26,7 +26,7 @@ const angleus= [
         twitterUrl: '',
         city: 'Nashville',
         country: 'United States',
-        companyoverview: '',
+        companyoverview: "The Microsoft Windows Community refers to a broad group of users, developers, and enthusiasts who are passionate about Microsoft’s Windows operating system.",
         TotalFundCorpus: "2911000",
         
         currentFundCorpus: "125000",
@@ -80,7 +80,7 @@ const angleus= [
         twitterUrl: 'https://twitter.com/ctrsquare',
         city: 'Philadelphia',
         country: 'United States',
-        companyoverview: '',
+        companyoverview: "CenterSquare Investment Management aims to help institutional investors build diversified portfolios and achieve solid returns over time. ",
         TotalFundCorpus: "493397257",
         
         currentFundCorpus: "125000",
@@ -116,7 +116,7 @@ const angleus= [
         twitterUrl: '',
         city: 'Los Angeles',
         country: 'United States',
-        companyoverview: '',
+        companyoverview: 'Intigo is a name that could refer to different companies or products across various industries.',
         TotalFundCorpus: "2911000",
        
         currentFundCorpus: "125000",
@@ -159,7 +159,7 @@ const angleus= [
         Stagefocus: 'pre seeds',
         SectorFocus: 'Edtech',
         TicketSize: '100k-500k',
-        logo: '',
+        logo: 'https://media.licdn.com/dms/image/v2/C4E0BAQE6o8LXSYxTaQ/company-logo_200_200/company-logo_200_200/0/1631301324815?e=1744848000&v=beta&t=AisoVvfUX_o9Wk5JbP_h3AMUDozWGuDBRbp2dwJeQuY',
 
       },
       {
@@ -177,7 +177,7 @@ const angleus= [
         Stagefocus: 'Other',
         SectorFocus: 'AI/ML',
         TicketSize: '100k-500k',
-        logo: '',
+        logo: 'https://media.licdn.com/dms/image/v2/C4E0BAQHK8OClv0DLwA/company-logo_200_200/company-logo_200_200/0/1668476594231/angellist_logo?e=1744848000&v=beta&t=rLGvFlEVri6Acj18FegCbgA8wXZ4Y29Zyr5JeSs9cPc',
       },
       {
         id: 11,
@@ -188,13 +188,13 @@ const angleus= [
         twitterUrl: '',
         city: 'New York',
         country: 'United States',
-        companyoverview: '',
+        companyoverview: 'An angel investor is an individual who provides financial support to early-stage startups, typically in exchange for equity ownership or convertible debt',
         TotalFundCorpus: "124048187",
         currentFundCorpus: "100000000",
         Stagefocus: 'pre seeds',
         SectorFocus: 'AR/VR',
         TicketSize: '100k-500k',
-        logo: '',
+        logo: 'https://media.licdn.com/dms/image/v2/C4E0BAQHK8OClv0DLwA/company-logo_200_200/company-logo_200_200/0/1668476594231/angellist_logo?e=1744848000&v=beta&t=rLGvFlEVri6Acj18FegCbgA8wXZ4Y29Zyr5JeSs9cPc',
       },
       {
         id: 12,
@@ -211,7 +211,7 @@ const angleus= [
         Stagefocus: 'pre seeds',
         SectorFocus: 'Agritech/Food',
         TicketSize: '100k-500k',
-        logo: '',
+        logo: 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7',
       },
       {
         id: 13,
@@ -245,7 +245,7 @@ const angleus= [
         Stagefocus: 'Other',
         SectorFocus: 'Climate/Sustainability',
         TicketSize: '50k-250k',
-        logo: '',
+        logo: 'https://media.licdn.com/dms/image/v2/C4E0BAQF5KLMTh-Jd5A/company-logo_200_200/company-logo_200_200/0/1634737938576?e=1744848000&v=beta&t=I1YJbQBEpswVB3B0LQGuFOtrly7RSUAQLEN3zEelJgg',
       },
       {
         id: 15,
@@ -262,7 +262,7 @@ const angleus= [
         Stagefocus: 'pre seeds',
         SectorFocus: 'Deep Tech/Hard Science',
         TicketSize: '50k-250k',
-        logo: '',
+        logo: 'https://media.licdn.com/dms/image/v2/C4E0BAQF5KLMTh-Jd5A/company-logo_200_200/company-logo_200_200/0/1634737938576?e=1744848000&v=beta&t=I1YJbQBEpswVB3B0LQGuFOtrly7RSUAQLEN3zEelJgg',
       },
       {
         id: 16,
@@ -279,7 +279,7 @@ const angleus= [
         Stagefocus: 'pre seeds',
         SectorFocus: 'Education',
         TicketSize: '50k-250k',
-        logo: '',
+        logo: 'https://media.licdn.com/dms/image/v2/C560BAQHFkAERvOHe0w/company-logo_200_200/company-logo_200_200/0/1630649553014?e=1744848000&v=beta&t=FUfvx2L7vTdZzQVxhJzgfdOmhglRQlVgYUns7AX6WME',
       },
       {
         id: 17,
@@ -324,7 +324,7 @@ const angleus= [
         twitterUrl: '',
         city: 'Altamonte Springs',
         country: 'United States',
-        companyoverview: '',
+        companyoverview: 'An Investor/Recruiter company is an entity that operates at the intersection of investment and talent acquisition. These companies serve both the investment community and the recruitment needs of businesses, typically in sectors such as startups, venture capital, private equity, or other high-growth industries. ',
         TotalFundCorpus: "500000",
         currentFundCorpus: "45554446363",
         Stagefocus: 'pre seeds',
@@ -375,13 +375,13 @@ const angleus= [
         twitterUrl: '',
         city: 'Fort Lauderdale',
         country: 'United States',
-        companyoverview: '',
+        companyoverview: 'An Investor/Recruiter company is an entity that operates at the intersection of investment and talent acquisition. ',
         TotalFundCorpus: "1251000",
         currentFundCorpus: "1251000",
         Stagefocus: 'pre seeds',
         SectorFocus: 'Healthcare/Medtech',
         TicketSize: '50k-250k',
-        logo: '',
+        logo: 'https://media.licdn.com/dms/image/v2/C510BAQG6xh-IUXeUgw/company-logo_200_200/company-logo_200_200/0/1631361958128?e=1744848000&v=beta&t=zJ4j-Rxca5Q26InV-n-Taw8deCwFhuY1kyi1kcU6ReQ',
       },
       {
         id: 23,
@@ -392,7 +392,7 @@ const angleus= [
         twitterUrl: '',
         city: 'Fort Lauderdale',
         country: 'United States',
-        companyoverview: '',
+        companyoverview: 'An Investor/Recruiter company is an entity that operates at the intersection of investment and talent acquisition.',
         TotalFundCorpus: "1251000",
         currentFundCorpus: "1251000",
         Stagefocus: 'pre seeds',
@@ -415,7 +415,7 @@ const angleus= [
         Stagefocus: 'Other',
         SectorFocus: 'Prop Tech/Real Estate',
         TicketSize: '50k-250k',
-        logo: '',
+        logo: 'https://pbs.twimg.com/profile_banners/235322186/1678111983/600x200',
       },
       {
         id: 25,
@@ -426,7 +426,7 @@ const angleus= [
         twitterUrl: '',
         city: 'Dallas',
         country: 'United States',
-        companyoverview: '',
+        companyoverview: 'An Investor/Recruiter company is an entity that operates at the intersection of investment and talent acquisition.',
         TotalFundCorpus: "7410373000",
         currentFundCorpus: "7100000000",
         Stagefocus: 'pre seeds',
@@ -443,13 +443,13 @@ const angleus= [
         twitterUrl: '',
         city: 'New York',
         country: 'United States',
-        companyoverview: '',
+        companyoverview: 'An Angel Investor and President is a highly influential individual who combines the roles of providing early-stage funding to startups with overseeing the operations of an organization.',
         TotalFundCorpus: "7410373000",
         currentFundCorpus: "7100000000",
         Stagefocus: 'pre seeds',
         SectorFocus: 'Supply Chain/Logistics',
         TicketSize: '50k-250k',
-        logo: '',
+        logo: 'https://media.licdn.com/dms/image/v2/C4E0BAQEEwTOnwK5sGA/company-logo_200_200/company-logo_200_200/0/1630598689086/hermes_group_logo?e=1744848000&v=beta&t=lbpR9cD4sO1w5kl4tq-XaKHgI_wLaEkUTOrzL1lxy3w',
       },
       {
         id: 27,
@@ -460,13 +460,13 @@ const angleus= [
         twitterUrl: '',
         city: 'New York',
         country: 'United States',
-        companyoverview: '',
+        companyoverview: 'Hermès is a prestigious French luxury brand known for its high-end fashion, accessories, and craftsmanship. Founded in 1837 by Thierry Hermès, the company originally',
         TotalFundCorpus: "12981956000",
         currentFundCorpus: "7100000000",
         Stagefocus: 'pre seeds',
         SectorFocus: 'Travel/Hospitality',
         TicketSize: '50k-250k',
-        logo: '',
+        logo: 'https://media.licdn.com/dms/image/v2/C4E0BAQEEwTOnwK5sGA/company-logo_200_200/company-logo_200_200/0/1630598689086/hermes_group_logo?e=1744848000&v=beta&t=lbpR9cD4sO1w5kl4tq-XaKHgI_wLaEkUTOrzL1lxy3w',
       },
       {
         id: 28,
@@ -500,7 +500,7 @@ const angleus= [
         Stagefocus: 'pre seeds',
         SectorFocus: 'Social Impact',
         TicketSize: '50k-250k',
-        logo: '',
+        logo: 'https://pbs.twimg.com/profile_banners/53355218/1686748449/600x200',
       },
       {
         id: 30,
@@ -517,7 +517,7 @@ const angleus= [
         Stagefocus: "pre seeds",
         SectorFocus: "B2B Commerce",
         TicketSize: "50k-250k",
-        logo: ""
+        logo: "https://media.licdn.com/dms/image/v2/C560BAQF-32tN0-OEfA/company-logo_200_200/company-logo_200_200/0/1630893834852?e=1744848000&v=beta&t=Nw9RZ2UYaNJr2vbQi8Hcn9GPyahBBLFgmSPELb8x0fc"
     },
     {
         id: 31,
@@ -545,13 +545,13 @@ const angleus= [
         twitterUrl: "https://twitter.com/rei/",
         city: "Des Moines",
         country: "United States",
-        companyoverview: "",
+        companyoverview: "REI (Recreational Equipment, Inc.) is a popular American outdoor retail co-op that provides high-quality outdoor gear, apparel, and equipment for a variety of activities such as hiking, camping, climbing, cycling, paddling, and skiing.",
         TotalFundCorpus: "96000000",
         currentFundCorpus: "96000000",
         Stagefocus: "pre seeds",
         SectorFocus: "Logistics",
         TicketSize: "100k-500k",
-        logo: ""
+        logo: "https://media.licdn.com/dms/image/v2/C560BAQGGquickLAc0w/company-logo_200_200/company-logo_200_200/0/1630620696365/rei_logo?e=1744848000&v=beta&t=4w-OjRrW_oVR6YI3EI5hCwJ3KisXUsjcwu7_ubZBfS4"
     },
     {
         id: 33,
@@ -596,7 +596,7 @@ const angleus= [
         twitterUrl: "https://twitter.com/superangel",
         city: "New York",
         country: "United States",
-        companyoverview: "",
+        companyoverview: "SuperAngel.Fund is a significant player in the early-stage venture capital and angel investment landscape, offering larger investments and deeper involvement than traditional angel investors.",
         TotalFundCorpus: "96000000",
         currentFundCorpus: "96000000",
         Stagefocus: "pre seeds",
@@ -630,7 +630,7 @@ const angleus= [
         twitterUrl: "http://twitter.com/ctanangels",
         city: "Denver",
         country: "United States",
-        companyoverview: "",
+        companyoverview: "The Central Texas Angel Network (CTAN) plays a vital role in fostering innovation and growth in the early-stage startup community. By connecting talented entrepreneurs with a network of experienced angel investors, CTAN provides not just capital, but valuable mentorship and resources to help startups succeed. ",
         TotalFundCorpus: "96000000",
         currentFundCorpus: "96000000",
         Stagefocus: "pre seeds",
@@ -653,7 +653,7 @@ const angleus= [
         Stagefocus: "pre seeds",
         SectorFocus: "AR/VR",
         TicketSize: "100k-500k",
-        logo: ""
+        logo: "https://media.licdn.com/dms/image/v2/C4D0BAQE4kExYTyAi-Q/company-logo_200_200/company-logo_200_200/0/1631342650525?e=1744848000&v=beta&t=HSF60zLYjV01jtl1iG58ZubwYctKh-23sAxX7WcJmN8"
     },
     {
         id: 39,
@@ -666,11 +666,11 @@ const angleus= [
         country: "United States",
         city: "San Francisco",
         Stagefocus: "private equity, venture capital, software, angel investing, startups",
-        SectorFocus: "",
-        TicketSize: "",
-        currentFundCorpus: "",
-        TotalFundCorpus: "",
-        companyoverview: "",
+        
+        
+        
+        
+        companyoverview: "https://media.licdn.com/dms/image/v2/C560BAQH-R7nTbO7vww/company-logo_200_200/company-logo_200_200/0/1634921815712?e=1744848000&v=beta&t=W7OHQgdtHZ5D9MB-f828UoNU1_ybiNxMQtnuv6uInAc",
         TotalFundCorpus: "96000000",
         currentFundCorpus: "96000000",
         Stagefocus: "pre seeds",
@@ -687,7 +687,7 @@ const angleus= [
         twitterUrl: "",
         city: "San Francisco",
         country: "United States",
-        companyoverview: "",
+        companyoverview: "Logan & Wayne could refer to business partners, investors, or founders in a specific industry or company.",
         TotalFundCorpus: "96000000",
         currentFundCorpus: "96000000",
         Stagefocus: "pre seeds",
@@ -705,7 +705,7 @@ const angleus= [
         twitterUrl: "",
         city: "San Francisco",
         country: "United States",
-        companyoverview: "",
+        companyoverview: "Logan and Wayne in a business context, but there isn't widely known or specific information readily available about a partnership or company by that name. It could potentially be a smaller or less publicized firm, or individuals who are not as widely recognized in the mainstream media or business world.",
         TotalFundCorpus: "96000000",
         currentFundCorpus: "96000000",
         Stagefocus: "pre seeds",
@@ -740,7 +740,7 @@ const angleus= [
     twitterUrl: "https://www.twitter.com/ChemAngels",
     city: "Santa Monica",
     country: "United States",
-    companyoverview: "",
+    companyoverview: "The Chemical Angel Network (CAN) is a network of accredited investors that specifically focuses on investing in startups and early-stage companies in the chemical, materials, and process industries. As an angel investor network, CAN supports entrepreneurs working on in",
     TotalFundCorpus: "96000000",
     currentFundCorpus: "96000000",
     Stagefocus: "pre seeds",
@@ -774,7 +774,7 @@ const angleus= [
     twitterUrl: "https://twitter.com/brownangelgroup",
     city: "New York",
     country: "United States",
-    companyoverview: "",
+    companyoverview: "The Brown Angel Group serves as an important source of early-stage funding for high-potential startups, offering a combination of capital, mentorship, and industry expertise to entrepreneurs.",
     TotalFundCorpus: "813200000",
     currentFundCorpus: "96000000",
     Stagefocus: "pre seeds",
@@ -791,13 +791,13 @@ const angleus= [
     twitterUrl: "",
     city: "Los Angeles",
     country: "United States",
-    companyoverview: "",
+    companyoverview: "The Getty Center is a world-renowned art museum and cultural complex located in the hills of Los Angeles, California. ",
     TotalFundCorpus: "813200000",
     currentFundCorpus: "96000000",
     Stagefocus: "pre seeds",
     SectorFocus: "Media & Entertainment",
     TicketSize: "100k-500k",
-    logo: ""
+    logo: "https://cdn.prod.website-files.com/622e34e90842f1782f7e18a4/6275566d5d25981729424f9e_bag-logo.svg"
   },
   {
     id: 47,
@@ -825,7 +825,7 @@ const angleus= [
     twitterUrl: "https://twitter.com/A4Dinc",
     city: "Los Angeles",
     country: "United States",
-    companyoverview: "",
+    companyoverview: "A4D was the designation for the Douglas A-4 Skyhawk, a carrier-capable attack aircraft that was used by the United States Navy and Marine Corps from the 1950s onwards",
     TotalFundCorpus: "813200000",
     currentFundCorpus: "96000000",
     Stagefocus: "pre seeds",
@@ -865,7 +865,7 @@ const angleus= [
     Stagefocus: "Seed",
     SectorFocus: "Healthcare/Medtech",
     TicketSize: "150k-500k",
-    logo: ""
+    logo: "https://media.licdn.com/dms/image/v2/D560BAQGnWBko635Jag/company-logo_200_200/company-logo_200_200/0/1692735608584/whymwallet_logo?e=1744848000&v=beta&t=L-MjTHwMdj5I9RyaQnkRP7cYyylzRkTXpvquPPoJ0Dc"
   },
   {
     id: 51,
@@ -882,7 +882,7 @@ const angleus= [
     Stagefocus: "pre seeds",
     SectorFocus: "Industrial/IoT/ Robotics",
     TicketSize: "150k-500k",
-    logo: ""
+    logo: "https://media.licdn.com/dms/image/v2/C4D0BAQHiRmm-TRTRWg/company-logo_200_200/company-logo_200_200/0/1631301030333?e=1744848000&v=beta&t=TiGM6H76Y9cEtWDABCZE8nGr-KBcu_W2Akz4FxuXmwg"
   },
   {
     id: 52,
@@ -899,7 +899,7 @@ const angleus= [
     Stagefocus: "pre seeds",
     SectorFocus: "Prop Tech/Real Estate",
     TicketSize: "150k-500k",
-    logo: ""
+    logo: "https://media.licdn.com/dms/image/v2/D560BAQG0-tb1X6BwNw/company-logo_200_200/company-logo_200_200/0/1726763354363/dimensional_fund_advisors_logo?e=1744848000&v=beta&t=3F5vuC4ejjRsFFo-a9GYxe178aOIVOZyXD9hPb8JuW4"
   },
   {
     id: 53,
@@ -950,7 +950,7 @@ const angleus= [
     Stagefocus: "pre seeds",
     SectorFocus: "Travel/Hospitality",
     TicketSize: "150k-500k",
-    logo: ""
+    logo: "https://pbs.twimg.com/profile_banners/24281972/1657135331/600x200"
   },
   {
     id: 56,
@@ -961,7 +961,7 @@ const angleus= [
     witterUrl: "",
     city: "Bradenton",
     country: "United States",
-    companyoverview: "",
+    companyoverview: "Bridge Angel Investors is likely a term referring to a network of angel investors that focus on providing funding and support to early-stage startups.",
     TotalFundCorpus: 79554080,
     currentFundCorpus: 79554080,
     Stagefocus: "pre seeds",
@@ -995,7 +995,7 @@ const angleus= [
     twitterUrl: "https://twitter.com/brownangelgroup",
     city: "Decatur",
     country: "United States",
-    companyoverview: "",
+    companyoverview: "Bridge Angel Investors is likely a term referring to a network of angel investors that focus on providing funding and support to early-stage startups. These investors typically focus on bridging the gap between seed funding and later-stage venture capital investments.",
     TotalFundCorpus: 79554080,
     currentFundCorpus: 79554080,
     Stagefocus: "pre seeds",
@@ -1080,13 +1080,13 @@ const angleus= [
     twitterUrl: "",
     city: "Concord",
     country: "United States",
-    companyoverview: "",
+    companyoverview: "Hermès has established itself as one of the most prestigious and iconic luxury brands in the world. Known for its timeless designs, impeccable craftsmanship, and exclusive products, it continues to symbolize elegance and refinement",
     TotalFundCorpus: 79554080,
     currentFundCorpus: 79554080,
     Stagefocus: "pre seeds",
     SectorFocus: "Fintech",
     TicketSize: "150k-500k",
-    logo: ""
+    logo: "https://media.licdn.com/dms/image/v2/C4E0BAQEEwTOnwK5sGA/company-logo_200_200/company-logo_200_200/0/1630598689086/hermes_group_logo?e=1744848000&v=beta&t=lbpR9cD4sO1w5kl4tq-XaKHgI_wLaEkUTOrzL1lxy3w"
   },
   {
     id: 64,
@@ -1103,7 +1103,7 @@ const angleus= [
     Stagefocus: "pre seeds",
     SectorFocus: "Edtech",
     TicketSize: "150k-500k",
-    logo: ""
+    logo: "https://media.licdn.com/dms/image/v2/C4E0BAQHK8OClv0DLwA/company-logo_200_200/company-logo_200_200/0/1668476594231/angellist_logo?e=1744848000&v=beta&t=rLGvFlEVri6Acj18FegCbgA8wXZ4Y29Zyr5JeSs9cPc"
   },
   {
     id: 65,
@@ -1120,7 +1120,7 @@ const angleus= [
     Stagefocus: "Seed",
     SectorFocus: "AI/ML",
     TicketSize: "150k-500k",
-    logo: ""
+    logo: "https://media.licdn.com/dms/image/v2/C4E0BAQHK8OClv0DLwA/company-logo_200_200/company-logo_200_200/0/1668476594231/angellist_logo?e=1744848000&v=beta&t=rLGvFlEVri6Acj18FegCbgA8wXZ4Y29Zyr5JeSs9cPc"
   },
   {
     id: 66,
@@ -1137,7 +1137,7 @@ const angleus= [
     Stagefocus: "pre seeds",
     SectorFocus: "AR/VR",
     TicketSize: "150k-500k",
-    logo: ""
+    logo: "https://media.licdn.com/dms/image/v2/C560BAQHSOJrj6FWtfw/company-logo_200_200/company-logo_200_200/0/1630576081946/consultant_66_logo?e=1744848000&v=beta&t=YUCBbVwYuwbshxkCQ0v3RqFsSo4mmLoBSR_kXJvZ5sU"
   },
   {
     id: 67,
@@ -1166,7 +1166,7 @@ const angleus= [
       twitterUrl: "",
       city: "Los Angeles",
       country: "United States",
-      companyoverview: "",
+      companyoverview: "Angel Warehouse could be a facility or location used by an angel investment group or a startup incubator to store or showcase products, technology, or materials related to the companies they support. It might serve as a physical space for new businesses to store inventory or prototypes.",
       TotalFundCorpus: "4060722",
       currentFundCorpus: "489930",
       Stagefocus: "pre seeds",
@@ -1240,7 +1240,7 @@ const angleus= [
       Stagefocus: "pre seeds",
       SectorFocus: "Enterprise",
       TicketSize: "250k-1M",
-      logo: ""
+      logo: "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
     },
     {
       id: 73,
@@ -1251,7 +1251,7 @@ const angleus= [
       twitterUrl: "",
       city: "United States",
       country: "United States",
-      companyoverview: "",
+      companyoverview: "Columbia Ventures Brazil appears to be a branch or affiliate of Columbia Ventures Corporation based in Brazil. Columbia Ventures is a global investment firm involved in various sectors such as technology, telecommunications, media, real estate, and energy",
       TotalFundCorpus: "4060722",
       currentFundCorpus: "489930",
       Stagefocus: "pre seeds",
@@ -1268,13 +1268,13 @@ const angleus= [
       twitterUrl: "",
       city: "Mountain View",
       country: "United States",
-      companyoverview: "",
+      companyoverview: "AlmostSquare could be the name of a technology startup or software company. It might focus on specific products like apps, games, or technology solutions.",
       TotalFundCorpus: "4060722",
       currentFundCorpus: "489930",
       Stagefocus: "pre seeds",
       SectorFocus: "Gaming",
       TicketSize: "250k-1M",
-      logo: ""
+      logo: "https://media.licdn.com/dms/image/v2/C560BAQEuny1HUSDUgw/company-logo_200_200/company-logo_200_200/0/1660698038887/almostsquare_logo?e=1744848000&v=beta&t=8nQYRPW81ORjLmUAxOJ5pFjzqNXDlJ0DPmcd4QVImno"
     },
     {
       id: 75,
@@ -1285,7 +1285,7 @@ const angleus= [
       twitterUrl: "",
       city: "San Francisco",
       country: "United States",
-      companyoverview: "",
+      companyoverview: "Angel Investor School is likely a term referring to an educational platform or program designed to teach individuals the fundamentals of angel investing—the practice of investing personal funds into early-stage companies or startups. ",
       TotalFundCorpus: "4060722",
       currentFundCorpus: "489930",
       Stagefocus: "pre seeds",
@@ -1302,7 +1302,7 @@ const angleus= [
       twitterUrl: "",
       city: "Hampstead",
       country: "United States",
-      companyoverview: "",
+      companyoverview: "Angel Investor School is likely a term referring to an educational platform or program designed to teach individuals the fundamentals of angel investing—the practice of investing personal funds into early-stage companies or startups. ",
       TotalFundCorpus: "4060722",
       currentFundCorpus: "489930",
       Stagefocus: "pre seeds",
@@ -1325,7 +1325,7 @@ const angleus= [
       Stagefocus: "Seed",
       SectorFocus: "Healthcare/Medtech",
       TicketSize: "250k-1M",
-      logo: ""
+      logo: "https://media.licdn.com/dms/image/v2/C4D0BAQEa5-ai6O6_2g/company-logo_200_200/company-logo_200_200/0/1673632520527/revelator_enterprises_logo?e=1744848000&v=beta&t=tedmVApVETqowEe4beWEDgDW0yuIh28WDf-GIxe7WLg"
     },
     {
         id: 78,
@@ -1342,7 +1342,7 @@ const angleus= [
     Stagefocus: "pre seeds",
     SectorFocus: "Industrial/IoT/Robotics",
     TicketSize: "250k-1M",
-    logo: ""
+    logo: "https://media.licdn.com/dms/image/v2/D4E0BAQG-XygI4z934A/company-logo_200_200/company-logo_200_200/0/1723130650427/accenture_logo?e=1744848000&v=beta&t=-lOJFnUf_4Z7Kc0poS34Bysv80S-kmMc0_K2BXKhIYY"
   },
   {
     id: 79,
@@ -1359,7 +1359,7 @@ const angleus= [
     Stagefocus: "Other",
     SectorFocus: "Prop Tech/Real Estate",
     TicketSize: "250k-1M",
-    logo: ""
+    logo: "https://media.licdn.com/dms/image/v2/C4E0BAQF5KLMTh-Jd5A/company-logo_200_200/company-logo_200_200/0/1634737938576?e=1744848000&v=beta&t=I1YJbQBEpswVB3B0LQGuFOtrly7RSUAQLEN3zEelJgg"
   },
   {
     id: 80,
@@ -1370,13 +1370,13 @@ const angleus= [
     twitterUrl: "https://twitter.com/upwork",
     city: "United States",
     country: "United States",
-    companyoverview: "",
+    companyoverview: "Upwork is a popular freelance platform that connects businesses and individuals with independent professionals, or freelancers, across a wide range of industries. ",
     TotalFundCorpus: "838150395",
     currentFundCorpus: "575000000",
     Stagefocus: "Debt Financing",
     SectorFocus: "SaaS/DevOps/Marketplace",
     TicketSize: "250k-1M",
-    logo: " "
+    logo: "https://media.licdn.com/dms/image/v2/D560BAQFHVb6ZSCipCw/company-logo_200_200/company-logo_200_200/0/1727104517379/upwork_logo?e=1744848000&v=beta&t=aOcOIDkemYqDOM73dOs4WyEKyMVNA7P5C9IR9eFdd6M "
   },
   {
     id: 81,
@@ -1404,13 +1404,13 @@ const angleus= [
     twitterUrl: "",
     city: "Houston",
     country: "United States",
-    companyoverview: "",
+    companyoverview: "Upwork is a popular freelance platform that connects businesses and individuals with independent professionals, or freelancers, across a wide range of industries.",
     TotalFundCorpus: "838150395",
     currentFundCorpus: "575000000",
     Stagefocus: "pre seeds",
     SectorFocus: "Travel/Hospitality",
     TicketSize: "250k-1M",
-    logo: ""
+    logo: "https://media.licdn.com/dms/image/v2/C560BAQE1Vq0DR1H9oA/company-logo_200_200/company-logo_200_200/0/1631352616844?e=1744848000&v=beta&t=pVascJXlarOyPgj87jfzykjF8-maopouNCZ7o8cANy8"
   },
   {
     id: 83,
@@ -1421,13 +1421,13 @@ const angleus= [
     twitterUrl: "",
     city: "Los Angeles",
     country: "United States",
-    companyoverview: "",
+    companyoverview: "Consultants provide valuable services by offering expertise, solving problems, improving efficiency, and helping businesses achieve their objectives. ",
     TotalFundCorpus: "838150395",
     currentFundCorpus: "575000000",
     Stagefocus: "pre seeds",
     SectorFocus: "Sector Agnostic",
     TicketSize: "250k-1M",
-    logo: ""
+    logo: "https://media.licdn.com/dms/image/v2/C560BAQHSOJrj6FWtfw/company-logo_200_200/company-logo_200_200/0/1630576081946/consultant_66_logo?e=1744848000&v=beta&t=YUCBbVwYuwbshxkCQ0v3RqFsSo4mmLoBSR_kXJvZ5sU"
   },
   {
     id: 84,
@@ -1455,13 +1455,13 @@ const angleus= [
     twitterUrl: "",
     city: "Mountain View",
     country: "United States",
-    companyoverview: "",
+    companyoverview: "It could be a term or project related to design, art, or architecture. In design terms,  might refer to something that is not perfectly square, but has square-like qualities",
     TotalFundCorpus: "838150395",
     currentFundCorpus: "575000000",
     Stagefocus: "pre seeds",
     SectorFocus: "B2B Commerce",
     TicketSize: "250k-1M",
-    logo: ""
+    logo: "https://media.licdn.com/dms/image/v2/C560BAQEuny1HUSDUgw/company-logo_200_200/company-logo_200_200/0/1660698038887/almostsquare_logo?e=1744848000&v=beta&t=8nQYRPW81ORjLmUAxOJ5pFjzqNXDlJ0DPmcd4QVImno"
   },
   {
     id: 86,
@@ -1472,7 +1472,7 @@ const angleus= [
     twitterUrl: "",
     city: "Seattle",
     country: "United States",
-    companyoverview: "",
+    companyoverview: "A grubstake is an early form of financial backing given to a person or group to help them start a venture, typically with the expectation of sharing in the profits if the venture succeeds. ",
     TotalFundCorpus: "838150395",
     currentFundCorpus: "575000000",
     Stagefocus: "pre seeds",
@@ -1506,13 +1506,13 @@ const angleus= [
     twitterUrl: "https://twitter.com/amazon",
     city: "San Francisco",
     country: "United States",
-    companyoverview: "",
+    companyoverview: "Amazon is a tech and e-commerce powerhouse that has revolutionized the way people shop, consume media, and interact with technology. ",
     TotalFundCorpus: "8059100009",
     currentFundCorpus: "8000000009",
     Stagefocus: "Debt Financing",
     SectorFocus: "Mobility",
     TicketSize: "250k-1M",
-    logo: ""
+    logo: "https://pbs.twimg.com/profile_banners/20793816/1581445732/600x200"
   },
   {
     id: 89,
@@ -1523,7 +1523,7 @@ const angleus= [
     twitterUrl: "",
     city: "Lancaster",
     country: "United States",
-    companyoverview: "",
+    companyoverview: "The Banner Group could refer to different organizations or entities, depending on the industry or region you're referring to. ",
     TotalFundCorpus: "8059100009",
     currentFundCorpus: "8000000009",
     Stagefocus: "pre seeds",
@@ -1557,7 +1557,7 @@ const angleus= [
     twitterUrl: "",
     city: "Vancouver",
     country: "United States",
-    companyoverview: "",
+    companyoverview: "Guardian Storage is a company that provides self-storage solutions to individuals and businesses. It typically offers a range of storage unit sizes for short-term or long-term use, along with additional services such as climate-controlled units, vehicle storage, and enhanced security features.",
     TotalFundCorpus: "14300000",
     currentFundCorpus: "12000000",
     Stagefocus: "pre seeds",
@@ -1597,7 +1597,7 @@ const angleus= [
     Stagefocus: "Other",
     SectorFocus: "AR/VR",
     TicketSize: "250k-1M",
-    logo: ""
+    logo: "https://media.licdn.com/dms/image/v2/C4E0BAQEdxQmltFDGEA/company-logo_200_200/company-logo_200_200/0/1630570383106/ulta_logo?e=1744848000&v=beta&t=aYjIwnfatlLKWw8RYvqnJzkRbV92J55x7LF-T1fo1Nw"
   },
   {
     id: 94,
@@ -1625,13 +1625,13 @@ const angleus= [
     twitterUrl: "",
     city: "United States",
     country: "United States",
-    companyoverview: "",
+    companyoverview: "Almostsquare, but I couldn't find any specific, widely known company or organization by that exact name. However, it is possible that Almostsquare ",
     TotalFundCorpus: "153713664",
     currentFundCorpus: "153713664",
     Stagefocus: "pre seeds",
     SectorFocus: "Biotech/Life sciences",
     TicketSize: "250k-1M",
-    logo: ""
+    logo: "https://media.licdn.com/dms/image/v2/C560BAQEuny1HUSDUgw/company-logo_200_200/company-logo_200_200/0/1660698038887/almostsquare_logo?e=1744848000&v=beta&t=8nQYRPW81ORjLmUAxOJ5pFjzqNXDlJ0DPmcd4QVImno"
   },
   {
     id: 96,
@@ -1659,13 +1659,13 @@ const angleus= [
     twitterUrl: "",
     city: "Alvin",
     country: "United States",
-    companyoverview: "",
+    companyoverview: "Angel investing is a form of early-stage investment in which individual investors, known as angel investors, provide capital to startups or entrepreneurs in exchange for equity or convertible debt.",
     TotalFundCorpus: "153713664",
     currentFundCorpus: "153713664",
     Stagefocus: "pre seeds",
     SectorFocus: "Deep Tech/Hard Science",
     TicketSize: "250k-1M",
-    logo: ""
+    logo: "https://media.licdn.com/dms/image/v2/C4E0BAQGg121M00OGPg/company-logo_200_200/company-logo_200_200/0/1630624358564/angel_investing_logo?e=1744848000&v=beta&t=SlUov3dcUMitehERPqyu8pA8WYYW9HgPhOv5er0yUgQ"
   },
   {
     id: 98,
@@ -1676,7 +1676,7 @@ const angleus= [
     twitterUrl: "https://twitter.com/bira91",
     city: "New York",
     country: "United States",
-    companyoverview: "",
+    companyoverview: "Angel investing is an exciting and rewarding way for high-net-worth individuals to support early-stage companies and entrepreneurs. By providing crucial funding, expertise, and mentorship, angel investors play a significant role in helping startups get off the ground and thrive.",
     TotalFundCorpus: "283717563",
     currentFundCorpus: "10000000",
     Stagefocus: "Other",
@@ -1693,13 +1693,13 @@ const angleus= [
     twitterUrl: "",
     city: "Richland",
     country: "United States",
-    companyoverview: "",
+    companyoverview: " angel investor is an individual who provides financial backing to early-stage startups or entrepreneurs, typically in exchange for equity (ownership stake) or convertible debt. ",
     TotalFundCorpus: "283717563",
     currentFundCorpus: "10000000",
     Stagefocus: "pre seeds",
     SectorFocus: "Enterprise",
     TicketSize: "250k-1M",
-    logo: ""
+    logo: "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
   },
   {
     id: 100,
@@ -1716,7 +1716,7 @@ const angleus= [
     Stagefocus: "Other",
     SectorFocus: "Media & Entertainment",
     TicketSize: "250k-1M",
-    logo: ""
+    logo: "https://media.licdn.com/dms/image/v2/D4E0BAQG1ssN1ZeOs3A/company-logo_200_200/company-logo_200_200/0/1688681748905/the_carlyle_group_logo?e=1744848000&v=beta&t=2EXdGIOxCpnzpEWnFqDbXBjC03zuMv3C8fdoO9XRgBo"
   },
   {
     id: 101,
@@ -1732,7 +1732,7 @@ const angleus= [
     currentFundCorpus: "pre seeds",
     Stagefocus: "Gaming",
     SectorFocus: "250k-1M",
-    logo: ""
+    logo: "https://media.licdn.com/dms/image/v2/C4E0BAQEJXjIEUpuMmg/company-logo_200_200/company-logo_200_200/0/1630620461491/various_startups1_logo?e=1744848000&v=beta&t=oLZ-InQdFowQ6PGEYXBNZqnG7xHL4SMt2gsXf6klndg"
   },
   {
     id: 102,
@@ -1743,7 +1743,7 @@ const angleus= [
     twitterUrl: "",
     city: "Los Angeles",
     country: "United States",
-    companyoverview: "",
+    companyoverview: "Pantera could refer to the investment firm (Pantera Capital), the heavy metal band (Pantera), the genus of big cats (Panthera), or even other specific uses like vehicles or brands. ",
     TotalFundCorpus: "19128000000",
     currentFundCorpus: "pre seeds",
     Stagefocus: "Government/Defence",
@@ -1759,7 +1759,7 @@ const angleus= [
     twitterUrl: "",
     city: "Manhattan Beach",
     country: "United States",
-    companyoverview: "",
+    companyoverview: "Pantera is also the name of a legendary heavy metal band from the United States. ",
     TotalFundCorpus: "4200000",
     currentFundCorpus: "4200000",
     Stagefocus: "Seed",
@@ -1776,12 +1776,12 @@ const angleus= [
     twitterUrl: "",
     city: "New York",
     country: "United States",
-    companyoverview: "",
+    companyoverview: "various companies spanning multiple industries. Each of these companies operates within different sectors and serves diverse markets, whether in technology, retail, healthcare, automotive, or energy. ",
     TotalFundCorpus: "4200000",
     currentFundCorpus: "pre seeds",
     Stagefocus: "Healthcare/Medtech",
     SectorFocus: "250k-1M",
-    logo: ""
+    logo: "https://media.licdn.com/dms/image/v2/C4D0BAQFEU28_d7gc6w/company-logo_200_200/company-logo_200_200/0/1631357179020/various_boards_logo?e=1744848000&v=beta&t=Wv4CUuNznhpc4KeI-NLpXXnD4WOJO_cPwh4Px51gcco"
   },
   {
     id: 105,
@@ -1809,7 +1809,7 @@ const angleus= [
     twitterUrl: "https://twitter.com/propllrhead",
     city: "Naperville",
     country: "United States",
-    companyoverview: "",
+    companyoverview: "Propllr PR and Content Marketing is an agency that combines strategic PR with content marketing to help companies grow their visibility, build credibility, and effectively communicate their value propositions.",
     TotalFundCorpus: "15000000",
     currentFundCorpus: "pre seeds",
     Stagefocus: "Edtech",
@@ -1830,7 +1830,7 @@ const angleus= [
     currentFundCorpus: "pre seeds",
     Stagefocus: "AI/ML",
     SectorFocus: "250k-1M",
-    logo: ""
+    logo: "https://media.licdn.com/dms/image/v2/C4D0BAQG9qhx2yBCIgA/company-logo_200_200/company-logo_200_200/0/1635361783056?e=1744848000&v=beta&t=SL5uyGYrRjqwKG8OeQp8bdEV_wgrbcX7lkYvZtmz7Ok"
   },
   {
     id: 120,
@@ -1890,7 +1890,7 @@ const angleus= [
     twitterUrl: "https://twitter.com/The_RedHouse",
     city: "Houston",
     country: "United States",
-    companyoverview: "",
+    companyoverview: "Propllr is a public relations (PR) and content marketing agency that helps businesses, startups, and brands with strategic communication and content creation. ",
     TotalFundCorpus: "144935000",
     currentFundCorpus: "pre seeds",
     Stagefocus: "Climate/Sustainability",
@@ -1906,7 +1906,7 @@ const angleus= [
     twitterUrl: "",
     city: "San Francisco",
     country: "United States",
-    companyoverview: "",
+    companyoverview: "Angel Investor School is typically an educational platform or program designed to help aspiring angel investors understand the fundamentals of investing in early-stage startups and emerging companies. ",
     TotalFundCorpus: "144935000",
     currentFundCorpus: "pre seeds",
     Stagefocus: "Deep Tech/Hard Science",
@@ -1922,7 +1922,7 @@ const angleus= [
     twitterUrl: "https://twitter.com/brownangelgroup",
     city: "Providence",
     country: "United States",
-    companyoverview: "",
+    companyoverview: "Brown Angel Group could be a regional angel investor network that supports early-stage startups through both funding and mentorship. ",
     TotalFundCorpus: "144935000",
     currentFundCorpus: "pre seeds",
     Stagefocus: "Education",
@@ -1943,7 +1943,7 @@ const angleus= [
     currentFundCorpus: "pre seeds",
     Stagefocus: "Enterprise",
     SectorFocus: "250k-1M",
-    logo: ""
+    logo: "https://media.licdn.com/dms/image/v2/C4E0BAQEJXjIEUpuMmg/company-logo_200_200/company-logo_200_200/0/1630620461491/various_startups1_logo?e=1744848000&v=beta&t=oLZ-InQdFowQ6PGEYXBNZqnG7xHL4SMt2gsXf6klndg"
   },
   {
     id: 127,
@@ -1954,7 +1954,7 @@ const angleus= [
     twitterUrl: "",
     city: "Durham",
     country: "United States",
-    companyoverview: "",
+    companyoverview: "The Hightide Salon & Suites is likely a salon suite business offering independent beauty professionals a flexible and private working space.",
     TotalFundCorpus: "144935000",
     currentFundCorpus: "pre seeds",
     Stagefocus: "Media & Entertainment",
@@ -1970,7 +1970,7 @@ const angleus= [
     twitterUrl: "https://twitter.com/bhainvestors?lang=en",
     city: "Boston",
     country: "United States",
-    companyoverview: "",
+    companyoverview: "Boston Harbor Angels is a vital part of the Boston-area startup ecosystem. By providing early-stage capital and mentorship, BHA helps startups grow and scale, contributing to the region’s innovation and economic development. For entrepreneurs seeking funding, ",
     TotalFundCorpus: "144935000",
     currentFundCorpus: "pre seeds",
     Stagefocus: "Gaming",
@@ -1986,7 +1986,7 @@ const angleus= [
     twitterUrl: "https://twitter.com/Backstage_Cap",
     city: "Los Angeles",
     country: "United States",
-    companyoverview: "",
+    companyoverview: "Backstage Capital is a trailblazing venture firm with a mission to support underrepresented founders and help level the playing field in the startup world.",
     TotalFundCorpus: "3570000",
     currentFundCorpus: "1070000",
     Stagefocus: "Government/Defence",
@@ -2002,12 +2002,12 @@ const angleus= [
     twitterUrl: "",
     city: "New York",
     country: "United States",
-    companyoverview: "",
+    companyoverview: "Hermès is one of the most respected and coveted luxury brands in the world, known for its exceptional craftsmanship, timeless designs, and exclusivity",
     TotalFundCorpus: "3570000",
     currentFundCorpus: "pre seeds",
     Stagefocus: "Health and Wellness",
     SectorFocus: "250k-1M",
-    logo: ""
+    logo: "https://media.licdn.com/dms/image/v2/C4E0BAQEEwTOnwK5sGA/company-logo_200_200/company-logo_200_200/0/1630598689086/hermes_group_logo?e=1744848000&v=beta&t=lbpR9cD4sO1w5kl4tq-XaKHgI_wLaEkUTOrzL1lxy3w"
   },
   {
     id: 131,
@@ -2023,7 +2023,7 @@ const angleus= [
     currentFundCorpus: "pre seeds",
     Stagefocus: "Healthcare/Medtech",
     SectorFocus: "250k-1M",
-    logo: ""
+    logo: "https://braitman.co/wp-content/uploads/2020/03/logo-and-mark.svg"
   },
   {
     id: 132,
@@ -2034,7 +2034,7 @@ const angleus= [
     twitterUrl: "https://twitter.com/HBO",
     city: "San Francisco",
     country: "United States",
-    companyoverview: "",
+    companyoverview: "Braitman & Co. appears to be a boutique advisory firm focused on providing strategic and financial consulting services to businesses, investors, and entrepreneurs.",
     TotalFundCorpus: "3570000",
     currentFundCorpus: "pre seeds",
     Stagefocus: "Industrial/IoT/Robotics",
@@ -2082,12 +2082,12 @@ const angleus= [
     twitterUrl: "",
     city: "Murfreesboro",
     country: "United States",
-    companyoverview: "",
+    companyoverview: "Hermès is a prestigious and iconic French luxury brand renowned for its high-quality craftsmanship, timeless designs, and exclusivity. ",
     TotalFundCorpus: "10000000",
     currentFundCorpus: "pre seeds",
     Stagefocus: "Supply Chain/Logistics",
     SectorFocus: "250k-1M",
-    logo: ""
+    logo: "https://media.licdn.com/dms/image/v2/C4E0BAQEEwTOnwK5sGA/company-logo_200_200/company-logo_200_200/0/1630598689086/hermes_group_logo?e=1744848000&v=beta&t=lbpR9cD4sO1w5kl4tq-XaKHgI_wLaEkUTOrzL1lxy3w"
   },
   {
     id: 136,
@@ -2114,7 +2114,7 @@ const angleus= [
     twitterUrl: "",
     city: "United States",
     country: "United States",
-    companyoverview: "",
+    companyoverview: "Life Science Angels is a prominent angel investment group that is dedicated to supporting early-stage companies in the life sciences sector.",
     TotalFundCorpus: "10000000",
     currentFundCorpus: "pre seeds",
     Stagefocus: "Sector Agnostic",
@@ -2162,12 +2162,12 @@ const angleus= [
     twitterUrl: "",
     city: "San Francisco",
     country: "United States",
-    companyoverview: "",
+    companyoverview: "multiple companies or a company that operates across various sectors or businesses. Could you clarify your request or specify if you're referring to a particular company that works across multiple industries",
     TotalFundCorpus: "470000",
     currentFundCorpus: "pre seeds",
     Stagefocus: "Consumer",
     SectorFocus: "50k-100k",
-    logo: ""
+    logo: "https://img1.wsimg.com/isteam/ip/781edcf9-f8b8-497e-bca2-41bb178efe1e/CAN%20Logo.jpg/:/rs=w:447,h:200,cg:true,m/cr=w:447,h:200/qt=q:95"
   },
   {
     id: 141,
@@ -2194,7 +2194,7 @@ const angleus= [
     twitterUrl: "https://twitter.com/TheVRFund",
     city: "Los Angeles",
     country: "United States",
-    companyoverview: "",
+    companyoverview: "The Venture Reality Fund (also known as The VR Fund) is a venture capital firm focused on investing in early-stage companies that are developing virtual reality (VR), augmented reality (AR), mixed reality (MR), and spatial computing technologies.",
     TotalFundCorpus: "470000",
     currentFundCorpus: "Other",
     Stagefocus: "Mobility",
@@ -2215,7 +2215,7 @@ const angleus= [
     currentFundCorpus: "Other",
     Stagefocus: "DeepTech",
     SectorFocus: "50k-100k",
-    logo: ""
+    logo: "https://pbs.twimg.com/profile_banners/836060617647632385/1501304687/600x200"
   },
   {
     id: 144,
@@ -2242,12 +2242,12 @@ const angleus= [
     twitterUrl: "",
     city: "New York",
     country: "United States",
-    companyoverview: "",
+    companyoverview: "Sheraton Hotels & Resorts is a global hotel chain that is part of Marriott International, one of the world's largest hospitality companies.",
     TotalFundCorpus: "772835441",
     currentFundCorpus: "pre seeds",
     Stagefocus: "Edtech",
     SectorFocus: "50k-100k",
-    logo: ""
+    logo: "https://media.licdn.com/dms/image/v2/C4E0BAQHSB40QRirfIw/company-logo_200_200/company-logo_200_200/0/1630602842546/sheraton_logo?e=1744848000&v=beta&t=E5xZiZZoFaw1DPqlYs39e1YGjQHDK40ScdqV0Se-La8"
   },
   {
     id: 146,
@@ -2274,7 +2274,7 @@ const angleus= [
     twitterUrl: "",
     city: "Oakland",
     country: "United States",
-    companyoverview: "",
+    companyoverview: "High Tide Capital's specific portfolio and financial activities might be limited, as many private equity firms operate under the radar unless they are publicly traded or disclose their investments.",
     TotalFundCorpus: "772835441",
     currentFundCorpus: "pre seeds",
     Stagefocus: "AR/VR",
@@ -2290,14 +2290,15 @@ const angleus= [
     twitterUrl: "https://twitter.com/GoldenSeeds",
     city: "Upton",
     country: "United States",
-    companyoverview: "",
+    companyoverview: "Golden Seeds has earned a reputation for its focus on diversity and its role in supporting women entrepreneurs.",
     TotalFundCorpus: "772835441",
     currentFundCorpus: "pre seeds",
     Stagefocus: "Agritech/Food",
     SectorFocus: "50k-100k",
     logo: "https://goldenseeds.com/wp-content/uploads/2021/02/Golden_Seeds_logo_KO.svg"
-  },
-  {
+  
+},
+{
     id: 149,
     title: "Angel Investor",
     company: "Verge - Building a better future for everyone!",
@@ -2306,7 +2307,7 @@ const angleus= [
     twitterUrl: "https://twitter.com/joinverge",
     city: "United States",
     country: "United States",
-    companyoverview: "",
+    companyoverview: "Verge - Building a better future for everyone! appears to be a slogan or a mission statement for an organization or initiative focused on creating positive societal change and addressing key challenges to improve the future. ",
     TotalFundCorpus: "772835441",
     currentFundCorpus: "pre seeds",
     Stagefocus: "Biotech/Life sciences",
@@ -2323,17 +2324,13 @@ const angleus= [
     twitterUrl: "",
     city: "Chicago",
     country: "United States",
-    companyoverview: "",
+    companyoverview: "The Microsoft Windows Community refers to a broad group of users, developers, and enthusiasts who are passionate about Microsoft’s Windows operating system",
     TotalFundCorpus: "772835441",
     currentFundCorpus: "pre seeds",
     Stagefocus: "Climate/Sustainability",
     SectorFocus: "50k-100k",
     logo: "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/UHFbanner-MSlogo?fmt=png-alpha&bfc=off&qlt=100,1"
- 
-}
+    }
     
-    
-
-    
-    ];
+];
     export default angleus;
