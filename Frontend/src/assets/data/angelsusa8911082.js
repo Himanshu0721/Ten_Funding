@@ -1,5 +1,5 @@
 export const angelsusa8911082 = [
-{ 
+    { 
         id: 891,
         title: "Angel Investor",
         company: "SicommNet",
