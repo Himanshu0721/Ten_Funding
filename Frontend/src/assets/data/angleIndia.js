@@ -1300,7 +1300,7 @@ const angleIndia = [
     {
         id: 201,
         title:"Angel Investor and Advisor",
-        company:"",
+        company:"CXsphere",
         industry:"information technology & services",
         website:"https://cxsphere.com/",
         companyLinkedinUrl: "http://www.linkedin.com/company/cxsphere",
@@ -1318,6 +1318,7 @@ const angleIndia = [
     {
         id: 202,
         title:"Angel Investor",
+        company:"The Yarn Bazaar",
         industry:"textiles",
         website:"https://www.theyarnbazaar.com/",
         companyLinkedinUrl: "http://www.linkedin.com/company/theyarnbazaar",
@@ -1335,6 +1336,7 @@ const angleIndia = [
     {
         id: 203,
         title:"Angel Investor",
+        company:"We Founder Circle",
         industry:"venture capital & private equity",
         website:"",
         companyLinkedinUrl: "http://www.linkedin.com/company/wefoundercircle",
@@ -1352,6 +1354,7 @@ const angleIndia = [
     {
         id: 204,
         title:"Angel Investor",
+        company:"Various Companies",
         industry:"venture capital & private equity",
         website:"http://www.tgleaders.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/various-boards",
@@ -1369,6 +1372,7 @@ const angleIndia = [
     {
         id: 205,
         title:"Investor",
+        company:"Angel One",
         industry:"financial services",
         website:"http://www.angelone.in",
         companyLinkedinUrl: "http://www.linkedin.com/company/angelone",
@@ -1386,6 +1390,7 @@ const angleIndia = [
     {
         id: 206,
         title:"Angel Investor",
+        company:"Teachmint",
         industry:"education management",
         website:"https://www.teachmint.com/",
         companyLinkedinUrl: "http://www.linkedin.com/company/teachmint",
@@ -1403,6 +1408,7 @@ const angleIndia = [
     {
         id: 207,
         title:"Angel Investor",
+        company:"POD",
         industry:"fund-raising",
         website:"https://www.podworld.in/",
         companyLinkedinUrl: "http://www.linkedin.com/company/pod-investments",
@@ -1420,6 +1426,7 @@ const angleIndia = [
     {
         id: 208,
         title:"Associate Vice President Investment",
+        company:"RAIN - Raise Angel Investor Network",
         industry:"government relations",
         website:"https://raiseain.com/",
         companyLinkedinUrl: "http://www.linkedin.com/company/rain-raise-angle-investor-network",
@@ -1437,6 +1444,7 @@ const angleIndia = [
     {
         id: 209,
         title:"Angel Investor",
+        company:"Revamp Moto",
         industry:"automotive",
         website:"https://www.revampmoto.in/",
         companyLinkedinUrl: "http://www.linkedin.com/company/revampmoto",
@@ -1454,6 +1462,7 @@ const angleIndia = [
     {
         id: 210,
         title:"Trader and Investor NSE",
+        company:"Angel Broking Limited",
         industry:"financial services",
         website:"https://www.angelbrokingmaheshwaran.com/",
         companyLinkedinUrl: "http://www.linkedin.com/company/rb-angelone",
@@ -1471,6 +1480,7 @@ const angleIndia = [
     {
         id: 211,
         title:"Angel Investor",
+        company:"OneShell Solutions Private Limited",
         industry:"information technology & services",
         website:"https://www.oneshellsolutions.com/",
         companyLinkedinUrl: "http://www.linkedin.com/company/oneshell-solutions-private-limited",
@@ -1488,6 +1498,7 @@ const angleIndia = [
     {
         id: 212,
         title:"Investor",
+        company:"Angel One",
         industry:"financial services",
         website:"https://www.angelone.in/",
         companyLinkedinUrl: "http://www.linkedin.com/company/angelone",
@@ -1505,6 +1516,7 @@ const angleIndia = [
     {
         id: 213,
         title:"Investor",
+        company:"Angel One",
         industry:"financial services",
         website:"https://www.angelone.in/",
         companyLinkedinUrl: "http://www.linkedin.com/company/angelone",
@@ -1522,6 +1534,7 @@ const angleIndia = [
     {
         id: 214,
         title:"Angel Investor",
+        company:"Indian Angel Network",
         industry:"venture capital & private equity",
         website:"https://iangroup.vc/",
         companyLinkedinUrl: "http://www.linkedin.com/company/indian-angel-network",
@@ -1539,6 +1552,7 @@ const angleIndia = [
     {
         id: 215,
         title:"Angel Investor",
+        company:"Share Market trading tips",
         industry:"venture capital & private equity",
         website:"",
         companyLinkedinUrl: "http://www.linkedin.com/company/share-market-trading-tips",
@@ -1556,6 +1570,7 @@ const angleIndia = [
     {
         id: 216,
         title:"Angel Investor",
+        company:"1stCheque by Favcy",
         industry:"information technology & services",
         website:"https://www.1stcheque.com/",
         companyLinkedinUrl: "http://www.linkedin.com/company/1stcheque-by-favcy",
@@ -1573,6 +1588,7 @@ const angleIndia = [
     {
         id: 217,
         title:"Angel Investor & Member of the Advisory Board",
+        company:"Spoon",
         industry:"financial services",
         website:"https://www.spoon.money/",
         companyLinkedinUrl: "http://www.linkedin.com/company/spoonmoney",
@@ -1590,6 +1606,7 @@ const angleIndia = [
     {
         id: 218,
         title:"Angel Investor",
+        company:"Samarth",
         industry:"marketing & advertising",
         website:"",
         companyLinkedinUrl: "http://www.linkedin.com/company/samarthofficial",
@@ -1607,6 +1624,7 @@ const angleIndia = [
     {
         id: 219,
         title:"C.I.O | Angel Investor | Board Member",
+        company:"AdaKalytta",
         industry:"apparel & fashion",
         website:"https://bestpracticesltd.com/",
         companyLinkedinUrl: "http://www.linkedin.com/company/best-practices-ltd",
@@ -1624,6 +1642,7 @@ const angleIndia = [
     {
         id: 220,
         title:"Advisor, Angel investor",
+        company:"DeepScopy",
         industry:"hospital & health care",
         website:"http://www.deepscopy.com/",
         companyLinkedinUrl: "http://www.linkedin.com/company/deepscopy",
@@ -1641,6 +1660,7 @@ const angleIndia = [
     {
         id: 221,
         title:"Angel Investor",
+        company:"Zwings",
         industry:"transportation/trucking/railroad",
         website:"https://www.zwings.co.uk/",
         companyLinkedinUrl: "http://www.linkedin.com/company/zwings",
@@ -1658,6 +1678,7 @@ const angleIndia = [
     {
         id: 222,
         title:"Stock Trader and Investor",
+        company:"Angel One",
         industry:"financial services",
         website:"http://www.angelone.in",
         companyLinkedinUrl: "http://www.linkedin.com/company/angelone",
@@ -1675,6 +1696,7 @@ const angleIndia = [
     {
         id: 223,
         title:"Seed/Angel Investor",
+        company:"Inflection Point Ventures",
         industry:"venture capital & private equity",
         website:"https://ipventures.in/",
         companyLinkedinUrl: "http://www.linkedin.com/company/ipventures",
@@ -1692,6 +1714,7 @@ const angleIndia = [
     {
         id: 224,
         title:"Angel Investor",
+        company:"CollegeBol.com",
         industry:"government administration",
         website:"https://collegebol.com/",
         companyLinkedinUrl: "http://www.linkedin.com/company/collegebol",
@@ -1709,6 +1732,7 @@ const angleIndia = [
     {
         id: 225,
         title:"Angel Investor",
+        company:"Inflection Point Ventures",
         industry:"venture capital & private equity",
         website:"https://ipventures.in/",
         companyLinkedinUrl: "http://www.linkedin.com/company/ipventures",
@@ -1726,6 +1750,7 @@ const angleIndia = [
     {
         id: 226,
         title:"Angel Investor",
+        company:"Exsquare Allianze",
         industry:"financial services",
         website:"http://www.exsquare.in",
         companyLinkedinUrl: "http://www.linkedin.com/company/exsquareallianze",
@@ -1743,6 +1768,7 @@ const angleIndia = [
     {
         id: 227,
         title:"Founder & Angel Investor",
+        company:"Wonder Foods",
         industry:"real estate",
         website:"",
         companyLinkedinUrl: "http://www.linkedin.com/company/wonder-foods",
@@ -1760,6 +1786,7 @@ const angleIndia = [
     {
         id: 228,
         title:"Angel Investor",
+        company:"Mumbai Angels",
         industry:"venture capital & private equity",
         website:"https://www.mumbaiangels.com/",
         companyLinkedinUrl: "http://www.linkedin.com/company/mumbaiangels",
@@ -1777,6 +1804,7 @@ const angleIndia = [
     {
         id: 229,
         title:"Angel Investor",
+        company:"ah! Ventures",
         industry:"financial services",
         website:"http://www.ahventures.in/",
         companyLinkedinUrl: "http://www.linkedin.com/company/ahventures",
@@ -1794,6 +1822,7 @@ const angleIndia = [
     {
         id: 230,
         title:"Angel Investor",
+        company:"DigiBrain",
         industry:"information technology & services",
         website:"http://www.digibrainthailand.com/",
         companyLinkedinUrl: "http://www.linkedin.com/company/digibrain-official",
@@ -1811,6 +1840,7 @@ const angleIndia = [
     {
         id: 231,
         title:"Angel Investor",
+        company:"ReThought",
         industry:"apparel & fashion",
         website:"http://www.rethought.in",
         companyLinkedinUrl: "http://www.linkedin.com/company/rethought-in",
@@ -1828,6 +1858,7 @@ const angleIndia = [
     {
         id: 232,
         title:"Angel Investor",
+        company:"Silverpips",
         industry:"financial services",
         website:"https://silverpips.com/",
         companyLinkedinUrl: "http://www.linkedin.com/company/silverpipsinvest",
@@ -1845,6 +1876,7 @@ const angleIndia = [
     {
         id: 233,
         title:"Angel Investor",
+        company:"Inflection Point Ventures",
         industry:"venture capital & private equity",
         website:"https://ipventures.in/",
         companyLinkedinUrl: "http://www.linkedin.com/company/ipventures",
@@ -1862,6 +1894,7 @@ const angleIndia = [
     {
         id: 234,
         title:"Angel Investor",
+        company:"Family Office",
         industry:"investment banking",
         website:"http://www.pricliadv.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/family-office_2",
@@ -1879,6 +1912,7 @@ const angleIndia = [
     {
         id: 235,
         title:"Angel Investor",
+        company:"AngelList India",
         industry:"financial services",
         website:"https://www.angellistindia.com/",
         companyLinkedinUrl: "http://www.linkedin.com/company/angellist-india",
@@ -1896,6 +1930,7 @@ const angleIndia = [
     {
         id: 236,
         title:"Angel Investor",
+        company:"LetsVenture",
         industry:"information technology & services",
         website:"https://www.letsventure.com/",
         companyLinkedinUrl: "http://www.linkedin.com/company/letsventure",
@@ -1913,6 +1948,7 @@ const angleIndia = [
     {
         id: 237,
         title:"Angel Investor",
+        company:"Sova Health",
         industry:"health, wellness & fitness",
         website:"https://www.sova.health/",
         companyLinkedinUrl: "http://www.linkedin.com/company/sova-health",
@@ -1930,6 +1966,7 @@ const angleIndia = [
     {
         id: 238,
         title:"Angel Investor",
+        company:"Oluko",
         industry:"e-learning",
         website:"http://www.oluko.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/oluko",
@@ -1947,6 +1984,7 @@ const angleIndia = [
     {
         id: 239,
         title:"Angel Investor",
+        company:"instanft",
         industry:"information technology & services",
         website:"http://www.instanft.live",
         companyLinkedinUrl: "http://www.linkedin.com/company/instanft",
@@ -1964,6 +2002,7 @@ const angleIndia = [
     {
         id: 240,
         title:"Angel investor in Fem buddy",
+        company:"Fembuddy Private Limited",
         industry:"health, wellness & fitness",
         website:"http://www.fembuddy.com/",
         companyLinkedinUrl: "http://www.linkedin.com/company/fembuddy",
@@ -1981,6 +2020,7 @@ const angleIndia = [
     {
         id: 241,
         title:"Angel Investor",
+        company:"Samosa Party",
         industry:"food & beverages",
         website:"https://samosaparty.in/",
         companyLinkedinUrl: "http://www.linkedin.com/company/samosapartyfoods",
@@ -1998,6 +2038,7 @@ const angleIndia = [
     {
         id: 242,
         title:"Angel Investor",
+        company:"Multiple Startups",
         industry:"information technology & services",
         website:"http://www.iroqoi.site",
         companyLinkedinUrl: "http://www.linkedin.com/company/multiple-startups-jorani",
@@ -2015,6 +2056,7 @@ const angleIndia = [
     {
         id: 243,
         title:"Angel Investor",
+        company:"Trell",
         industry:"information technology & services",
         website:"http://www.trell.co.in",
         companyLinkedinUrl: "http://www.linkedin.com/company/trell",
@@ -2032,6 +2074,7 @@ const angleIndia = [
     {
         id: 244,
         title:"Angel Investor",
+        company:"Nova Nova",
         industry:"mechanical or industrial engineering",
         website:"http://www.novanova.in",
         companyLinkedinUrl: "http://www.linkedin.com/company/nova-nova",
@@ -2049,6 +2092,7 @@ const angleIndia = [
     {
         id: 245,
         title:"Angel Investor",
+        company:"Angel Investor",
         industry:"retail",
         website:"",
         companyLinkedinUrl: "http://www.linkedin.com/company/angel-investor-allwomanespana",
@@ -2066,6 +2110,7 @@ const angleIndia = [
     {
         id: 246,
         title:"Angel Investor",
+        company:"Unstop",
         industry:"information technology & services",
         website:"http://www.unstop.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/unstop",
@@ -2083,6 +2128,7 @@ const angleIndia = [
     {
         id: 247,
         title:"Co-Founder, Angel investor & Director",
+        company:"Crikick",
         industry:"entertainment",
         website:"http://www.crikick.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/crikick",
@@ -2100,6 +2146,7 @@ const angleIndia = [
     {
         id: 248,
         title:"Angel Investor",
+        company:"WiseGuru",
         industry:"e-learning",
         website:"http://www.wiseguru.in",
         companyLinkedinUrl: "http://www.linkedin.com/company/wiseguru",
@@ -2117,6 +2164,7 @@ const angleIndia = [
     {
         id: 249,
         title:"Angel Investor",
+        company:"ParkMate In",
         industry:"consumer services",
         website:"",
         companyLinkedinUrl: "http://www.linkedin.com/company/parkmatesps-pvtltd",
@@ -2134,6 +2182,7 @@ const angleIndia = [
     {
         id: 250,
         title:"Angel Investor",
+        company:"Bizdateup Technologies Pvt Ltd",
         industry:"investment management",
         website:"http://www.bizdateup.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/bizdateup",
@@ -2151,6 +2200,7 @@ const angleIndia = [
     {
         id: 251,
         title:"Angel Investor",
+        company:"SuperWise - Real-time Construction Management Software",
         industry:"construction",
         website:"http://www.superwise.site",
         companyLinkedinUrl: "http://www.linkedin.com/company/superwise",
@@ -2168,6 +2218,7 @@ const angleIndia = [
     {
         id: 252,
         title:"Angel Investor",
+        company:"Angel One",
         industry:"financial services",
         website:"http://www.angelone.in",
         companyLinkedinUrl: "http://www.linkedin.com/company/angelone",
@@ -2185,6 +2236,7 @@ const angleIndia = [
     {
         id: 253,
         title:"Angel Investor",
+        company:"AgniKul Cosmos",
         industry:"defense & space",
         website:"http://www.agnikul.in",
         companyLinkedinUrl: "http://www.linkedin.com/company/agnikul-cosmos",
@@ -2202,6 +2254,7 @@ const angleIndia = [
     {
         id: 254,
         title:"Angel Investor",
+        company:"Wallter Systems Private Limited",
         industry:"architecture & planning",
         website:"http://www.wallter.in",
         companyLinkedinUrl: "http://www.linkedin.com/company/wallter-systems-private-limited",
@@ -2219,6 +2272,7 @@ const angleIndia = [
     {
         id: 255,
         title:"Angel Investor",
+        company:"mesho",
         industry:"architecture & planning",
         website:"",
         companyLinkedinUrl: "http://www.linkedin.com/company/mesho",
@@ -2236,6 +2290,7 @@ const angleIndia = [
     {
         id: 256,
         title:"Angel Investor",
+        company:"SucSEED Ventures",
         industry:"venture capital & private equity",
         website:"http://www.sucseedindovation.com/",
         companyLinkedinUrl: "http://www.linkedin.com/company/sucseed-ventures",
@@ -2253,6 +2308,7 @@ const angleIndia = [
     {
         id: 257,
         title:"Angel Investor",
+        company:"Early Stage Startups",
         industry:"venture capital & private equity",
         website:"",
         companyLinkedinUrl: "http://www.linkedin.com/company/early-stage-startupss",
@@ -2270,6 +2326,7 @@ const angleIndia = [
     {
         id: 258,
         title:"Angel Investor",
+        company:"Angel Fund",
         industry:"nonprofit organization management",
         website:"http://www.angelfundva.org",
         companyLinkedinUrl: "http://www.linkedin.com/company/angel-fund",
