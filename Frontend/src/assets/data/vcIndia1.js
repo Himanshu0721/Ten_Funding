@@ -78,7 +78,7 @@ const vcIndia1 = [
     title: "Volunteers",
     industry: "venture capital & private equity",
     website: "http://www.aegle.vc/",
-    logo: "",
+    logo: "https://media.licdn.com/dms/image/v2/D4D0BAQE4wJsKfGapeg/company-logo_200_200/company-logo_200_200/0/1708939613672/aeglevc_logo?e=1744848000&v=beta&t=-Q6xjGxqa--vOES9RQzEMhJmKouZvqDfCsoLAxOUDT4",
     companyLinkedinUrl: "http://www.linkedin.com/company/aeglevc",
     twitterUrl: "",
     country: "India",
@@ -87,7 +87,7 @@ const vcIndia1 = [
     ticketSize: "500k-1m",
     currentFundCorpus: "",
     totalFundCorpus: "",
-    companyOverview: "",
+    companyOverview: "Pushttie Venture Capital epitomizes a deep tech investment entity steadfastly dedicated to empowering startups, Micro, Small, and Medium Enterprises (MSMEs), and micro entrepreneurs by endowing them with indispensable resources for triumph",
   },
   {id: 7,
     title: "Investments- Venture Capital",
@@ -117,7 +117,7 @@ const vcIndia1 = [
     ticketSize: "250k-500k",
     currentFundCorpus: "100000000",
     totalFundCorpus: "4800000000",
-    companyOverview: "",
+    companyOverview: "Trifecta Capital is India's leading venture financing platform with products spanning growth equity, credit, & financial advisory and a combined $600mm+ AUM.",
   },
   {id: 9,
     title: "Investment Professional",
@@ -138,7 +138,7 @@ const vcIndia1 = [
     title: "Project Manager",
     industry: "venture capital & private equity",
     website: "http://www.kptl.com.br/",
-    logo: "",
+    logo: "https://media.licdn.com/dms/image/v2/C560BAQEEIYAx_Y-d5g/company-logo_200_200/company-logo_200_200/0/1630589898028/kptl_vc_logo?e=1744848000&v=beta&t=Oltm9yodl26c4aKrWpKBcgh9qBEISRlW3v4Gijvtssk",
     companyLinkedinUrl: "http://www.linkedin.com/company/kptl-vc",
     twitterUrl: "",
     country: "India",
@@ -147,13 +147,13 @@ const vcIndia1 = [
     ticketSize: "50k-250k",
     currentFundCorpus: "",
     totalFundCorpus: "",
-    companyOverview: "",
+    companyOverview: "The VCs A5 Capital Partners and Inseed Investimentos created KPTL, a giant in the industry that is already born as the largest Venture Capital firm for funds domiciled in Brazil, with 46 investees",
   },
   {id: 11,
     title: "S&T",
     industry: "venture capital & private equity",
     website: "http://www.kptl.com.br/",
-    logo: "",
+    logo: "https://media.licdn.com/dms/image/v2/C560BAQEEIYAx_Y-d5g/company-logo_200_200/company-logo_200_200/0/1630589898028/kptl_vc_logo?e=1744848000&v=beta&t=Oltm9yodl26c4aKrWpKBcgh9qBEISRlW3v4Gijvtssk",
     companyLinkedinUrl: "http://www.linkedin.com/company/kptl-vc",
     twitterUrl: "",
     country: "India",
@@ -162,7 +162,7 @@ const vcIndia1 = [
     ticketSize: "250k-500k",
     currentFundCorpus: "",
     totalFundCorpus: "",
-    companyOverview: "",
+    companyOverview: "The VCs A5 Capital Partners and Inseed Investimentos created KPTL, a giant in the industry that is already born as the largest Venture Capital firm for funds domiciled in Brazil, with 46 investees",
   },
   {id: 12,
     title: "Intern",
@@ -267,13 +267,13 @@ const vcIndia1 = [
     ticketSize: "500k-1m",
     currentFundCorpus: "",
     totalFundCorpus: "",
-    companyOverview: "",
+    companyOverview: "Picus Capital is an early-stage technology investment firm with a long-term investment philosophy",
   },
   {id: 19,
     title: "VC Analyst",
     industry: "venture capital & private equity",
     website: "http://www.dallasvc.com/",
-    logo: "",
+    logo: "https://media.licdn.com/dms/image/v2/C4E0BAQFygCHA7FuOCg/company-logo_200_200/company-logo_200_200/0/1630634407382/dallas_venture_capital_logo?e=1744848000&v=beta&t=m4OYKL8T-ba4t0duvUhHZYnpq-H1O0qHqPv0MDNO8Aw",
     companyLinkedinUrl: "http://www.linkedin.com/company/d-vc",
     twitterUrl: "http://www.twitter.com/NayaVentures",
     country: "India",
@@ -282,7 +282,7 @@ const vcIndia1 = [
     ticketSize: "50k-250k",
     currentFundCorpus: "7320300",
     totalFundCorpus: "130348250",
-    companyOverview: "",
+    companyOverview: "Dallas Venture Capital ("DVC") is a Venture Capital firm, based in Dallas and Hyderabad, investing in SaaS, cloud infrastructure, cybersecurity, Data, DevOps, AI/ML, and other emerging technologies",
   },
   {id: 20,
     title: "Intern",
@@ -297,7 +297,7 @@ const vcIndia1 = [
     ticketSize: "250k-500k",
     currentFundCorpus: "37445295",
     totalFundCorpus: "37445295",
-    companyOverview: "",
+    companyOverview: "SIDBI Venture Capital Limited (SVCL), incorporated in 1999, is an investment management company and a wholly owned subsidiary of SIDBI (www.sidbi.in), ",
   },
   { 
     id: 21,
@@ -313,7 +313,7 @@ const vcIndia1 = [
     ticketSize: "500k-1m",
     currentFundCorpus: "",
     totalFundCorpus: "",
-    companyOverview: "",
+    companyOverview: "Picus Capital is an early-stage technology investment firm with a long-term investment philosophy",
   },
   {  
     id: 22,
@@ -329,7 +329,7 @@ const vcIndia1 = [
     ticketSize: "50k-250k",
     currentFundCorpus: "",
     totalFundCorpus: "",
-    companyOverview: "",
+    companyOverview: "DST Global is one of the leading Internet investment firms globally. Its investments include some of the world’s fastest growing and most valuable companies.",
   },
   { 
     id: 23,
@@ -345,7 +345,7 @@ const vcIndia1 = [
     ticketSize: "250k-500k",
     currentFundCorpus: "",
     totalFundCorpus: "",
-    companyOverview: "",
+    companyOverview: "Empowering entrepreneurs in creating a legacy that lasts.",
   },
   { 
     id: 24,
@@ -362,7 +362,7 @@ const vcIndia1 = [
     ticketSize: "500k-1m",
     currentFundCorpus: "",
     totalFundCorpus: "",
-    companyOverview: "",
+    companyOverview: "Mount Judi Ventures is a venture capital firm based in Bengaluru, India. It was founded by successful entrepreneurs with a vision of creating wealth through mutually fair and equitable venture capital investments.",
   },
   { 
     id: 25,
@@ -394,7 +394,7 @@ const vcIndia1 = [
     ticketSize: "250k-500k",
     currentFundCorpus: "",
     totalFundCorpus: "",
-    companyOverview: "",
+    companyOverview: "AVCJ has been the leading source of information on private equity and venture capital activities in Asia since its establishment in 1987",
   },
   { 
     id: 27,
@@ -412,7 +412,7 @@ const vcIndia1 = [
     totalFundCorpus: "",
     companyOverview: "We invest and catalyse businesses for the Indian Growth Century.",
   },
-  { 
+{ 
     id: 28,
     title: "Venture Capital Associate",
     industry: "",
@@ -426,14 +426,14 @@ const vcIndia1 = [
     ticketSize: "50k-250k",
     currentFundCorpus: "",
     totalFundCorpus: "",
-    companyOverview: "",
+    companyOverview: "Elevation AI is the next-generation AI platform revolutionizing Growth & Operations for enterprises, investors, and government entities",
   },
   { 
     id: 29,
     title: "Investment Professional",
     industry: "venture capital & private equity",
     website: "http://www.bventure.com",
-    logo: "",
+    logo: "https://media.licdn.com/dms/image/v2/D560BAQFYIElOa6g6rQ/company-logo_200_200/company-logo_200_200/0/1684320565157/billionaire_venture_capital_logo?e=1744848000&v=beta&t=Ma-gTSs_3hsje6AEIG1KcWSMymHPMyvnYOkZQwpQpwk",
     companyLinkedinUrl: "http://www.linkedin.com/company/billionaire-venture-capital",
     twitterUrl: "https://twitter.com/billionaire_vc",
     country: "India",
@@ -442,14 +442,14 @@ const vcIndia1 = [
     ticketSize: "250k-500k",
     currentFundCorpus: "",
     totalFundCorpus: "",
-    companyOverview: "",
+    companyOverview: "We zealously invest in Early-stage technology startups across various industries.",
   },
   { 
     id: 30,
     title: "Aluminium and glass",
     industry: "venture capital & private equity",
     website: "http://www.kptl.com.br",
-    logo: "",
+    logo: "https://media.licdn.com/dms/image/v2/C560BAQEEIYAx_Y-d5g/company-logo_200_200/company-logo_200_200/0/1630589898028/kptl_vc_logo?e=1744848000&v=beta&t=Oltm9yodl26c4aKrWpKBcgh9qBEISRlW3v4Gijvtssk",
     companyLinkedinUrl: "http://www.linkedin.com/company/kptl-vc",
     twitterUrl: "",
     country: "India",
@@ -458,14 +458,14 @@ const vcIndia1 = [
     ticketSize: "500k-1m",
     currentFundCorpus: "",
     totalFundCorpus: "",
-    companyOverview: "",
+    companyOverview: "The VCs A5 Capital Partners and Inseed Investimentos created KPTL, a giant in the industry that is already born as the largest Venture Capital firm for funds domiciled in Brazil, with 46 investees",
   },  
     {
       id: 31,
       title: "Social Worker",
       industry: "venture capital & private equity",
       website: "http://www.aegle.vc",
-      logo: "",
+      logo: "https://media.licdn.com/dms/image/v2/D4D0BAQE4wJsKfGapeg/company-logo_200_200/company-logo_200_200/0/1708939613672/aeglevc_logo?e=1744848000&v=beta&t=-Q6xjGxqa--vOES9RQzEMhJmKouZvqDfCsoLAxOUDT4",
       companyLinkedinUrl: "http://www.linkedin.com/company/aeglevc",
       twitterUrl: "",
       country: "India",
@@ -474,7 +474,7 @@ const vcIndia1 = [
       ticketSize: "50k-250k",
       currentFundCorpus: "",
       totalFundCorpus: "",
-      companyOverview: ""
+      companyOverview: "Pushttie Venture Capital epitomizes a deep tech investment entity steadfastly dedicated to empowering startups, Micro, Small, and Medium Enterprises (MSMEs), and micro entrepreneurs by endowing them with indispensable resources for triumph"
     },
     {
       id: 32,
@@ -522,14 +522,14 @@ const vcIndia1 = [
       ticketSize: "50k-250k",
       currentFundCorpus: "850000000",
       totalFundCorpus: "850000000",
-      companyOverview: ""
+      companyOverview: "We operate on the belief that our people are our core assets and we consistently endeavour towards developing their potential to be our future leaders and key employees."
     },
     {
       id: 35,
       title: "Quality Control Supervisor",
       industry: "venture capital & private equity",
       website: "http://www.kptl.com.br",
-      logo: "",
+      logo: "https://media.licdn.com/dms/image/v2/C560BAQEEIYAx_Y-d5g/company-logo_200_200/company-logo_200_200/0/1630589898028/kptl_vc_logo?e=1744848000&v=beta&t=Oltm9yodl26c4aKrWpKBcgh9qBEISRlW3v4Gijvtssk",
       companyLinkedinUrl: "http://www.linkedin.com/company/kptl-vc",
       twitterUrl: "",
       country: "India",
@@ -538,7 +538,7 @@ const vcIndia1 = [
       ticketSize: "250k-500k",
       currentFundCorpus: "",
       totalFundCorpus: "",
-      companyOverview: ""
+      companyOverview: "The VCs A5 Capital Partners and Inseed Investimentos created KPTL, a giant in the industry that is already born as the largest Venture Capital firm for funds domiciled in Brazil, with 46 investees"
     },
     {
       id: 36,
@@ -570,7 +570,7 @@ const vcIndia1 = [
       ticketSize: "50k-250k",
       currentFundCorpus: "",
       totalFundCorpus: "",
-      companyOverview: ""
+      companyOverview: "Engaged in the areas of seed/venture capital financing, technology transactions, mergers & acquisitions, joint ventures, exchange control laws, venture capital and private equity and general corporate and commercial transactions."
     },
     {
       id: 38,
@@ -593,7 +593,7 @@ const vcIndia1 = [
       title: "Investment Analyst",
       industry: "venture capital & private equity",
       website: "http://www.aegle.vc",
-      logo: "",
+      logo: "https://media.licdn.com/dms/image/v2/D4D0BAQE4wJsKfGapeg/company-logo_200_200/company-logo_200_200/0/1708939613672/aeglevc_logo?e=1744848000&v=beta&t=-Q6xjGxqa--vOES9RQzEMhJmKouZvqDfCsoLAxOUDT4",
       companyLinkedinUrl: "http://www.linkedin.com/company/aeglevc",
       twitterUrl: "",
       country: "India",
@@ -602,7 +602,7 @@ const vcIndia1 = [
       ticketSize: "500k-1m",
       currentFundCorpus: "",
       totalFundCorpus: "",
-      companyOverview: ""
+      companyOverview: "Pushttie Venture Capital epitomizes a deep tech investment entity steadfastly dedicated to empowering startups, Micro, Small, and Medium Enterprises (MSMEs), and micro entrepreneurs by endowing them with indispensable resources for triumph"
     },
     {
       id: 40,
@@ -618,7 +618,7 @@ const vcIndia1 = [
       ticketSize: "50k-250k",
       currentFundCorpus: "12930000",
       totalFundCorpus: "16944610",
-      companyOverview: ""
+      companyOverview: "We are an India-based venture capital fund committed to funding EdTech and Fintech startups focused on building a better tomorrow by harnessing the power of technology to build and strengthen products and services catering to the global Education and Finance sectors."
     },  
       { 
         id: 41,
@@ -634,14 +634,14 @@ const vcIndia1 = [
         ticketSize: "500k-1m",
         currentFundCorpus: "24341400",
         totalFundCorpus: "80994600",
-        companyOverview: ""
+        companyOverview: "Speciale Invest is an early-stage venture capital firm based out of India investing in disruptive technologies at the pre-seed and seed stages. "
       },
       { 
         id: 42,
         title: "Engineer",
         industry: "venture capital & private equity",
         website: "http://www.kptl.com.br",
-        logo: "",
+        logo: "https://media.licdn.com/dms/image/v2/C560BAQEEIYAx_Y-d5g/company-logo_200_200/company-logo_200_200/0/1630589898028/kptl_vc_logo?e=1744848000&v=beta&t=Oltm9yodl26c4aKrWpKBcgh9qBEISRlW3v4Gijvtssk",
         companyLinkedinUrl: "http://www.linkedin.com/company/kptl-vc",
         twitterUrl: "",
         country: "India",
@@ -650,7 +650,7 @@ const vcIndia1 = [
         ticketSize: "50k-250k",
         currentFundCorpus: "",
         totalFundCorpus: "",
-        companyOverview: ""
+        companyOverview: "The VCs A5 Capital Partners and Inseed Investimentos created KPTL, a giant in the industry that is already born as the largest Venture Capital firm for funds domiciled in Brazil, with 46 investees"
       },
       { 
         id: 43,
@@ -682,7 +682,7 @@ const vcIndia1 = [
         ticketSize: "500k-1m",
         currentFundCorpus: "",
         totalFundCorpus: "",
-        companyOverview: ""
+        companyOverview: "Picus Capital is an early-stage technology investment firm with a long-term investment philosophy"
       },
       { 
         id: 45,
@@ -698,14 +698,14 @@ const vcIndia1 = [
         ticketSize: "50k-250k",
         currentFundCorpus: "209000000",
         totalFundCorpus: "541000000",
-        companyOverview: ""
+        companyOverview: "Born in Mumbai, Lightbox is a venture capital firm with $450 million in assets under management"
       },
       { 
         id: 46,
         title: "Sr. Supervisor",
         industry: "venture capital & private equity",
         website: "http://www.kptl.com.br",
-        logo: "",
+        logo: "https://media.licdn.com/dms/image/v2/C560BAQEEIYAx_Y-d5g/company-logo_200_200/company-logo_200_200/0/1630589898028/kptl_vc_logo?e=1744848000&v=beta&t=Oltm9yodl26c4aKrWpKBcgh9qBEISRlW3v4Gijvtssk",
         companyLinkedinUrl: "http://www.linkedin.com/company/kptl-vc",
         twitterUrl: "",
         country: "India",
@@ -714,14 +714,14 @@ const vcIndia1 = [
         ticketSize: "250k-500k",
         currentFundCorpus: "",
         totalFundCorpus: "",
-        companyOverview: ""
+        companyOverview: "Innovation Future growth",
       },
       { 
         id: 47,
         title: "Freelance Editor",
         industry: "venture capital & private equity",
         website: "http://www.aegle.vc",
-        logo: "",
+        logo: "https://media.licdn.com/dms/image/v2/D4D0BAQE4wJsKfGapeg/company-logo_200_200/company-logo_200_200/0/1708939613672/aeglevc_logo?e=1744848000&v=beta&t=-Q6xjGxqa--vOES9RQzEMhJmKouZvqDfCsoLAxOUDT4",
         companyLinkedinUrl: "http://www.linkedin.com/company/aeglevc",
         twitterUrl: "",
         country: "India",
@@ -730,14 +730,14 @@ const vcIndia1 = [
         ticketSize: "500k-1m",
         currentFundCorpus: "",
         totalFundCorpus: "",
-        companyOverview: ""
+        companyOverview: "Pushttie Venture Capital epitomizes a deep tech investment entity steadfastly dedicated to empowering startups, Micro, Small, and Medium Enterprises (MSMEs), and micro entrepreneurs by endowing them with indispensable resources for triumph"
       },
       { 
         id: 48,
         title: "Admin",
         industry: "venture capital & private equity",
         website: "http://www.aegle.vc",
-        logo: "",
+        logo: "https://media.licdn.com/dms/image/v2/D4D0BAQE4wJsKfGapeg/company-logo_200_200/company-logo_200_200/0/1708939613672/aeglevc_logo?e=1744848000&v=beta&t=-Q6xjGxqa--vOES9RQzEMhJmKouZvqDfCsoLAxOUDT4",
         companyLinkedinUrl: "http://www.linkedin.com/company/aeglevc",
         twitterUrl: "",
         country: "India",
@@ -746,14 +746,14 @@ const vcIndia1 = [
         ticketSize: "50k-250k",
         currentFundCorpus: "",
         totalFundCorpus: "",
-        companyOverview: ""
+        companyOverview: "Pushttie Venture Capital epitomizes a deep tech investment entity steadfastly dedicated to empowering startups, Micro, Small, and Medium Enterprises (MSMEs), and micro entrepreneurs by endowing them with indispensable resources for triumph"
       },
       { 
         id: 49,
         title: "CEO & Managing Partner",
         industry: "",
         website: "http://www.bventure.com",
-        logo: "",
+        logo: "https://media.licdn.com/dms/image/v2/D560BAQFYIElOa6g6rQ/company-logo_200_200/company-logo_200_200/0/1684320565157/billionaire_venture_capital_logo?e=1744848000&v=beta&t=Ma-gTSs_3hsje6AEIG1KcWSMymHPMyvnYOkZQwpQpwk",
         companyLinkedinUrl: "http://www.linkedin.com/company/billionaire-venture-capital",
         twitterUrl: "https://twitter.com/billionaire_vc",
         country: "India",
@@ -762,14 +762,14 @@ const vcIndia1 = [
         ticketSize: "250k-500k",
         currentFundCorpus: "",
         totalFundCorpus: "",
-        companyOverview: ""
+        companyOverview: "We zealously invest in Early-stage technology startups across various industries."
       },
       { 
         id: 50,
         title: "Project",
         industry: "venture capital & private equity",
         website: "http://www.kptl.com.br",
-        logo: "",
+        logo: "https://media.licdn.com/dms/image/v2/C560BAQEEIYAx_Y-d5g/company-logo_200_200/company-logo_200_200/0/1630589898028/kptl_vc_logo?e=1744848000&v=beta&t=Oltm9yodl26c4aKrWpKBcgh9qBEISRlW3v4Gijvtssk",
         companyLinkedinUrl: "http://www.linkedin.com/company/kptl-vc",
         twitterUrl: "",
         country: "India",
@@ -778,7 +778,7 @@ const vcIndia1 = [
         ticketSize: "500k-1m",
         currentFundCorpus: "",
         totalFundCorpus: "",
-        companyOverview: ""
+        companyOverview: "Innovation future growth"
       },     
       { id: 51,
         title: "Private Equity / Venture Capital",
@@ -793,7 +793,7 @@ const vcIndia1 = [
         ticketSize: "50k-250k",
         currentFundCorpus: "",
         totalFundCorpus: "",
-        companyOverview: ""
+        companyOverview: "The Sekhsaria family has a history of creating enterprises that spans over a century, with decades of experience in the areas of commodities trading, cement, equity markets and technology"
       },
       { id: 52,
         title: "Fundraiser / Investor / Mentor",
@@ -838,13 +838,13 @@ const vcIndia1 = [
         ticketSize: "250k-500k",
         currentFundCorpus: "24341400",
         totalFundCorpus: "80994600",
-        companyOverview: ""
+        companyOverview: "Speciale Invest is an early-stage venture capital firm based out of India investing in disruptive technologies at the pre-seed and seed stages."
       },
       { id: 55,
         title: "Contractor",
         industry: "venture capital & private equity",
         website: "http://www.kptl.com.br",
-        logo: "",
+        logo: "https://media.licdn.com/dms/image/v2/C560BAQEEIYAx_Y-d5g/company-logo_200_200/company-logo_200_200/0/1630589898028/kptl_vc_logo?e=1744848000&v=beta&t=Oltm9yodl26c4aKrWpKBcgh9qBEISRlW3v4Gijvtssk",
         companyLinkedinUrl: "http://www.linkedin.com/company/kptl-vc",
         twitterUrl: "",
         country: "India",
@@ -853,7 +853,7 @@ const vcIndia1 = [
         ticketSize: "500k-1m",
         currentFundCorpus: "",
         totalFundCorpus: "",
-        companyOverview: ""
+        companyOverview: "The VCs A5 Capital Partners and Inseed Investimentos created KPTL, a giant in the industry that is already born as the largest Venture Capital firm for funds domiciled in Brazil, with 46 investees"
       },
       { id: 56,
         title: "Product Manager - Private Equity & Venture Capital",
@@ -868,7 +868,7 @@ const vcIndia1 = [
         ticketSize: "50k-250k",
         currentFundCorpus: "",
         totalFundCorpus: "",
-        companyOverview: ""
+        companyOverview: "Welcome to SBM Bank India where Power, Privilege and Performance culminate to create an exceptional banking experience through the Corporate, Retail and Treasury divisions of our young yet globalized institution."
       },
       { id: 57,
         title: "Head of Finance - Venture Debt",
@@ -883,7 +883,7 @@ const vcIndia1 = [
         ticketSize: "250k-500k",
         currentFundCorpus: "100000000",
         totalFundCorpus: "4800000000",
-        companyOverview: ""
+        companyOverview: "Trifecta Capital is India's leading venture financing platform with products spanning growth equity, credit, & financial advisory and a combined $600mm+ AUM."
       },
       { id: 58,
         title: "Portfolio Value Creation",
@@ -898,7 +898,7 @@ const vcIndia1 = [
         ticketSize: "500k-1m",
         currentFundCorpus: "",
         totalFundCorpus: "",
-        companyOverview: ""
+        companyOverview: "Susquehanna Venture Capital has the most flexible source of capital you will find anywhere. Our capital comes from Susquehanna International Group (SIG), a bootstrapped financial services firm with its origins in derivative trading and market making."
       },
       { id: 59,
         title: "Investor Relations Executive",
@@ -911,9 +911,9 @@ const vcIndia1 = [
         stageFocus: "seed",
         sectorFocus: "early-stage startups",
         ticketSize: "500k-1m",
-        currentFundCorpus: "We believe, too, that we are Challengineers: a team that actively pushes boundaries and engineers outcomes, standing shoulder to shoulder with our founders and supporting them with ‘Nurture Capital’",
+        currentFundCorpus: "44907900",
         totalFundCorpus: "44907900",
-        companyOverview: "44907900"
+        companyOverview: "We believe, too, that we are Challengineers: a team that actively pushes boundaries and engineers outcomes, standing shoulder to shoulder with our founders and supporting them with ‘Nurture Capital’"
       },
       { id: 60,
         title: "Financial Controller",
@@ -943,13 +943,13 @@ const vcIndia1 = [
         ticketSize: "250k-500k",
         currentFundCorpus: "2875047",
         totalFundCorpus: "9893765",
-        companyOverview: ""
+        companyOverview: "Founded in 2009, KiwiTech has emerged as a global innovation ecosystem and innovation partner of choice for startups, enterprises, and government authorities."
       },
       { id: 62,
         title: "ENGINEER",
         industry: "venture capital & private equity",
         website: "http://www.kptl.com.br",
-        logo: "",
+        logo: "https://media.licdn.com/dms/image/v2/C560BAQEEIYAx_Y-d5g/company-logo_200_200/company-logo_200_200/0/1630589898028/kptl_vc_logo?e=1744848000&v=beta&t=Oltm9yodl26c4aKrWpKBcgh9qBEISRlW3v4Gijvtssk",
         companyLinkedinUrl: "http://www.linkedin.com/company/kptl-vc",
         twitterUrl: "",
         country: "India",
@@ -958,7 +958,7 @@ const vcIndia1 = [
         ticketSize: "500k-1m",
         currentFundCorpus: "",
         totalFundCorpus: "",
-        companyOverview: ""
+        companyOverview: "Innvoation future growth"
       },
       { id: 63,
         title: "Senior Vice President",
@@ -979,7 +979,7 @@ const vcIndia1 = [
         title: "ABC",
         industry: "venture capital & private equity",
         website: "http://www.aegle.vc",
-        logo: "",
+        logo: "https://media.licdn.com/dms/image/v2/D4D0BAQE4wJsKfGapeg/company-logo_200_200/company-logo_200_200/0/1708939613672/aeglevc_logo?e=1744848000&v=beta&t=-Q6xjGxqa--vOES9RQzEMhJmKouZvqDfCsoLAxOUDT4",
         companyLinkedinUrl: "http://www.linkedin.com/company/aeglevc",
         twitterUrl: "",
         country: "India",
@@ -988,7 +988,7 @@ const vcIndia1 = [
         ticketSize: "250k-500k",
         currentFundCorpus: "",
         totalFundCorpus: "",
-        companyOverview: ""
+        companyOverview: "Pushttie Venture Capital epitomizes a deep tech investment entity steadfastly dedicated to empowering startups, Micro, Small, and Medium Enterprises (MSMEs), and micro entrepreneurs by endowing them with indispensable resources for triumph"
       },
       { id: 65,
         title: "Finance Manager",
@@ -1009,7 +1009,7 @@ const vcIndia1 = [
         title: "Teacher",
         industry: "venture capital & private equity",
         website: "http://www.aegle.vc",
-        logo: "",
+        logo: "https://media.licdn.com/dms/image/v2/D4D0BAQE4wJsKfGapeg/company-logo_200_200/company-logo_200_200/0/1708939613672/aeglevc_logo?e=1744848000&v=beta&t=-Q6xjGxqa--vOES9RQzEMhJmKouZvqDfCsoLAxOUDT4",
         companyLinkedinUrl: "http://www.linkedin.com/company/aeglevc",
         twitterUrl: "",
         country: "India",
@@ -1018,13 +1018,13 @@ const vcIndia1 = [
         ticketSize: "50k-250k",
         currentFundCorpus: "",
         totalFundCorpus: "",
-        companyOverview: ""
+        companyOverview: "Pushttie Venture Capital epitomizes a deep tech investment entity steadfastly dedicated to empowering startups, Micro, Small, and Medium Enterprises"
       },
       { id: 67,
         title: "Helpline Counselor",
         industry: "venture capital & private equity",
         website: "http://www.aegle.vc",
-        logo: "",
+        logo: "https://media.licdn.com/dms/image/v2/D4D0BAQE4wJsKfGapeg/company-logo_200_200/company-logo_200_200/0/1708939613672/aeglevc_logo?e=1744848000&v=beta&t=-Q6xjGxqa--vOES9RQzEMhJmKouZvqDfCsoLAxOUDT4",
         companyLinkedinUrl: "http://www.linkedin.com/company/aeglevc",
         twitterUrl: "",
         country: "India",
@@ -1033,7 +1033,7 @@ const vcIndia1 = [
         ticketSize: "500k-1m",
         currentFundCorpus: "",
         totalFundCorpus: "",
-        companyOverview: ""
+        companyOverview: "Pushttie Venture Capital epitomizes a deep tech investment entity steadfastly dedicated to empowering startups, Micro, Small, and Medium Enterprises"
       },
       { id: 68,
         title: "Venture Capital Partnerships",
@@ -1063,7 +1063,7 @@ const vcIndia1 = [
         ticketSize: "50k-250k",
         currentFundCorpus: "",
         totalFundCorpus: "",
-        companyOverview: ""
+        companyOverview: "AAB Venture Capital is a private equity firm based in Dallas that invests in a diverse range of industries, including real estate, operating cash flow businesses, and technology startups."
       },
       { id: 70,
         title: "Vice President",
@@ -1117,7 +1117,7 @@ const vcIndia1 = [
         title: "Health Sector",
         industry: "venture capital & private equity",
         website: "http://www.aegle.vc",
-        logo: "",
+        logo: "https://media.licdn.com/dms/image/v2/D4D0BAQE4wJsKfGapeg/company-logo_200_200/company-logo_200_200/0/1708939613672/aeglevc_logo?e=1744848000&v=beta&t=-Q6xjGxqa--vOES9RQzEMhJmKouZvqDfCsoLAxOUDT4",
         companyLinkedinUrl: "http://www.linkedin.com/company/aeglevc",
         twitterUrl: "",
         country: "India",
@@ -1126,7 +1126,7 @@ const vcIndia1 = [
         ticketSize: "50k-250k",
         currentFundCorpus: "",
         totalFundCorpus: "",
-        companyOverview: ""
+        companyOverview: "Pushttie Venture Capital epitomizes a deep tech investment entity steadfastly dedicated to empowering startups, Micro, Small, and Medium Enterprises "
       },
       {
         id: 74,
@@ -1142,7 +1142,7 @@ const vcIndia1 = [
         ticketSize: "500k-1m",
         currentFundCorpus: "",
         totalFundCorpus: "",
-        companyOverview: ""
+        companyOverview: "Shell is a global group of energy and petrochemical companies, employing 103,000 people and with operations in more than 70 countries"
       },
       {
         id: 75,
@@ -1165,7 +1165,7 @@ const vcIndia1 = [
         title: "Sales And Marketing Specialist",
         industry: "venture capital & private equity",
         website: "http://www.aegle.vc",
-        logo: "",
+        logo: "https://media.licdn.com/dms/image/v2/D4D0BAQE4wJsKfGapeg/company-logo_200_200/company-logo_200_200/0/1708939613672/aeglevc_logo?e=1744848000&v=beta&t=-Q6xjGxqa--vOES9RQzEMhJmKouZvqDfCsoLAxOUDT4",
         companyLinkedinUrl: "http://www.linkedin.com/company/aeglevc",
         twitterUrl: "",
         country: "India",
@@ -1174,14 +1174,14 @@ const vcIndia1 = [
         ticketSize: "500k-1m",
         currentFundCorpus: "",
         totalFundCorpus: "",
-        companyOverview: ""
+        companyOverview: "Pushttie Venture Capital epitomizes a deep tech investment entity steadfastly dedicated to empowering startups, Micro, Small, and Medium Enterprises (MSMEs), and micro entrepreneurs by endowing them with indispensable resources for triumph"
       },
       {
         id: 77,
         title: "Venture Partner",
         industry: "financial services",
         website: "http://www.elevationcapital.com",
-        logo: "",
+        logo: "https://media.licdn.com/dms/image/v2/D560BAQHhzxaAXW1Rgw/company-logo_200_200/company-logo_200_200/0/1730884345501/elevationcap_logo?e=1744848000&v=beta&t=FPT585t9BGssd5_ndovn6-xXqOEwVW4qADA7VPXP_hw",
         companyLinkedinUrl: "http://www.linkedin.com/company/elevationcap",
         twitterUrl: "https://twitter.com/SAIFPartners",
         country: "India",
@@ -1190,7 +1190,7 @@ const vcIndia1 = [
         ticketSize: "50k-250k",
         currentFundCorpus: "670000000",
         totalFundCorpus: "1770000000",
-        companyOverview: ""
+        companyOverview: "Early stage venture capital firm. Proud partners of visionary founders. Never too early to get in touch with us. Built for the Audacious."
       },
       {
         id: 78,
@@ -1238,14 +1238,14 @@ const vcIndia1 = [
         ticketSize: "500k-1m",
         currentFundCorpus: "37445295",
         totalFundCorpus: "37445295",
-        companyOverview: ""
+        companyOverview: "SIDBI Venture Capital Limited (SVCL), incorporated in 1999, is an investment management company and a wholly owned subsidiary of SIDBI (www.sidbi.in),"
       },
       {
         id: 81,
         title: "transmission",
         industry: "venture capital & private equity",
         website: "http://www.kptl.com.br",
-        logo: "",
+        logo: "https://media.licdn.com/dms/image/v2/C560BAQEEIYAx_Y-d5g/company-logo_200_200/company-logo_200_200/0/1630589898028/kptl_vc_logo?e=1744848000&v=beta&t=Oltm9yodl26c4aKrWpKBcgh9qBEISRlW3v4Gijvtssk",
         companyLinkedinUrl: "http://www.linkedin.com/company/kptl-vc",
         twitterUrl: "",
         country: "India",
@@ -1254,7 +1254,7 @@ const vcIndia1 = [
         ticketSize: "50k-250k",
         currentFundCorpus: "",
         totalFundCorpus: "",
-        companyOverview: ""
+        companyOverview: "Innovation future growth"
       },
       {
         id: 82,
@@ -1286,14 +1286,14 @@ const vcIndia1 = [
         ticketSize: "50k-250k",
         currentFundCorpus: "",
         totalFundCorpus: "",
-        companyOverview: ""
+        companyOverview: "Artha99 is an India focused Pre - Series A fund that identifies invests and catalyses businesses for the Indian Century"
       },
       {
         id: 84,
         title: "QA/QC Engineer",
         industry: "venture capital & private equity",
         website: "http://www.kptl.com.br",
-        logo: "",
+        logo: "https://media.licdn.com/dms/image/v2/C560BAQEEIYAx_Y-d5g/company-logo_200_200/company-logo_200_200/0/1630589898028/kptl_vc_logo?e=1744848000&v=beta&t=Oltm9yodl26c4aKrWpKBcgh9qBEISRlW3v4Gijvtssk",
         companyLinkedinUrl: "http://www.linkedin.com/company/kptl-vc",
         twitterUrl: "",
         country: "India",
@@ -1302,14 +1302,14 @@ const vcIndia1 = [
         ticketSize: "500k-1m",
         currentFundCorpus: "",
         totalFundCorpus: "",
-        companyOverview: ""
+        companyOverview: "Innvoation future growth"
       },
       {
         id: 85,
         title: "Electrical Engineer",
         industry: "venture capital & private equity",
         website: "http://www.kptl.com.br",
-        logo: "",
+        logo: "https://media.licdn.com/dms/image/v2/C560BAQEEIYAx_Y-d5g/company-logo_200_200/company-logo_200_200/0/1630589898028/kptl_vc_logo?e=1744848000&v=beta&t=Oltm9yodl26c4aKrWpKBcgh9qBEISRlW3v4Gijvtssk",
         companyLinkedinUrl: "http://www.linkedin.com/company/kptl-vc",
         twitterUrl: "",
         country: "India",
@@ -1318,14 +1318,14 @@ const vcIndia1 = [
         ticketSize: "50k-250k",
         currentFundCorpus: "",
         totalFundCorpus: "",
-        companyOverview: ""
+        companyOverview: "Innvoation future growth"
       },
       {
         id: 86,
         title: "Early Stage Venture Capital",
         industry: "venture capital & private equity",
         website: "http://www.joinef.com",
-        logo: "",
+        logo: "https://media.licdn.com/dms/image/v2/D4E0BAQFVNWbOq8zpjg/company-logo_200_200/company-logo_200_200/0/1695139054297/entrepreneur_first_logo?e=1744848000&v=beta&t=9PkJBUNDBo2m_I5NnwMhQpmLNtkyZxtTR7CtPW5_uS4",
         companyLinkedinUrl: "http://www.linkedin.com/company/entrepreneur-first",
         twitterUrl: "http://twitter.com/efldn",
         country: "India",
@@ -1334,14 +1334,14 @@ const vcIndia1 = [
         ticketSize: "500k-1m",
         currentFundCorpus: "158000000",
         totalFundCorpus: "351956800",
-        companyOverview: ""
+        companyOverview: "Entrepreneur First invests in exceptional individuals to build startups from scratch."
       },
       {
         id: 87,
         title: "Helping Service",
         industry: "venture capital & private equity",
         website: "http://www.aegle.vc",
-        logo: "",
+        logo: "https://media.licdn.com/dms/image/v2/D4D0BAQE4wJsKfGapeg/company-logo_200_200/company-logo_200_200/0/1708939613672/aeglevc_logo?e=1744848000&v=beta&t=-Q6xjGxqa--vOES9RQzEMhJmKouZvqDfCsoLAxOUDT4",
         companyLinkedinUrl: "http://www.linkedin.com/company/aeglevc",
         twitterUrl: "",
         country: "India",
@@ -1350,14 +1350,14 @@ const vcIndia1 = [
         ticketSize: "50k-250k",
         currentFundCorpus: "",
         totalFundCorpus: "",
-        companyOverview: ""
+        companyOverview: "Pushttie Venture Capital epitomizes a deep tech investment entity steadfastly dedicated to empowering startups, Micro, Small, and Medium Enterprises (MSMEs), and micro entrepreneurs by endowing them with indispensable resources for triumph"
       },
       {
         id: 88,
         title: "Project Engineer",
         industry: "venture capital & private equity",
         website: "http://www.kptl.com.br",
-        logo: "",
+        logo: "https://media.licdn.com/dms/image/v2/C560BAQEEIYAx_Y-d5g/company-logo_200_200/company-logo_200_200/0/1630589898028/kptl_vc_logo?e=1744848000&v=beta&t=Oltm9yodl26c4aKrWpKBcgh9qBEISRlW3v4Gijvtssk",
         companyLinkedinUrl: "http://www.linkedin.com/company/kptl-vc",
         twitterUrl: "",
         country: "India",
@@ -1366,7 +1366,7 @@ const vcIndia1 = [
         ticketSize: "500k-1m",
         currentFundCorpus: "",
         totalFundCorpus: "",
-        companyOverview: ""
+        companyOverview: "Innvoation future growth"
       },
       {
         id: 89,
@@ -1382,7 +1382,7 @@ const vcIndia1 = [
         ticketSize: "50k-250k",
         currentFundCorpus: "20000000",
         totalFundCorpus: "1700000000",
-        companyOverview: ""
+        companyOverview: "With a history tracing its roots to 1799 in New York City, JPMorganChase is one of the world's oldest, largest, and best-known financial institutions—carrying forth the innovative spirit of our heritage firms in global operations across 100 markets."
       },
       {
         id: 90,
@@ -1398,14 +1398,14 @@ const vcIndia1 = [
         ticketSize: "500k-1m",
         currentFundCorpus: "",
         totalFundCorpus: "",
-        companyOverview: ""
+        companyOverview: "GoldenTrunk capital venture LLP MSME, BSE, and NSE registered entity is an independent in-house equity research and wealth management "
       },
       { 
         id: 91,
         title: "Venture Capital Investments",
         industry: "venture capital & private equity",
         website: "http://www.dsgcp.com",
-        logo: "",
+        logo: "https://media.licdn.com/dms/image/v2/D560BAQG9ft9Lf_Mkew/company-logo_200_200/company-logo_200_200/0/1696190647011/dsg_consumer_partners_logo?e=1744848000&v=beta&t=7Odip57OOseaU4aCqtOZv_k5JlcXitInliSEFMAzRfc",
         companyLinkedinUrl: "http://www.linkedin.com/company/dsg-consumer-partners",
         twitterUrl: "",
         country: "India",
@@ -1414,7 +1414,7 @@ const vcIndia1 = [
         ticketSize: "50k-250k",
         currentFundCorpus: "",
         totalFundCorpus: "208000000",
-        companyOverview: ""
+        companyOverview: "DSG Consumer Partners is focusing on identifying, investing in, and growing consumer businesses in India"
       },
       { 
         id: 92,
@@ -1446,7 +1446,7 @@ const vcIndia1 = [
         ticketSize: "50k-250k",
         currentFundCorpus: "37445295",
         totalFundCorpus: "37445295",
-        companyOverview: ""
+        companyOverview: "SIDBI Venture Capital Limited (SVCL), incorporated in 1999, is an investment management company and a wholly owned subsidiary of SIDBI (www.sidbi.in), the Apex Financial Institution in the country for the MSME sector."
       },
       { 
         id: 94,
@@ -1478,7 +1478,7 @@ const vcIndia1 = [
         ticketSize: "500k-1m",
         currentFundCorpus: "",
         totalFundCorpus: "",
-        companyOverview: ""
+        companyOverview: "Super Capital was created in 2018 by Corentin Orsini, originally to bring together a community of business angels"
       },
       { 
         id: 96,
@@ -1494,7 +1494,7 @@ const vcIndia1 = [
         ticketSize: "250k-500k",
         currentFundCorpus: "",
         totalFundCorpus: "",
-        companyOverview: ""
+        companyOverview: "Family fund"
       },
       { 
         id: 97,
@@ -1526,14 +1526,14 @@ const vcIndia1 = [
         ticketSize: "250k-500k",
         currentFundCorpus: "130000000",
         totalFundCorpus: "230000000",
-        companyOverview: ""
+        companyOverview: "Avataar is a growth stage, Operational VC fund partnering actively with brilliant regional Tech-led B2B & SaaS startups to Re-invent, Scale & Transform into successful, enduring global businesses"
       },
       { 
         id: 99,
         title: "Graphic Designer",
         industry: "venture capital & private equity",
         website: "http://www.aegle.vc",
-        logo: "",
+        logo: "https://media.licdn.com/dms/image/v2/D4D0BAQE4wJsKfGapeg/company-logo_200_200/company-logo_200_200/0/1708939613672/aeglevc_logo?e=1744848000&v=beta&t=-Q6xjGxqa--vOES9RQzEMhJmKouZvqDfCsoLAxOUDT4",
         companyLinkedinUrl: "http://www.linkedin.com/company/aeglevc",
         twitterUrl: "",
         country: "India",
@@ -1542,7 +1542,7 @@ const vcIndia1 = [
         ticketSize: "500k-1m",
         currentFundCorpus: "",
         totalFundCorpus: "",
-        companyOverview: ""
+        companyOverview: "Pushttie Venture Capital epitomizes a deep tech investment entity steadfastly dedicated to empowering startups, Micro, Small, and Medium Enterprises (MSMEs), and micro entrepreneurs by endowing them with indispensable resources for triumph"
       },
       { 
         id: 100,
@@ -1558,14 +1558,14 @@ const vcIndia1 = [
         ticketSize: "250k-500k",
         currentFundCorpus: "60000000",
         totalFundCorpus: "60000000",
-        companyOverview: ""
+        companyOverview: "Early stage TMT venture fund investing across the India and the US."
       },   
         {
           id: 101,
           title: "Venture Partner",
           industry: "venture capital & private equity",
           website: "http://www.dallasvc.com",
-          logo: "",
+          logo: "https://media.licdn.com/dms/image/v2/C4E0BAQFygCHA7FuOCg/company-logo_200_200/company-logo_200_200/0/1630634407382/dallas_venture_capital_logo?e=1744848000&v=beta&t=m4OYKL8T-ba4t0duvUhHZYnpq-H1O0qHqPv0MDNO8Aw",
           companyLinkedinUrl: "http://www.linkedin.com/company/d-vc",
           twitterUrl: "http://www.twitter.com/NayaVentures",
           country: "India",
@@ -1574,14 +1574,14 @@ const vcIndia1 = [
           ticketSize: "500k-1m",
           currentFundCorpus: "7320300",
           totalFundCorpus: "130348250",
-          companyOverview: ""
+          companyOverview: "Dallas Venture Capital is a Venture Capital firm, based in Dallas and Hyderabad, investing in SaaS, cloud infrastructure, cybersecurity, Data, DevOps, AI/ML, and other emerging technologies"
         },
         {
           id: 102,
           title: "Cooking",
           industry: "venture capital & private equity",
           website: "http://www.kptl.com.br",
-          logo: "",
+          logo: "https://media.licdn.com/dms/image/v2/C560BAQEEIYAx_Y-d5g/company-logo_200_200/company-logo_200_200/0/1630589898028/kptl_vc_logo?e=1744848000&v=beta&t=Oltm9yodl26c4aKrWpKBcgh9qBEISRlW3v4Gijvtssk",
           companyLinkedinUrl: "http://www.linkedin.com/company/kptl-vc",
           twitterUrl: "",
           country: "India",
@@ -1590,7 +1590,7 @@ const vcIndia1 = [
           ticketSize: "250k-500k",
           currentFundCorpus: "",
           totalFundCorpus: "",
-          companyOverview: ""
+          companyOverview: "Innovation future growth"
         },
         {
           id: 103,
@@ -1622,14 +1622,14 @@ const vcIndia1 = [
           ticketSize: "250k-500k",
           currentFundCorpus: "",
           totalFundCorpus: "",
-          companyOverview: ""
+          companyOverview: "“Each of us is born with a box of matches inside us but we can’t strike them all by ourselves” ― Laura Esquivel “Ignis” is a Latin word for “fire” Ignis is a purpose driven fund which supports startups pursuing large opportunities and are committed to create a consistent positive impact."
         },
         {
           id: 105,
           title: "Chief Manager - Venture Capital Investments",
           industry: "financial services",
           website: "http://www.nipponindiamf.com",
-          logo: "",
+          logo: "https://media.licdn.com/dms/image/v2/C4D0BAQFFYnjCtPUVJg/company-logo_200_200/company-logo_200_200/0/1668408574319/nipponindiamf_logo?e=1744848000&v=beta&t=sEqcwkNaJJs93m5DCiQzYQJeLPETaBCYwM1hNpZb-mY",
           companyLinkedinUrl: "http://www.linkedin.com/company/nipponindiamf",
           twitterUrl: "",
           country: "India",
@@ -1638,14 +1638,14 @@ const vcIndia1 = [
           ticketSize: "500k-1m",
           currentFundCorpus: "",
           totalFundCorpus: "",
-          companyOverview: ""
+          companyOverview: "With 134 years of global expertise and over 25 years of experience in the Indian asset management space, Nippon India Mutual Fund is one of the largest asset managers in India. "
         },
         {
           id: 106,
           title: "NGO",
           industry: "venture capital & private equity",
           website: "http://www.aegle.vc",
-          logo: "",
+          logo: "https://media.licdn.com/dms/image/v2/D4D0BAQE4wJsKfGapeg/company-logo_200_200/company-logo_200_200/0/1708939613672/aeglevc_logo?e=1744848000&v=beta&t=-Q6xjGxqa--vOES9RQzEMhJmKouZvqDfCsoLAxOUDT4",
           companyLinkedinUrl: "http://www.linkedin.com/company/aeglevc",
           twitterUrl: "",
           country: "India",
@@ -1654,14 +1654,14 @@ const vcIndia1 = [
           ticketSize: "250k-500k",
           currentFundCorpus: "",
           totalFundCorpus: "",
-          companyOverview: ""
+          companyOverview: "Pushttie Venture Capital epitomizes a deep tech investment entity steadfastly dedicated to empowering startups,"
         },
         {
           id: 107,
           title: "Unternehmensinhaber",
           industry: "venture capital & private equity",
           website: "http://www.aegle.vc",
-          logo: "",
+          logo: "https://media.licdn.com/dms/image/v2/D4D0BAQE4wJsKfGapeg/company-logo_200_200/company-logo_200_200/0/1708939613672/aeglevc_logo?e=1744848000&v=beta&t=-Q6xjGxqa--vOES9RQzEMhJmKouZvqDfCsoLAxOUDT4",
           companyLinkedinUrl: "http://www.linkedin.com/company/aeglevc",
           twitterUrl: "",
           country: "India",
@@ -1670,7 +1670,7 @@ const vcIndia1 = [
           ticketSize: "500k-1m",
           currentFundCorpus: "",
           totalFundCorpus: "",
-          companyOverview: ""
+          companyOverview: "Pushttie Venture Capital epitomizes a deep tech investment entity steadfastly dedicated to empowering startups, Micro, Small, and Medium Enterprises (MSMEs), and micro entrepreneurs by endowing them with indispensable resources for triumph"
         },
         {
           id: 108,
@@ -1733,7 +1733,7 @@ const vcIndia1 = [
           ticketSize: "250k-500k",
           currentFundCorpus: "4752508",
           totalFundCorpus: "4752508",
-          companyOverview: ""
+          companyOverview: "WHO ARE WE? We are a newly-created entity under the umbrella of India Quotient (IQ). We focus on very early stage start-ups."
         },
         { id: 112,
           title: "Executive Director",
@@ -1763,13 +1763,13 @@ const vcIndia1 = [
           ticketSize: "250k-500k",
           currentFundCorpus: "",
           totalFundCorpus: "",
-          companyOverview: ""
+          companyOverview: "Bain & Company is a global consultancy that helps the world’s most ambitious change makers define the future"
         },
         { id: 114,
           title: "Advisor",
           industry: "venture capital & private equity",
           website: "http://www.dallasvc.com",
-          logo: "",
+          logo: "https://media.licdn.com/dms/image/v2/C4E0BAQFygCHA7FuOCg/company-logo_200_200/company-logo_200_200/0/1630634407382/dallas_venture_capital_logo?e=1744848000&v=beta&t=m4OYKL8T-ba4t0duvUhHZYnpq-H1O0qHqPv0MDNO8Aw",
           companyLinkedinUrl: "http://www.linkedin.com/company/d-vc",
           twitterUrl: "http://www.twitter.com/NayaVentures",
           country: "India",
@@ -1778,7 +1778,7 @@ const vcIndia1 = [
           ticketSize: "500k-1m",
           currentFundCorpus: "7320300",
           totalFundCorpus: "130348250",
-          companyOverview: ""
+          companyOverview: "Dallas Venture Capital is a Venture Capital firm, based in Dallas and Hyderabad, investing in SaaS, cloud infrastructure, cybersecurity, Data, DevOps, AI/ML, and other emerging technologies"
         },
         { id: 115,
           title: "Strategic Planning & Consulting | Founders Office | Venture Capital | Investment Banking",
@@ -1793,13 +1793,13 @@ const vcIndia1 = [
           ticketSize: "250k-500k",
           currentFundCorpus: "",
           totalFundCorpus: "",
-          companyOverview: ""
+          companyOverview: "Every successful venture requires a supportive ecosystem of friends, investors, mentors, subject-matter experts, problem-solvers and industry champions"
         },
         { id: 116,
           title: "Civil Engineer",
           industry: "venture capital & private equity",
           website: "http://www.aegle.vc",
-          logo: "",
+          logo: "https://media.licdn.com/dms/image/v2/D4D0BAQE4wJsKfGapeg/company-logo_200_200/company-logo_200_200/0/1708939613672/aeglevc_logo?e=1744848000&v=beta&t=-Q6xjGxqa--vOES9RQzEMhJmKouZvqDfCsoLAxOUDT4",
           companyLinkedinUrl: "http://www.linkedin.com/company/aeglevc",
           twitterUrl: "",
           country: "India",
@@ -1808,13 +1808,13 @@ const vcIndia1 = [
           ticketSize: "50k-250k",
           currentFundCorpus: "",
           totalFundCorpus: "",
-          companyOverview: ""
+          companyOverview: "Pushttie Venture Capital epitomizes a deep tech investment entity steadfastly dedicated to empowering startups, Micro, Small, and Medium Enterprises (MSMEs), and micro entrepreneurs by endowing them with indispensable resources for triumph"
         },
         { id: 117,
           title: "Executive Assistant",
           industry: "venture capital & private equity",
           website: "http://www.dallasvc.com",
-          logo: "",
+          logo: "https://media.licdn.com/dms/image/v2/C4E0BAQFygCHA7FuOCg/company-logo_200_200/company-logo_200_200/0/1630634407382/dallas_venture_capital_logo?e=1744848000&v=beta&t=m4OYKL8T-ba4t0duvUhHZYnpq-H1O0qHqPv0MDNO8Aw",
           companyLinkedinUrl: "http://www.linkedin.com/company/d-vc",
           twitterUrl: "http://www.twitter.com/NayaVentures",
           country: "India",
@@ -1823,13 +1823,13 @@ const vcIndia1 = [
           ticketSize: "250k-500k",
           currentFundCorpus: "7320300",
           totalFundCorpus: "130348250",
-          companyOverview: ""
+          companyOverview: "Dallas Venture Capital is a Venture Capital firm, based in Dallas and Hyderabad, investing in SaaS, cloud infrastructure, cybersecurity, Data, DevOps, AI/ML, and other emerging technologies"
         },
         { id: 118,
           title: "Portfolio Management Associate",
           industry: "venture capital & private equity",
           website: "http://www.bventure.com",
-          logo: "",
+          logo: "https://media.licdn.com/dms/image/v2/D560BAQFYIElOa6g6rQ/company-logo_200_200/company-logo_200_200/0/1684320565157/billionaire_venture_capital_logo?e=1744848000&v=beta&t=Ma-gTSs_3hsje6AEIG1KcWSMymHPMyvnYOkZQwpQpwk",
           companyLinkedinUrl: "http://www.linkedin.com/company/billionaire-venture-capital",
           twitterUrl: "https://twitter.com/billionaire_vc",
           country: "India",
@@ -1838,13 +1838,13 @@ const vcIndia1 = [
           ticketSize: "500k-1m",
           currentFundCorpus: "",
           totalFundCorpus: "",
-          companyOverview: ""
+          companyOverview: "We zealously invest in Early-stage technology startups across various industries."
         },
         { id: 119,
           title: "Portfolio Management Associate",
           industry: "venture capital & private equity",
           website: "http://www.bventure.com",
-          logo: "",
+          logo: "https://media.licdn.com/dms/image/v2/D560BAQFYIElOa6g6rQ/company-logo_200_200/company-logo_200_200/0/1684320565157/billionaire_venture_capital_logo?e=1744848000&v=beta&t=Ma-gTSs_3hsje6AEIG1KcWSMymHPMyvnYOkZQwpQpwk",
           companyLinkedinUrl: "http://www.linkedin.com/company/billionaire-venture-capital",
           twitterUrl: "https://twitter.com/billionaire_vc",
           country: "India",
@@ -1853,13 +1853,13 @@ const vcIndia1 = [
           ticketSize: "50k-250k",
           currentFundCorpus: "",
           totalFundCorpus: "",
-          companyOverview: ""
+          companyOverview: "We zealously invest in Early-stage technology startups across various industries."
         },
         { id: 120,
           title: "Portfolio Management Associate",
           industry: "venture capital & private equity",
           website: "http://www.bventure.com",
-          logo: "",
+          logo: "https://media.licdn.com/dms/image/v2/D560BAQFYIElOa6g6rQ/company-logo_200_200/company-logo_200_200/0/1684320565157/billionaire_venture_capital_logo?e=1744848000&v=beta&t=Ma-gTSs_3hsje6AEIG1KcWSMymHPMyvnYOkZQwpQpwk",
           companyLinkedinUrl: "http://www.linkedin.com/company/billionaire-venture-capital",
           twitterUrl: "https://twitter.com/billionaire_vc",
           country: "India",
@@ -1868,7 +1868,7 @@ const vcIndia1 = [
           ticketSize: "250k-500k",
           currentFundCorpus: "",
           totalFundCorpus: "",
-          companyOverview: ""
+          companyOverview: "We zealously invest in Early-stage technology startups across various industries."
         },        
         {
           id: 121,
@@ -1884,7 +1884,7 @@ const vcIndia1 = [
           ticketSize: "500k-1m",
           currentFundCorpus: "70000000",
           totalFundCorpus: "70000000",
-          companyOverview: ""
+          companyOverview: "Avaana Capital manages Avaana Climate and Sustainability Fund, India’s first and largest early-stage climate-tech VC, investing in future market leaders who are leveraging technology-led innovation to build and scale solutions for climate and sustainability while delivering exponential returns."
         },
         {
           id: 122,
@@ -1900,7 +1900,7 @@ const vcIndia1 = [
           ticketSize: "250k-500k",
           currentFundCorpus: "",
           totalFundCorpus: "",
-          companyOverview: ""
+          companyOverview: "AVCJ has been the leading source of information on private equity and venture capital activities in Asia since its establishment in 1987."
         },
         {
           id: 123,
@@ -1916,7 +1916,7 @@ const vcIndia1 = [
           ticketSize: "500k-1m",
           currentFundCorpus: "25000000",
           totalFundCorpus: "25000000",
-          companyOverview: ""
+          companyOverview: "Auxano was founded in 2016 with a vision of entrepreneurship, innovation and growth."
         },
         {
           id: 124,
@@ -1932,14 +1932,14 @@ const vcIndia1 = [
           ticketSize: "250k-500k",
           currentFundCorpus: "",
           totalFundCorpus: "",
-          companyOverview: ""
+          companyOverview: "Each of us is born with a box of matches inside us but we can’t strike them all by ourselves” ― Laura"
         },
         {
           id: 125,
           title: "Manager - Private Equity & Venture Capital",
           industry: "banking",
           website: "http://www.bank.sbi",
-          logo: "",
+          logo: "https://media.licdn.com/dms/image/v2/C4D0BAQHKjQFwtVCmSg/company-logo_200_200/company-logo_200_200/0/1660627573367/state_bank_of_india_logo?e=1744848000&v=beta&t=P6Zf2WjNp3La-iXKGaKD3Q0HDPXmdY8KvN_AfVcFzX0",
           companyLinkedinUrl: "http://www.linkedin.com/company/state-bank-of-india",
           twitterUrl: "",
           country: "India",
@@ -1948,7 +1948,7 @@ const vcIndia1 = [
           ticketSize: "500k-1m",
           currentFundCorpus: "",
           totalFundCorpus: "",
-          companyOverview: ""
+          companyOverview: "We are the largest Indian Public Sector Banking & Financial Services Company."
         },
         {
           id: 126,
@@ -1964,14 +1964,14 @@ const vcIndia1 = [
           ticketSize: "250k-500k",
           currentFundCorpus: "",
           totalFundCorpus: "",
-          companyOverview: ""
+          companyOverview: "Picus Capital is an early-stage technology investment firm with a long-term investment philosophy"
         },
         {
           id: 127,
           title: "Trustee",
           industry: "venture capital & private equity",
           website: "http://www.aegle.vc",
-          logo: "",
+          logo: "https://media.licdn.com/dms/image/v2/D4D0BAQE4wJsKfGapeg/company-logo_200_200/company-logo_200_200/0/1708939613672/aeglevc_logo?e=1744848000&v=beta&t=-Q6xjGxqa--vOES9RQzEMhJmKouZvqDfCsoLAxOUDT4",
           companyLinkedinUrl: "http://www.linkedin.com/company/aeglevc",
           twitterUrl: "",
           country: "India",
@@ -1980,7 +1980,7 @@ const vcIndia1 = [
           ticketSize: "500k-1m",
           currentFundCorpus: "",
           totalFundCorpus: "",
-          companyOverview: ""
+          companyOverview: "Pushttie Venture Capital epitomizes a deep tech investment entity steadfastly dedicated to empowering startups, Micro, Small, and Medium Enterprises (MSMEs), and micro entrepreneurs by endowing them with indispensable resources for triumph"
         },
         {
           id: 128,
@@ -1996,7 +1996,7 @@ const vcIndia1 = [
           ticketSize: "250k-500k",
           currentFundCorpus: "30000000",
           totalFundCorpus: "229241400",
-          companyOverview: ""
+          companyOverview: "Orios Venture Partners is an Indian technology venture fund. Our portfolio includes Pharmeasy, Country Delight, WeRize, Battrey Smart, Next Wave, Zupee and many other "
         },
         {
           id: 129,
@@ -2035,7 +2035,7 @@ const vcIndia1 = [
           title: "Partner",
           industry: "venture capital & private equity",
           website: "http://www.dallasvc.com",
-          logo: "",
+          logo: "https://media.licdn.com/dms/image/v2/C4E0BAQFygCHA7FuOCg/company-logo_200_200/company-logo_200_200/0/1630634407382/dallas_venture_capital_logo?e=1744848000&v=beta&t=m4OYKL8T-ba4t0duvUhHZYnpq-H1O0qHqPv0MDNO8Aw",
           companyLinkedinUrl: "http://www.linkedin.com/company/d-vc",
           twitterUrl: "http://www.twitter.com/NayaVentures",
           country: "India",
@@ -2044,7 +2044,7 @@ const vcIndia1 = [
           ticketSize: "500k-1m",
           currentFundCorpus: "7320300",
           totalFundCorpus: "130348250",
-          companyOverview: ""
+          companyOverview: "Dallas Venture Capital is a Venture Capital firm, based in Dallas and Hyderabad, investing in SaaS, cloud infrastructure, cybersecurity, Data, DevOps, AI/ML, and other emerging technologies"
         },
         {
           id: 132,
@@ -2060,7 +2060,7 @@ const vcIndia1 = [
           ticketSize: "250k-500k",
           currentFundCorpus: "",
           totalFundCorpus: "",
-          companyOverview: ""
+          companyOverview: "Angel Investing, Board Advisory, Strategic Partnerships"
         },
         {
           id: 133,
@@ -2076,7 +2076,7 @@ const vcIndia1 = [
           ticketSize: "500k-1m",
           currentFundCorpus: "60000000",
           totalFundCorpus: "60000000",
-          companyOverview: ""
+          companyOverview: "Early stage TMT venture fund investing across the India and the US."
         },
         {
           id: 134,
@@ -2099,7 +2099,7 @@ const vcIndia1 = [
           title: "Dy.Manager",
           industry: "venture capital & private equity",
           website: "http://www.kptl.com.br",
-          logo: "",
+          logo: "https://media.licdn.com/dms/image/v2/C560BAQEEIYAx_Y-d5g/company-logo_200_200/company-logo_200_200/0/1630589898028/kptl_vc_logo?e=1744848000&v=beta&t=Oltm9yodl26c4aKrWpKBcgh9qBEISRlW3v4Gijvtssk",
           companyLinkedinUrl: "http://www.linkedin.com/company/kptl-vc",
           twitterUrl: "",
           country: "India",
@@ -2108,7 +2108,7 @@ const vcIndia1 = [
           ticketSize: "500k-1m",
           currentFundCorpus: "",
           totalFundCorpus: "",
-          companyOverview: ""
+          companyOverview: "The VCs A5 Capital Partners and Inseed Investimentos created KPTL, a giant in the industry that is already born as the largest Venture Capital firm for funds domiciled in Brazil, with 46 investees"
         },
         {
           id: 136,
@@ -2124,7 +2124,7 @@ const vcIndia1 = [
           ticketSize: "50k-250k",
           currentFundCorpus: "",
           totalFundCorpus: "",
-          companyOverview: ""
+          companyOverview: "We are one of India's first startup studios, backed by seasoned entrepreneurs and operators. We are builders before investors, co-building companies from the ground up with game-changing founders."
         },
         {
           id: 137,
@@ -2140,7 +2140,7 @@ const vcIndia1 = [
           ticketSize: "500k-1m",
           currentFundCorpus: "300000000",
           totalFundCorpus: "300000000",
-          companyOverview: ""
+          companyOverview: "About Reliance Capital Reliance Capital, a constituent of CNX Nifty Junior and MSCI Global Small Cap Index, is a part of the Reliance Group"
         },        
   {
     id: 138,
@@ -2156,7 +2156,7 @@ const vcIndia1 = [
     ticketSize: "50K-250K",
     currentFundCorpus: "300000000",
     totalFundCorpus: "300000000",
-    companyOverview: "-",
+    companyOverview: "About Reliance Capital Reliance Capital, a constituent of CNX Nifty Junior and MSCI Global Small Cap Index, is a part of the Reliance Group",
     },
     {
     id: 139,
@@ -2164,7 +2164,7 @@ const vcIndia1 = [
     industry: "venture capital & private equity",
     website: "http://www.kptl.com.br/",
     companyLinkedinUrl: "http://www.linkedin.com/company/kptl-vc",
-    logo: "",
+    logo: "https://media.licdn.com/dms/image/v2/C560BAQEEIYAx_Y-d5g/company-logo_200_200/company-logo_200_200/0/1630589898028/kptl_vc_logo?e=1744848000&v=beta&t=Oltm9yodl26c4aKrWpKBcgh9qBEISRlW3v4Gijvtssk",
     twitterUrl: "",
     country: "India",
     stageFocus: "pre-seed",
@@ -2172,7 +2172,7 @@ const vcIndia1 = [
     ticketSize: "250k - 500k",
     currentFundCorpus: "-",
     totalFundCorpus: "-",
-    companyOverview: "-", 
+    companyOverview: "The VCs A5 Capital Partners and Inseed Investimentos created KPTL, a giant in the industry that is already born as the largest Venture Capital firm for funds domiciled in Brazil, with 46 investees", 
     },
     {
     id:  140,
@@ -2188,7 +2188,7 @@ const vcIndia1 = [
     ticketSize: "500k- 1m",
     currentFundCorpus: "-",
     totalFundCorpus: "-",
-    companyOverview: "-",
+    companyOverview: "FortyTwo.VC is an early-stage fund dedicated to founders building Enterprise Tech and SaaS for global markets. As a cross-border fund, we maintain a presence on the ground in both India and the USA.",
     },
     {
     id: 141,
@@ -2204,7 +2204,7 @@ const vcIndia1 = [
     ticketSize: "50-250k",
     currentFundCorpus: "-",
     totalFundCorpus: "-",
-    companyOverview: "-",
+    companyOverview: "Lumis is an Alternative Asset Platform that partners with seasoned entrepreneurs to build funds focused on themes with opportunities of a global scale. ",
     },
     {
         id: 142,
@@ -2212,7 +2212,7 @@ const vcIndia1 = [
         industry: "venture capital & private equity",
         website: "http://www.picuscap.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/picus-capital",
-        logo: "",
+        logo: "https://media.licdn.com/dms/image/v2/C4D0BAQEn4A26P_cCOw/company-logo_200_200/company-logo_200_200/0/1630554227231/picus_capital_logo?e=1744848000&v=beta&t=HTKW7-sRfay_YLbSsY-zZbr5yITmhu90hHnAB0RuvcA",
         twitterUrl: "https://twitter.com/picuscap",
         country: "India",
         stageFocus: "pre-seed",
@@ -2220,14 +2220,14 @@ const vcIndia1 = [
         ticketSize: "250-500k",
         currentFundCorpus: "-",
         totalFundCorpus: "-",
-        companyOverview: "-",
+        companyOverview: "Picus Capital is an early-stage technology investment firm with a long-term investment philosophy.",
       },
        {id: 143,
         title: "Dealer (Private Equity and Venture Capital), Global Markets",
         industry: "banking",
         website: "http://www.bank.sbi",
         companyLinkedinUrl: "http://www.linkedin.com/company/state-bank-of-india",
-        logo: "",
+        logo: "https://media.licdn.com/dms/image/v2/C4D0BAQHKjQFwtVCmSg/company-logo_200_200/company-logo_200_200/0/1660627573367/state_bank_of_india_logo?e=1744848000&v=beta&t=P6Zf2WjNp3La-iXKGaKD3Q0HDPXmdY8KvN_AfVcFzX0",
         twitterUrl: "",
         country: "India",
         stageFocus: "pre-seed",
@@ -2235,7 +2235,7 @@ const vcIndia1 = [
         ticketSize: "500k-1m",
         currentFundCorpus: "-",
         totalFundCorpus: "-",
-        companyOverview: "-"
+        companyOverview: "We are the largest Indian Public Sector Banking & Financial Services Company."
       }, 
       { id :144,
         title: "Karnataka Information Technology Venture Capital Fund Logo",
@@ -2257,7 +2257,7 @@ const vcIndia1 = [
         industry: "venture capital & private equity",
         website: "http://www.kptl.com.br",
         companyLinkedinUrl: "http://www.linkedin.com/company/kptl-vc",
-        logo: "",
+        logo: "https://media.licdn.com/dms/image/v2/C560BAQEEIYAx_Y-d5g/company-logo_200_200/company-logo_200_200/0/1630589898028/kptl_vc_logo?e=1744848000&v=beta&t=Oltm9yodl26c4aKrWpKBcgh9qBEISRlW3v4Gijvtssk",
         twitterUrl: "",
         country: "India",
         stageFocus: "pre-seed",
@@ -2265,14 +2265,14 @@ const vcIndia1 = [
         ticketSize: "250k-500k",
         currentFundCorpus: "-",
         totalFundCorpus: "-",
-        companyOverview: "-"
+        companyOverview: "The VCs A5 Capital Partners and Inseed Investimentos created KPTL, a giant in the industry that is already born as the largest Venture Capital firm for funds domiciled in Brazil, with 46 investees"
       },
       { id: 146,
         title: "Civil Engineer",
         industry: "venture capital & private equity",
         website: "http://www.kptl.com.br",
         companyLinkedinUrl: "http://www.linkedin.com/company/kptl-vc",
-        logo: "",
+        logo: "https://media.licdn.com/dms/image/v2/C560BAQEEIYAx_Y-d5g/company-logo_200_200/company-logo_200_200/0/1630589898028/kptl_vc_logo?e=1744848000&v=beta&t=Oltm9yodl26c4aKrWpKBcgh9qBEISRlW3v4Gijvtssk",
         twitterUrl: "",
         country: "India",
         stageFocus: "pre-seed",
@@ -2280,7 +2280,7 @@ const vcIndia1 = [
         ticketSize: "500k-1m",
         currentFundCorpus: "-",
         totalFundCorpus: "-",
-        companyOverview: "-"
+        companyOverview: "The VCs A5 Capital Partners and Inseed Investimentos created KPTL, a giant in the industry that is already born as the largest Venture Capital firm for funds domiciled in Brazil, with 46 investees"
       },
       { id: 147,
         title: "Venture Capital",
@@ -2295,7 +2295,7 @@ const vcIndia1 = [
         ticketSize: "50k-250k",
         currentFundCorpus: "",
         totalFundCorpus: "-",
-        companyOverview: "-"
+        companyOverview: "DST Global is one of the leading Internet investment firms globally. Its investments include some of the world’s fastest growing and most valuable companies."
       },
       { id: 148,
         title: "Assistant General Manager",
@@ -2317,7 +2317,7 @@ const vcIndia1 = [
         industry: "venture capital & private equity",
         website: "http://www.aegle.vc",
         companyLinkedinUrl: "http://www.linkedin.com/company/aeglevc",
-        logo: "",
+        logo: "https://media.licdn.com/dms/image/v2/D4D0BAQE4wJsKfGapeg/company-logo_200_200/company-logo_200_200/0/1708939613672/aeglevc_logo?e=1744848000&v=beta&t=-Q6xjGxqa--vOES9RQzEMhJmKouZvqDfCsoLAxOUDT4",
         twitterUrl: "seed",
         country: "India",
         stageFocus: "pre-seed",
@@ -2325,7 +2325,7 @@ const vcIndia1 = [
         ticketSize: "500k-1m",
         currentFundCorpus: "-",
         totalFundCorpus: "-",
-        companyOverview: ""
+        companyOverview: "Pushttie Venture Capital epitomizes a deep tech investment entity steadfastly dedicated to empowering startups, Micro, Small, and Medium Enterprises (MSMEs), and micro entrepreneurs by endowing them with indispensable resources for triumph"
       },
       {
         id: 150,
@@ -2333,7 +2333,7 @@ const vcIndia1 = [
         industry: "venture capital & private equity",
         website: "http://www.kptl.com.br",
         companyLinkedinUrl: "http://www.linkedin.com/company/kptl-vc",
-        logo: "",
+        logo: "https://media.licdn.com/dms/image/v2/C560BAQEEIYAx_Y-d5g/company-logo_200_200/company-logo_200_200/0/1630589898028/kptl_vc_logo?e=1744848000&v=beta&t=Oltm9yodl26c4aKrWpKBcgh9qBEISRlW3v4Gijvtssk",
         twitterUrl: "",
         country: "India",
         stageFocus: "pre-seed",
@@ -2341,7 +2341,7 @@ const vcIndia1 = [
         ticketSize: "50k-250k",
         currentFundCorpus: "-",
         totalFundCorpus: "-",
-        companyOverview: "-"
+        companyOverview: "The VCs A5 Capital Partners and Inseed Investimentos created KPTL, a giant in the industry that is already born as the largest Venture Capital firm for funds domiciled in Brazil, with 46 investees"
       },
       {
         id: 151,
@@ -2357,7 +2357,7 @@ const vcIndia1 = [
         ticketSize: "250k-500k",
         currentFundCorpus: "-",
         totalFundCorpus: "-",
-        companyOverview: "-"
+        companyOverview: "Evolve is a student-led venture accelerator that is dedicated to empowering founders of early-stage healthcare and life sciences ventures at Northeastern University."
       },
       {
         id: 152,
@@ -2365,7 +2365,7 @@ const vcIndia1 = [
         industry: "venture capital & private equity",
         website: "http://www.aegle.vc/",
         companyLinkedinUrl: "http://www.linkedin.com/company/aeglevc",
-        logo: "",
+        logo: "https://media.licdn.com/dms/image/v2/D4D0BAQE4wJsKfGapeg/company-logo_200_200/company-logo_200_200/0/1708939613672/aeglevc_logo?e=1744848000&v=beta&t=-Q6xjGxqa--vOES9RQzEMhJmKouZvqDfCsoLAxOUDT4",
         twitterUrl: "",
         country: "India",
         stageFocus: "pre-seed",
@@ -2373,7 +2373,7 @@ const vcIndia1 = [
         ticketSize: "500k-1m",
         currentFundCorpus: "-",
         totalFundCorpus: "-",
-        companyOverview: "-"
+        companyOverview: "Pushttie Venture Capital epitomizes a deep tech investment entity steadfastly dedicated to empowering startups, Micro, Small, and Medium Enterprises (MSMEs), and micro entrepreneurs by endowing them with indispensable resources for triumph"
       },
       {
         id: 153,
@@ -2389,7 +2389,7 @@ const vcIndia1 = [
         ticketSize: "50k-250k",
         currentFundCorpus: "225000000",
         totalFundCorpus: "455095300",
-        companyOverview: "-"
+        companyOverview: " We think it's a great time to build brands in India. Launched in 2017, Fireside Ventures is an early stage venture fund with a focus on consumer brands"
       },
       {
         id: 154,
@@ -2397,7 +2397,7 @@ const vcIndia1 = [
         industry: "venture capital & private equity",
         website: "http://www.dallasvc.com/",
         companyLinkedinUrl: "http://www.linkedin.com/company/d-vc",
-        logo: "",
+        logo: "https://media.licdn.com/dms/image/v2/C4E0BAQFygCHA7FuOCg/company-logo_200_200/company-logo_200_200/0/1630634407382/dallas_venture_capital_logo?e=1744848000&v=beta&t=m4OYKL8T-ba4t0duvUhHZYnpq-H1O0qHqPv0MDNO8Aw",
         twitterUrl: "http://www.twitter.com/NayaVentures",
         country: "India",
         stageFocus: "seed",
@@ -2405,7 +2405,7 @@ const vcIndia1 = [
         ticketSize: "250k-500k",
         currentFundCorpus: "7320300",
         totalFundCorpus: "130348250",
-        companyOverview: "-"
+        companyOverview: "Dallas Venture Capital is a Venture Capital firm, based in Dallas and Hyderabad, investing in SaaS, cloud infrastructure, cybersecurity, Data, DevOps, AI/ML, and other emerging technologies"
       },
       {
         id: 155,
@@ -2413,7 +2413,7 @@ const vcIndia1 = [
         industry: "computer & network security",
         website: "http://www.optiv.com/",
         companyLinkedinUrl: "http://www.linkedin.com/company/optiv-inc",
-        logo: "",
+        logo: "https://media.licdn.com/dms/image/v2/D4E0BAQFfKTv4vqVghg/company-logo_200_200/company-logo_200_200/0/1733154270308/optiv_inc_logo?e=1744848000&v=beta&t=pA-mla-iI7V5llE72kfYbAf2ERaKMdFhCRhKIjzLY6g",
         twitterUrl: "https://twitter.com/Optiv",
         country: "India",
         stageFocus: "seed",
@@ -2421,7 +2421,7 @@ const vcIndia1 = [
         ticketSize: "500k-1m",
         currentFundCorpus: "2000000",
         totalFundCorpus: "4045945",
-        companyOverview: "-"
+        companyOverview: "Optiv is the cyber advisory and solutions leader, delivering strategic and technical expertise to nearly 6,000 companies across every major industry."
       },
       {
         id: 156,
@@ -2437,7 +2437,7 @@ const vcIndia1 = [
         ticketSize: "50k-250k",
         currentFundCorpus: "-",
         totalFundCorpus: "-",
-        companyOverview: "-"
+        companyOverview: "Somos uma gestora de recursos independente, resultante do desejo de perpetuar uma cultura de investimento baseada em pesquisa, pensamento independente, debate aberto e abrangente de ideias e gerenciamento rigoroso de risco,"
       },
       {
         id: 157,
@@ -2453,7 +2453,7 @@ const vcIndia1 = [
         ticketSize: "250k-500k",
         currentFundCorpus: "-",
         totalFundCorpus: "-",
-        companyOverview: "-"
+        companyOverview: "Rare & razor-sharp hot takes on the global startup verse What do we do? We transform Startup Fundraising by bridging the gap between visionary founders and the right investors"
       },
       {
         id: 158,
@@ -2461,7 +2461,7 @@ const vcIndia1 = [
         industry: "venture capital & private equity",
         website: "http://www.anthillventures.com/",
         companyLinkedinUrl: "http://www.linkedin.com/company/anthill-ventures",
-        logo: "",
+        logo: "https://media.licdn.com/dms/image/v2/D4D0BAQHQESE5jODXGA/company-logo_200_200/company-logo_200_200/0/1704187057264/anthill_ventures_logo?e=1744848000&v=beta&t=DgwBpFtwzXxORNd5Dx4pYQSBECTzdgdhNEEIOQxCPjQ",
         twitterUrl: "https://twitter.com/anthillventures",
         country: "India",
         stageFocus: "seed",
@@ -2469,7 +2469,7 @@ const vcIndia1 = [
         ticketSize: "500k-1m",
         currentFundCorpus: "150000000",
         totalFundCorpus: "250000000",
-        companyOverview: "-"
+        companyOverview: "Anthilll Ventures is an investment and scaling platform for early growth stage startups that want to scale with speed in Indian markets"
       },
       {
         id: 159,
@@ -2501,7 +2501,7 @@ const vcIndia1 = [
         ticketSize: "250k-500k",
         currentFundCorpus: "-",
         totalFundCorpus: "-",
-        companyOverview: "-"
+        companyOverview: "India's leading early stage Venture Debt Firm ( Seed ; Pre Series A)"
       },
       {
         id: 161,
@@ -2525,7 +2525,7 @@ const vcIndia1 = [
         industry: "financial services",
         website: "http://www.idbicapital.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/idbi-capital",
-        logo: "",
+        logo: "https://media.licdn.com/dms/image/v2/C4D0BAQFpFxveHb8VEA/company-logo_200_200/company-logo_200_200/0/1660120416881/idbi_capital_logo?e=1744848000&v=beta&t=ZpLh4Prp6sojnKaU-dZ2iiqKWUvvxlpMeCw-s0S0rQ4",
         twitterUrl: "",
         country: "India",
         stageFocus: "pre-seed",
@@ -2533,7 +2533,7 @@ const vcIndia1 = [
         ticketSize: "50k-250k",
         currentFundCorpus: "-",
         totalFundCorpus: "-",
-        companyOverview: "-"
+        companyOverview: "IDBI Capital Markets & Securities Ltd. is one of India’s leading financial service providers."
       },
       {
         id: 163,
@@ -2541,7 +2541,7 @@ const vcIndia1 = [
         industry: "higher education",
         website: "http://www.tdv.partners",
         companyLinkedinUrl: "http://www.linkedin.com/company/ucla-anderson-school-of-management",
-        logo: "",
+        logo: "https://media.licdn.com/dms/image/v2/C560BAQEie8vD0XYgWg/company-logo_200_200/company-logo_200_200/0/1630623988428/ucla_anderson_school_of_management_logo?e=1744848000&v=beta&t=8e0rcWfYTfD-F05ioOH_3yweZ0BN3QE2ic5Fz4Y5_4A",
         twitterUrl: "",
         country: "India",
         stageFocus: "pre-seed",
@@ -2549,7 +2549,7 @@ const vcIndia1 = [
         ticketSize: "250k-500k",
         currentFundCorpus: "-",
         totalFundCorpus: "-",
-        companyOverview: "-"
+        companyOverview: "We prepare leaders with a world view to make a lasting difference in organizations and communities around the world"
       },
       {
         id: 164,
@@ -2557,7 +2557,7 @@ const vcIndia1 = [
         industry: "venture capital & private equity",
         website: "http://www.ivca.in",
         companyLinkedinUrl: "http://www.linkedin.com/company/indian-private-equity-venture-capital-association",
-        logo: "",
+        logo: "https://media.licdn.com/dms/image/v2/D560BAQFxbT8lGYHhTw/company-logo_200_200/company-logo_200_200/0/1699541996233/indian_private_equity_venture_capital_association_logo?e=1744848000&v=beta&t=_ie58vvkfeXInjfhKn-bI92qEiPPtTXScVtoPz4tQZ0",
         twitterUrl: "https://twitter.com/IndianVCA",
         country: "India",
         stageFocus: "pre-seed",
@@ -2573,7 +2573,7 @@ const vcIndia1 = [
         industry: "venture capital & private equity",
         website: "http://www.inflexor.vc",
         companyLinkedinUrl: "http://www.linkedin.com/company/inflexor-ventures",
-        logo: "",
+        logo: "https://media.licdn.com/dms/image/v2/C560BAQEgXswYIac2BQ/company-logo_200_200/company-logo_200_200/0/1640969640095/inflexor_ventures_logo?e=1744848000&v=beta&t=yS8azgNAUwH5klIGMqpuu6giCWIcv2uz9nqcPwwLgr8",
         twitterUrl: "https://twitter.com/Inflexor_VC",
         country: "India",
         stageFocus: "seed",
@@ -2581,7 +2581,7 @@ const vcIndia1 = [
         ticketSize: "50k-250k",
         currentFundCorpus: "80697300",
         totalFundCorpus: "212033500",
-        companyOverview: "-"
+        companyOverview: "Inflexor Ventures is a Mumbai, Bangalore and Hyderabad-based sector agnostic venture capital firm that invests in early stage companies from seed to Series-A+ stages. "
       },
       {
         id: 166,
@@ -2589,7 +2589,7 @@ const vcIndia1 = [
         industry: "financial services",
         website: "http://www.panthera-peak.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/panthera-peak",
-        logo: "",
+        logo: "https://media.licdn.com/dms/image/v2/C4D0BAQGdMe2dLwhIQA/company-logo_200_200/company-logo_200_200/0/1651638545787?e=1744848000&v=beta&t=oXPEXZZAfXdwTnD1LyZ_IwPq_GdCugz-_0mjck6z1rU",
         twitterUrl: "",
         country: "India",
         stageFocus: "pre-seed",
@@ -2605,7 +2605,7 @@ const vcIndia1 = [
         industry: "financial services",
         website: "http://www.panthera-peak.com/",
         companyLinkedinUrl: "http://www.linkedin.com/company/panthera-peak",
-        logo: "",
+        logo: "https://media.licdn.com/dms/image/v2/C4D0BAQGdMe2dLwhIQA/company-logo_200_200/company-logo_200_200/0/1651638545787?e=1744848000&v=beta&t=oXPEXZZAfXdwTnD1LyZ_IwPq_GdCugz-_0mjck6z1rU",
         twitterUrl: "",
         country: "India",
         stageFocus: "pre-seed",
@@ -2621,7 +2621,7 @@ const vcIndia1 = [
         industry: "venture capital & private equity",
         website: "http://www.trilliumvc.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/trillium-venture-capital",
-        logo: "",
+        logo: "https://media.licdn.com/dms/image/v2/C560BAQFNsiGj6CT5uQ/company-logo_200_200/company-logo_200_200/0/1646407691268?e=1744848000&v=beta&t=I8A61adpwkp7nPlX3lHtyMICdbXTPy8Y0kT-DhA6xu0",
         twitterUrl: "",
         country: "India",
         stageFocus: "pre-seed",
@@ -2684,7 +2684,7 @@ const vcIndia1 = [
           title: "Delivery Lead, Private Equity & Venture Capital",
           industry: "financial services",
           website: "http://www.acuitykp.com",
-          logo: "",
+          logo: "https://media.licdn.com/dms/image/v2/D560BAQGbqJnR_U4NAA/img-crop_100/img-crop_100/0/1720182388705?e=1744848000&v=beta&t=mIl_H1IIidub2Qgwn4WkqPqW6MMj00Y593ff4kIQivY",
           companyLinkedin: "http://www.linkedin.com/company/acuity-knowledge-partners",
           twitterUrl: "https://twitter.com/AcuityKP",
           country: "India",
@@ -2693,7 +2693,7 @@ const vcIndia1 = [
           ticketSize: "250k-500k",
           currentFundCorpus: "",
           totalFundCorpus: "-",
-          companyOverview: "-"
+          companyOverview: "Acuity Knowledge Partners (Acuity) is a leading provider of bespoke research, analytics and technology solutions to the financial services sector, including asset managers, corporate and investment banks, private equity and venture capital firms,"
         },
         {
           id: 173,
@@ -2716,7 +2716,7 @@ const vcIndia1 = [
           title: "Sales Manager",
           industry: "venture capital & private equity",
           website: "http://www.audacityvc.com",
-          logo: "",
+          logo: "https://media.licdn.com/dms/image/v2/C4D0BAQHedac2CPEcDw/company-logo_200_200/company-logo_200_200/0/1656071936267/audacityvc_logo?e=1744848000&v=beta&t=4t6cwh4aTu90iWNk_dXE3GFSTiqyBK_JkkCrgAtWPpA",
           companyLinkedin: "http://www.linkedin.com/company/audacityvc",
           twitterUrl: "https://twitter.com/audacityvc",
           country: "India",
@@ -2725,14 +2725,14 @@ const vcIndia1 = [
           ticketSize: "50k-250k",
           currentFundCorpus: "60000000",
           totalFundCorpus: "60000000" ,
-          companyOverview: "-"
+          companyOverview: "Early stage TMT venture fund investing across the India and the US."
         },
         {
           id: 175,
           title: "N g o",
           industry: "venture capital & private equity",
           website: "http://www.aegle.vc",
-          logo: "",
+          logo: "https://media.licdn.com/dms/image/v2/D4D0BAQE4wJsKfGapeg/company-logo_200_200/company-logo_200_200/0/1708939613672/aeglevc_logo?e=1744848000&v=beta&t=-Q6xjGxqa--vOES9RQzEMhJmKouZvqDfCsoLAxOUDT4",
           companyLinkedin: "http://www.linkedin.com/company/aeglevc",
           twitterUrl: "",
           country: "India",
@@ -2741,14 +2741,14 @@ const vcIndia1 = [
           ticketSize: "250k-500k",
           currentFundCorpus: "-",
           totalFundCorpus: "-",
-          companyOverview: "-"
+          companyOverview: "Pushttie Venture Capital epitomizes a deep tech investment entity steadfastly dedicated to empowering startups, Micro, Small, and Medium Enterprises (MSMEs), and micro entrepreneurs by endowing them with indispensable resources for triumph"
         },
         {
           id: 176,
           title: "DSG Consumer Partners - Venture Capital Investments",
           industry: "venture capital & private equity",
           website: "http://www.dsgcp.com",
-          logo: "",
+          logo: "https://media.licdn.com/dms/image/v2/D560BAQG9ft9Lf_Mkew/company-logo_200_200/company-logo_200_200/0/1696190647011/dsg_consumer_partners_logo?e=1744848000&v=beta&t=7Odip57OOseaU4aCqtOZv_k5JlcXitInliSEFMAzRfc",
           companyLinkedin: "http://www.linkedin.com/company/dsg-consumer-partners",
           twitterUrl: "",
           country: "India",
@@ -2757,14 +2757,14 @@ const vcIndia1 = [
           ticketSize: "500k-1m",
           currentFundCorpus: "-",
           totalFundCorpus: "208000000" ,
-          companyOverview: "-"
+          companyOverview: "DSG Consumer Partners is focusing on identifying, investing in, and growing consumer businesses in India & Southeast Asia."
         },
         {
           id: 177,
           title: "Executive-Venture Capital",
           industry: "information technology & services",
           website: "http://www.ibm.com",
-          logo: "",
+          logo: "https://media.licdn.com/dms/image/v2/D560BAQGiz5ecgpCtkA/company-logo_200_200/company-logo_200_200/0/1688684715866/ibm_logo?e=1744848000&v=beta&t=xkXlRIGZEIN1O0oH4LDNYMtUuQhi9wxZuVgFZN7lm-g",
           companyLinkedin: "http://www.linkedin.com/company/ibm",
           twitterUrl: "https://twitter.com/IBM",
           country: "India",
@@ -2773,14 +2773,14 @@ const vcIndia1 = [
           ticketSize: "50k-250k",
           currentFundCorpus: "",
           totalFundCorpus: "2598100000" ,
-          companyOverview: "-"
+          companyOverview: "At IBM, we do more than work. We create. We create as technologists, developers, and engineers"
         },
         {
           id: 178,
           title: "Senior Financial Associate, Private Equity and Venture Capital",
           industry: "financial services",
           website: "http://www.acuitykp.com",
-          logo: "",
+          logo: "https://media.licdn.com/dms/image/v2/D560BAQGbqJnR_U4NAA/img-crop_100/img-crop_100/0/1720182388705?e=1744848000&v=beta&t=mIl_H1IIidub2Qgwn4WkqPqW6MMj00Y593ff4kIQivY",
           companyLinkedin: "http://www.linkedin.com/company/acuity-knowledge-partners",
           twitterUrl: "https://twitter.com/AcuityKP",
           country: "India",
@@ -2789,14 +2789,14 @@ const vcIndia1 = [
           ticketSize: "250k-500k",
           currentFundCorpus: "-",
           totalFundCorpus: "-",
-          companyOverview: "-"
+          companyOverview: "Acuity Knowledge Partners (Acuity) is a leading provider of bespoke research, analytics and technology solutions to the financial services sector, including asset managers, corporate and investment banks, private equity and venture capital firms,"
         },
         {
           id: 179,
           title: "Investment Analyst - Disruptive Technologies and Venture Capital",
           industry: "financial services",
           website: "http://www.ifc.org",
-          logo: "",
+          logo: "https://media.licdn.com/dms/image/v2/C560BAQHLv3_h2UaJlA/company-logo_200_200/company-logo_200_200/0/1631329404027?e=1744848000&v=beta&t=NCUPPykCik3hlAYOCn54BKDcGvPjrBAqh1Uf6V63ixM",
           companyLinkedin: "http://www.linkedin.com/company/ifclinkedin",
           twitterUrl: "https://twitter.com/IFC_org",
           country: "India",
@@ -2805,7 +2805,7 @@ const vcIndia1 = [
           ticketSize: "500k-1m",
           currentFundCorpus: "-",
           totalFundCorpus: "-",
-          companyOverview: "-"
+          companyOverview: "IFC, a member of the World Bank Group, is the largest global development institution focused exclusively on the private sector in developing countries."
         },
         {
           id: 180,
@@ -2829,7 +2829,7 @@ const vcIndia1 = [
           industry: "venture capital & private equity",
           website: "http://www.aegle.vc",
           companyLinkedinUrl: "http://www.linkedin.com/company/aeglevc",
-          logo: "",
+          logo: "https://media.licdn.com/dms/image/v2/D4D0BAQE4wJsKfGapeg/company-logo_200_200/company-logo_200_200/0/1708939613672/aeglevc_logo?e=1744848000&v=beta&t=-Q6xjGxqa--vOES9RQzEMhJmKouZvqDfCsoLAxOUDT4",
           twitterUrl: "",
           country: "India",
           stageFocus: "pre-seed",
@@ -2837,7 +2837,7 @@ const vcIndia1 = [
           ticketSize: "250k-500k",
           currentFundCorpus: "-",
           totalFundCorpus: "-",
-          companyOverview: "-"
+          companyOverview: "Pushttie Venture Capital epitomizes a deep tech investment entity steadfastly dedicated to empowering startups, Micro, Small, and Medium Enterprises (MSMEs), and micro entrepreneurs by endowing them with indispensable resources for triumph"
         },
         {
           id: 182,
@@ -2845,7 +2845,7 @@ const vcIndia1 = [
           industry: "venture capital & private equity",
           website: "http://www.iangroup.vc",
           companyLinkedinUrl: "http://www.linkedin.com/company/indian-angel-network",
-          logo: "",
+          logo: "https://media.licdn.com/dms/image/v2/C4E0BAQGlvygrmpKhKg/company-logo_200_200/company-logo_200_200/0/1631330055607?e=1744848000&v=beta&t=akQCzT3hmqZTt3z6-Ek-yUCTMddm_3uh3bJSmCSJjsw",
           twitterUrl: "http://www.twitter.com/ianetwork",
           country: "India",
           stageFocus: "seed",
@@ -2853,7 +2853,7 @@ const vcIndia1 = [
           ticketSize: "500k-1m",
           currentFundCorpus: 38000000,
           totalFundCorpus: 38000000,
-          companyOverview: "-"
+          companyOverview: "IAN Group is the country’s single largest platform for seed and early-stage investment platform with IAN Angel Network,"
         },
         {
           id: 183,
@@ -2893,7 +2893,7 @@ const vcIndia1 = [
           industry: "venture capital & private equity",
           website: "http://www.kptl.com.br",
           companyLinkedinUrl: "http://www.linkedin.com/company/kptl-vc",
-          logo: "",
+          logo: "https://media.licdn.com/dms/image/v2/C560BAQEEIYAx_Y-d5g/company-logo_200_200/company-logo_200_200/0/1630589898028/kptl_vc_logo?e=1744848000&v=beta&t=Oltm9yodl26c4aKrWpKBcgh9qBEISRlW3v4Gijvtssk",
           twitterUrl: "",
           country: "India",
           stageFocus: "pre-seed",
@@ -2909,7 +2909,7 @@ const vcIndia1 = [
           industry: "information technology & services",
           website: "http://www.amazon.com",
           companyLinkedinUrl: "http://www.linkedin.com/company/amazon-web-services",
-          logo: "",
+          logo: "https://media.licdn.com/dms/image/v2/C560BAQER_QnUTXrPJw/company-logo_200_200/company-logo_200_200/0/1670264051233/amazon_web_services_logo?e=1744848000&v=beta&t=ZauKbmxTvlipggVTpG1cgaN2wfO01sm9I0Csy0TlcAE",
           twitterUrl: "",
           country: "India",
           stageFocus: "pre-seed",
@@ -2917,7 +2917,7 @@ const vcIndia1 = [
           ticketSize: "50k-250k",
           currentFundCorpus: "-",
           totalFundCorpus: "-",
-          companyOverview: "-"
+          companyOverview: "The ultimate benefit of cloud computing, and AWS, is the ability to leverage a new business model and turn capital infrastructure"
         },
         {
           id: 187,
@@ -2933,7 +2933,7 @@ const vcIndia1 = [
           ticketSize: "250k-500k",
           currentFundCorpus: "-",
           totalFundCorpus: "-",
-          companyOverview: "-"
+          companyOverview: "Ananta Capital is an investment management platform focused on partnering with businesses for the long-term."
         },
         {
           id: 188,
@@ -2941,7 +2941,7 @@ const vcIndia1 = [
           industry: "venture capital & private equity",
           website: "http://www.dallasvc.com",
           companyLinkedinUrl: "http://www.linkedin.com/company/d-vc",
-          logo: "",
+          logo: "https://media.licdn.com/dms/image/v2/C4E0BAQFygCHA7FuOCg/company-logo_200_200/company-logo_200_200/0/1630634407382/dallas_venture_capital_logo?e=1744848000&v=beta&t=m4OYKL8T-ba4t0duvUhHZYnpq-H1O0qHqPv0MDNO8Aw",
           twitterUrl: "http://www.twitter.com/NayaVentures",
           country: "India",
           stageFocus: "seed",
@@ -2949,7 +2949,7 @@ const vcIndia1 = [
           ticketSize: "500k-1m",
           currentFundCorpus: 7320300,
           totalFundCorpus: 130348250,
-          companyOverview: "-"
+          companyOverview: "Dallas Venture Capital is a Venture Capital firm, based in Dallas and Hyderabad, investing in SaaS, cloud infrastructure, cybersecurity, Data, DevOps, AI/ML, and other emerging technologies"
         },
         {
           id: 189,
@@ -2973,7 +2973,7 @@ const vcIndia1 = [
         industry: "venture capital & private equity",
         website: "http://www.included.vc",
         companyLinkedinUrl: "http://www.linkedin.com/company/includedvc",
-        logo: "",
+        logo: "https://media.licdn.com/dms/image/v2/C560BAQErUJrroYT-bg/company-logo_200_200/company-logo_200_200/0/1630647438935/includedvc_logo?e=1744848000&v=beta&t=2vhflKWmum_lHaFZYL5iz_s1OOke9mjxqByodd0mo28",
         twitterUrl: "https://twitter.com/INCLUDED_VC",
         country: "India",
         stageFocus: "pre-seed",
@@ -3005,7 +3005,7 @@ const vcIndia1 = [
         industry: "venture capital & private equity",
         website: "http://www.dst-global.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/dstglobal",
-        logo: "",
+        logo: "https://media.licdn.com/dms/image/v2/C560BAQGzVcjD6pqySQ/company-logo_200_200/company-logo_200_200/0/1630660543789/dstglobal_logo?e=1744848000&v=beta&t=fxnQvFVQbLu-T6pTM16jnHlAh-dpEqFLcAQShB8tDFU",
         twitterUrl: "",
         country: "India",
         stageFocus: "other",
@@ -3013,7 +3013,7 @@ const vcIndia1 = [
         ticketSize: "50k-250k",
         currentFundCorpus: "-",
         totalFundCorpus: "12000000",
-        companyOverview: "-"
+        companyOverview: "DST Global is one of the leading Internet investment firms globally"
     },
     {
         id: 193,
@@ -3021,7 +3021,7 @@ const vcIndia1 = [
         industry: "venture capital & private equity",
         website: "http://www.sidbiventure.co.in",
         companyLinkedinUrl: "http://www.linkedin.com/company/sidbi-venture-capital-limited",
-        logo: "",
+        logo: "https://media.licdn.com/dms/image/v2/C510BAQGtLddQzdB3Cw/company-logo_200_200/company-logo_200_200/0/1631434840053/sidbivc_logo?e=1744848000&v=beta&t=-c36vSlsAxBOQiWJ8IKSLwBlTiRj2i3_VBbZzKV3qQg",
         twitterUrl: "",
         country: "India",
         stageFocus: "seed",
@@ -3037,7 +3037,7 @@ const vcIndia1 = [
         industry: "venture capital & private equity",
         website: "http://www.specialeinvest.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/specialeinvest",
-        logo: "",
+        logo: "https://media.licdn.com/dms/image/v2/C510BAQH7sBlAzQM-Fw/company-logo_200_200/company-logo_200_200/0/1630633118536?e=1744848000&v=beta&t=hXniMGInAm3T_WzIFU4_3pA0GtwlkNEoySlT9ASI2Ns",
         twitterUrl: "https://twitter.com/SpecialeInvest",
         country: "India",
         stageFocus: "seed",
@@ -3053,7 +3053,7 @@ const vcIndia1 = [
         industry: "banking",
         website: "http://www.bank.sbi",
         companyLinkedinUrl: "http://www.linkedin.com/company/state-bank-of-india",
-        logo: "",
+        logo: "https://media.licdn.com/dms/image/v2/C4D0BAQHKjQFwtVCmSg/company-logo_200_200/company-logo_200_200/0/1660627573367/state_bank_of_india_logo?e=1744848000&v=beta&t=P6Zf2WjNp3La-iXKGaKD3Q0HDPXmdY8KvN_AfVcFzX0",
         twitterUrl: "",
         country: "India",
         stageFocus: "pre-seed",
@@ -3069,7 +3069,7 @@ const vcIndia1 = [
         industry: "internet",
         website: "http://www.excluto.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/excluto",
-        logo: "",
+        logo: "https://media.licdn.com/dms/image/v2/D4E0BAQFvRmBJuHI9rw/company-logo_200_200/company-logo_200_200/0/1683734394111/excluto_logo?e=1744848000&v=beta&t=HOiOEJI7xIUeM961IskUfy1ZZQc-3q9SaoEVe8ygf7g",
         twitterUrl: "",
         country: "India",
         stageFocus: "pre-seed",
@@ -3085,7 +3085,7 @@ const vcIndia1 = [
         industry: "venture capital & private equity",
         website: "http://www.aegle.vc",
         companyLinkedinUrl: "http://www.linkedin.com/company/aeglevc",
-        logo: "",
+        logo: "https://media.licdn.com/dms/image/v2/D4D0BAQE4wJsKfGapeg/company-logo_200_200/company-logo_200_200/0/1708939613672/aeglevc_logo?e=1744848000&v=beta&t=-Q6xjGxqa--vOES9RQzEMhJmKouZvqDfCsoLAxOUDT4",
         twitterUrl: "",
         country: "India",
         stageFocus: "pre-seed",
@@ -3101,7 +3101,7 @@ const vcIndia1 = [
         industry: "venture capital & private equity",
         website: "http://www.edelweissfin.com/",
         companyLinkedinUrl: "http://www.linkedin.com/company/yournest-angel-fund",
-        logo: "",
+        logo: "https://www.edelweissfin.com/wp-content/uploads/2020/02/logo-1.png",
         twitterUrl: "https://twitter.com/yournestvc",
         country: "India",
         stageFocus: "seed",
@@ -3117,7 +3117,7 @@ const vcIndia1 = [
       industry: "financial services",
       website: "http://www.investmentgroup.com",
       companyLinkedinUrl: "http://www.linkedin.com/company/nuvama-group",
-      logo:"",
+      logo:"https://media.licdn.com/dms/image/v2/D4D0BAQGG631GmDEPvw/img-crop_100/img-crop_100/0/1715684448476?e=1744848000&v=beta&t=SJ3qnOSdoEJEheNlkFaqC6BoHgT2sym-qWa7hmMtneA",
       twitterUrl: "https://twitter.com/InvestmentGroup",
       country: "India",
       stageFocus: "pre-seed",
@@ -3133,7 +3133,7 @@ const vcIndia1 = [
       industry: "venture capital & private equity",
       website: "http://www.kptl.com.br/",
       companyLinkedinUrl: "http://www.linkedin.com/company/kptl-vc",
-      logo: "",
+      logo: "https://media.licdn.com/dms/image/v2/C560BAQEEIYAx_Y-d5g/company-logo_200_200/company-logo_200_200/0/1630589898028/kptl_vc_logo?e=1744848000&v=beta&t=Oltm9yodl26c4aKrWpKBcgh9qBEISRlW3v4Gijvtssk",
       twitterUrl: "https://twitter.com/FinancialVentures",
       country: "India",
       stageFocus: "pre-seed",
@@ -3149,7 +3149,7 @@ const vcIndia1 = [
       industry: "venture capital & private equity",
       website: "http://www.kptl.com.br/",
       companyLinkedinUrl: "http://www.linkedin.com/company/kptl-vc",
-      logo: "",
+      logo: "https://media.licdn.com/dms/image/v2/C560BAQEEIYAx_Y-d5g/company-logo_200_200/company-logo_200_200/0/1630589898028/kptl_vc_logo?e=1744848000&v=beta&t=Oltm9yodl26c4aKrWpKBcgh9qBEISRlW3v4Gijvtssk",
       twitterUrl: "https://twitter.com/CapitalPartners",
       country: "India",
       stageFocus: "pre-seed",
@@ -3205,7 +3205,7 @@ const vcIndia1 = [
       ticketSize: "50k-250k",
       currentFundCorpus: "-",
       totalFundCorpus: "-",
-      companyOverview: "-"
+      companyOverview: "Investing and Empowering Emerging Market by China Experiences!"
     },
     {
       id: 205,
@@ -3221,7 +3221,7 @@ const vcIndia1 = [
       ticketSize: "250k-500k",
       currentFundCorpus: "-",
       totalFundCorpus: "-",
-      companyOverview: ""
+      companyOverview: "Coromandel International Limited is amongst India’s pioneers and leading Agri solutions provider, offering diverse products and services across the farming value chain."
     },
     {
       id: 206,
@@ -3245,7 +3245,7 @@ const vcIndia1 = [
       industry: "venture capital & private equity",
       website: "http://www.aegle.vc/",
       companyLinkedinUrl: "http://www.linkedin.com/company/aeglevc",
-      logo: "",
+      logo: "https://media.licdn.com/dms/image/v2/D4D0BAQE4wJsKfGapeg/company-logo_200_200/company-logo_200_200/0/1708939613672/aeglevc_logo?e=1744848000&v=beta&t=-Q6xjGxqa--vOES9RQzEMhJmKouZvqDfCsoLAxOUDT4",
       twitterUrl: "https://twitter.com/GlobalPartners",
       country: "India",
       stageFocus: "pre-seed",
@@ -3253,7 +3253,7 @@ const vcIndia1 = [
       ticketSize: "50k-250k",
       currentFundCorpus: "-",
       totalFundCorpus: "-",
-      companyOverview: ""
+      companyOverview: "Pushttie Venture Capital epitomizes a deep tech investment entity steadfastly dedicated to empowering startups, Micro, Small, and Medium Enterprises (MSMEs), and micro entrepreneurs by endowing them with indispensable resources for triumph"
     },
     {
       id: 208,
@@ -3261,7 +3261,7 @@ const vcIndia1 = [
       industry: "venture capital & private equity",
       website: "http://www.kptl.com.br/",
       companyLinkedinUrl: "http://www.linkedin.com/company/kptl-vc",
-      logo: "",
+      logo: "https://media.licdn.com/dms/image/v2/C560BAQEEIYAx_Y-d5g/company-logo_200_200/company-logo_200_200/0/1630589898028/kptl_vc_logo?e=1744848000&v=beta&t=Oltm9yodl26c4aKrWpKBcgh9qBEISRlW3v4Gijvtssk",
       twitterUrl: "https://twitter.com/LeadingEdgeCapital",
       country: "India",
       stageFocus: "pre-seed",
@@ -3285,13 +3285,13 @@ const vcIndia1 = [
       ticketSize: "500k-1m",
       currentFundCorpus: "-",
       totalFundCorpus: "-",
-      companyOverview: ""
+      companyOverview: "The Sekhsaria family has a history of creating enterprises that spans over a century, with decades of experience in the areas of commodities trading, cement, equity markets and technology"
     },
       {
         id: 210,
         title: "Site Civil Engineer",
         industry: "venture capital & private equity",
-        logo: "https://www.morningstar.com/assets/img/morningstar.d826858.svg",
+        logo: "https://media.licdn.com/dms/image/v2/C560BAQEEIYAx_Y-d5g/company-logo_200_200/company-logo_200_200/0/1630589898028/kptl_vc_logo?e=1744848000&v=beta&t=Oltm9yodl26c4aKrWpKBcgh9qBEISRlW3v4Gijvtssk",
         website: "http://www.kptl.com.br",
         companyLinkedinUrl: "http://www.linkedin.com/company/kptl-vc",
         country: "India",
@@ -3308,7 +3308,7 @@ const vcIndia1 = [
         title: "Research Associate (early stage and venture capital)",
         industry: "financial services",
         website: "http://www.morningstar.com",
-        logo: "",
+        logo: "https://www.morningstar.com/assets/img/morningstar.d826858.svg",
         companyLinkedinUrl: "http://www.linkedin.com/company/morningstar",
         twitterUrl: "https://twitter.com/MorningstarInc",
         country: "India",
@@ -3324,7 +3324,7 @@ const vcIndia1 = [
         title: "Electrician",
         industry: "venture capital & private equity",
         website: "http://www.kptl.com.br",
-        logo:"",
+        logo:"https://media.licdn.com/dms/image/v2/C560BAQEEIYAx_Y-d5g/company-logo_200_200/company-logo_200_200/0/1630589898028/kptl_vc_logo?e=1744848000&v=beta&t=Oltm9yodl26c4aKrWpKBcgh9qBEISRlW3v4Gijvtssk",
         companyLinkedinUrl: "http://www.linkedin.com/company/kptl-vc",
         twitterUrl: "",
         country: "India",
@@ -3332,7 +3332,7 @@ const vcIndia1 = [
         currentFundCorpus: "",
         stageFocus: "pre-seed",
         sectorFocus: "Enterprise",
-        companyOverview: "",
+        companyOverview: "The VCs A5 Capital Partners and Inseed Investimentos created KPTL, a giant in the industry that is already born as the largest Venture Capital firm for funds domiciled in Brazil, with 46 investees",
         ticketSize: "100k-250k"
       },
       {
@@ -3340,7 +3340,7 @@ const vcIndia1 = [
         title: "Human Resources Assistant",
         industry: "venture capital & private equity",
         website: "http://www.aegle.vc",
-        logo: "",
+        logo: "https://media.licdn.com/dms/image/v2/D4D0BAQE4wJsKfGapeg/company-logo_200_200/company-logo_200_200/0/1708939613672/aeglevc_logo?e=1744848000&v=beta&t=-Q6xjGxqa--vOES9RQzEMhJmKouZvqDfCsoLAxOUDT4",
         companyLinkedinUrl: "http://www.linkedin.com/company/aeglevc",
         twitterUrl: "",
         country: "India",
@@ -3348,7 +3348,7 @@ const vcIndia1 = [
         currentFundCorpus: "",
         stageFocus: "pre-seed",
         sectorFocus: "DeepTouch",
-        companyOverview: "",
+        companyOverview: "Pushttie Venture Capital epitomizes a deep tech investment entity steadfastly dedicated to empowering startups, Micro, Small, and Medium Enterprises (MSMEs), and micro entrepreneurs by endowing them with indispensable resources for triumph",
         ticketSize: "100k-250k"
       },
       {
@@ -3372,7 +3372,7 @@ const vcIndia1 = [
         title: "QA/QC",
         industry: "venture capital & private equity",
         website: "http://www.kptl.com.br",
-        logo: "",
+        logo: "https://media.licdn.com/dms/image/v2/C560BAQEEIYAx_Y-d5g/company-logo_200_200/company-logo_200_200/0/1630589898028/kptl_vc_logo?e=1744848000&v=beta&t=Oltm9yodl26c4aKrWpKBcgh9qBEISRlW3v4Gijvtssk",
         companyLinkedinUrl: "http://www.linkedin.com/company/kptl-vc",
         twitterUrl: "",
         country: "India",
@@ -3388,7 +3388,7 @@ const vcIndia1 = [
         title: "Project InCharge",
         industry: "venture capital & private equity",
         website: "http://www.kptl.com.br",
-        logo:"",
+        logo:"https://media.licdn.com/dms/image/v2/C560BAQEEIYAx_Y-d5g/company-logo_200_200/company-logo_200_200/0/1630589898028/kptl_vc_logo?e=1744848000&v=beta&t=Oltm9yodl26c4aKrWpKBcgh9qBEISRlW3v4Gijvtssk",
         companyLinkedinUrl: "http://www.linkedin.com/company/kptl-vc",
         twitterUrl: "",
         country: "India",
@@ -3404,7 +3404,7 @@ const vcIndia1 = [
         title: "Engineer",
         industry: "venture capital & private equity",
         website: "http://www.kptl.com.br",
-        logo: "",
+        logo: "https://media.licdn.com/dms/image/v2/C560BAQEEIYAx_Y-d5g/company-logo_200_200/company-logo_200_200/0/1630589898028/kptl_vc_logo?e=1744848000&v=beta&t=Oltm9yodl26c4aKrWpKBcgh9qBEISRlW3v4Gijvtssk",
         companyLinkedinUrl: "http://www.linkedin.com/company/kptl-vc",
         twitterUrl: "",
         country: "India",
@@ -3436,14 +3436,14 @@ const vcIndia1 = [
         title: "Financial Sponsor Group- Private Equity and Venture Capital",
         industry: "banking",
         website: "http://www.icicibank.com",
-        logo: "",
+        logo: "https://media.licdn.com/dms/image/v2/C4D0BAQGeIcnR-LkMpw/company-logo_200_200/company-logo_200_200/0/1638338280183/icici_bank_logo?e=1744848000&v=beta&t=NIq1j_eEkWC9WjJOINy3ViIktiMkVQnxSLytwhpRd_g",
         companyLinkedinUrl: "http://www.linkedin.com/company/icici-bank",
         twitterUrl: "https://twitter.com/icicibank",
         totalFundCorpus: 4201770000,
         currentFundCorpus: 20000000,
         stageFocus: "series D",
         sectorFocus: "sector agnostic",
-        companyOverview: "",
+        companyOverview: "ICICI Bank is one of India’s leading private sector banks, offering a wide range of banking products and services to corporate, ",
         ticketSize: "100k-250k"
       },
         {
@@ -3466,7 +3466,7 @@ const vcIndia1 = [
           title: "Advisor",
           industry: "venture capital & private equity",
           website: "http://www.dallasvc.com",
-          logo: "",
+          logo: "https://media.licdn.com/dms/image/v2/C4E0BAQFygCHA7FuOCg/company-logo_200_200/company-logo_200_200/0/1630634407382/dallas_venture_capital_logo?e=1744848000&v=beta&t=m4OYKL8T-ba4t0duvUhHZYnpq-H1O0qHqPv0MDNO8Aw",
           companyLinkedinUrl: "http://www.linkedin.com/company/d-vc",
           twitterUrl: "http://www.twitter.com/NayaVentures",
           country: "India",
@@ -3474,7 +3474,7 @@ const vcIndia1 = [
           currentFundCorpus: 7320300,
           stageFocus: "seed",
           sectorFocus: "Gaming",
-          companyOverview: "",
+          companyOverview: "Dallas Venture Capital is a Venture Capital firm, based in Dallas and Hyderabad, investing in SaaS, cloud infrastructure, cybersecurity, Data, DevOps, AI/ML, and other emerging technologies",
           ticketSize: "100k-250k"
         },
         {
@@ -3522,7 +3522,7 @@ const vcIndia1 = [
           currentFundCorpus: "",
           stageFocus: "pre-seed",
           sectorFocus: "B2B Commerce",
-          companyOverview: "",
+          companyOverview: "TNC was incorporated in the year 2009 and since then has been recognized as one of the best pilot training institutes in Delhi.",
           ticketSize: "100k-250k"
         },
         {
@@ -3530,7 +3530,7 @@ const vcIndia1 = [
           title: "Ready to Serve",
           industry: "venture capital & private equity",
           website: "http://www.aegle.vc",
-          logo: "",
+          logo: "https://media.licdn.com/dms/image/v2/D4D0BAQE4wJsKfGapeg/company-logo_200_200/company-logo_200_200/0/1708939613672/aeglevc_logo?e=1744848000&v=beta&t=-Q6xjGxqa--vOES9RQzEMhJmKouZvqDfCsoLAxOUDT4",
           companyLinkedinUrl: "http://www.linkedin.com/company/aeglevc",
           twitterUrl: "",
           country: "India",
@@ -3538,7 +3538,7 @@ const vcIndia1 = [
           currentFundCorpus: "",
           stageFocus: "pre-seed",
           sectorFocus: "sector impact",
-          companyOverview: "",
+          companyOverview: "Pushttie Venture Capital epitomizes a deep tech investment entity steadfastly dedicated to empowering startups, Micro, Small, and Medium Enterprises (MSMEs), and micro entrepreneurs by endowing them with indispensable resources for triumph",
           ticketSize: "100k-250k"
         },
         {
@@ -3546,7 +3546,7 @@ const vcIndia1 = [
           title: "Purchase Eng.",
           industry: "venture capital & private equity",
           website: "http://www.kptl.com.br",
-          logo: "",
+          logo: "https://media.licdn.com/dms/image/v2/C560BAQEEIYAx_Y-d5g/company-logo_200_200/company-logo_200_200/0/1630589898028/kptl_vc_logo?e=1744848000&v=beta&t=Oltm9yodl26c4aKrWpKBcgh9qBEISRlW3v4Gijvtssk",
           companyLinkedinUrl: "http://www.linkedin.com/company/kptl-vc",
           twitterUrl: "",
           country: "India",
@@ -3595,7 +3595,7 @@ const vcIndia1 = [
           title: "Accountant",
           industry: "venture capital & private equity",
           website: "http://www.aegle.vc",
-          logo: "",
+          logo: "https://media.licdn.com/dms/image/v2/D4D0BAQE4wJsKfGapeg/company-logo_200_200/company-logo_200_200/0/1708939613672/aeglevc_logo?e=1744848000&v=beta&t=-Q6xjGxqa--vOES9RQzEMhJmKouZvqDfCsoLAxOUDT4",
           companyLinkedinUrl: "http://www.linkedin.com/company/aeglevc",
           twitterUrl: "",
           country: "India",
@@ -3603,7 +3603,7 @@ const vcIndia1 = [
           currentFundCorpus: "",
           stageFocus: "pre-seed",
           sectorFocus: "Media",
-          companyOverview: "",
+          companyOverview: "Pushttie Venture Capital epitomizes a deep tech investment entity steadfastly dedicated to empowering startups, Micro, Small, and Medium Enterprises (MSMEs), and micro entrepreneurs by endowing them with indispensable resources for triumph",
           ticketSize: "100k-250k"
         },
           {
@@ -3619,7 +3619,7 @@ const vcIndia1 = [
           currentFundCorpus: "",
           stageFocus: "pre-seed",
           sectorFocus: "Education",
-          companyOverview: "",
+          companyOverview: "Acuity Knowledge Partners (Acuity) is a leading provider of bespoke research, analytics and technology solutions to the financial services sector, including asset managers, corporate and investment banks, private equity and venture capital firms,",
           ticketSize: "100k-250k"
           },
           {
@@ -3627,7 +3627,7 @@ const vcIndia1 = [
             title: "account",
             industry: "venture capital & private equity",
             website: "http://www.kptl.com.br",
-            logo: "",
+            logo: "https://media.licdn.com/dms/image/v2/C560BAQEEIYAx_Y-d5g/company-logo_200_200/company-logo_200_200/0/1630589898028/kptl_vc_logo?e=1744848000&v=beta&t=Oltm9yodl26c4aKrWpKBcgh9qBEISRlW3v4Gijvtssk",
             companyLinkedinUrl: "http://www.linkedin.com/company/kptl-vc",
             twitterUrl: "",
             country: "India",
@@ -3643,7 +3643,7 @@ const vcIndia1 = [
             title: "surveyor",
             industry: "venture capital & private equity",
             website: "http://www.kptl.com.br",
-            logo: "",
+            logo: "https://media.licdn.com/dms/image/v2/C560BAQEEIYAx_Y-d5g/company-logo_200_200/company-logo_200_200/0/1630589898028/kptl_vc_logo?e=1744848000&v=beta&t=Oltm9yodl26c4aKrWpKBcgh9qBEISRlW3v4Gijvtssk",
             companyLinkedinUrl: "http://www.linkedin.com/company/kptl-vc",
             twitterUrl: "",
             totalFundCorpus: "",
@@ -3674,7 +3674,7 @@ const vcIndia1 = [
             title: "S&T design engineer",
             industry: "venture capital & private equity",
             website: "http://www.kptl.com.br",
-            logo: "",
+            logo: "https://media.licdn.com/dms/image/v2/C560BAQEEIYAx_Y-d5g/company-logo_200_200/company-logo_200_200/0/1630589898028/kptl_vc_logo?e=1744848000&v=beta&t=Oltm9yodl26c4aKrWpKBcgh9qBEISRlW3v4Gijvtssk",
             companyLinkedinUrl: "http://www.linkedin.com/company/kptl-vc",
             twitterUrl: "",
             country: "India",
@@ -3690,7 +3690,7 @@ const vcIndia1 = [
             title: "Student",
             industry: "venture capital & private equity",
             website: "http://www.aegle.vc",
-            logo: "",
+            logo: "https://media.licdn.com/dms/image/v2/D4D0BAQE4wJsKfGapeg/company-logo_200_200/company-logo_200_200/0/1708939613672/aeglevc_logo?e=1744848000&v=beta&t=-Q6xjGxqa--vOES9RQzEMhJmKouZvqDfCsoLAxOUDT4",
             companyLinkedinUrl: "http://www.linkedin.com/company/aeglevc",
             twitterUrl: "",
             country: "India",
@@ -3698,7 +3698,7 @@ const vcIndia1 = [
           currentFundCorpus: "",
           stageFocus: "pre-seed",
           sectorFocus: "Food",
-          companyOverview: "",
+          companyOverview: "Pushttie Venture Capital epitomizes a deep tech investment entity steadfastly dedicated to empowering startups, Micro, Small, and Medium Enterprises (MSMEs), and micro entrepreneurs by endowing them with indispensable resources for triumph",
           ticketSize: "100k-250k"
           },
           {
@@ -3746,7 +3746,7 @@ const vcIndia1 = [
           currentFundCorpus: "",
           stageFocus: "pre-seed",
           sectorFocus: "Fintech",
-          companyOverview: "",
+          companyOverview: "We are organizing and inviting external speakers from well-known private equity, venture capital, and hedge fund firms.",
           ticketSize: "100k-250k"
           },
           {
@@ -3770,7 +3770,7 @@ const vcIndia1 = [
               title: "CC Incharge",
               industry: "venture capital & private equity",
               website: "http://www.bventure.com",
-              logo: "",
+              logo: "https://media.licdn.com/dms/image/v2/D560BAQFYIElOa6g6rQ/company-logo_200_200/company-logo_200_200/0/1684320565157/billionaire_venture_capital_logo?e=1744848000&v=beta&t=Ma-gTSs_3hsje6AEIG1KcWSMymHPMyvnYOkZQwpQpwk",
               companyLinkedinUrl: "http://www.linkedin.com/company/billionaire-venture-capital",
               twitterUrl: "https://twitter.com/billionaire_vc",
               country: "India",
@@ -3778,7 +3778,7 @@ const vcIndia1 = [
               currentFundCorpus: "",
               stageFocus: "pre-seed",
               sectorFocus: "sector agnostic",
-              companyOverview: "",
+              companyOverview: "We zealously invest in Early-stage technology startups across various industries.",
               ticketSize: "100k-250k"
             },
             {
@@ -3802,7 +3802,7 @@ const vcIndia1 = [
               title: "Associate Vice President Marketing",
               industry: "venture capital & private equity",
               website: "http://www.bventure.com",
-              logo: "",
+              logo: "https://media.licdn.com/dms/image/v2/D560BAQFYIElOa6g6rQ/company-logo_200_200/company-logo_200_200/0/1684320565157/billionaire_venture_capital_logo?e=1744848000&v=beta&t=Ma-gTSs_3hsje6AEIG1KcWSMymHPMyvnYOkZQwpQpwk",
               companyLinkedinUrl: "http://www.linkedin.com/company/billionaire-venture-capital",
               twitterUrl: "https://twitter.com/billionaire_vc",
               country: "India",
@@ -3810,7 +3810,7 @@ const vcIndia1 = [
               currentFundCorpus: "",
               stageFocus: "pre-seed",
               sectorFocus: "B2B Commerce",
-              companyOverview: "",
+              companyOverview: "We zealously invest in Early-stage technology startups across various industries.",
               ticketSize: "100k-250k"
             },
             {
@@ -3818,7 +3818,7 @@ const vcIndia1 = [
               title: "Associate Vice President",
               industry: "venture capital & private equity",
               website: "http://www.bventure.com",
-              logo: "",
+              logo: "https://media.licdn.com/dms/image/v2/D560BAQFYIElOa6g6rQ/company-logo_200_200/company-logo_200_200/0/1684320565157/billionaire_venture_capital_logo?e=1744848000&v=beta&t=Ma-gTSs_3hsje6AEIG1KcWSMymHPMyvnYOkZQwpQpwk",
               companyLinkedinUrl: "http://www.linkedin.com/company/billionaire-venture-capital",
               twitterUrl: "https://twitter.com/billionaire_vc",
               country: "India",
@@ -3826,7 +3826,7 @@ const vcIndia1 = [
               currentFundCorpus: "",
               stageFocus: "pre-seed",
               sectorFocus: "sector impact",
-              companyOverview: "",
+              companyOverview: "We zealously invest in Early-stage technology startups across various industries.",
               ticketSize: "100k-250k"
             },
             {
@@ -3850,7 +3850,7 @@ const vcIndia1 = [
               title: "Qa/qc engineer",
               industry: "venture capital & private equity",
               website: "http://www.kptl.com.br",
-              logo: "",
+              logo: "https://media.licdn.com/dms/image/v2/C560BAQEEIYAx_Y-d5g/company-logo_200_200/company-logo_200_200/0/1630589898028/kptl_vc_logo?e=1744848000&v=beta&t=Oltm9yodl26c4aKrWpKBcgh9qBEISRlW3v4Gijvtssk",
               companyLinkedinUrl: "http://www.linkedin.com/company/kptl-vc",
               twitterUrl: "",
               country: "India",
@@ -3866,7 +3866,7 @@ const vcIndia1 = [
               title: "NFT Creator",
               industry: "venture capital & private equity",
               website: "http://www.aegle.vc",
-              logo: "",
+              logo: "https://media.licdn.com/dms/image/v2/D4D0BAQE4wJsKfGapeg/company-logo_200_200/company-logo_200_200/0/1708939613672/aeglevc_logo?e=1744848000&v=beta&t=-Q6xjGxqa--vOES9RQzEMhJmKouZvqDfCsoLAxOUDT4",
               companyLinkedinUrl: "http://www.linkedin.com/company/aeglevc",
               twitterUrl: "",
               country: "India",
@@ -3874,7 +3874,7 @@ const vcIndia1 = [
               currentFundCorpus: "",
               stageFocus: "pre-seed",
               sectorFocus: "health care",
-              companyOverview: "",
+              companyOverview: "Pushttie Venture Capital epitomizes a deep tech investment entity steadfastly dedicated to empowering startups, Micro, Small, and Medium Enterprises (MSMEs), and micro entrepreneurs by endowing them with indispensable resources for triumph",
               ticketSize: "100k-250k"
             },
             {
@@ -3882,7 +3882,7 @@ const vcIndia1 = [
               title: "Software Engineer",
               industry: "venture capital & private equity",
               website: "http://www.aegle.vc",
-              logo: "",
+              logo: "https://media.licdn.com/dms/image/v2/D4D0BAQE4wJsKfGapeg/company-logo_200_200/company-logo_200_200/0/1708939613672/aeglevc_logo?e=1744848000&v=beta&t=-Q6xjGxqa--vOES9RQzEMhJmKouZvqDfCsoLAxOUDT4",
               companyLinkedinUrl: "http://www.linkedin.com/company/aeglevc",
               twitterUrl: "",
               country: "India",
@@ -3890,7 +3890,7 @@ const vcIndia1 = [
               currentFundCorpus: "",
               stageFocus: "pre-seed",
               sectorFocus: "sector impact",
-              companyOverview: "",
+              companyOverview: "Pushttie Venture Capital epitomizes a deep tech investment entity steadfastly dedicated to empowering startups, Micro, Small, and Medium Enterprises (MSMEs), and micro entrepreneurs by endowing them with indispensable resources for triumph",
               ticketSize: "100k-250k"
             },
             {
@@ -3914,7 +3914,7 @@ const vcIndia1 = [
               title: "civil superiors",
               industry: "venture capital & private equity",
               website: "http://www.kptl.com.br",
-              logo: "",
+              logo: "https://media.licdn.com/dms/image/v2/C560BAQEEIYAx_Y-d5g/company-logo_200_200/company-logo_200_200/0/1630589898028/kptl_vc_logo?e=1744848000&v=beta&t=Oltm9yodl26c4aKrWpKBcgh9qBEISRlW3v4Gijvtssk",
               companyLinkedinUrl: "http://www.linkedin.com/company/kptl-vc",
               twitterUrl: "",
               country: "India",
@@ -3924,7 +3924,23 @@ const vcIndia1 = [
               sectorFocus: "Travel",
               companyOverview: "Innovation creating the future, Somos uma gestora de recursos focada em inovação .",
               ticketSize: "100k-250k"
-            }          
+            },
+            {
+              id: 250,
+              title: "Venture Capital Business Analyst",
+              industry: "management consulting",
+              website: "http://www.ecosystemventures.in/",
+              logo: "http://ecosystemventures.in/beta/wp-content/uploads/2020/11/logo.jpeg.webp",
+              companyLinkedinUrl: "http://www.linkedin.com/company/ecosystem-ventures",
+              twitterUrl: "",
+              country: "India",
+              totalFundCorpus: "",
+              currentFundCorpus: "",
+              stageFocus: "pre-seed",
+              sectorFocus: "sector agnostic",
+              companyOverview: "Ecosystem Ventures: Partner in India's Startup Growth Story",
+              ticketSize: "250k-550k",
+            }      
 ]
 
 export default vcIndia1;
