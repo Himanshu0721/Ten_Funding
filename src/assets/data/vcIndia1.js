@@ -2121,7 +2121,7 @@ const vcIndia1 = [
           country: "India",
           stageFocus: "pre-seed",
           sectorFocus: "healthcare and biotech",
-          ticketSize: "250k-500k",
+          ticketSize: "50k-250k",
           currentFundCorpus: "",
           totalFundCorpus: "",
           companyOverview: ""
