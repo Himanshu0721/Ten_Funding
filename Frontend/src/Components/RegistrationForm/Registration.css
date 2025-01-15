@@ -3,8 +3,8 @@
   margin: 120px auto;
 }
 
-.header-logo img {
-  width: 10%;
+.header-logo svg {
+  width: 15%;
 }
 .header-content h1 {
   font-size: 50px;
