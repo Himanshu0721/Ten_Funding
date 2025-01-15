@@ -1112,6 +1112,7 @@ const vcIndia1 = [
       },
 
 
+
                   
       {
         id:309,
@@ -1147,6 +1148,410 @@ const vcIndia1 = [
         currentFundCorpus: "123344523",
         totalFundCorpus: "  4884000",
         companyOverview: "Agri10x strategically invests in startups, MSMEs, and micro entrepreneurs with the goal of generating a positive impact and empowering business communities on a global scale."
+      },
+
+      {
+        id:311,
+        title: "Venture capital Intern",
+        industry: " financial services",
+        website: "http://www.equirus.com",
+        logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
+        companyLinkedinUrl: "http://www.linkedin.com/in/tanisha-bansal-32ba73205",
+        twitterUrl: "https://twitter.com/EquirusGroup",
+        country: "India",
+        city:" Mumbai",
+        stageFocus: "pre seeds",
+        sectorFocus: "Government",
+        ticketSize: "50k- 3M",
+        currentFundCorpus: "33123344523",
+        totalFundCorpus: "  482284000",
+        companyOverview: "Trusted investment bank offering expert advisory for growth, capital, and wealth management. Maximize your investments with our proven solutions."
+      },
+
+      {
+        id:312,
+        title: "Consultant",
+        industry: " venture capital & private equity",
+        website: "http://www.aegle.vc",
+        logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
+        companyLinkedinUrl: "http://www.linkedin.com/in/tushar-kumar-27b40b138",
+        twitterUrl: "https://twitter.com/EquirusGroup",
+        country: "India",
+        city:" Noida",
+        stageFocus: "pre seeds",
+        sectorFocus: "Government",
+        ticketSize: "50k- 3M",
+        currentFundCorpus: "33123344523",
+        totalFundCorpus: "  482284000",
+        companyOverview: "Agri10x strategically invests in startups, MSMEs, and micro entrepreneurs with the goal of generating a positive impact and empowering business communities on a global scale."
+      },
+
+      
+      {
+        id:312,
+        title: "Investment Team",
+        industry: " venture capital & private equity",
+        website: "http://www.aegle.vc",
+        logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
+        companyLinkedinUrl: "http://www.linkedin.com/in/tvisha-mehta-4143a5104",
+        twitterUrl: "https://twitter.com/anthillventures",
+        country: "India",
+        city:"Hyderabad",
+        stageFocus: "Other",
+        sectorFocus: "Government",
+        ticketSize: "50k- 3M",
+        currentFundCorpus: "25000000",
+        totalFundCorpus: "  482284000",
+        companyOverview: "Agri10x strategically invests in startups, MSMEs, and micro entrepreneurs with the goal of generating a positive impact and empowering business communities on a global scale."
+      },
+
+      
+      
+      {
+        id:313,
+        title: "Investment Team",
+        industry: " venture capital & private equity",
+        website: "http://www.aegle.vc",
+        logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
+        companyLinkedinUrl: "http://www.linkedin.com/in/tvisha-mehta-4143a5104",
+        twitterUrl: "https://twitter.com/anthillventures",
+        country: "India",
+        city:"Hyderabad",
+        stageFocus: "Other",
+        sectorFocus: "Government",
+        ticketSize: "50k- 3M",
+        currentFundCorpus: "25000000",
+        totalFundCorpus: "  482284000",
+        companyOverview: "Agri10x strategically invests in startups, MSMEs, and micro entrepreneurs with the goal of generating a positive impact and empowering business communities on a global scale."
+      },
+
+      
+      
+      {
+        id:314,
+        title: "IEnvironment, Health and Safety Manager",
+        industry: " venture capital & private equity",
+        website: "http://www.aegle.vc",
+        logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
+        companyLinkedinUrl: "http://www.linkedin.com/in/uday-bhadoriya-058a65229",
+        twitterUrl: "https://twitter.com/anthillventures",
+        country: "India",
+        city:"Jaipur",
+        stageFocus: "pre seeds",
+        sectorFocus: "Enterprise",
+        ticketSize: "100k- 2M",
+        currentFundCorpus: "258000000",
+        totalFundCorpus: "  382284000",
+        companyOverview: "Agri10x strategically invests in startups, MSMEs, and micro entrepreneurs with the goal of generating a positive impact and empowering business communities on a global scale."
+      },
+
+
+      {
+        id:315,
+        title: "Associate",
+        industry: " venture capital & private equity",
+        website: "http://www.yournest.in",
+        logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
+        companyLinkedinUrl: "http://www.linkedin.com/in/ujjwala-amba",
+        twitterUrl: "https://twitter.com/yournestvc",
+        country: "India",
+        city:"Chandigarh",
+        stageFocus: "pre seeds",
+        sectorFocus: "Enterprise",
+        ticketSize: "100k- 2M",
+        currentFundCorpus: "258000000",
+        totalFundCorpus: "  382284000",
+        companyOverview: "Early-stage, DeepTech, Enterprise, Startup Funding, B2B, AI, ML, IoT, VR, AR, Blockchain, Tech-enabled, Nurture Capital, Venture Capital"
+      },
+
+      {
+        id:316,
+        title: "financial analyst",
+        industry: "financial services",
+        website: "http://www.ifciventure.com",
+        logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
+        companyLinkedinUrl: "http://www.linkedin.com/in/urvashi-gulati-3bb90024",
+        twitterUrl: " ",
+        country: "India",
+        city:"",
+        stageFocus: "pre seeds",
+        sectorFocus: "Enterprise",
+        ticketSize: "100k- 2M",
+        currentFundCorpus: "384848",
+        totalFundCorpus: "  2123445",
+        companyOverview: "Early-stage, DeepTech, Enterprise, Startup Funding, B2B, AI, ML, IoT, VR, AR, Blockchain, Tech-enabled, Nurture Capital, Venture Capital"
+      },
+
+
+      {
+        id:317,
+        title: "Partner - Corporate Venture Capital",
+        industry: "venture capital & private equity",
+        website: "http://www.100x.vc",
+        logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
+        companyLinkedinUrl: "http://www.linkedin.com/in/utpal-doshi-a5707713",
+        twitterUrl: "https://twitter.com/100X_VC ",
+        country: "India",
+        city:"Mumbai",
+        stageFocus: "pre seeds",
+        sectorFocus: "Enterprise",
+        ticketSize: "100k- 2M",
+        currentFundCorpus: "112384848",
+        totalFundCorpus: "  212123445",
+        companyOverview: "Early-stage, DeepTech, Enterprise, Startup Funding, B2B, AI, ML, IoT, VR, AR, Blockchain, Tech-enabled, Nurture Capital, Venture Capital"
+      },
+
+
+      {
+        id:318,
+        title: "Manager - Venture Capital & Private Equity Partnerships",
+        industry: "information technology & services",
+        website: "http://www.microsoft.com",
+        logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
+        companyLinkedinUrl: "http://www.linkedin.com/in/shivangi-bakshi",
+        twitterUrl: "https://twitter.com/microsoft",
+        city:"New Delhi",
+        stageFocus: "pre seeds",
+        sectorFocus: "consumer",
+        ticketSize: "150k- 2M",
+        currentFundCorpus: "11222384848",
+        totalFundCorpus: "  21112123445",
+        companyOverview: "Try Microsoft Edge to experience the web in a whole new way. Learn how to move all your favorites, passwords and preferences from Internet Explorer to Microsoft Edge."
+      },
+
+
+      {
+        id:319,
+        title: "Vice President - Private Equity & Venture Capital",
+        industry: "financial services",
+        website: "http://www.waterfieldadvisors.com",
+        logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
+        companyLinkedinUrl: "http://www.linkedin.com/in/vaibhav-laxmeshwar-695551b1",
+        twitterUrl: "https://twitter.com/WaterfieldHQ",
+        city:"Mumbai",
+        stageFocus: "pre seeds",
+        sectorFocus: "consumer",
+        ticketSize: "150k- 2M",
+        currentFundCorpus: "11222384848",
+        totalFundCorpus: "  21112123445",
+        companyOverview: "One of the best wealth management firms in India, Waterfield Advisors is a one stop solution for your financial planning. Protect & grow your wealth now."
+      },
+
+
+
+      
+      {
+        id:320,
+        title: "Sr.Manager",
+        industry: "venture capital & private equity",
+        website: "http://www.kptl.com.br",
+        logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
+        companyLinkedinUrl: "http://www.linkedin.com/in/valiveti-sitaramaiah-0b909a1b6",
+        twitterUrl: " ",
+        city:"Hyderabad",
+        stageFocus: "pre seeds",
+        sectorFocus: "consumer",
+        ticketSize: "150k- 2M",
+        currentFundCorpus: "9000000",
+        totalFundCorpus: "  678000",
+        companyOverview: "One of the best wealth management firms in India, Waterfield Advisors is a one stop solution for your financial planning. Protect & grow your wealth now."
+      },
+
+      {
+        id:320,
+        title: "Sr.Manager",
+        industry: "venture capital & private equity",
+        website: "http://www.kptl.com.br",
+        logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
+        companyLinkedinUrl: "http://www.linkedin.com/in/valiveti-sitaramaiah-0b909a1b6",
+        twitterUrl: " ",
+        city:"Hyderabad",
+        stageFocus: "pre seeds",
+        sectorFocus: "consumer",
+        ticketSize: "150k- 2M",
+        currentFundCorpus: "9000000",
+        totalFundCorpus: "  678000",
+        companyOverview: "One of the best wealth management firms in India, Waterfield Advisors is a one stop solution for your financial planning. Protect & grow your wealth now."
+      },
+
+
+      
+      {
+        id:321,
+        title: "KALPATRU POWER TRANSMISSION LTD",
+        industry: "venture capital & private equity",
+        website: "http://www.kptl.com.br",
+        logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
+        companyLinkedinUrl: "http://www.linkedin.com/in/vanraj-maurya-383bb21ba",
+        twitterUrl: " ",
+        city:"",
+        stageFocus: "pre seeds",
+        sectorFocus: "consumer",
+        ticketSize: "200k- 2M",
+        currentFundCorpus: "90002000",
+        totalFundCorpus: "  26378000",
+        companyOverview: "One of the best wealth management firms in India, Waterfield Advisors is a one stop solution for your financial planning. Protect & grow your wealth now."
+      },
+
+      {
+        id:322,
+        title: "Foundation Director",
+        industry: "venture capital & private equity",
+        website: "http://www.aegle.vc",
+        logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
+        companyLinkedinUrl: "http://www.linkedin.com/in/varisth-global-foundation-146289249",
+        twitterUrl: " ",
+        city:"Lucknow",
+        stageFocus: "pre seeds",
+        sectorFocus: "consumer",
+        ticketSize: "200k- 2M",
+        currentFundCorpus: "90002000",
+        totalFundCorpus: "  26378000",
+        companyOverview: "Agri10x strategically invests in startups, MSMEs, and micro entrepreneurs with the goal of generating a positive impact and empowering business communities on a global scale."
+      },
+
+
+      {
+        id:323,
+        title: "Relationship Manager - Private Equity & Venture Capital",
+        industry: "venture capital & private equity",
+        website: "http://www.icicibank.com",
+        logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
+        companyLinkedinUrl: "http://www.linkedin.com/in/varsha-santwani-950128131",
+        twitterUrl: "https://twitter.com/icicibank ",
+        city:"New Delhi",
+        stageFocus: "Series D",
+        sectorFocus: "consumer",
+        ticketSize: "200k- 2M",
+        currentFundCorpus: "90002000",
+        totalFundCorpus: "  4201770000",
+        companyOverview: "ICICI Bank offers a wide range of personal and business banking products and services including accounts & deposits, cards, loans, insurance, and investment products."
+      },
+
+      {
+        id:324,
+        title: "AVP, FS (Private Equity/Venture Capital) Coverage",
+        industry: "banking",
+        website: "http://www.axisbank.com",
+        logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
+        companyLinkedinUrl: "http://www.linkedin.com/in/varun-malik-10750955",
+        twitterUrl: "https://twitter.com/axisbank ",
+        city:"Mumbai",
+        stageFocus: "Debt Financing",
+        sectorFocus: "consumer",
+        ticketSize: "200k- 2M",
+        currentFundCorpus: "90002000",
+        totalFundCorpus: "  4201770000",
+        companyOverview: "We are third largest private sector bank in India offering entire spectrum of financial services for personal & corporate banking.."
+      },
+
+
+
+      {
+        id:325,
+        title: "Partner - Corporate and M&A, Private Equity and Venture Capital, Blockchain and Web3",
+        industry: "legal services",
+        website: "http://www.ksandk.com",
+        logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
+        companyLinkedinUrl: "http://www.linkedin.com/in/vatsal-gaur",
+        twitterUrl: "https://twitter.com/kingstubbkasiva ",
+        city:"Mumbai",
+        stageFocus: "pre seeds",
+        sectorFocus: "consumer",
+        ticketSize: "200k- 300k",
+        currentFundCorpus: "12002000",
+        totalFundCorpus: "  4201770000",
+        companyOverview: "KSK is a leading corporate law firm in India that successfully handles legal and business matters for a diverse range of clients.."
+      },
+
+
+      
+      {
+        id:326,
+        title: "Assistant Manager",
+        industry: "venture capital & private equity",
+        website: "http://www.aegle.vc",
+        logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
+        companyLinkedinUrl: "hhttp://www.linkedin.com/in/ved-veer-chaudhory-a3ba9b240",
+        twitterUrl: "https://twitter.com/kingstubbkasiva ",
+        city:"Hyderabad",
+        stageFocus: "pre seeds",
+        sectorFocus: "consumer",
+        ticketSize: "200k- 300k",
+        currentFundCorpus: "2554000",
+        totalFundCorpus: "  365000000",
+        companyOverview: "Agri10x strategically invests in startups, MSMEs, and micro entrepreneurs with the goal of generating a positive impact and empowering business communities on a global scale."
+      },
+
+            
+      {
+        id:327,
+        title: "SR UI /UX Designer",
+        industry: "venture capital & private equity",
+        website: "http://www.kptl.com.br",
+        logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
+        companyLinkedinUrl: "http://www.linkedin.com/in/venkatesh-n-121681237",
+        twitterUrl: "https://twitter.com/kingstubbkasiva ",
+        city:"Ghaziabad",
+        stageFocus: "pre seeds",
+        sectorFocus: "consumer",
+        ticketSize: "200k- 300k",
+        currentFundCorpus: "554000",
+        totalFundCorpus: "  65000000",
+        companyOverview: "KSK is a leading corporate law firm in India that successfully handles legal and business matters for a diverse range of clients.."
+      },
+
+
+                  
+      {
+        id:328,
+        title: "Head - Venture Capital & Private Equity Engagement",
+        industry: "banking",
+        website: "http://www.westerncap.in",
+        logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
+        companyLinkedinUrl: "http://www.linkedin.com/in/vidul-gupta-24214bba",
+        twitterUrl: "https://twitter.com/kingstubbkasiva ",
+        city:"Chennai",
+        stageFocus: "pre seeds",
+        sectorFocus: "consumer",
+        ticketSize: "100k- 300k",
+        currentFundCorpus: "554000",
+        totalFundCorpus: "  65000000",
+        companyOverview: "KSK is a leading corporate law firm in India that successfully handles legal and business matters for a diverse range of clients.."
+      },
+
+      {
+        id:329,
+        title: "Head Of Legal",
+        industry: "financial services",
+        website: "http://www.ifciventure.com",
+        logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
+        companyLinkedinUrl: "http://www.linkedin.com/in/rohan-chaudhary-125b1b61",
+        twitterUrl: "https://twitter.com/kingstubbkasiva ",
+        city:"",
+        stageFocus: "pre seeds",
+        sectorFocus: "consumer",
+        ticketSize: "100k- 300k",
+        currentFundCorpus: "12554000",
+        totalFundCorpus: "  3265000000",
+        companyOverview: "KSK is a leading corporate law firm in India that successfully handles legal and business matters for a diverse range of clients.."
+      },
+
+      {
+        id:330,
+        title: "Accountant",
+        industry: "venture capital & private equity",
+        website: "http://www.aegle.vc",
+        logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
+        companyLinkedinUrl: "http://www.linkedin.com/in/rohini-tarle-341265130",
+        twitterUrl: "https://twitter.com/kingstubbkasiva ",
+        city:"Mumbai",
+        stageFocus: "pre seeds",
+        sectorFocus: "Defence",
+        ticketSize: "100k- 300k",
+        currentFundCorpus: "500000",
+        totalFundCorpus: "  5500000",
+        companyOverview: "Agri10x strategically invests in startups, MSMEs, and micro entrepreneurs with the goal of generating a positive impact and empowering business communities on a global scale.."
       },
 
 
