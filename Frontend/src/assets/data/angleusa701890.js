@@ -3326,7 +3326,7 @@ export const angelusa701890 = [
         ticketSize: "500k-1m",
         currentFundCorpus: "478723",
         totalFundCorpus: "955130",
-        companyOverview: "",
+        companyOverview: "An angel investor is an individual who provides financial support to early-stage startups or entrepreneurs, typically in exchange for equity or convertible debt. These investors often offer mentorship and networking opportunities alongside capital, helping businesses grow and succeed.",
         logo: "https://th.bing.com/th?id=OIP.qaSmmoPgVPHNJkiAcWg9nQHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2",
         },
         { 
