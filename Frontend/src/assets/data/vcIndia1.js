@@ -282,7 +282,7 @@ const vcIndia1 = [
     ticketSize: "50k-250k",
     currentFundCorpus: "7320300",
     totalFundCorpus: "130348250",
-    companyOverview: "Dallas Venture Capital ("DVC") is a Venture Capital firm, based in Dallas and Hyderabad, investing in SaaS, cloud infrastructure, cybersecurity, Data, DevOps, AI/ML, and other emerging technologies",
+    companyOverview: "Dallas Venture Capital is a Venture Capital firm, based in Dallas and Hyderabad, investing in SaaS, cloud infrastructure, cybersecurity, Data, DevOps, AI/ML, and other emerging technologies",
   },
   {id: 20,
     title: "Intern",

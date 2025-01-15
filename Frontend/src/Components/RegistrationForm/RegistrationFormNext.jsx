@@ -90,14 +90,14 @@ export default function RegistrationForm() {
 
             <p>
               <b>Disclaimer and Terms & Conditions:</b>By clicking "Submit" and
-              providing your data to IndianVCs, you consent to the public
-              disclosure of this information. While IndianVCs takes reasonable
+              providing your data to TEN Funding, you consent to the public
+              disclosure of this information. While TEN Funding takes reasonable
               measures to protect your data, we are not liable for any
-              unauthorised access or data breaches. You agree that IndianVCs
+              unauthorised access or data breaches. You agree that TEN Funding
               will not be held responsible for any claims, damages, or losses
               arising from this disclosure. You confirm that the information
               provided is accurate and complete to the best of your knowledge.
-              IndianVCs is not responsible for verifying the accuracy of the
+              TEN Funding is not responsible for verifying the accuracy of the
               submitted information. Your submission indicates acceptance of
               these terms and conditions, including the use of your data for
               analytical and community purposes.{" "}
