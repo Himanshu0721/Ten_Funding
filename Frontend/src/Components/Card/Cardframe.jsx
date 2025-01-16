@@ -2,7 +2,6 @@ import React from "react";
 import "./cardframe.css";
 import { NavLink } from "react-router-dom";
 
-
 const Cardframe = () => {
   return (
     <>
@@ -16,7 +15,7 @@ const Cardframe = () => {
             alt="2am VC"
             className="logo-div"
           />
-          <h1>Ten Funding</h1>
+          <h1>TEN Funding</h1>
         </div>
         <div className="social-links">
           <a href="#link">

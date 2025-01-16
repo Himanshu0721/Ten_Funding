@@ -40,16 +40,34 @@
   color: black;
 }
 
-.last-div {
-  width: 100%;
+.footer-last-div {
+  width: 75%;
+  margin: 2rem auto;
+  display: flex;
 }
 
-.last-div h6 {
-  width: 100%;
-  text-align: center;
-  margin: 1rem auto;
+.footer-logo {
+  width: 24%;
+}
+
+.footer-logo svg {
+  width: 4rem;
+  cursor: pointer;
+}
+
+.footer-social {
+  width: 38%;
+}
+
+.footer-social img {
+  width: 2rem;
+  cursor: pointer;
+}
+
+.footer-last-div h6 {
+  width: 38%;
   font-size: 1rem;
-  font-weight: 400;
+  text-align: center;
 }
 
 @media (max-width: 768px) {
@@ -61,6 +79,26 @@
   .footer-details {
     width: 45%;
     margin: 18px 0;
+  }
+
+  .footer-last-div {
+    width: 80%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .footer-logo {
+    width: 48%;
+  }
+
+  .footer-social {
+    width: 48%;
+  }
+
+  .footer-last-div h6 {
+    width: 100%;
+    margin-top: 1rem;
+    text-align: left;
   }
 }
 
