@@ -1184,23 +1184,6 @@ const vcIndia1 = [
       },
 
       
-      {
-        id:312,
-        title: "Investment Team",
-        industry: " venture capital & private equity",
-        website: "http://www.aegle.vc",
-        logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
-        companyLinkedinUrl: "http://www.linkedin.com/in/tvisha-mehta-4143a5104",
-        twitterUrl: "https://twitter.com/anthillventures",
-        country: "India",
-        city:"Hyderabad",
-        stageFocus: "Other",
-        sectorFocus: "Government",
-        ticketSize: "50k- 3M",
-        currentFundCorpus: "25000000",
-        totalFundCorpus: "  482284000",
-        companyOverview: "Agri10x strategically invests in startups, MSMEs, and micro entrepreneurs with the goal of generating a positive impact and empowering business communities on a global scale."
-      },
 
       
       
@@ -1337,23 +1320,6 @@ const vcIndia1 = [
 
 
       
-      {
-        id:320,
-        title: "Sr.Manager",
-        industry: "venture capital & private equity",
-        website: "http://www.kptl.com.br",
-        logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
-        companyLinkedinUrl: "http://www.linkedin.com/in/valiveti-sitaramaiah-0b909a1b6",
-        twitterUrl: " ",
-        city:"Hyderabad",
-        stageFocus: "pre seeds",
-        sectorFocus: "consumer",
-        ticketSize: "150k- 2M",
-        currentFundCorpus: "9000000",
-        totalFundCorpus: "  678000",
-        companyOverview: "One of the best wealth management firms in India, Waterfield Advisors is a one stop solution for your financial planning. Protect & grow your wealth now."
-      },
-
       {
         id:320,
         title: "Sr.Manager",
@@ -1730,42 +1696,6 @@ const vcIndia1 = [
       },
 
       
-      {
-        id:338,
-        title: "VP",
-        industry: "venture capital & private equity",
-        website: "http://www.sidbiventure.co.in",
-        logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
-        companyLinkedinUrl: "http://www.linkedin.com/in/dilip-r-v-kumar-20330b6",
-        twitterUrl: " " ,
-        city:"Mumbai        ",
-        stageFocus: "Other",
-        sectorFocus: "enterprise",
-        ticketSize: "500k- 800k",
-        currentFundCorpus: "262230000",
-        totalFundCorpus: "  25224300000",
-        companyOverview: "Agri10x strategically invests in startups, MSMEs, and micro entrepreneurs with the goal of generating a positive impact and empowering business communities on a global scale.",
-      },
-
-
-      
-      {
-        id:339,
-        title: "Car driverP",
-        industry: "venture capital & private equity",
-        website: "http://www.fs-finance.com",
-        logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
-        companyLinkedinUrl: "http://www.linkedin.com/in/summit-negi-395591199",
-        twitterUrl: " " ,
-        city:"Faridabad       ",
-        stageFocus: "Other",
-        sectorFocus: "enterprise",
-        ticketSize: "500k- 800k",
-        currentFundCorpus: "262230000",
-        totalFundCorpus: "  25224300000",
-        companyOverview: "Agri10x strategically invests in startups, MSMEs, and micro entrepreneurs with the goal of generating a positive impact and empowering business communities on a global scale.",
-      },
-
       {
         id:341,
         title: "CC Incharge",
