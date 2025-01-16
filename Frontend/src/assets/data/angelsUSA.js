@@ -2064,9 +2064,10 @@ export const angelsUSA = [
         country: "United States",
         companyoverview: "A venture studio focused on high-growth opportunities.",
         totalFundCorpus: "144935000",
-        currentFundCorpus: "pre seeds",
-        stage: ["Agritech/Food"],
-        sector: ["250k-1M"],
+        currentFundCorpus: "1449356700",
+        stage: ["pre seeds"],
+        sector: ["Gaming"],
+        ticketsize: ["250k-1M"],
         logo: "https://togethervp.com/logo.svg"
     },
     {
@@ -2080,9 +2081,10 @@ export const angelsUSA = [
         country: "United States",
         companyoverview: "Find startup business funding or learn how to become an angel investor with the Seattle Angel Conference.",
         totalFundCorpus: "144935000",
-        currentFundCorpus: "pre seeds",
-        stage: ["Biotech/Life sciences"],
-        sector: ["250k-1M"],
+        currentFundCorpus: "96000000",
+        stage:["pre seeds"],
+        sector: ["Biotech/Life sciences"],
+        ticketsize: ["250k-1M"],
         logo: "https://seattleangelconference.com/wp-content/uploads/2022/06/Win-funding-for-your-startup-at-the-Seattle-Angel-Conference.png"
     },
     {
@@ -2096,9 +2098,10 @@ export const angelsUSA = [
         country: "United States",
         companyoverview: "Propllr is a public relations (PR) and content marketing agency that helps businesses, startups, and brands with strategic communication and content creation. ",
         totalFundCorpus: "144935000",
-        currentFundCorpus: "pre seeds",
-        stage: ["Climate/Sustainability"],
-        sector: ["250k-1M"],
+        currentFundCorpus: "813200000",
+        sector: ["Climate/Sustainability"],
+        stage: ["pre seeds"],
+        ticketsize: ["150k-500k"],
         logo: "http://www.redhouseassociates.com/Home_files/redhouse%20associates%20logo.png"
     },
     {
@@ -2112,9 +2115,10 @@ export const angelsUSA = [
         country: "United States",
         companyoverview: "Angel Investor School is typically an educational platform or program designed to help aspiring angel investors understand the fundamentals of investing in early-stage startups and emerging companies. ",
         totalFundCorpus: "144935000",
-        currentFundCorpus: "pre seeds",
-        stage: ["Deep Tech/Hard Science"],
-        sector: ["250k-1M"],
+        currentFundCorpus: "813200000",
+        sector: ["Deep Tech/Hard Science"],
+        stage: ["pre seeds"],
+        ticketsize: ["250k-1M"],
         logo: "https://angelinvestorschool.com/wp-content/uploads/2020/06/LogoHIDEF@4x.png"
     },
     {
@@ -2128,9 +2132,10 @@ export const angelsUSA = [
         country: "United States",
         companyoverview: "Brown Angel Group could be a regional angel investor network that supports early-stage startups through both funding and mentorship. ",
         totalFundCorpus: "144935000",
-        currentFundCorpus: "pre seeds",
-        stage: ["Education"],
-        sector: ["250k-1M"],
+        currentFundCorpus: "9600000",
+        sector: ["Education"],
+        stage: ["pre seeds"],
+        ticketsize: ["250k-1M"],
         logo: "https://cdn.prod.website-files.com/622e34e90842f1782f7e18a4/6275566d5d25981729424f9e_bag-logo.svg"
     },
     {
@@ -2144,9 +2149,10 @@ export const angelsUSA = [
         country: "United States",
         companyoverview: "Six impossible things before breakfast",
         totalFundCorpus: "144935000",
-        currentFundCorpus: "pre seeds",
-        stage: ["Enterprise"],
-        sector: ["250k-1M"],
+        currentFundCorpus: "348953300",
+        sector: ["Enterprise"],
+        stage: ["pre seeds"],
+        ticketsize: ["150k-500k"],
         logo: "https://media.licdn.com/dms/image/v2/C4E0BAQEJXjIEUpuMmg/company-logo_200_200/company-logo_200_200/0/1630620461491/various_startups1_logo?e=1744848000&v=beta&t=oLZ-InQdFowQ6PGEYXBNZqnG7xHL4SMt2gsXf6klndg"
     },
     {
@@ -2160,9 +2166,10 @@ export const angelsUSA = [
         country: "United States",
         companyoverview: "The Hightide Salon & Suites is likely a salon suite business offering independent beauty professionals a flexible and private working space.",
         totalFundCorpus: "144935000",
-        currentFundCorpus: "pre seeds",
-        stage: ["Media & Entertainment"],
-        sector: ["250k-1M"],
+        currentFundCorpus: "124537890",
+        sector: ["Media & Entertainment"],
+        stage: ["pre seeds"],
+        ticketsize: ["250k-1M"],
         logo: "https://8ce49c9ff24d748b325d.cdn6.editmysite.com/uploads/b/8ce49c9ff24d748b325da413bf199616ade7c8dc4bee8b79c1fdc9511f338612/Website%20Logo_1610917206.png?width=2400&optimize=medium"
     },
     {
@@ -2176,9 +2183,10 @@ export const angelsUSA = [
         country: "United States",
         companyoverview: "Boston Harbor Angels is a vital part of the Boston-area startup ecosystem. By providing early-stage capital and mentorship, BHA helps startups grow and scale, contributing to the region’s innovation and economic development. For entrepreneurs seeking funding, ",
         totalFundCorpus: "144935000",
-        currentFundCorpus: "pre seeds",
-        stage: ["Gaming"],
-        sector: ["250k-1M"],
+        currentFundCorpus: "123459000",
+        sector: ["Gaming"],
+        stage: ["pre seeds"],
+        ticketsize: ["250k-1M"],
         logo: "https://www.bostonharborangels.com/wp-content/uploads/2017/09/Boston-Harbor-Angels-Logo.jpg"
     },
     {
@@ -2193,8 +2201,9 @@ export const angelsUSA = [
         companyoverview: "Backstage Capital is a trailblazing venture firm with a mission to support underrepresented founders and help level the playing field in the startup world.",
         totalFundCorpus: "3570000",
         currentFundCorpus: "1070000",
-        stage: ["Government/Defence"],
-        sector: ["250k-1M"],
+        sector: ["Government/Defence"],
+        stage: ["pre seeds"],
+        ticketsize: ["50k-100k"],
         logo: "https://backstagecapital.com/"
     },
     {
@@ -2208,9 +2217,10 @@ export const angelsUSA = [
         country: "United States",
         companyoverview: "Hermès is one of the most respected and coveted luxury brands in the world, known for its exceptional craftsmanship, timeless designs, and exclusivity",
         totalFundCorpus: "3570000",
-        currentFundCorpus: "pre seeds",
-        stage: ["Health and Wellness"],
-        sector: ["250k-1M"],
+        currentFundCorpus: "4590000",
+        stage: ["pre seeds"],
+        sector: ["Health and Wellness"],
+        ticketsize: ["150k-500k"],
         logo: "https://media.licdn.com/dms/image/v2/C4E0BAQEEwTOnwK5sGA/company-logo_200_200/company-logo_200_200/0/1630598689086/hermes_group_logo?e=1744848000&v=beta&t=lbpR9cD4sO1w5kl4tq-XaKHgI_wLaEkUTOrzL1lxy3w"
     },
     {
@@ -2224,9 +2234,10 @@ export const angelsUSA = [
         country: "United States",
         companyoverview: "High-quality, sustainable Grade A office in London, EC2. Offering circa 25,000 sqft with two A1/A2 retail units to let. Available Autumn 2019.",
         totalFundCorpus: "3570000",
-        currentFundCorpus: "pre seeds",
-        stage: ["Healthcare/Medtech"],
-        sector: ["250k-1M"],
+        currentFundCorpus: "4567000",
+        stage: ["pre seeds"],
+        sector: ["Healthcare/Medtech"],
+        ticketsize: ["250k-1M"],
         logo: "https://braitman.co/wp-content/uploads/2020/03/logo-and-mark.svg"
     },
     {
@@ -2240,9 +2251,10 @@ export const angelsUSA = [
         country: "United States",
         companyoverview: "Braitman & Co. appears to be a boutique advisory firm focused on providing strategic and financial consulting services to businesses, investors, and entrepreneurs.",
         totalFundCorpus: "3570000",
-        currentFundCorpus: "pre seeds",
-        stage: ["Industrial/IoT/Robotics"],
-        sector: ["250k-1M"],
+        currentFundCorpus: "5679000",
+        sector: ["Industrial/IoT/Robotics"],
+        stage: ["pre seeds"],
+        ticketsize: ["250k-1M"],
         logo: "https://braitman.co/wp-content/uploads/2020/03/logo-and-mark.svg"
     },
     {
@@ -2257,8 +2269,9 @@ export const angelsUSA = [
         companyoverview: "Liquid I.V.s Hydration Multiplier is an electrolyte drink mix that uses the science of Cellular Transport Technology (CTT)™ to hydrate faster than water alone. Liquid I.V. contains 5 essential vitamins that replenish and restore the body’s normal vitamin levels for a healthy recovery.",
         totalFundCorpus: "10000000",
         currentFundCorpus: "5000000",
-        stage: ["Prop Tech/Real Estate"],
-        sector: ["250k-1M"],
+        stage: ["pre seeds"],
+        sector: ["Prop Tech/Real Estate"],
+        ticketsize: ["150k-500k"],
         logo: "https://www.liquid-iv.com/"
     },
     {
@@ -2272,9 +2285,10 @@ export const angelsUSA = [
         country: "United States",
         companyoverview: "MZ Technologie, leader mondial du sans contact et des technologies holographiques, a inventé une solution brevetée permettant de rendre les bornes d’enregistrement, les bornes de commande fastfood, des boutons de bus entièrement sans-contact.",
         totalFundCorpus: "10000000",
-        currentFundCorpus: "pre seeds",
-        stage: ["SaaS/DevOps/Marketplace"],
-        sector: ["250k-1M"],
+        currentFundCorpus: "2000000",
+        sector: ["SaaS/DevOps/Marketplace"],
+        stage: ["pre seeds"],
+        ticketsize: ["100k-500k"],
         logo: "https://mz-technologie.com/wp-content/uploads/2023/12/cropped-petit-logo-MZ.jpg"
     },
     {
@@ -2288,9 +2302,10 @@ export const angelsUSA = [
         country: "United States",
         companyoverview: "Hermès is a prestigious and iconic French luxury brand renowned for its high-quality craftsmanship, timeless designs, and exclusivity. ",
         totalFundCorpus: "10000000",
-        currentFundCorpus: "pre seeds",
-        stage: ["Supply Chain/Logistics"],
-        sector: ["250k-1M"],
+        currentFundCorpus: "45000000",
+        sector: ["Supply Chain/Logistics"],
+        stage: ["pre seeds"],
+        ticketsize: ["250k-1M"],
         logo: "https://media.licdn.com/dms/image/v2/C4E0BAQEEwTOnwK5sGA/company-logo_200_200/company-logo_200_200/0/1630598689086/hermes_group_logo?e=1744848000&v=beta&t=lbpR9cD4sO1w5kl4tq-XaKHgI_wLaEkUTOrzL1lxy3w"
     },
     {
@@ -2304,9 +2319,10 @@ export const angelsUSA = [
         country: "United States",
         companyoverview: "We're a fast-growing and award-winning angel network. We invest in female founders and introduce more women to angel investing.",
         totalFundCorpus: "10000000",
-        currentFundCorpus: "pre seeds",
-        stage: ["Travel/Hospitality"],
-        sector: ["250k-1M"],
+        currentFundCorpus: "290000000",
+        stage: ["pre seeds"],
+        sector: ["Travel/Hospitality"],
+        ticketsize: ["250k-1M"],
         logo: "https://images.squarespace-cdn.com/content/v1/6513028e97e8490979d47dd9/cd763ed2-7410-4a11-bbc0-e719ceee4b22/Angel+academe+MASTER+logo.png?format=1500w"
     },
     {
@@ -2320,9 +2336,10 @@ export const angelsUSA = [
         country: "United States",
         companyoverview: "Life Science Angels is a prominent angel investment group that is dedicated to supporting early-stage companies in the life sciences sector.",
         totalFundCorpus: "10000000",
-        currentFundCorpus: "pre seeds",
-        stage: ["Sector Agnostic"],
-        sector: ["250k-1M"],
+        currentFundCorpus: "98789000",
+        stage: ["pre seeds"],
+        sector: ["Sector Agnostic"],
+        ticketsize: ["150k-500k"],
         logo: "https://images.squarespace-cdn.com/content/v1/5e1a441e5a5733119014d155/1580180607242-DUPQLF0410ABUWRQWHH9/Simple+LSA+Logo.png?format=1500w"
     },
     {
@@ -2337,8 +2354,9 @@ export const angelsUSA = [
         companyoverview: "Connecting Entrepreneurs and Investors Since 1985.",
         totalFundCorpus: "470000",
         currentFundCorpus: "Other",
-        stage: ["Social Impact"],
-        sector: ["50k-100k"],
+        sector: ["Social Impact"],
+        stage: ["pre seeds"],
+        ticketsize: ["50k-100k"],
         logo: "https://cdn.prod.website-files.com/61310f3c09e59891893b6cd0/6137fdce39fd5f53c71acc96_linkedin-svgrepo-com.svg"
     },
     {
@@ -2352,9 +2370,10 @@ export const angelsUSA = [
         country: "United States",
         companyoverview: "",
         totalFundCorpus: "470000",
-        currentFundCorpus: "pre seeds",
-        stage: ["B2B Commerce"],
-        sector: ["50k-100k"],
+        currentFundCorpus: "8979900",
+        sector: ["B2B Commerce"],
+        stage: ["pre seeds"],
+        ticketsize: ["50k-100k"],
         logo: "https://img1.wsimg.com/isteam/ip/781edcf9-f8b8-497e-bca2-41bb178efe1e/CAN%20Logo.jpg/:/rs=w:447,h:200,cg:true,m/cr=w:447,h:200/qt=q:95"
     },
     {
@@ -2368,9 +2387,10 @@ export const angelsUSA = [
         country: "United States",
         companyoverview: "multiple companies or a company that operates across various sectors or businesses. Could you clarify your request or specify if you're referring to a particular company that works across multiple industries",
         totalFundCorpus: "470000",
-        currentFundCorpus: "pre seeds",
-        stage: ["Consumer"],
-        sector: ["50k-100k"],
+        currentFundCorpus: "9876000",
+        sector: ["Consumer"],
+        stage: ["pre seeds"],
+        ticketsize: ["50k-100k"],
         logo: "https://img1.wsimg.com/isteam/ip/781edcf9-f8b8-497e-bca2-41bb178efe1e/CAN%20Logo.jpg/:/rs=w:447,h:200,cg:true,m/cr=w:447,h:200/qt=q:95"
     },
     {
@@ -2384,9 +2404,10 @@ export const angelsUSA = [
         country: "United States",
         companyoverview: "U.S. Angel Investors is a Silicon Valley and San Francisco Bay Area angel investor, venture capital, startup network serving the needs on private investors and entrepreneurs.",
         totalFundCorpus: "470000",
-        currentFundCorpus: "pre seeds",
-        stage: ["Logistics"],
-        sector: ["50k-100k"],
+        currentFundCorpus: "4567400",
+        stage: ["pre seeds"],
+        sector: ["Logistics"],
+        ticketsize: ["50k-100k"],
         logo: "https://assets.plesk.com/static/default-website-content/public/img/logo-81ca7a.svg"
     },
     {
@@ -2401,8 +2422,9 @@ export const angelsUSA = [
         companyoverview: "The Venture Reality Fund (also known as The VR Fund) is a venture capital firm focused on investing in early-stage companies that are developing virtual reality (VR), augmented reality (AR), mixed reality (MR), and spatial computing technologies.",
         totalFundCorpus: "470000",
         currentFundCorpus: "Other",
-        stage: ["Mobility"],
-        sector: ["50k-100k"],
+        stage: ["pre seeds"],
+        sector: ["Mobility"],
+        ticketsize: ["50k-100k"],
         logo: "https://static.wixstatic.com/media/7ca443_d1c703aa532141118932289ecf1c828f~mv2.jpg/v1/fill/w_206,h_20,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/thevrfund_white_nonVector.jpg"
     },
     {
@@ -2417,8 +2439,9 @@ export const angelsUSA = [
         companyoverview: "Instant AI-generated 3D animation text-to-video.",
         totalFundCorpus: "310000",
         currentFundCorpus: "Other",
-        stage: ["DeepTech"],
-        sector: ["50k-100k"],
+        stage: ["pre seeds"],
+        sector: ["DeepTech"],
+        ticketsize: ["50k-100k"],
         logo: "https://pbs.twimg.com/profile_banners/836060617647632385/1501304687/600x200"
     },
     {
@@ -2433,8 +2456,9 @@ export const angelsUSA = [
         companyoverview: "We build real world, AR games and apps that encourage people to explore the world, including top hits like Pokémon GO. Discover Niantic today!",
         totalFundCorpus: "772835441",
         currentFundCorpus: "Series D",
-        stage: ["Fintech"],
-        sector: ["50k-100k"],
+        sector: ["Fintech"],
+        stage: ["pre seeds"],
+        ticketsize: ["250k-1M"],
         logo: "https://www.nianticlabs.com/"
     },
     {
@@ -2464,9 +2488,10 @@ export const angelsUSA = [
         country: "United States",
         companyoverview: "Six impossible things before breakfast",
         totalFundCorpus: "772835441",
-        currentFundCorpus: "pre seeds",
-        stage: ["AI/ML"],
-        sector: ["50k-100k"],
+        currentFundCorpus: "869493900",
+        sector: ["AI/ML"],
+        stage: ["pre seeds"],
+        ticketsize: ["50k-100k"],
         logo: "http://www.variousstartups.com/"
     },
     {
@@ -2480,9 +2505,10 @@ export const angelsUSA = [
         country: "United States",
         companyoverview: "High Tide Capital's specific portfolio and financial activities might be limited, as many private equity firms operate under the radar unless they are publicly traded or disclose their investments.",
         totalFundCorpus: "772835441",
-        currentFundCorpus: "pre seeds",
-        stage: ["AR/VR"],
-        sector: ["50k-100k"],
+        currentFundCorpus: "7894333450",
+        stage: ["pre seeds"],
+        sector: ["AR/VR"],
+        ticketsize: ["50k-100k"],
         logo: "https://static.parastorage.com/services/wix-public/1.719.0/images/error-pages/logo.png"
     },
     {
@@ -2496,9 +2522,10 @@ export const angelsUSA = [
         country: "United States",
         companyoverview: "Golden Seeds has earned a reputation for its focus on diversity and its role in supporting women entrepreneurs.",
         totalFundCorpus: "772835441",
-        currentFundCorpus: "pre seeds",
-        stage: ["Agritech/Food"],
-        sector: ["50k-100k"],
+        currentFundCorpus: "78923456",
+        sector: ["Agritech/Food"],
+        stage: ["pre seeds"],
+        ticketsize: ["50k-100k"],
         logo: "https://goldenseeds.com/wp-content/uploads/2021/02/Golden_Seeds_logo_KO.svg"
     
     },
@@ -2513,9 +2540,10 @@ export const angelsUSA = [
         country: "United States",
         companyoverview: "Verge - Building a better future for everyone! appears to be a slogan or a mission statement for an organization or initiative focused on creating positive societal change and addressing key challenges to improve the future. ",
         totalFundCorpus: "772835441",
-        currentFundCorpus: "pre seeds",
-        stage: ["Biotech/Life sciences"],
-        sector: ["50k-100k"],
+        currentFundCorpus: "987748488",
+        sector: ["Biotech/Life sciences"],
+        stage: ["pre seeds"],
+        ticketsize: ["50k-100k"],
         logo: "http://www.joinverge.com/",
     
     },
@@ -2530,9 +2558,10 @@ export const angelsUSA = [
         country: "United States",
         companyoverview: "The Microsoft Windows Community refers to a broad group of users, developers, and enthusiasts who are passionate about Microsoft’s Windows operating system",
         totalFundCorpus: "772835441",
-        currentFundCorpus: "pre seeds",
-        stage: ["Climate/Sustainability"],
-        sector: ["50k-100k"],
+        currentFundCorpus: "4589933929",
+        stage: ["pre seeds"],
+        sector: ["Climate/Sustainability"],
+        ticketsize: ["50k-100k"],
         logo: "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/UHFbanner-MSlogo?fmt=png-alpha&bfc=off&qlt=100,1",
     },
 
