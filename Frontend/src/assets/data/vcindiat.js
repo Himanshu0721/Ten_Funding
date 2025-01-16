@@ -3,7 +3,7 @@ const vcIndia1 = [
     {
         id:251,
         title: "Venture Capital Business Analyst",
-        industry: "management consulting",
+        company: "management consulting",
         website: "http://www.ecosystemventures.in",
         logo: "http://ecosystemventures.in/beta/wp-content/uploads/2020/11/logo.jpeg.webp",
         companyLinkedinUrl: "http://www.linkedin.com/in/saloni-gupta-nism-certified-800600178",
@@ -22,7 +22,7 @@ const vcIndia1 = [
       {
         id:252,
         title: "Investment Professional",
-        industry: "venture capital & private equity",
+        company: "venture capital & private equity",
         website: "http://www.whiteventurecap.com",
         logo: "https://images.squarespace-cdn.com/content/v1/608cc79763047b66b80db92b/9258d2e7-2ce5-4131-bbef-25047eb59ab5/Screenshot+2022-09-19+at+2.09.53+PM.png?format=1500",
         companyLinkedinUrl: "http://www.linkedin.com/in/salonijiwrajka",
@@ -41,7 +41,7 @@ const vcIndia1 = [
       {
         id:253,
         title: "Chief Investment Officer and Head–Venture Capital & Private Equity",
-        industry: "financial services",
+        company: "financial services",
         website: "http://www.360.one",
         logo: "https://www.360.one/assets/icons/360-one-brand-logo-black.svg",
         companyLinkedinUrl: "http://www.linkedin.com/in/sameer-nath-089698109",
@@ -60,7 +60,7 @@ const vcIndia1 = [
       {
         id:254,
         title: "Venture Capital Scout",
-        industry: "investment management",
+        company: "investment management",
         website: "http://www.wehventures.com",
         companyLinkedinUrl: "http://www.linkedin.com/in/sampanna-m-496a2b136",
         twitterUrl: " https://twitter.com/wehventures",
@@ -78,7 +78,7 @@ const vcIndia1 = [
       {
         id:255,
         title: "Senior Quality Engineer",
-        industry: "venture capital & private equity",
+        company: "venture capital & private equity",
         website: "http://www.kptl.com.br",
         logo: "https://media.licdn.com/dms/image/v2/D5603AQG3_wsozn70tw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1714220436358?e=1742428800&v=beta&t=QUitBczSMTIUR0VyMMcXyqPDDKInkp-_q5j_RccYS9c",
         companyLinkedinUrl: "http://www.linkedin.com/in/sanchit-singh-6b1963177",
@@ -97,7 +97,7 @@ const vcIndia1 = [
       {
         id:256,
         title: "Mgr. Accounts Finance",
-        industry: "financial services",
+        company: "financial services",
         website: "http://www.urbaninfra.com",
         logo: "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
         companyLinkedinUrl: "http://www.linkedin.com/in/sandeep-joshi-81283ab5",
@@ -116,7 +116,7 @@ const vcIndia1 = [
       {
         id:257,
         title: "Manager - Effectiveness and Efficiency",
-        industry: "venture capital & private equity",
+        company: "venture capital & private equity",
         website: "http://www.yournest.in",
         logo: "https://yournest.in/wp-content/uploads/2021/06/yournest-logo.png",
         companyLinkedinUrl: "http://www.linkedin.com/in/sanjaykjha",
@@ -134,7 +134,7 @@ const vcIndia1 = [
       {
         id:258,
         title: "Manager - Effectiveness and Efficiency",
-        industry: "venture capital & private equity",
+        company: "venture capital & private equity",
         website: "http://www.yournest.in",
         logo: "https://media.licdn.com/dms/image/v2/C5603AQFWlAfFnIno0w/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1588578943538?e=1742428800&v=beta&t=WuB8cenOcibspiGpR5vdJNoih-XsA9B38PAHpIszNRE",
         companyLinkedinUrl: "http://www.linkedin.com/in/sanjaykjha",
@@ -153,7 +153,7 @@ const vcIndia1 = [
       {
         id:259,
         title: "Project Manager",
-        industry: "venture capital & private equity",
+        company: "venture capital & private equity",
         website: "http://www.kptl.com.br",
         logo: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMwAAADACAMAAAB/Pny7AAAAkFBMVEX///8ASocANX33+PqYqMIALXm3xdUAKHgAPIAAQILP1+Jziq0AQoPCy9mpuc1le6Pl6e8YSYdohaoAE3AACm91hqqZrcQ2YJQARoUAOX/J0t+MlrVQaZlff6YAMnyRoL3X4OkAAGwAG3OBkbIeVo5KbZtSdqE7Z5gySohdcJ05WpCkrsUqUYt7lbWHja8AInXo6Kl0AAAEAklEQVR4nO2d63aiMBRGCYiCRsTW1sCIUOtlqnV8/7cb5ZJgaxzWQtLAfPuXIsRsT8wdNQwAAAAAAAAAAAAAAJRgaUU9Fz/uaUSc1JIZvpkaMevXkxkQjbAhA5nmgQxkFAAZyCgAMoKwSzKdigxkGgMyHZVBbdYYkIGMAmrKJF2S6VRkINMYkBGgB9AYkIGMAiADGQU0KEOdC6444JYOZI8FVAOZO43mcjO6sDELt2D7FEXR09YmhLHt6JqdeXKlSSmSkUfGjPNVeS/IXPZ+fs3YZp/f39UKt4O64WlMJhjnp4Rzdn7KfhcuZxk68W8mtqgZnMZknGsZ7mZYDpPIGP5HvdgokjF73GXnEFciYyR7pr9MEHGX93OFIJUxXmuFRolMsOBbdA4OuSdjfdYJjQoZZz8szu9P2V0Z4+joLbN3PX76PC1GQib88yuFVw+hrbcM6RWFLNnmzX8hYx1WQYqI3UlrmfGxCIM/ytsRERlvmR/hNYTeMn6RcasXEJkM2xcp/mAxk/fNuAynz/P5XYbuirP0jgw/VXzm4jvjDViKy7OxaoOMT0V7KCLT3y9SeH1Xa/JaVTHzd6UG5E47EweyBJuXqRyZybL02h2Ztd49gIyP8icul/FqDQJUyfjzKsUsmWveay7OJCKfMhl/UstFYdXcD3hOJTLDmmMzhTLG4UajWcKP643M1MpYcWEjZPxweGHcP+4oq+uiQGbIO8T+S/BFxjrMlvaZpenUNlEiM46S4uxkQa9leN/sMSgYz0zf+aB5nH0tWiwzt3nPy/C+DJvbJ+NSURn0ric0tJKp0NEM58zlU7Nfp5q0kqk6bzbhV1jnXlq7ZYh95Jf4hNJ2yxAx3WQMl62LjMll0iEK+0z4RcfltnjSEhk3yloX671Yn+E2G8pes0f+mtqrwU2ez30fekpfnFUdfTa3cuaeZhdWRU7YYJaxuqwKPKcPB7eWnXI8ky3y0jiqaPPDC7Tui/yuV7eIX+UpG41l1pRXGs+QgQxk/i1D2iZDN4ksaWs5bZkMmW7i1xSe8X72PF7Q1skQxqYXXN6vjpz0AGFEtczDNpwKmSc+9ala5mHb56kGMg/bbwYZyEAGMpCBDGQg02mZN+oK5Gts7ZD5eBFM5Js42iFTxoql2zjbJ2OEHYqMERKZDWQg8x/JlCY0+JYzqYwMXWTYIslStMRaGt3eekvLM2WJ6CJD6DRK79cyS2WIrkff2chXDnWZNzvHJruTjt04VvVWO20i8wggAxkFQAYyCoBMR2XwUy2NARkBilljQEaAYtYYkBGgmDUGZCCjAMhARgGQ6ahMp3oA+L3mxoAMZBQAGUHYpT867NRfUHbqz0EBAAAAAAAAAAAAAKjKXwgwn0gvJZWrAAAAAElFTkSuQmC",
         companyLinkedinUrl: "http://www.linkedin.com/in/sarmistha-roy-191444206",
@@ -172,7 +172,7 @@ const vcIndia1 = [
       {
         id:260,
         title: "Welder",
-        industry: "venture capital & private equity",
+        company: "venture capital & private equity",
         website: "http://www.kptl.com.br",
         logo: "https://media.licdn.com/dms/image/v2/C5603AQG9u38QQ80dgw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1630040699754?e=1742428800&v=beta&t=x5C43eB2LjkOnCkYNEIUlKnogQLQnYy8LpA5_LBPMHk",
         companyLinkedinUrl: "http://www.linkedin.com/in/saroj-kumar-yadav-92140a21b",
@@ -190,7 +190,7 @@ const vcIndia1 = [
       {
         id:261,
         title: "Electrician",
-        industry: "venture capital & private equity",
+        company: "venture capital & private equity",
         website: "http://www.kptl.com.br",
         logo: "https://media.licdn.com/dms/image/v2/D5635AQFEG2Mvo5VoGQ/profile-framedphoto-shrink_200_200/profile-framedphoto-shrink_200_200/0/1714196944774?e=1737586800&v=beta&t=N6bvwl9xJeOop02prX3Pf-QgIAZHGfoD6J6f9SaQlhM",
         companyLinkedinUrl: "http://www.linkedin.com/in/satyam-pathak-214419215",
@@ -208,7 +208,7 @@ const vcIndia1 = [
       {
         id:262,
         title: "Financial Analyst",
-        industry: "venture capital & private equity",
+        company: "venture capital & private equity",
         website: "http://www.abbygroup.com",
         logo: "https://media.licdn.com/dms/image/v2/D5603AQHN2OiIBXFnHg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1633528472981?e=1742428800&v=beta&t=cAOK5qiygOuMd7GzsTdWthK1gyL3UsLBeHFVGi-LkXg",       companyLinkedinUrl: "http://www.linkedin.com/in/satish-bhogi-957359a4",
         twitterUrl: " ",
@@ -227,7 +227,7 @@ const vcIndia1 = [
       {
         id:263,
         title: "Asstt.Manager",
-        industry: "financial services",
+        company: "financial services",
         website: "http://www.ifciventure.com",
         logo: "https://www.ifciventure.com/images/themes/gavias_carina/logo.png",
         companyLinkedinUrl: "http://www.linkedin.com/in/seema-goel-27b6042a",
@@ -245,7 +245,7 @@ const vcIndia1 = [
       {
         id:264,
         title: "Senior Civil Engineer",
-        industry: "venture capital & private equity",
+        company: "venture capital & private equity",
         website: "http://www.kptl.com.br",
         logo: "https://media.licdn.com/dms/image/v2/C5603AQF7o_VSufmLzQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1622690426208?e=1742428800&v=beta&t=sBHfsG9fQ77oi8tL9RDaIapHYEQMgbF3XJqycjIUiZw",
         companyLinkedinUrl: "http://www.linkedin.com/in/seshu-babu-karanam-0a2088214",
@@ -265,7 +265,7 @@ const vcIndia1 = [
       {
         id:265,
         title: "Senior Civil Engineer",
-        industry: "venture capital & private equity",
+        company: "venture capital & private equity",
         website: "http://www.kptl.com.br",
         logo: "https://media.licdn.com/dms/image/v2/C5603AQF7o_VSufmLzQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1622690426208?e=1742428800&v=beta&t=sBHfsG9fQ77oi8tL9RDaIapHYEQMgbF3XJqycjIUiZw",
         companyLinkedinUrl: "http://www.linkedin.com/in/seshu-babu-karanam-0a2088214",
@@ -285,7 +285,7 @@ const vcIndia1 = [
       {
         id:266,
         title: "Analyst",
-        industry: "venture capital & private equity",
+        company: "venture capital & private equity",
         website: "http://www.dallasvc.com",
         logo: "https://media.licdn.com/dms/image/v2/C5603AQF7o_VSufmLzQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1622690426208?e=1742428800&v=beta&t=sBHfsG9fQ77oi8tL9RDaIapHYEQMgbF3XJqycjIUiZw",
         companyLinkedinUrl: "http://www.linkedin.com/in/seshu-babu-karanam-0a2088214",
@@ -304,7 +304,7 @@ const vcIndia1 = [
       {
         id:267,
         title: "Administrative Assistant",
-        industry: "venture capital & private equity",
+        company: "venture capital & private equity",
         website: "http://www.aegle.vc",
         logo: "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
         companyLinkedinUrl: "http://www.linkedin.com/in/shalender-raturi-900710189",
@@ -324,7 +324,7 @@ const vcIndia1 = [
       {
         id:268,
         title: "Human Resources Specialist",
-        industry: "venture capital & private equity",
+        company: "venture capital & private equity",
         website: "http://www.aegle.vc",
         logo: "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
         companyLinkedinUrl: "http://www.linkedin.com/in/shalu-bhatia-182751279",
@@ -343,7 +343,7 @@ const vcIndia1 = [
       {
         id:269,
         title: "Research Associate (PitchBook Data - Venture Capital and Early-Stage)",
-        industry: "financial services",
+        company: "financial services",
         website: "http://www.morningstar.com",
         logo: "https://static.tildacdn.one/tild3561-6137-4234-b731-386133346461/noroot.png",
         companyLinkedinUrl: "http://www.linkedin.com/in/shantanu-dutta-34209b1a6",
@@ -362,7 +362,7 @@ const vcIndia1 = [
       {
         id:270,
         title: "Structured Finance & Venture Debt Analyst",
-        industry: "venture capital & private equity",
+        company: "venture capital & private equity",
         website: "http://www.igniscapital.in",
         logo: "https://www.igniscapital.in/wp-content/uploads/2021/06/ignis.png",
         companyLinkedinUrl: "http://www.linkedin.com/in/sharukhbhesania",
@@ -381,7 +381,7 @@ const vcIndia1 = [
       {
         id:271,
         title: "Private equity and venture capital research",
-        industry: "management consulting",
+        company: "management consulting",
         website: "http://www.netscribes.com",
         logo: "https://www.netscribes.com/wp-content/uploads/2024/11/Netscribes-logo-white.webp",
         companyLinkedinUrl: "http://www.linkedin.com/in/shatadroo-dutta-b93bb6249",
@@ -398,7 +398,7 @@ const vcIndia1 = [
       {
         id:272,
         title: "Officer",
-        industry: "venture capital & private equity",
+        company: "venture capital & private equity",
         website: "http://www.kptl.com.br",
         logo: "https://static.tildacdn.one/tild3561-6137-4234-b731-386133346461/noroot.png",
         companyLinkedinUrl: "http://www.linkedin.com/in/shibayan-chanda-546a1219a",
@@ -417,7 +417,7 @@ const vcIndia1 = [
       {
         id:273,
         title: "Teaching Professional",
-        industry: "venture capital & private equity",
+        company: "venture capital & private equity",
         website: "http://www.aegle.vc",
         logo: "https://static.tildacdn.one/tild3561-6137-4234-b731-386133346461/noroot.png",
         companyLinkedinUrl: "http://www.linkedin.com/in/shikha-sharma-2a0024260",
@@ -436,7 +436,7 @@ const vcIndia1 = [
       {
         id:274,
         title: "Officer",
-        industry: "venture capital & private equity",
+        company: "venture capital & private equity",
         website: "http://www.kptl.com.br",
         logo: "https://static.tildacdn.one/tild3561-6137-4234-b731-386133346461/noroot.png",
         companyLinkedinUrl: "http://www.linkedin.com/in/shibayan-chanda-546a1219a",
@@ -454,7 +454,7 @@ const vcIndia1 = [
       {
         id:275,
         title: "Development Team Lead",
-        industry: "financial services",
+        company: "financial services",
         website: "http://www.ifciventure.com",
         logo: "https://static.tildacdn.one/tild3561-6137-4234-b731-386133346461/noroot.png",
         companyLinkedinUrl: "http://www.linkedin.com/in/shivam-shukla-333375158",
@@ -472,7 +472,7 @@ const vcIndia1 = [
       {
         id:276,
         title: "Venture Capital Investments",
-        industry: "venture capital & private equity",
+        company: "venture capital & private equity",
         website: "http://www.jungle.vc",
         logo: "https://static.tildacdn.one/tild3561-6137-4234-b731-386133346461/noroot.png",
         companyLinkedinUrl: "http://www.linkedin.com/in/shivam-bakshi-150497142",
@@ -490,7 +490,7 @@ const vcIndia1 = [
       {
         id:277,
         title: "CS Trainee",
-        industry: "financial services",
+        company: "financial services",
         website: "http://www.jungle.vc",
         logo: "https://static.tildacdn.one/tild3561-6137-4234-b731-386133346461/noroot.png",
         companyLinkedinUrl: "http://www.linkedin.com/in/shivani-gupta-464622b6",
@@ -508,7 +508,7 @@ const vcIndia1 = [
       {
         id:278,
         title: "Teaching Intern / Home Tutor",
-        industry: "venture capital & private equity",
+        company: "venture capital & private equity",
         website: "http://www.aegle.vc",
         logo: "https://static.tildacdn.one/tild3561-6137-4234-b731-386133346461/noroot.png",
         companyLinkedinUrl: "http://www.linkedin.com/in/shivanipastor",
@@ -526,7 +526,7 @@ const vcIndia1 = [
       {
         id:279,
         title: "Director, Private Equity, Venture Capital & Sales & Marketing",
-        industry: "staffing & recruiting",
+        company: "staffing & recruiting",
         website: "http://www.page.com",
         logo: "https://static.tildacdn.one/tild3561-6137-4234-b731-386133346461/noroot.png",
         companyLinkedinUrl: "http://www.linkedin.com/in/shivanidesai1",
@@ -546,7 +546,7 @@ const vcIndia1 = [
       {
         id:280,
         title: "INFRASTRUCTURE",
-        industry: "venture capital & private equity",
+        company: "venture capital & private equity",
         website: "http://www.kptl.com.br",
         logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
         companyLinkedinUrl: "http://www.linkedin.com/in/shivanidesai1",
@@ -566,7 +566,7 @@ const vcIndia1 = [
       {
         id:281,
         title: "Assistant Manager (Private Equity and Venture Capital)",
-        industry: "accounting",
+        company: "accounting",
         website: "http://www.rsmus.com",
         logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
         companyLinkedinUrl: "http://www.linkedin.com/in/shranika-chauhan-b4b64b17",
@@ -587,7 +587,7 @@ const vcIndia1 = [
       {
         id:282,
         title: "Student Venture Partner",
-        industry: "venture capital & private equity",
+        company: "venture capital & private equity",
         website: "http://www.picuscap.com",
         logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
         companyLinkedinUrl: "http://www.linkedin.com/in/shrey-agarwal-439345222",
@@ -608,7 +608,7 @@ const vcIndia1 = [
       {
         id:283,
         title: "Manager - Member Relations and Knowledge Series",
-        industry: "venture capital & private equity",
+        company: "venture capital & private equity",
         website: "http://www.ivca.in",
         logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
         companyLinkedinUrl: "http://www.linkedin.com/in/shrey-agarwal-439345222",
@@ -626,7 +626,7 @@ const vcIndia1 = [
       {
         id:284,
         title: "MDeputy General Manager",
-        industry: "venture capital & private equity",
+        company: "venture capital & private equity",
         website: "http://www.sidbiventure.co.in",
         logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
         companyLinkedinUrl: "http://www.linkedin.com/in/shrihari-kulkarni-365626",
@@ -646,7 +646,7 @@ const vcIndia1 = [
       {
         id:285,
         title: "Hora",
-        industry: "venture capital & private equity",
+        company: "venture capital & private equity",
         website: "http://www.aegle.vc",
         logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
         companyLinkedinUrl: "http://www.linkedin.com/in/shripad-gouda-ba327448",
@@ -666,7 +666,7 @@ const vcIndia1 = [
       {
         id:286,
         title: "event co ordinator",
-        industry: "venture capital & private equity",
+        company: "venture capital & private equity",
         website: "http://www.aegle.vc",
         logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
         companyLinkedinUrl: "http://www.linkedin.com/in/shruthi-vipe-7a945b8a8",
@@ -685,7 +685,7 @@ const vcIndia1 = [
       {
         id:287,
         title: "Partner",
-        industry: "venture capital & private equity",
+        company: "venture capital & private equity",
         website: "http://www.dallasvc.com",
         logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
         companyLinkedinUrl: "http://www.linkedin.com/in/shyampenumaka",
@@ -704,7 +704,7 @@ const vcIndia1 = [
       {
         id:288,
         title: "Administrator",
-        industry: "venture capital & private equity",
+        company: "venture capital & private equity",
         website: "http://www.sidbiventure.co.in",
         logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
         companyLinkedinUrl: "http://www.linkedin.com/in/sidbi-venture-4b8124165",
@@ -722,7 +722,7 @@ const vcIndia1 = [
       {
         id:289,
         title: "Order Analyst",
-        industry: "venture capital & private equity",
+        company: "venture capital & private equity",
         website: "http://www.kptl.com.br",
         logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
         companyLinkedinUrl: "http://www.linkedin.com/in/sk-rubel-88a308226",
@@ -742,7 +742,7 @@ const vcIndia1 = [
       {
         id:290,
         title: "Board of Director & Chief Executive officer",
-        industry: "venture capital & private equity",
+        company: "venture capital & private equity",
         website: "http://www.nvcfl.co.in",
         logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
         companyLinkedinUrl: "http://www.linkedin.com/in/saravana-kumar-26162b14",
@@ -760,7 +760,7 @@ const vcIndia1 = [
       {
         id:291,
         title: "Independent Private Capital Raising Advisor",
-        industry: "venture capital & private equity",
+        company: "venture capital & private equity",
         website: "http://www.bvca.co.uk",
         logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
         companyLinkedinUrl: "http://www.linkedin.com/in/capitalraisingadvisor",
@@ -779,7 +779,7 @@ const vcIndia1 = [
       {
         id:292,
         title: "Salesperson",
-        industry: "venture capital & private equity",
+        company: "venture capital & private equity",
         website: "http://www.aegle.vc",
         logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
         companyLinkedinUrl: "http://www.linkedin.com/in/sonali-awsare-773568266",
@@ -798,7 +798,7 @@ const vcIndia1 = [
       {
         id:293,
         title: "Volunteer",
-        industry: "venture capital & private equity",
+        company: "venture capital & private equity",
         website: "http://www.aegle.vc",
         logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
         companyLinkedinUrl: "http://www.linkedin.com/in/sonu-mohammad-191666266",
@@ -817,7 +817,7 @@ const vcIndia1 = [
       {
         id:294,
         title: "Team Leader - Venture Capital Data Unit",
-        industry: "financial services",
+        company: "financial services",
         website: "http://www.teaser.co",
         logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
         companyLinkedinUrl: "http://www.linkedin.com/in/soumya-shetty-8a67a476",
@@ -836,7 +836,7 @@ const vcIndia1 = [
       {
         id:295,
         title: "Venture Capital Investments",
-        industry: "venture capital & private equity",
+        company: "venture capital & private equity",
         website: "http://www.dsgcp.com",
         logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
         companyLinkedinUrl: "http://www.linkedin.com/in/saumya-porwal-910a92123",
@@ -855,7 +855,7 @@ const vcIndia1 = [
       {
         id:296,
         title: "Head Venture Capital",
-        industry: "",
+        company: "",
         website: "http://www.jubilantbhartia.com",
         logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
         companyLinkedinUrl: "http://www.linkedin.com/in/sreekanthperepu",
@@ -875,7 +875,7 @@ const vcIndia1 = [
       {
         id:297,
         title: "Associate",
-        industry: "venture capital & private equity",
+        company: "venture capital & private equity",
         website: "http://www.ivca.in",
         logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
         companyLinkedinUrl: "http://www.linkedin.com/in/sreeram-sridhar",
@@ -896,7 +896,7 @@ const vcIndia1 = [
       {
         id:298,
         title: "IT Support",
-        industry: "financial services",
+        company: "financial services",
         website: "http://www.ifciventure.com",
         logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
         companyLinkedinUrl: "http://www.linkedin.com/in/srinivasan-subramanyam-852b9617",
@@ -917,7 +917,7 @@ const vcIndia1 = [
       {
         id:299,
         title: "Assistant Manager",
-        industry: "venture capital & private equity",
+        company: "venture capital & private equity",
         website: "http://www.kptl.com.br",
         logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
         companyLinkedinUrl: "http://www.linkedin.com/in/sukesh-chandra-nayek-8377a3a5",
@@ -937,7 +937,7 @@ const vcIndia1 = [
       {
         id:300,
         title: "Credit Manager",
-        industry: "financial services",
+        company: "financial services",
         website: "http://www.ifciventure.com",
         logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
         companyLinkedinUrl: "http://www.linkedin.com/in/sumit-kumar-6a2294257",
@@ -957,7 +957,7 @@ const vcIndia1 = [
       {
         id:301,
         title: "Managing Director",
-        industry: " ",
+        company: " ",
         website: "http://www.vitalvc.com",
         logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
         companyLinkedinUrl: "http://www.linkedin.com/in/sumit-jain-6894a41",
@@ -978,7 +978,7 @@ const vcIndia1 = [
       {
         id:302,
         title: "Researcher",
-        industry: " venture capital & private equity",
+        company: " venture capital & private equity",
         website: "http://www.trucks.vc",
         logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
         companyLinkedinUrl: "http://www.linkedin.com/in/sunilsb74",
@@ -996,7 +996,7 @@ const vcIndia1 = [
       {
         id:303,
         title: "Vice President",
-        industry: " venture capital & private equity",
+        company: " venture capital & private equity",
         website: "http://www.ivca.in",
         logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
         companyLinkedinUrl: "http://www.linkedin.com/in/sunitha-prasad-73a9b09",
@@ -1014,7 +1014,7 @@ const vcIndia1 = [
       {
         id:304,
         title: "Telecommunications Engineer",
-        industry: " venture capital & private equity",
+        company: " venture capital & private equity",
         website: "http://www.kptl.com.br",
         logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
         companyLinkedinUrl: "http://www.linkedin.com/in/surendra-kumar-singh-57a2131b1",
@@ -1033,7 +1033,7 @@ const vcIndia1 = [
       {
         id:305,
         title: "Dy.Manager",
-        industry: " venture capital & private equity",
+        company: " venture capital & private equity",
         website: "http://www.kptl.com.br",
         logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
         companyLinkedinUrl: "http://www.linkedin.com/in/suresh-d-b9b25536",
@@ -1052,7 +1052,7 @@ const vcIndia1 = [
       {
         id:306,
         title: "GM",
-        industry: " venture capital & private equity",
+        company: " venture capital & private equity",
         website: "http://www.kptl.com.br",
         logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
         companyLinkedinUrl: "http://www.linkedin.com/in/suresh-namjoshi-067b8632",
@@ -1072,7 +1072,7 @@ const vcIndia1 = [
       {
         id:307,
         title: "Consultant",
-        industry: " venture capital & private equity",
+        company: " venture capital & private equity",
         website: "http://www.aegle.vc",
         logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
         companyLinkedinUrl: "http://www.linkedin.com/in/suresh-gowda-b90741136",
@@ -1092,7 +1092,7 @@ const vcIndia1 = [
       {
         id:308,
         title: "Assistant Manager",
-        industry: " venture capital & private equity",
+        company: " venture capital & private equity",
         website: "http://www.aegle.vc",
         logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
         companyLinkedinUrl: "http://www.linkedin.com/in/suresh-srinivas-71a963147",
@@ -1113,7 +1113,7 @@ const vcIndia1 = [
       {
         id:309,
         title: "AGM (Civil / Structural Engineering & Construction)",
-        industry: " venture capital & private equity",
+        company: " venture capital & private equity",
         website: "http://www.kptl.com.br",
         logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
         companyLinkedinUrl: "http://www.linkedin.com/in/swarup-das-051b4132",
@@ -1131,7 +1131,7 @@ const vcIndia1 = [
       {
         id:310,
         title: "Vice President - Venture Building & Strategic Initiatives",
-        industry: " venture capital & private equity",
+        company: " venture capital & private equity",
         website: "http://www.alteriacapital.com",
         logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
         companyLinkedinUrl: "http://www.linkedin.com/in/tiwarisweta",
@@ -1150,7 +1150,7 @@ const vcIndia1 = [
       {
         id:311,
         title: "Venture capital Intern",
-        industry: " financial services",
+        company: " financial services",
         website: "http://www.equirus.com",
         logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
         companyLinkedinUrl: "http://www.linkedin.com/in/tanisha-bansal-32ba73205",
@@ -1168,7 +1168,7 @@ const vcIndia1 = [
       {
         id:312,
         title: "Consultant",
-        industry: " venture capital & private equity",
+        company: " venture capital & private equity",
         website: "http://www.aegle.vc",
         logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
         companyLinkedinUrl: "http://www.linkedin.com/in/tushar-kumar-27b40b138",
@@ -1190,7 +1190,7 @@ const vcIndia1 = [
       {
         id:313,
         title: "Investment Team",
-        industry: " venture capital & private equity",
+        company: " venture capital & private equity",
         website: "http://www.aegle.vc",
         logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
         companyLinkedinUrl: "http://www.linkedin.com/in/tvisha-mehta-4143a5104",
@@ -1210,7 +1210,7 @@ const vcIndia1 = [
       {
         id:314,
         title: "IEnvironment, Health and Safety Manager",
-        industry: " venture capital & private equity",
+        company: " venture capital & private equity",
         website: "http://www.aegle.vc",
         logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
         companyLinkedinUrl: "http://www.linkedin.com/in/uday-bhadoriya-058a65229",
@@ -1229,7 +1229,7 @@ const vcIndia1 = [
       {
         id:315,
         title: "Associate",
-        industry: " venture capital & private equity",
+        company: " venture capital & private equity",
         website: "http://www.yournest.in",
         logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
         companyLinkedinUrl: "http://www.linkedin.com/in/ujjwala-amba",
@@ -1247,7 +1247,7 @@ const vcIndia1 = [
       {
         id:316,
         title: "financial analyst",
-        industry: "financial services",
+        company: "financial services",
         website: "http://www.ifciventure.com",
         logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
         companyLinkedinUrl: "http://www.linkedin.com/in/urvashi-gulati-3bb90024",
@@ -1266,7 +1266,7 @@ const vcIndia1 = [
       {
         id:317,
         title: "Partner - Corporate Venture Capital",
-        industry: "venture capital & private equity",
+        company: "venture capital & private equity",
         website: "http://www.100x.vc",
         logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
         companyLinkedinUrl: "http://www.linkedin.com/in/utpal-doshi-a5707713",
@@ -1285,7 +1285,7 @@ const vcIndia1 = [
       {
         id:318,
         title: "Manager - Venture Capital & Private Equity Partnerships",
-        industry: "information technology & services",
+        company: "information technology & services",
         website: "http://www.microsoft.com",
         logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
         companyLinkedinUrl: "http://www.linkedin.com/in/shivangi-bakshi",
@@ -1303,7 +1303,7 @@ const vcIndia1 = [
       {
         id:319,
         title: "Vice President - Private Equity & Venture Capital",
-        industry: "financial services",
+        company: "financial services",
         website: "http://www.waterfieldadvisors.com",
         logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
         companyLinkedinUrl: "http://www.linkedin.com/in/vaibhav-laxmeshwar-695551b1",
@@ -1323,7 +1323,7 @@ const vcIndia1 = [
       {
         id:320,
         title: "Sr.Manager",
-        industry: "venture capital & private equity",
+        company: "venture capital & private equity",
         website: "http://www.kptl.com.br",
         logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
         companyLinkedinUrl: "http://www.linkedin.com/in/valiveti-sitaramaiah-0b909a1b6",
@@ -1342,7 +1342,7 @@ const vcIndia1 = [
       {
         id:321,
         title: "KALPATRU POWER TRANSMISSION LTD",
-        industry: "venture capital & private equity",
+        company: "venture capital & private equity",
         website: "http://www.kptl.com.br",
         logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
         companyLinkedinUrl: "http://www.linkedin.com/in/vanraj-maurya-383bb21ba",
@@ -1359,7 +1359,7 @@ const vcIndia1 = [
       {
         id:322,
         title: "Foundation Director",
-        industry: "venture capital & private equity",
+        company: "venture capital & private equity",
         website: "http://www.aegle.vc",
         logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
         companyLinkedinUrl: "http://www.linkedin.com/in/varisth-global-foundation-146289249",
@@ -1377,7 +1377,7 @@ const vcIndia1 = [
       {
         id:323,
         title: "Relationship Manager - Private Equity & Venture Capital",
-        industry: "venture capital & private equity",
+        company: "venture capital & private equity",
         website: "http://www.icicibank.com",
         logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
         companyLinkedinUrl: "http://www.linkedin.com/in/varsha-santwani-950128131",
@@ -1394,7 +1394,7 @@ const vcIndia1 = [
       {
         id:324,
         title: "AVP, FS (Private Equity/Venture Capital) Coverage",
-        industry: "banking",
+        company: "banking",
         website: "http://www.axisbank.com",
         logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
         companyLinkedinUrl: "http://www.linkedin.com/in/varun-malik-10750955",
@@ -1413,7 +1413,7 @@ const vcIndia1 = [
       {
         id:325,
         title: "Partner - Corporate and M&A, Private Equity and Venture Capital, Blockchain and Web3",
-        industry: "legal services",
+        company: "legal services",
         website: "http://www.ksandk.com",
         logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
         companyLinkedinUrl: "http://www.linkedin.com/in/vatsal-gaur",
@@ -1432,7 +1432,7 @@ const vcIndia1 = [
       {
         id:326,
         title: "Assistant Manager",
-        industry: "venture capital & private equity",
+        company: "venture capital & private equity",
         website: "http://www.aegle.vc",
         logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
         companyLinkedinUrl: "hhttp://www.linkedin.com/in/ved-veer-chaudhory-a3ba9b240",
@@ -1450,7 +1450,7 @@ const vcIndia1 = [
       {
         id:327,
         title: "SR UI /UX Designer",
-        industry: "venture capital & private equity",
+        company: "venture capital & private equity",
         website: "http://www.kptl.com.br",
         logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
         companyLinkedinUrl: "http://www.linkedin.com/in/venkatesh-n-121681237",
@@ -1469,7 +1469,7 @@ const vcIndia1 = [
       {
         id:328,
         title: "Head - Venture Capital & Private Equity Engagement",
-        industry: "banking",
+        company: "banking",
         website: "http://www.westerncap.in",
         logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
         companyLinkedinUrl: "http://www.linkedin.com/in/vidul-gupta-24214bba",
@@ -1486,7 +1486,7 @@ const vcIndia1 = [
       {
         id:329,
         title: "Head Of Legal",
-        industry: "financial services",
+        company: "financial services",
         website: "http://www.ifciventure.com",
         logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
         companyLinkedinUrl: "http://www.linkedin.com/in/rohan-chaudhary-125b1b61",
@@ -1503,7 +1503,7 @@ const vcIndia1 = [
       {
         id:330,
         title: "Accountant",
-        industry: "venture capital & private equity",
+        company: "venture capital & private equity",
         website: "http://www.aegle.vc",
         logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
         companyLinkedinUrl: "http://www.linkedin.com/in/rohini-tarle-341265130",
@@ -1520,7 +1520,7 @@ const vcIndia1 = [
       {
         id:331,
         title: "Associate Director, Private Equity & Venture Capital",
-        industry: "financial services",
+        company: "financial services",
         website: "http://www.acuitykp.com",
         logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
         companyLinkedinUrl: "http://www.linkedin.com/in/rohit-agarwal-63652039",
@@ -1537,7 +1537,7 @@ const vcIndia1 = [
       {
         id:332,
         title: "account",
-        industry: "venture capital & private equity",
+        company: "venture capital & private equity",
         website: "http://www.kptl.com.br",
         logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
         companyLinkedinUrl: "http://www.linkedin.com/in/rohit-bailwal-47144a24",
@@ -1554,7 +1554,7 @@ const vcIndia1 = [
       {
         id:333,
         title: "surveyor",
-        industry: "venture capital & private equity",
+        company: "venture capital & private equity",
         website: "http://www.kptl.com.br",
         logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
         companyLinkedinUrl: "http://www.linkedin.com/in/rohit-srivastava-78295618",
@@ -1572,7 +1572,7 @@ const vcIndia1 = [
       {
         id:334,
         title: "Quality Assurance Specialist- PitchBook (Venture Capital)",
-        industry: "financial services",
+        company: "financial services",
         website: "http://www.morningstar.com",
         logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
         companyLinkedinUrl: "http://www.linkedin.com/in/rohith-khanna-2b6b4bba",
@@ -1589,7 +1589,7 @@ const vcIndia1 = [
       {
         id:335,
         title: "S&T design engineer",
-        industry: "venture capital & private equity",
+        company: "venture capital & private equity",
         website: "http://www.kptl.com.br",
         logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
         companyLinkedinUrl: "http://www.linkedin.com/in/roja-huded-b0b631202",
@@ -1607,7 +1607,7 @@ const vcIndia1 = [
       {
         id:336,
         title: "Student",
-        industry: "venture capital & private equity",
+        company: "venture capital & private equity",
         website: "http://www.aegle.vc",
         logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
         companyLinkedinUrl: "http://www.linkedin.com/in/ruchit-raithatha-25920b228",
@@ -1625,7 +1625,7 @@ const vcIndia1 = [
       {
         id:337,
         title: "StudentAssistant Vice President",
-        industry: "venture capital & private equity",
+        company: "venture capital & private equity",
         website: "http://www.sidbiventure.co.in",
         logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
         companyLinkedinUrl: "http://www.linkedin.com/in/rupam-nath-23a74167",
@@ -1645,7 +1645,7 @@ const vcIndia1 = [
       {
         id:338,
         title: "VP",
-        industry: "venture capital & private equity",
+        company: "venture capital & private equity",
         website: "http://www.sidbiventure.co.in",
         logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
         companyLinkedinUrl: "http://www.linkedin.com/in/dilip-r-v-kumar-20330b6",
@@ -1664,7 +1664,7 @@ const vcIndia1 = [
       {
         id:339,
         title: "Car driverP",
-        industry: "venture capital & private equity",
+        company: "venture capital & private equity",
         website: "http://www.fs-finance.com",
         logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
         companyLinkedinUrl: "http://www.linkedin.com/in/summit-negi-395591199",
@@ -1681,7 +1681,7 @@ const vcIndia1 = [
       {
         id:340,
         title: "Assistant Manager",
-        industry: "financial services",
+        company: "financial services",
         website: "http://www.ifciventure.com",
         logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
         companyLinkedinUrl: "http://www.linkedin.com/in/saajan-rathi-537b502a",
@@ -1699,7 +1699,7 @@ const vcIndia1 = [
       {
         id:341,
         title: "CC Incharge",
-        industry: "venture capital & private equity",
+        company: "venture capital & private equity",
         website: "http://www.bventure.com",
         logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
         companyLinkedinUrl: "http://www.linkedin.com/in/sabarish-kumar-31182712b",
@@ -1718,7 +1718,7 @@ const vcIndia1 = [
       {
         id:342,
         title: "Grinder",
-        industry: "venture capital & private equity",
+        company: "venture capital & private equity",
         website: "http://www.kptl.com.br",
         logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
         companyLinkedinUrl: "http://www.linkedin.com/in/vishal-tiwari-415a2017b",
@@ -1736,7 +1736,7 @@ const vcIndia1 = [
       {
         id:343,
         title: "GrindeExcluto - We connect Limited Partners and Venture Capital Firms | Head - Operationsr",
-        industry: "internet",
+        company: "internet",
         website: "http://www.excluto.com",
         logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
         companyLinkedinUrl: "http://www.linkedin.com/in/vishal-kapoor-0302461ba",
@@ -1753,7 +1753,7 @@ const vcIndia1 = [
       {
         id:344,
         title: "Deputy manager-OHE",
-        industry: "internet",
+        company: "internet",
         website: "http://www.kptl.com.br",
         logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
         companyLinkedinUrl: "venture capital & private equity",
@@ -1769,7 +1769,7 @@ const vcIndia1 = [
       {
         id:345,
         title: "Ex-AGM",
-        industry: "financial services",
+        company: "financial services",
         website: "http://www.ifciventure.com",
         logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
         companyLinkedinUrl: "venture capital & private equity",
@@ -1787,7 +1787,7 @@ const vcIndia1 = [
       {
         id:346,
         title: "NFT PHOTOGRAPHER",
-        industry: "venture capital & private equity",
+        company: "venture capital & private equity",
         website: "http://www.aegle.vc",
         logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
         companyLinkedinUrl: "http://www.linkedin.com/in/vivek-sadasivan-1579b4249",
@@ -1804,7 +1804,7 @@ const vcIndia1 = [
       {
         id:347,
         title: "Investment AnalystR",
-        industry: "venture capital & private equity",
+        company: "venture capital & private equity",
         website: "http://www.abbygroup.com",
         logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
         companyLinkedinUrl: "609http://www.linkedin.com/in/vinita-jain-b8a09b2",
@@ -1823,7 +1823,7 @@ const vcIndia1 = [
       {
         id:348,
         title: "Startup Accelerator",
-        industry: "management consulting",
+        company: "management consulting",
         website: "http://www.bvca.co.uk",
         logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
         companyLinkedinUrl: "http://www.linkedin.com/in/espark-viridian",
@@ -1842,7 +1842,7 @@ const vcIndia1 = [
       {
         id:349,
         title: "Associate",
-        industry: "venture capital & private equity",
+        company: "venture capital & private equity",
         website: "http://www.abbygroup.com",
         logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
         companyLinkedinUrl: "http://www.linkedin.com/in/vinay-vj-b92846130",
@@ -1859,7 +1859,7 @@ const vcIndia1 = [
       {
         id:350,
         title: "Accountant",
-        industry: "",
+        company: "",
         website: "http://www.nedfiventure.com",
         logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
         companyLinkedinUrl: "http://www.linkedin.com/in/wasim-hussain-0865221a5",
@@ -1876,7 +1876,7 @@ const vcIndia1 = [
       {
         id:351,
         title: "Senior Manager",
-        industry: "venture capital & private equity",
+        company: "venture capital & private equity",
         website: "http://www.kptl.com.br",
         logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
         companyLinkedinUrl: "http://www.linkedin.com/in/yash-dave-29128579",
@@ -1893,7 +1893,7 @@ const vcIndia1 = [
       {
         id:352,
         title: "Manager (Private Equity and Venture Capital Funds)",
-        industry: "banking",
+        company: "banking",
         website: "http://www.bank.sbi",
         logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
         companyLinkedinUrl: "http://www.linkedin.com/in/yogesh-harchandani-8a229011",
@@ -1910,7 +1910,7 @@ const vcIndia1 = [
       {
         id:353,
         title: "Senior Account Manager",
-        industry: "banking",
+        company: "banking",
         website: "http://www.gntventure.info",
         logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
         companyLinkedinUrl: "http://www.linkedin.com/in/satish-mote-15572919a",
@@ -1927,7 +1927,7 @@ const vcIndia1 = [
       {
         id:354,
         title: "MANAGER CAPITAL VENTURE",
-        industry: "banking",
+        company: "banking",
         website: "http://www.delhi-darbar.com",
         logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
         companyLinkedinUrl: "http://www.linkedin.com/in/sidharth-sharma-46b50129",
@@ -1944,7 +1944,7 @@ const vcIndia1 = [
       {
         id:355,
         title: "Venture Capitalist",
-        industry: "real estate",
+        company: "real estate",
         website: "http://www.ibccref.com",
         logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
         companyLinkedinUrl: "http://www.linkedin.com/in/sidharth-sharma-46b50129",
@@ -1961,7 +1961,7 @@ const vcIndia1 = [
       {
         id:356,
         title: "Database management",
-        industry: "venture capital & private equity",
+        company: "venture capital & private equity",
         website: "http://www.renvcf.com",
         logo: "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
         companyLinkedinUrl: "http://www.linkedin.com/in/komal-katheriya-64055a1b9",
@@ -1978,7 +1978,7 @@ const vcIndia1 = [
       {
         id:357,
         title: "Venture Capital Funding Advisor For Startups",
-        industry: "financial services",
+        company: "financial services",
         website: "http://www.renvcf.com",
         logo: "http://www.linkedin.com/in/shivkumar-yadav-49b92b40",
         companyLinkedinUrl: "http://www.linkedin.com/in/nischal-hathi-34ba9865",
@@ -1996,7 +1996,7 @@ const vcIndia1 = [
       {
         id:358,
         title: "Co-Founder",
-        industry: "financial services",
+        company: "financial services",
         website: "http://www.fsv.capital",
         logo: "https://i0.wp.com/fsv.capital/wp-content/uploads/2024/03/cropped-WhatsApp-Image-2023-11-13-at-3.19.50-PM-1.jpeg?resize=105%2C56&ssl=1",
         companyLinkedinUrl: "venture capital & private equity",
@@ -2013,7 +2013,7 @@ const vcIndia1 = [
       {
         id:359,
         title: "Account Executive",
-        industry: "financial services",
+        company: "financial services",
         website: "http://www.ivca.in",
         logo: "https://media.licdn.com/dms/image/v2/C5103AQF61VVWdC2-Pw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1578384449543?e=1742428800&v=beta&t=3to5NWSd1YFRNfR4QBL8DCKe5roYA1A7Z_yiO3C7_Lc",
         companyLinkedinUrl: "http://www.linkedin.com/in/abhishek-sharma-a89b4b179",
