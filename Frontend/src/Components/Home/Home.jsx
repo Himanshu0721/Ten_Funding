@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import StageFocusDropdown from "./StageFocusDropdown";
 import SectorFocusDropdown from "./SectorFocusDropdown";
 import DatasetDropdown from "./DatasetDropdown.jsx";
-// import vcIndiaData from "../../assets/data/vcIndia.js";
+import vcIndiaData from "../../assets/data/vcIndia.js";
 import vcUSAData from "../../assets/data/vcUSA.js";
 import angelsIndiaData from "../../assets/data/angelsIndia.js";
 import angelsUSAData from "../../assets/data/angelsUSA.js";
