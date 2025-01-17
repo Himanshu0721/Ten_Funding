@@ -425,7 +425,7 @@ export default function Registration() {
 
                 <tbody>
                   <tr>
-                    <td>bAI/ML</td>
+                    <td>AI/ML</td>
                     <td>
                       {" "}
                       <input

@@ -168,7 +168,9 @@ function Footer() {
             alt="mail logo"
           />
         </div>
-        <h6>© 2024 TEN Funding</h6>
+        <div className="footer-ten-funding">
+          <h6>© 2024 TEN Funding</h6>
+        </div>
       </div>
     </div>
   );
