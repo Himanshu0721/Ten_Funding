@@ -20,14 +20,12 @@ const LaunchPad = () => {
             <h1 className="heading">Looking for an upgrade?</h1>
             <div className="lower-section">
               <div className="card-para">
-                <p>Check out our database of active VC jobs.</p>
+                <p>Check out our database of active vc jobs.</p>
               </div>
-
-            
             </div>
           </div>
         </div>
-        <div className="mid-section"></div>
+        <div className="mid-section" style={{ height: "34px" }}></div>
       </div>
       {/* Job Table */}
       <table className="job-table">
@@ -43,7 +41,6 @@ const LaunchPad = () => {
           {visibleJobs.map((job, index) => (
             <tr key={index}>
               <td>{job.title}</td>
-
               <td>{job.skills.join(", ")}</td>
               <td>{job.responsibilities}</td>
               <td>
@@ -65,7 +62,6 @@ const LaunchPad = () => {
       </table>
 
       {/* Load More Button */}
-
       <button className="load-more" onClick={handleLoadMore}>
         Load More
       </button>

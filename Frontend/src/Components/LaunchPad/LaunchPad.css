@@ -6,14 +6,15 @@
   color: #333;
   max-width: 1200px;
   margin: auto;
-  margin-top: 20px !important;
+  margin-top: 100px !important;
 }
 .hero-section {
   margin: 0;
   display: flex;
   justify-content: center;
   /* align-items: center; */
-  height: 80vh;
+  height: max-content;
+  margin-bottom: 40px;
 }
 .upper-section {
   display: flex;
@@ -21,28 +22,92 @@
   align-items: center;
   width: 100%;
   padding: 1rem;
+  margin-bottom:40px;
 }
 
 .card {
   text-align: center;
-  background: linear-gradient(180deg, #cecef8, #ffffff);
-  padding: 80px;
-  border: none;
-  border-radius: 16px;
-  max-width: 1200px;
-  width: 100%;
-  margin: 0 auto;
+  width: 90%;
+  max-width: 1000px;
+  padding: 20px;
+  font-size: 18px;
+  line-height: 1.5;
+  background-image: linear-gradient(#dee2ff, #f9faff);
+  border-radius: 20px;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 40px auto; /* Increase margin from top and bottom */
+  font-family: 'Arial', sans-serif;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  
+  
 }
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-para p {
+  color: #4e5374;
+  letter-spacing: -0.02em;
+  margin-bottom: 0;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 1.2;
+  text-align: left;
+  margin: 20px; /* Default margin */
+}
+
+@media (min-width: 480px) {
+  .card {
+    padding: 30px;
+    font-size: 20px;
+    margin: 50px auto; /* Adjust margin for small screens */
+  }
+  .card-para p {
+    margin: 15px; /* Adjust margin for small screens */
+  }
+}
+
+@media (min-width: 768px) {
+  .card {
+    padding: 40px;
+    font-size: 24px;
+    margin: 60px auto; /* Adjust margin for medium screens */
+  }
+  .card-para p {
+    margin: 20px; /* Adjust margin for medium screens */
+  }
+}
+
+@media (min-width: 1024px) {
+  .card {
+    padding: 60px;
+    font-size: 32px;
+    margin: 80px auto; /* Adjust margin for large screens */
+  }
+  .card-para p {
+    margin: 25px; /* Adjust margin for large screens */
+  }
+}
+
+@media (min-width: 1200px) {
+  .card {
+    padding: 80px;
+    font-size: 36px;
+    margin: 100px auto; /* Adjust margin for extra-large screens */
+  }
+  .card-para p {
+    margin: 30px; /* Adjust margin for extra-large screens */
+  }
+
+
 .heading {
   color: #2f3246;
   letter-spacing: -0.02em;
-  max-width: 650px;
-  margin-top: 0;
-  margin-bottom: 0;
-  font-size: 80px;
-  font-weight: 400;
-  line-height: 1.1;
-  text-align: left;
+}
 }
 .lower-section {
   display: flex;
@@ -52,7 +117,7 @@
   flex-wrap: wrap;
 }
 .card-para {
-  padding-top: 20px;
+  padding-top: 0px;
 }
 .heading {
   font-size: 5rem;
@@ -111,7 +176,7 @@
 @media (max-width: 850px) {
   .upper-section {
     width: 100%;
-    height: 500px;
+    height: 400px;
     margin: 0;
     padding: 1rem;
   }
@@ -122,13 +187,13 @@
   .card {
     padding: 20px;
     margin: 0;
-    height: 100%;
+    height: 120%;
     /* margin:50px; */
     /* padding-left:5px;
       padding-right:8px; */
   }
   .card-para p {
-    font-size: 1.3rem;
+    font-size: 30px;
   }
 
   .button-container NavLink {
@@ -308,6 +373,19 @@
   .dropdown-button,
   .dropdown-menu label {
     font-size: 14px;
+  }
+  .hero-section{
+    margin-bottom:80px;
+  }
+  .launchpad-container{
+    margin-top:40px !important;
+  
+  }
+  .heading{
+    font-size:40px;
+  }
+  .card-para{
+    font-size: 12px;
   }
 }
 @media (max-width: 760px) {
