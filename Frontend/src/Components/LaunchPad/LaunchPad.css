@@ -1,12 +1,15 @@
 /* General Styles */
 
 .launchpad-container {
-  padding: 20px;
-  font-family: Arial, sans-serif;
-  color: #333;
-  max-width: 1200px;
-  margin: auto;
-  margin-top: 100px !important;
+  .launchpad-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 0; /* Remove the top margin */
+  }
+  
 }
 .hero-section {
   margin: 0;
@@ -167,6 +170,7 @@
   margin-left: 0.5rem;
   font-size: 1.2rem;
 }
+
 
 /* Responsive design */
 @media (max-width: 850px) {
@@ -373,9 +377,8 @@
   .hero-section{
     margin-bottom:80px;
   }
-  .launchpad-container{
-    margin-top:40px !important;
-  
+  .launchpad-container {
+    margin-top: 50px; /* Adjust the top margin as needed */
   }
   .heading{
     font-size:40px;
