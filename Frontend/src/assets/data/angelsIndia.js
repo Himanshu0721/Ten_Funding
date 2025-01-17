@@ -3105,8 +3105,8 @@ export const  angelsIndia= [
         TicketSize:"50k-250k",
         currentFundCorpus:"300000",
         TotalFundCorpus:"300000",
+        logo: "https://media.licdn.com/dms/image/v2/C560BAQHrFQ6-5CeqMg/company-logo_200_200/company-logo_200_200/0/1630664329600?e=1745452800&v=beta&t=r1Or6xblWvfWCCY0o_1Y9gt6HJ4GiJFczUdOP_HvUFU",
         companyoverview:"Revving Up the Startup Engine Every startup begins with a spark. Were building the ultimate launchpad to turn sparks into roaring flames.",
-        logo:"data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20viewBox%3D%220%200%2058%2058%22%3E%3Cpath%20d%3D%22M%2029%200%20C%2045.016%200%2058%2012.984%2058%2029%20C%2058%2045.016%2045.016%2058%2029%2058%20C%2012.984%2058%200%2045.016%200%2029%20C%200%2012.984%2012.984%200%2029%200%20Z%20M%2030.367%2047.928%20C%2030.853%2045.949%2031.787%2043.859%2033.167%2041.656%20C%2034.278%2039.885%2035.701%2038.201%2037.437%2036.604%20C%2039.174%2034.972%2041.049%2033.566%2043.063%2032.385%20C%2044.73%2031.425%2046.351%2030.728%2047.926%2030.297%20C%2048.545%2030.127%2049%2029.58%2049%2028.937%20C%2049%2028.305%2048.558%2027.762%2047.949%2027.593%20C%2045.464%2026.902%2043.019%2025.705%2040.615%2024%20C%2038.774%2022.681%2037.108%2021.205%2035.615%2019.573%20C%2034.156%2017.906%2032.958%2016.17%2032.021%2014.365%20C%2031.276%2012.902%2030.728%2011.473%2030.378%2010.077%20C%2030.223%209.458%2029.682%209%2029.044%209%20C%2028.414%209%2027.876%209.448%2027.717%2010.058%20C%2027.11%2012.388%2025.993%2014.743%2024.365%2017.125%20C%2022.524%2019.799%2020.233%2022.09%2017.49%2024%20C%2015.102%2025.653%2012.621%2026.847%2010.045%2027.582%20C%209.437%2027.756%209%2028.301%209%2028.934%20C%209%2029.579%209.454%2030.131%2010.076%2030.302%20C%2012.704%2031.025%2015.331%2032.379%2017.958%2034.365%20C%2020.979%2036.622%2023.305%2039.069%2024.937%2041.708%20C%2026.315%2043.906%2027.247%2045.981%2027.734%2047.931%20C%2027.887%2048.543%2028.42%2049%2029.051%2049%20C%2029.683%2049%2030.217%2048.542%2030.367%2047.928%20Z%22%20fill%3D%22hsl(0%2C%200%25%2C%200%25)%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E",
     },
     {
         id: 176,
@@ -4031,7 +4031,7 @@ export const  angelsIndia= [
         title:"Founder & Angel Investor",
         company:"Wonder Foods",
         industry:"real estate",
-        website:"",
+        website:"http://www.northfoodgroup.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/wonder-foods",
         twitterUrl: "",
         country:"India",    
@@ -4042,7 +4042,7 @@ export const  angelsIndia= [
         currentFundCorpus:"3520000",
         TotalFundCorpus:"2560000",
         companyoverview:"Industry Real Estate ",
-        logo:"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+        logo:"http://www.northfoodgroup.com/i/web/NFG_LogoBrand.png",
     },
     {
         id: 228,
@@ -4168,7 +4168,7 @@ export const  angelsIndia= [
         currentFundCorpus:"1250000",
         TotalFundCorpus:"3500000",
         companyoverview:"Structure and develop real eastate and other hard asset deals.",
-        logo:"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+        logo:"Family Office",
     },
     {
         id: 235,

@@ -45,7 +45,7 @@ const NextPlay = () => {
       {/* Main Content */}
       <main className="main-content">
         <section className="intro">
-          <h1>next play</h1>
+          <h1>Next play</h1>
           <h2>
             We want to assist you in determining your next course of action. ✨
           </h2>
@@ -89,12 +89,12 @@ const NextPlay = () => {
         </section>
         <div className="more-about-page">
           {/* Title */}
-          <h1 className="page-title">more about next play</h1>
+          <h1 className="page-title">More about next play</h1>
 
           {/* Grid Section */}
           <div className="grid-section">
             <div className="card-nextplay">
-              <h2>gatherings</h2>
+              <h2>Gatherings</h2>
               <p>
                 🚀 curated events featuring exceptional founders and operators
                 who are either publicly or privately investigating future
@@ -110,7 +110,7 @@ const NextPlay = () => {
             </div>
 
             <div className="card-nextplay">
-              <h2>podcast</h2>
+              <h2>Podcast</h2>
               <p>
                 🎙️ Hear firsthand from top-tier operators, investors, and
                 founders who have just discovered their next big thing as they
@@ -120,7 +120,7 @@ const NextPlay = () => {
             </div>
 
             <div className="card-nextplay">
-              <h2>newsletter</h2>
+              <h2>Newsletter</h2>
               <p>
                 📧 Discover unnoticed possibilities from co-founders seeking
                 partners, early-stage startups, and more.
@@ -128,7 +128,7 @@ const NextPlay = () => {
             </div>
 
             <div className="card-nextplay">
-              <h2>lists</h2>
+              <h2>Lists</h2>
               <p>
                 📋 We're compiling lists of fantastic businesses to work with.{" "}
                 <a className="link" href="#">See here</a>.
@@ -138,7 +138,7 @@ const NextPlay = () => {
 
           {/* Matching Section */}
           <div className="matching-section">
-            <h2>matching</h2>
+            <h2>Matching</h2>
             <p>
               🌱 In order to generate ideas, create momentum, and have
               conversations about potential future developments, we are
