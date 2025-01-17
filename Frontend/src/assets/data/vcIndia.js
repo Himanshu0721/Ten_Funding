@@ -5980,10 +5980,10 @@ export const vcIndia = [
               {
                 id:356,
                 title: "Database management",
-                company: "venture capital & private equity",
+                company: "Renaissance Venture Capital",
                 website: "http://www.renvcf.com",
-                logo: "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-                companyLinkedinUrl: "http://www.linkedin.com/in/komal-katheriya-64055a1b9",
+                logo: "https://media.licdn.com/dms/image/v2/C4E0BAQHlfLGkgnjQ9A/company-logo_200_200/company-logo_200_200/0/1630586950156/renaissance_venture_capital_fund_logo?e=1745452800&v=beta&t=SbtdoaSk0yvkThuPyk1IYI8sxI7ng5rudgX6AHXeiMA",
+                companyLinkedinUrl: "https://www.linkedin.com/company/renvcf/",
                 twitterUrl: "http://www.twitter.com/renvcf" ,
                 city:"  Mumbai ",
                 stage: ["Other"],

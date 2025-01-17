@@ -439,7 +439,7 @@ export const vcUSA = [
         stage: ["Pre-Seed"],
         sector: ["Sector Agnostic"],
         ticketSize: "100K - 500K",
-        logo: "https://images.squarespace-cdn.com/content/v1/6052246735384022a22f22f7/1615996803815-ITIDKQ5N16HI3AK5B3H3/SANCTOR_CAPITAL_MAIN_LOGO_TRANSPARENT.png?format=1500w",
+        logo: "https://media.licdn.com/dms/image/v2/C4E0BAQE-PFQ-Fekwow/company-logo_200_200/company-logo_200_200/0/1630646241287?e=1745452800&v=beta&t=CnKPDg95kJ2cVpJR3AEa8Y5tL9CHJ4ACrcD5zySiqFc",
     },
     {
         id: 26,
@@ -457,7 +457,7 @@ export const vcUSA = [
         stage: ["Pre-Seed"],
         sector: ["Sector Agnostic"],
         ticketSize: "100K - 500K",
-        logo: "https://www.otiumcapital.com/wp-content/uploads/2024/05/otium-logo-light.svg",
+        logo: "https://media.licdn.com/dms/image/v2/D4E0BAQFtFvs5hoMp_A/company-logo_200_200/company-logo_200_200/0/1719257114914/otium_capital_logo?e=1745452800&v=beta&t=WOC6vmFOZNnz0Aj_YScXRUFClMQCkprFWoCXx97UbYw",
     },
     {
         id: 27,
@@ -493,7 +493,7 @@ export const vcUSA = [
         stage: ["Pre-Seed"],
         sector: ["Sector Agnostic"],
         ticketSize: "100K - 500K",
-        logo: "https://elevate.vc/wp-content/uploads/2019/08/Elevate_Logo_White-1-e1565746717886.png.webp",
+        logo: "https://media.licdn.com/dms/image/v2/C560BAQHK7q1M8ls6vA/company-logo_200_200/company-logo_200_200/0/1630574520279/elevate_capital_fund_logo?e=1745452800&v=beta&t=QupZ4Gvx1kNjXfyE8rYhmGPWDsgPYS2K1EqwC6I8vX0",
     },
     {
         id: 29,
@@ -510,7 +510,7 @@ export const vcUSA = [
         stage: ["Series G"],
         sector: ["Sector Agnostic"],
         ticketSize: "100K - 500K",
-        logo: "Carta",
+        logo: "https://media.licdn.com/dms/image/v2/D4D0BAQGq1S8AEOjaTQ/company-logo_200_200/company-logo_200_200/0/1728484586014/carta___logo?e=1745452800&v=beta&t=55rdyP4h8Mpejc3prhRnT7L1ebE529DfLscUFWi_g68",
     },
     {
         id: 30,
@@ -618,7 +618,7 @@ export const vcUSA = [
         stage: ["Pre-Seed"],
         sector: ["Sector Agnostic"],
         ticketSize: "200K - 5M",
-        logo: "Venture Partner",
+        logo: "https://media.licdn.com/dms/image/v2/C4D0BAQHdbnncclxe2A/company-logo_200_200/company-logo_200_200/0/1630578439317/nosara_capital_logo?e=1745452800&v=beta&t=Y5lXo2kyEJ0DEQmrPswqLhWo_xbTM6FpdQvcG5oZaC0",
     },
     {
         id: 36,
@@ -636,7 +636,7 @@ export const vcUSA = [
         stage: ["Pre-Seed"],
         sector: ["Sector Agnostic"],
         ticketSize: "200K - 5M",
-        logo: "https://colcap.com/wp-content/themes/colcap/static/img/logo-white.svg",
+        logo: "https://media.licdn.com/dms/image/v2/C4E0BAQGvK9Zqbznvbg/company-logo_200_200/company-logo_200_200/0/1631321751023?e=1745452800&v=beta&t=QXBZ2SVwD65obxkpM0IuBYwbPZ5dwPiZAVz7_7qHIiY",
     },
     {
         id: 37,
@@ -672,7 +672,7 @@ export const vcUSA = [
         stage: ["Pre-Seed"],
         sector: ["Sector Agnostic"],
         ticketSize: "200K - 5M",
-        logo: "Ludis Capital",
+        logo: "https://media.licdn.com/dms/image/v2/C4E0BAQGFeacrT5OqTw/company-logo_200_200/company-logo_200_200/0/1630632837812/ludiscapital_logo?e=1745452800&v=beta&t=yIRx3x4s3nfqNCGCY6miO47UmcShM2RjNoAWxi14ZoE",
     },
     {
         id: 39,
@@ -690,7 +690,7 @@ export const vcUSA = [
         stage: ["Pre-Seed"],
         sector: ["Sector Agnostic"],
         ticketSize: "200K - 5M",
-        logo: "Galaxy",
+        logo: "https://media.licdn.com/dms/image/v2/D4E0BAQFRmPyZvorlsA/company-logo_200_200/company-logo_200_200/0/1706048770104/galaxyhq_logo?e=1745452800&v=beta&t=J2v52Hbu_Wuwv7VWKI9IDlA18txkksuYjT0AE_KVJas",
     },
     {
         id: 40,
@@ -726,7 +726,7 @@ export const vcUSA = [
         stage: ["Pre-Seed"],
         sector: ["Sector Agnostic"],
         ticketSize: "200K - 5M",
-        logo: "https://cdn.prod.website-files.com/6581b43884b98b6628f7bf55/6581b43884b98b6628f7bf5e_logo-white.svg.webp",
+        logo: "https://media.licdn.com/dms/image/v2/C560BAQFA3eOc02yYXQ/company-logo_200_200/company-logo_200_200/0/1674847292493/atento_capital_logo?e=1745452800&v=beta&t=Wjps6Hdr9rHWoOecxrjY0R1GIUkPnORWGK8XOTs41yA",
     },
     {
         id: 42,
@@ -744,7 +744,7 @@ export const vcUSA = [
         stage: ["Pre-Seed"],
         sector: ["Sector Agnostic"],
         ticketSize: "200K - 5M",
-        logo: "Decheng Capital",
+        logo: "https://media.licdn.com/dms/image/v2/C4D0BAQHJ8UYKSen3dg/company-logo_200_200/company-logo_200_200/0/1630580196858/decheng_capital__logo?e=1745452800&v=beta&t=f0Fru6QdTtYvJjvjQrNKPbDLvPf5ViCB8Rs3eVjp7EA",
     },
     {
         id: 43,
@@ -762,7 +762,7 @@ export const vcUSA = [
         stage: ["Pre-Seed"],
         sector: ["Sector Agnostic"],
         ticketSize: "200K - 5M",
-        logo: "https://static.wixstatic.com/media/d0ab5a_929f1f93cc4340b2ad3f0911f4f8a431~mv2.png/v1/fill/w_375,h_85,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/White%20logo%20-%20no%20background.png",
+        logo: "https://media.licdn.com/dms/image/v2/D4E0BAQHVPjos_m0AhQ/company-logo_200_200/company-logo_200_200/0/1713733072661/erez_capital_logo?e=1745452800&v=beta&t=vRDEVKOHXwcWBYv8GyId-jiW7POC0BbwTQOKy-LCJCk",
     },
     {
         id: 44,
@@ -780,7 +780,7 @@ export const vcUSA = [
         stage: ["Pre-Seed"],
         sector: ["Sector Agnostic"],
         ticketSize: "200K - 5M",
-        logo: "https://morningside.com/Logo.png",
+        logo: "https://media.licdn.com/dms/image/v2/C4E0BAQFgTUjF6_sYNQ/company-logo_200_200/company-logo_200_200/0/1636050921593/morningside_technology_advisory_llc_logo?e=1745452800&v=beta&t=9b3L6lyEnepxy_ygSx3-IBmsDko4uFhR-I68WHce1Is",
     },
     {
         id: 45,
@@ -798,7 +798,7 @@ export const vcUSA = [
         stage: ["Pre-Seed"],
         sector: ["Sector Agnostic"],
         ticketSize: "200K - 5M",
-        logo: "https://static.wixstatic.com/media/2c2823_387cdc9cbdd1444f959f4f84fe65e7fb~mv2.png/v1/fill/w_1213,h_276,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/all%20logos_MorrisonSeger-03.png",
+        logo: "https://media.licdn.com/dms/image/v2/D560BAQGrcS8FfqVSKg/company-logo_200_200/company-logo_200_200/0/1692715993432/morrison_seger_logo?e=1745452800&v=beta&t=T3DcdrsF0_zXndufZGjY4GHl_sbBBNCskoDxhWPBCSI",
     },
     {
         id: 46,
@@ -816,7 +816,7 @@ export const vcUSA = [
         stage: ["Pre-Seed"],
         sector: ["Sector Agnostic"],
         ticketSize: "200K - 5M",
-        logo: "https://www.groovecap.com/hs-fs/hubfs/Logos/groovecap_logo_white-topspace.png?width=1500&height=747&name=groovecap_logo_white-topspace.png",
+        logo: "https://media.licdn.com/dms/image/v2/C560BAQFuVH3zWqZw3g/company-logo_200_200/company-logo_200_200/0/1630639741838?e=1745452800&v=beta&t=TaN5Uysaky5v918oGgP3U4FDB_1cQFmYi-JGbYRdbio",
     },
     {
         id: 47,
@@ -834,7 +834,7 @@ export const vcUSA = [
         stage: ["Pre-Seed"],
         sector: ["Sector Agnostic"],
         ticketSize: "200K - 5M",
-        logo: "https://revo.vc/wp-content/uploads/2022/08/Revo-Logo-White.svg",
+        logo: "https://media.licdn.com/dms/image/v2/C4E0BAQE5jLnAuWrvZg/company-logo_200_200/company-logo_200_200/0/1630577404599/revo_capital_logo?e=1745452800&v=beta&t=uHKB8_0UYKHey5mMn0s3g52TOkwaXRBoNzes0zpKn6A",
     },
     {
         id: 48,
@@ -852,7 +852,7 @@ export const vcUSA = [
         stage: ["Pre-Seed"],
         sector: ["Sector Agnostic"],
         ticketSize: "200K - 5M",
-        logo: "https://ffvc.com/wp-content/uploads/2020/11/cropped-ffVCLogoFullNameWhiteTextGreenBox-1-2.png",
+        logo: "https://media.licdn.com/dms/image/v2/C4D0BAQFtZrWmcCiiiQ/company-logo_200_200/company-logo_200_200/0/1631341178021?e=1745452800&v=beta&t=r2PgYeplh_GeMctRi_xmjYlAJwZ1xI7YY_3c7qRg7oM",
     },
     {
         id: 49,
@@ -888,7 +888,7 @@ export const vcUSA = [
         stage: ["Pre-Seed"],
         sector: ["Sector Agnostic"],
         ticketSize: "500K - 1M",
-        logo: "https://cdn.prod.website-files.com/61bb50c5244ca2aa1cc32249/61ce12ad8d36f16ed9b968be_NewLegacy_2020Logo-01.svg",
+        logo: "https://media.licdn.com/dms/image/v2/C4E0BAQET5uNYzCwdBw/company-logo_200_200/company-logo_200_200/0/1632863981011/new_legacy_logo?e=1745452800&v=beta&t=xdCU5nNh71UnDl0u5zAP27bgK3FgewVl-REfOsRpQS4",
     },
     {
         id: 51,
@@ -924,7 +924,7 @@ export const vcUSA = [
         stage: ["Pre-Seed"],
         sector: ["Sector Agnostic"],
         ticketSize: "500K - 1M",
-        logo: "Translink Capital",
+        logo: "https://media.licdn.com/dms/image/v2/C560BAQHQSk6dGA4Lsg/company-logo_200_200/company-logo_200_200/0/1630651256811/translink_capital_logo?e=1745452800&v=beta&t=ciHSJOPV0Rz-k2u5eMhNfZsCHszsISfwKlZwy-KeVzg",
     },
     {
         id: 53,
@@ -959,7 +959,7 @@ export const vcUSA = [
         stage: ["Series C"],
         sector: ["Sector Agnostic"],
         ticketSize: "500K - 1M",
-        logo: "Hewlett Packard Enterprise",
+        logo: "https://media.licdn.com/dms/image/v2/C4E0BAQH6qdm7VJ5BPA/company-logo_200_200/company-logo_200_200/0/1630642519868/hewlett_packard_enterprise_logo?e=1745452800&v=beta&t=7Y1SAkhCPzGRZUU-mlimtawRWbk7xg1GXsgJ0IuDge4",
     },
     {
         id: 55,
@@ -995,7 +995,7 @@ export const vcUSA = [
         stage: ["Pre-Seed"],
         sector: ["Sector Agnostic"],
         ticketSize: "500K - 1M",
-        logo: "Emergence",
+        logo: "https://media.licdn.com/dms/image/v2/C560BAQF1j_wYJ1SVzw/company-logo_200_200/company-logo_200_200/0/1631415941130/emergence_capital_partners_logo?e=1745452800&v=beta&t=fcNvf2BLOav0bnTsycq9TyMXX3-ovBAcrAtu5-Q7tfw",
     },
     {
         id: 57,
@@ -1031,7 +1031,7 @@ export const vcUSA = [
         stage: ["Pre-Seed"],
         sector: ["Sector Agnostic"],
         ticketSize: "500K - 1M",
-        logo: "https://coinfund.io/wp-content/uploads/2023/07/CoinFund.svg",
+        logo: "https://media.licdn.com/dms/image/v2/C4D0BAQFel-sBqDJUjA/company-logo_200_200/company-logo_200_200/0/1630535889802/coinfund_logo?e=1745452800&v=beta&t=TPyIJx50Tc1YM3L4B_AvxshGKlwyi_2wDNcHAugnUTk",
     },
     {
         id: 59,
@@ -1049,7 +1049,7 @@ export const vcUSA = [
         stage: ["Pre-Seed"],
         sector: ["Sector Agnostic"],
         ticketSize: "500K - 1M",
-        logo: "Acero Capital",
+        logo: "https://media.licdn.com/dms/image/v2/C4E0BAQGSw-t6DbdbSg/company-logo_200_200/company-logo_200_200/0/1631346659854?e=1745452800&v=beta&t=iw7pe7dmZEJixuBIsqR84KEMQ2ZaJLGpcU4FHJ-iQRQ",
     },
     {
         id: 60,
@@ -1085,7 +1085,7 @@ export const vcUSA = [
         stage: ["Pre-Seed"],
         sector: ["Sector Agnostic"],
         ticketSize: "500K - 1M",
-        logo: "FINCYNC",
+        logo: "https://media.licdn.com/dms/image/v2/D4E0BAQE5cJ47bLPwZA/company-logo_200_200/company-logo_200_200/0/1723220946370/capacitycapital_logo?e=1745452800&v=beta&t=DKvHRtUO5S2DWc5drw5MYwzJf23RSlx86dFTCnfNFec",
     },
     {
         id: 62,
@@ -1103,7 +1103,7 @@ export const vcUSA = [
         stage: ["Pre-Seed"],
         sector: ["Sector Agnostic"],
         ticketSize: "500K - 1M",
-        logo: "Healthworx",
+        logo: "https://media.licdn.com/dms/image/v2/C4D0BAQFosfpxM6uU_w/company-logo_200_200/company-logo_200_200/0/1630563534222?e=1745452800&v=beta&t=Z3fPVCYufmnkHoVNM1kUFdSNggfnACdjbnARcDzm5TY",
     },
     {
         id: 63,
@@ -1120,7 +1120,7 @@ export const vcUSA = [
         stage: ["Pre-Seed"],
         sector: ["Sector Agnostic"],
         ticketSize: "500K - 1M",
-        logo: "https://recastcap.wpenginepowered.com/wp-content/themes/recast-sightbox/assets/images/recast-logo-1.svg",
+        logo: "https://media.licdn.com/dms/image/v2/D4D0BAQF2VtJcgtNi_w/company-logo_200_200/company-logo_200_200/0/1707921951597/recast_capital_logo?e=1745452800&v=beta&t=jrCkuv9D8Ax8TlazpZLRccn5WBcA60WRXwlbklzmTug",
     },
     {
         id: 64,
@@ -1138,7 +1138,7 @@ export const vcUSA = [
         stage: ["Pre-Seed"],
         sector: ["Sector Agnostic"],
         ticketSize: "300K - 500K",
-        logo: "https://morphic-images.s3.us-east-2.amazonaws.com/99/G_W_OCA_Logo_cb5cdae803.svg",
+        logo: "https://media.licdn.com/dms/image/v2/C560BAQFg3h6BUBJbXA/company-logo_200_200/company-logo_200_200/0/1650477656358/oca_ventures_logo?e=1745452800&v=beta&t=e8mNTS8tbGnRqdCLLjJK2dHBIJGmNhgH3kAsNLSdyYI",
     },
     {
         id: 65,
@@ -1210,7 +1210,7 @@ export const vcUSA = [
         stage: ["Pre-Seed"],
         sector: ["Sector Agnostic"],
         ticketSize: "300K - 500K",
-        logo: "Neu venture Capital",
+        logo: "https://media.licdn.com/dms/image/v2/C4E0BAQHJiB-PKgswtg/company-logo_200_200/company-logo_200_200/0/1630641767071/neu_venture_capital_logo?e=1745452800&v=beta&t=nOiIG_64uFeyIXRDNTHcz3jX_YisQEc8TwRgDiqJGpA",
     },
     {
         id: 69,
@@ -1228,7 +1228,7 @@ export const vcUSA = [
         stage: ["Pre-Seed"],
         sector: ["Sector Agnostic"],
         ticketSize: "300K - 500K",
-        logo: "https://www.tigerglobal.com/Templates/TigerGlobal/media/logo.png",
+        logo: "https://media.licdn.com/dms/image/v2/C4E0BAQEexbqxf2YRng/company-logo_200_200/company-logo_200_200/0/1630597914608/tiger_global_management_logo?e=1745452800&v=beta&t=C2QC9nfO0_eO-Tc1Zhn7NPj_5iST21HOMTzDxuA6MvI",
     },
     {
         id: 70,
@@ -1263,7 +1263,7 @@ export const vcUSA = [
         stage: ["Debt"],
         sector: ["Sector Agnostic"],
         ticketSize: "300K - 500K",
-        logo: "https://www.medtronic.com/content/dam/medtronic-com/medtronic75.svg",
+        logo: "https://media.licdn.com/dms/image/v2/D560BAQEzUefeWte_PQ/company-logo_200_200/company-logo_200_200/0/1667587833952/medtronic_logo?e=1745452800&v=beta&t=EB9HItgbUlwEB49z3li2VuYXytcKv0eDt169QmzD-fU",
     },
     {
         id: 72,
@@ -1299,7 +1299,7 @@ export const vcUSA = [
         stage: ["Pre-Seed"],
         sector: ["Sector Agnostic"],
         ticketSize: "300K - 500K",
-        logo: "ICONIQ",
+        logo: "https://media.licdn.com/dms/image/v2/C4D0BAQG2LAudRGfEHA/company-logo_200_200/company-logo_200_200/0/1657123854586/iconiq_capital_llc_logo?e=1745452800&v=beta&t=QRva8E6zSyEup-fODooJO-xCKE-Obv9DLV-AkVx1BLQ",
     },
     {
         id: 74,
@@ -1389,7 +1389,7 @@ export const vcUSA = [
         stage: ["Pre-Seed"],
         sector: ["Sector Agnostic"],
         ticketSize: "250K - 500K",
-        logo: "https://dradscapital.com/wp-content/uploads/2023/01/DRADS-CAPITAL.svg",
+        logo: "https://media.licdn.com/dms/image/v2/C560BAQHwoD5Zzh1juA/company-logo_200_200/company-logo_200_200/0/1630646759584?e=1745452800&v=beta&t=ubhZSj8oIQhKqIjGq3HY21_tQn1pg-nVNpDqXlYiHPk",
     },
     {
         id: 79,
@@ -1407,7 +1407,7 @@ export const vcUSA = [
         stage: ["Pre-Seed"],
         sector: ["Sector Agnostic"],
         ticketSize: "250K - 500K",
-        logo: "andreessen horowitz",
+        logo: "https://media.licdn.com/dms/image/v2/C4D0BAQFvJuVXdjmwiA/company-logo_200_200/company-logo_200_200/0/1630536568700/andreessen_horowitz_logo?e=1745452800&v=beta&t=6xo51-nQwRgfHvu67QyDyFZEEvWkO3cUEHaOtxIQOto",
     },
     {
         id: 80,
@@ -1443,7 +1443,7 @@ export const vcUSA = [
         stage: ["Pre-Seed"],
         sector: ["Sector Agnostic"],
         ticketSize: "250K - 500K",
-        logo: "Bee.",
+        logo: "https://media.licdn.com/dms/image/v2/D560BAQHbNauzCae-9g/company-logo_200_200/company-logo_200_200/0/1710800864233/beepartnersvc_logo?e=1745452800&v=beta&t=LMjefHnSCg3FPJZiibq0RMaJ9Tft60j6PGmvlPIwVBA",
     },
     {
         id: 82,
@@ -1461,7 +1461,7 @@ export const vcUSA = [
         stage: ["Pre-Seed"],
         sector: ["Sector Agnostic"],
         ticketSize: "250K - 500K",
-        logo: "VOLITION CAPITAL",
+        logo: "https://media.licdn.com/dms/image/v2/C4E0BAQFp-BFIZMU-hQ/company-logo_200_200/company-logo_200_200/0/1651849775563/volition_capital_logo?e=1745452800&v=beta&t=5S_5h7KV04zCYV0K1ECCdjHQ5Wkzyp9E_G40tbl5JD0",
     },
     {
         id: 83,
@@ -1497,7 +1497,7 @@ export const vcUSA = [
         stage: ["Pre-Seed"],
         sector: ["Sector Agnostic"],
         ticketSize: "250K - 500K",
-        logo: "https://cdn.prod.website-files.com/6645316fe16d922afe4494f3/66e0d6085c9fdee3c455f345_boostwhitelogo-p-500.png",
+        logo: "https://media.licdn.com/dms/image/v2/C560BAQE1-VVKIfFJYg/company-logo_200_200/company-logo_200_200/0/1654548235260/boost_vc_logo?e=1745452800&v=beta&t=u8TLmIiMrIVQtP1ZneN3hoOeKu9rr5uDeovWPMZTJRQ",
     },
     {
         id: 85,
@@ -1587,7 +1587,7 @@ export const vcUSA = [
         stage: ["Pre-Seed"],
         sector: ["Sector Agnostic"],
         ticketSize: "50K - 250K",
-        logo: "https://static.wixstatic.com/media/ca9ca7_770ce08b19d84998847352abcde5be76~mv2.png/v1/crop/x_36,y_0,w_828,h_300/fill/w_273,h_100,al_c,q_85,usm_4.00_1.00_0.00,enc_avif,quality_auto/Empactful%20Captial%20Graphics%20%26%20Logos%20(3).png",
+        logo: "https://media.licdn.com/dms/image/v2/D4D0BAQHT4n-fuIt4bw/company-logo_200_200/company-logo_200_200/0/1682458297673/empactfulcapital_logo?e=1745452800&v=beta&t=3xgtgn2uJcLiqUKMkbtjTbpbnOyQ-Iyx-jq32hs6hM4",
     },
     {
         id: 90,
@@ -1641,7 +1641,7 @@ export const vcUSA = [
         stage: ["Pre-Seed"],
         sector: ["Sector Agnostic"],
         ticketSize: "50K - 250K",
-        logo: "Crew",
+        logo: "https://media.licdn.com/dms/image/v2/C560BAQFeVA6lK7_j2w/company-logo_200_200/company-logo_200_200/0/1632841428283/acrew_capital_logo?e=1745452800&v=beta&t=uWrwEBMbGBk7hGUfMEnsX4K8mxwMmJAApKHpWHFm03A",
     },
     {
         id: 93,
@@ -1677,7 +1677,7 @@ export const vcUSA = [
         stage: ["Pre-Seed"],
         sector: ["Sector Agnostic"],
         ticketSize: "50K - 250K",
-        logo: "VENTURE CAPITAL",
+        logo: "https://media.licdn.com/dms/image/v2/C560BAQEVyp-c5rUk2A/company-logo_200_200/company-logo_200_200/0/1656531376772?e=1745452800&v=beta&t=zlTDE2yUFki9O2x31_AGvbjDVqNZWPbxu447pZnITSM",
     },
     {
         id: 95,
@@ -1749,7 +1749,7 @@ export const vcUSA = [
         stage: ["Pre-Seed"],
         sector: ["Sector Agnostic"],
         ticketSize: "50K - 250K",
-        logo: "initialized",
+        logo: "https://media.licdn.com/dms/image/v2/D560BAQGpbvw3n3Ousg/company-logo_200_200/company-logo_200_200/0/1667398712958/initialized_capital_logo?e=1745452800&v=beta&t=1CFaj2PBKafOnaAL_TEG6N-iJsndrjgjrGXR9umg3sQ",
     },
     {
         id: 99,
@@ -1785,7 +1785,7 @@ export const vcUSA = [
         stage: ["Pre-Seed"],
         sector: ["Sector Agnostic"],
         ticketSize: "50K - 250K",
-        logo: "https://cdn.prod.website-files.com/635a7c6ac66f9dcf064554ec/6368eb6b77c48f5ec41d5d64_Beyond%20brand%20logo-p-500.png",
+        logo: "https://media.licdn.com/dms/image/v2/C4E0BAQFbeqG_0yvZEA/company-logo_200_200/company-logo_200_200/0/1672740961598/joinbeyondcap_logo?e=1745452800&v=beta&t=OEvkWfF-7W4vB5HdW0ColWlpzvHwAnOI20zy-tUJNh4",
     },
     {
         id: 101,
@@ -1803,7 +1803,7 @@ export const vcUSA = [
         stage: ["Pre-Seed"],
         sector: ["Sector Agnostic"],
         ticketSize: "50K - 250K",
-        logo: "https://images.squarespace-cdn.com/content/v1/57523e2e7c65e467138edc24/1504123373903-LL2Q1X6HHD91QR1O7H58/Logo-Horizontal-White-1600x600.png?format=1500w",
+        logo: "https://media.licdn.com/dms/image/v2/C560BAQGfZmleKmlYRQ/company-logo_200_200/company-logo_200_200/0/1631424067526?e=1745452800&v=beta&t=ZdtQIRc7Z9jnIfy4gWoeUiyqMpA2jVuQrmgdLwl54Qc",
     },
     {
         id: 102,
@@ -1821,7 +1821,7 @@ export const vcUSA = [
         stage: ["Pre-Seed"],
         sector: ["Sector Agnostic"],
         ticketSize: "50K - 250K",
-        logo: "https://www.palmdrive.vc/Content/images/logo.svg",
+        logo: "https://media.licdn.com/dms/image/v2/C4E0BAQFpUZEEZoZFiw/company-logo_200_200/company-logo_200_200/0/1630632249911/palm_drive_ventures_logo?e=1745452800&v=beta&t=9IrrJjjKZ-1dkMba1ixI_PXGGYCZ_QZr18KuPeSlSDc",
     },
     { 
         id: 103,
@@ -1857,7 +1857,7 @@ export const vcUSA = [
         stage: ["Pre-Seed"],
         sector: ["Sector Agnostic"],
         ticketSize: "100K - 150K",
-        logo: "https://adjuvantcapital.com/wp-content/uploads/2019/08/adjuvant-dark-rgb-svg.svg",
+        logo: "https://media.licdn.com/dms/image/v2/C4D0BAQEHletUChFYSA/company-logo_200_200/company-logo_200_200/0/1630511333428/adjuvant_capital_logo?e=1745452800&v=beta&t=fNeTll6ClwlXk595fpnpNfyw1VB0g_CLyzuRs_hDedo",
     },
     { 
         id: 105,
@@ -1911,7 +1911,7 @@ export const vcUSA = [
         stage: ["Pre-Seed"],
         sector: ["Sector Agnostic"],
         ticketSize: "100K - 150K",
-        logo: "https://brandoncapital.vc/wp-content/uploads/2021/12/brandon-capital-logo-reverse-rgb-864px@72ppi.png",
+        logo: "https://media.licdn.com/dms/image/v2/C560BAQHkWlXEV9EaZg/company-logo_200_200/company-logo_200_200/0/1646782378826/brandon_capital_logo?e=1745452800&v=beta&t=moJAZ0gCrfs5b0Jp3vWpBFUF3kkyJ-jn6URkAma4Zi4",
     },
     { 
         id: 108,
@@ -1929,7 +1929,7 @@ export const vcUSA = [
         stage: ["Pre-Seed"],
         sector: ["Sector Agnostic"],
         ticketSize: "100K - 150K",
-        logo: "https://cdn.prod.website-files.com/66ba878556301278f45923c6/66ba8b9a277bb97f54d53ffc_Group%20134-p-800.png",
+        logo: "https://media.licdn.com/dms/image/v2/D4E0BAQHDiDeI3Ts6VQ/company-logo_200_200/company-logo_200_200/0/1724167545844/druid_ventures_logo?e=1745452800&v=beta&t=TTbwEeIlyDSqSdIUo7YZDkqFYq2-14WNdN95H1v-oYU",
     },
     { 
         id: 109,
@@ -1947,7 +1947,7 @@ export const vcUSA = [
         stage: ["Pre-Seed"],
         sector: ["Sector Agnostic"],
         ticketSize: "100K - 150K",
-        logo: "RACAPITAL",
+        logo: "https://media.licdn.com/dms/image/v2/C4E0BAQF-f95zyHvuDw/company-logo_200_200/company-logo_200_200/0/1630569933139/ra_capital_management_llc_logo?e=1745452800&v=beta&t=k3JLGaKEU8ppswKHMwUjC4SEmIFwwxDCOo2yMO5HpzU",
     },
     { 
         id: 110,
@@ -1965,7 +1965,7 @@ export const vcUSA = [
         stage: ["Pre-Seed"],
         sector: ["Sector Agnostic"],
         ticketSize: "100K - 150K",
-        logo: "https://cdn.prod.website-files.com/636e6f3b7d1f0294385c3d18/636e856918cd9c40017b1d20_logo.svg",
+        logo: "https://media.licdn.com/dms/image/v2/C4D0BAQE9eaYSdQXpGg/company-logo_200_200/company-logo_200_200/0/1631350558841?e=1745452800&v=beta&t=Navgtt1_aXhffV2kcN6VHejOU72duMKST5-mjWlD7OA",
     },
     { 
         id: 111,
@@ -1983,7 +1983,7 @@ export const vcUSA = [
         stage: ["Pre-Seed"],
         sector: ["Sector Agnostic"],
         ticketSize: "100K - 150K",
-        logo: "REPUBLIC CAPITAL",
+        logo: "https://media.licdn.com/dms/image/v2/C4E0BAQHvHSMbeL6Aag/company-logo_200_200/company-logo_200_200/0/1660572528777/republic_capital_logo?e=1745452800&v=beta&t=pFzleJl5k43dHnDpConLWxgBTgsdEOvo214GbTaZmeY",
     },
     { 
         id: 112,
@@ -2019,7 +2019,7 @@ export const vcUSA = [
         stage: ["Pre-Seed"],
         sector: ["Sector Agnostic"],
         ticketSize: "100K - 150K",
-        logo: "MBX Capital",
+        logo: "https://media.licdn.com/dms/image/v2/C4D0BAQH9Aq0E7W0GGw/company-logo_200_200/company-logo_200_200/0/1630556402509/mbx_capital_logo?e=1745452800&v=beta&t=pCuk7vrS1H89DC2DX6SaEktFP14g1isZcreYyPTsuRo",
     },
     { 
         id: 114,
@@ -2055,7 +2055,7 @@ export const vcUSA = [
         stage: ["Pre-Seed"],
         sector: ["Sector Agnostic"],
         ticketSize: "100K - 150K",
-        logo: "https://www.fintopcapital.com/dist/img/logo-white.png",
+        logo: "https://media.licdn.com/dms/image/v2/C4D0BAQHxmgr4uHcylQ/company-logo_200_200/company-logo_200_200/0/1631310183324?e=1745452800&v=beta&t=kmrbE0aO9m15m_idDr-DaAUB16oYHE5zdnwe6QiHtNk",
     },
     { 
         id: 116,
@@ -2091,7 +2091,7 @@ export const vcUSA = [
         stage: ["Pre-Seed"],
         sector: ["Sector Agnostic"],
         ticketSize: "50k-250k",
-        logo: "https://www.baincapital.com/themes/custom/baincapital/images/bain-capital-logo.svg",
+        logo: "https://media.licdn.com/dms/image/v2/D4E0BAQG4juCO1DOBNg/company-logo_200_200/company-logo_200_200/0/1731963803593/bain_capital_logo?e=1745452800&v=beta&t=IpLz0eObLXTgIghxrO27nYpYZQCYaaorGDmM6zjWlvY",
     },
     { 
         id: 118,
@@ -2109,7 +2109,7 @@ export const vcUSA = [
         stage: ["Pre-Seed"],
         sector: ["Sector Agnostic"],
         ticketSize: "50k-250k",
-        logo: "ANTHOS Cpaital",
+        logo: "https://media.licdn.com/dms/image/v2/C560BAQEKp-cv5zWXEg/company-logo_200_200/company-logo_200_200/0/1631369992174?e=1745452800&v=beta&t=vqTL9Z2UATwsx_uAKk9wWlqimGqziurCIaKJ5h3psMM",
     },
     { 
         id: 119,
@@ -2145,7 +2145,7 @@ export const vcUSA = [
         stage: ["Pre-Seed"],
         sector: ["Sector Agnostic"],
         ticketSize: "50k-250k",
-        logo: "Graüdenz Capital",
+        logo: "https://media.licdn.com/dms/image/v2/C560BAQEt5rzef8M1TA/company-logo_200_200/company-logo_200_200/0/1631356379036?e=1745452800&v=beta&t=nVgVjFHw5v0JsbSfGGshV0rc-Jc_pqmWUK2l67gJNK4",
     },
     { 
         id: 121,
@@ -2179,7 +2179,7 @@ export const vcUSA = [
         stage: ["Pre-Seed"],
         sector: ["Sector Agnostic"],
         ticketSize: "50k-250k",
-        logo: "SOMACAP",
+        logo: "https://media.licdn.com/dms/image/v2/C4E0BAQEid5KKTz0-xQ/company-logo_200_200/company-logo_200_200/0/1631307379404?e=1745452800&v=beta&t=_cJJXIo021UMzVyVFB3dWtlyIRDtrxa61jp8GJILs3A",
     },
     { 
         id: 123,
@@ -2215,7 +2215,7 @@ export const vcUSA = [
         stage: ["Pre-Seed"],
         sector: ["Sector Agnostic"],
         ticketSize: "50k-250k",
-        logo: "https://www.vensanacap.com/wp-content/uploads/2022/12/Vensana_hor_filled_white-3.png",
+        logo: "https://media.licdn.com/dms/image/v2/C4D0BAQFEgy5GN400VA/company-logo_200_200/company-logo_200_200/0/1630499829044/vensana_capital_logo?e=1745452800&v=beta&t=RUT8yCoFre4o-rlF-0HXBuAWmQ4Xb_UMNcogQpcNWLU",
     },
     { 
         id: 125,
@@ -2233,7 +2233,7 @@ export const vcUSA = [
         stage: ["Pre-Seed"],
         sector: ["Sector Agnostic"],
         ticketSize: "50k-250k",
-        logo: "https://www.sandscapital.com/uploads/2021/11/5b9519683fe69733e50afcd9422a3dc7/sands-logo-1.svg",
+        logo: "https://media.licdn.com/dms/image/v2/C560BAQENPgDpfaX2CA/company-logo_200_200/company-logo_200_200/0/1630613968456/sands_capital_management_logo?e=1745452800&v=beta&t=yniz9am1aYCniBm0XA8Mc3cqsyve9xcK9sozFY5YqCE",
     },
     {
         id: 126,    
@@ -2241,7 +2241,7 @@ export const vcUSA = [
         company: "investment management",    
         website: "http://www.sandscapital.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/sands-capital-management ",
-        logo: " https://www.sandscapital.com/uploads/2021/11/5b9519683fe69733e50afcd9422a3dc7/sands-logo-1.svg",
+        logo: " https://media.licdn.com/dms/image/v2/C560BAQENPgDpfaX2CA/company-logo_200_200/company-logo_200_200/0/1630613968456/sands_capital_management_logo?e=1745452800&v=beta&t=yniz9am1aYCniBm0XA8Mc3cqsyve9xcK9sozFY5YqCE",
         twitterUrl: "",
         companyOverview:"Every aspect of the Sands Capital culture is geared toward delivering strong results for our clients.",
         country: "United States",
@@ -2259,7 +2259,7 @@ export const vcUSA = [
         company: "capital markets",    
         website: "http://www.infiniocapital.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/infinio-capital ",
-        logo:"https://www.infiniocapital.com/wp-content/uploads/2021/07/logo-website-large.png",
+        logo:"https://media.licdn.com/dms/image/v2/C510BAQFGUzdc8cU-uw/company-logo_200_200/company-logo_200_200/0/1631386280089?e=1745452800&v=beta&t=VlTC6B_8F9imWYOB1TMc8vLZ1lIT5RfRgf1GFufjQ-0",
         twitterUrl: "",
         companyOverview:"Capital Markets generally refers to the financial markets where long-term debt or equity-backed securities are bought and sold.",
         country: "United States",
@@ -2344,7 +2344,7 @@ export const vcUSA = [
         company: "venture capital & private equity",    
         website: "http://www.shima.capital",
         companyLinkedinUrl: "http://www.linkedin.com/company/shima-capitals",
-        logo:"venture capital & private equity",
+        logo:"https://www.shima.capital/icons/icon-logo.png",
         twitterUrl: "https://twitter.com/shimacapital",
         companyOverview:" investment organization that focuses on providing capital to businesses at various stages of their growth.",
         country: "United States",
@@ -2650,7 +2650,6 @@ export const vcUSA = [
         company: "venture capital & private equity",    
         website: "http://www.hofcapital.com",
         companyLinkedinUrl: " http://www.linkedin.com/company/hof-capital",
-        logo:"data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjgiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCA2OCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTE0LjE2NzMgMC41NTc3NjlWMC44Mjg2ODVMMTUuODg4NCAwLjk4ODA0OEMxNy4xOTUyIDEuMTE1NTQgMTcuNTc3NyAxLjYwOTU2IDE3LjU3NzcgMi44ODQ0NlYxMS41NTM4SDUuNzUyOTlWMi44ODQ0NkM1Ljc1Mjk5IDEuNTI5ODggNi4yMTUxNCAxLjExNTU0IDcuNDQyMjMgMC45ODgwNDhMOS4xNjMzNSAwLjgyODY4NVYwLjU1Nzc2OUgwVjAuODI4Njg1TDEuNzIxMTIgMC45ODgwNDhDMy4wMjc4OSAxLjExNTU0IDMuNDEwMzYgMS42MDk1NiAzLjQxMDM2IDIuODg0NDZWMjEuMDgzN0MzLjQxMDM2IDIyLjQzODIgMi45NDgyMSAyMi44NTI2IDEuNzIxMTIgMjIuOTgwMUwwIDIzLjEzOTRWMjMuNDEwNEg5LjE2MzM1VjIzLjEzOTRMNy40NDIyMyAyMi45ODAxQzYuMTM1NDYgMjIuODUyNiA1Ljc1Mjk5IDIyLjM1ODYgNS43NTI5OSAyMS4wODM3VjExLjg4ODRIMTcuNTc3N1YyMS4wODM3QzE3LjU3NzcgMjIuNDM4MiAxNy4xMTU1IDIyLjg1MjYgMTUuODg4NCAyMi45ODAxTDE0LjE2NzMgMjMuMTM5NFYyMy40MTA0SDIzLjMzMDdWMjMuMTM5NEwyMS42MDk2IDIyLjk4MDFDMjAuMzAyOCAyMi44NTI2IDE5LjkyMDMgMjIuMzU4NiAxOS45MjAzIDIxLjA4MzdWMi44ODQ0NkMxOS45MjAzIDEuNTI5ODggMjAuMzgyNSAxLjExNTU0IDIxLjYwOTYgMC45ODgwNDhMMjMuMzMwNyAwLjgyODY4NVYwLjU1Nzc2OUgxNC4xNjczWiIgZmlsbD0iIzJEMkQyRCIvPgo8cGF0aCBkPSJNMzYuNDYyMSAwQzMwLjQwNjQgMCAyNi4wMzk4IDQuOTg4MDUgMjYuMDM5OCAxMS45MjAzQzI2LjAzOTggMTguOTAwNCAzMC40NTQyIDI0IDM2LjU1NzggMjRDNDIuNjEzNSAyNCA0Ni45OTYgMTkuMDEyIDQ2Ljk5NiAxMi4wNzk3QzQ2Ljk5NiA1LjA5OTYgNDIuNTY1NyAwIDM2LjQ2MjEgMFpNMzcuMTYzMyAyMy42MzM1QzMyLjQ0NjIgMjMuNjMzNSAyOC43OTY4IDE4LjIzMTEgMjguNzk2OCAxMS4yODI5QzI4Ljc5NjggNS42ODkyNCAzMS4yMDMyIDAuMzY2NTM0IDM1Ljg1NjYgMC4zNjY1MzRDNDAuNTg5NiAwLjM2NjUzNCA0NC4yMzkgNS43Njg5MiA0NC4yMzkgMTIuNzE3MUM0NC4yMzkgMTguMzEwOCA0MS44MzI3IDIzLjYzMzUgMzcuMTYzMyAyMy42MzM1WiIgZmlsbD0iIzJEMkQyRCIvPgo8cGF0aCBkPSJNNDkuNjg5MiAwLjgyODY4NUw1MS40MTA0IDAuOTg4MDQ4QzUyLjcxNzEgMS4xMTU1NCA1My4wOTk2IDEuNjA5NTYgNTMuMDk5NiAyLjg4NDQ2VjIxLjA4MzdDNTMuMDk5NiAyMi40MzgyIDUyLjYzNzQgMjIuODUyNiA1MS40MTA0IDIyLjk4MDFMNDkuNjg5MiAyMy4xMzk0VjIzLjQxMDRINTkuNDlWMjMuMTM5NEw1Ny4xMzE1IDIyLjk0ODJDNTUuOTA0NCAyMi44MzY3IDU1LjQ0MjIgMjIuNDA2NCA1NS40NDIyIDIxLjA1MThWMTIuMjIzMUg1OS42NDk0QzYyLjM5MDQgMTIuMjIzMSA2My40MTA0IDE0LjIxNTEgNjMuNjMzNSAxNi44MTI3SDYzLjkwNDRWNy4zNDY2MUg2My42MzM1QzYzLjQxMDQgOS45NDQyMiA2Mi4zOTA0IDExLjkzNjMgNTkuNjQ5NCAxMS45MzYzSDU1LjQ0MjJWMC44NDQ2MjJINjAuOTU2MkM2NS4xNjMzIDAuODQ0NjIyIDY2LjgwNDggMy43NDUwMiA2Ny4yNTEgNy4xMjM1MUg2Ny41MjE5VjAuNTU3NzY5SDQ5LjY4OTJWMC44Mjg2ODVaIiBmaWxsPSIjMkQyRDJEIi8+Cjwvc3ZnPgo= ",
         twitterUrl: "https://twitter.com/hofcapital ",
         companyOverview:"both forms of private investment that focus on providing capital to businesses, but they differ in terms of the stage of investment, risk level, strategy, and types of companies they target. ",
         country: "United States",
@@ -2659,7 +2658,8 @@ export const vcUSA = [
         sector: ["Government"],
         ticketSize: " 150K -  250K",
         currentFundCorpus: "2320000",
-        totalFundCorpus: "300000000",        
+        totalFundCorpus: "300000000", 
+        logo: "https://media.licdn.com/dms/image/v2/C4D0BAQFAy04TxfOQ1w/company-logo_200_200/company-logo_200_200/0/1631336133602?e=1745452800&v=beta&t=zdHt7Uc5wsd6o4zKnciUbFkJVutJqqXVTfDbvCwfRHw",       
     },
     {
         id: 151,    
@@ -3260,10 +3260,9 @@ export const vcUSA = [
     {
         id: 186,    
         title: " Venture Partner ",     
-        company: "        ",    
+        company: "TTM Capital",    
         website: "http://www.ttmcapital.com.au",
         companyLinkedinUrl: "http://www.linkedin.com/company/ttm-capital",
-        logo:" data:image/png;base64,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",
         twitterUrl: " " ,
         companyOverview:" UpHonest Capital is a Sector Agnostic early-stage VC based in Silicon Valley. We invest in Seed, Pre-A, and Series A stages and many of our portfolio companies go on to receive later-stage investments from Sequoia, Accel, a16z, and others. We have invested in over 400 portfolio companies including Checkr, Boom, Astranis, Rippling, Turing, etc. We have an overseas vision and an active innovative ecosystem, which integrates a high-quality entrepreneur community, innovation events, media & communication coverage, and entrepreneurship education.",
         city: "Conroe",
@@ -3272,12 +3271,13 @@ export const vcUSA = [
         sector: ["Supply Chain/Logistics"],
         ticketSize: " 50K -  250K",
         currentFundCorpus: "42553452",
-        totalFundCorpus: " 32455466",        
+        totalFundCorpus: " 32455466",  
+        logo: "Venture Partner",      
     },
     {
         id: 187,    
         title: " Venture ",     
-        company: "",    
+        company: "Mubadala Capital",    
         website: "http://www.mubadalacapital.ae",
         companyLinkedinUrl: "http://www.linkedin.com/company/mubadala-capital",
         logo:" https://media.licdn.com/dms/image/v2/C4D0BAQEoNPaYxJ2-AA/company-logo_200_200/company-logo_200_200/0/1644328110795?e=1744848000&v=beta&t=PeAtBzDNYUGo2iyOVSHu4tx18phWfCm0y9Mcc8zxJIA",
@@ -3379,7 +3379,7 @@ export const vcUSA = [
     {
         id: 193,    
         title: " Venture Capital",     
-        company: "",    
+        company: "Venture Group Capital",    
         website: "http://www.venturegrpllc.com",
         companyLinkedinUrl: "http://www.linkedin.com/company/venture-group-capital",
         logo:" Venture Capital",
@@ -4009,10 +4009,10 @@ export const vcUSA = [
     {
         id: 230,    
         title: "Venture Capital",     
-        company: "",    
+        company: "JOE VENTURES PRIVATE LIMITED",    
         website: " ",
         companyLinkedinUrl: "http://www.linkedin.com/company/joe-ventures-private-limited",
-        logo:"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7 ",
+        logo:"JOE VENTURES PRIVATE LIMITED",
         twitterUrl: " " ,
         companyOverview:" Ventures Private Limited in their name often represent venture capital or private equity firms that focus on investing in startups or growth-stage companies across various sectors.",
         country: "United States",
