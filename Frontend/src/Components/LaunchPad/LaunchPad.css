@@ -21,12 +21,8 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-<<<<<<< HEAD
   padding: 1rem;
   margin-bottom:40px;
-=======
-  padding: 5px;
->>>>>>> c3d7e6114f9403373f4b2728c53f69181f81390b
 }
 
 .card {
@@ -106,11 +102,12 @@
   .card-para p {
     margin: 30px; /* Adjust margin for extra-large screens */
   }
-}
+
 
 .heading {
   color: #2f3246;
   letter-spacing: -0.02em;
+}
 }
 .lower-section {
   display: flex;
