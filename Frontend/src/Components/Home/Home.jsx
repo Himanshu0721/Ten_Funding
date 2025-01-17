@@ -1,6 +1,13 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./Home.css";
 import { useNavigate } from "react-router-dom";
+import StageFocusDropdown from "./StageFocusDropdown";
+import SectorFocusDropdown from "./SectorFocusDropdown";
+import DatasetDropdown from "./DatasetDropdown.jsx";
+import vcIndiaData from "../../assets/data/vcIndia.js";
+import vcUSAData from "../../assets/data/vcUSA.js";
+import angelsIndiaData from "../../assets/data/angelsIndia.js";
+import angelsUSAData from "../../assets/data/angelsUSA.js";
 
 function Home() {
   const navigate = useNavigate();
@@ -9,193 +16,77 @@ function Home() {
     navigate("/registration-form");
   };
 
-  const investors = [
-    {
-      name: "2am VC",
-      stages: ["Pre-Seed", "Seed", "Series A"],
-      sector: "Sector Agnostic",
-      ticketSize: "$100K - $500K",
-      logo: "https://cdn.prod.website-files.com/66231acb2160c0962a6c50d4/67065f076f6590d0317c92f0_2_a_m_ventures_logo.jpeg",
-    },
-    {
-      name: "8x Ventures",
-      stages: ["Pre-Seed", "Seed", "Series A"],
-      sector: "Sector Agnostic",
-      ticketSize: "$100K - $500K",
-      logo: "https://cdn.prod.website-files.com/66231acb2160c0962a6c50d4/6669699c4154202fd2414213_eight_innovate_logo.jpg",
-    },
-    {
-      name: "8i ventures",
-      stages: ["Pre-Seed", "Seed", "Series A"],
-      sector: "Sector Agnostic",
-      ticketSize: "$100K - $500K",
-      logo: "https://cdn.prod.website-files.com/66231acb2160c0962a6c50d4/6669699c4154202fd2414213_eight_innovate_logo.jpg",
-    },
-    {
-      name: "2am VC",
-      stages: ["Pre-Seed", "Seed", "Series A"],
-      sector: "Sector Agnostic",
-      ticketSize: "$100K - $500K",
-      logo: "https://cdn.prod.website-files.com/66231acb2160c0962a6c50d4/67065f076f6590d0317c92f0_2_a_m_ventures_logo.jpeg",
-    },
-    {
-      name: "8x Ventures",
-      stages: ["Pre-Seed", "Seed", "Series A"],
-      sector: "Sector Agnostic",
-      ticketSize: "$100K - $500K",
-      logo: "https://cdn.prod.website-files.com/66231acb2160c0962a6c50d4/6669699c4154202fd2414213_eight_innovate_logo.jpg",
-    },
-    {
-      name: "8i ventures",
-      stages: ["Pre-Seed", "Seed", "Series A"],
-      sector: "Sector Agnostic",
-      ticketSize: "$100K - $500K",
-      logo: "https://cdn.prod.website-files.com/66231acb2160c0962a6c50d4/6669699c4154202fd2414213_eight_innovate_logo.jpg",
-    },
-    {
-      name: "2am VC",
-      stages: ["Pre-Seed", "Seed", "Series A"],
-      sector: "Sector Agnostic",
-      ticketSize: "$100K - $500K",
-      logo: "https://cdn.prod.website-files.com/66231acb2160c0962a6c50d4/67065f076f6590d0317c92f0_2_a_m_ventures_logo.jpeg",
-    },
-    {
-      name: "8x Ventures",
-      stages: ["Pre-Seed", "Seed", "Series A"],
-      sector: "Sector Agnostic",
-      ticketSize: "$100K - $500K",
-      logo: "https://cdn.prod.website-files.com/66231acb2160c0962a6c50d4/6669699c4154202fd2414213_eight_innovate_logo.jpg",
-    },
-    {
-      name: "8i ventures",
-      stages: ["Pre-Seed", "Seed", "Series A"],
-      sector: "Sector Agnostic",
-      ticketSize: "$100K - $500K",
-      logo: "https://cdn.prod.website-files.com/66231acb2160c0962a6c50d4/6669699c4154202fd2414213_eight_innovate_logo.jpg",
-    },
-    {
-      name: "2am VC",
-      stages: ["Pre-Seed", "Seed", "Series A"],
-      sector: "Sector Agnostic",
-      ticketSize: "$100K - $500K",
-      logo: "https://cdn.prod.website-files.com/66231acb2160c0962a6c50d4/67065f076f6590d0317c92f0_2_a_m_ventures_logo.jpeg",
-    },
-    {
-      name: "8x Ventures",
-      stages: ["Pre-Seed", "Seed", "Series A"],
-      sector: "Sector Agnostic",
-      ticketSize: "$100K - $500K",
-      logo: "https://cdn.prod.website-files.com/66231acb2160c0962a6c50d4/6669699c4154202fd2414213_eight_innovate_logo.jpg",
-    },
-    {
-      name: "8i ventures",
-      stages: ["Pre-Seed", "Seed", "Series A"],
-      sector: "Sector Agnostic",
-      ticketSize: "$100K - $500K",
-      logo: "https://cdn.prod.website-files.com/66231acb2160c0962a6c50d4/6669699c4154202fd2414213_eight_innovate_logo.jpg",
-    },
-    {
-      name: "2am VC",
-      stages: ["Pre-Seed", "Seed", "Series A"],
-      sector: "Sector Agnostic",
-      ticketSize: "$100K - $500K",
-      logo: "https://cdn.prod.website-files.com/66231acb2160c0962a6c50d4/67065f076f6590d0317c92f0_2_a_m_ventures_logo.jpeg",
-    },
-    {
-      name: "8x Ventures",
-      stages: ["Pre-Seed", "Seed", "Series A"],
-      sector: "Sector Agnostic",
-      ticketSize: "$100K - $500K",
-      logo: "https://cdn.prod.website-files.com/66231acb2160c0962a6c50d4/6669699c4154202fd2414213_eight_innovate_logo.jpg",
-    },
-    {
-      name: "8i ventures",
-      stages: ["Pre-Seed", "Seed", "Series A"],
-      sector: "Sector Agnostic",
-      ticketSize: "$100K - $500K",
-      logo: "https://cdn.prod.website-files.com/66231acb2160c0962a6c50d4/6669699c4154202fd2414213_eight_innovate_logo.jpg",
-    },
-    {
-      name: "2am VC",
-      stages: ["Pre-Seed", "Seed", "Series A"],
-      sector: "Sector Agnostic",
-      ticketSize: "$100K - $500K",
-      logo: "https://cdn.prod.website-files.com/66231acb2160c0962a6c50d4/67065f076f6590d0317c92f0_2_a_m_ventures_logo.jpeg",
-    },
-    {
-      name: "8x Ventures",
-      stages: ["Pre-Seed", "Seed", "Series A"],
-      sector: "Sector Agnostic",
-      ticketSize: "$100K - $500K",
-      logo: "https://cdn.prod.website-files.com/66231acb2160c0962a6c50d4/6669699c4154202fd2414213_eight_innovate_logo.jpg",
-    },
-    {
-      name: "8i ventures",
-      stages: ["Pre-Seed", "Seed", "Series A"],
-      sector: "Sector Agnostic",
-      ticketSize: "$100K - $500K",
-      logo: "https://cdn.prod.website-files.com/66231acb2160c0962a6c50d4/6669699c4154202fd2414213_eight_innovate_logo.jpg",
-    },
-    {
-      name: "2am VC",
-      stages: ["Pre-Seed", "Seed", "Series A"],
-      sector: "Sector Agnostic",
-      ticketSize: "$100K - $500K",
-      logo: "https://cdn.prod.website-files.com/66231acb2160c0962a6c50d4/67065f076f6590d0317c92f0_2_a_m_ventures_logo.jpeg",
-    },
-    {
-      name: "8x Ventures",
-      stages: ["Pre-Seed", "Seed", "Series A"],
-      sector: "Sector Agnostic",
-      ticketSize: "$100K - $500K",
-      logo: "https://cdn.prod.website-files.com/66231acb2160c0962a6c50d4/6669699c4154202fd2414213_eight_innovate_logo.jpg",
-    },
-    {
-      name: "8i ventures",
-      stages: ["Pre-Seed", "Seed", "Series A"],
-      sector: "Sector Agnostic",
-      ticketSize: "$100K - $500K",
-      logo: "https://cdn.prod.website-files.com/66231acb2160c0962a6c50d4/6669699c4154202fd2414213_eight_innovate_logo.jpg",
-    },
-    {
-      name: "2am VC",
-      stages: ["Pre-Seed", "Seed", "Series A"],
-      sector: "Sector Agnostic",
-      ticketSize: "$100K - $500K",
-      logo: "https://cdn.prod.website-files.com/66231acb2160c0962a6c50d4/67065f076f6590d0317c92f0_2_a_m_ventures_logo.jpeg",
-    },
-    {
-      name: "8x Ventures",
-      stages: ["Pre-Seed", "Seed", "Series A"],
-      sector: "Sector Agnostic",
-      ticketSize: "$100K - $500K",
-      logo: "https://cdn.prod.website-files.com/66231acb2160c0962a6c50d4/6669699c4154202fd2414213_eight_innovate_logo.jpg",
-    },
-    {
-      name: "8i ventures",
-      stages: ["Pre-Seed", "Seed", "Series A"],
-      sector: "Sector Agnostic",
-      ticketSize: "$100K - $500K",
-      logo: "https://cdn.prod.website-files.com/66231acb2160c0962a6c50d4/6669699c4154202fd2414213_eight_innovate_logo.jpg",
-    },
-   
-  ];
-
   const [visibleCount, setVisibleCount] = useState(10);
-  const [stageFocus, setStageFocus] = useState("");
-  const [sectorFocus, setSectorFocus] = useState("");
-  const [ticketSize, setTicketSize] = useState("");
+  const [selectedStages, setSelectedStages] = useState([]);
+  const [selectedSectors, setSelectedSectors] = useState([]);
+  const [selectedItem, setSelectedItem] = useState(null);
+  const [filteredInvestors, setFilteredInvestors] = useState(angelsIndiaData);
+  const [searchQuery, setSearchQuery] = useState("");
+  const [selectedDataset, setSelectedDataset] = useState(angelsIndiaData);
 
+  const handleClick = (item) => {
+    setSelectedItem(item);
+  };
   const handleLoadMore = () => {
     setVisibleCount((prevCount) => prevCount + 5);
   };
 
-  const filteredInvestors = investors.filter(
-    (investor) =>
-      (!stageFocus || investor.stages.includes(stageFocus)) &&
-      (!sectorFocus || investor.sector === sectorFocus) &&
-      (!ticketSize || investor.ticketSize === ticketSize)
-  );
+  // Function to apply all filters
+  const filterInvestors = () => {
+    let filtered = selectedDataset;
+
+    // Filter by selected stages if any are selected
+    if (selectedStages.length > 0) {
+      filtered = filtered.filter((investor) =>
+        investor.stages.some((stage) => selectedStages.includes(stage))
+      );
+    }
+
+    // Filter by selected sector if one is selected
+    if (selectedSectors.length > 0) {
+      filtered = filtered.filter((investor) =>
+        investor.sectors.some((sector) => selectedSectors.includes(sector))
+      );
+    }
+
+    // Filter by search query if present
+    if (searchQuery.trim()) {
+      filtered = filtered.filter((investor) =>
+        investor.title.toLowerCase().includes(searchQuery.toLowerCase())
+      );
+    }
+
+    setFilteredInvestors(filtered);
+  };
+
+  // Update filters whenever any filter state changes
+  useEffect(() => {
+    filterInvestors();
+  }, [selectedStages, selectedSectors, searchQuery, selectedDataset]);
+
+  const handleDatasetChange = (newDataset) => {
+    if (newDataset === "angelsIndiaData") setSelectedDataset(angelsIndiaData);
+    else if (newDataset === "vcIndiaData") setSelectedDataset(vcIndiaData);
+    else if (newDataset === "vcUSAData") setSelectedDataset(vcUSAData);
+    else if (newDataset === "angelsUSAData") setSelectedDataset(angelsUSAData);
+  };
+
+  const handleStageChange = (newSelectedStages) => {
+    setSelectedStages(newSelectedStages);
+  };
+
+  const handleSectorChange = (newSelectedSectors) => {
+    setSelectedSectors(newSelectedSectors);
+  };
+
+  // Function to remove a tag (stage or sector)
+  const handleRemoveTag = (type, value) => {
+    if (type === "stage") {
+      setSelectedStages(selectedStages.filter((stage) => stage !== value));
+    } else if (type === "sector") {
+      setSelectedSectors(selectedSectors.filter((sector) => sector !== value));
+    }
+  };
 
   return (
     <div className="home-container">
@@ -209,50 +100,62 @@ function Home() {
       </div>
       <br />
       <hr className="hr-1" />
-      {/* Dropdown Menus */}
+      {/* Dropdown Menus & Search*/}
       <div className="filter-section">
-        <select
-          value={stageFocus}
-          onChange={(e) => setStageFocus(e.target.value)}
-          className="dropdown dropdown2"
-        >
-          <option value="">Stage Focus</option>
-          <option value="Pre-Seed">Pre-Seed</option>
-          <option value="Seed">Seed</option>
-          <option value="Series A">Series A</option>
-          <option value="Series B">Series B</option>
-        </select>
+        <div>
+          <DatasetDropdown
+            selectedDataset={selectedDataset}
+            onDatasetChange={handleDatasetChange}
+          />
+        </div>
+        <div>
+          <StageFocusDropdown
+            selectedStages={selectedStages}
+            onStageChange={handleStageChange}
+          />
+        </div>
+        <div>
+          <SectorFocusDropdown
+            selectedSectors={selectedSectors}
+            onSectorChange={handleSectorChange}
+          />
+        </div>
 
-        <select
-          value={sectorFocus}
-          onChange={(e) => setSectorFocus(e.target.value)}
-          className="dropdown dropdown2"
-        >
-          <option value="">Sector Focus</option>
-          <option value="Sector Agnostic">Sector Agnostic</option>
-          <option value="Tech Focus">Tech Focus</option>
-          <option value="AI & ML">AI & ML</option>
-          <option value="Fintech">Fintech</option>
-        </select>
-
-        <select
-          value={ticketSize}
-          onChange={(e) => setTicketSize(e.target.value)}
-          className="dropdown dropdown2"
-        >
-          <option value="">Ticket Size</option>
-          <option value="$50K - $300K">$50K - $300K</option>
-          <option value="$100K - $500K">$100K - $500K</option>
-          <option value="$200K - $1M">$200K - $1M</option>
-          <option value="$500K - $5M">$500K - $5M</option>
-        </select>
-        <div class="Search">
-          <input placeholder="Search" required="">
-          </input>
-          <img src="https://cdn.prod.website-files.com/66230c5ee8288ee065356a3e/663a1195151cfe142a130080_search%20(1).svg" alt="" class="serch-icon">
-          </img>
+        <div className="Search">
+          <input
+            placeholder="Search"
+            required
+            value={searchQuery}
+            onChange={(e) => setSearchQuery(e.target.value)}
+          ></input>
+          <img
+            src="https://cdn.prod.website-files.com/66230c5ee8288ee065356a3e/663a1195151cfe142a130080_search%20(1).svg"
+            alt=""
+            className="serch-icon"
+          ></img>
         </div>
       </div>
+
+      {/* Showcasing Selected Filter (Selected Tages) */}
+      <div className="selected-filters">
+        {selectedStages.map((stage, index) => (
+          <div className="tag" key={`stage-${index}`}>
+            {stage}
+            <span className="remove-tag" onClick={() => handleRemoveTag("stage", stage)}>
+              X
+            </span>
+          </div>
+        ))}
+        {selectedSectors.map((sector, index) => (
+          <div className="tag" key={`sector-${index}`}>
+            {sector}
+            <span className="remove-tag" onClick={() => handleRemoveTag("sector", sector)}>
+              X
+            </span>
+          </div>
+        ))}
+      </div>
+
       <div className="home-sec">
         <div className="home-sec-header">
           <h6>NAME</h6>
@@ -267,7 +170,7 @@ function Home() {
               <img
                 src={investor.logo}
                 loading="lazy"
-                alt={`${investor.name} logo`}
+                alt={`${investor.title} logo`}
                 className="db-img"
               />
               <div>
@@ -275,15 +178,15 @@ function Home() {
               </div>
             </div>
             <div className="btn-1">
-              {investor.stages.map((stage, stageIndex) => (
+              {investor?.stages?.map((stage, stageIndex) => (
                 <a href="" target="" key={stageIndex}>
                   <button id="button-1">{stage}</button>
                 </a>
-              ))}
+              )) || <p>No stages available</p>}
             </div>
             <div className="btn-2">
               <a href="" target="">
-                <button id="button-2">{investor.sector}</button>
+                <button id="button-2">{investor.sectors}</button>
               </a>
             </div>
             <p>{investor.ticketSize}</p>
@@ -300,4 +203,3 @@ function Home() {
 }
 
 export default Home;
-

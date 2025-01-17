@@ -3,7 +3,7 @@
 }
 
 .venture-container h1 {
-  margin: 10rem 0 5rem 0;
+  margin: 5rem 0;
   text-align: center;
   font-size: 2.5rem;
 }
@@ -101,6 +101,10 @@
 }
 
 @media (max-width: 1024px) {
+  .venture-container h1 {
+    margin: 3.5rem 0;
+  }
+
   .venture-main-div {
     width: 75%;
   }
@@ -135,7 +139,8 @@
 
 @media (max-width: 480px) {
   .venture-container h1 {
-    font-size: 2rem;
+    margin: 2rem 0;
+    font-size: 1.75rem;
   }
 
   .venture-main-buttons {
@@ -152,8 +157,12 @@
   .venture-lastdiv-cards {
     width: 95%;
   }
+  .venture-lastdiv-card-image {
+    width: 95%;
+    margin: 0 auto;
+  }
   .venture-lastdiv-card-content {
-    padding: 2rem 0 2rem 2rem;
+    padding: 2rem 1rem 2rem 2rem;
   }
   .venture-lastdiv-card-content h2 {
     font-size: 1.5rem;

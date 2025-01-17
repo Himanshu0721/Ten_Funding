@@ -5,7 +5,7 @@
 /* ------------------------------ About Header Section */
 
 .about-container h1 {
-  margin: 10rem 0 5rem 0;
+  margin: 5rem 0;
   text-align: center;
   font-size: 2.5rem;
 }
@@ -178,6 +178,10 @@
 
 /* ------------------------------------------------- Responsive Style */
 @media (max-width: 1024px) {
+  .about-container h1 {
+    margin: 3.5rem 0;
+  }
+
   .about-main-div {
     width: 75%;
   }
@@ -229,6 +233,11 @@
 }
 
 @media (max-width: 480px) {
+  .about-container h1 {
+    margin: 2rem 0;
+    font-size: 1.75rem;
+  }
+
   .about-main-buttons {
     width: 300px;
   }
@@ -257,8 +266,12 @@
   .about-lastdiv-cards {
     width: 95%;
   }
+  .about-lastdiv-card-image {
+    width: 95%;
+    margin: 0 auto;
+  }
   .about-lastdiv-card-content {
-    padding: 2rem 0 2rem 2rem;
+    padding: 2rem 1rem 2rem 2rem;
   }
   .about-lastdiv-card-content h2 {
     font-size: 1.5rem;
