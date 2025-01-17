@@ -11,7 +11,15 @@
   top: 0;
   z-index: 1000;
 }
-
+.close-dropdown{
+  height: 0.5rem;
+  background: transparent;
+  position: absolute;
+  top: 2%;
+  left: 95%;
+  border: none;
+  font-size: 1.3rem;
+}
 .navbar-logo {
   display: flex;
   align-items: center;
@@ -44,21 +52,20 @@
   border-radius: 8px;
   transition: all 0.3s ease;
   background-color: #ffffff;
-  /* height: 50px; */
   width: fit-content;
 }
 .navbar-links li:hover {
   background-color: #eae7e7;
+  display: block;
 }
 
 .menu-toggle {
   display: none;
   background: none;
   border: none;
-  font-size: 16px;
   cursor: pointer;
   color: black;
-  padding-right: 50px;
+  padding-right: 16px;
 }
 .navbar-space {
   height: 80px;
@@ -77,16 +84,17 @@
 .dropdown-nav {
   display: flex;
   gap: 5px;
+  max-height: 400px;
   position: absolute;
   top: 100%;
   right: 2%;
   background-color: #ffffff;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
-  padding-top: 0.9rem !important;
-  padding: 0.5rem 1rem;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+  padding-top: 2rem !important;
+  padding: 1rem;
   width: 700px;
-  z-index: 2000;
+  z-index: 10;
   cursor: pointer;
 }
 
@@ -100,7 +108,7 @@
 }
 .dropdown-nav-item3 {
   background-color: #eae7e7;
-  min-width: 227px;
+  min-width: 220px;
   margin-bottom: 10px;
   padding: 10px;
   border-radius: 5px;
@@ -109,7 +117,7 @@
 
 .dropdown-nav-item2 {
   background-color: #eae7e7;
-  min-width: 330px;
+  min-width: 332px;
   height: fit-content;
   margin-bottom: 10px;
   padding: 10px;
@@ -206,26 +214,29 @@
 @media (max-width: 958px) and (min-width: 300px) {
   .navbar-logo {
     margin-left: 0;
+    width: 3.5rem;
   }
-
   .navbar-links {
     display: none;
     flex-direction: column;
     background-color: #ffffff;
     position: absolute;
     top: 60px;
-    right: 20px;
+    right: 60px;
     width: 200px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     padding: 10px;
   }
-
   .navbar-links.open {
     display: flex;
   }
-
+  .close-dropdown{
+    left: 90%;
+    top: 0.5%;
+  }
   .menu-toggle {
     display: block;
+    font-size: 25px;
   }
   .dropdown-nav {
     position: relative;
@@ -235,17 +246,8 @@
     left: 2%;
     box-shadow: none;
     flex-wrap: wrap;
+    overflow-y: auto;
   }
-  /* .dropdown-item {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    background-color: #ffffff;
-    
-    z-index: 1000;
-    width: 350px;
-  } */
   .dropdown-nav-item {
     background-color: #eae7e7;
     width: 30%;
@@ -301,6 +303,9 @@
     width: 100px;
     margin-right: 10px;
     height: 60px;
+  }
+  .menu-toggle{
+    margin-left: 5rem;
   }
 }
 
