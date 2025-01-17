@@ -1,8 +1,3 @@
-import InternationalFinanceCorporation from '@/assets/images/vcusa/IFC-Logo.svg'; 
-import stellantis from '@/assets/images/vcusa/LogoStellantisVentures-Blu-1.svg'; 
-import illinois from '@/assets/images/vcusa/illinois_gov.png'; 
-
-
 export const vcUSA = [
 {
         id: 1,    
@@ -18,7 +13,7 @@ export const vcUSA = [
         ticketSize: "50k-250k",
         currentFundCorpus: "125000",
         TotalFundCorpus: "500000",
-        logo: InternationalFinanceCorporation, 
+        logo: "https://media.licdn.com/dms/image/v2/C560BAQHLv3_h2UaJlA/company-logo_200_200/company-logo_200_200/0/1631329404027?e=1745452800&v=beta&t=_G0NJja_4KpAUcVhGiR4qu1Ciwn0qRq8QZOibKo5UVU", 
 },
 {
         id: 2,
@@ -36,7 +31,7 @@ export const vcUSA = [
         stage: ["Pre-Seed"],
         sector: ["Sector Agnostic"],
         ticketSize: "50k-250k",
-        logo: "Venture Partner",
+        logo: "https://media.licdn.com/dms/image/v2/D4E0BAQHDEDbDjXnfRg/company-logo_200_200/company-logo_200_200/0/1690726332986/social_impact_capital_logo?e=1745452800&v=beta&t=l715LF8XWiL427JvZmn1FmRzLArSwb3i2Yuhpas15Ts",
 },
     {
         id: 3,
@@ -87,7 +82,7 @@ export const vcUSA = [
         stage: ["Pre-Seed"],
         sector: ["Sector Agnostic"],
         ticketSize: "50k-250k",
-        logo: "Venture Capital",
+        logo: "https://media.licdn.com/dms/image/v2/C4E0BAQEEwTOnwK5sGA/company-logo_200_200/company-logo_200_200/0/1630598689086/hermes_group_logo?e=1745452800&v=beta&t=3YwAQqEbJaQBSOK0AtXXjEJnLq60hZQdYFGIw0aDvfw",
     },
     {
         id: 6,
@@ -104,7 +99,7 @@ export const vcUSA = [
         stage: ["Pre-Seed"],
         sector: ["Sector Agnostic"],
         ticketSize: "50k-250k",
-        logo: "Nosara Capital",
+        logo: "https://media.licdn.com/dms/image/v2/D560BAQFsj7mytVEikA/company-logo_200_200/company-logo_200_200/0/1664814313980/crg_capital_partners_logo?e=1745452800&v=beta&t=TEPrn4F2AZPAedDJDPU03Bd9KyudG5IpFFtnKr-xR9s",
     },
     {
         id: 7,
@@ -122,7 +117,7 @@ export const vcUSA = [
         stage: ["Pre-Seed"],
         sector: ["Sector Agnostic"],
         ticketSize: "50k-250k",
-        logo: "https://dst-global.com/i/logo.svg",
+        logo: "https://media.licdn.com/dms/image/v2/C560BAQGzVcjD6pqySQ/company-logo_200_200/company-logo_200_200/0/1630660543789/dstglobal_logo?e=1745452800&v=beta&t=KBitVYaZd_pVeve2eCwaRLzNbn6h29CcRLXAw4fW-IA",
     },
     {
         id: 8,
@@ -140,7 +135,7 @@ export const vcUSA = [
         stage: ["Pre-Seed"],
         sector: ["Sector Agnostic"],
         ticketSize: "50k-250k",
-        logo: "https://www.stepstonegroup.com/wp-content/uploads/2023/06/stepstone-logo.svg",
+        logo: "https://media.licdn.com/dms/image/v2/D560BAQG8o1WF4XWrnw/company-logo_200_200/company-logo_200_200/0/1694633073307/stepstone_group_logo?e=1745452800&v=beta&t=tfj2PlcQElOKNudJ5ilglOuoy2fHJKdJChJQw9i8VwI",
     },
     {
         id: 9,
@@ -158,7 +153,7 @@ export const vcUSA = [
         stage: ["Pre-Seed"],
         sector: ["Sector Agnostic"],
         ticketSize: "50k-250k",
-        logo: "Venture Associate",
+        logo: "Venture Associatehttps://media.licdn.com/dms/image/v2/D560BAQEZnMPGdgHgNg/company-logo_200_200/company-logo_200_200/0/1713981626429/lux_capital_logo?e=1745452800&v=beta&t=Ws7BniJ2Aoaljp8f3sy3JR4-aSYIV95BfjOewwLhsk0",
     },
     {
         id: 10,
@@ -176,7 +171,7 @@ export const vcUSA = [
         stage: ["Pre-Seed"],
         sector: ["Sector Agnostic"],
         ticketSize: "50k-250k",
-        logo: "https://cdn.prod.website-files.com/5ffade5e63870fa2c0e7dc87/5ffd98a3d46bbe6dbbbfed90_Logo.svg",
+        logo: "https://media.licdn.com/dms/image/v2/C560BAQGBKnYDezMArg/company-logo_200_200/company-logo_200_200/0/1630657926918/avid_ventures_logo?e=1745452800&v=beta&t=eydwdR2pIIDhvrNtgSfwDETyOsD4K2qksqmuhqCLofM",
     },
     {
         id: 11,
@@ -212,7 +207,7 @@ export const vcUSA = [
         stage: ["Pre-Seed"],
         sector: ["Sector Agnostic"],
         ticketSize: "250k-500k",
-        logo: "https://glasswing.vc/wp-content/themes/glasswing/img/logo-home-dark.svg",
+        logo: "https://media.licdn.com/dms/image/v2/C4E0BAQG5CeqzFD29Ww/company-logo_200_200/company-logo_200_200/0/1657743443772/glasswing_ventures_logo?e=1745452800&v=beta&t=lL8LaMo75X0Rn8LDjy0tkN32Un7Apc9vQkl-ya24Yfkttps://glasswing.vc/wp-content/themes/glasswing/img/logo-home-dark.svg",
     },
     {
         id: 13,
@@ -247,7 +242,7 @@ export const vcUSA = [
         stage: ["Series C"],
         sector: ["Sector Agnostic"],
         ticketSize: "250k-500k",
-        logo: "Venture Capital",
+        logo: "https://media.licdn.com/dms/image/v2/C4D0BAQF4veFnf2GL_w/company-logo_200_200/company-logo_200_200/0/1630486736764/cambrianbio_logo?e=1745452800&v=beta&t=e8wVJfyJxFX83EAlGu6OmTf49lLTuQlUkz4ICC8hbXg",
     },
     {
         id: 15,
@@ -265,7 +260,7 @@ export const vcUSA = [
         stage: ["Pre-Seed"],
         sector: ["Sector Agnostic"],
         ticketSize: "250k-500k",
-        logo: "https://www.battery.com/wp-content/uploads/2021/02/Battery-Logo-White.svg",
+        logo: "https://media.licdn.com/dms/image/v2/D560BAQErSim69xLiJw/company-logo_200_200/company-logo_200_200/0/1709240788593/battery_ventures_logo?e=1745452800&v=beta&t=eaP-v-5UpzFYrSFu7Lfs1voV102pPrXG-IJxGyzaSk0",
     },
     {
         id: 16,
@@ -283,7 +278,7 @@ export const vcUSA = [
         stage: ["Pre-Seed"],
         sector: ["Sector Agnostic"],
         ticketSize: "250k-500k",
-        logo: "https://akunacapital.com/wp-content/uploads/2019/01/logo_registered_sm.png",
+        logo: "https://media.licdn.com/dms/image/v2/D560BAQGm9Keab6ZqIg/company-logo_200_200/company-logo_200_200/0/1733415411956/akuna_capital_logo?e=1745452800&v=beta&t=_S2KeRQewANJeJBqOAC2T0S9HEH3zBOc3mL0qF26cd8",
     },
     {
         id: 17,
@@ -301,7 +296,7 @@ export const vcUSA = [
         stage: ["Pre-Seed"],
         sector: ["Sector Agnostic"],
         ticketSize: "250k-500k",
-        logo: "Venture Partner",
+        logo: "https://media.licdn.com/dms/image/v2/C4E0BAQEul2BNZAhWrw/company-logo_200_200/company-logo_200_200/0/1651617881679/gutter_capital_logo?e=1745452800&v=beta&t=f6MrPquAFozfzrL_XVeyqycz5__WbwpzC5ehUyTrqbY",
     },
     {
         id: 18,
@@ -336,7 +331,7 @@ export const vcUSA = [
         stage: ["Pre-Seed"],
         sector: ["Sector Agnostic"],
         ticketSize: "250k-500k",
-        logo: "https://irp.cdn-website.com/674f322b/dms3rep/multi/raiven-logo-35ba90a4.svg",
+        logo: "https://media.licdn.com/dms/image/v2/C4E0BAQH89Yo2NIzKvw/company-logo_200_200/company-logo_200_200/0/1630644731002/raivencapital_logo?e=1745452800&v=beta&t=pGBJznidXiiH442g0qu09YJ7ER1id1irR6xG8sAoPYg",
     },
     {
         id: 20,
@@ -390,7 +385,7 @@ export const vcUSA = [
         stage: ["Pre-Seed"],
         sector: ["Sector Agnostic"],
         ticketSize: "100K - 500K",
-        logo: "Nina.Capital",
+        logo: "https://media.licdn.com/dms/image/v2/C560BAQFGYNgBYDkIHQ/company-logo_200_200/company-logo_200_200/0/1630619496498/ninacapital_logo?e=1745452800&v=beta&t=BHvfklb7jd7LRN0SxzYhuFwh_MrI2eLhdRT35RCs_a0",
     },
     {
         id: 23,
@@ -408,7 +403,7 @@ export const vcUSA = [
         stage: ["Pre-Seed"],
         sector: ["Sector Agnostic"],
         ticketSize: "100K - 500K",
-        logo: "https://www.shine.vc/sc-standard-black-crop-l.png",
+        logo: "https://media.licdn.com/dms/image/v2/D4E0BAQEZRUmcFFgFzg/company-logo_200_200/company-logo_200_200/0/1712086205926/shinecapital_logo?e=1745452800&v=beta&t=CVsdeE3fIExooIteaYQXct-P6IBOvb1nwvcRk31aBa4",
     },
     {
         id: 24,
@@ -426,7 +421,7 @@ export const vcUSA = [
         stage: ["Pre-Seed"],
         sector: ["Sector Agnostic"],
         ticketSize: "100K - 500K",
-        logo: "https://cdn.prod.website-files.com/673f6ad24c753ca59de60d7a/673f6ad24c753ca59de60da8_Header%20Logo%20(1).svg",
+        logo: "https://media.licdn.com/dms/image/v2/C560BAQHFtSlHNm6p0A/company-logo_200_200/company-logo_200_200/0/1648854705687/dream_venturesvc_logo?e=1745452800&v=beta&t=eBqaTFlwtxeL7TaSeyVooCh8pVMt1y3rMrSpwwf1EPU",
     },
     {
         id: 25,
@@ -587,7 +582,7 @@ export const vcUSA = [
         stage: ["Pre-Seed"],
         sector: ["Sector Agnostic"],
         ticketSize: "100K - 500K",
-        logo: illinois,
+        logo: "https://media.licdn.com/dms/image/v2/C560BAQFBaamcTV-Mjg/company-logo_200_200/company-logo_200_200/0/1631318211677?e=1745452800&v=beta&t=sNDUckmgTEICJ5oiHPWn2_sJ4VF6ahEI0S2K3Lu-r-A",
     },
     {
         id: 34,
@@ -2006,7 +2001,7 @@ export const vcUSA = [
         stage: ["Pre-Seed"],
         sector: ["Sector Agnostic"],
         ticketSize: "100K - 150K",
-        logo: stellantis,
+        logo: "https://media.licdn.com/dms/image/v2/D560BAQH86DkI6KASrA/company-logo_200_200/company-logo_200_200/0/1686753069598/stellantis_ventures_logo?e=1745452800&v=beta&t=W5ZZxOsoxFLgesp_nnU2gFBvWg8Q-wYcaKjBTXtnRuo",
     },
     { 
         id: 113,
