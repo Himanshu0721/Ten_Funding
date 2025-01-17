@@ -1,6 +1,7 @@
-.registration-form-container {
+.registration-form-container  {
   width: 60%;
   margin: 120px auto;
+  overflow-x: hidden;
 }
 
 .header-logo svg {
@@ -24,6 +25,11 @@
   color: blue;
   margin: 16px 0;
 }
+.registration-form-content{
+  overflow-x: hidden;
+
+}
+
 .registration-form-content label {
   font-size: 16px;
   padding-bottom: 6px;
@@ -88,6 +94,10 @@
   overflow: scroll;
   overflow-y: hidden;
   overflow-x: hidden;
+}
+.form-check-input{
+  overflow-x: hidden;
+
 }
 
 @media (max-width: 1024px) {
