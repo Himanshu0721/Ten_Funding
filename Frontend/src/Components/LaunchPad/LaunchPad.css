@@ -386,6 +386,7 @@
   .card-para{
     font-size: 12px;
   }
+  
 }
 @media (max-width: 760px) {
   /* Ensure only the first and fourth columns are visible */
