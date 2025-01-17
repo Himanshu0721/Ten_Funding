@@ -93,7 +93,7 @@ const NextPlay = () => {
 
           {/* Grid Section */}
           <div className="grid-section">
-            <div className="card">
+            <div className="card-nextplay">
               <h2>gatherings</h2>
               <p>
                 🚀 curated events featuring exceptional founders and operators
@@ -109,7 +109,7 @@ const NextPlay = () => {
               </p>
             </div>
 
-            <div className="card">
+            <div className="card-nextplay">
               <h2>podcast</h2>
               <p>
                 🎙️ Hear firsthand from top-tier operators, investors, and
@@ -119,7 +119,7 @@ const NextPlay = () => {
               </p>
             </div>
 
-            <div className="card">
+            <div className="card-nextplay">
               <h2>newsletter</h2>
               <p>
                 📧 Discover unnoticed possibilities from co-founders seeking
@@ -127,7 +127,7 @@ const NextPlay = () => {
               </p>
             </div>
 
-            <div className="card">
+            <div className="card-nextplay">
               <h2>lists</h2>
               <p>
                 📋 We're compiling lists of fantastic businesses to work with.{" "}
@@ -190,7 +190,7 @@ const NextPlay = () => {
                 )}{" "}
                 Who's hosting next play gatherings?
                 {openIndex === 1 && (
-                  <div className="table-container" style={{ margin: "10px" }}>
+                  <div className="table-container" >
                     <table
                       className="qu-table"
                       style={{

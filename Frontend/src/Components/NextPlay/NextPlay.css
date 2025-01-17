@@ -97,8 +97,8 @@ body {
 .more-about-page {
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  margin: 0 auto;
-  padding: 20px;
+  /* margin: 0 auto; */
+  /* padding: 20px; */
   max-width: 900px;
   color: #333;
 }
@@ -118,22 +118,26 @@ body {
   margin-bottom: 40px;
 }
 
-.card {
+.card-nextplay {
   background-color: #f9f9f9;
   border: 1px solid #ddd;
   border-radius: 8px;
-  padding: 20px;
+   padding: 20px; 
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width:100%;
+  max-width:400px;
+  margin:0;
 }
 
-.card h2 {
+.card-nextplay h2 {
   font-size: 1.5rem;
   margin-bottom: 10px;
 }
 
-.card p {
+.card-nextplay p {
   font-size: 1rem;
   margin-bottom: 10px;
+  text-align:left;
 }
 
 .podcast {
@@ -141,7 +145,7 @@ body {
   text-decoration: none;
 }
 
-.card a:hover {
+.card-nextplay a:hover {
   text-decoration: underline;
 }
 
@@ -151,9 +155,9 @@ body {
   border: 1px solid #ddd;
   border-radius: 8px;
   padding: 20px;
-  margin-bottom: 40px;
+  margin: 0 7px 40px 7px;
 }
-
+ 
 .matching-section h2 {
   font-size: 1.5rem;
   margin-bottom: 10px;
@@ -215,20 +219,24 @@ body {
   color: #333;
 }
 .table-container {
-  width: 100%;
+   width: 100%;
   height: auto;
-  overflow-y: hidden;
-  overflow-x: auto;
+   overflow-y:hidden; 
+   overflow-x: auto; 
   background-color: #f9f9f9;
-  margin: 0;
-  flex-wrap: wrap;
+  margin: 0; 
+    padding:10px;
+    box-sizing: border-box; 
+    
 }
-
 .qu-table {
-  border: none;
+   border: none;
   border-collapse: collapse;
   width: 100%;
   height: auto;
+  table-layout: auto;
+  min-width:500px 
+  
 }
 .qu-table th,
 .qu-table td {
@@ -238,6 +246,7 @@ body {
   background-color: #f9f9f9 !important;
   font-size: 16px;
   font-weight: 100 !important;
+  white-space:nowrap;
 }
 .qu-table th {
   font-weight: 200 !important;
@@ -252,7 +261,8 @@ body {
 /* ------------------------------ Responsive Design ------------------------- */
 @media (max-width: 768px) {
   .table-container {
-    max-width: 400px;
+    /* max-width: 400px; */
+    width:100%;
   }
   .qu-table {
     width: 100%;
@@ -262,9 +272,9 @@ body {
     font-size: 1.8rem;
   }
 
-  .card {
+  .card-nextplay {
     padding: 15px;
-    margin-right: 3rem;
+    /* margin-right: 3rem; */
   }
 
   .cta-button {
@@ -273,5 +283,24 @@ body {
 
   .faq-column {
     flex: 1 1 100%;
+  }
+}
+@media (max-width: 375px){
+  @media (max-width: 375px) {
+    .responsive-page{
+      padding-top:0;
+    }
+    .grid-section {
+      padding: 0 10px; 
+      display: flex; 
+      flex-wrap: wrap; 
+      gap: 10px;
+    }
+  
+    .card-nextplay {
+      width: calc(100% - 20px); 
+      box-sizing: border-box; 
+      margin: 0 auto; 
+    }
   }
 }
