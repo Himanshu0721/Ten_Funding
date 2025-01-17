@@ -286,6 +286,9 @@ body {
   .faq-column {
     flex: 1 1 100%;
   }
+  .responsive-page{
+    padding-left:20px;
+  }
 }
 @media (max-width:652px)and (min-width:425px)
 {

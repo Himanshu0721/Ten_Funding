@@ -9,6 +9,7 @@ import { MdStackedBarChart } from "react-icons/md";
 import { IoMdHome } from "react-icons/io";
 import { RiUserCommunityLine } from "react-icons/ri";
 import { IoMenu } from "react-icons/io5";
+import { RxCross2 } from "react-icons/rx";
 import { NavLink } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import "./Navbar.css";
@@ -210,7 +211,7 @@ const Navbar = () => {
           onClick={toggleMenu}
           aria-label="Toggle menu"
         >
-          <IoMenu />
+         {isMenuOpen ? <RxCross2 />: <IoMenu /> }
         </button>
         <ul className={`navbar-links ${isMenuOpen ? "open" : ""}`}>
           <li>
