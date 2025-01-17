@@ -39,6 +39,7 @@
   color: #120202;
   list-style: none;
   padding-right: 120px;
+
 }
 
 .navbar-links a {
@@ -53,6 +54,7 @@
   transition: all 0.3s ease;
   background-color: #ffffff;
   width: fit-content;
+  border: 2px solid red;
 }
 .navbar-links li:hover {
   background-color: #eae7e7;
@@ -65,7 +67,6 @@
   border: none;
   cursor: pointer;
   color: black;
-  padding-right: 16px;
 }
 .navbar-space {
   height: 80px;
@@ -236,7 +237,8 @@
   }
   .menu-toggle {
     display: block;
-    font-size: 25px;
+    font-size: 28px;
+    margin-top: 10px;
   }
   .dropdown-nav {
     position: relative;
@@ -297,7 +299,6 @@
     box-shadow: none;
   }
 }
-
 @media (max-width: 425px) {
   .navbar-logo svg {
     width: 100px;
@@ -308,7 +309,6 @@
     margin-left: 5rem;
   }
 }
-
 @media (max-width: 2560px) and (min-width: 957px) {
   .menu-toggle {
     display: none;

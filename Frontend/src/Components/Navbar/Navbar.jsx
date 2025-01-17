@@ -1,17 +1,13 @@
 import { useEffect, useRef, useState } from "react";
-import { MdClose, MdKeyboardArrowUp } from "react-icons/md";
-import { MdKeyboardArrowDown } from "react-icons/md";
+import { MdClose, MdKeyboardArrowUp, MdKeyboardArrowDown, MdStackedBarChart } from "react-icons/md";
 import { FaDatabase } from "react-icons/fa";
 import { FaPlay } from "react-icons/fa6";
 import { IoPeople } from "react-icons/io5";
-import { RiGraduationCapFill } from "react-icons/ri";
-import { MdStackedBarChart } from "react-icons/md";
+import { RiGraduationCapFill, RiUserCommunityLine} from "react-icons/ri";
 import { IoMdHome } from "react-icons/io";
-import { RiUserCommunityLine } from "react-icons/ri";
 import { IoMenu } from "react-icons/io5";
 import { RxCross2 } from "react-icons/rx";
-import { NavLink } from "react-router-dom";
-import { useNavigate } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import "./Navbar.css";
 
 const Navbar = () => {
@@ -66,7 +62,7 @@ const Navbar = () => {
         closeDropdown(); // Close the menu
       }
     };
-
+    
     document.addEventListener("mouseleave", handleClickOutside);
 
     // Cleanup to avoid memory leaks
@@ -78,6 +74,7 @@ const Navbar = () => {
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
+
   const allDropdown = () => {
     setIsvUpArrow(false);
     setIsVCOpen(false);
@@ -85,10 +82,10 @@ const Navbar = () => {
     setIsCompanyOpen(false);
     setIssUpArrow(false);
     setIsStartupsOpen(false);
+    closeDropdown();
   };
   const startupMouseEnter = () => {
     setIssUpArrow(true);
-    closeDropdown();
     setIsStartupsOpen(true);
     setIsvUpArrow(false);
     setIsVCOpen(false);
@@ -242,6 +239,7 @@ const Navbar = () => {
               <div
                 className="dropdown-nav"
                 onMouseLeave={startupMouseLeave}
+                onClick={closeDropdown}
                 ref={dropdownRef}>
                 <button className="close-dropdown" onClick={closeDropdown}>
                   <MdClose/>
@@ -294,6 +292,7 @@ const Navbar = () => {
               <div
                 className="dropdown-nav"
                 ref={dropdownRef}
+                onClick={closeDropdown}
                 onMouseLeave={vcHandleMouseLeave}>
                 <button className="close-dropdown" onClick={closeDropdown}>
                   <MdClose/>
@@ -340,7 +339,10 @@ const Navbar = () => {
             {isCompanyOpen && (
               <div
                 className="dropdown-nav"
-                onMouseLeave={companyMouseLeave}>
+                ref={dropdownRef}
+                onMouseLeave={companyMouseLeave}
+                onClick={closeDropdown}
+                >
                 <button className="close-dropdown" onClick={closeDropdown}>
                   <MdClose/>
                 </button>
