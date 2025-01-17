@@ -20,7 +20,7 @@ const LaunchPad = () => {
             <h1 className="heading">Looking for an upgrade?</h1>
             <div className="lower-section">
               <div className="card-para">
-                <p>Check out our database of active VC jobs.</p>
+                <p>Check out our database of active vc jobs.</p>
               </div>
 
             

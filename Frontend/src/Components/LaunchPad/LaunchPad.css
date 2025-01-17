@@ -6,14 +6,15 @@
   color: #333;
   max-width: 1200px;
   margin: auto;
-  margin-top: 20px !important;
+  margin-top: 100px !important;
 }
 .hero-section {
   margin: 0;
   display: flex;
   justify-content: center;
   /* align-items: center; */
-  height: 80vh;
+  height: max-content;
+  margin-bottom: 40px;
 }
 .upper-section {
   display: flex;
@@ -21,6 +22,7 @@
   align-items: center;
   width: 100%;
   padding: 1rem;
+  margin-bottom:40px;
 }
 
 .card {
@@ -111,7 +113,7 @@
 @media (max-width: 850px) {
   .upper-section {
     width: 100%;
-    height: 500px;
+    height: 400px;
     margin: 0;
     padding: 1rem;
   }
@@ -308,6 +310,19 @@
   .dropdown-button,
   .dropdown-menu label {
     font-size: 14px;
+  }
+  .hero-section{
+    margin-bottom:80px;
+  }
+  .launchpad-container{
+    margin-top:40px !important;
+  
+  }
+  .heading{
+    font-size:40px;
+  }
+  .card-para{
+    font-size: 12px;
   }
 }
 @media (max-width: 760px) {
