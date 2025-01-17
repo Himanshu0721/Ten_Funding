@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { MdKeyboardArrowUp } from "react-icons/md";
+import { MdClose, MdKeyboardArrowUp } from "react-icons/md";
 import { MdKeyboardArrowDown } from "react-icons/md";
 import { FaDatabase } from "react-icons/fa";
 import { FaPlay } from "react-icons/fa6";
@@ -24,33 +24,18 @@ const Navbar = () => {
   const dropdownRef = useRef(null);
   const navigate = useNavigate();
 
-  const handleFundraisingOS = () => {
-    navigate("/fundraising-os");
-  };
+  const handleFundraisingOS = () => navigate("/fundraising-os");
+  const handleNextPlay = () => navigate("/nextplay");
+  const handleSpotlight = () => navigate("/spotlight");
 
-  const handleNextPlay = () => {
-    navigate("/nextplay");
-  };
 
-  const handleSpotlight = () => {
-    navigate("/spotlight");
-  };
+  const handleLaunchPad = () => navigate("/launchpad");
 
-  const handleLaunchPad = () => {
-    navigate("/launchpad");
-  };
+  const handleVentureOS = () => navigate("/venture-os");
 
-  const handleVentureOS = () => {
-    navigate("/venture-os");
-  };
+  const handleVcStack = () => navigate("/vc-stack");
 
-  const handleVcStack = () => {
-    navigate("/vc-stack");
-  };
-
-  const handleAboutUS = () => {
-    navigate("/about");
-  };
+  const handleAboutUS = () => navigate("/about");
 
   const handleCommunity = () => {
     window.open(
@@ -73,47 +58,26 @@ const Navbar = () => {
     };
   }, []);
 
-  // useEffect(() => {
-  //   const handleClickOutside = (event) => {
-  //     if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
-  //       setIsvUpArrow(false);
-  //       setIsVCOpen(false);
-  //       setIscUpArrow(false);
-  //       setIsCompanyOpen(false);
-  //       setIssUpArrow(false);
-  //       setIsStartupsOpen(false);
-  //       setIsMenuOpen(false);
-  //        // Close the dropdown
-  //     }
-  //   };
-
-  //   document.addEventListener("click", handleClickOutside);
-
-  //   return () => {
-  //     document.removeEventListener("click", handleClickOutside);
-  //   };
-  // }, []);
-
   useEffect(() => {
     const handleClickOutside = (event) => {
       // Check if the click target is not inside the dropdown
       if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
-        setIsMenuOpen(false); // Close the menu
+        closeDropdown(); // Close the menu
       }
     };
 
-    document.addEventListener("click", handleClickOutside);
+    document.addEventListener("mouseleave", handleClickOutside);
 
     // Cleanup to avoid memory leaks
     return () => {
-      document.removeEventListener("click", handleClickOutside);
+      document.removeEventListener("mouseleave", handleClickOutside);
     };
   }, []);
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
-  const alldropdown = () => {
+  const allDropdown = () => {
     setIsvUpArrow(false);
     setIsVCOpen(false);
     setIscUpArrow(false);
@@ -123,6 +87,7 @@ const Navbar = () => {
   };
   const startupMouseEnter = () => {
     setIssUpArrow(true);
+    closeDropdown();
     setIsStartupsOpen(true);
     setIsvUpArrow(false);
     setIsVCOpen(false);
@@ -134,7 +99,7 @@ const Navbar = () => {
     setIsStartupsOpen(false);
   };
 
-  const vchandleMouseEnter = () => {
+  const vcHandleMouseEnter = () => {
     setIsvUpArrow(true);
     setIsVCOpen(true);
     setIscUpArrow(false);
@@ -142,7 +107,7 @@ const Navbar = () => {
     setIssUpArrow(false);
     setIsStartupsOpen(false);
   };
-  const vchandleMouseLeave = () => {
+  const vcHandleMouseLeave = () => {
     setIsvUpArrow(false);
     setIsVCOpen(false);
   };
@@ -158,6 +123,15 @@ const Navbar = () => {
   const companyMouseLeave = () => {
     setIscUpArrow(false);
     setIsCompanyOpen(false);
+  };
+
+  const closeDropdown = () => {
+    setIsStartupsOpen(false);
+    setIsVCOpen(false);
+    setIsCompanyOpen(false);
+    setIssUpArrow(false);
+    setIsvUpArrow(false);
+    setIscUpArrow(false);
   };
   return (
     <>
@@ -242,7 +216,7 @@ const Navbar = () => {
           <li>
             <NavLink
               to="/"
-              onMouseEnter={alldropdown}
+              onMouseEnter={allDropdown}
               onClick={(e) => e.stopPropagation()}
             >
               Raise
@@ -267,8 +241,10 @@ const Navbar = () => {
               <div
                 className="dropdown-nav"
                 onMouseLeave={startupMouseLeave}
-                onClick={(e) => e.stopPropagation()}
-              >
+                ref={dropdownRef}>
+                <button className="close-dropdown" onClick={closeDropdown}>
+                  <MdClose/>
+                </button>
                 <div
                   className="dropdown-nav-item"
                   onClick={handleFundraisingOS}
@@ -302,7 +278,7 @@ const Navbar = () => {
           <li>
             <a
               href="#vchandle"
-              onMouseEnter={vchandleMouseEnter}
+              onMouseEnter={vcHandleMouseEnter}
               onClick={(e) => e.stopPropagation()}
               style={{
                 cursor: "pointer",
@@ -316,9 +292,11 @@ const Navbar = () => {
             {isVCOpen && (
               <div
                 className="dropdown-nav"
-                onMouseLeave={vchandleMouseLeave}
-                onClick={(e) => e.stopPropagation()}
-              >
+                ref={dropdownRef}
+                onMouseLeave={vcHandleMouseLeave}>
+                <button className="close-dropdown" onClick={closeDropdown}>
+                  <MdClose/>
+                </button>
                 <div className="dropdown-nav-item3" onClick={handleLaunchPad}>
                   <h3>LaunchPad</h3>
                   <p>Find VC jobs</p>
@@ -361,9 +339,10 @@ const Navbar = () => {
             {isCompanyOpen && (
               <div
                 className="dropdown-nav"
-                onMouseLeave={companyMouseLeave}
-                onClick={(e) => e.stopPropagation()}
-              >
+                onMouseLeave={companyMouseLeave}>
+                <button className="close-dropdown" onClick={closeDropdown}>
+                  <MdClose/>
+                </button>
                 <div className="dropdown-nav-item2" onClick={handleAboutUS}>
                   <h3>About US</h3>
                   <p>Learn about our people</p>
