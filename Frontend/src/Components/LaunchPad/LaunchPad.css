@@ -16,7 +16,7 @@
   /* align-items: center; */
   height: max-content;
   margin-bottom: -70px;
-  padding: 24px;
+  /* padding: 24px; */
 }
 
 .upper-section {
@@ -24,7 +24,7 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding: 1rem;
+  /* padding: 1rem; */
   margin-bottom: 40px;
 }
 
@@ -116,7 +116,7 @@
 }
 
 /* Responsive design */
-@media (max-width: 850px) {
+@media (max-width: 850px) and (min-width:425px) {
   .upper-section {
     width: 100%;
     height: 400px;
@@ -128,9 +128,10 @@
     font-size: 3.2rem !important;
   }
   .card {
-    padding: 55px;
+    /* padding: 55px; */
     margin: 0;
     height: max-content;
+    margin-top:30px;
   }
   .card-para p {
     font-size: 30px;
@@ -139,9 +140,15 @@
     font-size: 1rem;
     padding: 0.8rem 1.5rem;
   }
+  /* .job-table{
+    margin-top:40px;
+  } */
+   .hero-section{
+    margin-bottom:30px;
+   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 425px) and (min-width:320px) {
   .card {
     padding: 20px;
     margin: 20px auto;
@@ -153,6 +160,10 @@
   .card-para p {
     font-size: 25px !important;
   }
+  .hero-section{
+    margin:30px 0 ;
+  }
+
 }
 
 /* Filters */
@@ -325,17 +336,17 @@
     font-size: 14px;
   }
   .hero-section {
-    margin-bottom: 80px;
+    margin-bottom: 19px;
   }
   .launchpad-container {
-    margin-top: 50px; /* Adjust the top margin as needed */
+    margin-top: 10px; 
   }
-  .heading {
-    font-size: 40px;
+  /* .heading {
+    font-size: 40px !important;
   }
   .card-para {
-    font-size: 12px;
-  }
+    font-size: 25px !important;
+  } */
 }
 
 @media (max-width: 760px) {
