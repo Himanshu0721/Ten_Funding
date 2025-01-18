@@ -84,20 +84,35 @@
 .table td {
   border: 1px solid rgb(158, 157, 157);
   text-align: center;
-  font-weight: 600;
-  
-  left: 0;
-  white-space: wrap;
+  font-weight: 100;
+  font-size: 14px; /* Reduce text size */
+  min-height: 30px;
+  line-height: 1.5;
+  color: rgb(55, 53, 47);
+  white-space: nowrap; /* Prevent text wrapping */
   background-color: white;
 }
+
 #scroll-prop {
-  overflow: scroll;
-  overflow-y: hidden;
+  overflow: auto; /* Enable both horizontal and vertical scrolling */
+}
+
+.form-check-input {
   overflow-x: hidden;
 }
-.form-check-input{
-  overflow-x: hidden;
 
+/* Responsive design for screens up to 320px */
+@media (max-width: 320px) {
+  .table {
+    margin-left: 5px; /* Further reduce left margin */
+    margin-right: 5px; /* Further reduce right margin */
+    font-size: 12px; /* Further reduce text size */
+  }
+
+  .table th,
+  .table td {
+    font-size: 12px; /* Further reduce text size */
+  }
 }
 
 @media (max-width: 1024px) {
@@ -142,6 +157,6 @@
     overflow: scroll;
   }
   .registration-form-content textarea {
-    max-width: 90%;
+    max-width: 50%;
   }
 }
