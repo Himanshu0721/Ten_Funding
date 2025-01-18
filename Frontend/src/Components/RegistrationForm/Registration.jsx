@@ -132,9 +132,8 @@ export default function Registration() {
               the stages
             </h2>
             <h2>
-              Also if you're filling this in mobile please scroll to the right
-              to find "Doesn't look at" option)
-              <sub>*</sub>
+              
+              <sub></sub>
             </h2>
 
             <div id="scroll-prop">
@@ -143,8 +142,7 @@ export default function Registration() {
                   <tr>
                     <th></th>
                     <th>Most often invests in:</th>
-                    <th>Opportunistically invests in:</th>
-                    <th>Doesn't look at:</th>
+                    
                   </tr>
                 </thead>
                 <tbody>
@@ -159,24 +157,7 @@ export default function Registration() {
                         id="inlineRadio1"
                       />
                     </td>
-                    <td>
-                      {" "}
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
-                    <td>
-                      {" "}
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
+                   
                   </tr>
                   <tr>
                     <td>Seed</td>
@@ -189,24 +170,7 @@ export default function Registration() {
                         id="inlineRadio1"
                       />
                     </td>
-                    <td>
-                      {" "}
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
-                    <td>
-                      {" "}
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
+                    
                   </tr>
                   <tr>
                     <td>Series A</td>
@@ -219,24 +183,7 @@ export default function Registration() {
                         id="inlineRadio1"
                       />
                     </td>
-                    <td>
-                      {" "}
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
-                    <td>
-                      {" "}
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
+                    
                   </tr>
                   <tr>
                     <td>Series B</td>
@@ -249,24 +196,7 @@ export default function Registration() {
                         id="inlineRadio1"
                       />
                     </td>
-                    <td>
-                      {" "}
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
-                    <td>
-                      {" "}
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
+                    
                   </tr>
                   <tr>
                     <td>Series C and beyond</td>
@@ -279,24 +209,7 @@ export default function Registration() {
                         id="inlineRadio1"
                       />
                     </td>
-                    <td>
-                      {" "}
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
-                    <td>
-                      {" "}
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
+                    
                   </tr>
                   <tr>
                     <td>Debt</td>
@@ -309,24 +222,7 @@ export default function Registration() {
                         id="inlineRadio1"
                       />
                     </td>
-                    <td>
-                      {" "}
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
-                    <td>
-                      {" "}
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
+                    
                   </tr>
                 </tbody>
               </table>
@@ -334,8 +230,8 @@ export default function Registration() {
 
             <h2>
               {" "}
-              Sectors  (Please only select three top sectors in the first
-              column) <sub>*</sub>
+              Sectors  
+               <sub>*</sub>
             </h2>
 
             <div id="scroll-prop">
@@ -344,8 +240,8 @@ export default function Registration() {
                   <tr>
                     <th> </th>
                     <th> Top Three Sector - Most often invests in:</th>
-                    <th>Also invests in:</th>
-                    <th>Doesn't look at:</th>
+                    
+                    
                   </tr>
                 </thead>
 
@@ -361,24 +257,8 @@ export default function Registration() {
                         id="inlineRadio1"
                       />
                     </td>
-                    <td>
-                      {" "}
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
-                    <td>
-                      {" "}
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
+                    
+                   
                   </tr>
 
                   <tr>
@@ -392,24 +272,7 @@ export default function Registration() {
                         id="inlineRadio1"
                       />
                     </td>
-                    <td>
-                      {" "}
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
-                    <td>
-                      {" "}
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
+                   
                   </tr>
 
                   <tr>
@@ -423,24 +286,7 @@ export default function Registration() {
                         id="inlineRadio1"
                       />
                     </td>
-                    <td>
-                      {" "}
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
-                    <td>
-                      {" "}
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
+                    
                   </tr>
 
                   <tr>
@@ -454,24 +300,7 @@ export default function Registration() {
                         id="inlineRadio1"
                       />
                     </td>
-                    <td>
-                      {" "}
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
-                    <td>
-                      {" "}
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
+                   
                   </tr>
 
                   <tr>
@@ -485,24 +314,7 @@ export default function Registration() {
                         id="inlineRadio1"
                       />
                     </td>
-                    <td>
-                      {" "}
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
-                    <td>
-                      {" "}
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
+                   
                   </tr>
 
                   <tr>
@@ -516,24 +328,7 @@ export default function Registration() {
                         id="inlineRadio1"
                       />
                     </td>
-                    <td>
-                      {" "}
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
-                    <td>
-                      {" "}
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
+                    
                   </tr>
 
                   <tr>
@@ -547,25 +342,7 @@ export default function Registration() {
                         id="inlineRadio1"
                       />
                     </td>
-                    <td>
-                      {" "}
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
-                    <td>
-                      {" "}
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
-                  </tr>
+                    </tr>
 
                   <tr>
                     <td>Deep Tech/Hard Science</td>
@@ -578,24 +355,7 @@ export default function Registration() {
                         id="inlineRadio1"
                       />
                     </td>
-                    <td>
-                      {" "}
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
-                    <td>
-                      {" "}
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
+                    
                   </tr>
 
                   <tr>
@@ -609,24 +369,7 @@ export default function Registration() {
                         id="inlineRadio1"
                       />
                     </td>
-                    <td>
-                      {" "}
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
-                    <td>
-                      {" "}
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
+                    
                   </tr>
 
                   <tr>
@@ -640,24 +383,7 @@ export default function Registration() {
                         id="inlineRadio1"
                       />
                     </td>
-                    <td>
-                      {" "}
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
-                    <td>
-                      {" "}
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
+                    
                   </tr>
 
                   <tr>
@@ -671,55 +397,8 @@ export default function Registration() {
                         id="inlineRadio1"
                       />
                     </td>
-                    <td>
-                      {" "}
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
-                    <td>
-                      {" "}
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <td>Fintech</td>
-                    <td>
-                      {" "}
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
-                    <td>
-                      {" "}
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
-                    <td>
-                      {" "}
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
+                    
+                  
                   </tr>
 
                   <tr>
@@ -733,24 +412,7 @@ export default function Registration() {
                         id="inlineRadio1"
                       />
                     </td>
-                    <td>
-                      {" "}
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
-                    <td>
-                      {" "}
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
+                    
                   </tr>
 
                   <tr>
@@ -764,24 +426,7 @@ export default function Registration() {
                         id="inlineRadio1"
                       />
                     </td>
-                    <td>
-                      {" "}
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
-                    <td>
-                      {" "}
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
+                   
                   </tr>
 
                   <tr>
@@ -795,24 +440,7 @@ export default function Registration() {
                         id="inlineRadio1"
                       />
                     </td>
-                    <td>
-                      {" "}
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
-                    <td>
-                      {" "}
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
+                   
                   </tr>
 
                   <tr>
@@ -826,24 +454,7 @@ export default function Registration() {
                         id="inlineRadio1"
                       />
                     </td>
-                    <td>
-                      {" "}
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
-                    <td>
-                      {" "}
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
+                    
                   </tr>
 
                   <tr>
@@ -857,24 +468,7 @@ export default function Registration() {
                         id="inlineRadio1"
                       />
                     </td>
-                    <td>
-                      {" "}
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
-                    <td>
-                      {" "}
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
+
                   </tr>
 
                   <tr>
@@ -888,24 +482,7 @@ export default function Registration() {
                         id="inlineRadio1"
                       />
                     </td>
-                    <td>
-                      {" "}
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
-                    <td>
-                      {" "}
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
+                    
                   </tr>
 
                   <tr>
@@ -919,55 +496,7 @@ export default function Registration() {
                         id="inlineRadio1"
                       />
                     </td>
-                    <td>
-                      {" "}
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
-                    <td>
-                      {" "}
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <td>SaaS/DevOps/Marketplace</td>
-                    <td>
-                      {" "}
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
-                    <td>
-                      {" "}
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
-                    <td>
-                      {" "}
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
+                    
                   </tr>
 
                   <tr>
@@ -981,24 +510,7 @@ export default function Registration() {
                         id="inlineRadio1"
                       />
                     </td>
-                    <td>
-                      {" "}
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
-                    <td>
-                      {" "}
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
+                    
                   </tr>
 
                   <tr>
@@ -1012,24 +524,7 @@ export default function Registration() {
                         id="inlineRadio1"
                       />
                     </td>
-                    <td>
-                      {" "}
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
-                    <td>
-                      {" "}
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
+                   
                   </tr>
                 </tbody>
               </table>
