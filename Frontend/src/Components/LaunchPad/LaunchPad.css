@@ -1,92 +1,45 @@
 /* General Styles */
 
 .launchpad-container {
-  .launchpad-container {
-    padding: 20px;
-    font-family: Arial, sans-serif;
-    color: #333;
-    max-width: 1200px;
-    margin: auto;
-    margin-top: 0; /* Remove the top margin */
-  }
-  
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: #333;
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 20px; /* Adjust the top margin */
 }
+
 .hero-section {
   margin: 0;
   display: flex;
   justify-content: center;
   /* align-items: center; */
   height: max-content;
-  margin-bottom: 40px;
+  margin-bottom: -70px;
+  padding: 24px;
 }
+
 .upper-section {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
   padding: 1rem;
-  margin-bottom:40px;
+  margin-bottom: 40px;
 }
 
 .card {
   text-align: center;
-  background: linear-gradient(135deg, #f0f0f0, #ffffff);
+  background-image: linear-gradient(#dee2ff, #f9faff);
   padding: 40px;
   border: 1px solid #ddd;
   border-radius: 12px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   max-width: 1000px;
   width: 100%;
-  margin: 20px auto 100px auto;
+  margin: 20px auto 60px auto; /* Adjust bottom margin */
   font-family: 'Arial', sans-serif;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-
-
-
-
-
-.upper-section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  padding: 1rem;
-}
-
-.card {
-  text-align: center;
-  width: 1000px;
-  padding: 83px;
-  font-size: 64px;
-  line-height: 103px;
-  background-image: linear-gradient(#dee2ff, #f9faff);
-  border-radius: 37px;
-  border: 1px solid #ddd;
-  box-sizing: border-box;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  max-width: 1073px;
-  margin: 173px auto 100px auto;
-  margin-top: 100px;
-  margin-bottom: 60px; /* Increase the gap between the card and the table */
-  font-family: 'Arial', sans-serif;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-
-@media (min-width: 768px) {
-  .card {
-    padding: 60px;
-    font-size: 32px;
-  }
-}
-
-@media (min-width: 1024px) {
-  .card {
-    padding: 80px;
-    font-size: 48px;
-  }
 }
 
 .card:hover {
@@ -106,8 +59,6 @@
   text-align: left;
 }
 
-
-
 .lower-section {
   display: flex;
   justify-content: space-between;
@@ -115,13 +66,9 @@
   border-top: 1px solid #b5a1cf;
   flex-wrap: wrap;
 }
+
 .card-para {
   padding-top: 20px;
-}
-.heading {
-  font-size: 5rem;
-  font-weight: 400;
-  margin-bottom: 1rem;
 }
 
 .card-para p {
@@ -141,11 +88,9 @@
 }
 
 .post-button {
-  
-
   cursor: pointer;
   transition: all 0.2s ease-in-out;
-  color:  #2f3246;
+  color: #2f3246;
   border: 1px solid #2f3246;
   border-radius: 48px;
   justify-content: center;
@@ -156,28 +101,26 @@
   text-decoration: none;
   display: flex;
   position: relative;
-  overflow: hidden; 
+  overflow: hidden;
 }
 
 .post-button:hover {
   background-color: #efeffe;
   transition: all 0.2s ease-in-out;
   text-decoration: none;
-
-} 
+}
 
 .arrow {
   margin-left: 0.5rem;
   font-size: 1.2rem;
 }
 
-
 /* Responsive design */
 @media (max-width: 850px) {
   .upper-section {
     width: 100%;
     height: 400px;
-    margin: 0;
+    margin: 50px;
     padding: 1rem;
   }
   .heading {
@@ -185,20 +128,30 @@
     font-size: 3.2rem !important;
   }
   .card {
-    padding: 20px;
+    padding: 55px;
     margin: 0;
-    height: 120%;
-    /* margin:50px; */
-    /* padding-left:5px;
-      padding-right:8px; */
+    height: max-content;
   }
   .card-para p {
     font-size: 30px;
   }
-
   .button-container NavLink {
     font-size: 1rem;
     padding: 0.8rem 1.5rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .card {
+    padding: 20px;
+    margin: 20px auto;
+    font-size: 16px;
+  }
+  .heading {
+    font-size: 40px !important;
+  }
+  .card-para p {
+    font-size: 25px !important;
   }
 }
 
@@ -215,6 +168,7 @@
 .dropdown-container {
   position: relative;
 }
+
 .dropdown-menu label {
   display: block;
   margin-bottom: 10px;
@@ -254,13 +208,7 @@
   max-height: 210px;
   overflow: overlay;
   overflow-x: hidden;
-  
 }
-
-/* .dropdown-menu label {
-    padding: 10px 15px;
-    cursor: pointer;
-  } */
 
 .dropdown-menu label:hover {
   background-color: #c8c8ff;
@@ -270,7 +218,7 @@
 .job-table {
   width: 100%;
   border-collapse: collapse;
-  margin-bottom: 20px;
+  margin-bottom: 40px; /* Adjust bottom margin */
   border: none;
   border-bottom: 0.5px solid rgb(250, 224, 250);
 }
@@ -283,6 +231,7 @@
   font-size: 14px;
   border: none;
   border-bottom: 0.5px solid rgb(250, 224, 250);
+  font-weight: bold; /* Make font bold */
 }
 
 .job-table th {
@@ -292,9 +241,10 @@
 .job-table tr:hover {
   background-color: #f9f9ff;
 }
+
 .description {
   display: block;
-  min-width:100px;
+  min-width: 100px;
   padding: 10px 10px;
   margin: auto;
   background-color: #e0e0ff;
@@ -328,19 +278,15 @@
   font-size: 20px;
   cursor: pointer;
   color: #333;
+  margin-bottom: 30px;
 }
 
 .load-more:hover {
   background-color: #c8c8ff;
 }
-/* .selected-filters{
-    display: flex;
-    flex-direction: row;
-  } */
+
 .selected-filters h5 {
-  /* display: block; */
   padding: 10px 25px;
-  /* margin:; */
   background-color: #e0e0ff;
   border: none;
   border-radius: 20px;
@@ -352,15 +298,18 @@
   justify-content: center;
   gap: 4px;
 }
+
 .selected-filters h5:hover {
   background-color: #c8c8ff;
 }
+
 .selected-items {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   gap: 20px;
 }
+
 .firm-container {
   display: flex;
   align-items: center; /* Aligns logo and firm name vertically */
@@ -369,24 +318,26 @@
 .firm-container span {
   margin-left: 10px; /* Adds space between the logo and firm name */
 }
+
 @media (max-width: 375px) {
   .dropdown-button,
   .dropdown-menu label {
     font-size: 14px;
   }
-  .hero-section{
-    margin-bottom:80px;
+  .hero-section {
+    margin-bottom: 80px;
   }
   .launchpad-container {
     margin-top: 50px; /* Adjust the top margin as needed */
   }
-  .heading{
-    font-size:40px;
+  .heading {
+    font-size: 40px;
   }
-  .card-para{
+  .card-para {
     font-size: 12px;
   }
 }
+
 @media (max-width: 760px) {
   /* Ensure only the first and fourth columns are visible */
   .job-table th:nth-child(1),
