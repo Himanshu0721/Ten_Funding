@@ -118,11 +118,11 @@
 .card-para {
   padding-top: 20px;
 }
-.heading {
+/* .heading {
   font-size: 5rem;
   font-weight: 400;
   margin-bottom: 1rem;
-}
+} */
 
 .card-para p {
   color: #4e5374;
@@ -170,7 +170,14 @@
   margin-left: 0.5rem;
   font-size: 1.2rem;
 }
-
+@media (max-width:425px){
+  .card-para p {
+    font-size:25px !important;
+  }
+  .heading{
+    font-size:40px !important ;
+  }
+}
 
 /* Responsive design */
 @media (max-width: 850px) {
@@ -187,7 +194,8 @@
   .card {
     padding: 20px;
     margin: 0;
-    height: 120%;
+    height: max-content;
+    /* height: 120%; */
     /* margin:50px; */
     /* padding-left:5px;
       padding-right:8px; */
@@ -380,13 +388,10 @@
   .launchpad-container {
     margin-top: 50px; /* Adjust the top margin as needed */
   }
-  .heading{
-    font-size:40px;
-  }
-  .card-para{
-    font-size: 12px;
-  }
   
+  
+  
+
 }
 @media (max-width: 760px) {
   /* Ensure only the first and fourth columns are visible */

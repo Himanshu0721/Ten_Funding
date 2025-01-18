@@ -61,7 +61,6 @@ const Navbar = () => {
 
   useEffect(() => {
     const handleClickOutside = (event) => {
-      // Check if the click target is not inside the dropdown
       if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
         closeDropdown(); // Close the menu
       }
@@ -211,7 +210,7 @@ const Navbar = () => {
           onClick={toggleMenu}
           aria-label="Toggle menu"
         >
-         {isMenuOpen ? <RxCross2 />: <IoMenu /> }
+         {isMenuOpen ? <RxCross2 />: <IoMenu/> }
         </button>
         <ul className={`navbar-links ${isMenuOpen ? "open" : ""}`}>
           <li>

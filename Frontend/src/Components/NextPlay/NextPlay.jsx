@@ -45,7 +45,7 @@ const NextPlay = () => {
       {/* Main Content */}
       <main className="main-content">
         <section className="intro">
-          <h1>Next play</h1>
+          <h1>Next Play</h1>
           <h2>
             We want to assist you in determining your next course of action. ✨
           </h2>

@@ -291,7 +291,7 @@ body {
     padding-left:20px;
   }
 }
-@media (max-width:652px)and (min-width:425px)
+@media (max-width:656px)and (min-width:425px)
 {
   .matching-section{
     margin: 0 auto;
