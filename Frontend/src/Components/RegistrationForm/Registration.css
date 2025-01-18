@@ -1,6 +1,6 @@
 .registration-form-container  {
   width: 60%;
-  margin: 120px auto;
+  margin: 30px auto;
   overflow-x: hidden;
 }
 
@@ -87,6 +87,7 @@
   font-weight: 100;
   font-size: 14px; /* Reduce text size */
   min-height: 30px;
+  padding: 10px;
   line-height: 1.5;
   color: rgb(55, 53, 47);
   white-space: nowrap; /* Prevent text wrapping */
