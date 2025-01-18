@@ -50,7 +50,7 @@ export default function VCStackForm() {
   return (
     <>
       <div className="vcstackform-container">
-        <div className="vcstackform-header-logo">
+        {/* <div className="vcstackform-header-logo">
           <svg
             preserveAspectRatio="xMidYMid meet"
             data-bbox="0.36 0.279 243.208 201.268"
@@ -116,7 +116,7 @@ export default function VCStackForm() {
               </g>
             </g>
           </svg>
-        </div>
+        </div> */}
         <div className="vcstackform-header-content">
           <h1>TEN Funding VC Tech Stack Waitlist</h1>
           <h2>

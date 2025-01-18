@@ -60,7 +60,7 @@
 
 @media (max-width: 480px) {
   .vcstackform-container {
-    margin: 0 10% 10% 10%;
+    margin: 10% 10% 10% 10%;
   }
   .vcstackform-header-content h1 {
     font-size: 25px;
