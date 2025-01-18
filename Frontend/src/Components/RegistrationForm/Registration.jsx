@@ -35,7 +35,7 @@ export default function Registration() {
           <form action="">
             <label htmlFor="name" required>
               <h3>
-                Name <sub>*</sub>
+              Title <sub>*</sub>
               </h3>
             </label>
 
@@ -43,26 +43,26 @@ export default function Registration() {
 
             <label htmlFor="FirmName">
               <h3>
-                Firm Name <sub>*</sub>{" "}
+              Company <sub>*</sub>{" "}
               </h3>{" "}
             </label>
             <input type="text" className="form-control" required />
 
             <label htmlFor="email">
               <h3>
-                Mail <sub>*</sub>
+              Website <sub>*</sub>
               </h3>{" "}
             </label>
             <input
               type="email"
               className="form-control"
-              placeholder="Your Official Mail"
+              placeholder="website name"
               required
             />
 
             <label htmlFor="FoundedYear">
               <h3>
-                Founded Year <sub>*</sub>
+              CompanyLinkedinURL <sub>*</sub>
               </h3>{" "}
             </label>
             <input type="text" className="form-control" required />
@@ -81,7 +81,7 @@ export default function Registration() {
 
             <label htmlFor="CurrentFundSize">
               <h3>
-                Current Fund Size <sub>*</sub>
+              CurrentFundCorpus <sub>*</sub>
               </h3>{" "}
             </label>
             <input
@@ -93,45 +93,37 @@ export default function Registration() {
 
             <label htmlFor="aum">
               <h3>
-                AUM <sub>*</sub>
+              TotalFundCorpus <sub>*</sub>
               </h3>{" "}
             </label>
             <input
               type="text"
               className="form-control"
-              placeholder="For Example:$ 250M"
+              placeholder="For Example:2300000"
               required
             />
 
             <label htmlFor="PortfolioCount">
               <h3>
-                Portfolio Count<sub>*</sub>{" "}
+              Country<sub>*</sub>{" "}
               </h3>{" "}
             </label>
             <input type="text" className="form-control" required />
 
             <label htmlFor="TopPortfolioCompanies">
               <h3>
-                Top Portfolio Companies <sub>*</sub>
+              TwitterURL <sub>*</sub>
               </h3>{" "}
             </label>
             <input
               type="text"
               className="form-control"
-              placeholder="For Example: Flipkart, Atomberg, Paytm"
+              placeholder="enter your twiter url"
               required
             />
 
-            <label htmlFor="leadrounds">
-              <h3>
-                Do you prefer to lead rounds? <sub>*</sub>
-              </h3>{" "}
-            </label>
-            <select className="form-slect">
-              <option value="">YES</option>
-              <option value="">NO</option>
-            </select>
-            <h3>Stage Focus</h3>
+            
+            <h3>Stages </h3>
             <h2>(Please select one of the three options for each stage.</h2>
             <h2>
               For example, if you invest in Pre-Seed and Seed stages, then
@@ -342,7 +334,7 @@ export default function Registration() {
 
             <h2>
               {" "}
-              Sector Focus (Please only select three top sectors in the first
+              Sectors  (Please only select three top sectors in the first
               column) <sub>*</sub>
             </h2>
 
@@ -1043,293 +1035,12 @@ export default function Registration() {
               </table>
             </div>
 
-            <h3>
-              Founder Outreach Preference <sub>*</sub>
-            </h3>
-            <div id="scroll-prop">
-              <table className="table">
-                <thead>
-                  <tr>
-                    <th></th>
-                    <th>Most Preferred</th>
-                    <th>Okay</th>
-                    <th>Least Preferred</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>Warm Intro</td>
-                    <td>
-                      {" "}
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
-                    <td>
-                      {" "}
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
-                    <td>
-                      {" "}
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>Twitter DM</td>
-                    <td>
-                      {" "}
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
-                    <td>
-                      {" "}
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
-                    <td>
-                      {" "}
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>Twitter DM</td>
-                    <td>
-                      {" "}
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
-                    <td>
-                      {" "}
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
-                    <td>
-                      {" "}
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>Linkedin</td>
-                    <td>
-                      {" "}
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
-                    <td>
-                      {" "}
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
-                    <td>
-                      {" "}
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>Investment Bankers</td>
-                    <td>
-                      {" "}
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
-                    <td>
-                      {" "}
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
-                    <td>
-                      {" "}
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>Fund Application Form</td>
-                    <td>
-                      {" "}
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
-                    <td>
-                      {" "}
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
-                    <td>
-                      {" "}
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>Cold Mail</td>
-                    <td>
-                      {" "}
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
-                    <td>
-                      {" "}
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
-                    <td>
-                      {" "}
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>Other</td>
-                    <td>
-                      {" "}
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
-                    <td>
-                      {" "}
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
-                    <td>
-                      {" "}
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
+    
 
-            <label htmlFor="PortfolioCount">
               <h3>
-                Fund Application Form Link to Pitch <sub>*</sub>
+                CompanyOverview <sub>*</sub>
               </h3>{" "}
-            </label>
-            <p>
-              (This can be your application form link or Team ID mail where you
-              want cold outreach to come in)
-            </p>
-            <input type="text" className="form-control" required />
-
-            <label htmlFor="PortfolioCount">
-              <h3>
-                PoC Mail <sub>*</sub>
-              </h3>{" "}
-            </label>
-            <p>
-              <i>
-                (This can be you or anyone in your team who looks after cold
-                mails)
-              </i>{" "}
-            </p>
-            <input type="text" className="form-control" required />
-
-            <label htmlFor="PortfolioCount">
-              <h3>
-                Fund Overview <sub>*</sub>
-              </h3>{" "}
-            </label>
+            
             <textarea name="text" id="" required></textarea>
 
             <button onClick={goToNextPage}>
