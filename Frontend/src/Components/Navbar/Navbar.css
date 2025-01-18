@@ -35,7 +35,6 @@
 
 .navbar-links {
   display: flex;
-  gap: 30px;
   color: #120202;
   list-style: none;
   padding-right: 120px;
@@ -54,7 +53,6 @@
   transition: all 0.3s ease;
   background-color: #ffffff;
   width: fit-content;
-  border: 2px solid red;
 }
 .navbar-links li:hover {
   background-color: #eae7e7;
@@ -297,6 +295,20 @@
   }
   .navbar-links.open {
     box-shadow: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+  }
+
+  .dropdown-nav {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    z-index: 1000;
   }
 }
 @media (max-width: 425px) {
