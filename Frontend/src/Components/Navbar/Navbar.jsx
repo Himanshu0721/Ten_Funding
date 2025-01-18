@@ -1,21 +1,18 @@
 import { useEffect, useRef, useState } from "react";
-import { MdClose, MdKeyboardArrowUp } from "react-icons/md";
-import { MdKeyboardArrowDown } from "react-icons/md";
+import { MdKeyboardArrowUp, MdKeyboardArrowDown, MdStackedBarChart } from "react-icons/md";
 import { FaDatabase } from "react-icons/fa";
 import { FaPlay } from "react-icons/fa6";
 import { IoPeople } from "react-icons/io5";
-import { RiGraduationCapFill } from "react-icons/ri";
-import { MdStackedBarChart } from "react-icons/md";
+import { RiGraduationCapFill, RiUserCommunityLine} from "react-icons/ri";
 import { IoMdHome } from "react-icons/io";
-import { RiUserCommunityLine } from "react-icons/ri";
 import { IoMenu } from "react-icons/io5";
 import { RxCross2 } from "react-icons/rx";
-import { NavLink } from "react-router-dom";
-import { useNavigate } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import "./Navbar.css";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isMenuClose, setIsMenuClose] = useState(false);
   const [issUpArrow, setIssUpArrow] = useState(false);
   const [isvUpArrow, setIsvUpArrow] = useState(false);
   const [iscUpArrow, setIscUpArrow] = useState(false);
@@ -65,7 +62,7 @@ const Navbar = () => {
         closeDropdown(); // Close the menu
       }
     };
-
+    
     document.addEventListener("mouseleave", handleClickOutside);
 
     // Cleanup to avoid memory leaks
@@ -74,9 +71,14 @@ const Navbar = () => {
     };
   }, []);
 
-  const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen);
+  const toggleMenu = (open) => {
+    setIsMenuOpen(open);
   };
+  const toggleOpenMenu = ()=> {
+    setIsMenuOpen(!isMenuOpen);
+    setIsMenuClose(!isMenuClose);
+  }
+
   const allDropdown = () => {
     setIsvUpArrow(false);
     setIsVCOpen(false);
@@ -84,10 +86,10 @@ const Navbar = () => {
     setIsCompanyOpen(false);
     setIssUpArrow(false);
     setIsStartupsOpen(false);
+    closeDropdown();
   };
   const startupMouseEnter = () => {
     setIssUpArrow(true);
-    closeDropdown();
     setIsStartupsOpen(true);
     setIsvUpArrow(false);
     setIsVCOpen(false);
@@ -207,7 +209,7 @@ const Navbar = () => {
         <button
           ref={dropdownRef}
           className="menu-toggle"
-          onClick={toggleMenu}
+          onClick={toggleOpenMenu}
           aria-label="Toggle menu"
         >
          {isMenuOpen ? <RxCross2 />: <IoMenu/> }
@@ -217,7 +219,7 @@ const Navbar = () => {
             <NavLink
               to="/"
               onMouseEnter={allDropdown}
-              onClick={(e) => e.stopPropagation()}
+              onClick={(e) =>{ e.stopPropagation(); toggleMenu(false); }}
             >
               Raise
             </NavLink>
@@ -242,12 +244,13 @@ const Navbar = () => {
                 className="dropdown-nav"
                 onMouseLeave={startupMouseLeave}
                 ref={dropdownRef}>
-                <button className="close-dropdown" onClick={closeDropdown}>
-                  <MdClose/>
-                </button>
                 <div
                   className="dropdown-nav-item"
-                  onClick={handleFundraisingOS}
+                  onClick={() => {
+                    handleFundraisingOS();
+                    closeDropdown()
+                    toggleMenu(false); // Close the dropdown
+      }}
                 >
                   <h3>Fundraising OS</h3>
                   <p>Helps you easily manage your fundraising process</p>
@@ -255,7 +258,11 @@ const Navbar = () => {
                     <FaDatabase />
                   </div>
                 </div>
-                <div className="dropdown-nav-item" onClick={handleNextPlay}>
+                <div className="dropdown-nav-item" onClick={() => {
+                  handleNextPlay();
+                  closeDropdown()
+                  toggleMenu(false); // Close the dropdown
+                 }}>
                   <h3>Next Play</h3>
                   <p>
                     Exclusive community for top-notch founders and operators
@@ -264,7 +271,11 @@ const Navbar = () => {
                     <FaPlay />
                   </div>
                 </div>
-                <div className="dropdown-nav-item" onClick={handleSpotlight}>
+                <div className="dropdown-nav-item" onClick={() => {
+                  handleSpotlight();
+                  closeDropdown()
+                  toggleMenu(false); // Close the dropdown
+                 }}>
                   <h3>Spotlight</h3>
                   <p>For top talents to meet the best founders</p>
                   <div className="dropdown-nav-icon">
@@ -294,24 +305,33 @@ const Navbar = () => {
                 className="dropdown-nav"
                 ref={dropdownRef}
                 onMouseLeave={vcHandleMouseLeave}>
-                <button className="close-dropdown" onClick={closeDropdown}>
-                  <MdClose/>
-                </button>
-                <div className="dropdown-nav-item3" onClick={handleLaunchPad}>
+                <div className="dropdown-nav-item3" onClick={()=> 
+                {handleLaunchPad();
+                closeDropdown()
+                toggleMenu(false); // Close the dropdown
+                }}>
                   <h3>LaunchPad</h3>
                   <p>Find VC jobs</p>
                   <div className="dropdown-nav-icon">
                     <RiGraduationCapFill />
                   </div>
                 </div>
-                <div className="dropdown-nav-item3" onClick={handleVentureOS}>
+                <div className="dropdown-nav-item3" onClick={()=>{
+                  handleVentureOS();
+                  closeDropdown()
+                  toggleMenu(false); // Close the dropdown
+                  }}>
                   <h3>Venture OS</h3>
                   <p>Manage a VC fund in one place</p>
                   <div className="dropdown-nav-icon">
                     <FaPlay />
                   </div>
                 </div>
-                <div className="dropdown-nav-item3" onClick={handleVcStack}>
+                <div className="dropdown-nav-item3" onClick={()=>{
+                  handleVcStack();
+                  closeDropdown()
+                  toggleMenu(false); // Close the dropdown
+                  }}>
                   <h3>VC Stack</h3>
                   <p>Find your VC software stack</p>
                   <div className="dropdown-nav-icon">
@@ -339,18 +359,25 @@ const Navbar = () => {
             {isCompanyOpen && (
               <div
                 className="dropdown-nav"
-                onMouseLeave={companyMouseLeave}>
-                <button className="close-dropdown" onClick={closeDropdown}>
-                  <MdClose/>
-                </button>
-                <div className="dropdown-nav-item2" onClick={handleAboutUS}>
+                ref={dropdownRef}
+                onMouseLeave={companyMouseLeave}
+                >
+                <div className="dropdown-nav-item2" onClick={()=>{
+                  handleAboutUS();
+                  closeDropdown()
+                  toggleMenu(false); // Close the dropdown
+                  }}>
                   <h3>About US</h3>
                   <p>Learn about our people</p>
                   <div className="dropdown-nav-icon">
                     <IoMdHome />
                   </div>
                 </div>
-                <div className="dropdown-nav-item2" onClick={handleCommunity}>
+                <div className="dropdown-nav-item2" onClick={()=>{
+                  handleCommunity();
+                  closeDropdown()
+                  toggleMenu(false); // Close the dropdown
+                  }}>
                   <h3>Community</h3>
                   <p>Join our Community</p>
                   <div className="dropdown-nav-icon">
