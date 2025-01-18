@@ -42,11 +42,11 @@ const StageFocusDropdown = ({selectedStages, onStageChange}) => {
 
   return (
     <div className="dropdown-container" ref={dropdownRef}>
-      <button className="dropdown-button" onClick={toggleDropdown}>
+      <button className="dropdown-button" onClick={toggleDropdown} style={{width : '200px'}}>
         Stage Focus
       </button>
       {isOpen && (
-        <div className="dropdown-menu">
+        <div className="dropdown-menu stage-dropdown-menu">
           {stages.map((stage) => (
             <div key={stage} className="dropdown-item">
               <label>

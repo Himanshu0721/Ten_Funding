@@ -62,11 +62,11 @@ const SectorFocusDropdown = ({ selectedSectors, onSectorChange }) => {
 
   return (
     <div className="dropdown-container" ref={dropdownRef}>
-      <button className="dropdown-button" onClick={toggleDropdown}>
+      <button className="dropdown-button sector-dropdown-button" onClick={toggleDropdown} style={{width : '200px'}}>
         Sector Focus
       </button>
       {isOpen && (
-        <div className="dropdown-menu">
+        <div className="dropdown-menu sector-dropdown-menu">
           {sectors.map((sector) => (
             <div key={sector} className="dropdown-item">
               <label>

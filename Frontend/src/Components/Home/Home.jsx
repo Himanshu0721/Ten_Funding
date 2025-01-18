@@ -141,7 +141,10 @@ function Home() {
         {selectedStages.map((stage, index) => (
           <div className="tag" key={`stage-${index}`}>
             {stage}
-            <span className="remove-tag" onClick={() => handleRemoveTag("stage", stage)}>
+            <span
+              className="remove-tag"
+              onClick={() => handleRemoveTag("stage", stage)}
+            >
               X
             </span>
           </div>
@@ -149,7 +152,10 @@ function Home() {
         {selectedSectors.map((sector, index) => (
           <div className="tag" key={`sector-${index}`}>
             {sector}
-            <span className="remove-tag" onClick={() => handleRemoveTag("sector", sector)}>
+            <span
+              className="remove-tag"
+              onClick={() => handleRemoveTag("sector", sector)}
+            >
               X
             </span>
           </div>
@@ -158,7 +164,7 @@ function Home() {
 
       <div className="home-sec">
         <div className="home-sec-header">
-          <h6>NAME</h6>
+          <h6 className="home-sec-name">NAME</h6>
           <h6>STAGE FOCUS</h6>
           <h6>SECTOR FOCUS</h6>
           <h6 className="lst">TICKET SIZE</h6>
@@ -174,7 +180,11 @@ function Home() {
                 className="db-img"
               />
               <div>
-                <p>{investor.name}</p>
+                <p>
+                  {investor.title.split(" ").length > 3
+                    ? `${investor.title.split(" ").slice(0, 2).join(" ")} ...`
+                    : investor.title}
+                </p>
               </div>
             </div>
             <div className="btn-1">

@@ -40,11 +40,11 @@ const DatasetDropdown = ({ selectedDataset, onDatasetChange }) => {
 
   return (
     <div className="dropdown-container" ref={dropdownRef}>
-      <button className="dropdown-button" onClick={toggleDropdown}>
+      <button className="dropdown-button dataset-dropdown-button" onClick={toggleDropdown}>
         {selectedLabel}
       </button>
       {isOpen && (
-        <div className="dropdown-menu">
+        <div className="dropdown-menu dataset-dropdown-menu">
           {datasets.map((dataset) => (
             <div key={dataset.value} className="dropdown-item">
               <button
