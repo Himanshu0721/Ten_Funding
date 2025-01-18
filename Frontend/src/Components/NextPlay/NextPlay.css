@@ -33,7 +33,7 @@ body {
 
 /* Main Content Styles */
 .intro {
-  margin-top: 5rem;
+  margin-top: 1rem;
   margin-bottom: 2rem;
 }
 .intro h1 {
@@ -98,13 +98,14 @@ body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
   /* margin: 0 auto; */
-  /* padding: 20px; */
+   padding-top: 20px; 
   max-width: 900px;
   color: #333;
+  margin-top:10px;
 }
 
 .page-title {
-  font-size: 2rem;
+  font-size: 24px;
   font-weight: bold;
   text-align: left;
   margin-bottom: 20px;
@@ -130,7 +131,7 @@ body {
 }
 
 .card-nextplay h2 {
-  font-size: 1.5rem;
+  font-size: 20px;
   margin-bottom: 10px;
 }
 
@@ -188,7 +189,7 @@ body {
 }
 
 .faq-container h1 {
-  font-size: 2rem;
+  font-size: 25px;
 }
 
 .faq-section {
@@ -269,7 +270,7 @@ body {
   }
 
   .page-title {
-    font-size: 1.8rem;
+    font-size: 22px;
   }
 
   .card-nextplay {
@@ -290,7 +291,7 @@ body {
     padding-left:20px;
   }
 }
-@media (max-width:652px)and (min-width:425px)
+@media (max-width:656px)and (min-width:425px)
 {
   .matching-section{
     margin: 0 auto;
