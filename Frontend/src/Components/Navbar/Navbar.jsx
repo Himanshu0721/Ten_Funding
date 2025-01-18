@@ -215,20 +215,19 @@ const Navbar = () => {
          {isMenuOpen ? <RxCross2 />: <IoMenu/> }
         </button>
         <ul className={`navbar-links ${isMenuOpen ? "open" : ""}`}>
-          <li>
+          <li onMouseEnter={allDropdown}>
             <NavLink
               to="/"
-              onMouseEnter={allDropdown}
               onClick={(e) =>{ e.stopPropagation(); toggleMenu(false); }}
             >
               Raise
             </NavLink>
           </li>
-          <li>
+          <li onMouseEnter={startupMouseEnter}>
             <a
               href="#startup"
-              onMouseEnter={startupMouseEnter}
               onClick={(e) => e.stopPropagation()}
+              onMouseEnter={startupMouseEnter}
               style={{
                 cursor: "pointer",
                 fontsize: "20px",
@@ -286,11 +285,11 @@ const Navbar = () => {
             )}
           </li>
 
-          <li>
+          <li onMouseEnter={vcHandleMouseEnter}>
             <a
               href="#vchandle"
-              onMouseEnter={vcHandleMouseEnter}
               onClick={(e) => e.stopPropagation()}
+              onMouseEnter={vcHandleMouseEnter}
               style={{
                 cursor: "pointer",
                 fontsize: "20px",
@@ -342,11 +341,13 @@ const Navbar = () => {
             )}
           </li>
 
-          <li>
+          <li onMouseEnter={companyMouseEnter}
+          onMouseLeave={companyMouseLeave}
+          >
             <a
               href="#company"
-              onMouseEnter={companyMouseEnter}
               onClick={(e) => e.stopPropagation()}
+              onMouseEnter={companyMouseEnter}
               style={{
                 cursor: "pointer",
                 fontsize: "20px",
