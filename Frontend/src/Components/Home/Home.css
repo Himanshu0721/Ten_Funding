@@ -44,7 +44,12 @@
   font-size: 18px;
   padding: 12px;
   border-radius: 25px;
-  background: linear-gradient(to top right, #dee2ff, #dee2ff 50%, transparent 50%);
+  background: linear-gradient(
+    to top right,
+    #dee2ff,
+    #dee2ff 50%,
+    transparent 50%
+  );
   background-size: 200% 200%;
   background-position: bottom left;
   border: 1px solid black;
@@ -99,6 +104,10 @@
 
 .sector-dropdown-menu {
   width: 320px;
+}
+
+.dataset-dropdown-menu {
+  text-size-adjust: 120%;
 }
 
 .dropdown-container .dropdown-menu {
@@ -376,6 +385,14 @@
     font-size: 17px;
   }
 
+  .stage-dropdown-menu {
+    text-size-adjust: 90%;
+  }
+
+  .sector-dropdown-menu {
+    text-size-adjust: 90%;
+  }
+
   .Search {
     flex-wrap: wrap;
     justify-content: flex-end;
@@ -494,7 +511,7 @@
     border: 1px solid white;
     border-radius: 10px;
     font-size: 13px;
-    height: 35px;
+    height: 45px;
     width: fit-content;
     cursor: pointer;
   }
@@ -590,10 +607,16 @@
 
   .sector-dropdown-menu {
     width: 250px;
+    text-size-adjust: 90%;
   }
 
   .dataset-dropdown-menu {
     height: 180px;
+    text-size-adjust: 120%;
+  }
+
+  .stage-dropdown-menu {
+    text-size-adjust: 90%;
   }
 
   .Search {
@@ -720,7 +743,7 @@
   }
 }
 
- @media (max-width: 480px) {
+@media (max-width: 480px) {
   .home-container {
     width: 95%;
     margin-top: 10px;
