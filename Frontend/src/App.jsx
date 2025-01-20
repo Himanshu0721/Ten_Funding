@@ -33,8 +33,9 @@ function App() {
           <Route path="/registration-form" element={<Registrationform />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           <Route path="/terms-of-Service" element={<TermsOfService />} />
-          <Route path="/Card" element={<Card />} />
-          <Route path="/Pitch" element={<Pitch />} />
+          {/* <Route path="/card/:dataset/:id" element={<Card />} /> */}
+          <Route path="/card/:id" element={<Card />} />
+          <Route path="/pitch" element={<Pitch />} />
           <Route
             path="/registrationformnext"
             element={<RegistrationFormNext />}

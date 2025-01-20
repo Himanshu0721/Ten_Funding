@@ -5,7 +5,7 @@ import StageFocusDropdown from "./StageFocusDropdown";
 import SectorFocusDropdown from "./SectorFocusDropdown";
 import DatasetDropdown from "./DatasetDropdown.jsx";
 import vcIndiaData from "../../assets/data/vcIndia.js";
-import vcUSAData from "../../assets/data/vcUSA.js";
+import vcUSAData from "../../assets/data/vcUsa.js";
 import angelsIndiaData from "../../assets/data/angelsIndia.js";
 import angelsUSAData from "../../assets/data/angelsUSA.js";
 
@@ -14,6 +14,11 @@ function Home() {
 
   const handleButtonClick = () => {
     navigate("/registration-form");
+  };
+
+  const handleCard = (id) => {
+    // Pass the selected dataset along with the id
+    navigate(`/card/${id}`, { state: { dataset: selectedDataset } });
   };
 
   const [visibleCount, setVisibleCount] = useState(10);
@@ -65,10 +70,22 @@ function Home() {
   }, [selectedStages, selectedSectors, searchQuery, selectedDataset]);
 
   const handleDatasetChange = (newDataset) => {
-    if (newDataset === "angelsIndiaData") setSelectedDataset(angelsIndiaData);
-    else if (newDataset === "vcIndiaData") setSelectedDataset(vcIndiaData);
-    else if (newDataset === "vcUSAData") setSelectedDataset(vcUSAData);
-    else if (newDataset === "angelsUSAData") setSelectedDataset(angelsUSAData);
+    switch (newDataset) {
+      case "angelsIndiaData":
+        setSelectedDataset(angelsIndiaData);
+        break;
+      case "vcIndiaData":
+        setSelectedDataset(vcIndiaData);
+        break;
+      case "vcUSAData":
+        setSelectedDataset(vcUSAData);
+        break;
+      case "angelsUSAData":
+        setSelectedDataset(angelsUSAData);
+        break;
+      default:
+        break;
+    }
   };
 
   const handleStageChange = (newSelectedStages) => {
@@ -171,7 +188,11 @@ function Home() {
         </div>
         <br />
         {filteredInvestors.slice(0, visibleCount).map((investor, index) => (
-          <div className="home-card" key={index}>
+          <div
+            className="home-card"
+            key={index}
+            onClick={() => handleCard(investor.id)}
+          >
             <div className="home-img">
               <img
                 src={investor.logo}
