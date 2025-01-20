@@ -63,11 +63,11 @@ const Navbar = () => {
       }
     };
     
-    document.addEventListener("mouseleave", handleClickOutside);
+    document.addEventListener("click", handleClickOutside);
 
     // Cleanup to avoid memory leaks
     return () => {
-      document.removeEventListener("mouseleave", handleClickOutside);
+      document.removeEventListener("click", handleClickOutside);
     };
   }, []);
 
@@ -135,6 +135,8 @@ const Navbar = () => {
     setIsvUpArrow(false);
     setIscUpArrow(false);
   };
+
+  
   return (
     <>
       <nav className="navbar">
@@ -223,7 +225,7 @@ const Navbar = () => {
               Raise
             </NavLink>
           </li>
-          <li onMouseEnter={startupMouseEnter}>
+          <li onMouseEnter={startupMouseEnter} onMouseLeave={startupMouseLeave}>
             <a
               href="#startup"
               onClick={(e) => e.stopPropagation()}
@@ -241,7 +243,6 @@ const Navbar = () => {
             {isStartupsOpen && (
               <div
                 className="dropdown-nav"
-                onMouseLeave={startupMouseLeave}
                 ref={dropdownRef}>
                 <div
                   className="dropdown-nav-item"
@@ -254,7 +255,7 @@ const Navbar = () => {
                   <h3>Fundraising OS</h3>
                   <p>Helps you easily manage your fundraising process</p>
                   <div className="dropdown-nav-icon">
-                    <FaDatabase />
+                    <FaDatabase className="startup-icons" />
                   </div>
                 </div>
                 <div className="dropdown-nav-item" onClick={() => {
@@ -267,7 +268,7 @@ const Navbar = () => {
                     Exclusive community for top-notch founders and operators
                   </p>
                   <div className="dropdown-nav-icon">
-                    <FaPlay />
+                    <FaPlay className="startup-icons" />
                   </div>
                 </div>
                 <div className="dropdown-nav-item" onClick={() => {
@@ -278,14 +279,14 @@ const Navbar = () => {
                   <h3>Spotlight</h3>
                   <p>For top talents to meet the best founders</p>
                   <div className="dropdown-nav-icon">
-                    <IoPeople />
+                    <IoPeople className="startup-icons" />
                   </div>
                 </div>
               </div>
             )}
           </li>
 
-          <li onMouseEnter={vcHandleMouseEnter}>
+          <li onMouseEnter={vcHandleMouseEnter} onMouseLeave={vcHandleMouseLeave}>
             <a
               href="#vchandle"
               onClick={(e) => e.stopPropagation()}
@@ -302,8 +303,7 @@ const Navbar = () => {
             {isVCOpen && (
               <div
                 className="dropdown-nav"
-                ref={dropdownRef}
-                onMouseLeave={vcHandleMouseLeave}>
+                ref={dropdownRef}>
                 <div className="dropdown-nav-item3" onClick={()=> 
                 {handleLaunchPad();
                 closeDropdown()
@@ -312,7 +312,7 @@ const Navbar = () => {
                   <h3>LaunchPad</h3>
                   <p>Find VC jobs</p>
                   <div className="dropdown-nav-icon">
-                    <RiGraduationCapFill />
+                    <RiGraduationCapFill className="vc-icon"/>
                   </div>
                 </div>
                 <div className="dropdown-nav-item3" onClick={()=>{
@@ -323,7 +323,7 @@ const Navbar = () => {
                   <h3>Venture OS</h3>
                   <p>Manage a VC fund in one place</p>
                   <div className="dropdown-nav-icon">
-                    <FaPlay />
+                    <FaPlay className="vc-icon" />
                   </div>
                 </div>
                 <div className="dropdown-nav-item3" onClick={()=>{
@@ -334,15 +334,13 @@ const Navbar = () => {
                   <h3>VC Stack</h3>
                   <p>Find your VC software stack</p>
                   <div className="dropdown-nav-icon">
-                    <MdStackedBarChart />
+                    <MdStackedBarChart className="vc-icon" />
                   </div>
                 </div>
               </div>
             )}
           </li>
-
-          <li onMouseEnter={companyMouseEnter}
-          onMouseLeave={companyMouseLeave}
+          <li onMouseEnter={companyMouseEnter} onMouseLeave={companyMouseLeave}
           >
             <a
               href="#company"
@@ -361,7 +359,6 @@ const Navbar = () => {
               <div
                 className="dropdown-nav"
                 ref={dropdownRef}
-                onMouseLeave={companyMouseLeave}
                 >
                 <div className="dropdown-nav-item2" onClick={()=>{
                   handleAboutUS();
@@ -371,7 +368,7 @@ const Navbar = () => {
                   <h3>About US</h3>
                   <p>Learn about our people</p>
                   <div className="dropdown-nav-icon">
-                    <IoMdHome />
+                    <IoMdHome className="company-icon" />
                   </div>
                 </div>
                 <div className="dropdown-nav-item2" onClick={()=>{
@@ -382,7 +379,7 @@ const Navbar = () => {
                   <h3>Community</h3>
                   <p>Join our Community</p>
                   <div className="dropdown-nav-icon">
-                    <RiUserCommunityLine />
+                    <RiUserCommunityLine className="company-icon" />
                   </div>
                 </div>
               </div>
