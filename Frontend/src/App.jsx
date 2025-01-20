@@ -5,7 +5,6 @@ import Navbar from "./Components/Navbar/Navbar";
 import Home from "./Components/Home/Home";
 import Footer from "./Components/Footer/Footer";
 import Registrationform from "./Components/RegistrationForm/Registration.jsx";
-import RegistrationFormNext from "./Components/RegistrationForm/RegistrationFormNext.jsx";
 import PrivacyPolicy from "./Components/PrivacyPolicy/PrivacyPolicy";
 import TermsOfService from "./Components/TermsOfService/TermsOfService";
 import Card from "./Components/Card/Cardframe";
@@ -33,13 +32,8 @@ function App() {
           <Route path="/registration-form" element={<Registrationform />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           <Route path="/terms-of-Service" element={<TermsOfService />} />
-          {/* <Route path="/card/:dataset/:id" element={<Card />} /> */}
           <Route path="/card/:id" element={<Card />} />
           <Route path="/pitch" element={<Pitch />} />
-          <Route
-            path="/registrationformnext"
-            element={<RegistrationFormNext />}
-          />
           <Route path="/fundraising-os" element={<FundraisingPage />} />
           <Route path="/nextplay" element={<NextPlay />} />
           <Route path="/spotlight" element={<Spotlight />} />

@@ -1,16 +1,10 @@
+import React from "react";
 import "./Registration.css";
-import { useNavigate } from "react-router-dom";
 
 export default function Registration() {
-  const navigate = useNavigate();
-  let goToNextPage = () => {
-    navigate("/registrationformnext");
-  };
-
   return (
     <>
       <div className="registration-form-container">
-        
         <div className="header-content">
           <h1>TEN Funding Investor Community Registration Form</h1>
           <h3>
@@ -20,8 +14,8 @@ export default function Registration() {
             boards, and networking events.
           </h3>
           <p>
-            This form may take roughly up to 5 to 10 minutes to complete. TIA!
-          </p>{" "}
+            This form may take roughly up to 2 to 5 minutes to complete. TIA!
+          </p>
           <hr />
           <h4>
             <u>
@@ -33,123 +27,121 @@ export default function Registration() {
 
         <div className="registration-form-content">
           <form action="">
-            <label htmlFor="name" required>
+            <label htmlFor="title">
               <h3>
-              Title <sub>*</sub>
+                Title <sub>*</sub>
               </h3>
             </label>
-
             <input type="text" className="form-control" required />
-
-            <label htmlFor="FirmName">
+            <label htmlFor="company">
               <h3>
-              Company <sub>*</sub>{" "}
-              </h3>{" "}
-            </label>
-            <input type="text" className="form-control" required />
-
-            <label htmlFor="email">
-              <h3>
-              Website <sub>*</sub>
-              </h3>{" "}
+                Company <sub>*</sub>
+              </h3>
             </label>
             <input
-              type="email"
+              type="text"
               className="form-control"
-              placeholder="website name"
+              placeholder="Enter your company name"
               required
             />
-
-            <label htmlFor="FoundedYear">
+            <label htmlFor="website">
               <h3>
-              CompanyLinkedinURL <sub>*</sub>
-              </h3>{" "}
+                Website URL <sub>*</sub>
+              </h3>
+            </label>
+            <input
+              type="text"
+              className="form-control"
+              placeholder="Enter your company website url"
+              required
+            />
+            <label htmlFor="logo">
+              <h3>
+                Company Logo URL <sub>*</sub>
+              </h3>
+            </label>
+            <input
+              type="text"
+              className="form-control"
+              placeholder="Enter your company logo url"
+              required
+            />
+            <label htmlFor="companyLinkedinUrl">
+              <h3>
+                Company LinkedIn URL <sub>*</sub>
+              </h3>
+            </label>
+            <input
+              type="text"
+              className="form-control"
+              placeholder="Enter your company linkedIn url"
+              required
+            />
+            <label htmlFor="twitterUrl">
+              <h3>
+                Company Twitter URL <sub>*</sub>
+              </h3>
+            </label>
+            <input
+              type="text"
+              className="form-control"
+              placeholder="Enter your company twiter url"
+              required
+            />
+            <label htmlFor="country">
+              <h3>
+                Country <sub>*</sub>
+              </h3>
             </label>
             <input type="text" className="form-control" required />
-
-            <label htmlFor="TicketSize">
+            <label htmlFor="city">
+              <h3>
+                City <sub>*</sub>
+              </h3>
+            </label>
+            <input type="text" className="form-control" required />
+            <label htmlFor="ticketSize">
               <h3>
                 Ticket Size <sub>*</sub>
-              </h3>{" "}
+              </h3>
             </label>
             <input
               type="text"
               className="form-control"
-              placeholder="For Example:$ 200k - $ 5M"
+              placeholder="For Example:$ 100k - $ 500k"
               required
             />
-
-            <label htmlFor="CurrentFundSize">
+            <label htmlFor="currentFundCorpus">
               <h3>
-              CurrentFundCorpus <sub>*</sub>
-              </h3>{" "}
+                CurrentFundCorpus <sub>*</sub>
+              </h3>
             </label>
             <input
               type="text"
               className="form-control"
-              placeholder="For Example:$ 100M"
+              placeholder="For Example: 500000"
               required
             />
-
-            <label htmlFor="aum">
+            <label htmlFor="totalFundCorpus">
               <h3>
-              TotalFundCorpus <sub>*</sub>
-              </h3>{" "}
+                TotalFundCorpus <sub>*</sub>
+              </h3>
             </label>
             <input
               type="text"
               className="form-control"
-              placeholder="For Example:2300000"
+              placeholder="For Example: 900000"
               required
             />
-
-            <label htmlFor="PortfolioCount">
-              <h3>
-              Country<sub>*</sub>{" "}
-              </h3>{" "}
-            </label>
-            <input type="text" className="form-control" required />
-
-            <label htmlFor="TopPortfolioCompanies">
-              <h3>
-              TwitterURL <sub>*</sub>
-              </h3>{" "}
-            </label>
-            <input
-              type="text"
-              className="form-control"
-              placeholder="enter your twiter url"
-              required
-            />
-
-            
-            <h3>Stages </h3>
-            <h2>(Please select one of the three options for each stage.</h2>
-            <h2>
-              For example, if you invest in Pre-Seed and Seed stages, then
-              select either "Most often invest in" or "Opportunistically invest
-              in" for those stages and select "Doesn't look at" for the rest of
-              the stages
-            </h2>
-            <h2>
-              
-              <sub></sub>
-            </h2>
-
+            <h3>
+              Stages <sub>*</sub>
+            </h3>
             <div id="scroll-prop">
               <table className="table">
-                <thead>
-                  <tr>
-                    <th></th>
-                    <th>Most often invests in:</th>
-                    
-                  </tr>
-                </thead>
                 <tbody>
                   <tr>
                     <td>Pre-Seed</td>
                     <td>
-                      {" "}
                       <input
                         className="form-check-input"
                         type="radio"
@@ -157,12 +149,10 @@ export default function Registration() {
                         id="inlineRadio1"
                       />
                     </td>
-                   
                   </tr>
                   <tr>
                     <td>Seed</td>
                     <td>
-                      {" "}
                       <input
                         className="form-check-input"
                         type="radio"
@@ -170,12 +160,10 @@ export default function Registration() {
                         id="inlineRadio1"
                       />
                     </td>
-                    
                   </tr>
                   <tr>
                     <td>Series A</td>
                     <td>
-                      {" "}
                       <input
                         className="form-check-input"
                         type="radio"
@@ -183,12 +171,10 @@ export default function Registration() {
                         id="inlineRadio1"
                       />
                     </td>
-                    
                   </tr>
                   <tr>
                     <td>Series B</td>
                     <td>
-                      {" "}
                       <input
                         className="form-check-input"
                         type="radio"
@@ -196,12 +182,10 @@ export default function Registration() {
                         id="inlineRadio1"
                       />
                     </td>
-                    
                   </tr>
                   <tr>
                     <td>Series C and beyond</td>
                     <td>
-                      {" "}
                       <input
                         className="form-check-input"
                         type="radio"
@@ -209,12 +193,10 @@ export default function Registration() {
                         id="inlineRadio1"
                       />
                     </td>
-                    
                   </tr>
                   <tr>
                     <td>Debt</td>
                     <td>
-                      {" "}
                       <input
                         className="form-check-input"
                         type="radio"
@@ -222,34 +204,19 @@ export default function Registration() {
                         id="inlineRadio1"
                       />
                     </td>
-                    
                   </tr>
                 </tbody>
               </table>
             </div>
-
-            <h2>
-              {" "}
-              Sectors  
-               <sub>*</sub>
-            </h2>
-
+            <h3>
+              Sectors <sub>*</sub>
+            </h3>
             <div id="scroll-prop">
               <table className="table">
-                <thead>
-                  <tr>
-                    <th> </th>
-                    <th> Top Three Sector - Most often invests in:</th>
-                    
-                    
-                  </tr>
-                </thead>
-
                 <tbody>
                   <tr>
                     <td>AI/ML</td>
                     <td>
-                      {" "}
                       <input
                         className="form-check-input"
                         type="radio"
@@ -257,14 +224,11 @@ export default function Registration() {
                         id="inlineRadio1"
                       />
                     </td>
-                    
-                   
                   </tr>
 
                   <tr>
                     <td>AR/VR</td>
                     <td>
-                      {" "}
                       <input
                         className="form-check-input"
                         type="radio"
@@ -272,13 +236,11 @@ export default function Registration() {
                         id="inlineRadio1"
                       />
                     </td>
-                   
                   </tr>
 
                   <tr>
                     <td>Agritech/Food </td>
                     <td>
-                      {" "}
                       <input
                         className="form-check-input"
                         type="radio"
@@ -286,13 +248,11 @@ export default function Registration() {
                         id="inlineRadio1"
                       />
                     </td>
-                    
                   </tr>
 
                   <tr>
                     <td>Biotech/Life sciences</td>
                     <td>
-                      {" "}
                       <input
                         className="form-check-input"
                         type="radio"
@@ -300,13 +260,11 @@ export default function Registration() {
                         id="inlineRadio1"
                       />
                     </td>
-                   
                   </tr>
 
                   <tr>
                     <td>Climate/Sustainability</td>
                     <td>
-                      {" "}
                       <input
                         className="form-check-input"
                         type="radio"
@@ -314,13 +272,11 @@ export default function Registration() {
                         id="inlineRadio1"
                       />
                     </td>
-                   
                   </tr>
 
                   <tr>
                     <td>Consumer</td>
                     <td>
-                      {" "}
                       <input
                         className="form-check-input"
                         type="radio"
@@ -328,13 +284,11 @@ export default function Registration() {
                         id="inlineRadio1"
                       />
                     </td>
-                    
                   </tr>
 
                   <tr>
                     <td>Crypto/Blockchain</td>
                     <td>
-                      {" "}
                       <input
                         className="form-check-input"
                         type="radio"
@@ -342,12 +296,11 @@ export default function Registration() {
                         id="inlineRadio1"
                       />
                     </td>
-                    </tr>
+                  </tr>
 
                   <tr>
                     <td>Deep Tech/Hard Science</td>
                     <td>
-                      {" "}
                       <input
                         className="form-check-input"
                         type="radio"
@@ -355,13 +308,11 @@ export default function Registration() {
                         id="inlineRadio1"
                       />
                     </td>
-                    
                   </tr>
 
                   <tr>
                     <td>Education</td>
                     <td>
-                      {" "}
                       <input
                         className="form-check-input"
                         type="radio"
@@ -369,13 +320,11 @@ export default function Registration() {
                         id="inlineRadio1"
                       />
                     </td>
-                    
                   </tr>
 
                   <tr>
                     <td>Enterprise</td>
                     <td>
-                      {" "}
                       <input
                         className="form-check-input"
                         type="radio"
@@ -383,13 +332,11 @@ export default function Registration() {
                         id="inlineRadio1"
                       />
                     </td>
-                    
                   </tr>
 
                   <tr>
                     <td>Media & Entertainment</td>
                     <td>
-                      {" "}
                       <input
                         className="form-check-input"
                         type="radio"
@@ -397,14 +344,11 @@ export default function Registration() {
                         id="inlineRadio1"
                       />
                     </td>
-                    
-                  
                   </tr>
 
                   <tr>
                     <td>Pre-Seed</td>
                     <td>
-                      {" "}
                       <input
                         className="form-check-input"
                         type="radio"
@@ -412,13 +356,11 @@ export default function Registration() {
                         id="inlineRadio1"
                       />
                     </td>
-                    
                   </tr>
 
                   <tr>
                     <td>Gaming</td>
                     <td>
-                      {" "}
                       <input
                         className="form-check-input"
                         type="radio"
@@ -426,13 +368,11 @@ export default function Registration() {
                         id="inlineRadio1"
                       />
                     </td>
-                   
                   </tr>
 
                   <tr>
                     <td>Government/Defence</td>
                     <td>
-                      {" "}
                       <input
                         className="form-check-input"
                         type="radio"
@@ -440,13 +380,11 @@ export default function Registration() {
                         id="inlineRadio1"
                       />
                     </td>
-                   
                   </tr>
 
                   <tr>
                     <td>Health and Wellness</td>
                     <td>
-                      {" "}
                       <input
                         className="form-check-input"
                         type="radio"
@@ -454,13 +392,11 @@ export default function Registration() {
                         id="inlineRadio1"
                       />
                     </td>
-                    
                   </tr>
 
                   <tr>
                     <td>Healthcare/Medtech</td>
                     <td>
-                      {" "}
                       <input
                         className="form-check-input"
                         type="radio"
@@ -468,13 +404,11 @@ export default function Registration() {
                         id="inlineRadio1"
                       />
                     </td>
-
                   </tr>
 
                   <tr>
                     <td>Industrial/IoT/ Robotics</td>
                     <td>
-                      {" "}
                       <input
                         className="form-check-input"
                         type="radio"
@@ -482,13 +416,11 @@ export default function Registration() {
                         id="inlineRadio1"
                       />
                     </td>
-                    
                   </tr>
 
                   <tr>
                     <td>Prop Tech/Real Estate</td>
                     <td>
-                      {" "}
                       <input
                         className="form-check-input"
                         type="radio"
@@ -496,13 +428,11 @@ export default function Registration() {
                         id="inlineRadio1"
                       />
                     </td>
-                    
                   </tr>
 
                   <tr>
                     <td>Supply Chain/Logistics</td>
                     <td>
-                      {" "}
                       <input
                         className="form-check-input"
                         type="radio"
@@ -510,13 +440,11 @@ export default function Registration() {
                         id="inlineRadio1"
                       />
                     </td>
-                    
                   </tr>
 
                   <tr>
                     <td>Travel/Hospitality</td>
                     <td>
-                      {" "}
                       <input
                         className="form-check-input"
                         type="radio"
@@ -524,23 +452,19 @@ export default function Registration() {
                         id="inlineRadio1"
                       />
                     </td>
-                   
                   </tr>
                 </tbody>
               </table>
             </div>
 
-    
-
+            <label htmlFor="companyOverview">
               <h3>
                 CompanyOverview <sub>*</sub>
-              </h3>{" "}
-            
+              </h3>
+            </label>
             <textarea name="text" id="" required></textarea>
-
-            <button onClick={goToNextPage}>
-              {" "}
-              Next{" "}
+            <button>
+              Submit
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="10"
@@ -555,7 +479,6 @@ export default function Registration() {
           </form>
         </div>
       </div>
-      {/* <a href=""><button className='made-with-tally'>Made With Tally</button></a> */}
     </>
   );
 }
