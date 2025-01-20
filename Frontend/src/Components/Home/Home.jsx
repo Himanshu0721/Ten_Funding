@@ -16,6 +16,10 @@ function Home() {
     navigate("/registration-form");
   };
 
+  const handleCard = (id) => {
+    navigate(`/card/${id}`);
+  };
+
   const [visibleCount, setVisibleCount] = useState(10);
   const [selectedStages, setSelectedStages] = useState([]);
   const [selectedSectors, setSelectedSectors] = useState([]);
@@ -171,7 +175,11 @@ function Home() {
         </div>
         <br />
         {filteredInvestors.slice(0, visibleCount).map((investor, index) => (
-          <div className="home-card" key={index}>
+          <div
+            className="home-card"
+            key={index}
+            onClick={() => handleCard(investor.id)}
+          >
             <div className="home-img">
               <img
                 src={investor.logo}
