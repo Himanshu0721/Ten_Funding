@@ -207,7 +207,7 @@ export const vcUSA = [
         stages: ["Pre-Seed"],
         sectors: ["Sector Agnostic"],
         ticketSize: "250k-500k",
-        logo: "https://media.licdn.com/dms/image/v2/C4E0BAQG5CeqzFD29Ww/company-logo_200_200/company-logo_200_200/0/1657743443772/glasswing_ventures_logo?e=1745452800&v=beta&t=lL8LaMo75X0Rn8LDjy0tkN32Un7Apc9vQkl-ya24Yfkttps://glasswing.vc/wp-content/themes/glasswing/img/logo-home-dark.svg",
+        logo: "https://glasswing.vc/wp-content/themes/glasswing/img/logo-home-dark.svg",
     },
     {
         id: 13,
