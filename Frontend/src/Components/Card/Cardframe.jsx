@@ -1,11 +1,17 @@
 import React from "react";
 import "./cardframe.css";
-import { NavLink, useParams } from "react-router-dom";
-import angelsIndiaData from "../../assets/data/angelsIndia.js";
+import { useLocation, NavLink, useParams } from "react-router-dom";
 
 const Cardframe = () => {
+  const { state } = useLocation();
+  const { dataset } = state || {}; // Dataset passed from Home component
   const { id } = useParams();
-  const investor = angelsIndiaData.find((item) => item.id === parseInt(id));
+
+  if (!dataset) {
+    return <div>No dataset selected</div>;
+  }
+
+  const investor = dataset.find((item) => item.id === parseInt(id));
 
   if (!investor) {
     return <div>Investor not found</div>;

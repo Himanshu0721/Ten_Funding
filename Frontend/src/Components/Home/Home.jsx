@@ -17,7 +17,8 @@ function Home() {
   };
 
   const handleCard = (id) => {
-    navigate(`/card/${id}`);
+    // Pass the selected dataset along with the id
+    navigate(`/card/${id}`, { state: { dataset: selectedDataset } });
   };
 
   const [visibleCount, setVisibleCount] = useState(10);
@@ -69,10 +70,22 @@ function Home() {
   }, [selectedStages, selectedSectors, searchQuery, selectedDataset]);
 
   const handleDatasetChange = (newDataset) => {
-    if (newDataset === "angelsIndiaData") setSelectedDataset(angelsIndiaData);
-    else if (newDataset === "vcIndiaData") setSelectedDataset(vcIndiaData);
-    else if (newDataset === "vcUSAData") setSelectedDataset(vcUSAData);
-    else if (newDataset === "angelsUSAData") setSelectedDataset(angelsUSAData);
+    switch (newDataset) {
+      case "angelsIndiaData":
+        setSelectedDataset(angelsIndiaData);
+        break;
+      case "vcIndiaData":
+        setSelectedDataset(vcIndiaData);
+        break;
+      case "vcUSAData":
+        setSelectedDataset(vcUSAData);
+        break;
+      case "angelsUSAData":
+        setSelectedDataset(angelsUSAData);
+        break;
+      default:
+        break;
+    }
   };
 
   const handleStageChange = (newSelectedStages) => {
