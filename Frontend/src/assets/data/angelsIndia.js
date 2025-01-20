@@ -208,7 +208,7 @@ export const angelsIndia = [
     totalFundCorpus: "2000000",
     companyoverview:
       "The FOX community includes over 4,000 family and family office leaders from nearly 350 families from more than 20 countries and representatives from 90+ established advisor organizations.",
-    logo: "https://www.familyoffice.com/themes/custom/fox_bootstrap/images/fox_logo.svg",
+    logo: "https://media.licdn.com/dms/image/v2/D560BAQEbNxcce4CI7Q/company-logo_200_200/company-logo_200_200/0/1708464179669/family_office_exchange_logo?e=1745452800&v=beta&t=zlBM18ZR2JF8UgNjMx_a_CoohBnQDtuXf8T8x_5tVys",
   },
 
   {
@@ -286,7 +286,7 @@ export const angelsIndia = [
     totalFundCorpus: "2005875000",
     companyoverview:
       "Get the competitive edge for AI, data center, business computing solutions &amp; gaming with AMD processors, graphics, FPGAs, Adaptive SOCs, & software.",
-    logo: "https://www.amd.com/content/dam/code/images/header/amd-header-logo.svg",
+    logo: "https://media.licdn.com/dms/image/v2/C560BAQEkjpiqeCK9Ag/company-logo_200_200/company-logo_200_200/0/1654804896089/amd_logo?e=1745452800&v=beta&t=fd444dBr4ZgOuwSWdhuf9EGvlvbLh02CmsBKumda7cc",
   },
   {
     id: 16,
@@ -3530,7 +3530,7 @@ export const angelsIndia = [
     totalFundCorpus: "9000000",
     companyoverview:
       "We are a network of leading entrepreneurs who have successfully built and run enterprises across several domains and industries and are keen to invest in the new stages businesses having the potential to create value for mankind. Meet our Angels.",
-    logo: "https://hyderabadangels.in/wp-content/uploads/2019/12/Final-HA-logo-updated-21.png",
+    logo: "https://media.licdn.com/dms/image/v2/C510BAQF_s1mk_qYUow/company-logo_200_200/company-logo_200_200/0/1630626827260/hyderabad_angels_ventures_logo?e=1745452800&v=beta&t=krn1JYex2r6uwFKuM35sHRdy5jcqoFkZlz5xwpE8QAM",
   },
   {
     id: 186,
@@ -3586,7 +3586,7 @@ export const angelsIndia = [
     totalFundCorpus: "5000000",
     companyoverview:
       "Creditap offers instant School Fee Loans, College Fee Loans, Career Development Loans, Online Courses Fee Loans across India. We cover full expenses for your education including tution fees, transportation and others. Pay back in easy EMIs.",
-    logo: "https://www.creditap.ai/assets/img/logo.svg",
+    logo: "https://www.creditap.ai/assets/img/footer-logo.svg",
   },
   {
     id: 189,
@@ -3605,7 +3605,7 @@ export const angelsIndia = [
     totalFundCorpus: "62500000",
     companyoverview:
       "Startup Company | Invest in Startups | Startup Companies To Invest In India | Startup Investors | Best Startups To Invest In India | Get Investors For Your Startup | Startup Business Plan | Small Business Startup |",
-    logo: "https://startupsxchange.com/wp-content/uploads/2024/07/main-new-logo.png",
+    logo: "https://media.licdn.com/dms/image/v2/C510BAQFxfng_t_FpTA/company-logo_200_200/company-logo_200_200/0/1630615915886/10000startupsindia_logo?e=1745452800&v=beta&t=HfFDWOXZLBtutx7S6YBoHUgJgk_H88hNR3NG9N4S-0U",
   },
   {
     id: 190,
@@ -3988,7 +3988,7 @@ export const angelsIndia = [
     totalFundCorpus: "1000000",
     companyoverview:
       "Revamp's core lies in the ideology of Empowering the Society by providing sustainable and adaptive solutions to them.",
-    logo: "https://www.revampmoto.in/wp-content/themes/revampmoto/images/logo.svg",
+    logo: "https://media.licdn.com/dms/image/v2/C560BAQEjBrLkTbKT_Q/company-logo_200_200/company-logo_200_200/0/1671133722185/revampmoto_logo?e=1745452800&v=beta&t=pEJWmbnXi17yhP3JkL76tMVOzv8tnHqeekJp8N_Rw2I",
   },
   {
     id: 210,
@@ -4571,7 +4571,7 @@ export const angelsIndia = [
     currentFundCorpus: "1256000",
     totalFundCorpus: "2500000",
     companyoverview: "Treatment science and wisdom of healing",
-    logo: "fembuddy",
+    logo: "https://media.licdn.com/dms/image/v2/C560BAQEZ6IRH2AT3tg/company-logo_200_200/company-logo_200_200/0/1630658631721?e=1745452800&v=beta&t=1W5C9UUAN_CkITGkZNx5yxjszhVsjEd79bqoJixeWj4",
   },
   {
     id: 241,
