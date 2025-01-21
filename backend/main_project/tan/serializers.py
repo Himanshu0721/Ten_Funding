@@ -1,15 +1,20 @@
 from rest_framework import serializers
-from .models import funding, india_vc, spotlight, launchpad, tech_stack_waitlist, vc_application
+from .models import Registration, spotlight, launchpad, tech_stack_waitlist, vc_application
 
-class FundingSerializer(serializers.ModelSerializer):
+class RegistrationSerializer(serializers.ModelSerializer):
     class Meta:
-        model = funding
+        model = Registration
         fields = '__all__'
 
-class IndiaVCSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = india_vc
-        fields = '__all__'
+    def validate_stages(self, value):
+        if not isinstance(value, list):
+            raise serializers.ValidationError("Stages must be a JSON array.")
+        return value
+
+    def validate_sectors(self, value):
+        if not isinstance(value, list):
+            raise serializers.ValidationError("Sectors must be a JSON array.")
+        return value
 
 class SpotlightSerializer(serializers.ModelSerializer):
     class Meta:

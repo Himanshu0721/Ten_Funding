@@ -1,6 +1,11 @@
+from django import forms
 from django.contrib import admin
-from .models import funding,india_vc,launchpad,spotlight,tech_stack_waitlist,vc_application
+from django.core.exceptions import ValidationError
+from .models import Registration,launchpad,spotlight,tech_stack_waitlist,vc_application
 from django.db import models 
+from .forms import RegistrationAdminForm
+# from django_json_widget.widgets import JSONEditorWidget
+import json
 
 # Register your models here.
 class SpotlightAdmin(admin.ModelAdmin):
@@ -15,13 +20,17 @@ class Tech_stack_waitlistAdmin(admin.ModelAdmin):
 class VC_applicationAdmin(admin.ModelAdmin):
     list_display = ['id','mail_address','start_up_name','business_description','founders_linkedin_profiles','product_website','funding_amount','pitch_deck']
 
-class India_vc_formAdmin(admin.ModelAdmin):
-    list_display = ['id','name','email','firm_name','founder_year','ticket_size','current_fund_size','aum','portfolio_count','portfolio_companies']
-    list_filter = ['id','name']
-    search_fields = ['name','email','firm_name']
+
+class RegistrationAdmin(admin.ModelAdmin):
+    form = RegistrationAdminForm  # Use the custom form
+    list_display = ['id', 'title', 'company', 'website']
+    list_filter = ['id', 'title']
+    search_fields = ['title', 'company', 'website']
+
+admin.site.register(Registration, RegistrationAdmin)
 
 admin.site.register(spotlight,SpotlightAdmin)
 admin.site.register(launchpad,LaunchpadAdmin)
 admin.site.register(tech_stack_waitlist,Tech_stack_waitlistAdmin)
 admin.site.register(vc_application,VC_applicationAdmin)
-admin.site.register(india_vc,India_vc_formAdmin)
+# admin.site.register(Registration,Registration_formAdmin)

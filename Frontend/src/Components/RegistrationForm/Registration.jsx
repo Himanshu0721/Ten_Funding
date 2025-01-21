@@ -1,7 +1,129 @@
-import React from "react";
+import React, { useState } from "react";
+import axios from "axios";
 import "./Registration.css";
 
 export default function Registration() {
+  const [formData, setFormData] = useState({
+    title: "",
+    company: "",
+    website: "",
+    logo: "",
+    companyLinkedinUrl: "",
+    twitterUrl: "",
+    country: "",
+    city: "",
+    ticketSize: "",
+    currentFundCorpus: "",
+    totalFundCorpus: "",
+    stages: [], // Array for stages
+    sectors: [], // Array for sectors
+    companyOverview: "",
+  });
+const [responseMessage, setResponseMessage] = useState("");
+  // Handle input change
+  // const handleChange = (e) => {
+  //   const { name, value, type, checked } = e.target;
+  //   setFormData({
+  //     ...formData,
+  //     [name]: type === "radio" ? value : value,
+  //   });
+  // };
+
+  // const handleChange = (e) => {
+  //   const { name, value, type, checked } = e.target;
+  
+  //   if (name === "stages" || name === "sectors") {
+  //     // For checkboxes, accumulate selected values
+  //     setFormData((prevState) => {
+  //       const prevValues = Array.isArray(prevState[name]) ? prevState[name] : [];
+  //       if (checked) {
+  //         return { ...prevState, [name]: [...prevValues, value] };
+  //       } else {
+  //         return { ...prevState, [name]: prevValues.filter((item) => item !== value) };
+  //       }
+  //     });
+  //   } else {
+  //     setFormData({
+  //       ...formData,
+  //       [name]: type === "radio" ? value : value,
+  //     });
+  //   }
+  // };
+  
+
+  // // Handle form submission
+  // const handleSubmit = async (e) => {
+  //   e.preventDefault();
+  //   try {
+  //     const response = await axios.post("http://localhost:8000/api/submit-form/", formData, {
+  //       headers: {
+  //         "Content-Type": "application/json",
+  //       },
+  //     });
+  //     setResponseMessage(response.data.message || "Submission successful!");
+  //   } catch (error) {
+  //     setResponseMessage(`Error: ${error.response?.data || error.message}`);
+  //   }
+  // };
+
+
+  // Handle input change
+  const handleChange = (e) => {
+    const { name, value, type, checked } = e.target;
+
+    // Handle multiple selections for stages and sectors
+    if (name === "stages" || name === "sectors") {
+      setFormData((prevState) => {
+        const updatedArray = checked
+          ? [...prevState[name], value] // Add value if checked
+          : prevState[name].filter((item) => item !== value); // Remove value if unchecked
+        return { ...prevState, [name]: updatedArray };
+      });
+    } else {
+      setFormData({
+        ...formData,
+        [name]: value,
+      });
+    }
+  };
+
+  // Handle form submission
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    try {
+      const response = await axios.post("http://localhost:8000/api/submit-form/", formData, {
+        headers: {
+          "Content-Type": "application/json",
+        },
+      });
+      setResponseMessage(response.data.message || "Submission successful!");
+    } catch (error) {
+      setResponseMessage(`Error: ${error.response?.data || error.message}`);
+    }
+  };
+  
+  const stageOptions = ["Pre-Seed", "Seed", "Series A", "Series B", "Series C and beyond", "Debt"];
+  const sectorOptions = ["Sectors Agnostic", "Other","AI/ML",
+  "AR/VR",
+  "Agritech/Food",
+  "Biotech/Life sciences",
+  "Climate/Sustainability",
+  "Consumer",
+  "Crypto/Blockchain",
+  "Deep Tech/Hard Science",
+  "Education",
+  "Enterprise",
+  "Media & Entertainment",
+  "Fintech",
+  "Gaming",
+  "Government/Defence",
+  "Health and Wellness",
+  "Healthcare/Medtech",
+  "Industrial/IoT/ Robotics",
+  "Prop Tech/Real Estate",
+  "Supply Chain/Logistics",
+  "Travel/Hospitality",
+  ];
   return (
     <>
       <div className="registration-form-container">
@@ -26,443 +148,137 @@ export default function Registration() {
         </div>
 
         <div className="registration-form-content">
-          <form action="">
+          <form action="" onSubmit={handleSubmit} >
             <label htmlFor="title">
               <h3>
                 Title <sub>*</sub>
               </h3>
             </label>
-            <input type="text" className="form-control" required />
+            <input type="text" className="form-control" id="title" name="title" required onChange={handleChange} />
             <label htmlFor="company">
               <h3>
                 Company <sub>*</sub>
               </h3>
             </label>
-            <input
-              type="text"
-              className="form-control"
-              placeholder="Enter your company name"
-              required
-            />
+            <input type="text" className="form-control" id="company" name="company" required onChange={handleChange} />
             <label htmlFor="website">
               <h3>
                 Website URL <sub>*</sub>
               </h3>
             </label>
-            <input
-              type="text"
-              className="form-control"
-              placeholder="Enter your company website url"
-              required
-            />
+            <input type="text" className="form-control" id="website" name="website" required onChange={handleChange} />
             <label htmlFor="logo">
               <h3>
                 Company Logo URL <sub>*</sub>
               </h3>
             </label>
-            <input
-              type="text"
-              className="form-control"
-              placeholder="Enter your company logo url"
-              required
-            />
+            <input type="text" className="form-control" id="logo" name="logo" required onChange={handleChange} />
             <label htmlFor="companyLinkedinUrl">
               <h3>
                 Company LinkedIn URL <sub>*</sub>
               </h3>
             </label>
-            <input
-              type="text"
-              className="form-control"
-              placeholder="Enter your company linkedIn url"
-              required
-            />
+            <input type="text" className="form-control" id="companyLinkedinUrl" name="companyLinkedinUrl" required onChange={handleChange} />
             <label htmlFor="twitterUrl">
               <h3>
                 Company Twitter URL <sub>*</sub>
               </h3>
             </label>
-            <input
-              type="text"
-              className="form-control"
-              placeholder="Enter your company twiter url"
-              required
-            />
+            <input type="text" className="form-control" id="twitterUrl" name="twitterUrl" required onChange={handleChange} />
             <label htmlFor="country">
               <h3>
                 Country <sub>*</sub>
               </h3>
             </label>
-            <input type="text" className="form-control" required />
+            <input type="text" className="form-control" id="country" name="country" required onChange={handleChange} />
             <label htmlFor="city">
               <h3>
                 City <sub>*</sub>
               </h3>
             </label>
-            <input type="text" className="form-control" required />
+            <input type="text" className="form-control" id="city" name="city" required onChange={handleChange} />
             <label htmlFor="ticketSize">
               <h3>
                 Ticket Size <sub>*</sub>
               </h3>
             </label>
-            <input
-              type="text"
-              className="form-control"
-              placeholder="For Example:$ 100k - $ 500k"
-              required
-            />
+            <input type="text" className="form-control" id="ticketSize" name="ticketSize" required onChange={handleChange} />
             <label htmlFor="currentFundCorpus">
               <h3>
                 CurrentFundCorpus <sub>*</sub>
               </h3>
             </label>
-            <input
-              type="text"
-              className="form-control"
-              placeholder="For Example: 500000"
-              required
-            />
+            <input type="text" className="form-control" id="currentFundCorpus" name="currentFundCorpus" required onChange={handleChange} />
             <label htmlFor="totalFundCorpus">
               <h3>
                 TotalFundCorpus <sub>*</sub>
               </h3>
             </label>
-            <input
-              type="text"
-              className="form-control"
-              placeholder="For Example: 900000"
-              required
-            />
-            <h3>
-              Stages <sub>*</sub>
-            </h3>
+            <input type="text" className="form-control" id="totalFundCorpus" name="totalFundCorpus" required onChange={handleChange} />
+            
+            <h3>Stage <sub>*</sub></h3>
             <div id="scroll-prop">
               <table className="table">
                 <tbody>
-                  <tr>
-                    <td>Pre-Seed</td>
+                  {stageOptions.map((stage) => (
+                    <tr key={stage}>
+                    <td>{stage}</td>
                     <td>
                       <input
                         className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
+                        type="checkbox"
+                        name="stages"
+                        id={stage}
+                        value={stage}
+                        checked={formData.stages.includes(stage)}
+                          onChange={handleChange}
                       />
                     </td>
                   </tr>
-                  <tr>
-                    <td>Seed</td>
-                    <td>
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>Series A</td>
-                    <td>
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>Series B</td>
-                    <td>
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>Series C and beyond</td>
-                    <td>
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>Debt</td>
-                    <td>
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
-                  </tr>
+                  ))}
                 </tbody>
               </table>
             </div>
+
+            <div id="scroll-prop">
             <h3>
               Sectors <sub>*</sub>
             </h3>
-            <div id="scroll-prop">
-              <table className="table">
-                <tbody>
-                  <tr>
-                    <td>AI/ML</td>
-                    <td>
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <td>AR/VR</td>
-                    <td>
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <td>Agritech/Food </td>
-                    <td>
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <td>Biotech/Life sciences</td>
-                    <td>
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <td>Climate/Sustainability</td>
-                    <td>
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <td>Consumer</td>
-                    <td>
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <td>Crypto/Blockchain</td>
-                    <td>
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <td>Deep Tech/Hard Science</td>
-                    <td>
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <td>Education</td>
-                    <td>
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <td>Enterprise</td>
-                    <td>
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <td>Media & Entertainment</td>
-                    <td>
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <td>Pre-Seed</td>
-                    <td>
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <td>Gaming</td>
-                    <td>
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <td>Government/Defence</td>
-                    <td>
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <td>Health and Wellness</td>
-                    <td>
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <td>Healthcare/Medtech</td>
-                    <td>
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <td>Industrial/IoT/ Robotics</td>
-                    <td>
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <td>Prop Tech/Real Estate</td>
-                    <td>
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <td>Supply Chain/Logistics</td>
-                    <td>
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <td>Travel/Hospitality</td>
-                    <td>
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                      />
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
+            <table className="table">
+              <tbody>
+              {sectorOptions.map((sector) => (
+                <tr key={sector}>
+                  <td>{sector}</td>
+                  <td>
+                    <input
+                      className="form-check-input"
+                      type="checkbox"
+                      name="sectors"
+                      id={sector}
+                      value={sector}
+                      checked={formData.sectors.includes(sector)}
+                          onChange={handleChange}
+                    />
+                  </td>
+                </tr>
+                ))}
+              </tbody>
+            </table>
             </div>
 
             <label htmlFor="companyOverview">
               <h3>
-                CompanyOverview <sub>*</sub>
+                Company Overview <sub>*</sub>
               </h3>
             </label>
-            <textarea name="text" id="" required></textarea>
+            <textarea
+              name="companyOverview"
+              id="companyOverview"
+              className="form-control"
+              required
+              placeholder="Enter a brief overview of your company"
+              onChange={handleChange}
+            ></textarea>
             <button>
               Submit
               <svg
@@ -477,6 +293,7 @@ export default function Registration() {
               </svg>
             </button>
           </form>
+          {responseMessage && <p className="my-class">{responseMessage}</p>}
         </div>
       </div>
     </>

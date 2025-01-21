@@ -1,12 +1,26 @@
 from django import forms
-from .models import funding
-from django.forms import ModelForm
-class ContactForm(ModelForm):
-    first_name = forms.CharField(label='Your first_name')
-    # last_name = forms.EmailField(label='Your last_name')
-    title = forms.CharField(label='Your title')
-   
-    
+from django.core.exceptions import ValidationError
+from .models import Registration
+
+class RegistrationAdminForm(forms.ModelForm):
+    # Custom fields for JSON validation
+    stages = forms.JSONField(required=False, help_text="Enter a JSON array (e.g., [\"Seed\", \"Series A\"]).")
+    sectors = forms.JSONField(required=False, help_text="Enter a JSON array (e.g., [\"Technology\", \"Healthcare\"]).")
+
     class Meta:
-        model = funding
-        fields ="__all__"
+        model = Registration
+        fields = '__all__'
+
+    # Additional validation (optional, if more complex checks are needed)
+    def clean_stages(self):
+        stages = self.cleaned_data.get('stages')
+        if not isinstance(stages, list):
+            raise ValidationError("Stages must be a valid JSON array.")
+        return stages
+
+    def clean_sectors(self):
+        sectors = self.cleaned_data.get('sectors')
+        if not isinstance(sectors, list):
+            raise ValidationError("Sectors must be a valid JSON array.")
+        return sectors
+
