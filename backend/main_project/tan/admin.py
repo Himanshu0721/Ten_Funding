@@ -4,7 +4,6 @@ from django.core.exceptions import ValidationError
 from .models import Registration,launchpad,spotlight,tech_stack_waitlist,vc_application
 from django.db import models 
 from .forms import RegistrationAdminForm
-# from django_json_widget.widgets import JSONEditorWidget
 import json
 
 # Register your models here.

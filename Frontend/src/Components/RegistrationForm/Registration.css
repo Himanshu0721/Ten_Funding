@@ -108,6 +108,7 @@
 
 .form-check-input {
   overflow-x: hidden;
+  display: none; /* Hide the default checkbox */
 }
 
 /* Responsive design for screens up to 320px */
@@ -168,4 +169,39 @@
   .registration-form-content textarea {
     max-width: 100%;
   }
+}
+.form-check-input + label::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #ccc; /* Default border color */
+  border-radius: 50%; /* Circular shape */
+  margin-right: 10px;
+  background-color: white;
+  cursor: pointer;
+  transition: border-color 0.3s, background-color 0.3s;
+}
+
+.form-check-input:checked + label::before {
+  border-color: #007bff; /* Blue border when checked */
+  background-color: #007bff; /* Blue background */
+}
+
+.form-check-input:checked + label::after {
+  content: "";
+  display: block;
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  border-radius: 50%; /* Small circular indicator inside */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Hover effect */
+.form-check-input + label:hover::before {
+  border-color: #007bff; /* Blue border on hover */
 }

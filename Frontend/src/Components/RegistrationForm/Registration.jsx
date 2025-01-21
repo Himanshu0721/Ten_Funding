@@ -20,52 +20,6 @@ export default function Registration() {
     companyOverview: "",
   });
 const [responseMessage, setResponseMessage] = useState("");
-  // Handle input change
-  // const handleChange = (e) => {
-  //   const { name, value, type, checked } = e.target;
-  //   setFormData({
-  //     ...formData,
-  //     [name]: type === "radio" ? value : value,
-  //   });
-  // };
-
-  // const handleChange = (e) => {
-  //   const { name, value, type, checked } = e.target;
-  
-  //   if (name === "stages" || name === "sectors") {
-  //     // For checkboxes, accumulate selected values
-  //     setFormData((prevState) => {
-  //       const prevValues = Array.isArray(prevState[name]) ? prevState[name] : [];
-  //       if (checked) {
-  //         return { ...prevState, [name]: [...prevValues, value] };
-  //       } else {
-  //         return { ...prevState, [name]: prevValues.filter((item) => item !== value) };
-  //       }
-  //     });
-  //   } else {
-  //     setFormData({
-  //       ...formData,
-  //       [name]: type === "radio" ? value : value,
-  //     });
-  //   }
-  // };
-  
-
-  // // Handle form submission
-  // const handleSubmit = async (e) => {
-  //   e.preventDefault();
-  //   try {
-  //     const response = await axios.post("http://localhost:8000/api/submit-form/", formData, {
-  //       headers: {
-  //         "Content-Type": "application/json",
-  //       },
-  //     });
-  //     setResponseMessage(response.data.message || "Submission successful!");
-  //   } catch (error) {
-  //     setResponseMessage(`Error: ${error.response?.data || error.message}`);
-  //   }
-  // };
-
 
   // Handle input change
   const handleChange = (e) => {
@@ -233,6 +187,7 @@ const [responseMessage, setResponseMessage] = useState("");
                         checked={formData.stages.includes(stage)}
                           onChange={handleChange}
                       />
+                      <label htmlFor={stage}></label> {/* Add label for custom styles */}
                     </td>
                   </tr>
                   ))}
@@ -259,6 +214,7 @@ const [responseMessage, setResponseMessage] = useState("");
                       checked={formData.sectors.includes(sector)}
                           onChange={handleChange}
                     />
+                      <label htmlFor={sector}></label> {/* Add label for custom styles */}
                   </td>
                 </tr>
                 ))}
