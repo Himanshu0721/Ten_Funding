@@ -1,5 +1,5 @@
 from django.shortcuts import render,redirect
-# from .models import Registration,launchpad,spotlight,tech_stack_waitlist,vc_application
+from .models import Registration
 # from django.http import HttpResponseRedirect
 from django.http import JsonResponse    
 from django.middleware.csrf import get_token
@@ -23,6 +23,10 @@ class RegistrationView(APIView):
             serializer.save()
             return Response({"message": "Registration successful!"}, status=status.HTTP_201_CREATED)
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+    def get(self, request):
+        items = Registration.objects.all()
+        serializer = RegistrationSerializer(items, many=True)
+        return Response(serializer.data)
     
 class SpotlightListView(APIView):
     def post(self, request, *args, **kwargs):
