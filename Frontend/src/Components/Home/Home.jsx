@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import axios from "axios";
 import "./Home.css";
 import { useNavigate } from "react-router-dom";
 import StageFocusDropdown from "./StageFocusDropdown";
@@ -20,6 +21,22 @@ function Home() {
     // Pass the selected dataset along with the id
     navigate(`/card/${id}`, { state: { dataset: selectedDataset } });
   };
+
+  const [tenFunding, setTenFunding] = useState([]);
+
+  useEffect(() => {
+    // Fetch data from the Django backend
+    axios
+      .get("http://localhost:8000/api/submit-form/")
+      .then((response) => {
+        setTenFunding(response.data);
+      })
+      .catch((error) => {
+        console.error("Error fetching data:", error);
+      });
+  }, []);
+
+  console.log(tenFunding);
 
   const [visibleCount, setVisibleCount] = useState(10);
   const [selectedStages, setSelectedStages] = useState([]);
@@ -82,6 +99,9 @@ function Home() {
         break;
       case "angelsUSAData":
         setSelectedDataset(angelsUSAData);
+        break;
+      case "tenFunding":
+        setSelectedDataset(tenFunding);
         break;
       default:
         break;

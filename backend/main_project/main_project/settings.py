@@ -86,7 +86,7 @@ WSGI_APPLICATION = 'main_project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'ten_fund',
+        'NAME': 'tenFunding',
         'HOST': 'localhost',
         'USER': 'root',
         'PASSWORD': 'root',

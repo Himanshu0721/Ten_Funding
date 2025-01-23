@@ -1,9 +1,9 @@
-.registration-form-container  {
+.registration-form-container {
   width: 60%;
   margin: 30px auto;
   overflow-x: hidden;
 }
-.my-class{
+.my-class {
   border: 1px solid black;
   color: green;
   margin-top: 2%;
@@ -31,9 +31,8 @@
   color: blue;
   margin: 16px 0;
 }
-.registration-form-content{
+.registration-form-content {
   overflow-x: hidden;
-
 }
 
 .registration-form-content label {
@@ -73,7 +72,7 @@
   color: white;
   padding: 10px 20px 10px 20px;
   display: block;
-
+  margin: 1rem 0;
 }
 .registration-form-content h2 {
   color: rgb(66, 66, 169);

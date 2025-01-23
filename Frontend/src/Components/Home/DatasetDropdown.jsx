@@ -11,6 +11,7 @@ const DatasetDropdown = ({ selectedDataset, onDatasetChange }) => {
     { label: "Angels USA", value: "angelsUSAData" },
     { label: "VC India", value: "vcIndiaData" },
     { label: "VC USA", value: "vcUSAData" },
+    { label: "TEN Funding", value: "tenFunding" },
   ];
 
   const toggleDropdown = () => setIsOpen((prev) => !prev);
@@ -36,11 +37,15 @@ const DatasetDropdown = ({ selectedDataset, onDatasetChange }) => {
 
   // Get the label of the currently selected dataset
   const selectedLabel =
-    datasets.find((dataset) => dataset.value === selectedDataset)?.label || "Funding Network";
+    datasets.find((dataset) => dataset.value === selectedDataset)?.label ||
+    "Funding Network";
 
   return (
     <div className="dropdown-container" ref={dropdownRef}>
-      <button className="dropdown-button dataset-dropdown-button" onClick={toggleDropdown}>
+      <button
+        className="dropdown-button dataset-dropdown-button"
+        onClick={toggleDropdown}
+      >
         {selectedLabel}
       </button>
       {isOpen && (

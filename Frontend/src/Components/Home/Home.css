@@ -54,7 +54,7 @@
   background-position: bottom left;
   border: 1px solid black;
   cursor: pointer;
-  transition: background-position 1.5s ease-in-out;
+  transition: background-position 1s ease-in-out;
   color: #000; /* Text color */
   overflow: hidden;
 }
@@ -332,7 +332,7 @@
   }
 }
 
-@media (max-width: 1024px) and (min-width : 769px) {
+@media (max-width: 1024px) and (min-width: 769px) {
   .home-container {
     margin-top: 40px;
   }
@@ -361,17 +361,17 @@
   }
 
   .hr {
-    max-width:86%;
+    max-width: 86%;
   }
 
   .hr-1 {
     width: 90%;
-  } 
+  }
 
   .filter-section {
     display: flex;
     flex-direction: row;
-    gap: 15px; 
+    gap: 15px;
   }
 
   .dropdown-container {
@@ -498,7 +498,7 @@
     margin-left: 95px;
   }
 
-  .btn-2{
+  .btn-2 {
     margin-left: 145px;
   }
 
