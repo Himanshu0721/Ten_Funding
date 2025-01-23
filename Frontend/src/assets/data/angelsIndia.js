@@ -14,7 +14,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "1560000",
     totalFundCorpus: "1560000",
-    companyoverview:
+    companyOverview:
       "The Venture Guys is a one of the unique service/solution providers helping Startup & MSME business owners & managers take control of their finances, deliver operational excellence, drive business growth & profitability. We help business owners & managers “Build Business Vision into Reality” through mix of data analytics & technology providing you with strategic business insights and business process optimization.",
     logo: "https://www.theventureguys.in/wp-content/uploads/Venture-Guys-logo1-1.png",
   },
@@ -33,7 +33,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "50000000",
     totalFundCorpus: "50000000",
-    companyoverview:
+    companyOverview:
       "Angel One - India’s largest broker introduced ZERO cost brokerage services for trades executed in cash delivery, and only Rs.20 per order will be charged for Intraday, F&O, etc. Open your Demat account now.",
     logo: "https://w3assets.angelone.in/wp-content/uploads/2024/04/IPL_COMPOSITE-LOGO_ANGELONE_HORIZONTAL_WHITE_VERSION-192x100-1.png",
   },
@@ -52,7 +52,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "6450000",
     totalFundCorpus: "7650000",
-    companyoverview:
+    companyOverview:
       "We are an Employee Benefits Insurtech Platform founded by IIM-ISB alumni, making insurance and healthcare affordable and accessible to SME, Startups & Enterprises in India. The platform offers digitized policy and claims experience with curated health and wellness offerings. We have launched an industry-first Flexi Top-up Insurance which allows employees to personalize & upgrade their corporate health covers and enjoy continuity benefits post-employment.",
     logo: "https://healthysure.in/wp-content/uploads/2022/08/fullgreen-svg.svg",
   },
@@ -71,7 +71,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "100000000",
     totalFundCorpus: "100670248",
-    companyoverview:
+    companyOverview:
       "LetsVenture is a pioneering marketplace for early-stages startup investing that ensures fundraising in India’s private market is easy, efficient, and transparent for both startups and investors.",
     logo: "https://cdn.prod.website-files.com/61c1ae3ff5494602327bf16a/61c1ae40f549462a197bf1a1_logo-colored.svg",
   },
@@ -90,7 +90,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "1888203",
     totalFundCorpus: "3888203",
-    companyoverview:
+    companyOverview:
       "A one-stop destination to help you build a successful career in the Indian sports industry.",
     logo: "https://th.bing.com/th/id/OIP.DF5APBs6LP2MpKFvYLSjQAHaBi?w=320&h=72&c=7&r=0&o=5&dpr=1.3&pid=1.7",
   },
@@ -109,7 +109,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "100670248",
     totalFundCorpus: "100670248",
-    companyoverview:
+    companyOverview:
       "Our company is led by a dedicated & experienced team from multiple disciplines. What makes us unique is our ability to address diverse client needs and deliver a one-stop solution.",
     logo: "https://www.themmsglobal.com/images/logo1.jpg",
   },
@@ -128,7 +128,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "1560000",
     totalFundCorpus: "1560000",
-    companyoverview:
+    companyOverview:
       "Rebuilding the atmosphere by building technologies that remove particulate matter and greenhouse gases directly from the atmosphere",
     logo: "https://www.praan.io/logos/logo.svg",
   },
@@ -148,7 +148,7 @@ export const angelsIndia = [
     ticketSize: "250k-500k",
     currentFundCorpus: "50000000",
     totalFundCorpus: "50000000",
-    companyoverview:
+    companyOverview:
       "Nutanix offers a single platform to run all your apps and data across multiple clouds while simplifying operations and reducing complexity. ",
     logo: "https://th.bing.com/th/id/OIP.wmhlUpEXvIDyRSlee7HBDQHaE8?w=256&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
   },
@@ -167,7 +167,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "50000000",
     totalFundCorpus: "50000000",
-    companyoverview:
+    companyOverview:
       "IPV is a Startup Investing Platform that connects Startups with Angel Investors. With 6500+ investors, IPV is one of the largest Angel Investor portal in India.",
     logo: "https://ipventures.in/wp-content/uploads/2024/10/IPV-logo-5-years-png.png",
   },
@@ -186,7 +186,7 @@ export const angelsIndia = [
     ticketSize: "250k-500k",
     currentFundCorpus: "38000000",
     totalFundCorpus: "38000000",
-    companyoverview:
+    companyOverview:
       "High-quality, sustainable Grade A office in London, EC2. Offering circa 25,000sqft with two A1/A2 retail units to let. Available Autumn 2019.",
     logo: "https://www.palmiero-design.co.uk/wp-content/uploads/2022/10/Moorgate-logo_port-02-745x500.jpg",
   },
@@ -206,7 +206,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "2000000",
     totalFundCorpus: "2000000",
-    companyoverview:
+    companyOverview:
       "The FOX community includes over 4,000 family and family office leaders from nearly 350 families from more than 20 countries and representatives from 90+ established advisor organizations.",
     logo: "https://media.licdn.com/dms/image/v2/D560BAQEbNxcce4CI7Q/company-logo_200_200/company-logo_200_200/0/1708464179669/family_office_exchange_logo?e=1745452800&v=beta&t=zlBM18ZR2JF8UgNjMx_a_CoohBnQDtuXf8T8x_5tVys",
   },
@@ -226,7 +226,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "20464902",
     totalFundCorpus: "20464902",
-    companyoverview:
+    companyOverview:
       "SMEStreet.in is an efficient and dynamic platform for Indian SMEs. The content inflow for this portal not only includes news, analysis, interviews and success stories but it also have a window of opportunity to enhance the profitability of the business, personalized networking with subject matter experts and insightful market research data.",
     logo: "https://img-cdn.thepublive.com/fit-in/580x326/filters:format(webp)/smstreet/media/agency_attachments/3LWGA69AjH55EG7xRGSA.png",
   },
@@ -245,7 +245,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "100000000",
     totalFundCorpus: "100670248",
-    companyoverview:
+    companyOverview:
       "LetsVenture is a pioneering marketplace for early-stages startup investing that ensures fundraising in India’s private market is easy, efficient, and transparent for both startups and investors.",
     logo: "https://cdn.prod.website-files.com/61c1ae3ff5494602327bf16a/61c1ae40f549462a197bf1a1_logo-colored.svg",
   },
@@ -264,7 +264,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "",
     totalFundCorpus: "",
-    companyoverview:
+    companyOverview:
       "Trusted by over 2 Cr+ clients, Angel One is one of India’s leading retail full-service broking houses. We offer a wide range of innovative services, including online trading and investing, advisory, margin trading facility, algorithmic trading, smart orders, etc. Our Super App is a powerhouse of cutting-edge tools such as basket orders, GTT orders, SmartAPI, advanced charts and others that help you navigate capital markets like a pro.",
     logo: "https://w3assets.angelone.in/wp-content/uploads/2024/04/IPL_COMPOSITE-LOGO_ANGELONE_HORIZONTAL_WHITE_VERSION-192x100-1.png",
   },
@@ -284,7 +284,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "35000000",
     totalFundCorpus: "2005875000",
-    companyoverview:
+    companyOverview:
       "Get the competitive edge for AI, data center, business computing solutions &amp; gaming with AMD processors, graphics, FPGAs, Adaptive SOCs, & software.",
     logo: "https://media.licdn.com/dms/image/v2/C560BAQEkjpiqeCK9Ag/company-logo_200_200/company-logo_200_200/0/1654804896089/amd_logo?e=1745452800&v=beta&t=fd444dBr4ZgOuwSWdhuf9EGvlvbLh02CmsBKumda7cc",
   },
@@ -303,7 +303,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "15000000",
     totalFundCorpus: "20464902",
-    companyoverview:
+    companyOverview:
       "Join 1 crore Indians registered on Awign and find the best gigs/jobs in multiple categories like Business Development, Delivery Executives, Telecalling and many more. Find jobs which suit your flexible work schedule and get paid on time with full transparency.",
     logo: "https://www.awign.com/_next/image?url=%2Fimages%2Fawign_mynavi_blue_logo.svg&w=96&q=75",
   },
@@ -323,7 +323,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "12500000",
     totalFundCorpus: "12500000",
-    companyoverview:
+    companyOverview:
       "Focus Prism offers a simple yet a robust product to manage all complex algorithms that go into calculating Actual Cost in the food industry. The product caters to multiple segments of the food industry such as Food Processing Units, Institutional & Industrial Caterers, Bakeries, Restaurants",
     logo: "https://www.focusprism.com/images/logo.png",
   },
@@ -342,7 +342,7 @@ export const angelsIndia = [
     ticketSize: "250k-500k",
     currentFundCorpus: "38000000",
     totalFundCorpus: "38000000",
-    companyoverview:
+    companyOverview:
       "Angel One - India’s largest broker introduced ZERO cost brokerage services for trades executed in cash delivery, and only Rs.20 per order will be charged for Intraday, F&O, etc. Open your Demat account now.",
     logo: "https://w3assets.angelone.in/wp-content/uploads/2024/04/IPL_COMPOSITE-LOGO_ANGELONE_HORIZONTAL_WHITE_VERSION-192x100-1.png",
   },
@@ -361,7 +361,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "38000000",
     totalFundCorpus: "38000000",
-    companyoverview:
+    companyOverview:
       "IAN Group, India’s largest seed-stages investment platform, supports startups with ₹50L–₹50Cr funding, mentorship, and global access. Forbes recognized it as an iconic milestone in India's business history.",
     logo: "https://iangroup.vc/wp-content/uploads/2022/07/IAN-Logo.png",
   },
@@ -380,7 +380,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "50000000",
     totalFundCorpus: "50000000",
-    companyoverview:
+    companyOverview:
       "IPV is a Startup Investing Platform that connects Startups with Angel Investors. With 6500+ investors, IPV is one of the largest Angel Investor portal in India.",
     logo: "https://ipventures.in/wp-content/uploads/2024/10/IPV-logo-5-years-png.png",
   },
@@ -400,7 +400,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "50000000",
     totalFundCorpus: "50000000",
-    companyoverview:
+    companyOverview:
       "IPV is a Startup Investing Platform that connects Startups with Angel Investors. With 6500+ investors, IPV is one of the largest Angel Investor portal in India.",
     logo: "https://ipventures.in/wp-content/uploads/2024/10/IPV-logo-5-years-png.png",
   },
@@ -419,7 +419,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "50000000",
     totalFundCorpus: "50000000",
-    companyoverview:
+    companyOverview:
       "Since 2006, we’ve supported new-age enterprises, shaping early-stages investment cycles and building well-structured portfolios for long-term success.",
     logo: "https://www.mumbaiangels.com/images/logo-black.png?v=3",
   },
@@ -439,7 +439,7 @@ export const angelsIndia = [
     ticketSize: "250k-500k",
     currentFundCorpus: "12500000",
     totalFundCorpus: "12500000",
-    companyoverview:
+    companyOverview:
       "Official website for India based People Group, known for innovation and entrepreneurship in Matchmakings, Property, and Mobile Content and Applications",
     logo: "https://img.people-group.com/images/logo1.png",
   },
@@ -459,7 +459,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "20464902",
     totalFundCorpus: "20464902",
-    companyoverview:
+    companyOverview:
       "HEM Securities is the online Leading stock broker and sme ipo company in india. Open Demat and Trading Account Online with us in just 15 Mins and start online trading now!",
     logo: "https://www.hemsecurities.com/img/hem_securities_logo.png",
   },
@@ -478,7 +478,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "12500000",
     totalFundCorpus: "12500000",
-    companyoverview:
+    companyOverview:
       "Plotify provides an end-to-end global property investment & asset management platform with integrated, instantaneous mortgage lending.",
     logo: "https://cdn.prod.website-files.com/657c20c40239bc20e1d05523/657c2544fbf5bd6d1da101ed_logo.svg",
   },
@@ -497,7 +497,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "1560000",
     totalFundCorpus: "1560000",
-    companyoverview:
+    companyOverview:
       "Bryant Park Capital (“BPC”) is an investment bank providing merger & acquisitions, debt and equity, and corporate strategic advisory services to clients in the middle market. Our team has an extensive track record of success, proven by our completion of over 400 deals worth over $30 billion in transaction value.",
     logo: "https://bryantparkcapital.com/wp-content/themes/bryant_park/assets/img/head-logo.svg",
   },
@@ -516,7 +516,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "38000000",
     totalFundCorpus: "38000000",
-    companyoverview:
+    companyOverview:
       "IAN Group, India’s largest seed-stages investment platform, supports startups with ₹50L–₹50Cr funding, mentorship, and global access. Forbes recognized it as an iconic milestone in India's business history.",
     logo: "https://iangroup.vc/wp-content/uploads/2022/07/IAN-Logo.png",
   },
@@ -535,7 +535,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "38000000",
     totalFundCorpus: "38000000",
-    companyoverview:
+    companyOverview:
       "IAN Group, India’s largest seed-stages investment platform, supports startups with ₹50L–₹50Cr funding, mentorship, and global access. Forbes recognized it as an iconic milestone in India's business history.",
     logo: "https://iangroup.vc/wp-content/uploads/2022/07/IAN-Logo.png",
   },
@@ -554,7 +554,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "8000000",
     totalFundCorpus: "10330000",
-    companyoverview:
+    companyOverview:
       "Discover our world-class soundwave-based Merchant Payment Solution, Toll Plaza Payment Solution, Contactless Payment Solution, IVR Payment Solution to transform your business.",
     logo: "https://www.tonetag.com/wp-content/uploads/2022/04/logo-new.png",
   },
@@ -573,7 +573,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "",
     totalFundCorpus: "",
-    companyoverview:
+    companyOverview:
       "Algo-App Digital is an Information Technology and Professional services company dedicated to provide cutting edge technology solutions. Today, our competitive staff offers a full array of Consulting, Engineering, and Technology services to our customers.",
     logo: "https://www.algoappdigital.com/assets/img/algo.png",
   },
@@ -593,7 +593,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "",
     totalFundCorpus: "23200000",
-    companyoverview:
+    companyOverview:
       "LTIMindtree is a global technology consulting and digital solutions company that enables enterprises across industries to reimagine business models, accelerate innovation, and maximize growth by harnessing digital technologies.",
     logo: "https://th.bing.com/th?id=OIP.xrYStVVmxQQi-McFP7OFLgAAAA&w=226&h=106&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2",
   },
@@ -612,7 +612,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "124048187",
     totalFundCorpus: "124048187",
-    companyoverview:
+    companyOverview:
       "Angel One - India’s largest broker introduced ZERO cost brokerage services for trades executed in cash delivery, and only Rs.20 per order will be charged for Intraday, F&O, etc. Open your Demat account now.",
     logo: "https://w3assets.angelone.in/wp-content/uploads/2024/04/IPL_COMPOSITE-LOGO_ANGELONE_HORIZONTAL_WHITE_VERSION-192x100-1.png",
   },
@@ -631,7 +631,7 @@ export const angelsIndia = [
     ticketSize: "100k-200k",
     currentFundCorpus: "38000000",
     totalFundCorpus: "38000000",
-    companyoverview:
+    companyOverview:
       "IAN Group is the country’s single largest platform for seed and early-stages investment platform with IAN Angel Network, BioAngels and IAN Fund I and IAN Alpha Fund enabling entrepreneurs to raise from Rs. 50 lakhs to Rs. 50 crores. ",
     logo: "https://iangroup.vc/wp-content/uploads/2022/07/IAN-Logo.png",
   },
@@ -650,7 +650,7 @@ export const angelsIndia = [
     ticketSize: "100k-200k",
     currentFundCorpus: "",
     totalFundCorpus: "",
-    companyoverview:
+    companyOverview:
       "Atrium Angels is a micro VC fund established by The Indian School of Business (ISB) alumni for ISB alumni founders.",
     logo: "https://images.squarespace-cdn.com/content/v1/6332a3932976713409c2cba6/1dfba2ad-ac5f-4eab-96b3-386b7461eae7/Atrium-Angels_Final-Logo+%283%29.jpg?format=1500w",
   },
@@ -669,7 +669,7 @@ export const angelsIndia = [
     ticketSize: "100k-200k",
     currentFundCorpus: "38000000",
     totalFundCorpus: "38000000",
-    companyoverview:
+    companyOverview:
       "IAN Group is the country’s single largest platform for seed and early-stages investment platform with IAN Angel Network, BioAngels and IAN Fund I and IAN Alpha Fund enabling entrepreneurs to raise from Rs. 50 lakhs to Rs. 50 crores. ",
     logo: "https://iangroup.vc/wp-content/uploads/2022/07/IAN-Logo.png",
   },
@@ -689,7 +689,7 @@ export const angelsIndia = [
     ticketSize: "100k-200k",
     currentFundCorpus: "30000000",
     totalFundCorpus: "229241400",
-    companyoverview:
+    companyOverview:
       "Orios Venture Partners is an early stages venture capital fund in India. We believe in the India consumption story and look to back innovators who are working in unchartered territories, on ideas that have the potential to disrupt the traditional ecosystem. ​",
     logo: "https://static.wixstatic.com/media/581085_cf2fdc3702114f0fa15ae1fddd6c8711~mv2.png/v1/fill/w_207,h_46,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Orios_Transparent%20Logo%20(1).png",
   },
@@ -708,7 +708,7 @@ export const angelsIndia = [
     ticketSize: "50k-100k",
     currentFundCorpus: "50000000",
     totalFundCorpus: "50000000",
-    companyoverview:
+    companyOverview:
       "IPV is a Startup Investing Platform that connects Startups with Angel Investors. With 6500+ investors, IPV is one of the largest Angel Investor portal in India.",
     logo: "https://ipventures.in/wp-content/uploads/2024/10/IPV-logo-5-years-png.png",
   },
@@ -727,7 +727,7 @@ export const angelsIndia = [
     ticketSize: "200k-300k",
     currentFundCorpus: "38000000",
     totalFundCorpus: "38000000",
-    companyoverview: "Official website of BITS Alumni Association",
+    companyOverview: "Official website of BITS Alumni Association",
     logo: "https://th.bing.com/th/id/OIP.qjybhk4krZ0QQhd84MwCGgHaEr?w=264&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
   },
   {
@@ -746,7 +746,7 @@ export const angelsIndia = [
     ticketSize: "50k-100k",
     currentFundCorpus: "124048187",
     totalFundCorpus: "124048187",
-    companyoverview:
+    companyOverview:
       "Reflekt Visual is a company specializing in augmented reality (AR) solutions for enterprises, enabling the creation of interactive documentation and visualizations from existing data to enhance production, training, maintenance, and repair processes.",
     logo: "https://th.bing.com/th/id/OIP.ec82GlhAdz95Rd6lDv7iNAHaHa?w=160&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
   },
@@ -765,7 +765,7 @@ export const angelsIndia = [
     ticketSize: "50k-100k",
     currentFundCorpus: "",
     totalFundCorpus: "",
-    companyoverview:
+    companyOverview:
       "WTG Group is established with a singular mission of accelerating growth for innovative startups. From ideation to execution, our consulting services will nurture your business through all stagess of critical growth.",
     logo: "https://thumbs.dreamstime.com/z/ecology-system-vector-logo-template-concept-illustration-blue-water-ring-green-leaves-abstract-nature-sign-design-element-92058652.jpg",
   },
@@ -784,7 +784,7 @@ export const angelsIndia = [
     ticketSize: "200k-300k",
     currentFundCorpus: "229241400",
     totalFundCorpus: "229241400",
-    companyoverview:
+    companyOverview:
       "Angel One - India’s largest broker introduced ZERO cost brokerage services for trades executed in cash delivery, and only Rs.20 per order will be charged for Intraday, F&O, etc. Open your Demat account now.",
     logo: "https://w3assets.angelone.in/wp-content/uploads/2024/04/IPL_COMPOSITE-LOGO_ANGELONE_HORIZONTAL_WHITE_VERSION-192x100-1.png",
   },
@@ -803,7 +803,7 @@ export const angelsIndia = [
     ticketSize: "200k-300k",
     currentFundCorpus: "100000000",
     totalFundCorpus: "124048187",
-    companyoverview:
+    companyOverview:
       "AngelList is a platform that connects startups with investors and talent, aiming to accelerate innovation by providing the tools needed to launch and scale startups or funds",
     logo: "https://th.bing.com/th?id=OIP.U7vmUd6xQGxYOFCQx7yqJAAAAA&w=348&h=64&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2",
   },
@@ -823,7 +823,7 @@ export const angelsIndia = [
     ticketSize: "50k-100k",
     currentFundCorpus: "124048187",
     totalFundCorpus: "124048187",
-    companyoverview:
+    companyOverview:
       "An angel investor is an individual who provides capital to startups or early-stages companies, often in exchange for equity or convertible debt, to support their growth and innovation.",
     logo: "https://tse4.mm.bing.net/th?id=OIP.rzzC2--vlBQ2k-VkDv_oggHaH_&pid=Api&P=0&h=180",
   },
@@ -842,7 +842,7 @@ export const angelsIndia = [
     ticketSize: "100k-200k",
     currentFundCorpus: "23200000",
     totalFundCorpus: "23200000",
-    companyoverview:
+    companyOverview:
       "Undocked is a technology company with deep expertise and focus in enabling Retailers to deliver superior Omni-channel experience to their Customers. We offer ready-to-deploy fulfillment optimizations and customer engagement platforms. We also engineer bespoke solutions and help implement market leading end-to-end Supply chain solutions.",
     logo: "https://static.wixstatic.com/media/5e4350_112455b295a44b07bc353296eaa1d752~mv2.png/v1/fill/w_181,h_40,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Colour%202.png",
   },
@@ -861,7 +861,7 @@ export const angelsIndia = [
     ticketSize: "200k-300k",
     currentFundCorpus: "50000000",
     totalFundCorpus: "50000000",
-    companyoverview: "Enjoy Free Equity Delivery Trade For Lifetime",
+    companyOverview: "Enjoy Free Equity Delivery Trade For Lifetime",
     logo: "https://tse2.mm.bing.net/th?id=OIP.YhIfZtrT59MdWUZsEMKJoQAAAA&pid=Api&P=0&h=180",
   },
 
@@ -873,7 +873,7 @@ export const angelsIndia = [
     website: "http://www.angelonepatna.com",
     companyLinkedinUrl: "http://www.linkedin.com/company/anglbrk",
     twitterUrl: "",
-    companyoverview: "Enjoy Free Equity Delivery Trade For Lifetime",
+    companyOverview: "Enjoy Free Equity Delivery Trade For Lifetime",
     country: "India",
     stages: ["Other"],
     sectors: ["Sector Agnostic"],
@@ -892,7 +892,7 @@ export const angelsIndia = [
     companyLinkedinUrl:
       "http://www.linkedin.com/company/foundation-futuristic-technologies-forensicsguru-",
     twitterUrl: "",
-    companyoverview:
+    companyOverview:
       "Computer forensics, cell phone forensics, crime, incident visualization, telephone call analysis, cell phone tower dump analysis.",
     country: "India",
     stages: ["Other"],
@@ -918,7 +918,7 @@ export const angelsIndia = [
     ticketSize: "100k-200k",
     currentFundCorpus: "50000000",
     totalFundCorpus: "50000000",
-    companyoverview:
+    companyOverview:
       "Foundation Futuristic Technologies (FFT), established in 1999, is a global leader in the computer forensics and digital investigation solutions space. Our proven in-depth domain expertise has been developed over decades of working with law enforcement organizations on numerous complex crime investigations.",
     logo: "https://www.forensicsguru.com/images/logo.png",
   },
@@ -937,7 +937,7 @@ export const angelsIndia = [
     ticketSize: "100k-200k",
     currentFundCorpus: "1349500000",
     totalFundCorpus: "1349500000",
-    companyoverview:
+    companyOverview:
       "Sierra Consulting, Inc. is an IT solutions company providing services such as application development, mobile development, UI/UX development, enterprise software solutions, and staff augmentation.",
     logo: "https://tse1.mm.bing.net/th?id=OIP.cQ1-RJqNGjbAYo7vI5ey0wHaDF&pid=Api&P=0&h=180",
   },
@@ -956,7 +956,7 @@ export const angelsIndia = [
     ticketSize: "250k-500k",
     currentFundCorpus: "124048187",
     totalFundCorpus: "124048187",
-    companyoverview:
+    companyOverview:
       "The Chennai Angels is an Angel Investment Group in India with over 140 individual, corporate and institutional members. The Chennai Angels invests in early stages startups and also provide mentorship for their portfolio companies.",
     logo: "https://tse4.mm.bing.net/th?id=OIP.1FlIf5__q1OIimkA0FS4zgAAAA&pid=Api&P=0&h=180",
   },
@@ -975,7 +975,7 @@ export const angelsIndia = [
     ticketSize: "50k-100k",
     currentFundCorpus: "13581200",
     totalFundCorpus: "13581200",
-    companyoverview:
+    companyOverview:
       "SucSEED Ventures is a Hyderabad-based investment firm founded in 2016 that provides seed capital and hands-on support to early-stages technology startups across sectorss like EdTech, HealthTech, FinTech, Security & RegTech, Enterprise SaaS, Gaming, SportsTech & MediaTech, and Digital Economy and Emerging Technologies (DEET).",
     logo: "https://www.f5.com/content/dam/f5/f5-logo.svg",
   },
@@ -994,7 +994,7 @@ export const angelsIndia = [
     ticketSize: "100k-200k",
     currentFundCorpus: "1349500000",
     totalFundCorpus: "1349500000",
-    companyoverview:
+    companyOverview:
       "TaskUs is recognized as the world's fastest growing BPO service provider, helping different brands through next-generation digital outsourcing solutions.",
     logo: "https://www.taskus.com/wp-content/themes/yootheme/cache/5c/atoms-logo-dark@3x-1-5c41a6e9.webp",
   },
@@ -1006,7 +1006,7 @@ export const angelsIndia = [
     website: "http://www.ipventures.in",
     companyLinkedinUrl: "http://www.linkedin.com/company/ipventures",
     twitterUrl: "https://twitter.com/ipventures_in",
-    companyoverview:
+    companyOverview:
       "IPV is a Startup Investing Platform that connects Startups with Angel Investors. With 6500+ investors, IPV is one of the largest Angel Investor portals in India.",
     country: "India",
     country: "India",
@@ -1026,7 +1026,7 @@ export const angelsIndia = [
     website: "http://www.iangroup.vc",
     companyLinkedinUrl: "http://www.linkedin.com/company/indian-angel-network",
     twitterUrl: "http://www.twitter.com/ianetwork",
-    companyoverview:
+    companyOverview:
       "Indian Angel Network (IAN) is India's largest platform for seed and early-stages investments, established in 2006. It comprises over 500 members, including successful entrepreneurs and industry leaders, who provide funding, mentorship, and market access to startups across various sectorss. IAN has invested approximately ₹900 crores in more than 225 companies, with a combined market valuation exceeding $9 billion.",
     country: "India",
     city: "New Delhi",
@@ -1045,7 +1045,7 @@ export const angelsIndia = [
     website: "http://www.iangroup.vc",
     companyLinkedinUrl: "http://www.linkedin.com/company/indian-angel-network",
     twitterUrl: "http://www.twitter.com/ianetwork",
-    companyoverview:
+    companyOverview:
       "Indian Angel Network (IAN) is a prominent group of angel investors in India, focusing on funding early-stages startups with high growth potential.",
     country: "India",
     city: "New Delhi",
@@ -1064,7 +1064,7 @@ export const angelsIndia = [
     website: "http://www.stockdaddy.in",
     companyLinkedinUrl: "http://www.linkedin.com/company/stock-daddy",
     twitterUrl: "",
-    companyoverview:
+    companyOverview:
       "Get free stock market courses from beginners to advanced. Learn stock market trading from market experts. Enroll in Intraday Trading Course, Options Trading Course, Technical Analysis Course.",
     country: "India",
     city: "Gurugram",
@@ -1083,7 +1083,7 @@ export const angelsIndia = [
     website: "http://www.mopid.me",
     companyLinkedinUrl: "http://www.linkedin.com/company/mopid",
     twitterUrl: "",
-    companyoverview:
+    companyOverview:
       "Experience seamless and efficient hiring with MOPID. Our platform empowers you to discover top talents and make informed decisions swiftly. Step up your recruitment game and hire the best candidates at an unparalleled speed.",
     country: "India",
     city: "Bengaluru",
@@ -1103,7 +1103,7 @@ export const angelsIndia = [
     companyLinkedinUrl: "http://www.linkedin.com/company/uhnw-family-office",
     twitterUrl:
       "https://facebook.com/pages/Family-Office-Exchange/133679133333783",
-    companyoverview:
+    companyOverview:
       "A family office is a private wealth management firm established by a family to manage their financial, investment, and personal affairs, often including tax planning, estate management, philanthropy, and succession planning, tailored to the family's unique needs.",
     country: "United States",
     city: "Chicago",
@@ -1124,7 +1124,7 @@ export const angelsIndia = [
     companyLinkedinUrl:
       "http://www.linkedin.com/company/evenflow-event-&-experiences",
     twitterUrl: "https://www.facebook.com/evenflowevents/photos_stream",
-    companyoverview:
+    companyOverview:
       "Evenflow Events & Experiences is a Bangalore-based company specializing in organizing insightful events that bring ideas and people together.",
     country: "India",
     city: "Bengaluru",
@@ -1143,7 +1143,7 @@ export const angelsIndia = [
     website: "http://www.angelone.in",
     companyLinkedinUrl: "http://www.linkedin.com/company/angelone",
     twitterUrl: "https://twitter.com/angelbrokingltd",
-    companyoverview:
+    companyOverview:
       "Angel One - India’s largest broker introduced ZERO cost brokerage services for trades executed in cash delivery, and only Rs.20 per order will be charged for Intraday, F&O, etc. Open your Demat account now.",
     country: "India",
     city: "Mumbai",
@@ -1162,7 +1162,7 @@ export const angelsIndia = [
     website: "http://www.ipventures.in",
     companyLinkedinUrl: "http://www.linkedin.com/company/ipventures",
     twitterUrl: "https://twitter.com/ipventures_in",
-    companyoverview:
+    companyOverview:
       "IPV is a Startup Investing Platform that connects Startups with Angel Investors. With 6500+ investors, IPV is one of the largest Angel Investor portals in India.",
     country: "India",
     city: "Gurgaon",
@@ -1181,7 +1181,7 @@ export const angelsIndia = [
     website: "http://www.angelonepatna.com",
     companyLinkedinUrl: "http://www.linkedin.com/company/anglbrk",
     twitterUrl: "",
-    companyoverview: "Enjoy Free Equity Delivery Trade For Lifetime",
+    companyOverview: "Enjoy Free Equity Delivery Trade For Lifetime",
     country: "India",
     city: "Patna",
     stages: ["Other"],
@@ -1200,7 +1200,7 @@ export const angelsIndia = [
     companyLinkedinUrl:
       "http://www.linkedin.com/company/microsoft-startup-community",
     twitterUrl: "",
-    companyoverview:
+    companyOverview:
       "An angel investor is an individual who provides capital to early-stages startups in exchange for equity or convertible debt.",
     country: "United Kingdom",
     city: "London",
@@ -1219,7 +1219,7 @@ export const angelsIndia = [
     website: "http://www.ipventures.in",
     companyLinkedinUrl: "http://www.linkedin.com/company/ipventures",
     twitterUrl: "https://twitter.com/ipventures_in",
-    companyoverview:
+    companyOverview:
       "IPV is a Startup Investing Platform that connects Startups with Angel Investors. With 6500+ investors, IPV is one of the largest Angel Investor portals in India.",
     country: "India",
     city: "Gurgaon",
@@ -1238,7 +1238,7 @@ export const angelsIndia = [
     website: "http://www.rich-oak.com",
     companyLinkedinUrl: "http://www.linkedin.com/company/rich-oak-connect",
     twitterUrl: "",
-    companyoverview:
+    companyOverview:
       "Finance is the study and management of money, investments, and other financial instruments. It encompasses various areas, including personal finance, corporate finance, and public finance, dealing with the processes of budgeting, saving, investing, lending, borrowing, and managing risk.",
     country: "Nigeria",
     city: "Bwari",
@@ -1257,7 +1257,7 @@ export const angelsIndia = [
     website: "http://www.wherehouse.io",
     companyLinkedinUrl: "http://www.linkedin.com/company/wherehouseio",
     twitterUrl: "https://facebook.com/knoweverythingworld/",
-    companyoverview:
+    companyOverview:
       "We provide on-demand warehouses to D2C brands and help them deliver on the same day resulting in better customer experience and optimized supply chain.",
     country: "India",
     city: "New Delhi",
@@ -1276,7 +1276,7 @@ export const angelsIndia = [
     website: "http://www.mikeslaststand.com",
     companyLinkedinUrl: "http://www.linkedin.com/company/self.",
     twitterUrl: "",
-    companyoverview:
+    companyOverview:
       "Mike's Last Stand is an acid rock revival band with an active online presence, engaging fans through music and performances. The term is also associated with various contexts, including business consulting and entertainment skits.",
     country: "United States",
     city: "Saint James City",
@@ -1295,7 +1295,7 @@ export const angelsIndia = [
     website: "https://angelinvestorsnetwork.com/",
     companyLinkedinUrl: "http://www.linkedin.com/company/angel-investor-bd",
     twitterUrl: "",
-    companyoverview:
+    companyOverview:
       "An angel investor is an individual who provides financial backing to early-stages startups or entrepreneurs in exchange for equity or convertible debt. They often bring industry expertise, mentorship, and connections, playing a crucial role in helping startups grow and succeed.",
     country: "Bangladesh",
     city: "Dhaka",
@@ -1314,7 +1314,7 @@ export const angelsIndia = [
     website: "http://www.styl.ai",
     companyLinkedinUrl: "http://www.linkedin.com/company/styl",
     twitterUrl: "",
-    companyoverview:
+    companyOverview:
       "Styl.ai is a fashion discovery platform that leverages artificial intelligence to provide personalized clothing recommendations through a user-friendly, swipe-based interface. By learning individual style preferences with each swipe, Styl.ai curates selections from a diverse range of brands, including popular, underrated, and designer labels, streamlining the shopping experience for users.",
     country: "India",
     city: "Bengaluru",
@@ -1333,7 +1333,7 @@ export const angelsIndia = [
     website: "http://www.changefoods.com",
     companyLinkedinUrl: "http://www.linkedin.com/company/change-foods",
     twitterUrl: "https://twitter.com/change_foods",
-    companyoverview:
+    companyOverview:
       "We (re)create real dairy foods that delight the taste buds, nourish people and sustain the planet, by using the magic of microbes instead of animals.",
     country: "United States",
     country: "United States",
@@ -1353,7 +1353,7 @@ export const angelsIndia = [
     website: "http://www.multiplehub.org",
     companyLinkedinUrl: "http://www.linkedin.com/company/multiplehub",
     twitterUrl: "https://twitter.com/Multiple_Hub",
-    companyoverview:
+    companyOverview:
       "Multipehub is a fintech company offering a range of services, including recharge solutions, money transfers, and PAN card services, designed to simplify financial transactions. Their platform integrates secure payment gateways, supporting various payment methods like credit cards, online banking, and mobile wallets.",
     country: "United States",
     city: "San Francisco",
@@ -1372,7 +1372,7 @@ export const angelsIndia = [
     website: "http://www.ipventures.in",
     companyLinkedinUrl: "http://www.linkedin.com/company/ipventures",
     twitterUrl: "https://twitter.com/ipventures_in",
-    companyoverview:
+    companyOverview:
       "IPV is a Startup Investing Platform that connects Startups with Angel Investors. With 6500+ investors, IPV is one of the largest Angel Investor portals in India.",
     country: "India",
     city: "Gurgaon",
@@ -1391,7 +1391,7 @@ export const angelsIndia = [
     website: "http://www.angelone.in",
     companyLinkedinUrl: "http://www.linkedin.com/company/angelone",
     twitterUrl: "https://twitter.com/angelbrokingltd",
-    companyoverview:
+    companyOverview:
       "Angel One - India’s largest broker introduced ZERO cost brokerage services for trades executed in cash delivery, and only Rs.20 per order will be charged for Intraday, F&O, etc. Open your Demat account now.",
     country: "India",
     city: "Mumbai",
@@ -1411,7 +1411,7 @@ export const angelsIndia = [
     companyLinkedinUrl:
       "http://www.linkedin.com/company/microsoft-startup-community",
     twitterUrl: "",
-    companyoverview:
+    companyOverview:
       "An angel investor is a high-net-worth individual who invests in startups or early-stages companies in exchange for equity or convertible debt. These investors provide crucial funding during the early phases of a business, often taking on significant risks with the expectation of high returns. In addition to capital, angel investors often bring expertise, mentorship, and valuable networks to help startups grow and succeed",
     country: "United Kingdom",
     city: "London",
@@ -1430,7 +1430,7 @@ export const angelsIndia = [
     website: "",
     companyLinkedinUrl: "http://www.linkedin.com/company/csd-associates",
     twitterUrl: "",
-    companyoverview:
+    companyOverview:
       "A CSD Associate can refer to roles in various fields, such as a member of the Chartered Society of Designers, a social services associate assisting clients, or a training lead at Walmart distribution centers. The specific context determines the responsibilities and focus of the role.",
     country: "India",
     city: "",
@@ -1449,7 +1449,7 @@ export const angelsIndia = [
     website: "http://www.antler.co",
     companyLinkedinUrl: "http://www.linkedin.com/company/antlerglobal",
     twitterUrl: "https://twitter.com/AntlerGlobal",
-    companyoverview:
+    companyOverview:
       "Antler is the world's day zero investor, enabling exceptional founders to build startups and great companies, from the very beginning.",
     country: "Singapore",
     city: "Singapore",
@@ -1468,7 +1468,7 @@ export const angelsIndia = [
     website: "http://www.angelone.in",
     companyLinkedinUrl: "http://www.linkedin.com/company/angelone",
     twitterUrl: "https://twitter.com/angelbrokingltd",
-    companyoverview:
+    companyOverview:
       "Angel One - India’s largest broker introduced ZERO cost brokerage services for trades executed in cash delivery, and only Rs.20 per order will be charged for Intraday, F&O, etc. Open your Demat account now.",
     country: "India",
     city: "Mumbai",
@@ -1487,7 +1487,7 @@ export const angelsIndia = [
     website: "http://www.spoon.money",
     companyLinkedinUrl: "http://www.linkedin.com/company/spoonmoney",
     twitterUrl: "",
-    companyoverview:
+    companyOverview:
       "Spoon offers micro lending, personal loans, and impact financing through digital lending.",
     country: "India",
     city: "Kochi",
@@ -1507,7 +1507,7 @@ export const angelsIndia = [
     companyLinkedinUrl:
       "http://www.linkedin.com/company/microsoft-startup-community",
     twitterUrl: "",
-    companyoverview:
+    companyOverview:
       "An angel investor is a wealthy individual who provides funding to startups or early-stages businesses in exchange for equity or convertible debt. They not only offer financial support but often mentor and guide entrepreneurs, helping businesses grow during their critical initial phases.",
     country: "United Kingdom",
     city: "London",
@@ -1526,7 +1526,7 @@ export const angelsIndia = [
     website: "http://www.naboso.com",
     companyLinkedinUrl: "http://www.linkedin.com/company/naboso-technology",
     twitterUrl: "",
-    companyoverview:
+    companyOverview:
       "Sensory-based products to optimize your foot health and movement. Our product line includes insoles, socks, mats and accessories.",
     country: "United States",
     city: "Chandler",
@@ -1545,7 +1545,7 @@ export const angelsIndia = [
     website: "http://www.playo.co",
     companyLinkedinUrl: "http://www.linkedin.com/company/playo",
     twitterUrl: "https://twitter.com/playoApp",
-    companyoverview:
+    companyOverview:
       "Join the world’s largest sports community, connecting millions of people to the sports they love. Playo is the only app you’ll ever need to play & boost your game.",
     country: "India",
     city: "Bengaluru",
@@ -1564,7 +1564,7 @@ export const angelsIndia = [
     website: "http://www.ipventures.in",
     companyLinkedinUrl: "http://www.linkedin.com/company/ipventures",
     twitterUrl: "https://twitter.com/ipventures_in",
-    companyoverview:
+    companyOverview:
       "IPV is a Startup Investing Platform that connects Startups with Angel Investors. With 6500+ investors, IPV is one of the largest Angel Investor portals in India.",
     country: "India",
     city: "Gurgaon",
@@ -1583,7 +1583,7 @@ export const angelsIndia = [
     website: "http://www.legalnextt.com",
     companyLinkedinUrl: "http://www.linkedin.com/company/legalnextt",
     twitterUrl: "",
-    companyoverview:
+    companyOverview:
       "LegalNextt is a Pune-based legal technology company founded in 2018, aiming to digitally transform the legal sectors in India by providing a comprehensive platform that streamlines legal practice management for professionals.",
     country: "India",
     city: "Pune",
@@ -1602,7 +1602,7 @@ export const angelsIndia = [
     website: "http://www.goldenwings-academy.com",
     companyLinkedinUrl: "http://www.linkedin.com/company/golden-wings-academy",
     twitterUrl: "",
-    companyoverview:
+    companyOverview:
       "Goldenwings represents various companies across industries, such as trading, investment, finance, logistics, and industrial solutions, with operations in countries like India, Saudi Arabia, the UK, and the USA. Each specializes in unique services, including FMCG distribution, commercial finance, industrial solutions, and freight transportation.",
     country: "India",
     city: "",
@@ -1622,7 +1622,7 @@ export const angelsIndia = [
       "https://www.zaubacorp.com/company/ALIENHU-PRIVATE-LIMITED/U72909KA2016PTC095135",
     companyLinkedinUrl: "http://www.linkedin.com/company/alienhu",
     twitterUrl: "",
-    companyoverview:
+    companyOverview:
       "Alienhu Private Limited is a Private company incorporated on 19 July 2016. It is classified as Non-government company and is registered at Registrar of Companies, Bangalore.",
     country: "India",
     city: "Haliyal",
@@ -1641,7 +1641,7 @@ export const angelsIndia = [
     website: "http://www.letsventure.com",
     companyLinkedinUrl: "http://www.linkedin.com/company/letsventure",
     twitterUrl: "https://twitter.com/letsventurein",
-    companyoverview:
+    companyOverview:
       "Connect with 10,000+ angel investors. Raise funding seamlessly. Find startups to invest in. Easy-to-use & seamless technology platform for startup investing & funding.",
     country: "India",
     city: "Bengaluru",
@@ -1660,7 +1660,7 @@ export const angelsIndia = [
     website: "http://www.thesettl.com",
     companyLinkedinUrl: "http://www.linkedin.com/company/thesettl",
     twitterUrl: "https://twitter.com/Settl_living",
-    companyoverview:
+    companyOverview:
       "Looking for a coliving space? Find the well-designed best coliving spaces in Bangalore, Hyderabad & Gurgaon. Luxury apartments and rooms for rent.",
     country: "India",
     city: "Bengaluru",
@@ -1679,7 +1679,7 @@ export const angelsIndia = [
     website: "http://www.angelinvestmentnetwork.us",
     companyLinkedinUrl: "http://www.linkedin.com/company/angel-investment",
     twitterUrl: "https://twitter.com/Angel__Network",
-    companyoverview:
+    companyOverview:
       "Red Colombiana de Inversiones: Conecta la red de negocios con empresarios Angel Inversores. Buscar un inversor privado para su negocio o ver las oportunidades de inversión disponibles tanto en Colombia como internacionalmente.",
     country: "United Kingdom",
     city: "Twickenham",
@@ -1698,7 +1698,7 @@ export const angelsIndia = [
     website: "http://www.iangroup.vc",
     companyLinkedinUrl: "http://www.linkedin.com/company/indian-angel-network",
     twitterUrl: "http://www.twitter.com/ianetwork",
-    companyoverview:
+    companyOverview:
       "Indian Angel Network (IAN) is one of India's largest angel investor networks, founded in 2006, that provides funding and mentorship to early-stages startups. With over 500 members, IAN focuses on nurturing innovative businesses across various sectorss, helping them scale by offering not only capital but also strategic guidance and market access.",
     country: "India",
     city: "New Delhi",
@@ -1717,7 +1717,7 @@ export const angelsIndia = [
     website: "http://www.ipventures.in",
     companyLinkedinUrl: "http://www.linkedin.com/company/ipventures",
     twitterUrl: "https://twitter.com/ipventures_in",
-    companyoverview:
+    companyOverview:
       "IPV is a Startup Investing Platform that connects Startups with Angel Investors. With 6500+ investors, IPV is one of the largest Angel Investor portals in India.",
     country: "India",
     city: "Gurgaon",
@@ -1736,7 +1736,7 @@ export const angelsIndia = [
     website: "http://www.100x.vc",
     companyLinkedinUrl: "http://www.linkedin.com/company/100x-vc",
     twitterUrl: "https://twitter.com/100X_VC",
-    companyoverview:
+    companyOverview:
       "100X.VC, a venture capital firm created a new model for funding early stages startups in India. 100X.VC is a SEBI Registered AIF.",
     country: "India",
     city: "Mumbai",
@@ -1755,7 +1755,7 @@ export const angelsIndia = [
     website: "http://www.kollaborite.com",
     companyLinkedinUrl: "http://www.linkedin.com/company/kollaborite",
     twitterUrl: "",
-    companyoverview:
+    companyOverview:
       "Kollaborate is a cloud-based workflow platform designed for video professionals to facilitate seamless collaboration, review, and approval processes.",
     country: "India",
     city: "",
@@ -1774,7 +1774,7 @@ export const angelsIndia = [
     website: "https://www.angelone.in/",
     companyLinkedinUrl: "http://www.linkedin.com/company/angel-one-ltd",
     twitterUrl: "",
-    companyoverview:
+    companyOverview:
       "Technology-led financial services company & margin funding, loans against shares through one of our subsidiaries.",
     country: "India",
     city: "Indore",
@@ -1793,7 +1793,7 @@ export const angelsIndia = [
     website: "http://www.wealthzi.com",
     companyLinkedinUrl: "http://www.linkedin.com/company/wealthzi",
     twitterUrl: "https://twitter.com/Wealthzi_in",
-    companyoverview:
+    companyOverview:
       "Wealthzi is a wealth management app that helps you track and review your existing mutual funds portfolio.",
     country: "India",
     city: "Adirampattinam",
@@ -1812,7 +1812,7 @@ export const angelsIndia = [
     website: "http://www.peartech.in",
     companyLinkedinUrl: "http://www.linkedin.com/company/pear-technologies",
     twitterUrl: "",
-    companyoverview:
+    companyOverview:
       "peAR Technologies is engaged in Augmented Reality (AR), Virtual Reality (VR), and Mixed Reality (MR).",
     country: "India",
     city: "Mumbai",
@@ -1831,7 +1831,7 @@ export const angelsIndia = [
     website: "https://thebohrikitchen.com/",
     companyLinkedinUrl: "http://www.linkedin.com/company/the-bohri-kitchen",
     twitterUrl: "",
-    companyoverview: "The Bohri Kitchen specializes in Dawoodi Bohra food.",
+    companyOverview: "The Bohri Kitchen specializes in Dawoodi Bohra food.",
     country: "India",
     city: "Mumbai",
     stages: ["Angel"],
@@ -1849,7 +1849,7 @@ export const angelsIndia = [
     website: "http://www.ipventures.in",
     companyLinkedinUrl: "http://www.linkedin.com/company/ipventures",
     twitterUrl: "https://twitter.com/ipventures_in",
-    companyoverview:
+    companyOverview:
       "IPV connects startups with angel investors, providing seed funding and mentoring.",
     country: "India",
     city: "Gurgaon",
@@ -1868,7 +1868,7 @@ export const angelsIndia = [
     website: "http://www.ipventures.in",
     companyLinkedinUrl: "http://www.linkedin.com/company/ipventures",
     twitterUrl: "https://twitter.com/ipventures_in",
-    companyoverview:
+    companyOverview:
       "IPV connects startups with angel investors, providing seed funding and mentoring.",
     country: "India",
     city: "Gurgaon",
@@ -1888,7 +1888,7 @@ export const angelsIndia = [
     companyLinkedinUrl:
       "http://www.linkedin.com/company/the-angel-investor-club",
     twitterUrl: "",
-    companyoverview:
+    companyOverview:
       "An angel investor is a high-net-worth individual who provides financial backing to startups or early-stages businesses in exchange for equity or convertible debt. Angel investors typically step in during the initial phases of a company's development when traditional funding sources like banks or venture capital firms may not be accessible.",
     country: "India",
     city: "",
@@ -1907,7 +1907,7 @@ export const angelsIndia = [
     website: "http://www.venturecatalysts.in",
     companyLinkedinUrl: "http://www.linkedin.com/company/vcatsindia",
     twitterUrl: "https://twitter.com/vcatsindia",
-    companyoverview:
+    companyOverview:
       "Venture Catalysts is India's first multi-stages venture capital firm.",
     country: "India",
     city: "Mumbai",
@@ -1926,7 +1926,7 @@ export const angelsIndia = [
     website: "http://www.preskale.com",
     companyLinkedinUrl: "http://www.linkedin.com/company/preskale",
     twitterUrl: "https://twitter.com/PreSkale",
-    companyoverview:
+    companyOverview:
       "PreSkale helps PreSales teams streamline evaluation experiences, track product-market insights, deliver impactful solutions, and improve technical conversions.",
     country: "United States",
     city: "San Mateo",
@@ -1945,7 +1945,7 @@ export const angelsIndia = [
     website: "http://www.examarly.com",
     companyLinkedinUrl: "http://www.linkedin.com/company/examarly",
     twitterUrl: "https://twitter.com/examarly",
-    companyoverview:
+    companyOverview:
       "Examarly is an ed-tech platform dedicated to enhancing exam preparation efficiency, particularly for competitive exams like the UPSC Civil Services Examination. It offers personalized strategies, daily micro-tests, and performance analytics to help students identify and overcome their weaknesses, thereby accelerating their study process.",
     country: "India",
     city: "Bengaluru",
@@ -1964,7 +1964,7 @@ export const angelsIndia = [
     website: "http://www.keiretsuforum.com",
     companyLinkedinUrl: "http://www.linkedin.com/company/keiretsu-forum",
     twitterUrl: "http://www.twitter.com/KeiretsuAngels",
-    companyoverview:
+    companyOverview:
       "Keiretsu Forum is a global angel investor network with more than 2,500 accredited investor members throughout 47 chapters on 3 continents.",
     country: "United States",
     city: "Orinda",
@@ -1983,7 +1983,7 @@ export const angelsIndia = [
     website: "http://www.dcgpac.com",
     companyLinkedinUrl: "http://www.linkedin.com/company/dcg-pac",
     twitterUrl: "https://twitter.com/DCGPac",
-    companyoverview:
+    companyOverview:
       "DCGpac is a leading packaging material supplies store in India. Buy packaging materials online safely with our packaging solutions and supplies.",
     country: "India",
     city: "Gurugram",
@@ -2002,7 +2002,7 @@ export const angelsIndia = [
     website: "http://www.angelinvestmentnetwork.us",
     companyLinkedinUrl: "http://www.linkedin.com/company/angel-investment",
     twitterUrl: "https://twitter.com/Angel__Network",
-    companyoverview:
+    companyOverview:
       "Red Colombiana de Inversiones: Conecta la red de negocios con empresarios Angel Inversores. Buscar un inversor privado para su negocio o ver las oportunidades de inversión disponibles tanto en Colombia como internacionalmente.",
     country: "United Kingdom",
     city: "Twickenham",
@@ -2021,7 +2021,7 @@ export const angelsIndia = [
     website: "http://www.9figurecompany.com",
     companyLinkedinUrl: "http://www.linkedin.com/company/9figurecompany",
     twitterUrl: "",
-    companyoverview:
+    companyOverview:
       "9 Figure Company, LLC is a business growth coaching service that assists companies in achieving rapid growth and high profits. Their team comprises founders who have built multiple nine-figure companies and former Fortune 500 executives. They offer personalized strategies to help businesses scale efficiently.",
     country: "United States",
     city: "West Palm Beach",
@@ -2040,7 +2040,7 @@ export const angelsIndia = [
     website: "http://www.ipventures.in",
     companyLinkedinUrl: "http://www.linkedin.com/company/ipventures",
     twitterUrl: "https://twitter.com/ipventures_in",
-    companyoverview:
+    companyOverview:
       "IPV is a Startup Investing Platform that connects Startups with Angel Investors. With 6500+ investors, IPV is one of the largest Angel Investor portal in India.",
     country: "India",
     city: "Gurgaon",
@@ -2059,7 +2059,7 @@ export const angelsIndia = [
     website: "http://www.blowhorn.com",
     companyLinkedinUrl: "http://www.linkedin.com/company/blowhorn",
     twitterUrl: "https://twitter.com/blowhornlog",
-    companyoverview:
+    companyOverview:
       "Grow your brand on Blowhorn’s same day delivery network with our full-stack fulfillment model. Partner with the leading eCommerce fulfillment Company in India",
     country: "India",
     city: "Bengaluru",
@@ -2078,7 +2078,7 @@ export const angelsIndia = [
     website: "http://www.ipventures.in",
     companyLinkedinUrl: "http://www.linkedin.com/company/ipventures",
     twitterUrl: "https://twitter.com/ipventures_in",
-    companyoverview:
+    companyOverview:
       "IPV is a Startup Investing Platform that connects Startups with Angel Investors. With 6500+ investors, IPV is one of the largest Angel Investor portal in India.",
     country: "India",
     city: "Gurgaon",
@@ -2097,7 +2097,7 @@ export const angelsIndia = [
     website: "http://www.luvin.in",
     companyLinkedinUrl: "http://www.linkedin.com/company/luvin-india",
     twitterUrl: "https://twitter.com/luvinindia",
-    companyoverview:
+    companyOverview:
       "Luvin is a premium pet care brand to help you love back your pets the way they do. Nutritious food is the ultimate way for you to express your love and is his/her privilege over the ones out there.",
     country: "India",
     city: "Mumbai",
@@ -2116,7 +2116,7 @@ export const angelsIndia = [
     website: "http://www.tykeinvest.com",
     companyLinkedinUrl: "http://www.linkedin.com/company/tyke-india",
     twitterUrl: "",
-    companyoverview:
+    companyOverview:
       "We are thankful to our thriving community · Tyke makes startup investing look easy. · The power of being able to access the best investment deals is something ...",
     country: "India",
     city: "Mumbai",
@@ -2134,7 +2134,7 @@ export const angelsIndia = [
     website: "",
     companyLinkedinUrl: "http://www.linkedin.com/company/ai-investor",
     twitterUrl: "",
-    companyoverview:
+    companyOverview:
       "An AI investor focuses on funding startups and businesses that develop or leverage artificial intelligence technologies. These investors support innovative solutions in areas like machine learning, natural language processing, computer vision, robotics, and AI-driven analytics. ",
     country: "United Kingdom",
     city: "London",
@@ -2153,7 +2153,7 @@ export const angelsIndia = [
     website: "http://www.ipventures.in",
     companyLinkedinUrl: "http://www.linkedin.com/company/ipventures",
     twitterUrl: "https://twitter.com/ipventures_in",
-    companyoverview:
+    companyOverview:
       "IPV is a Startup Investing Platform that connects Startups with Angel Investors. With 6500+ investors, IPV is one of the largest Angel Investor portal in India.",
     country: "India",
     city: "Gurgaon",
@@ -2172,7 +2172,7 @@ export const angelsIndia = [
     website: "http://www.usangelinvestors.com",
     companyLinkedinUrl: "http://www.linkedin.com/company/angelinvestr",
     twitterUrl: "",
-    companyoverview:
+    companyOverview:
       "U.S. Angel Investors is a Silicon Valley and San Francisco Bay Area angel investor, venture capital, startup network serving the needs on private investors and entrepreneurs.",
     country: "United States",
     city: "Palo Alto",
@@ -2192,7 +2192,7 @@ export const angelsIndia = [
     companyLinkedinUrl:
       "http://www.linkedin.com/company/misfits-content-creators",
     twitterUrl: "",
-    companyoverview:
+    companyOverview:
       "Misfits Market is an online grocery delivery service dedicated to reducing food waste by sourcing surplus and  produce—fruits and vegetables that may be too large, small, or cosmetically imperfect—from farmers and food producers. Founded in 2018 by Abhi Ramesh, the company offers a variety of organic and sustainably sourced products, including fruits, vegetables, dairy, snacks, and pantry staples, delivered directly to customers' doors.",
     country: "United Arab Emirates",
     city: "Dubai",
@@ -2211,7 +2211,7 @@ export const angelsIndia = [
     website: "http://www.wefoundercircle.com",
     companyLinkedinUrl: "http://www.linkedin.com/company/wefoundercircle",
     twitterUrl: "https://twitter.com/wefoundercircle",
-    companyoverview:
+    companyOverview:
       "WeFounderCircle - Seed Fund by founders, for founders. Backed by a community of successful founders & strategic angels, we help raise seed funding of $100K-$150K to early-stages founders.",
     country: "India",
     city: "Mumbai",
@@ -2230,7 +2230,7 @@ export const angelsIndia = [
     website: "http://www.ownrealty.com",
     companyLinkedinUrl: "http://www.linkedin.com/company/own-realty-llc",
     twitterUrl: "https://twitter.com/OWNRealtyLLC",
-    companyoverview:
+    companyOverview:
       "Search the MLS for Properties for Sale and for Rent plus New Developments with floor plans. Now it’s easy to search the MLS for active Properties for Sale, for Rent, and view New Developments with floor plans.",
     country: "United States",
     city: "Miami",
@@ -2249,7 +2249,7 @@ export const angelsIndia = [
     website: "http://www.quidient.com",
     companyLinkedinUrl: "http://www.linkedin.com/company/quidient",
     twitterUrl: "https://twitter.com/Quidient",
-    companyoverview:
+    companyOverview:
       "Generalized Scene Reconstruction is bringing reality to the metaverse. Beyond 3D scanning, 5D reconstruction is the final frontier.",
     country: "United States",
     city: "Columbia",
@@ -2268,7 +2268,7 @@ export const angelsIndia = [
     website: "http://www.ipventures.in",
     companyLinkedinUrl: "http://www.linkedin.com/company/ipventures",
     twitterUrl: "https://twitter.com/ipventures_in",
-    companyoverview:
+    companyOverview:
       "IPV is a Startup Investing Platform that connects Startups with Angel Investors. With 6500+ investors, IPV is one of the largest Angel Investor portal in India.",
     country: "India",
     city: "Gurgaon",
@@ -2288,7 +2288,7 @@ export const angelsIndia = [
     companyLinkedinUrl:
       "http://www.linkedin.com/company/angel-investment-network",
     twitterUrl: "https://twitter.com/Angel__Network",
-    companyoverview:
+    companyOverview:
       "The United Kingdom Angel Investment Network connects business entrepreneurs with Angel Investors. Find an Investor for your business, or access a network of investment opportunities.",
     country: "Jamaica",
     city: "Spanish Town",
@@ -2307,7 +2307,7 @@ export const angelsIndia = [
     website: "http://www.startupindia.gov.in",
     companyLinkedinUrl: "http://www.linkedin.com/company/startup-india",
     twitterUrl: "https://twitter.com/startupindia",
-    companyoverview:
+    companyOverview:
       "India has emerged as the 3rd largest ecosystem for startups globally as of 31st May 2023. India ranks 2nd in innovation quality with top positions in the quality of scientific publications and the quality of its universities among middle-income economies.",
     country: "India",
     city: "New Delhi",
@@ -2326,7 +2326,7 @@ export const angelsIndia = [
     website: "",
     companyLinkedinUrl: "http://www.linkedin.com/company/my-being-map",
     twitterUrl: "",
-    companyoverview:
+    companyOverview:
       "minitherapy, integrated therapy, spirituality, meditation, mental health professionals, genz, journaling, happiness, depression, stress, anxiety, mbct, emotions, psychologists, one discomfort at a time, breathing, act, mental health awareness, multiverse of mental health issues, journal, therapy, mindfulness, cognitive behavioural therapy, therapists, psychology, interactive meditation, mental health, cbt, feelings, emotional intelligence, mental health issues",
     country: "India",
     city: "Bengaluru",
@@ -2346,7 +2346,7 @@ export const angelsIndia = [
     companyLinkedinUrl:
       "http://www.linkedin.com/company/microsoft-startup-community",
     twitterUrl: "",
-    companyoverview:
+    companyOverview:
       "An angel investor is an individual who provides financial support to early-stages startups or entrepreneurs in exchange for equity or convertible debt",
     country: "United Kingdom",
     city: "Bengaluru",
@@ -2365,7 +2365,7 @@ export const angelsIndia = [
     website: "http://www.edusharez.in",
     companyLinkedinUrl: "http://www.linkedin.com/company/futurex-global",
     twitterUrl: "",
-    companyoverview:
+    companyOverview:
       "An angel investor is an individual who provides financial support to early-stages startups or entrepreneurs in exchange for equity or convertible debt",
     country: "India",
     city: "Nagpur",
@@ -2384,7 +2384,7 @@ export const angelsIndia = [
     website: "http://www.venturecatalysts.in",
     companyLinkedinUrl: "http://www.linkedin.com/company/vcatsindia",
     twitterUrl: "https://twitter.com/vcatsindia",
-    companyoverview:
+    companyOverview:
       "Venture Catalysts bundle together all the elements that help startups become more successful. We are creating the world’s largest early stages startup ecosystem in India.",
     country: "India",
     city: "Mumbai",
@@ -2403,7 +2403,7 @@ export const angelsIndia = [
     website: "http://www.thesettl.com",
     companyLinkedinUrl: "http://www.linkedin.com/company/thesettl",
     twitterUrl: "https://twitter.com/Settl_living",
-    companyoverview:
+    companyOverview:
       "Looking for a coliving space? Find the well-designed best coliving spaces in Bangalore, Hyderabad & Gurgaon. Luxury apartments and rooms for rent.",
     country: "India",
     city: "Bengaluru",
@@ -2422,7 +2422,7 @@ export const angelsIndia = [
     website: "http://www.upwork.com",
     companyLinkedinUrl: "http://www.linkedin.com/company/upwork",
     twitterUrl: "https://twitter.com/upwork",
-    companyoverview:
+    companyOverview:
       "Upwork is a global freelancing platform that connects businesses with independent professionals offering services in areas such as writing, design, programming, marketing, and customer support",
     country: "United States",
     city: "San Francisco",
@@ -2442,7 +2442,7 @@ export const angelsIndia = [
     companyLinkedinUrl:
       "http://www.linkedin.com/company/chilliworx-studio---india",
     twitterUrl: "https://twitter.com/bhakteez",
-    companyoverview:
+    companyOverview:
       "Chilliworx Studio is a creative space in Bhopal, Madhya Pradesh, India, known for hosting various cultural and artistic events. They have organized activities such as the Annual Mega Diwali Utsav, featuring performances and celebrations.",
     country: "India",
     city: "Noida",
@@ -2468,7 +2468,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "50000000",
     totalFundCorpus: "50000000",
-    companyoverview:
+    companyOverview:
       "IPV is a Startup Investing Platform that connects Startups with Angel Investors. With 6500+ investors, IPV is one of the largest Angel Investor portal in India.",
     logo: "https://ipventures.in/wp-content/uploads/2024/10/IPV-logo-5-years-png.png",
   },
@@ -2487,7 +2487,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "2000000",
     totalFundCorpus: "2000000",
-    companyoverview:
+    companyOverview:
       "Water, energy & environmental infrastructure in buildings & businesses are dynamic systems that require adjustments to be made on the fly for smooth running, and for this access to real time data is absolutely essential. We have developed our Real-Time Monitoring (RTM) solutions to address these environmental problems. ",
     logo: "https://media.licdn.com/dms/image/v2/C560BAQH5qFfPqyBssg/company-logo_200_200/company-logo_200_200/0/1630671451777/greenvironmentindia_logo?e=1745452800&v=beta&t=QZiEqhXd46Zcb2PpF62g5CbtkaORijKC6-HM5bD1AEM",
   },
@@ -2506,7 +2506,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "11450000",
     totalFundCorpus: "114500000",
-    companyoverview:
+    companyOverview:
       "Venture Catalysts bundle together all the elements that help startups become more successful. We are creating the world’s largest early stages startup ecosystem in India.",
     logo: "https://venturecatalysts.in/assets/images/new-logo.svg",
   },
@@ -2525,7 +2525,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "5000000",
     totalFundCorpus: "500000",
-    companyoverview: "Catalyzing Innovation for People With Autism",
+    companyOverview: "Catalyzing Innovation for People With Autism",
     logo: "https://media.licdn.com/dms/image/v2/D560BAQEESBlMa8UOMQ/company-logo_200_200/company-logo_200_200/0/1726588065717/multiplehub_logo?e=1745452800&v=beta&t=ufSGX-Ch_E5KEhhwImaWGlIq_TvH2jiR1VFEF9GLHBA",
   },
   {
@@ -2543,7 +2543,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "1600000",
     totalFundCorpus: "6226418",
-    companyoverview:
+    companyOverview:
       "Planys Technologies is a pioneer in Visual Inspection services using marine robotics and other efficient technologies to provide underwater asset inspection.",
     logo: "https://planystech.com/wp-content/uploads/2021/05/final-logo.gif",
   },
@@ -2562,7 +2562,7 @@ export const angelsIndia = [
     ticketSize: "250k-500k",
     currentFundCorpus: "3048575",
     totalFundCorpus: "307157004",
-    companyoverview:
+    companyOverview:
       "Transforming Indian cities by providing 100% Electric, sustainable and most reliable mobility solutions.",
     logo: "https://www.blu-smart.com/assets/images/bluLogoMob.svg",
   },
@@ -2581,7 +2581,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "500000",
     totalFundCorpus: "5000000",
-    companyoverview: "Web site created using create-react-app",
+    companyOverview: "Web site created using create-react-app",
     logo: "https://www.alt-mobility.com/_next/image?url=%2Fassets%2Ficon%2Falt-mobility-ic.png&w=256&q=75",
   },
   {
@@ -2599,7 +2599,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "500000",
     totalFundCorpus: "8520000",
-    companyoverview: "Global assistance services that are a class apart ",
+    companyOverview: "Global assistance services that are a class apart ",
     logo: "https://www.globalassure.com/assets/images/footer_logo.svg",
   },
   {
@@ -2617,7 +2617,7 @@ export const angelsIndia = [
     ticketSize: "500k-1m",
     currentFundCorpus: "50000000",
     totalFundCorpus: "50000000",
-    companyoverview:
+    companyOverview:
       "IPV is a Startup Investing Platform that connects Startups with Angel Investors. With 6500+ investors, IPV is one of the largest Angel Investor portal in India.",
     logo: "https://ipventures.in/wp-content/uploads/2024/10/IPV-logo-5-years-png.png",
   },
@@ -2637,7 +2637,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "1250000",
     totalFundCorpus: "2520000",
-    companyoverview:
+    companyOverview:
       "India's Smartest Battery-as-a-Service Cut operating costs, reduce downtime, and keep your EVs moving with BatteryPool",
     logo: "https://cdn.prod.website-files.com/6697dc24bb37c8fc88133965/669e7ef6c127d15b740a7774_Logo%20svg.svg",
   },
@@ -2656,7 +2656,7 @@ export const angelsIndia = [
     ticketSize: "50k-500k",
     currentFundCorpus: "500000",
     totalFundCorpus: "500000",
-    companyoverview:
+    companyOverview:
       "U.S. Angel Investors is a Silicon Valley and San Francisco Bay Area angel investor, venture capital,startup network serving the needs on private investors and entrepreneurs.",
     logo: "https://assets.plesk.com/static/default-website-content/public/img/logo-81ca7a.svg",
   },
@@ -2676,7 +2676,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "1800000",
     totalFundCorpus: "1800000",
-    companyoverview:
+    companyOverview:
       "Automated Threat detection for long range surveillance under different weather conditions",
     logo: "https://optimizedelectrotech.com/wp-content/uploads/2022/09/optimize-logo.webp",
   },
@@ -2695,7 +2695,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "161815",
     totalFundCorpus: "161815",
-    companyoverview:
+    companyOverview:
       "UrbanMatrix Technologies is a Drone Manufacturing company focusing on cutting-edge self-developed technology to cater to industrial inspections, surveys and security and surveillance operations. They maintain their edge over other UAV OEMs through providing reliable, robust and scalable drone solutions to a variety of industries. They are the first drone company in India to integrate 4G technology into their drones, granting their UAVs unmatched capabilities in terms of security, accessibility and data processing and storage.",
     logo: "https://media.licdn.com/dms/image/v2/C510BAQHmmpiiavCUCQ/company-logo_200_200/company-logo_200_200/0/1630608935870/urbanmatrix_logo?e=1744848000&v=beta&t=oJuF9eFVS08Iqam8ZdsHxj89TNS2WgV64MRye0edTaI",
   },
@@ -2714,7 +2714,7 @@ export const angelsIndia = [
     ticketSize: "250k-500k",
     currentFundCorpus: "3500000",
     totalFundCorpus: "3500000",
-    companyoverview:
+    companyOverview:
       "We present an array of promising opportunities, and help you make the best possible decisions at every stages of investment.",
     logo: "https://www.1crowd.co/assets/img/1crowd/1crowd_logo.png",
   },
@@ -2734,7 +2734,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "20000",
     totalFundCorpus: "20000",
-    companyoverview: "Travel around with DBS Wealth",
+    companyOverview: "Travel around with DBS Wealth",
     logo: "Angel Investor",
   },
   {
@@ -2752,7 +2752,7 @@ export const angelsIndia = [
     ticketSize: "50k-500k",
     currentFundCorpus: "8900000",
     totalFundCorpus: "2600000",
-    companyoverview: "",
+    companyOverview: "",
     logo: "Angel Broking Ltd",
   },
   {
@@ -2770,7 +2770,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "50000",
     totalFundCorpus: "50000",
-    companyoverview: "Integrated logistics solutions",
+    companyOverview: "Integrated logistics solutions",
     logo: "https://waditarjsa.com/wp-content/uploads/2022/05/lo.png",
   },
   {
@@ -2788,7 +2788,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "200000",
     totalFundCorpus: "150000",
-    companyoverview: "ONE STOP SOLUTION FOR OVERALL DEVELOPMENT ",
+    companyOverview: "ONE STOP SOLUTION FOR OVERALL DEVELOPMENT ",
     logo: "https://myschoolofskills.com/wp-content/uploads/2021/05/sos-logo-01-1024x451.png",
   },
   {
@@ -2807,7 +2807,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "250000",
     totalFundCorpus: "5000000",
-    companyoverview: "Enjoy DBS Treasures Benefits",
+    companyOverview: "Enjoy DBS Treasures Benefits",
     logo: "Angel Investor",
   },
   {
@@ -2825,7 +2825,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "150000",
     totalFundCorpus: "200000",
-    companyoverview:
+    companyOverview:
       "Sparklehood is an online startup school for extremely driven people with full time jobs who want to launch their own company and grow it",
     logo: "https://d3e54v103j8qbb.cloudfront.net/img/webflow-badge-text-d2.c82cec3b78.svg",
   },
@@ -2844,7 +2844,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "391363",
     totalFundCorpus: "391363",
-    companyoverview:
+    companyOverview:
       "India's largest Chain of Hydroponic farms growing pesticide free food using soil-less methods in tech enabled, hyperlocal, vertical farms.",
     logo: "https://media.licdn.com/dms/image/v2/D560BAQH9RXRlzzSeFQ/company-logo_200_200/company-logo_200_200/0/1714456452637/farmingv2_logo?e=1744848000&v=beta&t=oL6dQyKlppE_O4SWIACOLgpwVSIZNdT2a4KDVNTL2pI",
   },
@@ -2863,7 +2863,7 @@ export const angelsIndia = [
     ticketSize: "500k-1M",
     currentFundCorpus: "50000000",
     totalFundCorpus: "50000000",
-    companyoverview:
+    companyOverview:
       "IPV is a Startup Investing Platform that connects Startups with Angel Investors. With 6500+ investors, IPV is one of the largest Angel Investor portal in India.",
     logo: "https://ipventures.in/wp-content/uploads/2024/10/IPV-logo-5-years-png.png",
   },
@@ -2883,7 +2883,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "2500000",
     totalFundCorpus: "8000000",
-    companyoverview:
+    companyOverview:
       "OoWomaniya.com is an exclusive online network platform for women's health and wellness, which provides online consultation for women and online counseling. Women can submit health related question, ask a doctor online or ask doctor's help online. With variety of health issues like irregular periods, menstrual cramps, white discharge, pregnancy, contraception, pcos, weight loss, unprotected sex, balanced diet, marriage, divorce, break up, period pain, vaginal discharge, abnormalities with breast and breast cancer.",
     logo: "https://media.licdn.com/dms/image/v2/C510BAQGs-tUUWvhtgw/company-logo_200_200/company-logo_200_200/0/1630626934963/impetus_wellness_pvt_ltd_logo?e=1745452800&v=beta&t=Lj-vqVFOxwTRR3keTjXSNgC7U88Wko22bc6LwVJbnk8",
   },
@@ -2902,7 +2902,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "89372160",
     totalFundCorpus: "89372160",
-    companyoverview:
+    companyOverview:
       "Home Credit offers a consumer durable loan in India at best interest rates. Buy mobile phones and home appliances on emis with instant approval. To know more about Home Credit and its services, visit now.",
     logo: "http://www.homecredit.co.in/assets/images/icons/logo.svg",
   },
@@ -2921,7 +2921,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "50000000",
     totalFundCorpus: "50000000",
-    companyoverview:
+    companyOverview:
       "IPV is a Startup Investing Platform that connects Startups with Angel Investors. With 6500+ investors, IPV is one of the largest Angel Investor portal in India.",
     logo: "https://ipventures.in/wp-content/uploads/2024/10/IPV-logo-5-years-png.png",
   },
@@ -2940,7 +2940,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "50000",
     totalFundCorpus: "50000",
-    companyoverview:
+    companyOverview:
       "ZEVO INDIA first-mile, last-mile, temperature-controlled delivery, forward & reverse logistics, agricultural supply chain electrification.",
     logo: "https://zevoindia.in/_next/static/media/logo.ef7b5ef4.webp",
   },
@@ -2959,7 +2959,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "",
     totalFundCorpus: "",
-    companyoverview: "",
+    companyOverview: "",
     logo: "",
   },
   {
@@ -2977,7 +2977,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "2500000",
     totalFundCorpus: "6500000",
-    companyoverview:
+    companyOverview:
       "Angel One - India’s largest broker introduced ZERO cost brokerage services for trades executed in cash delivery, and only Rs.20 per order will be charged for Intraday, F&O, etc. Open your Demat account now.",
     logo: "https://w3assets.angelone.in/wp-content/uploads/2024/04/IPL_COMPOSITE-LOGO_ANGELONE_HORIZONTAL_WHITE_VERSION-192x100-1.png",
   },
@@ -2996,7 +2996,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "",
     totalFundCorpus: "",
-    companyoverview: "",
+    companyOverview: "",
     logo: "",
   },
   {
@@ -3014,7 +3014,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "350000",
     totalFundCorpus: "250000",
-    companyoverview:
+    companyOverview:
       "Angel One - India’s largest broker introduced ZERO cost brokerage services for trades executed in cash delivery, and only Rs.20 per order will be charged for Intraday, F&O, etc. Open your Demat account now.",
     logo: "https://w3assets.angelone.in/wp-content/uploads/2024/04/IPL_COMPOSITE-LOGO_ANGELONE_HORIZONTAL_WHITE_VERSION-192x100-1.png",
   },
@@ -3033,7 +3033,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "3520000",
     totalFundCorpus: "1520000",
-    companyoverview: "Bromsgrove School - Outstanding Education",
+    companyOverview: "Bromsgrove School - Outstanding Education",
     logo: "",
   },
   {
@@ -3051,7 +3051,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "35200",
     totalFundCorpus: "150000",
-    companyoverview:
+    companyOverview:
       "Luthra and Luthra Law Offices India (the “Firm”), was an established Corporate Law Firm of the early 90s, which coincided with India’s economic liberalization, and soon after its inception, it emerged as a full-service law Firm.",
     logo: "https://luthra.com/wp-content/uploads/2022/10/full-logo.png",
   },
@@ -3070,7 +3070,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "11000000",
     totalFundCorpus: "23790000",
-    companyoverview:
+    companyOverview:
       "The logistics engine for e-commerce brands to store, pack, ship, & track orders in Asia-Pacific. Locad — all systems go.",
     logo: "https://media.licdn.com/dms/image/v2/D4D0BAQHBMae8DgyJ7A/company-logo_200_200/company-logo_200_200/0/1663821514601/golocad_logo?e=1745452800&v=beta&t=tbSgC8X1VHNqnvyYD5Dqz3aGgh3lT1zwb1U_ZWrbt5Y",
   },
@@ -3090,7 +3090,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "1250000",
     totalFundCorpus: "9000000",
-    companyoverview:
+    companyOverview:
       "Are you a 5-8 figure brand looking to grow profitably on Amazon? 📈 We help 5-8 figure physical product brands achieve profitable Amazon Growth while controlling ACOS. We take you from poor-performing or non-existent campaigns to profitable growth through our managed Amazon Growth service",
     logo: "https://media.licdn.com/dms/image/v2/C4E0BAQGKBzEjUj-oOQ/company-logo_200_200/company-logo_200_200/0/1654805860213/confidentiallosangeles_logo?e=1745452800&v=beta&t=Pv2DjG64jad_tcct-Xi7FMXLylVXxbmcC04mvRI5HN0",
   },
@@ -3110,7 +3110,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "1250000",
     totalFundCorpus: "1250000",
-    companyoverview: "Home",
+    companyOverview: "Home",
     logo: "https://angelcapitalassociation.org/wp-content/uploads/2023/11/ACA-logo-png-transparent-background-768x241.png",
   },
   {
@@ -3128,7 +3128,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "2365000",
     totalFundCorpus: "125600000",
-    companyoverview:
+    companyOverview:
       "Mehta Investment, founded in 1995 are Mumbai based firm engaged in providing invest-online technology based services to our investors to effectively manage their portfolio. ",
     logo: "https://mehtainvestment.in/wp-content/uploads/2016/12/cropped-Mehta_Investment_Logo-1.png",
   },
@@ -3147,7 +3147,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "152000",
     totalFundCorpus: "3600000",
-    companyoverview:
+    companyOverview:
       "Angel One - India’s largest broker introduced ZERO cost brokerage services for trades executed in cash delivery, and only Rs.20 per order will be charged for Intraday, F&O, etc. Open your Demat account now.",
     logo: "https://w3assets.angelone.in/wp-content/uploads/2024/04/IPL_COMPOSITE-LOGO_ANGELONE_HORIZONTAL_WHITE_VERSION-192x100-1.png",
   },
@@ -3166,7 +3166,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "125000",
     totalFundCorpus: "3650000",
-    companyoverview: "six impossible things before breakfast",
+    companyOverview: "six impossible things before breakfast",
     logo: "https://media.licdn.com/dms/image/v2/C4E0BAQEJXjIEUpuMmg/company-logo_200_200/company-logo_200_200/0/1630620461491/various_startups1_logo?e=1744848000&v=beta&t=oLZ-InQdFowQ6PGEYXBNZqnG7xHL4SMt2gsXf6klndg",
   },
   {
@@ -3185,7 +3185,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "10361670",
     totalFundCorpus: "10361670",
-    companyoverview:
+    companyOverview:
       "We at Proost69 are on a mission to acquaint people with the true taste of elite freshly brewed beer, spreading our love, passion and enthusiasm of craft beer all around.",
     logo: "http://www.proost69.com/images/landingpage.png",
   },
@@ -3204,7 +3204,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "50000000",
     totalFundCorpus: "120929998",
-    companyoverview:
+    companyOverview:
       "Whether you are new to credit or rebuilding credit history, Self makes credit accessible. Reports to all three credit bureaus. No hard credit check to start!",
     logo: "https://media.licdn.com/dms/image/v2/D560BAQGeV1O6gWMsNQ/company-logo_200_200/company-logo_200_200/0/1719256325589/self_financial_logo?e=1745452800&v=beta&t=Sm65Ft8UT5TFxYt-6Dhc3jCWnHNizQCgY_udL59k3YE",
   },
@@ -3223,7 +3223,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "120000",
     totalFundCorpus: "114500000",
-    companyoverview:
+    companyOverview:
       "Venture Catalysts bundle together all the elements that help startups become more successful. We are creating the world’s largest early stages startup ecosystem in India.",
     logo: "https://venturecatalysts.in/assets/images/new-logo.svg",
   },
@@ -3242,7 +3242,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "325000",
     totalFundCorpus: "114500000",
-    companyoverview:
+    companyOverview:
       "Venture Catalysts bundle together all the elements that help startups become more successful. We are creating the world’s largest early stages startup ecosystem in India.",
     logo: "https://venturecatalysts.in/assets/images/new-logo.svg",
   },
@@ -3261,7 +3261,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "100000000",
     totalFundCorpus: "124048187",
-    companyoverview:
+    companyOverview:
       "AngelList builds the infrastructure where capital, creativity, and hard work come together to accelerate innovation.",
     logo: "https://media.licdn.com/dms/image/v2/C4E0BAQHK8OClv0DLwA/company-logo_200_200/company-logo_200_200/0/1668476594231/angellist_logo?e=1744848000&v=beta&t=rLGvFlEVri6Acj18FegCbgA8wXZ4Y29Zyr5JeSs9cPc",
   },
@@ -3281,7 +3281,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "125000",
     totalFundCorpus: "3520000",
-    companyoverview: "Being the catalyst for the next big thing",
+    companyOverview: "Being the catalyst for the next big thing",
     logo: "https://media.licdn.com/dms/image/v2/D560BAQHamAdVZVTrrQ/img-crop_100/img-crop_100/0/1726906556439?e=1745452800&v=beta&t=GwRIxF09bYQJCBgKrqNa4ssQqd6Rj1tRD8KZ07LHd3w",
   },
   {
@@ -3299,7 +3299,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "1250000",
     totalFundCorpus: "32500000",
-    companyoverview:
+    companyOverview:
       "Angel One - India’s largest broker introduced ZERO cost brokerage services for trades executed in cash delivery, and only Rs.20 per order will be charged for Intraday, F&O, etc. Open your Demat account now.",
     logo: "https://w3assets.angelone.in/wp-content/uploads/2024/04/IPL_COMPOSITE-LOGO_ANGELONE_HORIZONTAL_WHITE_VERSION-192x100-1.png",
   },
@@ -3318,7 +3318,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "50000000",
     totalFundCorpus: "50000000",
-    companyoverview:
+    companyOverview:
       "IPV is a Startup Investing Platform that connects Startups with Angel Investors. With 6500+ investors, IPV is one of the largest Angel Investor portal in India.",
     logo: "https://ipventures.in/wp-content/uploads/2024/10/IPV-logo-5-years-png.png",
   },
@@ -3338,7 +3338,7 @@ export const angelsIndia = [
     currentFundCorpus: "300000",
     totalFundCorpus: "300000",
     logo: "https://media.licdn.com/dms/image/v2/C560BAQHrFQ6-5CeqMg/company-logo_200_200/company-logo_200_200/0/1630664329600?e=1745452800&v=beta&t=r1Or6xblWvfWCCY0o_1Y9gt6HJ4GiJFczUdOP_HvUFU",
-    companyoverview:
+    companyOverview:
       "Revving Up the Startup Engine Every startup begins with a spark. Were building the ultimate launchpad to turn sparks into roaring flames.",
   },
   {
@@ -3356,7 +3356,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "1250000",
     totalFundCorpus: "35200000",
-    companyoverview:
+    companyOverview:
       "Marwari Angel brings the Marwari Business Acumen to Technology Startups. This will be a perfect blend of centuries of business experience with emerging technology based startups.",
     logo: "https://themarwariangels.com/wp-content/uploads/2019/08/Marwari-Angles-Logo.png",
   },
@@ -3375,7 +3375,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "50000000",
     totalFundCorpus: "175000000",
-    companyoverview:
+    companyOverview:
       "Oracle has completed the acquisition of Sauce Video, a video content creation and sourcing solution that allows companies to collaborate with their employees, customers, and fans to create digital video content.",
     logo: "https://media.licdn.com/dms/image/v2/D4E0BAQHYCgYovUuPtQ/company-logo_200_200/company-logo_200_200/0/1665755678957/oracle_logo?e=1744848000&v=beta&t=Nej15Yz4yntw2PwpmBoQY37X92ftaUXSCpS70TAGzos",
   },
@@ -3394,7 +3394,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "1250000",
     totalFundCorpus: "5000000",
-    companyoverview: "Regulation Crowdfunding Portal ",
+    companyOverview: "Regulation Crowdfunding Portal ",
     logo: "https://media.licdn.com/dms/image/v2/D560BAQHRQBfX7mYgvg/company-logo_200_200/company-logo_200_200/0/1664993777423/angel_funding_logo?e=1744848000&v=beta&t=uMAz8fQY6JOzs_WwBwV3AlciWzYdI3xsDd0DRUm5fhE",
   },
   {
@@ -3412,7 +3412,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "299288",
     totalFundCorpus: "299288",
-    companyoverview:
+    companyOverview:
       "Glam Studios provide you a wide range of world class beauty salon services, makeup services, hair care services, skin care services, body spa and more.",
     logo: "https://www.glamstudios.in/assets/site/images/logo.png",
   },
@@ -3431,7 +3431,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "38000000",
     totalFundCorpus: "38000000",
-    companyoverview:
+    companyOverview:
       "Invest and breed innovative startups solving real-world problems, driven by technology, targeting a large market led by founders focused on execution and excellence. IAN’s Group investment strategy is built on risk mitigated high return strategy, driven by leveraging the Group’s mentor and expert pool and global networks",
     logo: "https://iangroup.vc/wp-content/uploads/2022/07/IAN-Logo.png",
   },
@@ -3451,7 +3451,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "1800000",
     totalFundCorpus: "1800000",
-    companyoverview:
+    companyOverview:
       "Optimized Electrotech Private Limited (OEPL) is an Indian Electro-Optics company making Indigenously Designed, Developed and Manufactured (IDDM) Surveillance systems. The company was established in 2017 with a vision of creating a footprint in Indian Defence industry by providing cutting-edge ",
     logo: "https://optimizedelectrotech.com/wp-content/uploads/2022/09/optimize-logo.webp",
   },
@@ -3470,7 +3470,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "1250000",
     totalFundCorpus: "1250000",
-    companyoverview:
+    companyOverview:
       "Buy online skin care products for women. Shop for the latest range of skin and beauty care product at the best price. Shop now!",
     logo: "https://thebeautyco.in/cdn/shop/files/TheBeautyCo_Logo-11_250x@2x.png?v=1645189995",
   },
@@ -3490,7 +3490,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "50000",
     totalFundCorpus: "125000",
-    companyoverview:
+    companyOverview:
       "BeNGO | Best WordPress theme for non-governmental organizations",
     logo: "https://media.licdn.com/dms/image/v2/C4E0BAQH3DAZ1loXxog/company-logo_200_200/company-logo_200_200/0/1634151431547/advityacapitalconsultants_logo?e=1744848000&v=beta&t=0fNJezi9ssNUpXMwOlFd8C_aV0mJUX3yVHsie38QbLI",
   },
@@ -3509,7 +3509,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "500000",
     totalFundCorpus: "32500000",
-    companyoverview:
+    companyOverview:
       "Angel One - India’s largest broker introduced ZERO cost brokerage services for trades executed in cash delivery, and only Rs.20 per order will be charged for Intraday, F&O, etc. Open your Demat account now.",
     logo: "https://w3assets.angelone.in/wp-content/uploads/2024/04/IPL_COMPOSITE-LOGO_ANGELONE_HORIZONTAL_WHITE_VERSION-192x100-1.png",
   },
@@ -3528,7 +3528,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "1250000",
     totalFundCorpus: "9000000",
-    companyoverview:
+    companyOverview:
       "We are a network of leading entrepreneurs who have successfully built and run enterprises across several domains and industries and are keen to invest in the new stages businesses having the potential to create value for mankind. Meet our Angels.",
     logo: "https://media.licdn.com/dms/image/v2/C510BAQF_s1mk_qYUow/company-logo_200_200/company-logo_200_200/0/1630626827260/hyderabad_angels_ventures_logo?e=1745452800&v=beta&t=krn1JYex2r6uwFKuM35sHRdy5jcqoFkZlz5xwpE8QAM",
   },
@@ -3547,7 +3547,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "200000",
     totalFundCorpus: "5000000",
-    companyoverview:
+    companyOverview:
       "Kiinnostava kattaus naisten, miesten ja lasten muotia, urheilua sekä kodin tuotteita ja kosmetiikkaa verkkokaupassa. Tutustu ja tilaa suosikkisi!",
     logo: "https://media.licdn.com/dms/image/v2/D4D0BAQHwyro8hRVIbw/company-logo_200_200/company-logo_200_200/0/1730446259709/stockmann_oyj_abp_logo?e=1744848000&v=beta&t=Kt5oPpaZpB9xu3EVpELJ7BdptXOHpeT0TJ9INkqrmFs",
   },
@@ -3566,7 +3566,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "590000",
     totalFundCorpus: "690000",
-    companyoverview: "",
+    companyOverview: "",
     logo: "Angel Broking Ltd",
   },
   {
@@ -3584,7 +3584,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "1250000",
     totalFundCorpus: "5000000",
-    companyoverview:
+    companyOverview:
       "Creditap offers instant School Fee Loans, College Fee Loans, Career Development Loans, Online Courses Fee Loans across India. We cover full expenses for your education including tution fees, transportation and others. Pay back in easy EMIs.",
     logo: "https://www.creditap.ai/assets/img/footer-logo.svg",
   },
@@ -3603,7 +3603,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "90000000",
     totalFundCorpus: "62500000",
-    companyoverview:
+    companyOverview:
       "Startup Company | Invest in Startups | Startup Companies To Invest In India | Startup Investors | Best Startups To Invest In India | Get Investors For Your Startup | Startup Business Plan | Small Business Startup |",
     logo: "https://media.licdn.com/dms/image/v2/C510BAQFxfng_t_FpTA/company-logo_200_200/company-logo_200_200/0/1630615915886/10000startupsindia_logo?e=1745452800&v=beta&t=HfFDWOXZLBtutx7S6YBoHUgJgk_H88hNR3NG9N4S-0U",
   },
@@ -3622,7 +3622,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "2000000",
     totalFundCorpus: "30000000",
-    companyoverview:
+    companyOverview:
       "Explore millions of student accommodations with verified reviews. UL offers student home to study abroad. Search by city, university, and property.",
     logo: "https://cdn.universityliving.com/files/1668518413963logo.svg?w=384",
   },
@@ -3642,7 +3642,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "2500000",
     totalFundCorpus: "60000000",
-    companyoverview:
+    companyOverview:
       "Enjoy DBS Treasures Benefits - Travel around with DBS Wealth",
     logo: "https://parking3.parklogic.com/page/images/pe262/hero_nc.svg",
   },
@@ -3662,7 +3662,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "12500000",
     totalFundCorpus: "3650000000",
-    companyoverview: "Creating Valuable Content with Dofollow Backlinks",
+    companyOverview: "Creating Valuable Content with Dofollow Backlinks",
     logo: "https://media.licdn.com/dms/image/v2/D560BAQFiuix0O2qDBA/company-logo_200_200/company-logo_200_200/0/1730235222448?e=1744848000&v=beta&t=7qCLKNe9XZo3YvqCI0TtTYY-APor1yZ09VKktzW4ypY",
   },
   {
@@ -3680,7 +3680,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "50000000",
     totalFundCorpus: "50000000",
-    companyoverview:
+    companyOverview:
       "IPV is a Startup Investing Platform that connects Startups with Angel Investors. With 6500+ investors, IPV is one of the largest Angel Investor portal in India.",
     logo: "https://ipventures.in/wp-content/uploads/2024/10/IPV-logo-5-years-png.png",
   },
@@ -3699,7 +3699,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "890000",
     totalFundCorpus: "250000",
-    companyoverview:
+    companyOverview:
       "RR ENTERPRISES WE DEALS IN CAPITAL ( PERSONAL LOAN ,HOME LOAN ,LAP,BUSINESS LOAN ,AUTO LOAN ) WE DEALS  IN MAXIMUM BANK ,EASY DOCUMENTS AND DOOR STEP SERVICES MINIMUM RATE OF INTEREST  % NO HIDDEN CHARGES COMPANY HAVE MORE THAN 8 YEARS EXPERIENCE  ",
     logo: "RR ENTERPRISES",
   },
@@ -3718,7 +3718,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "200449900",
     totalFundCorpus: "9223173388",
-    companyoverview:
+    companyOverview:
       "Send money with UPI using any bank account. Recharge mobile and pay bills.",
     logo: "https://media.licdn.com/dms/image/v2/D4D0BAQHjRyMZ-FVJhg/company-logo_200_200/company-logo_200_200/0/1692711640651/paytm_logo?e=1744848000&v=beta&t=Ncs2SAXkRVvygAg8yb9Q6T744tXbApLsJ8w2wc1_hDo",
   },
@@ -3737,7 +3737,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "100000000",
     totalFundCorpus: "100670248",
-    companyoverview:
+    companyOverview:
       "Connect with 10,000 plus angel investors. Raise funding seamlessly. Find startups to invest in. Easy to use & seamless technology platform for startup investing & funding.",
     logo: "https://cdn.prod.website-files.com/61c1ae3ff5494602327bf16a/61c1ae40f549462a197bf1a1_logo-colored.svg",
   },
@@ -3756,7 +3756,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "50000000",
     totalFundCorpus: "50000000",
-    companyoverview:
+    companyOverview:
       "IPV is a Startup Investing Platform that connects Startups with Angel Investors. With 6500+ investors, IPV is one of the largest Angel Investor portal in India.",
     logo: "https://ipventures.in/wp-content/uploads/2024/10/IPV-logo-5-years-png.png",
   },
@@ -3776,7 +3776,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "25600000",
     totalFundCorpus: "6500000",
-    companyoverview:
+    companyOverview:
       "Creating valuable content while incorporating dofollow backlinks is essential for improving SEO without risking penalties.",
     logo: "https://media.licdn.com/dms/image/v2/D560BAQFiuix0O2qDBA/company-logo_200_200/company-logo_200_200/0/1730235222448?e=1744848000&v=beta&t=7qCLKNe9XZo3YvqCI0TtTYY-APor1yZ09VKktzW4ypY",
   },
@@ -3796,7 +3796,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "3000000",
     totalFundCorpus: "50000000",
-    companyoverview:
+    companyOverview:
       "Creating valuable content while incorporating dofollow backlinks is essential for improving SEO without risking penalties.",
     logo: "https://media.licdn.com/dms/image/v2/D560BAQFiuix0O2qDBA/company-logo_200_200/company-logo_200_200/0/1730235222448?e=1744848000&v=beta&t=7qCLKNe9XZo3YvqCI0TtTYY-APor1yZ09VKktzW4ypY",
   },
@@ -3815,7 +3815,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "50000000",
     totalFundCorpus: "50000000",
-    companyoverview:
+    companyOverview:
       "IPV is a Startup Investing Platform that connects Startups with Angel Investors. With 6500+ investors, IPV is one of the largest Angel Investor portal in India.",
     logo: "https://ipventures.in/wp-content/uploads/2024/10/IPV-logo-5-years-png.png",
   },
@@ -3834,7 +3834,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "1800000",
     totalFundCorpus: "1800000",
-    companyoverview:
+    companyOverview:
       "INTEGRATED PLATFORM FOR REAL-TIME INSIGHTS & CX MANAGMENT",
     logo: "https://cxsphere.com/wp-content/uploads/2024/11/Cxsphere-logo-transaprent-bg-300x300.png",
   },
@@ -3853,7 +3853,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "1800000",
     totalFundCorpus: "1800000",
-    companyoverview: "Page description : A Purpose-Lead Marketplace for Yarn",
+    companyOverview: "Page description : A Purpose-Lead Marketplace for Yarn",
     logo: "https://www.theyarnbazaar.com/assets/images/logo.png",
   },
   {
@@ -3871,7 +3871,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "250000",
     totalFundCorpus: "250000",
-    companyoverview:
+    companyOverview:
       "WeFounderCircle - Seed Fund by founders, for founders. Backed by a community of successful founders & strategic angels, we help raise seed funding of $100K-$150K to early-stages founders",
     logo: "https://img1.wsimg.com/isteam/stock/V8b85o7/:/rs=w:767,m",
   },
@@ -3890,7 +3890,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "126000",
     totalFundCorpus: "5000000",
-    companyoverview:
+    companyOverview:
       "Our mission is to help people to achieve their highest potential by building people networks that help each other.",
     logo: "https://media.licdn.com/dms/image/v2/C4D0BAQFEU28_d7gc6w/company-logo_200_200/company-logo_200_200/0/1631357179020/various_boards_logo?e=1744848000&v=beta&t=Wv4CUuNznhpc4KeI-NLpXXnD4WOJO_cPwh4Px51gcco",
   },
@@ -3909,7 +3909,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "560000",
     totalFundCorpus: "6000000",
-    companyoverview:
+    companyOverview:
       "Angel One - India’s largest broker introduced ZERO cost brokerage services for trades executed in cash delivery, and only Rs.20 per order will be charged for Intraday, F&O, etc. Open your Demat account now.",
     logo: "https://w3assets.angelone.in/wp-content/uploads/2024/04/IPL_COMPOSITE-LOGO_ANGELONE_HORIZONTAL_WHITE_VERSION-192x100-1.png",
   },
@@ -3928,7 +3928,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "78000000",
     totalFundCorpus: "118000000",
-    companyoverview:
+    companyOverview:
       "Angel One - India’s largest broker introduced ZERO cost brokerage services for trades executed in cash delivery, and only Rs.20 per order will be charged for Intraday, F&O, etc. Open your Demat account now.",
     logo: "https://storage.googleapis.com/tm-assets/images/dark/teachmint-logo-dark.svg",
   },
@@ -3947,7 +3947,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "1500000",
     totalFundCorpus: "8000000",
-    companyoverview:
+    companyOverview:
       "Angel One - India’s largest broker introduced ZERO cost brokerage services for trades executed in cash delivery, and only Rs.20 per order will be charged for Intraday, F&O, etc. Open your Demat account now.",
     logo: "https://media.licdn.com/dms/image/v2/D560BAQHXkXUwWZgZgw/company-logo_200_200/company-logo_200_200/0/1731693991666/nucleohq_logo?e=1744848000&v=beta&t=RRuhPYggmyzUwwM0rbHYEfrikQuLBBpr0ZcQWOrhcZ8",
   },
@@ -3967,7 +3967,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "150000",
     totalFundCorpus: "500000",
-    companyoverview:
+    companyOverview:
       "RAIN acts as a catalyst for investment success, transforming sparks of innovation into blazing growth.",
     logo: "https://media.licdn.com/dms/image/v2/D560BAQHamAdVZVTrrQ/img-crop_100/img-crop_100/0/1726906556439?e=1745452800&v=beta&t=GwRIxF09bYQJCBgKrqNa4ssQqd6Rj1tRD8KZ07LHd3w",
   },
@@ -3986,7 +3986,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "1000000",
     totalFundCorpus: "1000000",
-    companyoverview:
+    companyOverview:
       "Revamp's core lies in the ideology of Empowering the Society by providing sustainable and adaptive solutions to them.",
     logo: "https://media.licdn.com/dms/image/v2/C560BAQEjBrLkTbKT_Q/company-logo_200_200/company-logo_200_200/0/1671133722185/revampmoto_logo?e=1745452800&v=beta&t=pEJWmbnXi17yhP3JkL76tMVOzv8tnHqeekJp8N_Rw2I",
   },
@@ -4005,7 +4005,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "560000",
     totalFundCorpus: "6000000",
-    companyoverview:
+    companyOverview:
       "We are a Associated Partner in Angel One (Angelbroking Private Limited).  Our team of professionals is experts in the financial market which had led to success in customer satisfaction consistently.",
     logo: "https://static.wixstatic.com/media/a14067_d1e1035e0ec547b2ad6a52d25493fa81~mv2.png/v1/fill/w_299,h_58,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/AngelOneLOgo.png",
   },
@@ -4025,7 +4025,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "4500000",
     totalFundCorpus: "5600000",
-    companyoverview:
+    companyOverview:
       "India's first curated Billing, Accounting and Inventory Management SaaS Platform with Integrated online store focused on Digitalizing SMB's.",
     logo: "https://media.licdn.com/dms/image/v2/C560BAQE6qWNb01l94Q/company-logo_200_200/company-logo_200_200/0/1675262636985?e=1744848000&v=beta&t=-za60l74KVZZ3kkUFgTmtYXZ4nhSNFfbbEtZ6Z9mx9s",
   },
@@ -4044,7 +4044,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "6500000",
     totalFundCorpus: "6500000",
-    companyoverview:
+    companyOverview:
       "Angel One - India’s largest broker introduced ZERO cost brokerage services for trades executed in cash delivery, and only Rs.20 per order will be charged for Intraday, F&O, etc. Open your Demat account now.",
     logo: "https://w3assets.angelone.in/wp-content/uploads/2024/04/IPL_COMPOSITE-LOGO_ANGELONE_HORIZONTAL_WHITE_VERSION-192x100-1.png",
   },
@@ -4063,7 +4063,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "2500000",
     totalFundCorpus: "50000000",
-    companyoverview:
+    companyOverview:
       "Angel One - India’s largest broker introduced ZERO cost brokerage services for trades executed in cash delivery, and only Rs.20 per order will be charged for Intraday, F&O, etc. Open your Demat account now.",
     logo: "https://w3assets.angelone.in/wp-content/uploads/2024/04/IPL_COMPOSITE-LOGO_ANGELONE_HORIZONTAL_WHITE_VERSION-192x100-1.png",
   },
@@ -4082,7 +4082,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "38000000",
     totalFundCorpus: "38000000",
-    companyoverview: "",
+    companyOverview: "",
     logo: "https://iangroup.vc/wp-content/uploads/2022/07/IAN-Logo.png",
   },
   {
@@ -4101,7 +4101,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "5000000",
     totalFundCorpus: "200000",
-    companyoverview: "Share Market trading tips",
+    companyOverview: "Share Market trading tips",
     logo: "Share Market trading tips",
   },
   {
@@ -4119,7 +4119,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "25000000",
     totalFundCorpus: "25000000",
-    companyoverview: "Investment & Networking Platform for 1st Cheque Angels",
+    companyOverview: "Investment & Networking Platform for 1st Cheque Angels",
     logo: "https://www.1stcheque.com/images/side-img.png",
   },
   {
@@ -4137,7 +4137,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "1500000",
     totalFundCorpus: "1500000",
-    companyoverview:
+    companyOverview:
       "Spoon brings financial innovation and opportunity to Gen Z. We use modern technology to help  build secure credit, avoid debt, and spend responsibly.",
     logo: "https://cdn.prod.website-files.com/605632832e8de853f43d1315/60575ec15ecd5612c634c35b_logo.svg",
   },
@@ -4156,7 +4156,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "",
     totalFundCorpus: "890000",
-    companyoverview: "850000",
+    companyOverview: "850000",
     logo: "Samarth",
   },
   {
@@ -4174,7 +4174,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "6500000",
     totalFundCorpus: "6500000",
-    companyoverview:
+    companyOverview:
       "Best Practices Limited is a Fleet Management Support Services Company with core competencies in Fleet Solutions, Skills Improvement Fleet Management Training  and Fleet Consulting Services. Using a wide range of Fleet Manager Software-As-A-Service and Digital Electronic Speed Limiting Device, we  provide cutting edge solutions that enhance effective fleet business operations, safety, efficiency, costs reduction and improved customer value delivery",
     logo: "https://bestpracticesltd.com/wp-content/uploads/2024/10/BPL_LOGO.png",
   },
@@ -4193,7 +4193,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "1200000",
     totalFundCorpus: "50000000",
-    companyoverview: "Medical Imaging Startup - Deep Scopy",
+    companyOverview: "Medical Imaging Startup - Deep Scopy",
     logo: "https://888fff.zuizhongyj.com/images/mb-title.png",
   },
   {
@@ -4211,7 +4211,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "2500000",
     totalFundCorpus: "6500000",
-    companyoverview:
+    companyOverview:
       "Helping millions of people across the UK to reimagine the way they travel. Get the Zwings app, find an e-scooter and start riding!",
     logo: "https://www.zwings.co.uk/img/logo.png",
   },
@@ -4230,7 +4230,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "50000000",
     totalFundCorpus: "50000000",
-    companyoverview:
+    companyOverview:
       "Angel One - India’s largest broker introduced ZERO cost brokerage services for trades executed in cash delivery, and only Rs.20 per order will be charged for Intraday, F&O, etc. Open your Demat account now.",
     logo: "https://w3assets.angelone.in/wp-content/uploads/2024/04/IPL_COMPOSITE-LOGO_ANGELONE_HORIZONTAL_WHITE_VERSION-192x100-1.png",
   },
@@ -4249,7 +4249,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "50000000",
     totalFundCorpus: "50000000",
-    companyoverview:
+    companyOverview:
       "IPV is a Startup Investing Platform that connects Startups with Angel Investors. With 6500+ investors, IPV is one of the largest Angel Investor portal in India.",
     logo: "https://ipventures.in/wp-content/uploads/2024/10/IPV-logo-5-years-png.png",
   },
@@ -4268,7 +4268,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "1250000",
     totalFundCorpus: "2500000",
-    companyoverview:
+    companyOverview:
       "ollege Bol journey began with a simple mission: to guide students in achieving their dreams by helping them choose the right career path. ",
     logo: "https://collegebol.com/wp-content/uploads/2024/09/Untitled-design-4.png",
   },
@@ -4287,7 +4287,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "50000000",
     totalFundCorpus: "50000000",
-    companyoverview:
+    companyOverview:
       "IPV is a Startup Investing Platform that connects Startups with Angel Investors. With 6500+ investors, IPV is one of the largest Angel Investor portal in India.",
     logo: "https://ipventures.in/wp-content/uploads/2024/10/IPV-logo-5-years-png.png",
   },
@@ -4306,7 +4306,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "250000",
     totalFundCorpus: "650000",
-    companyoverview:
+    companyOverview:
       "This website uses cookies to ensure you get the best experience on our website",
     logo: "https://media.licdn.com/dms/image/v2/C560BAQEaNgma6HO_Bg/company-logo_200_200/company-logo_200_200/0/1649671842428/exsquare_allianze_logo?e=1744848000&v=beta&t=7qRR-mE4IH31AkyMMf7I-AJJsXyp3PoRSgDAIpnqxP4",
   },
@@ -4325,7 +4325,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "3520000",
     totalFundCorpus: "2560000",
-    companyoverview: "Industry Real Estate ",
+    companyOverview: "Industry Real Estate ",
     logo: "http://www.northfoodgroup.com/i/web/NFG_LogoBrand.png",
   },
   {
@@ -4343,7 +4343,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "2500000",
     totalFundCorpus: "5000000",
-    companyoverview:
+    companyOverview:
       "Since our inception in 2006, we’ve helped several new-age enterprises and companies kick start their journeys. In our span of existence, we have seen and played a key role in several cycles of early-stages investments, which has allowed us to understand the criticality of a well-structured early-stages investment portfolio, for the economics to play out. ",
     logo: "https://www.mumbaiangels.com/images/logo-black.png?v=3",
   },
@@ -4362,7 +4362,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "1250000",
     totalFundCorpus: "5000000",
-    companyoverview:
+    companyOverview:
       "Our passion and purpose is to empower the entrepreneurial spirit. We believe that there is nothing more powerful than an idea whose time has come. Through the ah! platform, we help today's startups become tomorrow's giants. With over 62000+ Entrepreneurs, 3000+ Investors and a robust monthly pipeline of 600+ business plans,we are India's first full-spectrum startup investment platform.",
     logo: "http://www.ahventures.in/images/logo.png",
   },
@@ -4381,7 +4381,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "2500000",
     totalFundCorpus: "6500000",
-    companyoverview:
+    companyOverview:
       "Digibrain offers software development and management consulting services. CTO for Hire With deep experience developing software for data mining and analytics, wearables, and enterprise, We can assist growing teams to develop their product strategy, people, processes, and technology",
     logo: "https://media.licdn.com/dms/image/v2/C510BAQHuDFhL_TO_rQ/company-logo_200_200/company-logo_200_200/0/1630575481653?e=1744848000&v=beta&t=9msfDzcXpc_0fwl-3QhFtRGYK_dDNJLsmNMvidAeSDg",
   },
@@ -4400,7 +4400,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "1500000",
     totalFundCorpus: "2500000",
-    companyoverview:
+    companyOverview:
       "ReThought is an online thrift and consignment store where you can discover, buy, and sell high-quality gently used products at affordable prices. Find your favorite brands at up to 90% off.",
     logo: "https://cdn.shopify.com/static/svg/shopify_logo_whitebg.svg",
   },
@@ -4419,7 +4419,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "2500000",
     totalFundCorpus: "80000000",
-    companyoverview:
+    companyOverview:
       "Silver Pips is a virtual technology incubator for founders & startups looking to establish themselves in the North American market.",
     logo: "https://silverpips.com/wp-content/uploads/2023/12/silverpipslogo-300x107.png",
   },
@@ -4438,7 +4438,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "50000000",
     totalFundCorpus: "50000000",
-    companyoverview:
+    companyOverview:
       "IPV is a Startup Investing Platform that connects Startups with Angel Investors. With 6500+ investors, IPV is one of the largest Angel Investor portal in India.",
     logo: "https://ipventures.in/wp-content/uploads/2024/10/IPV-logo-5-years-png.png",
   },
@@ -4457,7 +4457,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "1250000",
     totalFundCorpus: "3500000",
-    companyoverview:
+    companyOverview:
       "Structure and develop real eastate and other hard asset deals.",
     logo: "Family Office",
   },
@@ -4476,7 +4476,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "100000000",
     totalFundCorpus: "149050025",
-    companyoverview:
+    companyOverview:
       "Invest in India's top startups. Join leading venture capitalists and angel investors funding tech startups.",
     logo: "https://framerusercontent.com/images/WN5ghgyDsMOFqnqKIDiBqfyRvw.png",
   },
@@ -4495,7 +4495,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "100000000",
     totalFundCorpus: "100670248",
-    companyoverview:
+    companyOverview:
       "Connect with 10,000 plus angel investors. Raise funding seamlessly. Find startups to invest in. Easy to use & seamless technology platform for startup investing & funding.",
     logo: "https://cdn.prod.website-files.com/61c1ae3ff5494602327bf16a/61c1ae40f549462a197bf1a1_logo-colored.svg",
   },
@@ -4514,7 +4514,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "350000",
     totalFundCorpus: "350000",
-    companyoverview:
+    companyOverview:
       "Solve digestive and metabolic concerns for life with advanced personalised plans based on genetics and gut microbiome.",
     logo: "https://www.sova.health/cdn/shop/files/Shopify_-_Banners_1200_x_400_px_69ade4a0-925b-48bf-8cea-ba561a7ab099.png?height=84&v=1702033340&width=150",
   },
@@ -4533,7 +4533,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "200000",
     totalFundCorpus: "200000",
-    companyoverview:
+    companyOverview:
       "Our platform empowers your coaches to efficiently manage multiple clients from a centralized hub, ensuring seamless communication and coordination.",
     logo: "https://www.oluko.com/wp-content/uploads/2021/03/oluko-logo-full-color-rgb-615px@72ppi.png",
   },
@@ -4552,7 +4552,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "250000",
     totalFundCorpus: "236000000",
-    companyoverview: "NFT social network marketplace",
+    companyOverview: "NFT social network marketplace",
     logo: "https://media.licdn.com/dms/image/v2/C4E0BAQEdZOUoROiK7w/company-logo_200_200/company-logo_200_200/0/1644304239705?e=1744848000&v=beta&t=XYKZM93J_Mae-MDQVESIpGkVzUhukJUnSmRUZ-ljpEE",
   },
   {
@@ -4570,7 +4570,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "1256000",
     totalFundCorpus: "2500000",
-    companyoverview: "Treatment science and wisdom of healing",
+    companyOverview: "Treatment science and wisdom of healing",
     logo: "https://media.licdn.com/dms/image/v2/C560BAQEZ6IRH2AT3tg/company-logo_200_200/company-logo_200_200/0/1630658631721?e=1745452800&v=beta&t=1W5C9UUAN_CkITGkZNx5yxjszhVsjEd79bqoJixeWj4",
   },
   {
@@ -4588,7 +4588,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "2000000",
     totalFundCorpus: "2000000",
-    companyoverview:
+    companyOverview:
       "Order online freshly fried Samosas. Choose from 14 different varieties, paired well with freshly brewed teas",
     logo: "https://www.uengage.in/images/addo/logos/logo-31763-1698055590.png",
   },
@@ -4608,7 +4608,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "1500000",
     totalFundCorpus: "5000000",
-    companyoverview: "The Operating System for Crypto",
+    companyOverview: "The Operating System for Crypto",
     logo: "https://media.licdn.com/dms/image/v2/D560BAQFiuix0O2qDBA/company-logo_200_200/company-logo_200_200/0/1730235222448?e=1744848000&v=beta&t=7qCLKNe9XZo3YvqCI0TtTYY-APor1yZ09VKktzW4ypY",
   },
   {
@@ -4626,7 +4626,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "44949288",
     totalFundCorpus: "61649288",
-    companyoverview:
+    companyOverview:
       "Trell is India’s largest Social Commerce platform where users share their experiences and interests across Lifestyle categories like Fashion, Personal Care, Recipes, Technology & Gadgets, Movies & TV Reviews, in 10 Indian languages with the users. Through this meaningful content",
     logo: "https://media.licdn.com/dms/image/v2/C560BAQG3tm9k3JRnJA/company-logo_200_200/company-logo_200_200/0/1638186349515/trell_logo?e=1744848000&v=beta&t=aZGrLIJ-qnyEMDqaQF9-UUi2gk_rBfcvEMR084rPusc",
   },
@@ -4645,7 +4645,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "1250000",
     totalFundCorpus: "2500000",
-    companyoverview:
+    companyOverview:
       "As Nova Nova, we make absolutely sure that our commitment to quality never wavers and that we are constantly seeking out the things that make food exciting. We’ve loved everything we’ve discovered this far, so why stop looking?",
     logo: "https://www.novanova.in/cdn/shop/files/LOGO2_225x@2x.png?v=1642182004",
   },
@@ -4665,7 +4665,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "152000",
     totalFundCorpus: "250000",
-    companyoverview: "Industry Retail ",
+    companyOverview: "Industry Retail ",
     logo: "https://media.licdn.com/dms/image/v2/C510BAQFArA2Ig6g_Kw/company-logo_200_200/company-logo_200_200/0/1631327628997?e=1744848000&v=beta&t=4Mgait8ofXZgvsqkddF0jBsTjxbZ72SCVTiA9LtIVmI",
   },
   {
@@ -4683,7 +4683,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "5000000",
     totalFundCorpus: "5000000",
-    companyoverview:
+    companyOverview:
       "Explore student/corporate competitions & engagements for B-schools, Engineering & Graduate colleges. We are an employer branding consultant & help conceptualize & organize these engagements | Unstop (formerly Dare2Compete) - India",
     logo: "https://d8it4huxumps7.cloudfront.net/uploads/images/unstop/svg/unstop-logo.svg",
   },
@@ -4702,7 +4702,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "1260000",
     totalFundCorpus: "5000000",
-    companyoverview: "Gaming in Sports",
+    companyOverview: "Gaming in Sports",
     logo: "https://media.licdn.com/dms/image/v2/C510BAQH1OLCtVQJV6g/company-logo_200_200/company-logo_200_200/0/1630620502098?e=1744848000&v=beta&t=GWUGYla8g4N3Uy9V7Vg17fElrJVaH668C7jHHzddPr4",
   },
   {
@@ -4720,7 +4720,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "50000000",
     totalFundCorpus: "80000000",
-    companyoverview:
+    companyOverview:
       "WiseGuru provides English learning & Personality development training to students and professionals to achieve academic, competitive & professional excellence. Our unique audio-visual techniques make learning a fun and engaging process and provide long-term retention with rapid learning.",
     logo: "https://media.licdn.com/dms/image/v2/C4D0BAQEqqz4ooPN_ow/company-logo_200_200/company-logo_200_200/0/1673423323004/wiseguru_logo?e=1744848000&v=beta&t=V3dJ-1uveBOd6crhhMScOCLNRz8dm8LshdP9FHLt6U0",
   },
@@ -4739,7 +4739,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "45000000",
     totalFundCorpus: "62500000",
-    companyoverview:
+    companyOverview:
       "Introducing ParkMate, the ultimate hassle-free parking solution. Our app-based platform offers a seamless experience by allowing you to 'Order a Valet' at any location. Simply arrive at your destination, and ParkMate takes care of the rest",
     logo: "https://media.licdn.com/dms/image/v2/D560BAQGofEKSqBfYwA/company-logo_200_200/company-logo_200_200/0/1708067567651?e=1744848000&v=beta&t=2R2pZC6tcynhZdelvraRto-0Fp05N_gGCMAVxNFeIAQ",
   },
@@ -4758,7 +4758,7 @@ export const angelsIndia = [
     ticketSize: "50k-250k",
     currentFundCorpus: "4500000",
     totalFundCorpus: "65200000",
-    companyoverview:
+    companyOverview:
       "Discover the power of startup investing with Bizdateup. Join the revolution, invest in startups, and diversify your portfolio for potential high returns. Join now!",
     logo: "https://www.bizdateup.com/assets/images/logo.svg",
   },
@@ -4785,7 +4785,7 @@ export const angelsIndia = [
     twitterUrl: "https://twitter.com/angelbrokingltd",
     city: "Mumbai",
     country: "India",
-    companyoverview:
+    companyOverview:
       "Angel One - India’s largest broker introduced ZERO cost brokerage services for trades executed in cash delivery, and only Rs.20 per order will be charged for Intraday, F&O, etc. Open your Demat account now.",
     totalFundCorpus: "590000",
     currentFundCorpus: "250000",
@@ -4803,7 +4803,7 @@ export const angelsIndia = [
     twitterUrl: "https://twitter.com/AgnikulCosmos",
     city: "Chennai",
     country: "India",
-    companyoverview:
+    companyOverview:
       "Agnikul Cosmos is building launch vehicles capable of taking micro andnanosatellites to Low Earth Orbit, on-demand. Agnikul believes that getting tospace shouldn't be the hardest part of living & working from space.",
     totalFundCorpus: "34543144",
     currentFundCorpus: "20000000",
@@ -4822,7 +4822,7 @@ export const angelsIndia = [
     twitterUrl: "https://twitter.com/SystemsWallter",
     city: "Bengaluru",
     country: "India",
-    companyoverview:
+    companyOverview:
       "Wallter Systems provides space-saving furniture solutions for Indian homes. Buy Space Saving table for your dream home and Wall Bed India",
     totalFundCorpus: "8900000",
     currentFundCorpus: "250000",
@@ -4840,7 +4840,7 @@ export const angelsIndia = [
     twitterUrl: "",
     city: "Bengaluru",
     country: "India",
-    companyoverview: "",
+    companyOverview: "",
     totalFundCorpus: "960000",
     currentFundCorpus: "890000",
     stages: ["Pre-Seed"],
@@ -4857,7 +4857,7 @@ export const angelsIndia = [
     twitterUrl: "",
     city: "Hyderabad",
     country: "India",
-    companyoverview: "",
+    companyOverview: "",
     totalFundCorpus: "13581200",
     currentFundCorpus: "13581200",
     stages: ["Other"],
@@ -4875,7 +4875,7 @@ export const angelsIndia = [
     twitterUrl: "",
     city: "",
     country: "",
-    companyoverview: "Technology, Information and Internet",
+    companyOverview: "Technology, Information and Internet",
     totalFundCorpus: "560000",
     currentFundCorpus: "890000",
     stages: ["Pre-Seed"],
@@ -4892,7 +4892,7 @@ export const angelsIndia = [
     twitterUrl: "",
     city: "Centreville",
     country: "United States",
-    companyoverview:
+    companyOverview:
       "Angel Fund is a non-profit founded by myself and the Samaha family in memory of Reema Samaha, one of the 32 killed at Virginia Tech on April 16, 2007. Its mission is to create a safe environment for young people to feel respected and self-confident and to show tolerance towards others. We believe that our vision of a community that takes action against bullying, addiction, depression and suicide will be realized because young people have the power to touch the lives of others and to make a difference.",
     totalFundCorpus: "93000000",
     currentFundCorpus: "89000000",

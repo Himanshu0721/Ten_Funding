@@ -108,7 +108,7 @@ const Cardframe = () => {
         </div>
       </div>
 
-      <p className="investor-card-description">{investor.companyoverview}</p>
+      <p className="investor-card-description">{investor.companyOverview}</p>
 
       <div className="investor-card-details">
         {investorDetails.map((detail, index) => (
