@@ -13,7 +13,7 @@ function Footer() {
 
   const handleLinkedIn = () => {
     window.open(
-      "https://www.linkedin.com/company/the-entrepreneurship-network/posts/?feedView=all",
+      "https://www.linkedin.com/company/the-entrepreneurship-network/",
       "_blank"
     );
   };
@@ -67,14 +67,19 @@ function Footer() {
             </li>
             <li>
               <NavLink
-                to="https://www.linkedin.com/company/the-entrepreneurship-network/posts/?feedView=all"
+                to="https://www.linkedin.com/company/the-entrepreneurship-network/"
                 target="_blanck"
               >
                 Careers
               </NavLink>
             </li>
             <li>
-              <NavLink to="/#">Sitemap</NavLink>
+              <NavLink
+                to="https://www.linkedin.com/company/the-entrepreneurship-network/"
+                target="_blanck"
+              >
+                Sitemap
+              </NavLink>
             </li>
           </ul>
         </div>

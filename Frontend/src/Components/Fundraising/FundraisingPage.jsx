@@ -26,7 +26,7 @@ function FundraisingPage() {
       </h1>
       <div className="fundraising-main-div">
         <img src={MainImage} alt="main image" />
-        <button>Download Now</button>
+        <button onClick={handleNavigation}>Request demo</button>
       </div>
 
       <div className="fundraising-lastdiv">

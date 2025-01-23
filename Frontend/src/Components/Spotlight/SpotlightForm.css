@@ -54,7 +54,7 @@
 /* Additional Styles for Form Container */
 @media (max-width: 480px) {
   .spotlightform-container {
-    margin: 0 10% 10% 10%;
+    margin: 10% 5%;
   }
   .spotlightform-header-content h1 {
     font-size: 25px;

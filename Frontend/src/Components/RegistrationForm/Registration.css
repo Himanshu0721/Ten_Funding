@@ -79,6 +79,11 @@
   font-size: 18px;
 }
 
+.registration-form-content textarea {
+  padding: 10px;
+  height: 100px;
+}
+
 .table {
   border: 1px solid rgb(156, 156, 156);
   border-collapse: collapse;

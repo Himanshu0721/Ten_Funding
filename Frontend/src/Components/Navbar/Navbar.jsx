@@ -1,9 +1,13 @@
 import { useEffect, useRef, useState } from "react";
-import { MdKeyboardArrowUp, MdKeyboardArrowDown, MdStackedBarChart } from "react-icons/md";
+import {
+  MdKeyboardArrowUp,
+  MdKeyboardArrowDown,
+  MdStackedBarChart,
+} from "react-icons/md";
 import { FaDatabase } from "react-icons/fa";
 import { FaPlay } from "react-icons/fa6";
 import { IoPeople } from "react-icons/io5";
-import { RiGraduationCapFill, RiUserCommunityLine} from "react-icons/ri";
+import { RiGraduationCapFill, RiUserCommunityLine } from "react-icons/ri";
 import { IoMdHome } from "react-icons/io";
 import { IoMenu } from "react-icons/io5";
 import { RxCross2 } from "react-icons/rx";
@@ -26,7 +30,6 @@ const Navbar = () => {
   const handleNextPlay = () => navigate("/nextplay");
   const handleSpotlight = () => navigate("/spotlight");
 
-
   const handleLaunchPad = () => navigate("/launchpad");
 
   const handleVentureOS = () => navigate("/venture-os");
@@ -37,7 +40,7 @@ const Navbar = () => {
 
   const handleCommunity = () => {
     window.open(
-      "https://www.linkedin.com/company/the-entrepreneurship-network/posts/?feedView=all",
+      "https://www.linkedin.com/company/the-entrepreneurship-network/",
       "_blank"
     );
   };
@@ -62,7 +65,7 @@ const Navbar = () => {
         closeDropdown(); // Close the menu
       }
     };
-    
+
     document.addEventListener("click", handleClickOutside);
 
     // Cleanup to avoid memory leaks
@@ -74,10 +77,10 @@ const Navbar = () => {
   const toggleMenu = (open) => {
     setIsMenuOpen(open);
   };
-  const toggleOpenMenu = ()=> {
+  const toggleOpenMenu = () => {
     setIsMenuOpen(!isMenuOpen);
     setIsMenuClose(!isMenuClose);
-  }
+  };
 
   const allDropdown = () => {
     setIsvUpArrow(false);
@@ -136,7 +139,6 @@ const Navbar = () => {
     setIscUpArrow(false);
   };
 
-  
   return (
     <>
       <nav className="navbar">
@@ -214,13 +216,16 @@ const Navbar = () => {
           onClick={toggleOpenMenu}
           aria-label="Toggle menu"
         >
-         {isMenuOpen ? <RxCross2 />: <IoMenu/> }
+          {isMenuOpen ? <RxCross2 /> : <IoMenu />}
         </button>
         <ul className={`navbar-links ${isMenuOpen ? "open" : ""}`}>
           <li onMouseEnter={allDropdown}>
             <NavLink
               to="/"
-              onClick={(e) =>{ e.stopPropagation(); toggleMenu(false); }}
+              onClick={(e) => {
+                e.stopPropagation();
+                toggleMenu(false);
+              }}
             >
               Raise
             </NavLink>
@@ -241,16 +246,14 @@ const Navbar = () => {
             </a>
 
             {isStartupsOpen && (
-              <div
-                className="dropdown-nav"
-                ref={dropdownRef}>
+              <div className="dropdown-nav" ref={dropdownRef}>
                 <div
                   className="dropdown-nav-item"
                   onClick={() => {
                     handleFundraisingOS();
-                    closeDropdown()
+                    closeDropdown();
                     toggleMenu(false); // Close the dropdown
-      }}
+                  }}
                 >
                   <h3>Fundraising OS</h3>
                   <p>Helps you easily manage your fundraising process</p>
@@ -258,11 +261,14 @@ const Navbar = () => {
                     <FaDatabase className="startup-icons" />
                   </div>
                 </div>
-                <div className="dropdown-nav-item" onClick={() => {
-                  handleNextPlay();
-                  closeDropdown()
-                  toggleMenu(false); // Close the dropdown
-                 }}>
+                <div
+                  className="dropdown-nav-item"
+                  onClick={() => {
+                    handleNextPlay();
+                    closeDropdown();
+                    toggleMenu(false); // Close the dropdown
+                  }}
+                >
                   <h3>Next Play</h3>
                   <p>
                     Exclusive community for top-notch founders and operators
@@ -271,11 +277,14 @@ const Navbar = () => {
                     <FaPlay className="startup-icons" />
                   </div>
                 </div>
-                <div className="dropdown-nav-item" onClick={() => {
-                  handleSpotlight();
-                  closeDropdown()
-                  toggleMenu(false); // Close the dropdown
-                 }}>
+                <div
+                  className="dropdown-nav-item"
+                  onClick={() => {
+                    handleSpotlight();
+                    closeDropdown();
+                    toggleMenu(false); // Close the dropdown
+                  }}
+                >
                   <h3>Spotlight</h3>
                   <p>For top talents to meet the best founders</p>
                   <div className="dropdown-nav-icon">
@@ -286,7 +295,10 @@ const Navbar = () => {
             )}
           </li>
 
-          <li onMouseEnter={vcHandleMouseEnter} onMouseLeave={vcHandleMouseLeave}>
+          <li
+            onMouseEnter={vcHandleMouseEnter}
+            onMouseLeave={vcHandleMouseLeave}
+          >
             <a
               href="#vchandle"
               onClick={(e) => e.stopPropagation()}
@@ -301,36 +313,43 @@ const Navbar = () => {
               {isvUpArrow ? <MdKeyboardArrowUp /> : <MdKeyboardArrowDown />}
             </a>
             {isVCOpen && (
-              <div
-                className="dropdown-nav"
-                ref={dropdownRef}>
-                <div className="dropdown-nav-item3" onClick={()=> 
-                {handleLaunchPad();
-                closeDropdown()
-                toggleMenu(false); // Close the dropdown
-                }}>
+              <div className="dropdown-nav" ref={dropdownRef}>
+                <div
+                  className="dropdown-nav-item3"
+                  onClick={() => {
+                    handleLaunchPad();
+                    closeDropdown();
+                    toggleMenu(false); // Close the dropdown
+                  }}
+                >
                   <h3>LaunchPad</h3>
                   <p>Find VC jobs</p>
                   <div className="dropdown-nav-icon">
-                    <RiGraduationCapFill className="vc-icon"/>
+                    <RiGraduationCapFill className="vc-icon" />
                   </div>
                 </div>
-                <div className="dropdown-nav-item3" onClick={()=>{
-                  handleVentureOS();
-                  closeDropdown()
-                  toggleMenu(false); // Close the dropdown
-                  }}>
+                <div
+                  className="dropdown-nav-item3"
+                  onClick={() => {
+                    handleVentureOS();
+                    closeDropdown();
+                    toggleMenu(false); // Close the dropdown
+                  }}
+                >
                   <h3>Venture OS</h3>
                   <p>Manage a VC fund in one place</p>
                   <div className="dropdown-nav-icon">
                     <FaPlay className="vc-icon" />
                   </div>
                 </div>
-                <div className="dropdown-nav-item3" onClick={()=>{
-                  handleVcStack();
-                  closeDropdown()
-                  toggleMenu(false); // Close the dropdown
-                  }}>
+                <div
+                  className="dropdown-nav-item3"
+                  onClick={() => {
+                    handleVcStack();
+                    closeDropdown();
+                    toggleMenu(false); // Close the dropdown
+                  }}
+                >
                   <h3>VC Stack</h3>
                   <p>Find your VC software stack</p>
                   <div className="dropdown-nav-icon">
@@ -340,8 +359,7 @@ const Navbar = () => {
               </div>
             )}
           </li>
-          <li onMouseEnter={companyMouseEnter} onMouseLeave={companyMouseLeave}
-          >
+          <li onMouseEnter={companyMouseEnter} onMouseLeave={companyMouseLeave}>
             <a
               href="#company"
               onClick={(e) => e.stopPropagation()}
@@ -356,26 +374,29 @@ const Navbar = () => {
               {iscUpArrow ? <MdKeyboardArrowUp /> : <MdKeyboardArrowDown />}
             </a>
             {isCompanyOpen && (
-              <div
-                className="dropdown-nav"
-                ref={dropdownRef}
+              <div className="dropdown-nav" ref={dropdownRef}>
+                <div
+                  className="dropdown-nav-item2"
+                  onClick={() => {
+                    handleAboutUS();
+                    closeDropdown();
+                    toggleMenu(false); // Close the dropdown
+                  }}
                 >
-                <div className="dropdown-nav-item2" onClick={()=>{
-                  handleAboutUS();
-                  closeDropdown()
-                  toggleMenu(false); // Close the dropdown
-                  }}>
                   <h3>About US</h3>
                   <p>Learn about our people</p>
                   <div className="dropdown-nav-icon">
                     <IoMdHome className="company-icon" />
                   </div>
                 </div>
-                <div className="dropdown-nav-item2" onClick={()=>{
-                  handleCommunity();
-                  closeDropdown()
-                  toggleMenu(false); // Close the dropdown
-                  }}>
+                <div
+                  className="dropdown-nav-item2"
+                  onClick={() => {
+                    handleCommunity();
+                    closeDropdown();
+                    toggleMenu(false); // Close the dropdown
+                  }}
+                >
                   <h3>Community</h3>
                   <p>Join our Community</p>
                   <div className="dropdown-nav-icon">
