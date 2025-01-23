@@ -24,11 +24,29 @@ const Cardframe = () => {
   // Dynamic details data
   const investorDetails = [
     { label: "Best Way to Get in Touch", value: "Warm Intro, LinkedIn" },
-    { label: "Stage Focus", value: investor.stages },
-    { label: "Sector Focus", value: investor.sectors },
-    { label: "Ticket Size", value: investor.ticketSize },
-    { label: "Current Fund Corpus", value: investor.currentFundCorpus },
-    { label: "Total Fund Corpus", value: investor.totalFundCorpus },
+    {
+      label: "Stage Focus",
+      value:
+        investor.stages && investor.stages.length > 0
+          ? investor.stages.join(", ")
+          : "Not available",
+    },
+    {
+      label: "Sector Focus",
+      value:
+        investor.sectors && investor.sectors.length > 0
+          ? investor.sectors.join(", ")
+          : "Not available",
+    },
+    { label: "Ticket Size", value: investor.ticketSize || "Not available" },
+    {
+      label: "Current Fund Corpus",
+      value: investor.currentFundCorpus || "Not available",
+    },
+    {
+      label: "Total Fund Corpus",
+      value: investor.totalFundCorpus || "Not available",
+    },
   ];
 
   return (

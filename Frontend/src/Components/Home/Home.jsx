@@ -236,9 +236,11 @@ function Home() {
               )) || <p>No stages available</p>}
             </div>
             <div className="btn-2">
-              <a href="" target="">
-                <button id="button-2">{investor.sectors}</button>
-              </a>
+              {investor?.sectors?.map((sector, sectorIndex) => (
+                <a href="" target="" key={sectorIndex}>
+                  <button id="button-2">{sector}</button>
+                </a>
+              )) || <p>No sectors available</p>}
             </div>
             <p>{investor.ticketSize}</p>
           </div>
