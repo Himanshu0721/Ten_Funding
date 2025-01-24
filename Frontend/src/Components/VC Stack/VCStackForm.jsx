@@ -21,7 +21,7 @@ export default function VCStackForm() {
     e.preventDefault();
     try {
       const response = await axios.post(
-        "http://127.0.0.1:8000/api/tech-stack-waitlist/",
+        "https://ten-funding-1yw9.onrender.com/api/tech-stack-waitlist/",
         formData,
         {
           headers: {

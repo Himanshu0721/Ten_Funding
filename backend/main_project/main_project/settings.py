@@ -57,6 +57,8 @@ MIDDLEWARE = [
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:5173',
     'http://127.0.0.1:8000',
+    'https://ten-funding-black.vercel.app',
+    'https://ten-funding-beta.vercel.app',
 ]
 
 ROOT_URLCONF = 'main_project.urls'
