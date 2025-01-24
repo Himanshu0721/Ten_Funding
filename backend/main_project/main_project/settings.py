@@ -12,6 +12,14 @@ https://docs.djangoproject.com/en/5.1/ref/settings/
 
 from pathlib import Path
 import os
+from urllib.parse import urlparse
+
+from decouple import config
+
+DATABASE_URL = config('DATABASE_URL')
+
+parsed_db_url = urlparse(DATABASE_URL)
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -94,16 +102,40 @@ WSGI_APPLICATION = 'main_project.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'tenfunding',  # The database name from Render
-        'USER': 'tenfunding_user',  # The username from Render
-        'PASSWORD': '6rx44e1vUhkks4EhGuEpxo4EDo4ivv',  # The password from Render
-        'HOST': 'dpg-cu9ngc1u0jms73fhh84g-a.oregon-postgres.render.com',  # The hostname from Render
-        'PORT': '5432',  # The port from Render
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'tenfunding',
+#         'USER': 'tenfunding_user',
+#         'PASSWORD': '6ra4HelvUMxkse4fhGuE9xp4oEDo4ivv',
+#         'HOST': 'dpg-cu9ngc1u0jms73fhh84g-a.oregon-postgres.render.com',
+#         'PORT': '5432',
+#         'OPTIONS': {
+#             'sslmode': 'require',  # Enforce SSL connection
+#         },
+#     }
+# }
+
+if DATABASE_URL:
+    parsed_db_url = urlparse(DATABASE_URL)
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.postgresql',
+            'NAME': parsed_db_url.path[1:],  # Remove leading '/'
+            'USER': parsed_db_url.username,
+            'PASSWORD': parsed_db_url.password,
+            'HOST': parsed_db_url.hostname,
+            'PORT': parsed_db_url.port,
+        }
     }
-}
+else:
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': BASE_DIR / 'db.sqlite3',
+        }
+    }
+
 
 
 
