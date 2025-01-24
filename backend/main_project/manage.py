@@ -8,8 +8,14 @@ def main():
     sys.path.append(os.path.dirname(os.path.dirname(__file__)))
     """Run administrative tasks."""
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'main_project.settings')
+
+    port = os.environ.get('PORT', 8000)
+    
     try:
         from django.core.management import execute_from_command_line
+        if 'runserver' in sys.argv:
+            sys.argv.append(f"0.0.0.0:{port}")
+
     except ImportError as exc:
         raise ImportError(
             "Couldn't import Django. Are you sure it's installed and "
