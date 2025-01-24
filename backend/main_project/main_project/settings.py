@@ -13,7 +13,7 @@ https://docs.djangoproject.com/en/5.1/ref/settings/
 from pathlib import Path
 import os
 from urllib.parse import urlparse
-
+import dj_database_url
 from decouple import config
 
 DATABASE_URL = config('DATABASE_URL')
@@ -35,12 +35,13 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     '*',
-    'ten-funding-1-l3ui.onrender.com',
-    '127.0.0.1',  # For local development
-    'localhost',  # For local development
-    'http://localhost:5173',
-    'https://ten-funding-black.vercel.app',
-    'https://ten-funding-beta.vercel.app',
+    # 'ten-funding-1-l3ui.onrender.com',
+    # '127.0.0.1',  # For local development
+    # 'localhost',  # For local development
+    # 'http://localhost:5173',
+    # 'http://127.0.0.1:8000',
+    # 'https://ten-funding-black.vercel.app',
+    # 'https://ten-funding-beta.vercel.app',
 
 ]
 
@@ -116,25 +117,33 @@ WSGI_APPLICATION = 'main_project.wsgi.application'
 #     }
 # }
 
-if DATABASE_URL:
-    parsed_db_url = urlparse(DATABASE_URL)
-    DATABASES = {
-        'default': {
-            'ENGINE': 'django.db.backends.postgresql',
-            'NAME': parsed_db_url.path[1:],  # Remove leading '/'
-            'USER': parsed_db_url.username,
-            'PASSWORD': parsed_db_url.password,
-            'HOST': parsed_db_url.hostname,
-            'PORT': parsed_db_url.port,
-        }
-    }
-else:
-    DATABASES = {
-        'default': {
-            'ENGINE': 'django.db.backends.sqlite3',
-            'NAME': BASE_DIR / 'db.sqlite3',
-        }
-    }
+# if DATABASE_URL:
+#     parsed_db_url = urlparse(DATABASE_URL)
+#     DATABASES = {
+#         'default': {
+#             'ENGINE': 'django.db.backends.postgresql',
+#             'NAME': parsed_db_url.path[1:],  # Remove leading '/'
+#             'USER': parsed_db_url.username,
+#             'PASSWORD': parsed_db_url.password,
+#             'HOST': parsed_db_url.hostname,
+#             'PORT': parsed_db_url.port,
+#         }
+#     }
+# else:
+#     DATABASES = {
+#         'default': {
+#             'ENGINE': 'django.db.backends.sqlite3',
+#             'NAME': BASE_DIR / 'db.sqlite3',
+#         }
+#     }
+
+DATABASES = {
+    'default': dj_database_url.config(
+        default=config('DATABASE_URL'),
+        conn_max_age=600,
+        ssl_require=True
+    )
+}
 
 
 
