@@ -25,7 +25,16 @@ SECRET_KEY = os.getenv('SECRET_KEY','django-insecure-p*2h%9l^w34!f__cd15891_$g2%
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = [
+    '*',
+    'ten-funding-1-l3ui.onrender.com',
+    '127.0.0.1',  # For local development
+    'localhost',  # For local development
+    'http://localhost:5173',
+    'https://ten-funding-black.vercel.app',
+    'https://ten-funding-beta.vercel.app',
+
+]
 
 
 # Application definition
@@ -88,11 +97,11 @@ WSGI_APPLICATION = 'main_project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'tenfunding',
-        'USER': 'tenfunding_user',
-        'PASSWORD': '6rx44e1vUhkks4EhGuEpxo4EDo4ivv',
-        'HOST': 'postgresql://tenfunding_user:6ra4HelvUMxkse4fhGuE9xp4oEDo4ivv@dpg-cu9ngc1u0jms73fhh84g-a.oregon-postgres.render.com/tenfunding',  # Replace this with the External Database URL
-        'PORT': '5432',
+        'NAME': 'tenfunding',  # The database name from Render
+        'USER': 'tenfunding_user',  # The username from Render
+        'PASSWORD': '6rx44e1vUhkks4EhGuEpxo4EDo4ivv',  # The password from Render
+        'HOST': 'dpg-cu9ngc1u0jms73fhh84g-a.oregon-postgres.render.com',  # The hostname from Render
+        'PORT': '5432',  # The port from Render
     }
 }
 
