@@ -88,11 +88,11 @@ WSGI_APPLICATION = 'main_project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'tenfunding',  # From Render's "Database" field
-        'USER': 'tenfunding_user',  # From Render's "Username" field
-        'PASSWORD': '6ra4HelvUMxkse4fhGuE9xp4oEDo4ivv',  # From Render's "Password" field
-        'HOST': 'dpg-cu9ngc1u0jms73fhh84g-a.render.com',  # From Render's "Hostname" field
-        'PORT': '5432',  # From Render's "Port" field
+        'NAME': os.getenv('DB_NAME'),
+        'USER': os.getenv('DB_USER'),
+        'PASSWORD': os.getenv('DB_PASSWORD'),
+        'HOST': os.getenv('DB_HOST'),
+        'PORT': os.getenv('DB_PORT'),
     }
 }
 
