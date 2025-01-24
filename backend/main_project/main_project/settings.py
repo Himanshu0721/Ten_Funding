@@ -15,6 +15,10 @@ import os
 from urllib.parse import urlparse
 import dj_database_url
 from decouple import config
+import environ
+
+env = environ.Env()
+environ.Env.read_env()  # Reads from the .env file
 
 DATABASE_URL = config('DATABASE_URL')
 
@@ -103,19 +107,20 @@ WSGI_APPLICATION = 'main_project.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.postgresql',
-#         'NAME': 'tenfunding',
-#         'USER': 'tenfunding_user',
-#         'PASSWORD': '6ra4HelvUMxkse4fhGuE9xp4oEDo4ivv',
-#         'HOST': 'dpg-cu9ngc1u0jms73fhh84g-a.oregon-postgres.render.com',
-#         'PORT': '5432',
-#         'OPTIONS': {
-#             'sslmode': 'require',  # Enforce SSL connection
-#         },
-#     }
-# }
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': env('DB_NAME', default='tenfunding'),
+        'USER': env('DB_USER', default='tenfunding_user'),
+        'PASSWORD': env('DB_PASSWORD', default='6ra4HelvUMxkse4fhGuE9xp4oEDo4ivv'),
+        'HOST': env('DB_HOST', default='dpg-cu9ngc1u0jms73fhh84g-a.oregon-postgres.render.com'),
+        'PORT': '5432',
+        'OPTIONS': {
+            'sslmode': 'require',  # Add SSL requirement
+        },
+    }
+}
+
 
 # if DATABASE_URL:
 #     parsed_db_url = urlparse(DATABASE_URL)
@@ -137,13 +142,13 @@ WSGI_APPLICATION = 'main_project.wsgi.application'
 #         }
 #     }
 
-DATABASES = {
-    'default': dj_database_url.config(
-        default=config('DATABASE_URL'),
-        conn_max_age=600,
-        ssl_require=True
-    )
-}
+# DATABASES = {
+#     'default': dj_database_url.config(
+#         default=config('DATABASE_URL'),
+#         conn_max_age=600,
+#         ssl_require=True
+#     )
+# }
 
 
 
