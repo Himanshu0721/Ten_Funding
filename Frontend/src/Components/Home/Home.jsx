@@ -27,7 +27,7 @@ function Home() {
   useEffect(() => {
     // Fetch data from the Django backend
     axios
-      .get("http://localhost:8000/api/submit-form/")
+      .get("https://ten-funding-1yw9.onrender.com/api/submit-form/")
       .then((response) => {
         setTenFunding(response.data);
       })

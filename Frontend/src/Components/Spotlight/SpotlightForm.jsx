@@ -20,7 +20,7 @@ export default function SpotlightForm() {
     e.preventDefault();
     try {
       const response = await axios.post(
-        "http://127.0.0.1:8000/api/spotlight/",
+        "https://ten-funding-1yw9.onrender.com/api/spotlight/",
         formData,
         {
           headers: {

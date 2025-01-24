@@ -19,7 +19,7 @@ export default function Registration() {
     sectors: [], // Array for sectors
     companyOverview: "",
   });
-const [responseMessage, setResponseMessage] = useState("");
+  const [responseMessage, setResponseMessage] = useState("");
 
   // Handle input change
   const handleChange = (e) => {
@@ -45,38 +45,52 @@ const [responseMessage, setResponseMessage] = useState("");
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post("http://localhost:8000/api/submit-form/", formData, {
-        headers: {
-          "Content-Type": "application/json",
-        },
-      });
+      const response = await axios.post(
+        "https://ten-funding-1yw9.onrender.com/api/submit-form/",
+        formData,
+        {
+          headers: {
+            "Content-Type": "application/json",
+          },
+        }
+      );
       setResponseMessage(response.data.message || "Submission successful!");
     } catch (error) {
       setResponseMessage(`Error: ${error.response?.data || error.message}`);
     }
   };
-  
-  const stageOptions = ["Pre-Seed", "Seed", "Series A", "Series B", "Series C and beyond", "Debt"];
-  const sectorOptions = ["Sectors Agnostic", "Other","AI/ML",
-  "AR/VR",
-  "Agritech/Food",
-  "Biotech/Life sciences",
-  "Climate/Sustainability",
-  "Consumer",
-  "Crypto/Blockchain",
-  "Deep Tech/Hard Science",
-  "Education",
-  "Enterprise",
-  "Media & Entertainment",
-  "Fintech",
-  "Gaming",
-  "Government/Defence",
-  "Health and Wellness",
-  "Healthcare/Medtech",
-  "Industrial/IoT/ Robotics",
-  "Prop Tech/Real Estate",
-  "Supply Chain/Logistics",
-  "Travel/Hospitality",
+
+  const stageOptions = [
+    "Pre-Seed",
+    "Seed",
+    "Series A",
+    "Series B",
+    "Series C and beyond",
+    "Debt",
+  ];
+  const sectorOptions = [
+    "Sectors Agnostic",
+    "Other",
+    "AI/ML",
+    "AR/VR",
+    "Agritech/Food",
+    "Biotech/Life sciences",
+    "Climate/Sustainability",
+    "Consumer",
+    "Crypto/Blockchain",
+    "Deep Tech/Hard Science",
+    "Education",
+    "Enterprise",
+    "Media & Entertainment",
+    "Fintech",
+    "Gaming",
+    "Government/Defence",
+    "Health and Wellness",
+    "Healthcare/Medtech",
+    "Industrial/IoT/ Robotics",
+    "Prop Tech/Real Estate",
+    "Supply Chain/Logistics",
+    "Travel/Hospitality",
   ];
   return (
     <>
@@ -102,124 +116,205 @@ const [responseMessage, setResponseMessage] = useState("");
         </div>
 
         <div className="registration-form-content">
-          <form action="" onSubmit={handleSubmit} >
+          <form action="" onSubmit={handleSubmit}>
             <label htmlFor="title">
               <h3>
                 Title <sub>*</sub>
               </h3>
             </label>
-            <input type="text" className="form-control" id="title" name="title" required onChange={handleChange} />
+            <input
+              type="text"
+              className="form-control"
+              id="title"
+              name="title"
+              required
+              onChange={handleChange}
+            />
             <label htmlFor="company">
               <h3>
                 Company <sub>*</sub>
               </h3>
             </label>
-            <input type="text" className="form-control" id="company" name="company" required onChange={handleChange} />
+            <input
+              type="text"
+              className="form-control"
+              id="company"
+              name="company"
+              required
+              onChange={handleChange}
+            />
             <label htmlFor="website">
               <h3>
                 Website URL <sub>*</sub>
               </h3>
             </label>
-            <input type="text" className="form-control" id="website" name="website" required onChange={handleChange} />
+            <input
+              type="text"
+              className="form-control"
+              id="website"
+              name="website"
+              required
+              onChange={handleChange}
+            />
             <label htmlFor="logo">
               <h3>
                 Company Logo URL <sub>*</sub>
               </h3>
             </label>
-            <input type="text" className="form-control" id="logo" name="logo" required onChange={handleChange} />
+            <input
+              type="text"
+              className="form-control"
+              id="logo"
+              name="logo"
+              required
+              onChange={handleChange}
+            />
             <label htmlFor="companyLinkedinUrl">
               <h3>
                 Company LinkedIn URL <sub>*</sub>
               </h3>
             </label>
-            <input type="text" className="form-control" id="companyLinkedinUrl" name="companyLinkedinUrl" required onChange={handleChange} />
+            <input
+              type="text"
+              className="form-control"
+              id="companyLinkedinUrl"
+              name="companyLinkedinUrl"
+              required
+              onChange={handleChange}
+            />
             <label htmlFor="twitterUrl">
               <h3>
                 Company Twitter URL <sub>*</sub>
               </h3>
             </label>
-            <input type="text" className="form-control" id="twitterUrl" name="twitterUrl" required onChange={handleChange} />
+            <input
+              type="text"
+              className="form-control"
+              id="twitterUrl"
+              name="twitterUrl"
+              required
+              onChange={handleChange}
+            />
             <label htmlFor="country">
               <h3>
                 Country <sub>*</sub>
               </h3>
             </label>
-            <input type="text" className="form-control" id="country" name="country" required onChange={handleChange} />
+            <input
+              type="text"
+              className="form-control"
+              id="country"
+              name="country"
+              required
+              onChange={handleChange}
+            />
             <label htmlFor="city">
               <h3>
                 City <sub>*</sub>
               </h3>
             </label>
-            <input type="text" className="form-control" id="city" name="city" required onChange={handleChange} />
+            <input
+              type="text"
+              className="form-control"
+              id="city"
+              name="city"
+              required
+              onChange={handleChange}
+            />
             <label htmlFor="ticketSize">
               <h3>
                 Ticket Size <sub>*</sub>
               </h3>
             </label>
-            <input type="text" className="form-control" id="ticketSize" name="ticketSize" required onChange={handleChange} />
+            <input
+              type="text"
+              className="form-control"
+              id="ticketSize"
+              name="ticketSize"
+              required
+              onChange={handleChange}
+            />
             <label htmlFor="currentFundCorpus">
               <h3>
                 CurrentFundCorpus <sub>*</sub>
               </h3>
             </label>
-            <input type="text" className="form-control" id="currentFundCorpus" name="currentFundCorpus" required onChange={handleChange} />
+            <input
+              type="text"
+              className="form-control"
+              id="currentFundCorpus"
+              name="currentFundCorpus"
+              required
+              onChange={handleChange}
+            />
             <label htmlFor="totalFundCorpus">
               <h3>
                 TotalFundCorpus <sub>*</sub>
               </h3>
             </label>
-            <input type="text" className="form-control" id="totalFundCorpus" name="totalFundCorpus" required onChange={handleChange} />
-            
-            <h3>Stage <sub>*</sub></h3>
+            <input
+              type="text"
+              className="form-control"
+              id="totalFundCorpus"
+              name="totalFundCorpus"
+              required
+              onChange={handleChange}
+            />
+
+            <h3>
+              Stage <sub>*</sub>
+            </h3>
             <div id="scroll-prop">
               <table className="table">
                 <tbody>
                   {stageOptions.map((stage) => (
                     <tr key={stage}>
-                    <td>{stage}</td>
-                    <td>
-                      <input
-                        className="form-check-input"
-                        type="checkbox"
-                        name="stages"
-                        id={stage}
-                        value={stage}
-                        checked={formData.stages.includes(stage)}
+                      <td>{stage}</td>
+                      <td>
+                        <input
+                          className="form-check-input"
+                          type="checkbox"
+                          name="stages"
+                          id={stage}
+                          value={stage}
+                          checked={formData.stages.includes(stage)}
                           onChange={handleChange}
-                      />
-                      <label htmlFor={stage}></label> {/* Add label for custom styles */}
-                    </td>
-                  </tr>
+                        />
+                        <label htmlFor={stage}></label>{" "}
+                        {/* Add label for custom styles */}
+                      </td>
+                    </tr>
                   ))}
                 </tbody>
               </table>
             </div>
 
             <div id="scroll-prop">
-            <h3>
-              Sectors <sub>*</sub>
-            </h3>
-            <table className="table">
-              <tbody>
-              {sectorOptions.map((sector) => (
-                <tr key={sector}>
-                  <td>{sector}</td>
-                  <td>
-                    <input
-                      className="form-check-input"
-                      type="checkbox"
-                      name="sectors"
-                      id={sector}
-                      value={sector}
-                      checked={formData.sectors.includes(sector)}
+              <h3>
+                Sectors <sub>*</sub>
+              </h3>
+              <table className="table">
+                <tbody>
+                  {sectorOptions.map((sector) => (
+                    <tr key={sector}>
+                      <td>{sector}</td>
+                      <td>
+                        <input
+                          className="form-check-input"
+                          type="checkbox"
+                          name="sectors"
+                          id={sector}
+                          value={sector}
+                          checked={formData.sectors.includes(sector)}
                           onChange={handleChange}
-                    />
-                      <label htmlFor={sector}></label> {/* Add label for custom styles */}
-                  </td>
-                </tr>
-                ))}
-              </tbody>
-            </table>
+                        />
+                        <label htmlFor={sector}></label>{" "}
+                        {/* Add label for custom styles */}
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
             </div>
 
             <label htmlFor="companyOverview">
