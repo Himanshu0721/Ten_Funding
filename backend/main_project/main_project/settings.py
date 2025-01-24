@@ -88,13 +88,14 @@ WSGI_APPLICATION = 'main_project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': os.getenv('DB_NAME'),
-        'USER': os.getenv('DB_USER'),
-        'PASSWORD': os.getenv('DB_PASSWORD'),
-        'HOST': os.getenv('DB_HOST'),
-        'PORT': os.getenv('DB_PORT'),
+        'NAME': 'tenfunding',
+        'USER': 'tenfunding_user',
+        'PASSWORD': '6rx44e1vUhkks4EhGuEpxo4EDo4ivv',
+        'HOST': 'postgresql://tenfunding_user:6ra4HelvUMxkse4fhGuE9xp4oEDo4ivv@dpg-cu9ngc1u0jms73fhh84g-a.oregon-postgres.render.com/tenfunding',  # Replace this with the External Database URL
+        'PORT': '5432',
     }
 }
+
 
 
 # Password validation
