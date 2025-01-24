@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.getenv('SECRET_KEY','django-insecure-p*2h%9l^w34!f__cd15891_$g2%@ra*_8l8$51x3_r+rqmm$j-')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
@@ -87,12 +87,12 @@ WSGI_APPLICATION = 'main_project.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': os.getenv('DB_NAME', 'tenFunding'),
-        'USER': os.getenv('DB_USER', 'root'),
-        'PASSWORD': os.getenv('DB_PASSWORD', 'root'),
-        'HOST': os.getenv('DB_HOST', 'dpg-cu9ngc1u0jms73fhh84g-a.render.com'),
-        'PORT': os.getenv('DB_PORT', '3306'),
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'tenfunding',  # From Render's "Database" field
+        'USER': 'tenfunding_user',  # From Render's "Username" field
+        'PASSWORD': '6ra4HelvUMxkse4fhGuE9xp4oEDo4ivv',  # From Render's "Password" field
+        'HOST': 'dpg-cu9ngc1u0jms73fhh84g-a.render.com',  # From Render's "Hostname" field
+        'PORT': '5432',  # From Render's "Port" field
     }
 }
 
@@ -132,7 +132,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/5.1/howto/static-files/
 
 STATIC_URL = 'static/'
-
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
