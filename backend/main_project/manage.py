@@ -10,11 +10,12 @@ def main():
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'main_project.settings')
 
     port = os.environ.get('PORT', 8000)
-    
+
     try:
         from django.core.management import execute_from_command_line
         if 'runserver' in sys.argv:
-            sys.argv.append(f"0.0.0.0:{port}")
+            sys.argv[sys.argv.index('runserver') + 1:] = [f"0.0.0.0:{port}"]  # Ensure the correct host and port are set
+    
 
     except ImportError as exc:
         raise ImportError(
