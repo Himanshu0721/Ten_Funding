@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 import "./pitch.css";
 
-export default function Pitch() {
+export default function Pitch () {
   const [formData, setFormData] = useState({
     mail_address: "",
     start_up_name: "",
@@ -23,25 +23,13 @@ export default function Pitch() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post(
-        "https://ten-funding-1yw9.onrender.com/api/vc-application/",
-        formData,
-        {
-          headers: {
-            "Content-Type": "application/json",
-          },
-        }
-      );
-      setResponseMessage(response.data.message || "Submission successful!");
-      setFormData({
-        mail_address: "",
-        start_up_name: "",
-        business_description: "",
-        founders_linkedin_profiles: "",
-        product_website: "",
-        funding_amount: "",
-        pitch_deck: "",
+      const response = await axios.post("http://127.0.0.1:8000/api/vc-application/", formData, {
+        headers: {
+          "Content-Type": "application/json",
+        },
       });
+      setResponseMessage(response.data.message || "Submission successful!");
+      setFormData({ mail_address: "", start_up_name: "", business_description: "", founders_linkedin_profiles: "", product_website: "",funding_amount: "",pitch_deck: "",});
     } catch (error) {
       if (error.response) {
         // Server-side error
@@ -82,7 +70,7 @@ export default function Pitch() {
           <label>
             Business Description
             <textarea
-              id="business_description"
+            id="business_description"
               placeholder="Describe your business"
               value={formData.business_description}
               onChange={handleChange}

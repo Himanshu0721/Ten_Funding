@@ -11,18 +11,6 @@ https://docs.djangoproject.com/en/5.1/ref/settings/
 """
 
 from pathlib import Path
-import os
-from urllib.parse import urlparse
-import dj_database_url
-from decouple import config
-import environ
-
-env = environ.Env()
-environ.Env.read_env()  # Reads from the .env file
-
-DATABASE_URL = config('DATABASE_URL')
-
-parsed_db_url = urlparse(DATABASE_URL)
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -32,22 +20,12 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.getenv('SECRET_KEY','django-insecure-p*2h%9l^w34!f__cd15891_$g2%@ra*_8l8$51x3_r+rqmm$j-')
+SECRET_KEY = 'django-insecure-p*2h%9l^w34!f__cd15891_$g2%@ra*_8l8$51x3_r+rqmm$j-'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [
-    '*',
-    # 'ten-funding-1-l3ui.onrender.com',
-    # '127.0.0.1',  # For local development
-    # 'localhost',  # For local development
-    # 'http://localhost:5173',
-    # 'http://127.0.0.1:8000',
-    # 'https://ten-funding-black.vercel.app',
-    # 'https://ten-funding-beta.vercel.app',
-
-]
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -79,12 +57,10 @@ MIDDLEWARE = [
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:5173',
     'http://127.0.0.1:8000',
-    'https://ten-funding-black.vercel.app',
-    'https://ten-funding-beta.vercel.app',
 ]
 
 ROOT_URLCONF = 'main_project.urls'
-
+import os
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
@@ -109,48 +85,14 @@ WSGI_APPLICATION = 'main_project.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': env('DB_NAME', default='tenfunding'),
-        'USER': env('DB_USER', default='tenfunding_user'),
-        'PASSWORD': env('DB_PASSWORD', default='6ra4HelvUMxkse4fhGuE9xp4oEDo4ivv'),
-        'HOST': env('DB_HOST', default='dpg-cu9ngc1u0jms73fhh84g-a.oregon-postgres.render.com'),
-        'PORT': '5432',
-        'OPTIONS': {
-            'sslmode': 'require',  # Add SSL requirement
-        },
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'tenFunding',
+        'HOST': 'localhost',
+        'USER': 'root',
+        'PASSWORD': 'root',
+        'PORT': '3306',
     }
 }
-
-
-# if DATABASE_URL:
-#     parsed_db_url = urlparse(DATABASE_URL)
-#     DATABASES = {
-#         'default': {
-#             'ENGINE': 'django.db.backends.postgresql',
-#             'NAME': parsed_db_url.path[1:],  # Remove leading '/'
-#             'USER': parsed_db_url.username,
-#             'PASSWORD': parsed_db_url.password,
-#             'HOST': parsed_db_url.hostname,
-#             'PORT': parsed_db_url.port,
-#         }
-#     }
-# else:
-#     DATABASES = {
-#         'default': {
-#             'ENGINE': 'django.db.backends.sqlite3',
-#             'NAME': BASE_DIR / 'db.sqlite3',
-#         }
-#     }
-
-# DATABASES = {
-#     'default': dj_database_url.config(
-#         default=config('DATABASE_URL'),
-#         conn_max_age=600,
-#         ssl_require=True
-#     )
-# }
-
-
 
 
 # Password validation
@@ -188,7 +130,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/5.1/howto/static-files/
 
 STATIC_URL = 'static/'
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 

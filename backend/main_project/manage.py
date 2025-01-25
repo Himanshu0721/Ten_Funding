@@ -5,16 +5,10 @@ import sys
 
 
 def main():
-    sys.path.append(os.path.dirname(os.path.dirname(__file__)))
+    """Run administrative tasks."""
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'main_project.settings')
-
-    port = os.environ.get('PORT', 8000)
-    print(f"Binding to port: {port}")  # Debug log to ensure the port is set correctly
-
     try:
         from django.core.management import execute_from_command_line
-        if 'runserver' in sys.argv:
-            sys.argv[sys.argv.index('runserver') + 1:] = [f"0.0.0.0:{port}"]  # Ensure the correct host and port are set
     except ImportError as exc:
         raise ImportError(
             "Couldn't import Django. Are you sure it's installed and "
@@ -22,6 +16,7 @@ def main():
             "forget to activate a virtual environment?"
         ) from exc
     execute_from_command_line(sys.argv)
+
 
 if __name__ == '__main__':
     main()

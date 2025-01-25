@@ -15,18 +15,6 @@ from .serializers import (
     TechStackWaitlistSerializer,
     VCApplicationSerializer,
 )
-import os
-import socket
-from django.http import JsonResponse
-
-def test_connection(request):
-    db_host = os.getenv('DB_HOST', 'dpg-cu9ngc1u0jms73fhh84g-a.render.com')
-    try:
-        ip = socket.gethostbyname(db_host)
-        return JsonResponse({'status': 'success', 'ip': ip})
-    except socket.gaierror as e:
-        return JsonResponse({'status': 'error', 'error': str(e)})
-
 
 class RegistrationView(APIView):
     def post(self, request):
