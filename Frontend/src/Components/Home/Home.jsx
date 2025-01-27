@@ -220,13 +220,11 @@ function Home() {
                 alt={`${investor.title} logo`}
                 className="db-img"
               />
-              <div>
-                <p>
-                  {investor.title.split(" ").length > 3
-                    ? `${investor.title.split(" ").slice(0, 2).join(" ")} ...`
-                    : investor.title}
-                </p>
-              </div>
+              <h2>
+                {investor.title.split(" ").length > 3
+                  ? `${investor.title.split(" ").slice(0, 2).join(" ")} ...`
+                  : investor.title}
+              </h2>
             </div>
             <div className="btn-1">
               {investor?.stages?.map((stage, stageIndex) => (
