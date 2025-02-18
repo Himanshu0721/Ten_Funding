@@ -10,8 +10,8 @@ import json
 class SpotlightAdmin(admin.ModelAdmin):
     list_display = ['id','name','company_name','email']
 
-class LaunchpadAdmin(admin.ModelAdmin):
-    list_display = ['id','name','firm_name','mail','role_name','role_type','role_location','about_job','job_application_link','interested_newsletter_story']
+# class LaunchpadAdmin(admin.ModelAdmin):
+#     list_display = ['id','name','firm_name','mail','role_name','role_type','role_location','about_job','job_application_link','interested_newsletter_story']
 
 class Tech_stack_waitlistAdmin(admin.ModelAdmin):
     list_display = ['id','name','firm_name','email','interested_newsletter_story']
@@ -29,7 +29,7 @@ class RegistrationAdmin(admin.ModelAdmin):
 admin.site.register(Registration, RegistrationAdmin)
 
 admin.site.register(spotlight,SpotlightAdmin)
-admin.site.register(launchpad,LaunchpadAdmin)
+# admin.site.register(launchpad,LaunchpadAdmin)
 admin.site.register(tech_stack_waitlist,Tech_stack_waitlistAdmin)
 admin.site.register(vc_application,VC_applicationAdmin)
 # admin.site.register(Registration,Registration_formAdmin)

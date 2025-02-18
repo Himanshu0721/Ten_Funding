@@ -17,10 +17,10 @@ Including another URLconf
 
 from django.contrib import admin
 from django.urls import path, include
-
+from .views import welcome_view
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('tan.urls')),
-    
+    path('', welcome_view, name='welcome'),
 ]

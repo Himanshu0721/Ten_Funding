@@ -24,7 +24,7 @@ export default function Pitch() {
     e.preventDefault();
     try {
       const response = await axios.post(
-        "https://ten-funding-1-l3ui.onrender.com/api/vc-application/",
+        "https://ten-funding-vy7h.onrender.com/api/vc-application/",
         formData,
         {
           headers: {

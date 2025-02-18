@@ -27,7 +27,7 @@ function Home() {
   useEffect(() => {
     // Fetch data from the Django backend
     axios
-      .get("https://ten-funding-1-l3ui.onrender.com/api/submit-form/")
+      .get("https://ten-funding-vy7h.onrender.com/api/submit-form/")
       .then((response) => {
         setTenFunding(response.data);
       })
@@ -220,11 +220,13 @@ function Home() {
                 alt={`${investor.title} logo`}
                 className="db-img"
               />
-              <h2>
-                {investor.title.split(" ").length > 3
-                  ? `${investor.title.split(" ").slice(0, 2).join(" ")} ...`
-                  : investor.title}
-              </h2>
+              <div>
+                <p>
+                  {investor.title.split(" ").length > 3
+                    ? `${investor.title.split(" ").slice(0, 2).join(" ")} ...`
+                    : investor.title}
+                </p>
+              </div>
             </div>
             <div className="btn-1">
               {investor?.stages?.map((stage, stageIndex) => (

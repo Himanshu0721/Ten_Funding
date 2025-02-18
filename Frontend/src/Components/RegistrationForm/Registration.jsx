@@ -15,22 +15,20 @@ export default function Registration() {
     ticketSize: "",
     currentFundCorpus: "",
     totalFundCorpus: "",
-    stages: [], // Array for stages
-    sectors: [], // Array for sectors
+    stages: [],
+    sectors: [],
     companyOverview: "",
   });
   const [responseMessage, setResponseMessage] = useState("");
 
-  // Handle input change
   const handleChange = (e) => {
     const { name, value, type, checked } = e.target;
 
-    // Handle multiple selections for stages and sectors
     if (name === "stages" || name === "sectors") {
       setFormData((prevState) => {
         const updatedArray = checked
-          ? [...prevState[name], value] // Add value if checked
-          : prevState[name].filter((item) => item !== value); // Remove value if unchecked
+          ? [...prevState[name], value]
+          : prevState[name].filter((item) => item !== value);
         return { ...prevState, [name]: updatedArray };
       });
     } else {
@@ -46,7 +44,7 @@ export default function Registration() {
     e.preventDefault();
     try {
       const response = await axios.post(
-        "https://ten-funding-1-l3ui.onrender.com/api/submit-form/",
+        "https://ten-funding-vy7h.onrender.com/api/submit-form/",
         formData,
         {
           headers: {
